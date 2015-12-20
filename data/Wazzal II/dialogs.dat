@@ -1,0 +1,225 @@
+Stargun taunt;//name
+  0;//identifier
+  Enemies approaching!!;//text
+  2000;//duration
+  1;//next dialog line (-1=none)
+  1.000000;//text color r
+  1.000000;//text color g
+  1.000000;//text color b
+Stargun taunt2;//name
+  1;//identifier
+  Let's show'em who's boss!!;//text
+  2000;//duration
+  -1;//next dialog line (-1=none)
+  1.000000;//text color r
+  1.000000;//text color g
+  1.000000;//text color b
+Stargun hit;//name
+  2;//identifier
+  Agh!!;//text
+  1000;//duration
+  -1;//next dialog line (-1=none)
+  1.000000;//text color r
+  0.000000;//text color g
+  0.000000;//text color b
+Stargun hit;//name
+  3;//identifier
+  I'm hit!!;//text
+  1000;//duration
+  -1;//next dialog line (-1=none)
+  1.000000;//text color r
+  0.000000;//text color g
+  0.000000;//text color b
+Errxelz 8 captain;//name ---------------------------------------------
+  4;//identifier
+  Captain!;//text
+  4000;//duration
+  5;//next dialog line (-1=none)
+  1.000000;//text color r
+  1.000000;//text color g
+  1.000000;//text color b
+Errxelz 8 captain;//name ---------------------------------------------
+  5;//identifier
+  I am Governor Ruefserouc of Errxelz Base 8.;//text
+  3300;//duration
+  6;//next dialog line (-1=none)
+  1.000000;//text color r
+  1.000000;//text color g
+  1.000000;//text color b
+Errxelz 8 captain;//name ---------------------------------------------
+  6;//identifier
+  Just hours ago, we recieved scanner reports that several large ships had entered our sector...;//text
+  5000;//duration
+  7;//next dialog line (-1=none)
+  1.000000;//text color r
+  1.000000;//text color g
+  1.000000;//text color b
+Errxelz 8 captain;//name ---------------------------------------------
+  7;//identifier
+  As Errxelz is on the outer border of the United Confederacy, unregistered ships are not uncommon. We sent an interceptor to meet them, and next moment, all hell broke loose...;//text
+  9000;//duration
+  8;//next dialog line (-1=none)
+  1.000000;//text color r
+  1.000000;//text color g
+  1.000000;//text color b
+Errxelz 8 captain;//name ---------------------------------------------
+  8;//identifier
+  We count thirteen Alien battleships in this system alone. Alien fighters have been sighted north, south and east of our positions on Errxelz 8.;//text
+  8600;//duration
+  9;//next dialog line (-1=none)
+  1.000000;//text color r
+  1.000000;//text color g
+  1.000000;//text color b
+Errxelz 8 captain;//name ---------------------------------------------
+  9;//identifier
+  They've landed hundreds of alien drones... as far as we can tell, blacks that fight hand-to-hand, and green-stripes that use a form of long-ranged weapon.;//text
+  8800;//duration
+  10;//next dialog line (-1=none)
+  1.000000;//text color r
+  1.000000;//text color g
+  1.000000;//text color b
+Errxelz 8 captain;//name ---------------------------------------------
+  10;//identifier
+  Captain, I believe this attack force is only a fraction of the Alien forces. Their fleet must carry enough firepower to annihilate the entire Confederacy!;//text
+  8800;//duration
+  11;//next dialog line (-1=none)
+  1.000000;//text color r
+  1.000000;//text color g
+  1.000000;//text color b
+Errxelz 8 captain;//name ---------------------------------------------
+  11;//identifier
+  We will hold them off here as long as we can. You must escape and send out a warning to the Confederate Fleet. The destroyer UCS Crego is in the neighboring Ennokknmo system, hopefully there we can mount some form of defence.;//text
+  11500;//duration
+  12;//next dialog line (-1=none)
+  1.000000;//text color r
+  1.000000;//text color g
+  1.000000;//text color b
+Errxelz 8 captain;//name ---------------------------------------------
+  12;//identifier
+  You can use our last remaining battle tank (Right-click to activate, then press T to mount/dismount. Right click to fire secondary weapon) to get back to your ship safely.;//text
+  11000;//duration
+  13;//next dialog line (-1=none)
+  1.000000;//text color r
+  1.000000;//text color g
+  1.000000;//text color b
+Errxelz 8 captain;//name ---------------------------------------------
+  13;//identifier
+  Captain, I am the only survivor of a family who were taken by the Aliens from Sol before the supernova, all those years ago.;//text
+  8400;//duration
+  14;//next dialog line (-1=none)
+  1.000000;//text color r
+  1.000000;//text color g
+  1.000000;//text color b
+Errxelz 8 captain;//name ---------------------------------------------
+  14;//identifier
+  Swear to me that you will not rest until their deaths - and the deaths of all of those slaughtered - have been avenged. It has been an honor to meet you here sir, here at world's end.;//text
+  9500;//duration
+  15;//next dialog line (-1=none)
+  1.000000;//text color r
+  1.000000;//text color g
+  1.000000;//text color b
+Errxelz 8 captain;//name ---------------------------------------------
+  15;//identifier
+  Goodnight, Captain. And good luck.;//text
+  9000;//duration
+  -1;//next dialog line (-1=none)
+  1.000000;//text color r
+  1.000000;//text color g
+  1.000000;//text color b
+UCS Crego;//name ---------------------------------------------
+  16;//identifier
+ UCS Crego;//text
+  200000;//duration
+  -1;//next dialog line (-1=none)
+  1.000000;//text color r
+  1.000000;//text color g
+  1.000000;//text color b
+Wolf IV transmission;//name ---------------------------------------------
+  17;//identifier
+ TRANSMISSION: 'This is the UCS Crego. Please make your approach and press C to take the controls of our destroyer. Right click to use secondary weapons.';//text
+  12000;//duration
+ -1;//next dialog line (-1=none)
+  1.000000;//text color r
+  0.3000000;//text color g
+ 0.3000000;//text color b
+Wolf IV;//name ---------------------------------------------BLANK y
+  18;//identifier
+ ;//text
+  3000;//duration
+  19;//next dialog line (-1=none)
+  1.000000;//text color r
+  1.000000;//text color g
+  1.000000;//text color b
+Wolf IV;//name --------------------------------------------- y
+  19;//identifier
+ Our best hope is to flee as fast as possible towards the planet Errxelz 8 on the opposite side of the system!;//text
+  12000;//duration
+  20;//next dialog line (-1=none)
+  1.000000;//text color r
+  1.000000;//text color g
+  1.000000;//text color b
+Wolf IV;//name ---------------------------------------------BLANK y
+  20;//identifier
+ ;//text
+  1500;//duration
+  26;//next dialog line (-1=none)
+  1.000000;//text color r
+  1.000000;//text color g
+  1.000000;//text color b
+Wolf IV;//name --------------------------------------------- y
+ 21;//identifier
+ Fighting the Aliens here is useless. Build up speed by holding the 'Up' arrow, and avoid as much fire as you can!;//text
+  14000;//duration
+  22;//next dialog line (-1=none)
+  1.000000;//text color r
+  1.000000;//text color g
+  1.000000;//text color b
+Wolf IV;//name ---------------------------------------------BLANK y
+  22;//identifier
+ ;//text
+ 1500;//duration
+  23;//next dialog line (-1=none)
+  1.000000;//text color r
+  1.000000;//text color g
+  1.000000;//text color b
+Wolf IV;//name --------------------------------------------- y
+  23;//identifier
+ There is a military base on the north of Errxelz 8. Once you arrive at the planet, right-click on it to land and make your way north!;//text
+  20000;//duration
+ -1;//next dialog line (-1=none)
+  1.000000;//text color r
+  1.000000;//text color g
+  1.000000;//text color b
+Wolf IV;//name ---------------------------------------------BLANK y
+  24;//identifier
+ ;//text
+  1500;//duration
+ 21;//next dialog line (-1=none)
+  1.000000;//text color r
+  1.000000;//text color g
+  1.000000;//text color b
+Wolf IV;//name --------------------------------------------- y
+  25;//identifier
+ Fire an ECM weapon to defend yourself against Alien missiles!;//text
+  5000;//duration
+  24;//next dialog line (-1=none)
+  1.000000;//text color r
+  1.000000;//text color g
+  1.000000;//text color b
+Wolf IV;//name --------------------------------------------- y
+  26;//identifier
+ Your shields are down! Power them up by pressing 'Q'!;//text
+  5500;//duration
+  27;//next dialog line (-1=none)
+  1.000000;//text color r
+  1.000000;//text color g
+  1.000000;//text color b
+Wolf IV;//name ---------------------------------------------BLANK y
+  27;//identifier
+ ;//text
+  1500;//duration
+  25;//next dialog line (-1=none)
+  1.000000;//text color r
+  1.000000;//text color g
+  1.000000;//text color b
+end_of_file;

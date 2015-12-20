@@ -1,0 +1,1436 @@
+Space (asteroids, no random);//name-------------------------------------------
+  0;//identifier
+  1;//can be a random map
+  200;//light oscillate time
+  0.000000;//light r phase shift
+  0.000000;//light g phase shift
+  0.000000;//light b phase shift
+  0.900000;//light r amplitude
+  1.000000;//light g amplitude
+  1.000000;//light b amplitude
+  0.700000;//light max r
+  0.700000;//light max g
+  0.700000;//light max b
+  0.700000;//light min r
+  0.700000;//light min g
+  0.700000;//light min b
+  0.000000;//night temperature
+  0.000000;//day temperature
+  4.000000;//maximum wind speed
+  -1;//rain particle, -1=no rain
+  300;//rain_particle_life_min
+  800;//rain_particle_life_max
+  15000;//rain_probability (the bigger the number, the more unlikely the rain)
+  5000;//rain_time_min
+  15000;//rain_time_max
+  begin_effects_block;//    
+  end_effects_block;
+  start_of_terrains;//  
+  2;
+  end_of_terrains;
+  start_of_night_sounds;
+  explosion2.wav;
+  explosion1.wav;
+  end_of_night_sounds;
+  start_of_day_sounds;
+  explosion2.wav;
+  explosion1.wav;
+  end_of_day_sounds;
+  start_of_props;
+  end_of_props;
+Wolf IV;//name----------------------------------------------------------------
+  1;//identifier
+  0;//can be a random map
+  0;//light oscillate time
+  0.000000;//light r phase shift
+  0.000000;//light g phase shift
+  0.000000;//light b phase shift
+  0.900000;//light r amplitude
+  1.000000;//light g amplitude
+  1.000000;//light b amplitude
+  0.700000;//light max r
+  0.700000;//light max g
+  0.700000;//light max b
+  0.700000;//light min r
+  0.700000;//light min g
+  0.700000;//light min b
+  0.200000;//night temperature
+  0.200000;//day temperature
+  0.500000;//maximum wind speed
+  -1;//rain particle, -1=no rain
+  300;//rain_particle_life_min
+  800;//rain_particle_life_max
+  15000;//rain_probability (the bigger the number, the more unlikely the rain)
+  5000;//rain_time_min
+  15000;//rain_time_max
+  begin_effects_block;//    
+  end_effects_block;
+  start_of_terrains;//  
+  2;
+  end_of_terrains;
+  start_of_night_sounds;
+  siren1.wav;
+  siren2.wav;
+  computer2.wav;
+  wrench.wav;
+  machinery.wav;
+  machinery2.wav;
+  machinery3.wav;
+  machinery4.wav;
+  machinery5.wav;
+  machinery6.wav;
+  machinery7.wav;
+cp1.wav;
+  cp2.wav;
+cp3.wav;
+  cp4.wav;
+cp5.wav;
+  cp6.wav;
+cp7.wav;
+
+  cp8.wav;
+cp9.wav;
+  cp10.wav;
+cp11.wav;
+  cp12.wav;
+cp13.wav;
+  cp14.wav;
+cp15.wav;
+  cp16.wav;
+cp17.wav;
+cp18.wav;
+  cp19.wav;
+cp13.wav;
+  cp20.wav;
+cp15.wav;
+  cp21.wav;
+cp22.wav;
+  end_of_night_sounds;
+  start_of_day_sounds;
+  siren1.wav;
+  siren2.wav;
+  computer2.wav;
+  wrench.wav;
+  machinery.wav;
+  machinery2.wav;
+  machinery3.wav;
+  machinery4.wav;
+  machinery5.wav;
+  machinery6.wav;
+  machinery7.wav;
+cp1.wav;
+  cp2.wav;
+cp3.wav;
+  cp4.wav;
+cp5.wav;
+  cp6.wav;
+cp7.wav;
+  cp8.wav;
+cp9.wav;
+  cp10.wav;
+cp11.wav;
+  cp12.wav;
+cp13.wav;
+  cp14.wav;
+cp15.wav;
+  cp16.wav;
+cp17.wav;
+cp18.wav;
+  cp19.wav;
+cp13.wav;
+  cp20.wav;
+cp15.wav;
+  cp21.wav;
+cp22.wav;
+  end_of_day_sounds;
+  start_of_props;
+  0;//object definition number		ast1
+    0;//number of these on a 100*100 map
+  end_of_props;
+Jungle;//name-----------------------------------------------------------------
+  2;//identifier
+  1;//can be a random map
+  200;//light oscillate time
+  0.000000;//light r phase shift
+  -0.100000;//light g phase shift
+  -0.100000;//light b phase shift
+  1.000000;//light r amplitude
+  1.000000;//light g amplitude
+  1.000000;//light b amplitude
+  0.800000;//light max r
+  0.700000;//light max g
+  0.700000;//light max b
+  0.300000;//light min r
+  0.300000;//light min g
+  0.600000;//light min b
+  -0.500000;//night temperature
+  0.500000;//day temperature
+  0.500000;//maximum wind speed
+  8;//rain particle, -1=no rain
+  300;//rain_particle_life_min
+  2000;//rain_particle_life_max
+  10000;//rain_probability (the bigger the number, the more unlikely the rain)
+  5000;//rain_time_min
+  15000;//rain_time_max
+  begin_effects_block;
+  Cold rain! Seek cover under a tree.;//event text
+    100;//interval
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+    end_effects;
+  end_effects_block;
+  start_of_terrains;
+  6;
+  7;
+48;
+61;
+  end_of_terrains;
+  start_of_night_sounds;
+    wind0.wav;
+  wind1.wav;
+  wind2.wav;
+cannon.wav;
+  bomb.wav;
+  m16distant.wav;
+  m16.wav;
+  m16distant.wav;
+  luger.wav;
+  44.wav;
+  machinegun.wav;
+  explode.wav;
+  explosion2.wav;
+  explosion1.wav;
+  dropbomb.wav;
+  gunshots3.wav;
+  cannon.wav;
+  gunbattle.wav;
+  bulletricochet.wav;
+  explode1.wav;
+fightercrash.wav;
+    alienambient.wav;
+  alienambient2.wav;
+  alienambient3.wav;
+  alienambient4.wav;
+junglebird1.wav;
+junglebird.wav;
+junglebird2.wav;
+junglebird3.wav;
+jungle.wav;
+wildcat.wav;
+  end_of_night_sounds;
+  start_of_day_sounds;
+junglebird.wav;
+junglebird2.wav;
+junglebird3.wav;
+jungle.wav;
+  cannon.wav;
+  bomb.wav;
+  explode.wav;
+  explosion2.wav;
+  explosion1.wav;
+  dropbomb.wav;
+  gunshots3.wav;
+  cannon.wav;
+  gunbattle.wav;
+  bulletricochet.wav;
+  m16.wav;
+  m16distant.wav;
+  luger.wav;
+  44.wav;
+  machinegun.wav;
+  explode1.wav;
+fightercrash.wav;
+    alienambient.wav;
+  alienambient2.wav;
+  alienambient3.wav;
+  alienambient4.wav;
+  end_of_day_sounds;
+  start_of_props;
+  33;//object definition number		crater
+    0;//number of these on a 100*100 map
+  32;//object definition number		plant2
+    0;//number of these on a 100*100 map
+  30;//object definition number		plant1
+    0;//number of these on a 100*100 map
+  79;//object definition number		tree1
+    4000;//number of these on a 100*100 map
+  81;//object definition number		tree3
+    4000;//number of these on a 100*100 map
+  end_of_props;
+Space;//name------------------------------------------------------------------
+  3;//identifier
+  0;//can be a random map
+  200;//light oscillate time
+  0.000000;//light r phase shift
+  0.000000;//light g phase shift
+  0.000000;//light b phase shift
+  0.700000;//light r amplitude
+  1.000000;//light g amplitude
+  0.700000;//light b amplitude
+  0.700000;//light max r
+  0.700000;//light max g
+  0.800000;//light max b
+  0.700000;//light min r
+  0.700000;//light min g
+  0.800000;//light min b
+  0.000000;//night temperature
+  0.000000;//day temperature
+  1.000000;//maximum wind speed
+  -1;//rain particle, -1=no rain
+  300;//rain_particle_life_min
+  800;//rain_particle_life_max
+  15000;//rain_probability (the bigger the number, the more unlikely the rain)
+  5000;//rain_time_min
+  15000;//rain_time_max
+  begin_effects_block;//    
+  end_effects_block;
+  start_of_terrains;//  
+  2;
+  end_of_terrains;
+  start_of_night_sounds;
+  end_of_night_sounds;
+  start_of_day_sounds;
+  end_of_day_sounds;
+  start_of_props;
+  41;//object definition number		
+    15;//number of these on a 100*100 map
+  43;//object definition number		
+    25;//number of these on a 100*100 map
+    56;//object definition number		
+    10;//number of these on a 100*100 map
+  57;//object definition number		
+    30;//number of these on a 100*100 map
+  58;//object definition number		
+    30;//number of these on a 100*100 map
+  59;//object definition number		
+    20;//number of these on a 100*100 map
+  60;//object definition number		
+    20;//number of these on a 100*100 map
+  61;//object definition number		
+    20;//number of these on a 100*100 map
+  62;//object definition number		
+    20;//number of these on a 100*100 map
+  63;//object definition number		
+    20;//number of these on a 100*100 map
+  64;//object definition number		
+    30;//number of these on a 100*100 map
+  end_of_props;
+Kravaak;//name----------------------------------------------------------------
+  4;//identifier
+  0;//can be a random map
+  200;//light oscillate time
+  0.000000;//light r phase shift
+  0.000000;//light g phase shift
+  0.000000;//light b phase shift
+  0.900000;//light r amplitude
+  0.900000;//light g amplitude
+  1.000000;//light b amplitude
+  0.100000;//light max r
+  0.100000;//light max g
+  0.350000;//light max b
+  0.100000;//light min r
+  0.100000;//light min g
+  0.350000;//light min b
+  -0.200000;//night temperature
+  -0.200000;//day temperature
+  1.000000;//maximum wind speed
+  14;//rain particle, -1=no rain
+  300;//rain_particle_life_min
+  800;//rain_particle_life_max
+  10000;//rain_probability (the bigger the number, the more unlikely the rain)
+  10000;//rain_time_min
+  25000;//rain_time_max
+  begin_effects_block;
+  ;//event text
+    100;//interval
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+    end_effects;
+  end_effects_block;
+  start_of_terrains;
+  31;
+  32;
+  10;
+46;
+47;
+  end_of_terrains;
+  start_of_night_sounds;
+  wind0.wav;
+  wind1.wav;
+  wind2.wav;
+  wind_low_1.wav;
+  wind_low_0.wav;
+    wolf.wav;
+  wolf2.wav;
+  alienambient.wav;
+  alienambient2.wav;
+  alienambient3.wav;
+  alienambient4.wav;
+cannon.wav;
+  bomb.wav;
+  m16distant.wav;
+  m16.wav;
+  m16distant.wav;
+  luger.wav;
+  44.wav;
+  machinegun.wav;
+  explode.wav;
+  explosion2.wav;
+  explosion1.wav;
+  dropbomb.wav;
+  gunshots3.wav;
+  cannon.wav;
+  gunbattle.wav;
+  bulletricochet.wav;
+  explode1.wav;
+fightercrash.wav;
+  end_of_night_sounds;
+  start_of_day_sounds;
+cannon.wav;
+  bomb.wav;
+  m16distant.wav;
+  m16.wav;
+  m16distant.wav;
+  luger.wav;
+  44.wav;
+  machinegun.wav;
+  explode.wav;
+  explosion2.wav;
+  explosion1.wav;
+  dropbomb.wav;
+  gunshots3.wav;
+  cannon.wav;
+  gunbattle.wav;
+  bulletricochet.wav;
+  explode1.wav;
+  wind0.wav;
+  wind1.wav;
+  wind2.wav;
+  wind_low_1.wav;
+  wind_low_0.wav;
+    wolf.wav;
+  wolf2.wav;
+fightercrash.wav;
+  alienambient.wav;
+  alienambient2.wav;
+  alienambient3.wav;
+  alienambient4.wav;
+fightercrash.wav;
+  end_of_day_sounds;
+  start_of_props;
+  47;//object definition number		ast1
+    100;//number of these on a 100*100 map
+  104;//object definition number		kivi
+    40;//number of these on a 100*100 map
+  105;//object definition number		kivi
+    40;//number of these on a 100*100 map
+  106;//object definition number		kivi
+    40;//number of these on a 100*100 map
+  end_of_props;
+Ocean planet;//name-----------------------------------------------------------
+  5;//identifier
+  0;//can be a random map
+  200;//light oscillate time
+  0.000000;//light r phase shift
+  -0.100000;//light g phase shift
+  -0.100000;//light b phase shift
+  0.900000;//light r amplitude
+  1.000000;//light g amplitude
+  1.000000;//light b amplitude
+  0.900000;//light max r
+  0.800000;//light max g
+  0.800000;//light max b
+  0.000000;//light min r
+  0.000000;//light min g
+  0.200000;//light min b
+  -0.590000;//night temperature
+  0.800000;//day temperature
+  1.300000;//maximum wind speed
+  8;//rain particle, -1=no rain
+  400;//rain_particle_life_min
+  800;//rain_particle_life_max
+  15000;//rain_probability (the bigger the number, the more unlikely the rain)
+  5000;//rain_time_min
+  15000;//rain_time_max
+  begin_effects_block;//    
+  Cool, refreshing rain.;//event text
+    100;//interval
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+    23;//effect number
+      -0.700000;//parameter1
+      -1.000000;//parameter2
+      6.000000;//parameter3
+      100.000000;//parameter4
+    end_effects;
+  end_effects_block;
+  start_of_terrains;//  
+  37;
+  53;
+  37;
+  54;
+  37;
+  end_of_terrains;
+  start_of_night_sounds;
+  ocean1.wav;
+  ocean2.wav;
+  ocean3.wav;
+  ocean4.wav;
+waves.wav;
+  wind0.wav;
+  wind1.wav;
+  wind2.wav;
+  alienambient.wav;
+  alienambient2.wav;
+  alienambient3.wav;
+  alienambient4.wav;
+ shriek1.wav;
+  shriek2.wav;
+  shriek3.wav;
+  shriek4.wav;
+junglebird1.wav;
+  end_of_night_sounds;
+  start_of_day_sounds;
+  ocean1.wav;
+  ocean2.wav;
+  ocean3.wav;
+  ocean4.wav;
+ shriek1.wav;
+  shriek2.wav;
+  shriek3.wav;
+  shriek4.wav;
+waves.wav;
+  alienambient.wav;
+  alienambient2.wav;
+  alienambient3.wav;
+  alienambient4.wav;
+gull.wav;
+gull2.wav;
+gull3;
+  end_of_day_sounds;
+  start_of_props;
+ 80;//object definition number		tree
+    200;//number of these on a 100*100 map
+  99;//object definition number		tree
+  200;//number of these on a 100*100 map
+ 163;//object definition number		tree
+    200;//number of these on a 100*100 map
+ 164;//object definition number		tree
+  1100;//number of these on a 100*100 map
+  84;//object definition number		scel
+    100;//number of these on a 100*100 map
+  85;//object definition number		skel
+    100;//number of these on a 100*100 map
+100;//object definition number		shell
+    20;//number of these on a 100*100 map
+  165;//object definition number		shell
+    25;//number of these on a 100*100 map
+  166;//object definition number		shell
+    25;//number of these on a 100*100 map
+  167;//object definition number		shell
+    25;//number of these on a 100*100 map
+  168;//object definition number		shell
+    25;//number of these on a 100*100 map
+  169;//object definition number		shell
+    20;//number of these on a 100*100 map
+  170;//object definition number		shell
+    20;//number of these on a 100*100 map
+  171;//object definition number		shell
+    25;//number of these on a 100*100 map
+  172;//object definition number		shell
+    20;//number of these on a 100*100 map
+  173;//object definition number		shell
+    25;//number of these on a 100*100 map
+  174;//object definition number		shell
+    20;//number of these on a 100*100 map
+  175;//object definition number		shell
+    20;//number of these on a 100*100 map
+  176;//object definition number		shell
+    25;//number of these on a 100*100 map
+  177;//object definition number		shell
+    20;//number of these on a 100*100 map
+  178;//object definition number		shell
+    25;//number of these on a 100*100 map
+  179;//object definition number		shell
+    20;//number of these on a 100*100 map
+  180;//object definition number		wood
+    30;//number of these on a 100*100 map
+  181;//object definition number		wheel
+    10;//number of these on a 100*100 map
+  end_of_props;
+Lava planet;//name------------------------------------------------------------
+  6;//identifier
+  0;//can be a random map
+  200;//light oscillate time
+  0.500000;//light r phase shift
+  -0.100000;//light g phase shift
+  -0.100000;//light b phase shift
+  1.000000;//light r amplitude
+  0.500000;//light g amplitude
+  0.500000;//light b amplitude
+  0.900000;//light max r
+  0.300000;//light max g
+  0.300000;//light max b
+  0.200000;//light min r
+  0.000000;//light min g
+  0.000000;//light min b
+  0.650000;//night temperature
+  0.850000;//day temperature
+  1.200000;//maximum wind speed
+  10;//rain particle, -1=no rain
+  700;//rain_particle_life_min
+  1100;//rain_particle_life_max
+  20000;//rain_probability (the bigger the number, the more unlikely the rain)
+  5000;//rain_time_min
+  15000;//rain_time_max
+  begin_effects_block;
+  Raining Lava! Seek cover under a tree.;//event text
+    100;//interval
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+    23;//effect number
+      -0.250000;//parameter1
+      -1.000000;//parameter2
+      12.000000;//parameter3
+      100.000000;//parameter4
+    23;//effect number
+      0.600000;//parameter1
+      -1.000000;//parameter2
+      6.000000;//parameter3
+      100.000000;//parameter4
+    end_effects;
+  end_effects_block;
+  start_of_terrains;
+   11;
+  31;
+  32;
+  10;
+44;
+44;
+45;
+46;
+47;
+46;
+47;
+  end_of_terrains;
+  start_of_night_sounds;
+  magma.wav;
+  magma2.wav;
+  wind0.wav;
+  wind1.wav;
+  wind2.wav;
+  groan0.wav;
+  groan1.wav;
+  groan2.wav;
+  shriek1.wav;
+  shriek2.wav;
+  shriek3.wav;
+  shriek4.wav;
+  alienambient.wav;
+  alienambient2.wav;
+  alienambient3.wav;
+  alienambient4.wav;
+  end_of_night_sounds;
+  start_of_day_sounds;
+  magma.wav;
+  magma2.wav;
+  wind_low_0.wav;
+  wind_low_1.wav;
+  wind0.wav;
+  wind1.wav;
+  wind2.wav;
+  groan0.wav;
+  groan1.wav;
+  groan2.wav;
+  shriek1.wav;
+  shriek2.wav;
+  shriek3.wav;
+  shriek4.wav;
+  shriek5.wav;
+  alienambient.wav;
+  alienambient2.wav;
+  alienambient3.wav;
+  alienambient4.wav;
+  end_of_day_sounds;
+  start_of_props;
+  80;//object definition number		tree
+    280;//number of these on a 100*100 map
+  84;//object definition number		scel
+    260;//number of these on a 100*100 map
+  85;//object definition number		skel
+    260;//number of these on a 100*100 map
+  104;//object definition number		kivi
+    80;//number of these on a 100*100 map
+  105;//object definition number		kivi
+   80;//number of these on a 100*100 map
+  106;//object definition number		kivi
+    80;//number of these on a 100*100 map
+  end_of_props;
+Mines;//name----------------------------------------------------------------
+  7;//identifier
+  0;//can be a random map
+  200;//light oscillate time
+  0.000000;//light r phase shift
+  0.000000;//light g phase shift
+  0.000000;//light b phase shift
+  0.900000;//light r amplitude
+  0.900000;//light g amplitude
+  1.000000;//light b amplitude
+  0.000000;//light max r
+  0.000000;//light max g
+  0.000000;//light max b
+  0.000000;//light min r
+  0.000000;//light min g
+  0.000000;//light min b
+  -0.500000;//night temperature
+  -0.500000;//day temperature
+  0.000000;//maximum wind speed
+  -1;//rain particle, -1=no rain
+  300;//rain_particle_life_min
+  800;//rain_particle_life_max
+  10000;//rain_probability (the bigger the number, the more unlikely the rain)
+  10000;//rain_time_min
+  25000;//rain_time_max
+  begin_effects_block;
+  ;//event text
+    100;//interval
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+    end_effects;
+  end_effects_block;
+  start_of_terrains;
+  16;
+  17;
+57;
+58;
+  end_of_terrains;
+  start_of_night_sounds;
+  wind_low_0.wav;
+  wind_low_1.wav;
+  wind0.wav;
+  wind1.wav;
+  wind2.wav;
+  cavegrowl.wav;
+  cavegrowl2.wav;
+  cavegrowl3.wav;
+  cavegrowl4.wav;
+  cavegrowl5.wav;
+  cavegrowl6.wav;
+  cavegrowl7.wav;
+  cavegrowl8.wav;
+  cavegrowl9.wav;
+  cavegrowl10.wav;
+  cave1.wav;
+  cave2.wav;
+  cave3.wav;
+  cave4.wav;
+  cave6.wav;
+  cave7.wav;
+drilling.wav;
+  end_of_night_sounds;
+  start_of_day_sounds;
+  wind_low_0.wav;
+  wind_low_1.wav;
+  wind0.wav;
+  wind1.wav;
+  wind2.wav;
+  cavegrowl.wav;
+  cavegrowl2.wav;
+  cavegrowl3.wav;
+  cavegrowl4.wav;
+  cavegrowl5.wav;
+  cavegrowl6.wav;
+  cavegrowl7.wav;
+  cavegrowl8.wav;
+  cavegrowl9.wav;
+  cavegrowl10.wav;
+  cave1.wav;
+  cave2.wav;
+  cave3.wav;
+  cave4.wav;
+  cave6.wav;
+  cave7.wav;
+drilling.wav;
+  end_of_day_sounds;
+  start_of_props;
+  104;//object definition number		kivi
+    600;//number of these on a 100*100 map
+  105;//object definition number		kivi
+    600;//number of these on a 100*100 map
+  106;//object definition number		kivi
+    600;//number of these on a 100*100 map
+   113;//object definition number		grunge
+   500;//number of these on a 100*100 map
+  47;//object definition number		rubble
+    400;//number of these on a 100*100 map
+  102;//object definition number		barrel
+    50;//number of these on a 100*100 map
+  103;//object definition number		barrel
+    50;//number of these on a 100*100 map
+  107;//object definition number		minedrock
+    130;//number of these on a 100*100 map
+  end_of_props;
+Snow;//name------------------------------------------------------------
+8;//identifier
+0;//can be a random map
+200;//light oscillate time
+  0;//light r phase shift
+  -0.1;//light g phase shift
+  -0.1;//light b phase shift
+  0.9;//light r amplitude
+  1.0;//light g amplitude
+  1.0;//light b amplitude
+  0.5;//light max r
+  0.5;//light max g
+  0.6;//light max b
+  0;//light min r
+  0;//light min g
+  0.2;//light min b
+-1.2;//night temperature
+-0.2;//day temperature
+1.2;//maximum wind speed
+11;//rain particle, -1=no rain
+300;//rain_particle_life_min
+800;//rain_particle_life_max
+15000;//rain_probability (the bigger the number, the more unlikely the rain)
+3000;//rain_time_min
+10000;//rain_time_max
+  begin_effects_block;
+    Snowstorm! Find a fire to keep warm.;//event text
+      100;//interval
+      begin_conditions;
+      end_conditions;
+      begin_effects;
+        23;//effect number
+        -4.500000;//parameter1 -5
+        -1.000000;//parameter2
+        6.000000;//parameter3
+        100.000000;//parameter4
+    end_effects;
+  end_effects_block;
+start_of_terrains;
+  12;
+13;
+14;
+end_of_terrains;
+start_of_night_sounds;
+  wind_low_1.wav;
+  wind_low_0.wav;
+  wind0.wav;
+  wind1.wav;
+  wind2.wav;
+  wolf.wav;
+  wolf2.wav;
+birdambient.wav;
+wolfambient.wav;
+wolfambient2.wav;
+wolfambient3.wav;
+wolfambient4.wav;
+wolfambient5.wav;
+thunderclap.wav;
+beargrowl.wav;//sample name
+ beargrowl2.wav;//sample name
+ beargrowl3.wav;//sample name
+ beargrowl4.wav;//sample name
+ beargrowl5.wav;//sample name
+wildcat.wav;
+end_of_night_sounds;
+start_of_day_sounds;
+ wind0.wav;
+  wind1.wav;
+  wind2.wav;
+  wind_low_1.wav;
+  wind_low_0.wav;
+birdambient.wav;
+wolfambient.wav;
+wolfambient2.wav;
+wolfambient3.wav;
+wolfambient4.wav;
+wolfambient5.wav;
+beargrowl.wav;//sample name
+ beargrowl2.wav;//sample name
+ beargrowl3.wav;//sample name
+ beargrowl4.wav;//sample name
+ beargrowl5.wav;//sample name
+end_of_day_sounds;
+start_of_props;
+ 116;//object definition number		tree
+    1150;//number of these on a 100*100 map
+ 117;//object definition number		tree
+    1150;//number of these on a 100*100 map
+ 118;//object definition number		tree
+    1150;//number of these on a 100*100 map
+ 119;//object definition number		tree
+    1400;//number of these on a 100*100 map
+ 120;//object definition number		ruin ship
+    12;//number of these on a 100*100 map
+ 121;//object definition number		ruin ship
+    12;//number of these on a 100*100 map
+ 122;//object definition number		ruin ship
+    12;//number of these on a 100*100 map
+ 123;//object definition number		ruin ship
+    16;//number of these on a 100*100 map
+ 124;//object definition number		ruin ship
+    23;//number of these on a 100*100 map
+84;//object definition number		scel
+    140;//number of these on a 100*100 map
+  85;//object definition number		skel
+    140;//number of these on a 100*100 map
+  113;//object definition number		grunge
+    280;//number of these on a 100*100 map
+  180;//object definition number		wood
+    60;//number of these on a 100*100 map
+end_of_props;
+Errxelz 8 (alien);//name----------------------------------------------------------------
+ 9;//identifier
+  0;//can be a random map
+  200;//light oscillate time
+  0.200000;//light r phase shift
+  0.300000;//light g phase shift
+  0.200000;//light b phase shift
+  0.800000;//light r amplitude
+  1.000000;//light g amplitude
+  0.800000;//light b amplitude
+  0.100000;//light max r
+  0.300000;//light max g
+  0.10000;//light max b
+  0.100000;//light min r
+  0.300000;//light min g
+  0.10000;//light min b
+  -0.200000;//night temperature
+  -0.200000;//day temperature
+  1.000000;//maximum wind speed
+ 57;//rain particle, -1=no rain
+  300;//rain_particle_life_min
+  800;//rain_particle_life_max
+  20000;//rain_probability (the bigger the number, the more unlikely the rain)
+  8000;//rain_time_min
+  20000;//rain_time_max
+  begin_effects_block;
+  Radioactive rain! Take cover!;//event text
+    100;//interval
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+23;//effect number
+      -0.500000;//parameter1
+      50.000000;//parameter2
+      12.000000;//parameter3
+      100.000000;//parameter4
+    end_effects;
+  end_effects_block;
+  start_of_terrains;
+  31;
+  32;
+  10;
+ 18;
+  end_of_terrains;
+  start_of_night_sounds;
+  wind0.wav;
+  wind1.wav;
+  wind2.wav;
+  wind_low_1.wav;
+  wind_low_0.wav;
+    alienambient.wav;
+  alienambient2.wav;
+  alienambient3.wav;
+  alienambient4.wav;
+ groan0.wav;
+  groan1.wav;
+  groan2.wav;
+  shriek1.wav;
+  shriek2.wav;
+  shriek3.wav;
+  shriek4.wav;
+  shriek5.wav;
+fighter_move2.wav;//
+  end_of_night_sounds;
+  start_of_day_sounds;
+ groan0.wav;
+  groan1.wav;
+  groan2.wav;
+  shriek1.wav;
+  shriek2.wav;
+  shriek3.wav;
+  shriek4.wav;
+  shriek5.wav;
+  wind0.wav;
+  wind1.wav;
+  wind2.wav;
+  wind_low_1.wav;
+  wind_low_0.wav;
+    alienambient.wav;
+  alienambient2.wav;
+  alienambient3.wav;
+  alienambient4.wav;
+fighter_move2.wav;//
+  end_of_day_sounds;
+  start_of_props;
+ 139;//object definition number		alientree
+   250;//number of these on a 100*100 map
+142;//object definition number		alientree
+   400;//number of these on a 100*100 map
+149;//object definition number		slime
+   340;//number of these on a 100*100 map
+84;//object definition number		scel
+    140;//number of these on a 100*100 map
+  85;//object definition number		skel
+    140;//number of these on a 100*100 map
+   end_of_props;
+Moons;//name-----------------------------------------------------------
+  10;//identifier
+  0;//can be a random map
+  200;//light oscillate time
+  0.100000;//light r phase shift
+  -0.0600000;//light g phase shift
+  -0.000000;//light b phase shift
+  1.000000;//light r amplitude
+  0.900000;//light g amplitude
+  0.800000;//light b amplitude
+  0.7100000;//light max r
+  0.700000;//light max g
+  0.700000;//light max b
+  0.1100000;//light min r
+  0.100000;//light min g
+  0.100000;//light min b
+  -0.20000;//night temperature
+  0.000000;//day temperature
+ 0.000000;//maximum wind speed
+ -1;//rain particle, -1=no rain
+  400;//rain_particle_life_min
+  800;//rain_particle_life_max
+  15000;//rain_probability (the bigger the number, the more unlikely the rain)
+  5000;//rain_time_min
+  15000;//rain_time_max
+  begin_effects_block;//    
+  end_effects_block;
+  start_of_terrains;//  
+  17;
+40;
+41;
+10;
+55;
+46;
+47;
+57;
+  end_of_terrains;
+  start_of_night_sounds;
+  wind0.wav;
+  wind1.wav;
+  wind2.wav;
+wind_low_1.wav;
+  wind_low_0.wav;
+  end_of_night_sounds;
+  start_of_day_sounds;
+  wind0.wav;
+  wind1.wav;
+  wind2.wav;
+wind_low_1.wav;
+  wind_low_0.wav;
+  end_of_day_sounds;
+  start_of_props;
+12;//object definition number		kivi
+    170;//number of these on a 100*100 map
+  13;//object definition number		kivi
+   170;//number of these on a 100*100 map
+ 145;//object definition number		rubble
+   220;//number of these on a 100*100 map
+ 146;//object definition number		rubble
+   220;//number of these on a 100*100 map
+147;//object definition number		rubble
+   220;//number of these on a 100*100 map
+120;//object definition number		ruin ship
+  20;//number of these on a 100*100 map
+ 121;//object definition number		ruin ship
+   20;//number of these on a 100*100 map
+ 122;//object definition number		ruin ship
+    20;//number of these on a 100*100 map
+ 123;//object definition number		ruin ship
+    33;//number of these on a 100*100 map
+ 124;//object definition number		ruin ship
+    33;//number of these on a 100*100 map
+  end_of_props;
+Caremel Moon;//name-----------------------------------------------------------
+  11;//identifier
+  0;//can be a random map
+  200;//light oscillate time
+  0.100000;//light r phase shift
+  -0.0600000;//light g phase shift
+  -0.000000;//light b phase shift
+  1.000000;//light r amplitude
+  0.900000;//light g amplitude
+  0.600000;//light b amplitude
+  0.7100000;//light max r
+  0.700000;//light max g
+  0.600000;//light max b
+  0.1100000;//light min r
+  0.100000;//light min g
+  0.050000;//light min b
+  0.20000;//night temperature
+  0.400000;//day temperature
+ 0.600000;//maximum wind speed
+ -1;//rain particle, -1=no rain
+  400;//rain_particle_life_min
+  800;//rain_particle_life_max
+  15000;//rain_probability (the bigger the number, the more unlikely the rain)
+  5000;//rain_time_min
+  15000;//rain_time_max
+  begin_effects_block;//    
+  end_effects_block;
+  start_of_terrains;//  
+  55;
+56;
+42;
+42;
+42;
+  end_of_terrains;
+  start_of_night_sounds;
+  wind0.wav;
+  wind1.wav;
+  wind2.wav;
+wind_low_1.wav;
+  wind_low_0.wav;
+  groan0.wav;//sample name
+    groan1.wav;//sample name
+    groan2.wav;//sample name
+  end_of_night_sounds;
+  start_of_day_sounds;
+  wind0.wav;
+  wind1.wav;
+  wind2.wav;
+wind_low_1.wav;
+  wind_low_0.wav;
+  groan0.wav;//sample name
+    groan1.wav;//sample name
+    groan2.wav;//sample name
+  end_of_day_sounds;
+  start_of_props;
+151;//object definition number		tree
+  1450;//number of these on a 100*100 map
+144;//object definition number		crater
+  200;//number of these on a 100*100 map
+12;//object definition number		kivi
+    170;//number of these on a 100*100 map
+  13;//object definition number		kivi
+   170;//number of these on a 100*100 map
+ 145;//object definition number		rubble
+  320;//number of these on a 100*100 map
+ 146;//object definition number		rubble
+   320;//number of these on a 100*100 map
+147;//object definition number		rubble
+   320;//number of these on a 100*100 map
+120;//object definition number		ruin ship
+  20;//number of these on a 100*100 map
+ 121;//object definition number		ruin ship
+   20;//number of these on a 100*100 map
+ 122;//object definition number		ruin ship
+    20;//number of these on a 100*100 map
+ 123;//object definition number		ruin ship
+    33;//number of these on a 100*100 map
+ 124;//object definition number		ruin ship
+    33;//number of these on a 100*100 map
+  end_of_props;
+Space (asteroids, no random, some random nebulae);//name-------------------------------------------
+  12;//identifier
+  1;//can be a random map
+  200;//light oscillate time
+  0.000000;//light r phase shift
+  0.000000;//light g phase shift
+  0.000000;//light b phase shift
+  0.900000;//light r amplitude
+  1.000000;//light g amplitude
+  1.000000;//light b amplitude
+  0.700000;//light max r
+  0.700000;//light max g
+  0.700000;//light max b
+  0.700000;//light min r
+  0.700000;//light min g
+  0.700000;//light min b
+  0.000000;//night temperature
+  0.000000;//day temperature
+  4.000000;//maximum wind speed
+  -1;//rain particle, -1=no rain
+  300;//rain_particle_life_min
+  800;//rain_particle_life_max
+  15000;//rain_probability (the bigger the number, the more unlikely the rain)
+  5000;//rain_time_min
+  15000;//rain_time_max
+  begin_effects_block;//    
+  end_effects_block;
+  start_of_terrains;//  
+  2;
+3;
+4;
+2;
+5;
+  end_of_terrains;
+  start_of_night_sounds;
+  explosion2.wav;
+  explosion1.wav;
+  end_of_night_sounds;
+  start_of_day_sounds;
+  explosion2.wav;
+  explosion1.wav;
+  end_of_day_sounds;
+  start_of_props;
+  end_of_props;
+Amarda;//name----------------------------------------------------------------
+  13;//identifier
+  0;//can be a random map
+  0;//light oscillate time
+  0.000000;//light r phase shift
+  0.000000;//light g phase shift
+  0.000000;//light b phase shift
+  0.900000;//light r amplitude
+  1.000000;//light g amplitude
+  1.000000;//light b amplitude
+  0.700000;//light max r
+  0.700000;//light max g
+  0.700000;//light max b
+  0.700000;//light min r
+  0.700000;//light min g
+  0.700000;//light min b
+  0.200000;//night temperature
+  0.200000;//day temperature
+  0.500000;//maximum wind speed
+  -1;//rain particle, -1=no rain
+  300;//rain_particle_life_min
+  800;//rain_particle_life_max
+  15000;//rain_probability (the bigger the number, the more unlikely the rain)
+  5000;//rain_time_min
+  15000;//rain_time_max
+  begin_effects_block;//    
+  end_effects_block;
+  start_of_terrains;//  
+  2;
+  end_of_terrains;
+  start_of_night_sounds;
+  siren1.wav;
+  siren2.wav;
+  computer2.wav;
+  wrench.wav;
+  machinery.wav;
+  machinery2.wav;
+  machinery3.wav;
+  machinery4.wav;
+  machinery5.wav;
+  machinery6.wav;
+  machinery7.wav;
+  intro.wav;
+  end_of_night_sounds;
+  start_of_day_sounds;
+  siren1.wav;
+  siren2.wav;
+  computer2.wav;
+  wrench.wav;
+  machinery.wav;
+  machinery2.wav;
+  machinery3.wav;
+  machinery4.wav;
+  machinery5.wav;
+  machinery6.wav;
+  machinery7.wav;
+  intro.wav;
+  end_of_day_sounds;
+  start_of_props;
+   79;//object definition number		tree1
+    40;//number of these on a 100*100 map
+  81;//object definition number		tree3
+    40;//number of these on a 100*100 map
+  99;//object definition number		tree
+ 40;//number of these on a 100*100 map
+ 163;//object definition number		tree
+    40;//number of these on a 100*100 map
+ 164;//object definition number		tree
+ 80;//number of these on a 100*100 map
+  end_of_props;
+Meadow;//name-----------------------------------------------------------
+ 14;//identifier
+  0;//can be a random map
+  200;//light oscillate time
+  0.000000;//light r phase shift
+  -0.100000;//light g phase shift
+  -0.100000;//light b phase shift
+  0.900000;//light r amplitude
+  1.000000;//light g amplitude
+  1.000000;//light b amplitude
+  0.900000;//light max r
+  0.800000;//light max g
+  0.800000;//light max b
+  0.000000;//light min r
+  0.000000;//light min g
+  0.200000;//light min b
+  0.20000;//night temperature
+  0.300000;//day temperature
+  1.00000;//maximum wind speed
+  -1;//rain particle, -1=no rain
+  400;//rain_particle_life_min
+  800;//rain_particle_life_max
+  15000;//rain_probability (the bigger the number, the more unlikely the rain)
+  5000;//rain_time_min
+  15000;//rain_time_max
+  begin_effects_block;//    
+ Warm, soothing rain.;//event text
+    100;//interval
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+    23;//effect number
+      0.200000;//parameter1
+      -1.000000;//parameter2
+      6.000000;//parameter3
+      100.000000;//parameter4
+    end_effects;
+  end_effects_block;
+  start_of_terrains;//  
+ 65;
+66;
+67;
+59;
+60;
+48;
+  end_of_terrains;
+  start_of_night_sounds;
+junglebird1.wav;
+ wind0.wav;
+  wind1.wav;
+  wind2.wav;
+jungle.wav;
+junglebird3.wav;
+  m16distant.wav;
+  luger.wav;
+  44.wav;
+wildcat.wav;
+  end_of_night_sounds;
+  start_of_day_sounds;
+junglebird.wav;
+junglebird2.wav;
+junglebird3.wav;
+  m16distant.wav;
+  luger.wav;
+  44.wav;
+jungle.wav;
+forest.wav;
+  end_of_day_sounds;
+  start_of_props;
+ 163;//object definition number		tree
+    600;//number of these on a 100*100 map
+79;//object definition number		tree
+    200;//number of these on a 100*100 map
+81;//object definition number		tree
+   200;//number of these on a 100*100 map
+ 186;//object definition number		tree
+    60;//number of these on a 100*100 map
+185;//object definition number		tree
+    60;//number of these on a 100*100 map
+  84;//object definition number		scel
+    100;//number of these on a 100*100 map
+  85;//object definition number		skel
+    100;//number of these on a 100*100 map
+  180;//object definition number		wood
+    30;//number of these on a 100*100 map
+104;//object definition number		kivi
+   30;//number of these on a 100*100 map
+  105;//object definition number	kivi
+  30;//number of these on a 100*100 map
+ 106;//object definition number		kivi
+  30;//number of these on a 100*100 map
+ 145;//object definition number		rubble
+   60;//number of these on a 100*100 map
+ 146;//object definition number		rubble
+  60;//number of these on a 100*100 map
+147;//object definition number		rubble
+   60;//number of these on a 100*100 map
+120;//object definition number		ruin ship
+ 4;//number of these on a 100*100 map
+ 121;//object definition number		ruin ship
+   4;//number of these on a 100*100 map
+ 122;//object definition number		ruin ship
+    4;//number of these on a 100*100 map
+ 123;//object definition number		ruin ship
+    4;//number of these on a 100*100 map
+ 124;//object definition number		ruin ship
+   4;//number of these on a 100*100 map
+  end_of_props;
+Space (wrecks);//name------------------------------------------------------------------
+  15;//identifier
+  0;//can be a random map
+  200;//light oscillate time
+  0.000000;//light r phase shift
+  0.000000;//light g phase shift
+  0.000000;//light b phase shift
+ 1.000000;//light r amplitude
+  0.500000;//light g amplitude
+  0.500000;//light b amplitude
+  0.900000;//light max r
+  0.300000;//light max g
+  0.300000;//light max b
+    0.900000;//light max r
+  0.300000;//light max g
+  0.300000;//light max b
+  0.000000;//night temperature
+  0.000000;//day temperature
+  1.000000;//maximum wind speed
+  -1;//rain particle, -1=no rain
+  300;//rain_particle_life_min
+  800;//rain_particle_life_max
+  15000;//rain_probability (the bigger the number, the more unlikely the rain)
+  5000;//rain_time_min
+  15000;//rain_time_max
+  begin_effects_block;//    
+  end_effects_block;
+  start_of_terrains;//  
+  2;
+  end_of_terrains;
+  start_of_night_sounds;
+  end_of_night_sounds;
+  start_of_day_sounds;
+  end_of_day_sounds;
+  start_of_props;
+  41;//object definition number		
+    15;//number of these on a 100*100 map
+42;//object definition number		
+    15;//number of these on a 100*100 map
+  43;//object definition number		
+    25;//number of these on a 100*100 map
+ 44;//object definition number		
+    15;//number of these on a 100*100 map
+  56;//object definition number		
+    10;//number of these on a 100*100 map
+  57;//object definition number		
+    30;//number of these on a 100*100 map
+  58;//object definition number		
+    30;//number of these on a 100*100 map
+  59;//object definition number		
+    20;//number of these on a 100*100 map
+  60;//object definition number		
+    20;//number of these on a 100*100 map
+  61;//object definition number		
+    20;//number of these on a 100*100 map
+  62;//object definition number		
+    20;//number of these on a 100*100 map
+  63;//object definition number		
+    20;//number of these on a 100*100 map
+  64;//object definition number		
+    30;//number of these on a 100*100 map
+195;//object definition number		
+    20;//number of these on a 100*100 map
+196;//object definition number		
+    20;//number of these on a 100*100 map
+197;//object definition number		
+    20;//number of these on a 100*100 map
+198;//object definition number		
+   20;//number of these on a 100*100 map
+145;//object definition number		rubble
+   60;//number of these on a 100*100 map
+ 146;//object definition number		rubble
+  60;//number of these on a 100*100 map
+147;//object definition number		rubble
+   60;//number of these on a 100*100 map
+  end_of_props;
+end_of_file;

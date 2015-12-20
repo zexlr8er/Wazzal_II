@@ -1,0 +1,1421 @@
+Random Terrain;//name---------------------------------------
+  0;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  random.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+No random objects;//name---------------------------------------
+  1;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  norandom.tga;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+Stars1;//name---------------------------------------
+  2;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  stars1.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+Stars2;//name---------------------------------------
+  3;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  1;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  stars2.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+Stars3;//name----------------------------------non-unifier
+  4;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  1;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  stars3.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+Nebulae;//name----------------------------------
+  5;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  cave.bmp;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+Green Grass;//name---------------------------------------
+  6;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  grass.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+Yellowish Grass;//name---------------------------------------
+  7;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  grass2.bmp;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+Fine Yellow Sand;//name---------------------------------------
+  8;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  12000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  sand1.bmp;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+Gravel;//name---------------------------------------
+  9;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  sand0.bmp;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+Stone;//name---------------------------------------
+  10;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  stone.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+Lava;//name---------------------------------------
+  11;//identifier
+  1;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  1;//do not place random objects on this terrain
+  1.000000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  4000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  lava0.jpg;//terrain texture
+    100.000000;//time to display frame
+  lava1.jpg;//terrain texture
+    100.000000;//time to display frame
+  lava2.jpg;//terrain texture
+    100.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  The lava fries you!;//event text
+    100.000000;//interval
+    1;//run only once 0=no, 1=yes
+    begin_conditions;
+26;//condition
+      26.000000;//condition parameter0
+      0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    1;//effect number
+      100.000000;//parameter1
+      -1.000000;//parameter2
+      0.300000;//parameter3
+      0.000000;//parameter4
+    23;//effect number
+      -2.000000;//parameter1
+      -1.000000;//parameter2
+      12.000000;//parameter3
+      100.000000;//parameter4
+    23;//effect number
+      15.000000;//parameter1
+      -1.000000;//parameter2
+      6.000000;//parameter3
+      100.000000;//parameter4
+    end_effects;
+  end_effects_block;
+Ice;//name---------------------------------------
+  12;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  ice0.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+Ice;//name---------------------------------------
+  13;//identifier
+ 1;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  1;//do not place random objects on this terrain
+  0.0700000;//base light r
+  0.070000;//base light g
+  0.0850000;//base light b
+ 10000.000000;//footstep particle live time, -1=no footsteps
+  55;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  ice1.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+Ice;//name---------------------------------------
+  14;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  ice3.bmp;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+Swamp;//name---------------------------------------
+  15;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  moss.bmp;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  The swamp is slowing you down.;//event text
+    100.000000;//interval
+    1;//run only once 0=no, 1=yes
+    begin_conditions;
+   26;//condition
+      26.000000;//condition parameter0
+      0.000000;//condition parameter1 
+end_conditions;
+    begin_effects;
+    1;//effect number
+      100.000000;//parameter1
+      -1.000000;//parameter2
+      0.500000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  end_effects_block;
+Rock;//name---------------------------------------
+  16;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  3000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  qstone4.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+Rock;//name---------------------------------------
+  17;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  3000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  stone2.bmp;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+Alien swamp;//name---------------------------------------
+  18;//identifier
+  1;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  1;//do not place random objects on this terrain
+  0.100000;//base light r
+  1.000000;//base light g
+  0.100000;//base light b
+  600.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+ alienswamp1.bmp;//terrain texture
+    100.000000;//time to display frame
+ alienswamp2.bmp;//terrain texture
+    100.000000;//time to display frame
+ alienswamp3.bmp;//terrain texture
+    100.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+    You suddenly feel sick...;//event text
+    100.000000;//interval
+    1;//run only once 0=no, 1=yes
+    begin_conditions;
+26;//condition
+      26.000000;//condition parameter0
+      0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    1;//effect number
+      100.000000;//parameter1
+      -1.000000;//parameter2
+      0.600000;//parameter3
+      0.000000;//parameter4
+    23;//effect number
+      -0.400000;//parameter1
+     50.000000;//parameter2
+      12.000000;//parameter3
+      400.000000;//parameter4
+        end_effects;
+  end_effects_block;
+Bright Green Moss;//name---------------------------------------
+  19;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  qmoss.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  The swamp is slowing you down.;//event text
+    100.000000;//interval
+    1;//run only once 0=no, 1=yes
+    begin_conditions;
+26;//condition
+      26.000000;//condition parameter0
+      0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    1;//effect number
+      100.000000;//parameter1
+      -1.000000;//parameter2
+      0.500000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  end_effects_block;
+Metal Floor 1;//name---------------------------------------
+  20;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  1;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  -1.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  metal_floor.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+Metal Floor 2;//name---------------------------------------
+  21;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  1;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  -1.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  metal_floor_2.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+Black;//name---------------------------------------
+  22;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  1;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  black.bmp;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+Space;//name---------------------------------------
+  23;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  1;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  stars.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+Space 2;//name---------------------------------------
+  24;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  1;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  stars2.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+Tile Floor;//name---------------------------------------
+  25;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  10000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  jungle_tiles.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+Tile Floor;//name---------------------------------------
+  26;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  10000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  jungle_tiles_broken.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+Metal Floor 3;//name---------------------------------------
+  27;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  1;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  -1.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  metal_floor_3.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+Metal Floor 4;//name---------------------------------------
+  28;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  1;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  -1.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  metal_floor_4.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+Metal Floor 5;//name---------------------------------------
+  29;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  1;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  -1.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  metal_floor_5.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+Trailing stars;//name---------------------------------------
+  30;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  1;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  -1.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  starsm1.jpg;//terrain texture
+    50.000000;//time to display frame
+  starsm2.jpg;//terrain texture
+    50.000000;//time to display frame 
+  starsm3.jpg;//terrain texture
+    50.000000;//time to display frame
+  starsm4.jpg;//terrain texture
+    50.000000;//time to display frame 
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+burnt rock;//name---------------------------------------
+  31;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  ash.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+burnt rock;//name---------------------------------------
+  32;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  0.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  ash2.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+asphalt1;//name---------------------------------------
+  33;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.200000;//base light r
+  0.200000;//base light g
+  0.200000;//base light b
+  1000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  ashph1.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  You use the road. Much quicker!;//event text
+    100.000000;//interval
+    1;//run only once 0=no, 1=yes
+    begin_conditions;
+26;//condition
+      26.000000;//condition parameter0
+      0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    1;//effect number
+      100.000000;//parameter1
+      -1.000000;//parameter2
+      1.40000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  end_effects_block;
+asphalt2;//name---------------------------------------
+  34;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.200000;//base light r
+  0.200000;//base light g
+  0.200000;//base light b
+  1000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  ashph2.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  You use the road. Much quicker!;//event text
+    100.000000;//interval
+    0;//run only once 0=no, 1=yes
+    begin_conditions;
+26;//condition
+      26.000000;//condition parameter0
+      0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    1;//effect number
+      100.000000;//parameter1
+      -1.000000;//parameter2
+      1.40000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  end_effects_block;
+Landing pad;//name---------------------------------------
+  35;//identifier
+  0;//AI avoids this terrain
+  1;//do not place on map edges on random selection
+  1;//do not place random objects on this terrain
+  0.600000;//base light r
+  0.600000;//base light g
+  0.700000;//base light b
+  5000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  2step.wav;//override footstep sound
+  begin_terrain_frames;
+  metal_floor_5.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  none;//event text
+    100.000000;//interval
+    0;//run only once 0=no, 1=yes
+    begin_conditions;
+26;//condition
+      26.000000;//condition parameter0
+      0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    1;//effect number
+      100.000000;//parameter1
+      -1.000000;//parameter2
+      1.330000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  end_effects_block;
+Landing pad 2;//name--------------------------------------- for different step sound
+  36;//identifier
+  0;//AI avoids this terrain
+  1;//do not place on map edges on random selection
+  1;//do not place random objects on this terrain
+  0.600000;//base light r
+  0.600000;//base light g
+  0.700000;//base light b
+  5000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  5step.wav;//override footstep sound
+  begin_terrain_frames;
+  metal_floor_5.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  none;//event text
+    100.000000;//interval
+    0;//run only once 0=no, 1=yes
+    begin_conditions;
+26;//condition
+      26.000000;//condition parameter0
+      0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    1;//effect number
+      100.000000;//parameter1
+      -1.000000;//parameter2
+      1.330000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  end_effects_block;
+Water;//name---------------------------------------
+  37;//identifier
+  1;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  1;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.150000;//base light g
+  0.250000;//base light b
+  500.000000;//footstep particle live time, -1=no footsteps
+  48;//override footstep particle
+  awater.wav;//override footstep sound
+  begin_terrain_frames;
+  aw1.jpg;//terrain texture
+    80.000000;//time to display frame
+  aw2.jpg;//terrain texture
+    80.000000;//time to display frame
+  aw3.jpg;//terrain texture
+    80.000000;//time to display frame
+  aw4.jpg;//terrain texture
+    80.000000;//time to display frame
+  aw5.jpg;//terrain texture
+    80.000000;//time to display frame
+  aw6.jpg;//terrain texture
+    80.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  The water slows you down. Good thing it's shallow.;//event text
+    100.000000;//interval
+    1;//run only once 0=no, 1=yes
+    begin_conditions;
+26;//condition
+      26.000000;//condition parameter0
+      0.000000;//condition parameter1 
+34;//condition
+    1.000000;//condition parameter0
+   0.000000;//condition parameter1
+    end_conditions;
+    begin_effects;
+    1;//effect number
+      100.000000;//parameter1
+      -1.000000;//parameter2
+      0.250000;//parameter3
+      0.000000;//parameter4
+    23;//effect number
+      -4.000000;//parameter1
+      -1.000000;//parameter2
+      6.000000;//parameter3
+      100.000000;//parameter4
+     end_effects;
+  end_effects_block;
+Brick floor;//name---------------------------------------
+  38;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  10000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  brick6.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+Brick floor 2;//name---------------------------------------
+  39;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  10000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  brick7.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+moon rock;//name---------------------------------------
+  40;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  0.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  moonrock1.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+moon rock 2;//name---------------------------------------
+  41;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  0.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  moonrock2.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+Caremel grass;//name---------------------------------------
+  42;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.200000;//base light r
+  0.120000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  caremelgrass.jpg;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+Hologram floor;//name---------------------------------------
+  43;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  1;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.300000;//base light g
+  0.000000;//base light b
+  -1.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  hologramfloor1.jpg;//terrain texture
+    50.000000;//time to display frame
+  hologramfloor2.jpg;//terrain texture
+    50.000000;//time to display frame 
+ hologramfloor3.jpg;//terrain texture
+    50.000000;//time to display frame 
+hologramfloor4.jpg;//terrain texture
+    50.000000;//time to display frame 
+hologramfloor3.jpg;//terrain texture
+    50.000000;//time to display frame 
+hologramfloor2.jpg;//terrain texture
+    50.000000;//time to display frame
+ hologramfloor1.jpg;//terrain texture
+    50.000000;//time to display frame
+ hologramfloor2.jpg;//terrain texture
+    250.000000;//time to display frame
+ hologramfloor1.jpg;//terrain texture
+    50.000000;//time to display frame
+ hologramfloor2.jpg;//terrain texture
+    50.000000;//time to display frame
+ hologramfloor3.jpg;//terrain texture
+    50.000000;//time to display frame
+ hologramfloor2.jpg;//terrain texture
+    450.000000;//time to display frame
+ hologramfloor1.jpg;//terrain texture
+    50.000000;//time to display frame
+ hologramfloor2.jpg;//terrain texture
+    550.000000;//time to display frame
+ hologramfloor1.jpg;//terrain texture
+    50.000000;//time to display frame
+ hologramfloor2.jpg;//terrain texture
+    50.000000;//time to display frame
+ hologramfloor1.jpg;//terrain texture
+    50.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+Hotrock1;//name---------------------------------------
+ 44;//identifier
+  1;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  1;//do not place random objects on this terrain
+  1.000000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  4000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  hotrock1.png;//terrain texture
+    100.000000;//time to display frame
+   end_terrain_frames;
+  begin_effects_block;
+  The rock burns you!;//event text
+    100.000000;//interval
+    1;//run only once 0=no, 1=yes
+    begin_conditions;
+26;//condition
+      26.000000;//condition parameter0
+      0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    1;//effect number
+      100.000000;//parameter1
+      -1.000000;//parameter2
+      0.600000;//parameter3
+      0.000000;//parameter4
+    23;//effect number
+      -1.000000;//parameter1
+      -1.000000;//parameter2
+      12.000000;//parameter3
+      100.000000;//parameter4
+    23;//effect number
+      5.000000;//parameter1
+      -1.000000;//parameter2
+      6.000000;//parameter3
+      100.000000;//parameter4
+    end_effects;
+  end_effects_block;
+Hotrock2;//name---------------------------------------
+ 45;//identifier
+  1;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  1;//do not place random objects on this terrain
+  1.000000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  4000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  hotrock2.png;//terrain texture
+    100.000000;//time to display frame
+   end_terrain_frames;
+  begin_effects_block;
+  The rock burns you!;//event text
+    100.000000;//interval
+    1;//run only once 0=no, 1=yes
+    begin_conditions;
+26;//condition
+      26.000000;//condition parameter0
+      0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    1;//effect number
+      100.000000;//parameter1
+      -1.000000;//parameter2
+      0.600000;//parameter3
+      0.000000;//parameter4
+    23;//effect number
+      -1.000000;//parameter1
+      -1.000000;//parameter2
+      12.000000;//parameter3
+      100.000000;//parameter4
+    23;//effect number
+      5.000000;//parameter1
+      -1.000000;//parameter2
+      6.000000;//parameter3
+      100.000000;//parameter4
+    end_effects;
+  end_effects_block;
+burnt rock;//name---------------------------------------
+ 46;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  hotrock3.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+burnt rock;//name---------------------------------------
+ 47;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  hotrock4.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+Green Grass (new);//name---------------------------------------
+ 48;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  grass.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+Green sand new);//name---------------------------------------
+ 49;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  sand2.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+Green gravel 1 (new);//name---------------------------------------
+ 50;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+ gravel0.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+Green gravel 2 (new);//name---------------------------------------
+ 51;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+ gravel1.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+Adandoned stone(new);//name---------------------------------------
+ 52;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+ stone2.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+Sand (new);//name---------------------------------------
+  53;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  12000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  sand0.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+Sand (new);//name---------------------------------------
+  54;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  12000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  sand1.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+Gravel 3 (new);//name---------------------------------------
+ 55;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+ gravel2.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+Gravel 4 (new);//name---------------------------------------
+ 56;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+ gravel3.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+burnt rock;//name---------------------------------------
+ 57;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  stone0.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+burnt rock;//name---------------------------------------
+ 58;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+ stone1.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+New Grass 1;//name---------------------------------------
+  59;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  grass1.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+New Grass 2;//name---------------------------------------
+  60;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  grass2.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+New Grass 3;//name---------------------------------------
+ 61;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  grass6.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+Alien dirt;//name---------------------------------------
+  62;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  1;//do not place random objects on this terrain
+  0.100000;//base light r
+  1.000000;//base light g
+  0.100000;//base light b
+  600.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+ aliendirt.png;//terrain texture
+    100.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+Wood 1;//name---------------------------------------
+  63;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+ -1.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  wood1.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+Wood 2;//name---------------------------------------
+  64;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  -1.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  wood3.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+New Grass;//name---------------------------------------
+  65;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  1;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  grass0.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+New Grass;//name---------------------------------------
+  66;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  1;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  grass3.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+New Grass;//name---------------------------------------
+  67;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  grass4.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+end_of_file;

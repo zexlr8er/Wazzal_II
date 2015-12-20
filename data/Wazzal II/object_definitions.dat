@@ -1,0 +1,3901 @@
+null object, must not be removed;//name---------------------------------------
+  0;//identifier
+  begin_animation_frames;
+  invisible.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.000000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  2;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Star1;//name---------------------------------------
+  1;//identifier
+  begin_animation_frames;
+  star1.png;//texture name
+    4500.000000;//time to display frame
+  star2.png;//texture name
+    110.000000;//time to display frame 
+  end_animation_frames;
+  0.200000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  2;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Star2;//name---------------------------------------
+  2;//identifier
+  begin_animation_frames;
+  star1.png;//texture name
+    4500.000000;//time to display frame
+  star2.png;//texture name
+    110.000000;//time to display frame 
+  end_animation_frames;
+  0.200000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  2;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Star3;//name---------------------------------------
+  3;//identifier
+  begin_animation_frames;
+  star1.png;//texture name
+    5500.000000;//time to display frame
+  star2.png;//texture name
+    100.000000;//time to display frame 
+  end_animation_frames;
+  0.200000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  2;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Sun1;//name---------------------------------------
+  4;//identifier
+  begin_animation_frames;
+  sun.png;//texture name
+    80.000000;//time to display frame
+  sun2.png;//texture name
+    80.000000;//time to display frame
+  sun3.png;//texture name
+    80.000000;//time to display frame8
+  end_animation_frames;
+  0.800000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.750000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Darkplanet1;//name---------------------------------------
+  5;//identifier
+  begin_animation_frames;
+  pdark.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.300000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.900000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Invisible;//name---------------------------------------
+  6;//identifier
+  begin_animation_frames;
+  invisible.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.000000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Forest1;//name---------------------------------------
+  7;//identifier
+  begin_animation_frames;
+  pforest.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.000000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.900000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Toxic1;//name---------------------------------------
+  8;//identifier
+  begin_animation_frames;
+  ptoxic.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.000000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.900000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Ice1;//name---------------------------------------
+  9;//identifier
+  begin_animation_frames;
+  pice1.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.000000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.900000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Red1;//name---------------------------------------
+  10;//identifier
+  begin_animation_frames;
+  pred1.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.000000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.900000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Energy;//name---------------------------------------
+  11;//identifier
+  begin_animation_frames;
+  fuel.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.500000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  0;//layer
+  1;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.500000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Ast1;//name---------------------------------------
+  12;//identifier
+  begin_animation_frames;
+  ast2.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.400000;//size*128
+  0.800000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.800000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  1;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Ast2;//name---------------------------------------
+  13;//identifier
+  begin_animation_frames;
+  ast3.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.400000;//size*128
+  0.800000;//vary size
+  1;//transparent
+  1;//layer
+ 0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.800000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  1;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+metal wall;//name---------------------------------------
+  14;//identifier
+  begin_animation_frames;
+  metal_wall.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.000000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  2;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  3.000000;//collision detection parameter0
+  0.900000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  1;//Stops bullets. Use sparingly as this can slow the game down a lot.
+metal wall 2;//name---------------------------------------
+  15;//identifier
+  begin_animation_frames;
+  metal_wall_2.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.000000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  2;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  3.000000;//collision detection parameter0
+  0.900000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+ 0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+floorfiller;//name---------------------------------------
+  16;//identifier
+  begin_animation_frames;
+  floorfiller.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.000000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+floorfiller2;//name---------------------------------------
+  17;//identifier
+  begin_animation_frames;
+  floorfiller2.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.000000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+window;//name---------------------------------------
+  18;//identifier
+  begin_animation_frames;
+  window1.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.000000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  2.000000;//collision detection parameter0
+  1.500000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  1;//Stops bullets. Use sparingly as this can slow the game down a lot.
+terminal;//name---------------------------------------
+  19;//identifier
+  begin_animation_frames;
+  computerpanel2.png;//texture name
+    300.000000;//time to display frame
+  computerpanel3.png;//texture name
+    300.000000;//time to display frame
+  computerpanel4.png;//texture name
+    300.000000;//time to display frame
+  computerpanel5.png;//texture name
+    300.000000;//time to display frame 
+  computerpanel6.png;//texture name
+    300.000000;//time to display frame 
+  end_animation_frames;
+  1.000000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  4.000000;//collision detection parameter0
+  1.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+terminal;//name---------------------------------------
+  20;//identifier
+  begin_animation_frames;
+  computerterm1.png;//texture name
+    800.000000;//time to display frame
+  computerterm1m.png;//texture name
+    800.000000;//time to display frame 
+  end_animation_frames;
+  1.000000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  1.000000;//collision detection parameter0
+  0.700000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+computers;//name---------------------------------------
+  21;//identifier
+  begin_animation_frames;
+  magnetizer.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.000000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  1.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+floorfiller3;//name---------------------------------------
+  22;//identifier
+  begin_animation_frames;
+  metal_floor_4.jpg;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.000000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+metal floor;//name---------------------------------------
+  23;//identifier
+  begin_animation_frames;
+  metal_floor_6.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.000000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  1.000000;//collision detection parameter0
+  0.700000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+radar;//name---------------------------------------
+  24;//identifier
+  begin_animation_frames;
+  rad1.png;//texture name
+    80.000000;//time to display frame
+  rad2.png;//texture name
+    80.000000;//time to display frame 
+  rad3.png;//texture name
+    80.000000;//time to display frame
+  rad4.png;//texture name
+    80.000000;//time to display frame  
+  rad5.png;//texture name
+    80.000000;//time to display frame
+  rad6.png;//texture name
+    80.000000;//time to display frame 
+  rad7.png;//texture name
+    80.000000;//time to display frame 
+  end_animation_frames;
+  1.000000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  2;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+yellow_black;//name---------------------------------------
+  25;//identifier
+  begin_animation_frames;
+  black_yellow.jpg;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.000000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+fighter;//name---------------------------------------
+  26;//identifier
+  begin_animation_frames;
+  fighter_plot.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.000000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  2;//layer
+  0;//does it sway with the wind
+  1;//gets transparent when player near
+  1;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.700000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Health pack;//name---------------------------------------
+  27;//identifier
+  begin_animation_frames;
+  hp.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.300000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.700000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+wolf;//name---------------------------------------
+  28;//identifier
+  begin_animation_frames;
+  wolfiv.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.000000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  2;//layer
+  0;//does it sway with the wind
+  1;//gets transparent when player near
+  1;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.700000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+tree1;//name---------------------------------------
+  29;//identifier
+  begin_animation_frames;
+  puu1.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.000000;//size*128
+  0.800000;//vary size
+  1;//transparent
+  2;//layer
+  1;//does it sway with the wind
+  1;//gets transparent when player near
+  1;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+plant1;//name---------------------------------------
+  30;//identifier
+  begin_animation_frames;
+  puu2.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.550000;//size*128
+  0.500000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+tree3;//name---------------------------------------
+  31;//identifier
+  begin_animation_frames;
+  puu5.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.000000;//size*128
+  0.800000;//vary size
+  1;//transparent
+  2;//layer
+  1;//does it sway with the wind
+  1;//gets transparent when player near
+  1;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+plant2;//name---------------------------------------
+  32;//identifier
+  begin_animation_frames;
+  puu0.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.550000;//size*128
+  1.500000;//vary size
+  1;//transparent
+  0;//layer
+  1;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+crater;//name---------------------------------------
+  33;//identifier
+  begin_animation_frames;
+  crater.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  2.500000;//size*128
+  0.500000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Sandbag;//name---------------------------------------
+  34;//identifier
+  begin_animation_frames;
+  sandbag.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.200000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  5.000000;//collision detection parameter0
+  0.600000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Invisible filler;//name---------------------------------------
+  35;//identifier
+  begin_animation_frames;
+  invisible.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.000000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  1.000000;//collision detection parameter0
+  1.000000;//collision detection parameter1
+ 0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Sandbag (round);//name---------------------------------------
+  36;//identifier
+  begin_animation_frames;
+  sandbag2.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.000000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.900000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Dead Guy;//name---------------------------------------
+  37;//identifier
+  begin_animation_frames;
+  deadguy.png;//texture name
+    29700.000000;//time to display frame    
+  deadguy.png;//texture name
+    100.000000;//time to display frame
+  deadguy2.png;//texture name
+    100.000000;//time to display frame
+  deadguy3.png;//texture name
+    100.000000;//time to display frame
+  deadguy4.png;//texture name
+    29500.000000;//time to display frame
+  end_animation_frames;
+  1.000000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Sandbag (round, small);//name---------------------------------------
+  38;//identifier
+  begin_animation_frames;
+  sandbag2.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.600000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.900000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Fighter shadow;//name---------------------------------------
+  39;//identifier
+  begin_animation_frames;
+  fightershadow.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.000000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.900000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+caps chair;//name---------------------------------------
+  40;//identifier
+  begin_animation_frames;
+  chair.png;//texture name
+    1000.000000;//time to display frame
+  chair2.png;//texture name
+    1000.000000;//time to display frame 
+  end_animation_frames;
+  0.700000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.600000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Wreck1;//name---------------------------------------
+  41;//identifier
+  begin_animation_frames;
+  wreck1.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.250000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  1;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.600000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Wreck2;//name---------------------------------------
+  42;//identifier
+  begin_animation_frames;
+  wreck2.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.700000;//size*128
+  0.200000;//vary size
+  1;//transparent
+  1;//layer
+  1;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.600000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Wreck3;//name---------------------------------------
+  43;//identifier
+  begin_animation_frames;
+  wreck3.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.200000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  1;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.600000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Wreck4;//name---------------------------------------
+  44;//identifier
+  begin_animation_frames;
+  wreck4.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.000000;//size*128
+  0.200000;//vary size
+  1;//transparent
+  1;//layer
+  1;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  1.000000;//collision detection parameter0
+  0.600000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Building1;//name---------------------------------------
+  45;//identifier
+  begin_animation_frames;
+  build1.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.000000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  1;//provides shade for player
+  1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  6.000000;//collision detection parameter0
+  0.700000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  1;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Building2;//name---------------------------------------
+  46;//identifier
+  begin_animation_frames;
+  build2.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.000000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  1;//provides shade for player
+  1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  6.000000;//collision detection parameter0
+  0.700000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  1;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Rubble;//name---------------------------------------
+  47;//identifier
+  begin_animation_frames;
+  rubble.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.500000;//size*128
+  1.300000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.500000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Building3;//name---------------------------------------
+  48;//identifier
+  begin_animation_frames;
+  build3.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.000000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  1;//provides shade for player
+  1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  6.000000;//collision detection parameter0
+  0.700000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  1;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Building4;//name---------------------------------------
+  49;//identifier
+  begin_animation_frames;
+  build4.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.000000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  1;//provides shade for player
+  1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  6.000000;//collision detection parameter0
+  0.550000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  1;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Building4;//name---------------------------------------5
+  50;//identifier
+  begin_animation_frames;
+  build5.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.000000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  1;//provides shade for player
+  1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  1.000000;//collision detection parameter0
+  0.550000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  1;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Holograph;//name--------------------------------------- (alien spawn)
+  51;//identifier
+  begin_animation_frames;
+  holograph.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.700000;//size*128
+  0.000000;//vary size
+  0;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  1.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Landing pad;//name---------------------------------------
+  52;//identifier
+  begin_animation_frames;
+  landing1.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  2.000000;//size*128
+  0.500000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Healing pool;//name---------------------------------------
+  53;//identifier
+  begin_animation_frames;
+  pool2.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  2.000000;//size*128
+  0.500000;//vary size
+  1;//transparent
+  2;//layer
+  0;//does it sway with the wind
+  1;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Energy pool;//name---------------------------------------
+  54;//identifier
+  begin_animation_frames;
+  pool.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  2.000000;//size*128
+  0.500000;//vary size
+  1;//transparent
+  2;//layer
+  0;//does it sway with the wind
+  1;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Planet rings 1;//name---------------------------------------
+  55;//identifier
+  begin_animation_frames;
+  ring1.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.000000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Spaceob1;//name---------------------------------------
+  56;//identifier
+  begin_animation_frames;
+  spaceob1.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.900000;//size*128
+  0.600000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Spaceob2;//name---------------------------------------
+  57;//identifier
+  begin_animation_frames;
+  spaceob2.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.900000;//size*128
+  0.600000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Spaceob3;//name---------------------------------------
+  58;//identifier
+  begin_animation_frames;
+  spaceob3.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.900000;//size*128
+  0.300000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Spaceob4;//name---------------------------------------
+  59;//identifier
+  begin_animation_frames;
+  spaceob4.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.900000;//size*128
+  0.600000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Spaceob5;//name---------------------------------------
+  60;//identifier
+  begin_animation_frames;
+  spaceob5.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.900000;//size*128
+  0.600000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Spaceob6;//name---------------------------------------
+  61;//identifier
+  begin_animation_frames;
+  spaceob6.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.900000;//size*128
+  0.600000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Spaceob7;//name---------------------------------------
+  62;//identifier
+  begin_animation_frames;
+  spaceob7.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.900000;//size*128
+  0.600000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Spaceob8;//name---------------------------------------
+  63;//identifier
+  begin_animation_frames;
+  spaceob8.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.900000;//size*128
+  0.600000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Spaceob9;//name---------------------------------------
+  64;//identifier
+  begin_animation_frames;
+  spaceob9.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.900000;//size*128
+  0.600000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Warpgate;//name---------------------------------------
+  65;//identifier
+  begin_animation_frames;
+  qdistortion.png;//texture name
+    50.000000;//time to display frame
+  qdistortion2.png;//texture name
+    50.000000;//time to display frame
+  qdistortion3.png;//texture name
+    50.000000;//time to display frame
+  qdistortion4.png;//texture name
+    50.000000;//time to display frame
+  qdistortion5.png;//texture name
+    50.000000;//time to display frame
+  qdistortion4.png;//texture name
+    50.000000;//time to display frame
+  qdistortion3.png;//texture name
+    50.000000;//time to display frame
+  qdistortion2.png;//texture name
+    50.000000;//time to display frame
+  end_animation_frames;
+  1.800000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+bunker;//name---------------------------------------
+  66;//identifier
+  begin_animation_frames;
+  bunker.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.250000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  1.000000;//collision detection parameter0
+  0.750000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  1;//Stops bullets. Use sparingly as this can slow the game down a lot.
+bunker stairs;//name---------------------------------------
+  67;//identifier
+  begin_animation_frames;
+  stairs.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.250000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  1.000000;//collision detection parameter0
+  0.750000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+broken tank;//name---------------------------------------
+  68;//identifier
+  begin_animation_frames;
+  brokentank.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.200000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  1;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.600000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+broken tank 2;//name---------------------------------------
+  69;//identifier
+  begin_animation_frames;
+  brokentank2.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.200000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  1;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.600000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Mine;//name---------------------------------------
+  70;//identifier
+  begin_animation_frames;
+  mine6.png;//texture name
+    7000.000000;//time to display frame
+  mine1.png;//texture name
+    140.000000;//time to display frame
+  mine2.png;//texture name
+    140.000000;//time to display frame
+  mine3.png;//texture name
+    140.000000;//time to display frame
+  mine4.png;//texture name
+    140.000000;//time to display frame
+  mine7.png;//texture name
+    140.000000;//time to display frame
+  mine5.png;//texture name
+    180.000000;//time to display frame
+  mine7.png;//texture name
+    140.000000;//time to display frame
+  mine4.png;//texture name
+    140.000000;//time to display frame
+  mine3.png;//texture name
+    140.000000;//time to display frame
+  mine2.png;//texture name
+    140.000000;//time to display frame
+  end_animation_frames;
+  0.130000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Friendly mine;//name---------------------------------------
+  71;//identifier
+  begin_animation_frames;
+  mine6.png;//texture name
+    140.000000;//time to display frame
+  mine1.png;//texture name
+    140.000000;//time to display frame
+  mine2.png;//texture name
+    140.000000;//time to display frame
+  mine3.png;//texture name
+    140.000000;//time to display frame
+  mine4.png;//texture name
+    140.000000;//time to display frame
+  mine7.png;//texture name
+    140.000000;//time to display frame
+  mine5.png;//texture name
+    7000.000000;//time to display frame
+  mine7.png;//texture name
+    140.000000;//time to display frame
+  mine4.png;//texture name
+    140.000000;//time to display frame
+  mine3.png;//texture name
+    140.000000;//time to display frame
+  mine2.png;//texture name
+    140.000000;//time to display frame
+  end_animation_frames;
+  0.130000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+shield;//name--------------------------------------- UNFINISHED
+  72;//identifier
+  begin_animation_frames;
+  forcefield.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.900000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  2;//layer
+  0;//does it sway with the wind
+  1;//gets transparent when player near
+  1;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  1.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  1;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Jungle battle planet;//name---------------------------------------
+  73;//identifier
+  begin_animation_frames;
+  pjunglebattle.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.800000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.900000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Store;//name---------------------------------------
+  74;//identifier
+  begin_animation_frames;
+  store2.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.300000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  2;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Building - wood, small;//name---------------------------------------
+  75;//identifier
+  begin_animation_frames;
+  woodbuilding.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.200000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  2;//layer
+  0;//does it sway with the wind
+  1;//gets transparent when player near
+  1;//provides shade for player
+  1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  6.000000;//collision detection parameter0
+  0.550000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  1;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Building - wood, double;//name---------------------------------------
+  76;//identifier
+  begin_animation_frames;
+  woodbuilding2.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.200000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  2;//layer
+  0;//does it sway with the wind
+  1;//gets transparent when player near
+  1;//provides shade for player
+  1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  1.000000;//collision detection parameter0
+  0.750000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  1;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Building - wood, small R;//name---------------------------------------
+  77;//identifier
+  begin_animation_frames;
+  woodbuildingr.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.200000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  2;//layer
+  0;//does it sway with the wind
+  1;//gets transparent when player near
+  1;//provides shade for player
+  1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  6.000000;//collision detection parameter0
+  0.550000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  1;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Building - wood, double R;//name---------------------------------------
+  78;//identifier
+  begin_animation_frames;
+  woodbuilding2r.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.200000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  2;//layer
+  0;//does it sway with the wind
+  1;//gets transparent when player near
+  1;//provides shade for player
+  1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  1.000000;//collision detection parameter0
+  0.750000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  1;//Stops bullets. Use sparingly as this can slow the game down a lot.
+tree3;//name---------------------------------------
+  79;//identifier
+  begin_animation_frames;
+  tree3.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.000000;//size*128
+  1.000000;//vary size
+  1;//transparent
+  2;//layer
+  1;//does it sway with the wind
+  1;//gets transparent when player near
+  1;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+tree4;//name---------------------------------------
+  80;//identifier
+  begin_animation_frames;
+  puu6.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.000000;//size*128
+  1.000000;//vary size
+  1;//transparent
+  2;//layer
+  1;//does it sway with the wind
+  1;//gets transparent when player near
+  1;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+tree5;//name---------------------------------------
+  81;//identifier
+  begin_animation_frames;
+  tree1.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.000000;//size*128
+  1.000000;//vary size
+  1;//transparent
+  2;//layer
+  1;//does it sway with the wind
+  1;//gets transparent when player near
+  1;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Building - wood, long;//name---------------------------------------
+  82;//identifier
+  begin_animation_frames;
+  woodbuilding3.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.400000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  2;//layer
+  0;//does it sway with the wind
+  1;//gets transparent when player near
+  1;//provides shade for player
+  1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  7.000000;//collision detection parameter0
+  0.550000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  1;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Building - wood, long R;//name---------------------------------------
+  83;//identifier
+  begin_animation_frames;
+  woodbuilding3r.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.400000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  2;//layer
+  0;//does it sway with the wind
+  1;//gets transparent when player near
+  1;//provides shade for player
+  1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  7.000000;//collision detection parameter0
+  0.550000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  1;//Stops bullets. Use sparingly as this can slow the game down a lot.
+skel0;//name---------------------------------------
+  84;//identifier
+  begin_animation_frames;
+  skel0.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.200000;//size*128
+  0.100000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+skel1;//name---------------------------------------
+  85;//identifier
+  begin_animation_frames;
+  skel3.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.200000;//size*128
+  0.100000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Tank frame;//name---------------------------------------
+  86;//identifier
+  begin_animation_frames;
+  tankframe.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.200000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.800000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Building - metal0, small;//name---------------------------------------
+  87;//identifier
+  begin_animation_frames;
+  metalbuilding.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.200000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  2;//layer
+  0;//does it sway with the wind
+  1;//gets transparent when player near
+  1;//provides shade for player
+  1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  6.000000;//collision detection parameter0
+  0.550000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  1;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Building - metal0, small R;//name---------------------------------------
+  88;//identifier
+  begin_animation_frames;
+  metalbuildingr.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.200000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  2;//layer
+  0;//does it sway with the wind
+  1;//gets transparent when player near
+  1;//provides shade for player
+  1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  6.000000;//collision detection parameter0
+  0.550000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  1;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Building - metal1, small;//name---------------------------------------
+  89;//identifier
+  begin_animation_frames;
+  metalbuilding3.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.200000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  2;//layer
+  0;//does it sway with the wind
+  1;//gets transparent when player near
+  1;//provides shade for player
+  1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  6.000000;//collision detection parameter0
+  0.550000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  1;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Building - metal1, small R;//name---------------------------------------
+  90;//identifier
+  begin_animation_frames;
+  metalbuilding3r.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.200000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  2;//layer
+  0;//does it sway with the wind
+  1;//gets transparent when player near
+  1;//provides shade for player
+  1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  6.000000;//collision detection parameter0
+  0.550000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  1;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Building - metal1, long;//name---------------------------------------
+  91;//identifier
+  begin_animation_frames;
+  metalbuilding4.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.400000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  2;//layer
+  0;//does it sway with the wind
+  1;//gets transparent when player near
+  1;//provides shade for player
+  1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  7.000000;//collision detection parameter0
+  0.500000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  1;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Building - metal1, long R;//name---------------------------------------
+  92;//identifier
+  begin_animation_frames;
+  metalbuilding4r.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.400000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  2;//layer
+  0;//does it sway with the wind
+  1;//gets transparent when player near
+  1;//provides shade for player
+  1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  7.000000;//collision detection parameter0
+  0.500000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  1;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Building - metal2, small;//name---------------------------------------
+  93;//identifier
+  begin_animation_frames;
+  metalbuilding2.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.200000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  2;//layer
+  0;//does it sway with the wind
+  1;//gets transparent when player near
+  1;//provides shade for player
+  1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  6.000000;//collision detection parameter0
+  0.650000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  1;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Building - metal, small R;//name---------------------------------------
+  94;//identifier
+  begin_animation_frames;
+  metalbuilding2r.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.200000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  2;//layer
+  0;//does it sway with the wind
+  1;//gets transparent when player near
+  1;//provides shade for player
+  1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  6.000000;//collision detection parameter0
+  0.650000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  1;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Building - metal2, double;//name---------------------------------------
+  95;//identifier
+  begin_animation_frames;
+  metalbuilding6.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.200000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  2;//layer
+  0;//does it sway with the wind
+  1;//gets transparent when player near
+  1;//provides shade for player
+  1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  7.000000;//collision detection parameter0
+  0.600000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  1;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Building - metal2, double R;//name---------------------------------------
+  96;//identifier
+  begin_animation_frames;
+  metalbuilding6r.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.200000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  2;//layer
+  0;//does it sway with the wind
+  1;//gets transparent when player near
+  1;//provides shade for player
+  1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  7.000000;//collision detection parameter0
+  0.600000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  1;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Building - metal2, long;//name---------------------------------------
+  97;//identifier
+  begin_animation_frames;
+  metalbuilding5.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.400000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  2;//layer
+  0;//does it sway with the wind
+  1;//gets transparent when player near
+  1;//provides shade for player
+  1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  7.000000;//collision detection parameter0
+  0.500000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  1;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Building - metal2, long R;//name---------------------------------------
+  98;//identifier
+  begin_animation_frames;
+  metalbuilding5r.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.400000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  2;//layer
+  0;//does it sway with the wind
+  1;//gets transparent when player near
+  1;//provides shade for player
+  1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  7.000000;//collision detection parameter0
+  0.500000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  1;//Stops bullets. Use sparingly as this can slow the game down a lot.
+tree6;//name---------------------------------------
+  99;//identifier
+  begin_animation_frames;
+  tree.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.800000;//size*128
+  1.000000;//vary size
+  1;//transparent
+  2;//layer
+  1;//does it sway with the wind
+  1;//gets transparent when player near
+  1;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+seashell;//name---------------------------------------
+  100;//identifier
+  begin_animation_frames;
+  seashell1.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.070000;//size*128
+  0.200000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Mining;//name---------------------------------------
+  101;//identifier
+  begin_animation_frames;
+  oremine.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.200000;//size*128
+  0.080000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.700000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Barrel upright;//name---------------------------------------
+  102;//identifier
+  begin_animation_frames;
+  barrel1.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.400000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.600000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Barrel fallen;//name---------------------------------------
+  103;//identifier
+  begin_animation_frames;
+  barrel2.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.400000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  6.000000;//collision detection parameter0
+  0.600000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+kivi0;//name---------------------------------------
+  104;//identifier
+  begin_animation_frames;
+  kivi0.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.320000;//size*128
+  1.400000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.700000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+kivi2;//name---------------------------------------
+  105;//identifier
+  begin_animation_frames;
+  kivi2.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.370000;//size*128
+  1.400000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.900000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+kivi3;//name---------------------------------------
+  106;//identifier
+  begin_animation_frames;
+  kivi3.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.370000;//size*128
+  1.400000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.900000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Mined rock;//name---------------------------------------
+  107;//identifier
+  begin_animation_frames;
+  minedrock.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.400000;//size*128
+  0.800000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Table;//name---------------------------------------
+  108;//identifier
+  begin_animation_frames;
+  table.tga;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.000000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  6.000000;//collision detection parameter0
+  0.700000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Chair;//name---------------------------------------
+  109;//identifier
+  begin_animation_frames;
+  chair.tga;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.400000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.800000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Tipped Chair;//name---------------------------------------
+  110;//identifier
+  begin_animation_frames;
+  tippedchair.tga;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.600000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.900000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Dynamite;//name---------------------------------------
+  111;//identifier
+  begin_animation_frames;
+  dynamite3.png;//texture name-------------1st
+    950.000000;//time to display frame
+  dynamite1.png;//texture name
+    80.000000;//time to display frame
+  dynamite3.png;//texture name
+    950.000000;//time to display frame
+  dynamite1.png;//texture name
+    80.000000;//time to display frame
+  dynamite3.png;//texture name
+    950.000000;//time to display frame
+  dynamite1.png;//texture name
+    80.000000;//time to display frame
+  dynamite3.png;//texture name
+    950.000000;//time to display frame
+  dynamite1.png;//texture name
+    80.000000;//time to display frame
+  dynamite3.png;//texture name
+    950.000000;//time to display frame
+  dynamite1.png;//texture name
+    80.000000;//time to display frame
+  dynamite3.png;//texture name-------------2ndt
+    650.000000;//time to display frame
+  dynamite1.png;//texture name
+    80.000000;//time to display frame
+  dynamite3.png;//texture name
+    450.000000;//time to display frame
+  dynamite1.png;//texture name
+    80.000000;//time to display frame
+  dynamite3.png;//texture name
+    450.000000;//time to display frame
+  dynamite1.png;//texture name
+    80.000000;//time to display frame
+  dynamite3.png;//texture name
+    450.000000;//time to display frame
+  dynamite1.png;//texture name
+    80.000000;//time to display frame
+  dynamite3.png;//texture name
+    450.000000;//time to display frame
+  dynamite1.png;//texture name
+    80.000000;//time to display frame
+  dynamite3.png;//texture name
+    450.000000;//time to display frame
+  dynamite1.png;//texture name
+    80.000000;//time to display frame
+  dynamite3.png;//texture name
+    450.000000;//time to display frame
+  dynamite1.png;//texture name
+    80.000000;//time to display frame
+  dynamite3.png;//texture name
+    450.000000;//time to display frame
+  dynamite1.png;//texture name
+    80.000000;//time to display frame
+  dynamite3.png;//texture name--------------3rd
+    300.000000;//time to display frame
+  dynamite1.png;//texture name
+    60.000000;//time to display frame
+  dynamite3.png;//texture name
+    200.000000;//time to display frame
+  dynamite1.png;//texture name
+    60.000000;//time to display frame
+  dynamite3.png;//texture name
+    200.000000;//time to display frame
+  dynamite1.png;//texture name
+    60.000000;//time to display frame
+  dynamite3.png;//texture name
+    200.000000;//time to display frame
+  dynamite1.png;//texture name
+    60.000000;//time to display frame
+  dynamite3.png;//texture name
+    200.000000;//time to display frame
+  dynamite1.png;//texture name
+    60.000000;//time to display frame
+  dynamite3.png;//texture name
+    200.000000;//time to display frame
+  dynamite1.png;//texture name
+    60.000000;//time to display frame
+  dynamite3.png;//texture name
+    200.000000;//time to display frame
+  dynamite1.png;//texture name
+    60.000000;//time to display frame
+  dynamite3.png;//texture name
+    200.000000;//time to display frame
+  dynamite1.png;//texture name
+    60.000000;//time to display frame
+  dynamite3.png;//texture name
+    2000.000000;//time to display frame
+  end_animation_frames;
+  0.400000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Mining staircase;//name---------------------------------------
+  112;//identifier
+  begin_animation_frames;
+  staircase.tga;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.200000;//size*128
+  0.080000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.700000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Grunge;//name---------------------------------------
+  113;//identifier
+  begin_animation_frames;
+  grunge.tga;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.4000;//size*128
+ 0.40000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Target;//name---------------------------------------
+  114;//identifier
+  begin_animation_frames;
+  target.png;//texture name
+    250.000000;//time to display frame
+target2.png;//texture name
+    50.000000;//time to display frame
+ target2.png;//texture name
+    50.000000;//time to display frame
+target2.png;//texture name
+    50.000000;//time to display frame
+  end_animation_frames;
+  2.00000;//size*128
+ 0.000000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Snow;//name---------------------------------------
+  115;//identifier
+  begin_animation_frames;
+  snow.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.00000;//size*128
+  1.500000;//vary size
+  1;//transparent
+  2;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+treesnow1;//name---------------------------------------
+  116;//identifier
+  begin_animation_frames;
+  treesnow1.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.600000;//size*128
+  1.000000;//vary size
+  1;//transparent
+  2;//layer
+  1;//does it sway with the wind
+  1;//gets transparent when player near
+  1;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+treesnow1;//name---------------------------------------
+  117;//identifier
+  begin_animation_frames;
+  treesnow2.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+   0.600000;//size*128
+  1.000000;//vary size
+  1;//transparent
+  2;//layer
+  1;//does it sway with the wind
+  1;//gets transparent when player near
+  1;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+treesnow1;//name---------------------------------------
+  118;//identifier
+  begin_animation_frames;
+  treesnow3.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+   0.600000;//size*128
+  1.000000;//vary size
+  1;//transparent
+  2;//layer
+  1;//does it sway with the wind
+  1;//gets transparent when player near
+  1;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+treesnow1;//name---------------------------------------
+  119;//identifier
+  begin_animation_frames;
+  treesnow4.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.70000;//size*128
+  1.100000;//vary size
+  1;//transparent
+  2;//layer
+  1;//does it sway with the wind
+  1;//gets transparent when player near
+  1;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+ruin1;//name---------------------------------------
+ 120;//identifier
+  begin_animation_frames;
+    ruin1.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  2.450000;//size*128
+  0.200000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.500000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+ruin2;//name---------------------------------------
+  121;//identifier
+  begin_animation_frames;
+    ruin2.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  2.450000;//size*128
+  0.200000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.500000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+ruin3;//name---------------------------------------
+  122;//identifier
+  begin_animation_frames;
+    ruin3.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  2.450000;//size*128
+  0.200000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.500000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+ruin4;//name---------------------------------------
+  123;//identifier
+  begin_animation_frames;
+    ruin4.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  2.450000;//size*128
+  0.200000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.300000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+ruin5;//name---------------------------------------
+  124;//identifier
+  begin_animation_frames;
+    ruin5.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  2.450000;//size*128
+  0.200000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Trap empty;//name---------------------------------------
+  125;//identifier
+  begin_animation_frames;
+    trapempty.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.45000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.500000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Trap full;//name---------------------------------------
+  126;//identifier
+  begin_animation_frames;
+    trapfull.png;//texture name
+    3000.000000;//time to display frame
+ trapfull2.png;//texture name
+    100.000000;//time to display frame
+ trapfull3.png;//texture name
+    100.000000;//time to display frame
+ trapfull4.png;//texture name
+    100.000000;//time to display frame
+ trapfull5.png;//texture name
+    100.000000;//time to display frame
+ trapfull4.png;//texture name
+    100.000000;//time to display frame
+ trapfull3.png;//texture name
+    100.000000;//time to display frame
+ trapfull2.png;//texture name
+    100.000000;//time to display frame
+ trapfull.png;//texture name
+    400.000000;//time to display frame
+ trapfull2.png;//texture name
+    100.000000;//time to display frame
+ trapfull3.png;//texture name
+    100.000000;//time to display frame
+ trapfull2.png;//texture name
+    100.000000;//time to display frame
+trapfull.png;//texture name
+    4000.000000;//time to display frame
+trapfull2.png;//texture name
+    100.000000;//time to display frame
+ trapfull3.png;//texture name
+    100.000000;//time to display frame
+ trapfull4.png;//texture name
+    100.000000;//time to display frame
+ trapfull5.png;//texture name
+    3000.000000;//time to display frame
+ trapfull4.png;//texture name
+    100.000000;//time to display frame
+ trapfull3.png;//texture name
+    100.000000;//time to display frame
+ trapfull2.png;//texture name
+    100.000000;//time to display frame
+trapfull.png;//texture name
+    1500.000000;//time to display frame
+ trapfull2.png;//texture name
+    100.000000;//time to display frame
+ trapfull3.png;//texture name
+    1500.000000;//time to display frame
+ trapfull2.png;//texture name
+    100.000000;//time to display frame
+   end_animation_frames;
+  0.45000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+ -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.500000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Beacon unlit;//name---------------------------------------
+ 127;//identifier
+  begin_animation_frames;
+  beacon1.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.100000;//size*128
+  0.00000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.5000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Beacon lit;//name---------------------------------------
+ 128;//identifier
+  begin_animation_frames;
+  beacon2.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.100000;//size*128
+  0.00000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.5000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Radar off;//name---------------------------------------
+ 129;//identifier
+  begin_animation_frames;
+  comsystem.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  2.500000;//size*128
+  0.500000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Radar on;//name---------------------------------------
+ 130;//identifier
+  begin_animation_frames;
+  comsystem2.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  2.500000;//size*128
+  0.500000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Crystal;//name---------------------------------------
+  131;//identifier
+  begin_animation_frames;
+  crystal1.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.10000;//size*128
+  0.80000;//vary size
+  1;//transparent
+  2;//layer
+  0;//does it sway with the wind
+  1;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.600000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+ 1;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Crystal2;//name---------------------------------------
+  132;//identifier
+  begin_animation_frames;
+  crystal2.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.10000;//size*128
+  0.80000;//vary size
+  1;//transparent
+  2;//layer
+  0;//does it sway with the wind
+  1;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.600000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  1;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Fuel pump;//name---------------------------------------
+  133;//identifier
+  begin_animation_frames;
+fuelpump.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+ 0.6700000;//size*128
+  0.00000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.4000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Couch;//name---------------------------------------
+  134;//identifier
+  begin_animation_frames;
+couch.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.400000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.600000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Bed;//name---------------------------------------
+  135;//identifier
+  begin_animation_frames;
+bed.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.600000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+   1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+ 1.000000;//collision detection parameter0
+  0.60000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Fire;//name---------------------------------------
+  136;//identifier
+  begin_animation_frames;
+  invisible.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.000000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.200000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Alien light;//name---------------------------------------
+ 137;//identifier
+  begin_animation_frames;
+  alienlight.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.400000;//size*128
+  0.000000;//vary size
+  1;//transparent
+ 2;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.600000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+alienprop;//name---------------------------------------
+  138;//identifier
+  begin_animation_frames;
+  alienprop.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.00000;//size*128
+ 0.500000;//vary size
+  1;//transparent
+ 0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.800000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+tentacle vines;//name---------------------------------------
+  139;//identifier
+  begin_animation_frames;
+    qvines.png;//texture name
+   100.000000;//time to display frame
+    qvines2.png;//texture name
+    100.000000;//time to display frame
+    qvines3.png;//texture name
+    100.000000;//time to display frame
+    qvines4.png;//texture name
+    100.000000;//time to display frame
+    qvines5.png;//texture name
+    100.000000;//time to display frame
+    qvines4.png;//texture name
+   100.000000;//time to display frame
+    qvines3.png;//texture name
+   100.000000;//time to display frame
+    qvines2.png;//texture name
+   600.000000;//time to display frame
+    qvines.png;//texture name
+   100.000000;//time to display frame
+    qvines2.png;//texture name
+    100.000000;//time to display frame
+    qvines3.png;//texture name
+    100.000000;//time to display frame
+    qvines4.png;//texture name
+    500.000000;//time to display frame
+    qvines5.png;//texture name
+    100.000000;//time to display frame
+    qvines4.png;//texture name
+   100.000000;//time to display frame
+    qvines3.png;//texture name
+   100.000000;//time to display frame
+    qvines2.png;//texture name
+   1000.000000;//time to display frame
+    qvines.png;//texture name
+   100.000000;//time to display frame
+    qvines2.png;//texture name
+    100.000000;//time to display frame
+    qvines3.png;//texture name
+    100.000000;//time to display frame
+    qvines4.png;//texture name
+    100.000000;//time to display frame
+    qvines5.png;//texture name
+    800.000000;//time to display frame
+    qvines4.png;//texture name
+   100.000000;//time to display frame
+    qvines3.png;//texture name
+   100.000000;//time to display frame
+    qvines2.png;//texture name
+   5000.000000;//time to display frame
+  end_animation_frames;
+  0.800000;//size*128
+  1.200000;//vary size
+  1;//transparent
+  2;//layer
+  1;//does it sway with the wind
+  1;//gets transparent when player near
+  1;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.250000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Dead Egg;//name---------------------------------------
+ 140;//identifier
+  begin_animation_frames;
+invisible.png;//texture name
+  680.000000;//time to display frame    
+invisible.png;//texture name
+   14600.000000;//time to display frame    
+  eggfade1.png;//texture name
+   100.000000;//time to display frame    
+ eggfade2.png;//texture name
+    100.000000;//time to display frame
+eggfade3.png;//texture name
+    100.000000;//time to display frame
+eggfade4.png;//texture name
+    100.000000;//time to display frame
+ eggfade5.png;//texture name
+    10000.000000;//time to display frame
+  end_animation_frames;
+  1.000000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Darkplanet1 captured by aliens;//name---------------------------------------
+ 141;//identifier
+  begin_animation_frames;
+ alienplanet.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.300000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.900000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+tentacle vines not moving;//name---------------------------------------
+  142;//identifier
+  begin_animation_frames;
+    qvines.png;//texture name
+   0.000000;//time to display frame
+  end_animation_frames;
+  0.80000;//size*128
+  1.200000;//vary size
+  1;//transparent
+  2;//layer
+  1;//does it sway with the wind
+  1;//gets transparent when player near
+  1;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.250000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Forcefield;//name---------------------------------------
+  143;//identifier
+  begin_animation_frames;
+ forcefield1.png;//texture name
+    100.000000;//time to display frame
+ forcefield2.png;//texture name
+    100.000000;//time to display frame
+ forcefield3.png;//texture name
+    100.000000;//time to display frame
+ forcefield4.png;//texture name
+    100.000000;//time to display frame
+  end_animation_frames;
+  1.000000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  3.000000;//collision detection parameter0
+  1.100000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  1;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Meteorite crater;//name---------------------------------------
+  144;//identifier
+  begin_animation_frames;
+  mcrater.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.700000;//size*128
+  2.300000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Moon rubble1;//name---------------------------------------
+  145;//identifier
+  begin_animation_frames;
+  moonrubble1.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.300000;//size*128
+  1.20000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Moon rubble2;//name---------------------------------------
+  146;//identifier
+  begin_animation_frames;
+  moonrubble2.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.300000;//size*128
+  1.20000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Moon rubble3;//name---------------------------------------
+  147;//identifier
+  begin_animation_frames;
+  moonrubble3.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.300000;//size*128
+  1.20000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Moon;//name---------------------------------------
+ 148;//identifier
+  begin_animation_frames;
+ moon1.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.000000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.00000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Alien slime;//name---------------------------------------
+  149;//identifier
+  begin_animation_frames;
+   alienslime.png;//texture name
+  100.000000;//time to display frame
+    alienslime2.png;//texture name
+   100.000000;//time to display frame
+    alienslime3.png;//texture name
+    100.000000;//time to display frame
+    alienslime4.png;//texture name
+   100.000000;//time to display frame
+    alienslime5.png;//texture name
+    100.000000;//time to display frame
+    alienslime4.png;//texture name
+   100.000000;//time to display frame
+    alienslime3.png;//texture name
+ 100.000000;//time to display frame
+    alienslime2.png;//texture name
+   100.000000;//time to display frame
+    end_animation_frames;
+  0.400000;//size*128
+  1.00000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Moon2;//name---------------------------------------
+ 150;//identifier
+  begin_animation_frames;
+ moon2.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.000000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.0000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+treecaremel;//name---------------------------------------
+  151;//identifier
+  begin_animation_frames;
+  caremeltree.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+   0.600000;//size*128
+  1.000000;//vary size
+  1;//transparent
+  2;//layer
+  1;//does it sway with the wind
+  1;//gets transparent when player near
+  1;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Station;//name---------------------------------------
+  152;//identifier
+  begin_animation_frames;
+  pstation.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.000000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.900000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Ships parked;//name---------------------------------------
+  153;//identifier
+  begin_animation_frames;
+  yellowwaz.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.000000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  2;//layer
+  0;//does it sway with the wind
+  1;//gets transparent when player near
+  1;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.4000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Ships parked;//name---------------------------------------
+  154;//identifier
+  begin_animation_frames;
+  bluewaz.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.000000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  2;//layer
+  0;//does it sway with the wind
+  1;//gets transparent when player near
+  1;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.400000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Ships parked;//name---------------------------------------
+  155;//identifier
+  begin_animation_frames;
+  greenwaz.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.000000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  2;//layer
+  0;//does it sway with the wind
+  1;//gets transparent when player near
+  1;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.400000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Ships parked;//name---------------------------------------
+  156;//identifier
+  begin_animation_frames;
+  redwaz.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.000000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  2;//layer
+  0;//does it sway with the wind
+  1;//gets transparent when player near
+  1;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.400000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+destorer parked 1;//name---------------------------------------
+  157;//identifier
+  begin_animation_frames;
+  half1destroyer.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.000000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  2;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  1;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.400000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+destorer parked 2;//name---------------------------------------
+  158;//identifier
+  begin_animation_frames;
+  half2destroyer.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.000000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  2;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  1;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.400000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Tanker;//name---------------------------------------
+  159;//identifier
+  begin_animation_frames;
+  tanker.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.400000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  1;//provides shade for player
+  1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  7.000000;//collision detection parameter0
+  0.3500000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Metal rod;//name---------------------------------------
+  160;//identifier
+  begin_animation_frames;
+  mrod.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.000000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  1;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  7.000000;//collision detection parameter0
+  0.3500000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+ 0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Tube;//name---------------------------------------
+  161;//identifier
+  begin_animation_frames;
+  qmetaltube.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.000000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  1;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  7.000000;//collision detection parameter0
+  0.3500000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+ 0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Dead grenade;//name---------------------------------------
+  162;//identifier
+  begin_animation_frames;
+  deadgrenade.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.000000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  1;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  7.000000;//collision detection parameter0
+  0.3500000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot
+tree;//name---------------------------------------
+  163;//identifier
+  begin_animation_frames;
+  tree4.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.200000;//size*128
+  0.600000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  1;//gets transparent when player near
+  1;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+tree;//name---------------------------------------
+  164;//identifier
+  begin_animation_frames;
+  palmtree.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.000000;//size*128
+  0.800000;//vary size
+  1;//transparent
+  2;//layer
+  1;//does it sway with the wind
+  1;//gets transparent when player near
+  1;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+seashell;//name---------------------------------------
+ 165;//identifier
+  begin_animation_frames;
+ shell1.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.070000;//size*128
+  0.200000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+seashell;//name---------------------------------------
+ 166;//identifier
+  begin_animation_frames;
+ shell2.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.070000;//size*128
+  0.200000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+seashell;//name---------------------------------------
+ 167;//identifier
+  begin_animation_frames;
+ shell3.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.070000;//size*128
+  0.200000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+seashell;//name---------------------------------------
+ 168;//identifier
+  begin_animation_frames;
+ shell4.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.070000;//size*128
+  0.200000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+seashell;//name---------------------------------------
+ 169;//identifier
+  begin_animation_frames;
+ shell5.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.070000;//size*128
+  0.200000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+seashell;//name---------------------------------------
+ 170;//identifier
+  begin_animation_frames;
+ shell6.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.070000;//size*128
+  0.200000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+seashell;//name---------------------------------------
+ 171;//identifier
+  begin_animation_frames;
+ shell7.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.070000;//size*128
+  0.200000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+seashell;//name---------------------------------------
+ 172;//identifier
+  begin_animation_frames;
+ shell8.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.070000;//size*128
+  0.200000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+seashell;//name---------------------------------------
+ 173;//identifier
+  begin_animation_frames;
+ shell9.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.070000;//size*128
+  0.200000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+seashell;//name---------------------------------------
+ 174;//identifier
+  begin_animation_frames;
+ shell10.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.070000;//size*128
+  0.200000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+seashell;//name---------------------------------------
+ 175;//identifier
+  begin_animation_frames;
+ shell11.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.070000;//size*128
+  0.200000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+seashell;//name---------------------------------------
+ 176;//identifier
+  begin_animation_frames;
+ shell12.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.070000;//size*128
+  0.200000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+seashell;//name---------------------------------------
+ 177;//identifier
+  begin_animation_frames;
+ shell13.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.070000;//size*128
+  0.200000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+seashell;//name---------------------------------------
+ 178;//identifier
+  begin_animation_frames;
+ shell14.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.070000;//size*128
+  0.200000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+seashell;//name---------------------------------------
+ 179;//identifier
+  begin_animation_frames;
+ shell0.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.070000;//size*128
+  0.200000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+driftwood;//name---------------------------------------
+ 180;//identifier
+  begin_animation_frames;
+ driftwood0.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.070000;//size*128
+  0.200000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+wheel;//name---------------------------------------
+ 181;//identifier
+  begin_animation_frames;
+wheel0.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.40000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Fire;//name---------------------------------------
+  182;//identifier
+  begin_animation_frames;
+  fireplace.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+ 0.400000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.200000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Space filler;//name---------------------------------------
+ 183;//identifier
+  begin_animation_frames;
+spacefiller.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.0000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Wood filler;//name---------------------------------------
+ 184;//identifier
+  begin_animation_frames;
+woodfiller.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.0000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+tree5;//name---------------------------------------
+  185;//identifier
+  begin_animation_frames;
+  tree5.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.700000;//size*128
+  0.600000;//vary size
+  1;//transparent
+  1;//layer
+  1;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+tree6;//name---------------------------------------
+  186;//identifier
+  begin_animation_frames;
+  tree6.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.800000;//size*128
+  0.700000;//vary size
+  1;//transparent
+  2;//layer
+  1;//does it sway with the wind
+  1;//gets transparent when player near
+ 1;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Greenplanet;//name---------------------------------------
+  187;//identifier
+  begin_animation_frames;
+  pgreen.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.300000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.900000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Burning earth;//name---------------------------------------
+  188;//identifier
+  begin_animation_frames;
+ burningearth.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  1.300000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.900000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Burning moon;//name---------------------------------------
+  189;//identifier
+  begin_animation_frames;
+ burningmoon.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.90000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.900000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Burning venus;//name---------------------------------------
+  190;//identifier
+  begin_animation_frames;
+ burningvenus1.png;//texture name
+    50.000000;//time to display frame
+ burningvenus2.png;//texture name
+    50.000000;//time to display frame
+ burningvenus3.png;//texture name
+    50.000000;//time to display frame
+ burningvenus4.png;//texture name
+    50.000000;//time to display frame
+  end_animation_frames;
+  1.1000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.900000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Burning mercury;//name---------------------------------------
+  191;//identifier
+  begin_animation_frames;
+ burningmerc.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.90000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.900000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Supernova;//name---------------------------------------
+  192;//identifier
+  begin_animation_frames;
+  supernova.png;//texture name
+    0.000000;//time to display frame8
+  end_animation_frames;
+  2.00000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.750000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Jupiter;//name---------------------------------------
+  193;//identifier
+  begin_animation_frames;
+  blownjupiter.png;//texture name
+    0.000000;//time to display frame8
+  end_animation_frames;
+  2.00000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.750000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Mars;//name---------------------------------------
+  194;//identifier
+  begin_animation_frames;
+  burningmars.png;//texture name
+    0.000000;//time to display frame8
+  end_animation_frames;
+  1.20000;//size*128
+  0.000000;//vary size
+  1;//transparent
+  1;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.750000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Shipdestroyed;//name---------------------------------------
+  195;//identifier
+  begin_animation_frames;
+  dyellowwaz.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.800000;//size*128
+  0.300000;//vary size
+    1;//transparent
+  1;//layer
+  1;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.400000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Shipdestroyed;//name---------------------------------------
+  196;//identifier
+  begin_animation_frames;
+  dbluewaz.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.800000;//size*128
+  0.300000;//vary size
+    1;//transparent
+  1;//layer
+  1;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.400000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Shipdestroyed;//name---------------------------------------
+  197;//identifier
+  begin_animation_frames;
+  dgreenwaz.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.6500000;//size*128
+  0.300000;//vary size
+    1;//transparent
+  1;//layer
+  1;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.400000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+Shipdestroyed;//name---------------------------------------
+  198;//identifier
+  begin_animation_frames;
+  dredwaz.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.800000;//size*128
+  0.300000;//vary size
+  1;//transparent
+  1;//layer
+  1;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.400000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+end_of_file;
+
+

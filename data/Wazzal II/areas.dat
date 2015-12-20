@@ -1,0 +1,530 @@
+0;//---------------------------------------------------------player will start on first area
+  Errxelz System;//area name
+  1;//area class
+  3;//climate in climate_types.dat, -1=random climate
+  5;//terrain map number
+  -1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
+  0.5000000;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
+  begin_alien_list;
+  end_alien_list;
+  begin_excluded_plot_object_classes;
+  1;
+2;
+3;
+4;
+  end_excluded_plot_object_classes;
+ none;//enter area text, specify none to not show it
+1;//Wolf IV: Control area---------------------------------------------------------Ship interior 1
+  Wolf IV: Main deck;//area name
+ 0;//area class
+1;//climate in climate_types.dat, -1=random climate
+ 1;//terrain map number
+  -1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
+  0.000000;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
+  begin_alien_list;
+  end_alien_list;
+  begin_excluded_plot_object_classes;
+  1;
+2;
+3;
+4;
+5;
+  end_excluded_plot_object_classes;
+The Wolf IV is an old ship, yet since the near-disasterous experience on board the Var Equinallin, it is the only craft with which you will ever trust your life. Even when given the offer of becoming Commander of a United Confederate Navy destroyer after your rescue from Notrium, you turned it down, opting instead to continue at the helm of your old travelling companion. Not the fastest or even the most heavily armed of craft, the Wolf is one of the last remaining ships in the universe to be able to claim the description of 'Earth Built'. That alone is enough reason for you to turn down any newer craft, no matter how more avanced they may be. \ \ The interior of the Wolf IV however has been updated to the very latest in Confederate equipment, complete with healing and energy pools, an on-board supply store, and a large scale holographic training deck.;//enter area text, specify none to not show it
+2;//Bunker---------------------------------------------------------Bunker
+  Bunker;//area name
+  0;//area class
+  1;//climate in climate_types.dat, -1=random climate
+  2;//terrain map number
+  -1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
+  0.000000;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
+  begin_alien_list;
+  end_alien_list;
+  begin_excluded_plot_object_classes;
+  1;
+2;
+3;
+4;
+5;
+  end_excluded_plot_object_classes;
+  none;//enter area text, specify none to not show it
+3;//Water planet---------------------------------------------------------planet
+  Naquarin;//area name
+  0;//area class
+  5;//climate in climate_types.dat, -1=random climate
+  3;//terrain map number
+  -1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
+  1.1000000;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
+  begin_alien_list;
+  11;//alien type in creatures.dat--------aliens
+    40;//number of these aliens
+    1;//side
+  38;//alien type in creatures.dat---------aliens
+    20;//number of these aliens
+    1;//side  
+end_alien_list;
+  begin_excluded_plot_object_classes;
+  1;
+5;
+  end_excluded_plot_object_classes;
+  You touch down on the surface of Naquarin in a whirlwind of sand and spray. As you step down from the gangplank, the peaceful crash of waves reaches you ears, and, for the first time since the war began, you smile. This planet brings back some deep, long lost memories... Sun, sand, beaches, trees... \ \ You shake your head violently. That place that no longer exists. Memories, that is all that is left now. Memories, fading faces, and a billion screaming voices. \ \ A blur of green flashes in the trees beyond, and gripping your weapon, you stride out into the showering rain.;//enter area text, specify none to not show it
+4;//Errxelz 8---------------------------------------------------------
+  Errxelz 8;//area name
+  0;//area class
+  4;//climate in climate_types.dat, -1=random climate
+  6;//terrain map number
+  -1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
+  0.8000000;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
+  begin_alien_list;
+  end_alien_list;
+  begin_excluded_plot_object_classes;
+  1;
+2;
+5;
+  end_excluded_plot_object_classes;
+  You shiver as you take in the death and destruction that surrounds you. Your mind can only wonder... what happened here? \ \ Suddenly, a flash of brilliant light fills the sky, followed by the boom of explosions and the chatter of gunfire. It seems the Confederate forces are still desperately trying to defend the planet! In the distance several alien fighters scream over the city, and you realise that there is little chance of saving this outpost. Even so, you feel honour-bound to assist these few remaining brave men. \ \ Strapping your weapons to your belt, you run down the gangway and onto the planet. Before you even have a moment to react, a chilling scream fills the air, and from behind a large rock an alien drone hurtles towards you...;//enter area text, specify none to not show it
+5;//---------------------------------------------------------
+  Ennokknmo System;//area name
+  2;//area class
+  0;//climate in climate_types.dat, -1=random climate
+  0;//terrain map number
+  -1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
+  1.000000;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
+  begin_alien_list;
+  1;//alien type in creatures.dat---------small alien fighters
+    30;//number of these aliens
+    1;//side
+  3;//alien type in creatures.dat---------large alien fighters
+    20;//number of these aliens
+    1;//side
+35;//alien type in creatures.dat---------alien mothership
+    3;//number of these aliens
+    1;//side
+  6;//alien type in creatures.dat---------asteroids
+    30;//number of these aliens
+    5;//side
+  7;//alien type in creatures.dat---------asteroids
+    30;//number of these aliens
+    5;//side
+  8;//alien type in creatures.dat---------asteroids
+    30;//number of these aliens
+    5;//side
+  9;//alien type in creatures.dat---------asteroids
+    30;//number of these aliens
+    5;//side
+70;//alien type in creatures.dat---------asteroids
+ 30;//number of these aliens
+    5;//side
+  71;//alien type in creatures.dat---------asteroids
+  30;//number of these aliens
+    5;//side
+ 72;//alien type in creatures.dat---------asteroids
+    30;//number of these aliens
+    5;//side
+  73;//alien type in creatures.dat---------asteroids
+    30;//number of these aliens
+    5;//side
+  end_alien_list;
+  begin_excluded_plot_object_classes;
+  1;
+2;
+3;
+4;
+  end_excluded_plot_object_classes;
+ USS Crego: Captain! You survived the Errxelz System!  We had almost lost all hope that you had survived.  Ennokknmo has not been as heavily hit as Errxelz, however we cannot expect to hold the system for long. \ \  Please help us to destroy the three Alien battleships in this sector, and clear it of enemy fighters until we are able to warn the United Confederacy about what has taken place this night. \ \  On the planet Kinmegag 71 in the neighboring Tiodia System, there is a massively powerful Interplanetary Signal Array that can be used to contact the Confederate capital, New Dawn. Meanwhile, both Lvlei and the valuable mining planet Zycar in this system are under heavy Alien attack.\ \ We will take the fight to them both on the land and in the skies.  Long live the United Confederacy of Planets!;//enter area text, specify none to not show it
+6;//Lvlei---------------------------------------------------------forest planet
+Lvlei;//area name
+  0;//area class
+  2;//climate in climate_types.dat, -1=random climate
+  4;//terrain map number
+  -1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
+  1.000000;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
+  begin_alien_list;
+  end_alien_list;
+  begin_excluded_plot_object_classes;
+  1;
+5;
+  end_excluded_plot_object_classes;
+  Captain Klicc (Lvlei Confederacy Defence): \ \ 'SIR!! We need your help! We're about to be overun... our intelligence reports show that four heavy alien fighters have landed in the jungle east and north-east of our position, supporting what look like humanoid mercenaries. If we can knock out the fighters we should be able to gain enough time to set up a proper defence. \ We are desperately short on machine-gunners... If you want to man the guns, press 'C' when standing near a turret! \ \ When we defeat the alien scum, I will be sure to notify the Confederate Navy regarding your reward (bonus Promotion Points/gifts).';//enter area text, specify none to not show it
+7;//Lava---------------------------------------------------------
+  Zycar;//area name
+  0;//area class
+  6;//climate in climate_types.dat, -1=random climate
+  7;//terrain map number
+  -1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
+  1.000000;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
+  begin_alien_list;
+  end_alien_list;
+  begin_excluded_plot_object_classes;
+5;  
+end_excluded_plot_object_classes;
+  Heat shimmers against the Wolf IV's blast shields as you come in to land. Throughout the United Confederacy, the name 'Zycar' is synonomous with fire, death, and hell. \ \ You glance at your scanners: average daily temperature of 80 degrees celsius, not much less at night. Half of the planet's surface covered in fields of lava. Deadly showers of molten rock, every few minutes. \ \ This place is barely fit to sustain life itself, let alone the willful destruction of it occuring on the newly-opened front between the Alien landing force and the United Confederacy troops that are desperately defending the system's valuable ore mines...;//enter area text, specify none to not show it
+8;//---------------------------------------------------------
+  Tiodia System;//area name
+  3;//area class
+  3;//climate in climate_types.dat, -1=random climate
+  8;//terrain map number
+  -1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
+  1.000000;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
+  begin_alien_list;
+  45;//alien type in creatures.dat---------red wazzal
+   8;//number of these aliens
+    0;//side
+  46;//alien type in creatures.dat---------red wazzal
+    8;//number of these aliens
+    0;//side
+  47;//alien type in creatures.dat---------red wazzal
+   8;//number of these aliens
+    0;//side
+  48;//alien type in creatures.dat---------yellow wazzal
+    8;//number of these aliens
+    0;//side
+  49;//alien type in creatures.dat---------silver wazzal
+    8;//number of these aliens
+    0;//side
+  end_alien_list;
+  begin_excluded_plot_object_classes;
+  1;
+3;
+2;
+  end_excluded_plot_object_classes;
+  none;//enter area text, specify none to not show it
+9;//Mines---------------------------------------------------------
+  Mines;//area name
+  0;//area class
+  7;//climate in climate_types.dat, -1=random climate
+  9;//terrain map number
+  -1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
+  1.000000;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
+  begin_alien_list;
+  41;//alien type in creatures.dat---------rockm
+   9;//number of these aliens
+    1;//side
+  42;//alien type in creatures.dat---------rockore
+    50;//number of these aliens
+    1;//side
+  43;//alien type in creatures.dat---------rockore
+    25;//number of these aliens
+    1;//side
+  44;//alien type in creatures.dat---------rockore
+    12;//number of these aliens
+    1;//side
+  end_alien_list;
+  begin_excluded_plot_object_classes;
+  1;
+2;
+3;
+5;
+  end_excluded_plot_object_classes;
+  You hold onto your spotlight tightly, you won't be able to see anything down here without it. The mines are huge... vast caverns and passageways extend until they vanish into the darkness. \ \ Long ago, in the dark, chaotic early years of the confederacy, these mines served as death pits for thousands and thousands of android slaves, before the terrible Cybernetic Revolution of 3330. \ \ Suddenly, you see a flash of light. Glancing down, you pick up a tiny, jagged fragment of shiny stone... Crystalline Ore. Zycar is one of a very few terrestrial systems discovered with deposits of this precious mineral, another being a far away, mysterious system you know only too well... \ A distant, echoing roar breaks the silence, and you frown. You may not be alone...;//enter area text, specify none to not show it
+10;//---------------------------------------------------------
+ Kinmegag 71;//area name
+  0;//area class
+  8;//climate in climate_types.dat, -1=random climate
+  10;//terrain map number
+  -1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
+  1.200000;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
+  begin_alien_list;
+ 36;//alien type in creatures.dat---------wolf
+   120;//number of these aliens
+    1;//side
+ 52;//alien type in creatures.dat---------wolf
+ 30;//number of these aliens
+    1;//side
+ 56;//alien type in creatures.dat---------bear
+  12;//number of these aliens
+    1;//side
+  end_alien_list;
+  begin_excluded_plot_object_classes;
+1;
+5;
+  end_excluded_plot_object_classes;
+   Captain Dreton (Kinmegag 71 outpost command): \ \ 'SIR! You are just in time! \ As you probably know, this outpost was designed as an early signalling point from which to notify all Confederate Systems in the event of an attack on the outer rim of the Confederacy. A massively powerful Interplanetary Signal Array is located on the planet, with range easily sufficient to reach the Confederate capital, New Dawn. \ I am however afraid to admit that we've been caught woefully unprepared. The Array relies on power from 10 substations, spread out across the planet to protect the system from attack. We need your assistance to find and activate the substations, initialize the Signal Array and send out the urgent warning to the Confederate Fleet! (substations remaining are shown  to the left). \ I will be sure to notify you regarding a reward (bonus PP/new weapon).';//enter area text, specify none to not show it
+11;//Errxelz 8 (Alien)---------------------------------------------------------
+  Errxelz 8 (formally);//area name
+  0;//area class
+  9;//climate in climate_types.dat, -1=random climate
+  11;//terrain map number
+  -1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
+  1.000000;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
+  begin_alien_list;
+11;//alien type in creatures.dat--------aliens
+    50;//number of these aliens
+    1;//side
+  38;//alien type in creatures.dat---------aliens
+    30;//number of these aliens
+    1;//side
+37;//alien type in creatures.dat---------aliens
+    4;//number of these aliens
+    1;//side
+  end_alien_list;
+  begin_excluded_plot_object_classes;
+  1;
+2;
+3;
+5;
+  end_excluded_plot_object_classes;
+  This... was Errxelz 8? Where once there were buildings, fields and people, all that remains is parched stone and steaming fissures, stretching as far as the eye can see. In place of trees stand slimy, sinewy vines, writhing and contorting as if in great pain. The once brilliant blue sky is now an angry, broiling cloak of black, broken only at the horizon by the sickly green glow that illuminates the landscape. \ You stand still in pure shock as glowing radioactive embers rain down around you. Now - as once years before on that fateful Sol night - a terrible, all-consuming rage fills you: the time for retreat is over. \ In the distance, you see the hundreds of gleaming Alien fighters, arranged in jagged rows across the scoured flat land. The final words of Gov. Ruefserouc echo through your mind... \ \ 'Swear to me that you will not rest until the deaths of all of those slaughtered have been avenged.' \ \ It is the Aliens who will not rest this night... ;//enter area text, specify none to not show it
+12;//---------------------------------------------------------
+  Arhamt System;//area name
+ 4;//area class
+  3;//climate in climate_types.dat, -1=random climate
+  12;//terrain map number
+  -1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
+  1.000000;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
+  begin_alien_list;
+ 1;//alien type in creatures.dat---------small alien fighters
+    20;//number of these aliens
+    1;//side
+  3;//alien type in creatures.dat---------large alien fighters
+    10;//number of these aliens
+    1;//side
+35;//alien type in creatures.dat---------alien mothership
+    2;//number of these aliens
+    1;//side
+  7;//alien type in creatures.dat---------asteroids
+    13;//number of these aliens
+    5;//side
+  9;//alien type in creatures.dat---------asteroids
+    20;//number of these aliens
+    5;//side
+  end_alien_list;
+  begin_excluded_plot_object_classes;
+  1;
+3;
+2;
+  end_excluded_plot_object_classes;
+  none;//enter area text, specify none to not show it
+13;//Moon---------------------------------------------------------
+  Moon of Kinmegag 71;//area name
+  0;//area class
+  10;//climate in climate_types.dat, -1=random climate
+  13;//terrain map number
+  2;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
+ 0.000000;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
+  begin_alien_list;
+  42;//alien type in creatures.dat---------rockore
+    16;//number of these aliens
+    1;//side
+  43;//alien type in creatures.dat---------rockore
+    12;//number of these aliens
+    1;//side
+ 44;//alien type in creatures.dat---------rockore
+    7;//number of these aliens
+    1;//side
+  end_alien_list;
+  begin_excluded_plot_object_classes;
+  1;
+2;
+3;
+5;
+  end_excluded_plot_object_classes;
+ You step down the gangplank, and immediately your feet fly from under you. Throughout a lifetime as an explorer you have encountered low-gravity many, many times, yet the strange sensation of being almost weightless never ceases to suprise you. \ \ Kinmegag 71's moon is a small and desolate place, not much to see here. You remember once long ago it being mentioned in the Confederacy Minutely News as a planetoid of interest in the Crystalline Ore Rush of 3321, however anything of value it once contained has long since passed from memory.   ;//enter area text, specify none to not show it
+14;//Caremel Moon---------------------------------------------------------
+  Moon of Naquarin;//area name
+  0;//area class
+  11;//climate in climate_types.dat, -1=random climate
+  14;//terrain map number
+  2;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
+ 0.000000;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
+  begin_alien_list;
+ 67;//alien type in creatures.dat---------slug
+    40;//number of these aliens
+    1;//side
+68;//alien type in creatures.dat---------slug
+    20;//number of these aliens
+    1;//side
+69;//alien type in creatures.dat---------slug
+    10;//number of these aliens
+    1;//side
+  end_alien_list;
+  begin_excluded_plot_object_classes;
+  1;
+2;
+3;
+5;
+  end_excluded_plot_object_classes;
+ You step down the gangplank, and immediately your feet fly from under you. Low gravity! \ \ The moon of Naquarin is famous as the home system of the rare Glouibi slug, whose slime is used across the Confederacy as an extremely expensive adhesive. \ \ The Glouibi slug is a very rare species, so be careful you don't overhunt them!;//enter area text, specify none to not show it
+15;//---------------------------------------------------------
+  Ntedro System;//area name
+ 4;//area class
+ 12;//climate in climate_types.dat, -1=random climate
+  15;//terrain map number
+  -1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
+  1.000000;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
+  begin_alien_list;
+ 1;//alien type in creatures.dat---------small alien fighters
+   45;//number of these aliens
+    1;//side
+  3;//alien type in creatures.dat---------large alien fighters
+    30;//number of these aliens
+    1;//side
+35;//alien type in creatures.dat---------alien mothership
+    5;//number of these aliens
+    1;//side
+  6;//alien type in creatures.dat---------asteroids
+  80;//number of these aliens
+    5;//side
+  7;//alien type in creatures.dat---------asteroids
+   80;//number of these aliens
+    5;//side
+  8;//alien type in creatures.dat---------asteroids
+   55;//number of these aliens
+    5;//side
+  9;//alien type in creatures.dat---------asteroids
+    55;//number of these aliens
+    5;//side
+70;//alien type in creatures.dat---------asteroids
+ 80;//number of these aliens
+    5;//side
+  71;//alien type in creatures.dat---------asteroids
+  80;//number of these aliens
+    5;//side
+ 72;//alien type in creatures.dat---------asteroids
+    55;//number of these aliens
+    5;//side
+  73;//alien type in creatures.dat---------asteroids
+    55;//number of these aliens
+    5;//side
+  end_alien_list;
+  begin_excluded_plot_object_classes;
+  1;
+3;
+2;
+  end_excluded_plot_object_classes;
+  none;//enter area text, specify none to not show it
+16;//---------------------------------------------------------
+New Dawn System;//area name
+  3;//area class
+  3;//climate in climate_types.dat, -1=random climate
+  16;//terrain map number
+  -1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
+  1.000000;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
+  begin_alien_list;
+  45;//alien type in creatures.dat---------red wazzal
+   20;//number of these aliens
+    0;//side
+  46;//alien type in creatures.dat---------red wazzal
+    20;//number of these aliens
+    0;//side
+  47;//alien type in creatures.dat---------red wazzal
+   20;//number of these aliens
+    0;//side
+  48;//alien type in creatures.dat---------yellow wazzal
+    20;//number of these aliens
+    0;//side
+  49;//alien type in creatures.dat---------silver wazzal
+    20;//number of these aliens
+    0;//side
+  end_alien_list;
+  begin_excluded_plot_object_classes;
+  1;
+3;
+2;
+  end_excluded_plot_object_classes;
+  none;//enter area text, specify none to not show it
+17;//--------------------------------------------------------------
+  Armada;//area name
+  0;//area class
+  13;//climate in climate_types.dat, -1=random climate
+  17;//terrain map number
+  0;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
+  0.000000;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
+  begin_alien_list;
+  end_alien_list;
+  begin_excluded_plot_object_classes;
+  1;
+2;
+3;
+4;
+5;
+  end_excluded_plot_object_classes;
+  none;//enter area text, specify none to not show it
+18;//---------------------------------------------------------player will start on first area
+ Eent 4 System;//area name
+  1;//area class
+  3;//climate in climate_types.dat, -1=random climate
+  18;//terrain map number
+  -1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
+  0.5000000;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
+  begin_alien_list;
+ 1;//alien type in creatures.dat---------small alien fighters
+    30;//number of these aliens
+    1;//side
+  3;//alien type in creatures.dat---------large alien fighters
+    20;//number of these aliens
+    1;//side
+35;//alien type in creatures.dat---------alien mothership
+    2;//number of these aliens
+    1;//side
+  end_alien_list;
+  begin_excluded_plot_object_classes;
+  1;
+2;
+3;
+4;
+  end_excluded_plot_object_classes;
+ none;//enter area text, specify none to not show it
+19;//Meadows---------------------------------------------------------planet
+ Dorian Prime;//area name
+  0;//area class
+  14;//climate in climate_types.dat, -1=random climate
+ 19;//terrain map number
+  -1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
+  0.7000000;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
+  begin_alien_list;
+end_alien_list;
+  begin_excluded_plot_object_classes;
+  1;
+5;
+  end_excluded_plot_object_classes;
+  none;//enter area text, specify none to not show it
+20;//---------------------------------------------------------
+ Former Sol System;//area name
+  1;//area class
+  15;//climate in climate_types.dat, -1=random climate
+  20;//terrain map number
+  -1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
+  0.5000000;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
+  begin_alien_list;
+ 1;//alien type in creatures.dat---------small alien fighters
+    5;//number of these aliens
+    1;//side
+  3;//alien type in creatures.dat---------large alien fighters
+    5;//number of these aliens
+    1;//side
+35;//alien type in creatures.dat---------alien mothership
+    0;//number of these aliens
+    1;//side
+6;//alien type in creatures.dat---------asteroids
+    10;//number of these aliens
+    5;//side
+  7;//alien type in creatures.dat---------asteroids
+    20;//number of these aliens
+    5;//side
+  8;//alien type in creatures.dat---------asteroids
+    5;//number of these aliens
+    5;//side
+  9;//alien type in creatures.dat---------asteroids
+    20;//number of these aliens
+    5;//side
+70;//alien type in creatures.dat---------asteroids
+ 5;//number of these aliens
+    5;//side
+  71;//alien type in creatures.dat---------asteroids
+  15;//number of these aliens
+    5;//side
+ 72;//alien type in creatures.dat---------asteroids
+    5;//number of these aliens
+    5;//side
+  73;//alien type in creatures.dat---------asteroids
+    10;//number of these aliens
+    5;//side
+  end_alien_list;
+  begin_excluded_plot_object_classes;
+2;
+3;
+4;
+  end_excluded_plot_object_classes;
+ none;//enter area text, specify none to not show it
+end_of_file;

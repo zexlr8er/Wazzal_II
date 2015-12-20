@@ -1,0 +1,4511 @@
+0=standard ship weapons (for human: big gun no multp.), 1=teeth/jaw attacks, 2=thruster/reverse firing weapons, 3=hand-laser pistol), 4=hand-projectile (pistol), 5=hand-projectile (machinegun), 6=hand-laser (machinegun), 7=Flame weapons (big gun), 8=jetpack/mines/dynamite/airstrike (backpack), 9=knife hit melee (harms animals more), 10=Pick/mining/knifethrow (only thing to hurt rocks), 11=hand (bow harms animals more), 12=fusion, 13=alien tech, 14=space mining, 15=ECM;//weapon class names
+;//name---------------------------------------
+  0;//identifier
+  0;//class
+  bullet0.tga;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  0.000000;//bullet size
+  0.000000;//spread
+  1.000000;//bullet speed
+  1.000000;//time until bullet disappears
+  1000000;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.000000;//push target back
+  0.000000;//push shooter back
+  none;//fire sound
+  none;//hit sound
+  0.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  end_fire_effects;
+  begin_hit_effects;
+  end_hit_effects;
+Particle Parameter Holder;//name---------------------------------------
+  1;//identifier
+  0;//class
+  bullet0.tga;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  0.000000;//bullet size
+  0.300000;//spread
+  0.700000;//bullet speed
+  250.000000;//time until bullet disappears
+  500;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.000000;//push target back
+  0.000000;//push shooter back
+  none;//fire sound
+  none;//hit sound
+  1.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  end_fire_effects;
+  begin_hit_effects;
+  end_hit_effects;
+Rear Thrusters;//name--------------------------------------- weapon fires weapon
+  2;//identifier
+  2;//class
+  invisible.png;//bullet texture
+  1;//bullets at one shot
+  1;//stop at hit 0=stop where hit, 1=don't stop
+  1.000000;//bullet size
+  0.000000;//spread
+  1.300000;//bullet speed
+  100.000000;//time until bullet disappears
+  40;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  -1;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  fire.wav;//hit effect sound
+  0.000000;//push target back
+  0.000000;//push shooter back
+  none;//fire sound
+  fire.wav;//hit sound
+  0.050000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  3;//condition
+    1.000000;//condition parameter0
+    0.330000;//condition parameter1  
+  end_wield_conditions;
+  begin_fire_effects;
+  4;//effect number
+    -0.330000;//parameter1
+    0.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  14;//effect number
+    1.000000;//parameter1
+    1.300000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  65;//effect number
+    47.000000;//parameter1
+    2.000000;//parameter2
+    3.000000;//parameter3
+    0.000000;//parameter4    
+  end_fire_effects;
+  begin_hit_effects;
+  end_hit_effects;
+Laser Cannon (S);//name---------------------------------------
+  3;//identifier
+  1;//class
+  laser_small3.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  5.000000;//bullet size
+  0.000000;//spread
+  1.100000;//bullet speed
+  500.000000;//time until bullet disappears
+  130;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.100000;//push target back
+  0.000000;//push shooter back
+  laser2.wav;//fire sound
+  hit.wav;//hit sound
+  0.500000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  3;//condition
+    1.000000;//condition parameter0
+    0.250000;//condition parameter1
+  end_wield_conditions;
+  begin_fire_effects;
+  27;//effect number
+    3.000000;//parameter1
+    50.000000;//parameter2
+    0.300000;//parameter3
+    0.350000;//parameter4  
+  27;//effect number
+    4.000000;//parameter1
+    50.000000;//parameter2
+    1.300000;//parameter3
+    1.400000;//parameter4 
+  4;//effect number
+    -0.250000;//parameter1
+    0.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  end_fire_effects;
+  begin_hit_effects;
+  4;//effect number
+    -8.000000;//parameter1
+    0.000000;//parameter2
+    4.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    2.000000;//parameter1
+    30.000000;//parameter2
+    10.000000;//parameter3
+    0.000000;//parameter4  
+  end_hit_effects;
+Laser alien heavy fighter;//name---------------------------------------double barrel
+  4;//identifier
+ 1;//class
+  laser_small.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  5.000000;//bullet size
+  0.000000;//spread
+  1.200000;//bullet speed
+  750.000000;//time until bullet disappears
+  140;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.000000;//push target back
+  0.00000;//push shooter back
+  laser1.wav;//fire sound
+  hit2.wav;//hit sound
+  0.500000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  27;//effect number
+    5.000000;//parameter1
+    50.000000;//parameter2
+    0.300000;//parameter3
+    0.350000;//parameter4  
+  27;//effect number
+    6.000000;//parameter1
+    50.000000;//parameter2
+    1.300000;//parameter3
+    1.400000;//parameter4 
+  end_fire_effects;
+  begin_hit_effects;
+  4;//effect number
+    -3.300000;//parameter1
+    0.000000;//parameter2
+    8.000000;//parameter3
+    0.000000;//parameter4
+  4;//effect number
+    -14.000000;//parameter1
+    0.000000;//parameter2
+    4.000000;//parameter3
+    0.000000;//parameter4 
+  29;//effect number
+    8.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_hit_effects;
+Viper Missile;//name---------------------------------------
+  5;//identifier
+  0;//class
+  invisible.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  0.100000;//bullet size
+  0.000000;//spread
+  1.300000;//bullet speed
+  50.000000;//time until bullet disappears
+  1000;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.000000;//push target back
+  0.000000;//push shooter back
+  missile.wav;//fire sound
+  hit2.wav;//hit sound
+  0.500000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  0;//condition
+    5.000000;//condition parameter0
+    1.000000;//condition parameter1  
+  end_wield_conditions;
+  begin_fire_effects;
+  10;//effect number
+    2.000000;//parameter1
+    4.000000;//parameter2
+    7.000000;//parameter3
+    7.000000;//parameter4  
+  16;//effect number
+    5.000000;//parameter1
+    -1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_fire_effects;
+  begin_hit_effects;
+  end_hit_effects;
+Missile/mine Damage;//name---------------------------------------
+  6;//identifier
+  7;//class
+  fire0.png;//bullet texture
+  3;//bullets at one shot
+  1;//stop at hit 0=stop where hit, 1=don't stop
+  1.000000;//bullet size
+  0.100000;//spread
+  2.000000;//bullet speed
+  34.000000;//time until bullet disappears
+  10;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.200000;//push target back
+  0.000000;//push shooter back
+  explosion2.wav;//fire sound
+  explosion1.wav;//hit sound
+  1.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  54;//effect number
+    -1.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    24.000000;//parameter1
+    30.000000;//parameter2
+    10.000000;//parameter3
+    0.000000;//parameter4 
+  end_fire_effects;
+  begin_hit_effects;
+  4;//effect number
+    -70.000000;//parameter1
+    0.000000;//parameter2
+    4.000000;//parameter3
+    0.000000;//parameter4
+44;//effect number
+    1.0000000;//parameter1
+    1.000000;//parameter2
+    9.000000;//parameter3
+    0.000000;//parameter4
+   end_hit_effects;
+Missile Damage Enemy;//name---------------------------------------ENEMY MISSILE
+  7;//identifier
+  7;//class
+  fire0.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  1.000000;//bullet size
+  0.000000;//spread
+  2.000000;//bullet speed
+  10.000000;//time until bullet disappears
+  10;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.260000;//push target back
+  0.000000;//push shooter back
+  explosion2.wav;//fire sound
+  explosion1.wav;//hit sound
+  1.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  54;//effect number
+    -1.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    24.000000;//parameter1
+    30.000000;//parameter2
+    10.000000;//parameter3
+    0.000000;//parameter4 
+  end_fire_effects;
+  begin_hit_effects;
+  4;//effect number
+    -100.000000;//parameter1
+    0.000000;//parameter2
+    8.000000;//parameter3
+    0.000000;//parameter4
+  4;//effect number
+    -150.000000;//parameter1
+    0.000000;//parameter2
+    4.000000;//parameter3
+    0.000000;//parameter4  
+4;//effect number                  take 3.0 from health
+    -50.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_hit_effects;
+Kilo-hertz ECM;//name---------------------------------------
+  8;//identifier
+  0;//class
+  invisible.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  0.100000;//bullet size
+  0.000000;//spread
+  1.300000;//bullet speed
+  10.000000;//time until bullet disappears
+  1000;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.000000;//push target back
+  0.000000;//push shooter back
+  ecm.wav;//fire sound
+  hit2.wav;//hit sound
+  1.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  3;//condition
+    1.000000;//condition parameter0
+    2.000000;//condition parameter1  
+  end_wield_conditions;
+  begin_fire_effects;
+  10;//effect number
+    5.000000;//parameter1
+    3.000000;//parameter2
+    -1.000000;//parameter3
+    -1.000000;//parameter4  
+  4;//effect number
+    -2.5000000;//parameter1
+    0.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  end_fire_effects;
+  begin_hit_effects;
+  end_hit_effects;
+ECMDamage;//name---------------------------------------
+  9;//identifier
+ 15;//class
+  invisible.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  0.000000;//bullet size
+  0.000000;//spread
+  2.000000;//bullet speed
+  10.000000;//time until bullet disappears
+  10;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.000000;//push target back
+  0.000000;//push shooter back
+  explosion2.wav;//fire sound
+  explosion1.wav;//hit sound
+  1.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  44;//effect number
+    0.3000000;//parameter1
+    1.000000;//parameter2
+    9.000000;//parameter3
+    0.000000;//parameter4
+54;//effect number
+    -1.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_fire_effects;
+  begin_hit_effects;
+  31;//effect number
+    0.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_hit_effects;
+Flame death;//name---------------------------------------
+  10;//identifier
+  0;//class
+  invisible.png;//bullet texture
+  35;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  7.000000;//bullet size
+  3.000000;//spread
+  0.130000;//bullet speed
+  300.000000;//time until bullet disappears
+  10;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.000000;//push target back
+  0.000000;//push shooter back
+  none;//fire sound
+  none;//hit sound
+  0.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  end_fire_effects;
+  begin_hit_effects;
+  end_hit_effects;
+Fire shooter;//name---------------------------------------
+  11;//identifier
+  0;//class
+  invisible.png;//bullet texture
+  3;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  0.000000;//bullet size
+  1.510000;//spread
+  0.010000;//bullet speed
+  200.000000;//time until bullet disappears
+  500;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.000000;//push target back
+  0.000000;//push shooter back
+  none;//fire sound
+  none;//hit sound
+  0.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  26;//effect number
+    25.000000;//parameter1
+    1.000000;//parameter2
+    11.000000;//parameter3
+    0.000000;//parameter4  
+  end_fire_effects;
+  begin_hit_effects;
+  end_hit_effects;
+Laser Rifle;//name---------------------------------------
+  12;//identifier
+  6;//class
+  laser_small3.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  5.000000;//bullet size
+  0.000000;//spread
+  1.100000;//bullet speed
+  500.000000;//time until bullet disappears
+  100;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.080000;//push target back
+  0.010000;//push shooter back
+  laser.wav;//fire sound
+  claws0_hit.wav;//hit sound
+  0.100000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  3;//condition
+    5.000000;//condition parameter0
+    0.500000;//condition parameter1
+  end_wield_conditions;
+  begin_fire_effects;
+  4;//effect number
+    -0.3800000;//parameter1
+    0.000000;//parameter2
+    5.000000;//parameter3
+    0.000000;//parameter4
+  27;//effect number
+    3.000000;//parameter1
+    50.000000;//parameter2
+    0.250000;//parameter3
+    0.30000;//parameter4  
+  27;//effect number
+    4.000000;//parameter1
+    50.000000;//parameter2
+    0.80000;//parameter3
+    1.400000;//parameter4   
+  end_fire_effects;
+  begin_hit_effects;
+    63;//effect number
+    -17.000000;//parameter1
+    -45.000000;//parameter2
+    4.000000;//parameter3
+    1.000000;//parameter4
+  end_hit_effects;
+Pistol (Bodyguards);//name---------------------------------------
+  13;//identifier
+  4;//class
+  shell.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  1.600000;//bullet size
+  0.000000;//spread
+  1.200000;//bullet speed
+  1000.000000;//time until bullet disappears
+  700;//fire rate
+  2;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  -1;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.750000;//push target back
+  0.050000;//push shooter back
+  pistol.wav;//fire sound
+  bimpact.wav;//hit sound
+  1.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  27;//effect number
+    14.000000;//parameter1
+    50.000000;//parameter2
+    0.700000;//parameter3
+    0.750000;//parameter4
+  27;//effect number
+    14.000000;//parameter1
+    50.000000;//parameter2
+    0.100000;//parameter3
+    0.100000;//parameter4    
+  26;//effect number
+    1.000000;//parameter1
+    2.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    4.000000;//parameter1
+    2.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    2.000000;//parameter1
+    2.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4     
+  end_fire_effects;
+  begin_hit_effects;
+  63;//effect number
+    -10.000000;//parameter1
+    -70.000000;//parameter2
+    4.000000;//parameter3
+    1.000000;//parameter4
+  end_hit_effects;
+Pistol;//name---------------------------------------
+  14;//identifier
+  4;//class
+  shell.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  1.0000000;//bullet size
+  0.000000;//spread
+  1.200000;//bullet speed
+  700.000000;//time until bullet disappears
+  400;//fire rate
+  2;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  -1;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.250000;//push target back
+  0.050000;//push shooter back
+  pistol.wav;//fire sound
+  bimpact.wav;//hit sound
+  3.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  0;//condition
+    15.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_wield_conditions;
+  begin_fire_effects;
+  16;//effect number
+    15.000000;//parameter1
+    -1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  27;//effect number
+    14.000000;//parameter1
+    50.000000;//parameter2
+    0.700000;//parameter3
+    0.750000;//parameter4
+  27;//effect number
+    14.000000;//parameter1
+    50.000000;//parameter2
+    0.100000;//parameter3
+    0.100000;//parameter4    
+  26;//effect number
+    1.000000;//parameter1
+    2.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    4.000000;//parameter1
+    2.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    2.000000;//parameter1
+    2.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4 
+ 26;//effect number               shell
+    26.000000;//parameter1
+    1.000000;//parameter2
+   18.000000;//parameter3
+    0.000000;//parameter4     
+  end_fire_effects;
+  begin_hit_effects;
+  63;//effect number
+    -20.000000;//parameter1
+    -80.000000;//parameter2
+    4.000000;//parameter3
+    1.000000;//parameter4
+  end_hit_effects;
+Claws0;//name---------------------------------------
+  15;//identifier
+  1;//class
+  bullet0.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  0.000000;//bullet size
+  0.200000;//spread
+  0.750000;//bullet speed
+  100.000000;//time until bullet disappears
+  500;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  7;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.500000;//push target back
+  0.400000;//push shooter back
+  shriekattack.wav;//fire sound
+  claws0_hit.wav;//hit sound
+  1.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  end_fire_effects;
+  begin_hit_effects;
+  26;//effect number
+    7.000000;//parameter1
+    20.000000;//parameter2
+    44.000000;//parameter3
+    0.000000;//parameter4
+  27;//effect number	                  light burst
+    25.000000;//parameter1
+    30.000000;//parameter2
+    0.300000;//parameter3
+    0.700000;//parameter4
+  4;//effect number
+    -10.000000;//parameter1
+    0.000000;//parameter2
+    4.000000;//parameter3
+    0.000000;//parameter4
+  4;//effect number
+    -7.000000;//parameter1
+    0.000000;//parameter2
+    12.000000;//parameter3
+    0.000000;//parameter4
+  end_hit_effects;
+Particle Cannon;//name---------------------------------------double barrel
+  16;//identifier
+  1;//class
+  particlecantwin.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  4.000000;//bullet size
+  0.000000;//spread
+  1.300000;//bullet speed
+  500.000000;//time until bullet disappears
+ 65;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.0000000;//push target back
+  0.000000;//push shooter back
+  partcan.wav;//fire sound
+  hit1.wav;//hit sound
+  0.500000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+ 0;//condition
+   110.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_wield_conditions;
+  begin_fire_effects;
+  27;//effect number
+    12.000000;//parameter1
+    50.000000;//parameter2
+    0.100000;//parameter3
+    0.350000;//parameter4
+16;//effect number
+    110.000000;//parameter1
+    -1.000000;//parameter2
+   0.000000;//parameter3
+    0.000000;//parameter4 
+  end_fire_effects;
+  begin_hit_effects;
+  4;//effect number
+    -4.000000;//parameter1
+    0.000000;//parameter2
+    4.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    2.000000;//parameter1
+    30.000000;//parameter2
+    10.000000;//parameter3
+    0.000000;//parameter4
+  end_hit_effects;
+X-56 Submachine gun;//name---------------------------------------
+  17;//identifier
+  5;//class
+  shell.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  1.000000;//bullet size
+  0.060000;//spread
+  2.400000;//bullet speed
+  240.000000;//time until bullet disappears
+  100;//fire rate
+  2;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.0500000;//push target back
+  0.020000;//push shooter back
+  mp5.wav;//fire sound
+  bimpact.wav;//hit sound
+  1.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  0;//condition
+    15.000000;//condition parameter0
+    1.000000;//condition parameter1
+  3;//condition
+    10.000000;//condition parameter0
+    0.000000;//condition parameter1 
+  end_wield_conditions;
+  begin_fire_effects;
+  4;//effect number
+    -1.000000;//parameter1
+    1.000000;//parameter2
+    10.000000;//parameter3
+    0.000000;//parameter4    
+  16;//effect number
+    15.000000;//parameter1
+    -1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  27;//effect number
+    14.000000;//parameter1
+    50.000000;//parameter2
+    0.300000;//parameter3
+    0.200000;//parameter4
+  26;//effect number
+    1.000000;//parameter1
+    2.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    4.000000;//parameter1
+    2.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    2.000000;//parameter1
+    2.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  24;//effect number
+    19.000000;//parameter1
+    1.000000;//parameter2
+    3.000000;//parameter3
+    2.100000;//parameter4
+ 26;//effect number               shell
+    26.000000;//parameter1
+   1.000000;//parameter2
+   18.000000;//parameter3
+    0.000000;//parameter4   
+  end_fire_effects;
+  begin_hit_effects;
+   63;//effect number
+    -18.000000;//parameter1
+    -47.000000;//parameter2
+    4.000000;//parameter3
+    1.000000;//parameter4
+  end_hit_effects;
+Particle Parameter Holder (shells);//name---------------------------------------
+  18;//identifier
+  0;//class
+  bullet0.tga;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  0.000000;//bullet size
+  2.00000;//spread
+  0.120000;//bullet speed
+  220.000000;//time until bullet disappears
+  500;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.000000;//push target back
+  0.000000;//push shooter back
+  none;//fire sound
+  none;//hit sound
+  0.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  end_fire_effects;
+  begin_hit_effects;
+  end_hit_effects;
+Particle Parameter Holder (backshooter);//name---------------------------------------
+  19;//identifier
+  0;//class
+  bullet0.tga;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  0.000000;//bullet size
+  3.000000;//spread
+  0.200000;//bullet speed
+  200.000000;//time until bullet disappears
+  500;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.000000;//push target back
+  0.000000;//push shooter back
+  none;//fire sound
+  none;//hit sound
+  1.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  26;//effect number
+    26.000000;//parameter1
+    1.000000;//parameter2
+    18.000000;//parameter3
+    0.000000;//parameter4    
+  end_fire_effects;
+  begin_hit_effects;
+  end_hit_effects;
+Submachine gun (Soldiers);//name---------------------------------------
+  20;//identifier
+  5;//class
+  shell.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  1.000000;//bullet size
+  0.050000;//spread
+  2.000000;//bullet speed
+  240.000000;//time until bullet disappears
+  150;//fire rate
+  2;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.030000;//push target back
+  0.020000;//push shooter back
+  sub.wav;//fire sound
+  bimpact.wav;//hit sound
+  1.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  27;//effect number
+    14.000000;//parameter1
+    50.000000;//parameter2
+    0.300000;//parameter3
+    0.200000;//parameter4
+  26;//effect number
+    1.000000;//parameter1
+    2.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    4.000000;//parameter1
+    2.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    2.000000;//parameter1
+    2.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  24;//effect number
+    19.000000;//parameter1
+    1.000000;//parameter2
+    3.000000;//parameter3
+    2.100000;//parameter4
+  1;//effect number
+    1000.000000;//parameter1
+    -1.000000;//parameter2
+    0.300000;//parameter3
+    0.000000;//parameter4
+  end_fire_effects;
+  begin_hit_effects;
+  4;//effect number
+    -8.000000;//parameter1
+    0.000000;//parameter2
+    4.000000;//parameter3
+    0.000000;//parameter4
+  4;//effect number
+    -16.000000;//parameter1
+    0.000000;//parameter2
+    12.000000;//parameter3
+    0.000000;//parameter4
+  end_hit_effects;
+Pistol (Soldiers);//name---------------------------------------
+  21;//identifier
+  4;//class
+  shell.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  1.000000;//bullet size
+  0.030000;//spread
+  1.200000;//bullet speed
+  900.000000;//time until bullet disappears
+  1100;//fire rate
+  2;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  -1;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.250000;//push target back
+  0.050000;//push shooter back
+  pistol.wav;//fire sound
+  bimpact.wav;//hit sound
+  1.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  27;//effect number
+    14.000000;//parameter1
+    50.000000;//parameter2
+    0.700000;//parameter3
+    0.750000;//parameter4
+  27;//effect number
+    14.000000;//parameter1
+    50.000000;//parameter2
+    0.100000;//parameter3
+    0.100000;//parameter4    
+  26;//effect number
+    1.000000;//parameter1
+    2.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    4.000000;//parameter1
+    2.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    2.000000;//parameter1
+    2.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4     
+  1;//effect number
+    1000.000000;//parameter1
+    -1.000000;//parameter2
+    0.300000;//parameter3
+    0.000000;//parameter4
+  end_fire_effects;
+  begin_hit_effects;
+  63;//effect number
+    -5.000000;//parameter1
+    -10.000000;//parameter2
+    4.000000;//parameter3
+    1.000000;//parameter4
+  63;//effect number
+    -5.000000;//parameter1
+    -10.000000;//parameter2
+    12.000000;//parameter3
+    1.000000;//parameter4  
+  end_hit_effects;
+Sniper Rifle;//name---------------------------------------
+  22;//identifier
+ 5;//class
+  shell.png;//bullet texture
+  1;//bullets at one shot
+  1;//stop at hit 0=stop where hit, 1=don't stop
+  1.750000;//bullet size
+  0.000000;//spread
+  5.000000;//bullet speed
+  1400.000000;//time until bullet disappears
+  3500;//fire rate
+  2;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.300000;//push target back
+  0.0200000;//push shooter back
+  44.wav;//fire sound
+  bimpact.wav;//hit sound
+  0.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  0;//condition
+    15.000000;//condition parameter0
+    1.000000;//condition parameter1
+  3;//condition
+    10.000000;//condition parameter0
+    0.000000;//condition parameter1
+  end_wield_conditions;
+  begin_fire_effects;
+  27;//effect number
+    14.000000;//parameter1
+    50.000000;//parameter2
+    0.700000;//parameter3
+    0.750000;//parameter4
+  27;//effect number
+    14.000000;//parameter1
+    50.000000;//parameter2
+    0.100000;//parameter3
+    0.100000;//parameter4    
+  26;//effect number
+    1.000000;//parameter1
+    2.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    4.000000;//parameter1
+    2.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    2.000000;//parameter1
+    2.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number
+    15.000000;//parameter1
+    -1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4  
+ 26;//effect number               shell
+    26.000000;//parameter1
+    1.000000;//parameter2
+   18.000000;//parameter3
+    0.000000;//parameter4      
+  end_fire_effects;
+  begin_hit_effects;
+  63;//effect number
+    -99.000000;//parameter1
+    -120.000000;//parameter2
+    4.000000;//parameter3
+    1.000000;//parameter4
+  end_hit_effects;
+Machine gun;//name---------------------------------------
+  23;//identifier
+  6;//class
+  shell.png;//bullet texture
+  2;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  1.000000;//bullet size
+  0.060000;//spread
+  2.000000;//bullet speed
+  320.000000;//time until bullet disappears
+  140;//fire rate
+  2;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.100000;//push target back
+  0.000000;//push shooter back
+  mg.wav;//fire sound
+  bimpact.wav;//hit sound
+  1.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  4;//effect number
+    -1.000000;//parameter1
+    0.000000;//parameter2
+    11.000000;//parameter3
+    0.000000;//parameter4
+  27;//effect number
+    14.000000;//parameter1
+    50.000000;//parameter2
+    0.300000;//parameter3
+    0.200000;//parameter4
+  26;//effect number
+    1.000000;//parameter1
+    2.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    4.000000;//parameter1
+    2.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    2.000000;//parameter1
+    2.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  27;//effect number
+    14.000000;//parameter1
+    50.000000;//parameter2
+    0.700000;//parameter3
+    0.750000;//parameter4
+  27;//effect number
+    14.000000;//parameter1
+    50.000000;//parameter2
+    0.100000;//parameter3
+    0.100000;//parameter4    
+  26;//effect number
+    1.000000;//parameter1
+    2.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    4.000000;//parameter1
+    2.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    2.000000;//parameter1
+    2.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4  
+  27;//effect number
+    14.000000;//parameter1
+    50.000000;//parameter2
+    1.000000;//parameter3
+    1.400000;//parameter4
+  27;//effect number
+    14.000000;//parameter1
+    50.000000;//parameter2
+    0.100000;//parameter3
+    0.200000;//parameter4    
+  26;//effect number
+    1.000000;//parameter1
+    2.000000;//parameter2
+    41.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    24.000000;//parameter1
+    2.000000;//parameter2
+    41.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    2.000000;//parameter1
+    2.000000;//parameter2
+    41.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    40.000000;//parameter1
+    1.000000;//parameter2
+    41.000000;//parameter3
+    0.000000;//parameter4
+ 26;//effect number               shell
+    26.000000;//parameter1
+   1.000000;//parameter2
+   18.000000;//parameter3
+    0.000000;//parameter4    
+  end_fire_effects;
+  begin_hit_effects;
+  4;//effect number
+    -15.000000;//parameter1
+    0.000000;//parameter2
+    4.000000;//parameter3
+    0.000000;//parameter4
+  end_hit_effects;
+Deploy mines;//name---------------------------------------
+  24;//identifier
+  0;//class
+  mine.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  2.000000;//bullet size
+  0.000000;//spread
+  0.000000;//bullet speed
+ 360000.000000;//time until bullet disappears
+  250;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.500000;//push target back
+  0.000000;//push shooter back
+  mines.wav;//fire sound
+  explosion1.wav;//hit sound
+  0.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  0;//condition
+    21.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_wield_conditions;
+  begin_fire_effects;
+  16;//effect number
+    21.000000;//parameter1
+    -1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4    
+  end_fire_effects;
+  begin_hit_effects;
+  26;//effect number
+    24.000000;//parameter1
+    30.000000;//parameter2
+    10.000000;//parameter3
+    0.000000;//parameter4     
+  4;//effect number
+    -120.000000;//parameter1
+    0.000000;//parameter2
+    4.000000;//parameter3
+    0.000000;//parameter4
+  end_hit_effects;
+Laser cannon (Twin);//name---------------------------------------Fed player
+  25;//identifier
+  1;//class
+  laser_small2.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  5.000000;//bullet size
+  0.000000;//spread
+  1.100000;//bullet speed
+  500.000000;//time until bullet disappears
+  140;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.00000;//push target back
+  0.000000;//push shooter back
+  laser2.wav;//fire sound
+  hit2.wav;//hit sound
+  0.500000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  3;//condition
+    1.000000;//condition parameter0
+    0.250000;//condition parameter1
+  end_wield_conditions;
+  begin_fire_effects;
+  27;//effect number
+    3.000000;//parameter1
+    50.000000;//parameter2
+    0.300000;//parameter3
+    0.350000;//parameter4  
+  27;//effect number
+    4.000000;//parameter1
+    50.000000;//parameter2
+    1.300000;//parameter3
+    1.400000;//parameter4 
+  4;//effect number
+    -0.250000;//parameter1
+    0.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  end_fire_effects;
+  begin_hit_effects;
+  4;//effect number
+    -12.000000;//parameter1
+    0.000000;//parameter2
+    4.000000;//parameter3
+    0.000000;//parameter4
+  end_hit_effects;
+Laser confed outliers battleship;//name---------------------------------------
+  26;//identifier
+  1;//class
+  laser_small3.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  5.000000;//bullet size
+  0.000000;//spread
+  1.200000;//bullet speed
+  1000.000000;//time until bullet disappears
+  140;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.000000;//push target back
+  0.000000;//push shooter back
+  none;//fire sound
+  hit2.wav;//hit sound
+  0.500000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  27;//effect number
+    3.000000;//parameter1
+    50.000000;//parameter2
+    0.300000;//parameter3
+    0.350000;//parameter4  
+  27;//effect number
+    4.000000;//parameter1
+    50.000000;//parameter2
+    1.300000;//parameter3
+    1.400000;//parameter4 
+  end_fire_effects;
+  begin_hit_effects;
+  4;//effect number
+    -2.500000;//parameter1
+    0.000000;//parameter2
+    8.000000;//parameter3
+    0.000000;//parameter4
+  4;//effect number
+    -8.000000;//parameter1
+    0.000000;//parameter2
+    4.000000;//parameter3
+    0.000000;//parameter4 
+29;//effect number
+    7.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_hit_effects;
+Targetting Beam;//name---------------------------------------
+  27;//identifier
+  8;//class
+  invisible.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  1.000000;//bullet size
+  0.000000;//spread
+  50.00000;//bullet speed
+  12.000000;//time until bullet disappears
+  20;//fire rate
+  3;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  -1;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.000000;//push target back
+  0.000000;//push shooter back
+  none;//fire sound
+  none.wav;//hit sound
+  0.003000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  29;//condition
+    -1.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_wield_conditions;
+  begin_fire_effects;
+  end_fire_effects;
+  begin_hit_effects;
+  end_hit_effects;
+Laser confed battleship;//name---------------------------------------
+  28;//identifier
+ 1;//class
+  laser_small2.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  5.000000;//bullet size
+  0.000000;//spread
+  1.200000;//bullet speed
+  750.000000;//time until bullet disappears
+  150;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.00000;//push target back
+  0.000000;//push shooter back
+  laser1.wav;//fire sound
+  hit2.wav;//hit sound
+  0.500000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  27;//effect number
+    3.000000;//parameter1
+    50.000000;//parameter2
+    0.300000;//parameter3
+    0.350000;//parameter4  
+  27;//effect number
+    4.000000;//parameter1
+    50.000000;//parameter2
+    1.400000;//parameter3
+    1.500000;//parameter4
+  24;//effect number
+   26.000000;//parameter1
+    1.000000;//parameter2
+    3.00000;//parameter3
+    5.500000;//parameter4 
+  24;//effect number
+   26.000000;//parameter1
+    1.000000;//parameter2
+    3.00000;//parameter3
+    -5.500000;//parameter4 
+  end_fire_effects;
+  begin_hit_effects;
+  4;//effect number
+    -3.3000000;//parameter1
+    0.000000;//parameter2
+    8.000000;//parameter3
+    0.000000;//parameter4
+  4;//effect number
+    -16.2000000;//parameter1
+    0.000000;//parameter2
+    4.000000;//parameter3
+    0.000000;//parameter4 
+29;//effect number
+    8.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_hit_effects;
+Missile Damage shot;//name---------------------------------------ENEMY MISSILE
+  29;//identifier
+  7;//class
+  fire0.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  1.000000;//bullet size
+  3.000000;//spread
+  2.000000;//bullet speed
+  50.000000;//time until bullet disappears
+  10;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.000000;//push target back
+  0.000000;//push shooter back
+  explosion2.wav;//fire sound
+  explosion1.wav;//hit sound
+  1.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  end_fire_effects;
+  begin_hit_effects;
+  end_hit_effects;
+Laser confed small fighter;//name---------------------------------------
+  30;//identifier
+  1;//class
+  laser_small3.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  5.000000;//bullet size
+  0.000000;//spread
+  1.400000;//bullet speed
+  1200.000000;//time until bullet disappears
+  140;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.00000;//push target back
+  0.000000;//push shooter back
+  laser1.wav;//fire sound
+  hit2.wav;//hit sound
+  0.500000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  27;//effect number
+    3.000000;//parameter1
+    50.000000;//parameter2
+    0.300000;//parameter3
+    0.350000;//parameter4  
+  27;//effect number
+    4.000000;//parameter1
+    50.000000;//parameter2
+    1.300000;//parameter3
+    1.400000;//parameter4 
+  end_fire_effects;
+  begin_hit_effects;
+  4;//effect number
+    -2.5000000;//parameter1
+    0.000000;//parameter2
+    8.000000;//parameter3
+    0.000000;//parameter4
+  4;//effect number
+    -8.000000;//parameter1
+    0.000000;//parameter2
+    4.000000;//parameter3
+    0.000000;//parameter4 
+29;//effect number
+    7.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_hit_effects;
+Deploy landmines (enemy;//name---------------------------------------
+  31;//identifier
+  0;//class
+  mine.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  2.000000;//bullet size
+  0.000000;//spread
+  0.000000;//bullet speed
+  15000.000000;//time until bullet disappears
+  15000;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.500000;//push target back
+  0.000000;//push shooter back
+  mines.wav;//fire sound
+  explosion1.wav;//hit sound
+  0.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  end_fire_effects;
+  begin_hit_effects;
+  4;//effect number
+    -10.000000;//parameter1
+    0.000000;//parameter2
+    4.000000;//parameter3
+    0.000000;//parameter4  
+  end_hit_effects;
+Knife;//name---------------------------------------
+  32;//identifier
+  10;//class
+  invisible.png;//bullet texture
+  0;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  0.000000;//bullet size
+  0.000000;//spread
+  0.300000;//bullet speed
+  100.000000;//time until bullet disappears
+  400;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.300000;//push target back
+  0.200000;//push shooter back
+  wosh.wav;//fire sound
+  bimpact.wav;//hit sound
+  0.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  0;//condition
+    57.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_wield_conditions;
+  begin_fire_effects;
+  10;//effect number  
+    25.000000;//parameter1
+    -1.000000;//parameter2
+    -1.000000;//parameter3
+    -1.000000;//parameter4
+  16;//effect number  
+    57.000000;//parameter1
+    -1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  end_fire_effects;
+  begin_hit_effects;
+  end_hit_effects;
+Knife shot;//name---------------------------------------
+  33;//identifier
+  0;//class
+  invisible.png;//bullet texture
+  1;//bullets at one shot
+  1;//stop at hit 0=stop where hit, 1=don't stop
+  0.000000;//bullet size
+  0.000000;//spread
+  8.000000;//bullet speed
+  18.000000;//time until bullet disappears
+  10;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.010000;//push target back
+  0.000000;//push shooter back
+  wosh.wav;//fire sound
+  bimpact.wav;//hit sound
+  0.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  31;//effect number  
+    0.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  24;//effect number  
+    34.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4  
+  end_fire_effects;
+  begin_hit_effects;
+  end_hit_effects;
+Knife hit;//name---------------------------------------
+  34;//identifier
+  9;//class
+  invisible.png;//bullet texture
+  1;//bullets at one shot
+  1;//stop at hit 0=stop where hit, 1=don't stop
+  0.000000;//bullet size
+  0.000000;//spread
+  8.000000;//bullet speed
+  18.000000;//time until bullet disappears
+  10;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.010000;//push target back
+  0.000000;//push shooter back
+  wosh.wav;//fire sound
+  bimpact.wav;//hit sound
+  0.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  end_fire_effects;
+  begin_hit_effects;
+  4;//effect number  
+    -20.000000;//parameter1
+    0.000000;//parameter2
+    4.000000;//parameter3
+    0.000000;//parameter4 
+  44;//effect number  
+    0.100000;//parameter1
+    1.000000;//parameter2
+    9.000000;//parameter3
+    0.000000;//parameter4
+  end_hit_effects;
+Jet exhuast;//name---------------------------------------
+  35;//identifier
+  8;//class
+  qfbullet.png;//bullet texture
+  6;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  0.000000;//bullet size
+  0.100000;//spread
+  0.700000;//bullet speed
+  230.000000;//time until bullet disappears
+  80;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  12;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  fire.wav;//hit effect sound
+  0.010000;//push target back
+  0.000000;//push shooter back
+  fire.wav;//fire sound
+  claws0.wav;//hit sound
+  1.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  26;//effect number
+    5.000000;//parameter1
+    3.000000;//parameter2
+    35.000000;//parameter3
+    0.000000;//parameter4
+4;//effect number
+    -0.500000;//parameter1
+    0.000000;//parameter2
+    25.000000;//parameter3
+    0.000000;//parameter4
+  end_fire_effects;
+  begin_hit_effects;
+  4;//effect number
+    -6.000000;//parameter1
+    0.000000;//parameter2
+    4.000000;//parameter3
+    0.000000;//parameter4
+  23;//effect number
+    -4.000000;//parameter1
+    35.000000;//parameter2
+    4.000000;//parameter3
+   7000.000000;//parameter4
+  end_hit_effects;
+Rocket explosion;//name---------------------------------------
+  36;//identifier
+  0;//class
+  invisible.png;//bullet texture
+  32;//bullets at one shot
+  1;//stop at hit 0=stop where hit, 1=don't stop
+  0.000000;//bullet size
+  3.140000;//spread
+  2.000000;//bullet speed
+  20.000000;//time until bullet disappears
+  200;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.010000;//push target back
+  0.000000;//push shooter back
+  explosion1.wav;//fire sound
+  none;//hit sound
+  1.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  31;//effect number - 
+    0.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_fire_effects;
+  begin_hit_effects;
+  4;//effect number
+    -40.000000;//parameter1
+    0.000000;//parameter2
+    4.000000;//parameter3
+    0.000000;//parameter4
+  44;//effect number
+    0.160000;//parameter1
+    0.000000;//parameter2
+    9.000000;//parameter3
+    0.000000;//parameter4
+  end_hit_effects;
+Rocket Launcher;//name---------------------------------------
+  37;//identifier
+  0;//class
+  invisible.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  0.100000;//bullet size
+  0.000000;//spread
+  1.300000;//bullet speed
+  50.000000;//time until bullet disappears
+  1000;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.000000;//push target back
+  0.100000;//push shooter back
+  missile.wav;//fire sound
+  hit2.wav;//hit sound
+  0.500000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  0;//condition
+    64.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_wield_conditions;
+  begin_fire_effects;
+  10;//effect number
+    27.000000;//parameter1
+    0.000000;//parameter2
+    7.000000;//parameter3
+    7.000000;//parameter4  
+  16;//effect number
+    64.000000;//parameter1
+    -1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4 
+  end_fire_effects;
+  begin_hit_effects;
+  end_hit_effects;
+Fusion Beam;//name--------------------------------------- 
+  38;//identifier
+  12;//class
+  invisible.png;//bullet texture
+  10;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  0.000000;//bullet size
+  0.000000;//spread
+  10.000000;//bullet speed
+  300.000000;//time until bullet disappears
+  50;//fire rate
+  4;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  -1;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.000000;//push target back
+  0.000000;//push shooter back
+  radiator.wav;//fire sound
+  none;//hit sound
+  0.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  3;//condition number 
+    5.000000;//parameter1
+    1.000000;//parameter2
+  end_wield_conditions;
+  begin_fire_effects;
+  4;//effect number 
+    -0.650000;//parameter1
+    0.000000;//parameter2
+    5.000000;//parameter3
+    0.000000;//parameter4
+  27;//effect number
+    5.000000;//parameter1
+    50.000000;//parameter2
+    0.300000;//parameter3
+    0.350000;//parameter4  
+  27;//effect number
+    6.000000;//parameter1
+    50.000000;//parameter2
+    0.300000;//parameter3
+    0.700000;//parameter4 
+  end_fire_effects;
+  begin_hit_effects;
+  4;//effect number - 
+    -5.200000;//parameter1
+    0.000000;//parameter2
+    4.000000;//parameter3
+    0.000000;//parameter4
+  67;//effect number - 
+    -0.030000;//parameter1
+    0.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+  end_hit_effects;
+Dreadnought Cannon;//name--------------------------------------- very sketchy
+  39;//identifier
+  1;//class
+  invisible.png;//bullet texture
+  10;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  0.000000;//bullet size
+  0.000000;//spread
+  50.000000;//bullet speed
+  1.000000;//time until bullet disappears
+  20;//fire rate
+  1;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  -1;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.000000;//push target back
+  0.000000;//push shooter back
+  Fusion.wav;//fire sound
+  none;//hit sound
+  0.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  end_fire_effects;
+  begin_hit_effects;
+  4;//effect number - 
+    -1.000000;//parameter1
+    0.000000;//parameter2
+    4.000000;//parameter3
+    0.000000;//parameter4
+  67;//effect number - 
+    -1.000000;//parameter1
+    0.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+  end_hit_effects;
+Tank cannon;//name---------------------------------------
+  40;//identifier
+  0;//class
+  shell.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  1.800000;//bullet size
+  0.000000;//spread
+  1.400000;//bullet speed
+  1000.000000;//time until bullet disappears
+  1000;//fire rate
+  2;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  24;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  explode.WAV;//hit effect sound
+  0.300000;//push target back
+  0.100000;//push shooter back
+  explosion2.wav;//fire sound
+  explode.WAV;//hit sound
+  1.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  27;//effect number
+    14.000000;//parameter1
+    50.000000;//parameter2
+    1.000000;//parameter3
+    1.400000;//parameter4
+  27;//effect number
+    14.000000;//parameter1
+    50.000000;//parameter2
+    0.100000;//parameter3
+    0.200000;//parameter4    
+  26;//effect number
+    1.000000;//parameter1
+    2.000000;//parameter2
+    41.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    24.000000;//parameter1
+    2.000000;//parameter2
+    41.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    2.000000;//parameter1
+    2.000000;//parameter2
+    41.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    40.000000;//parameter1
+    1.000000;//parameter2
+    41.000000;//parameter3
+    0.000000;//parameter4
+  end_fire_effects;
+  begin_hit_effects;
+  63;//effect number
+    -160.000000;//parameter1
+    -300.000000;//parameter2
+    4.000000;//parameter3
+    1.000000;//parameter4
+  24;//effect number
+    42.000000;//parameter1
+    2.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+  4;//effect number  
+    1.000000;//parameter1
+    0.000000;//parameter2
+    9.000000;//parameter3
+    0.000000;//parameter4 
+  end_hit_effects;
+Smoke shooter tank;//name---------------------------------------
+  41;//identifier
+  0;//class
+  invisible.png;//bullet texture
+  3;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  0.300000;//bullet size
+  0.000000;//spread
+  0.200000;//bullet speed
+  400.000000;//time until bullet disappears
+  500;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  40;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.000000;//push target back
+  0.000000;//push shooter back
+  none;//fire sound
+  none;//hit sound
+  0.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  26;//effect number
+    25.000000;//parameter1
+    1.000000;//parameter2
+    11.000000;//parameter3
+    0.000000;//parameter4  
+  end_fire_effects;
+  begin_hit_effects;
+  end_hit_effects;
+Tank shell explosion;//name---------------------------------------
+  42;//identifier
+  0;//class  ---resistance
+  fire0.png;//bullet texture
+  10;//bullets at one shot
+  1;//stop at hit 0=stop where hit, 1=don't stop
+  1.000000;//bullet size
+  3.000000;//spread
+  3.000000;//bullet speed
+  40.000000;//time until bullet disappears
+  10;//fire rate
+  2;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.000000;//push target back
+  0.000000;//push shooter back
+  explosion2.wav;//fire sound
+  explosion1.wav;//hit sound
+  1.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  26;//effect number
+    24.000000;//parameter1
+    30.000000;//parameter2
+    10.000000;//parameter3
+    0.000000;//parameter4 
+  end_fire_effects;
+  begin_hit_effects;
+  4;//effect number
+    -40.000000;//parameter1
+    0.000000;//parameter2
+    4.000000;//parameter3
+    0.000000;//parameter4
+  end_hit_effects;
+Laser pistol;//name---------------------------------------
+  43;//identifier
+  3;//class
+  laser_small3.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  5.000000;//bullet size
+  0.000000;//spread
+  1.100000;//bullet speed
+  500.000000;//time until bullet disappears
+  300;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.250000;//push target back
+  0.010000;//push shooter back
+  laser.wav;//fire sound
+  claws0_hit.wav;//hit sound
+  0.100000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  3;//condition
+    5.000000;//condition parameter0
+    0.500000;//condition parameter1
+  end_wield_conditions;
+  begin_fire_effects;
+  4;//effect number
+    -0.500000;//parameter1
+    0.000000;//parameter2
+    5.000000;//parameter3
+    0.000000;//parameter4
+  27;//effect number
+    3.000000;//parameter1
+    50.000000;//parameter2
+    0.170000;//parameter3
+    0.230000;//parameter4  
+  27;//effect number
+    4.000000;//parameter1
+    50.000000;//parameter2
+    0.630000;//parameter3
+    1.000000;//parameter4   
+  end_fire_effects;
+  begin_hit_effects;
+  63;//effect number
+    -20.000000;//parameter1
+    -80.000000;//parameter2
+    4.000000;//parameter3
+    1.000000;//parameter4
+  end_hit_effects;
+Compact explosion;//name---------------------------------------
+  44;//identifier
+  0;//class
+  invisible.png;//bullet texture
+  40;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  10.000000;//bullet size
+  3.140000;//spread
+  0.080000;//bullet speed
+  300.000000;//time until bullet disappears
+  10;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.000000;//push target back
+  0.000000;//push shooter back
+  none;//fire sound
+  none;//hit sound
+  0.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  end_fire_effects;
+  begin_hit_effects;
+  end_hit_effects;
+Deploy landmines;//name---------------------------------------
+  45;//identifier
+  8;//class
+  mine5.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  0.000000;//bullet size
+  0.000000;//spread
+  0.000000;//bullet speed
+  10.000000;//time until bullet disappears
+  250;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.500000;//push target back
+  0.000000;//push shooter back
+  use.wav;//fire sound
+  explosion.wav;//hit sound
+  0.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  0;//condition
+    76.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_wield_conditions;
+  begin_fire_effects;
+  16;//effect number
+    76.000000;//parameter1
+    -1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  19;//effect number              drop non-ex mine
+    36.000000;//parameter1
+    0.130000;//parameter2
+    1.000000;//parameter3
+    -1.000000;//parameter4 
+  end_fire_effects;
+  begin_hit_effects;
+  end_hit_effects;
+Landmine Damage;//name---------------------------------------
+  46;//identifier
+  0;//class
+  fire0.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  1.000000;//bullet size
+  0.000000;//spread
+  2.000000;//bullet speed
+  40.000000;//time until bullet disappears
+  10;//fire rate
+  2;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.000000;//push target back
+  0.000000;//push shooter back
+  explosion2.wav;//fire sound
+  explosion1.wav;//hit sound
+  1.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  26;//effect number
+    24.000000;//parameter1
+    30.000000;//parameter2
+    10.000000;//parameter3
+    0.000000;//parameter4 
+  end_fire_effects;
+  begin_hit_effects;
+  4;//effect number
+    -180.000000;//parameter1
+    0.000000;//parameter2
+    4.000000;//parameter3
+    0.000000;//parameter4
+  44;//effect number
+    1.000000;//parameter1
+    1.000000;//parameter2
+    9.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    24.000000;//parameter1
+    30.000000;//parameter2
+    44.000000;//parameter3
+    0.000000;//parameter4
+  27;//effect number
+    14.000000;//parameter1
+    50.000000;//parameter2
+    1.000000;//parameter3
+    1.400000;//parameter4
+  27;//effect number
+    14.000000;//parameter1
+    50.000000;//parameter2
+    0.100000;//parameter3
+    0.200000;//parameter4    
+  26;//effect number
+    1.000000;//parameter1
+    2.000000;//parameter2
+    41.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    2.000000;//parameter1
+    2.000000;//parameter2
+    41.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    40.000000;//parameter1
+    3.000000;//parameter2
+    10.000000;//parameter3
+    0.000000;//parameter4 
+  end_hit_effects;
+Rear Thrusters;//name--------------------------------------- fired by weapon 2
+  47;//identifier
+  2;//class
+  invisible.png;//bullet texture
+  1;//bullets at one shot
+  1;//stop at hit 0=stop where hit, 1=don't stop
+  1.000000;//bullet size
+  0.000000;//spread
+  1.300000;//bullet speed
+  100.000000;//time until bullet disappears
+  40;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  -1;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  fire.wav;//hit effect sound
+  0.000000;//push target back
+  -0.040000;//push shooter back
+  none;//fire sound
+  fire.wav;//hit sound
+  0.050000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  3;//condition
+    1.000000;//condition parameter0
+    0.330000;//condition parameter1  
+  end_wield_conditions;
+  begin_fire_effects;
+  26;//effect number
+    24.000000;//parameter1
+    30.000000;//parameter2
+    10.000000;//parameter3
+    0.000000;//parameter4    
+  end_fire_effects;
+  begin_hit_effects;
+  end_hit_effects;
+Laser alien small fighter;//name---------------------------------------single barrel
+  48;//identifier
+  1;//class
+  laser_small4.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  5.000000;//bullet size
+  0.000000;//spread
+  1.100000;//bullet speed
+  600.000000;//time until bullet disappears
+  140;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.000000;//push target back
+  0.000000;//push shooter back
+  laser1.wav;//fire sound
+  hit2.wav;//hit sound
+  0.500000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  27;//effect number
+    5.000000;//parameter1
+    50.000000;//parameter2
+    0.300000;//parameter3
+    0.350000;//parameter4  
+  27;//effect number
+    6.000000;//parameter1
+    50.000000;//parameter2
+    1.300000;//parameter3
+    1.400000;//parameter4 
+  end_fire_effects;
+  begin_hit_effects;
+  4;//effect number
+    -2.300000;//parameter1
+    0.000000;//parameter2
+    8.000000;//parameter3
+    0.000000;//parameter4
+  4;//effect number
+    -7.000000;//parameter1
+    0.000000;//parameter2
+    4.000000;//parameter3
+    0.000000;//parameter4 
+  29;//effect number
+    7.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_hit_effects;
+Ion Wave;//name---------------------------------------
+  49;//identifier
+  1;//class
+  bullet0.png;//bullet texture
+  24;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  0.000000;//bullet size
+  3.0000;//spread
+  0.850000;//bullet speed
+  200.000000;//time until bullet disappears
+  500;//fire rate
+  1;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  3;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  6;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  electric.wav;//hit effect sound
+  0.300000;//push target back
+  0.000000;//push shooter back
+  electric.wav;//fire sound
+  electric2.wav;//hit sound
+  0.200000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  3;//condition
+    1.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_wield_conditions;
+  begin_fire_effects;
+  4;//effect number
+    -1.000000;//parameter1
+    0.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  27;//effect number
+    8.000000;//parameter1
+    50.000000;//parameter2
+    0.300000;//parameter3
+    0.350000;//parameter4
+  26;//effect number
+    6.000000;//parameter1
+    5.000000;//parameter2
+    49.000000;//parameter3
+    0.000000;//parameter4
+  end_fire_effects;
+  begin_hit_effects;
+  1;//effect number
+    9000.000000;//parameter1
+    49.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_hit_effects;
+Dark alien attack;//name---------------------------------------projectile
+  50;//identifier
+  3;//class
+  alienbullet.png;//bullet texture
+  3;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  3.7000000;//bullet size
+  0.030000;//spread
+  0.900000;//bullet speed
+  1100.000000;//time until bullet disappears
+  1100;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  7;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.10000;//push target back
+  0.200000;//push shooter back
+  shriekattack.wav;//fire sound
+  claws0_hit.wav;//hit sound
+  1.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  26;//effect number
+    7.000000;//parameter1
+    6.000000;//parameter2
+    50.000000;//parameter3
+    0.000000;//parameter4
+  27;//effect number	                  light burst
+    25.000000;//parameter1
+    30.000000;//parameter2
+    0.300000;//parameter3
+    0.700000;//parameter4
+  1;//effect number
+    1000.000000;//parameter1
+    -1.000000;//parameter2
+    0.300000;//parameter3
+    0.000000;//parameter4
+  end_fire_effects;
+  begin_hit_effects;
+ 4;//effect number
+      -2.00000;//parameter1
+      0.000000;//parameter2
+      4.000000;//parameter3
+      0.000000;//parameter4
+ 4;//effect number
+      -3.000000;//parameter1
+      0.000000;//parameter2
+      12.000000;//parameter3
+      0.000000;//parameter4
+    end_hit_effects;
+Tank alien cannon;//name---------------------------------------
+  51;//identifier
+  0;//class
+  laser_small4.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  5.000000;//bullet size
+  0.000000;//spread
+  1.400000;//bullet speed
+  530.000000;//time until bullet disappears
+  800;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  7;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  explode.WAV;//hit effect sound
+  0.1200000;//push target back
+  0.000000;//push shooter back
+  phaser.wav;//fire sound
+  explode.WAV;//hit sound
+  1.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  27;//effect number
+    5.000000;//parameter1
+    50.000000;//parameter2
+    0.300000;//parameter3
+    0.350000;//parameter4  
+  27;//effect number
+    6.000000;//parameter1
+    50.000000;//parameter2
+    1.300000;//parameter3
+    1.400000;//parameter4 
+  26;//effect number
+    1.000000;//parameter1
+    2.000000;//parameter2
+    41.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    24.000000;//parameter1
+    2.000000;//parameter2
+    41.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    2.000000;//parameter1
+    2.000000;//parameter2
+    41.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    40.000000;//parameter1
+    1.000000;//parameter2
+    41.000000;//parameter3
+    0.000000;//parameter4
+  end_fire_effects;
+  begin_hit_effects;
+  63;//effect number
+    -10.000000;//parameter1
+    -15.000000;//parameter2
+    4.000000;//parameter3
+    1.000000;//parameter4
+  63;//effect number
+    -8.000000;//parameter1
+    -15.000000;//parameter2
+    12.000000;//parameter3
+    1.000000;//parameter4
+  end_hit_effects;
+Rock Monster;//name---------------------------------------
+  52;//identifier
+  0;//class
+  bullet0.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  0.000000;//bullet size
+  0.000000;//spread
+  0.750000;//bullet speed
+  150.000000;//time until bullet disappears
+  500;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  7;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.900000;//push target back
+  0.100000;//push shooter back
+  wosh.wav;//fire sound
+  whack.wav;//hit sound
+  0.700000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  end_fire_effects;
+  begin_hit_effects;
+  4;//effect number
+    -10.000000;//parameter1
+    0.000000;//parameter2
+    4.000000;//parameter3
+    0.000000;//parameter4
+  4;//effect number
+    -12.000000;//parameter1
+    0.000000;//parameter2
+    12.000000;//parameter3
+    0.000000;//parameter4
+  end_hit_effects;
+Pickaxe;//name---------------------------------------
+  53;//identifier
+  10;//class
+  bullet0.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  0.000000;//bullet size
+  0.300000;//spread
+  0.750000;//bullet speed
+  50.000000;//time until bullet disappears
+  320;//fire rate
+  2;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  7;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.100000;//push target back
+  -0.030000;//push shooter back
+  wosh.wav;//fire sound
+  whack.wav;//hit sound
+  4.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  end_fire_effects;
+  begin_hit_effects;
+  4;//effect number
+    -10.000000;//parameter1
+    0.000000;//parameter2
+    4.000000;//parameter3
+    0.000000;//parameter4
+  end_hit_effects;
+Neutralbullet1;//name---------------------------------------single barrel
+  54;//identifier
+  1;//class
+  neutralbullet1.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  1.400000;//bullet size
+  0.000000;//spread
+  1.300000;//bullet speed
+  500.000000;//time until bullet disappears
+  130;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.000000;//push target back
+  0.000000;//push shooter back
+  sound9.wav;//fire sound
+  hit1.wav;//hit sound
+  0.500000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  27;//effect number
+    3.000000;//parameter1
+    50.000000;//parameter2
+    0.100000;//parameter3
+    0.250000;//parameter4  
+  27;//effect number
+    4.000000;//parameter1
+    50.000000;//parameter2
+    0.600000;//parameter3
+    1.000000;//parameter4 
+  end_fire_effects;
+  begin_hit_effects;
+  4;//effect number
+    -3.000000;//parameter1
+    0.000000;//parameter2
+    8.000000;//parameter3
+    0.000000;//parameter4
+  4;//effect number
+    -11.000000;//parameter1
+    0.000000;//parameter2
+    4.000000;//parameter3
+    0.000000;//parameter4 
+  29;//effect number
+    7.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_hit_effects;
+Neutralbullet2;//name---------------------------------------double barrel
+  55;//identifier
+  1;//class
+  neutralbullet2.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  4.000000;//bullet size
+  0.000000;//spread
+  1.300000;//bullet speed
+  500.000000;//time until bullet disappears
+  130;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.000000;//push target back
+  0.000000;//push shooter back
+  sound4.wav;//fire sound
+  hit1.wav;//hit sound
+  0.500000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  27;//effect number
+    3.000000;//parameter1
+    50.000000;//parameter2
+    0.100000;//parameter3
+    0.250000;//parameter4  
+  27;//effect number
+    4.000000;//parameter1
+    50.000000;//parameter2
+    0.600000;//parameter3
+    1.000000;//parameter4 
+  end_fire_effects;
+  begin_hit_effects;
+  4;//effect number
+    -4.000000;//parameter1
+    0.000000;//parameter2
+    8.000000;//parameter3
+    0.000000;//parameter4
+  4;//effect number
+    -14.000000;//parameter1
+    0.000000;//parameter2
+    4.000000;//parameter3
+    0.000000;//parameter4 
+  29;//effect number
+    8.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_hit_effects;
+Neutralbullet3;//name---------------------------------------single barrel
+  56;//identifier
+  1;//class
+  neutralbullet3.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  2.100000;//bullet size
+  0.000000;//spread
+  1.100000;//bullet speed
+  500.000000;//time until bullet disappears
+  230;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.000000;//push target back
+  0.000000;//push shooter back
+  sound9.wav;//fire sound
+  hit1.wav;//hit sound
+  0.500000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  27;//effect number
+    12.000000;//parameter1
+    50.000000;//parameter2
+    0.080000;//parameter3
+    0.150000;//parameter4  
+  27;//effect number
+    1.000000;//parameter1
+    50.000000;//parameter2
+    0.400000;//parameter3
+    0.800000;//parameter4 
+  end_fire_effects;
+  begin_hit_effects;
+  4;//effect number
+    -3.000000;//parameter1
+    0.000000;//parameter2
+    8.000000;//parameter3
+    0.000000;//parameter4
+  4;//effect number
+    -14.000000;//parameter1
+    0.000000;//parameter2
+    4.000000;//parameter3
+    0.000000;//parameter4 
+  29;//effect number
+    7.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_hit_effects;
+Lay explosive;//name---------------------------------------
+  57;//identifier
+  8;//class
+  mine5.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  0.000000;//bullet size
+  0.000000;//spread
+  0.000000;//bullet speed
+  0.000000;//time until bullet disappears
+  500;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.500000;//push target back
+  0.000000;//push shooter back
+  use.wav;//fire sound
+  explosion.wav;//hit sound
+  0.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  0;//condition
+    92.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_wield_conditions;
+  begin_fire_effects;
+  16;//effect number
+    92.000000;//parameter1
+    -1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  19;//effect number              drop dyna
+    38.000000;//parameter1
+    0.360000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4 
+  end_fire_effects;
+  begin_hit_effects;
+  end_hit_effects;
+Dynamite damage;//name---------------------------------------
+  58;//identifier
+  10;//class
+  fire0.png;//bullet texture
+  50;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  1.000000;//bullet size
+  6.280000;//spread
+  2.000000;//bullet speed
+  50.000000;//time until bullet disappears
+  10;//fire rate
+  2;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.350000;//push target back
+  0.000000;//push shooter back
+  explode.WAV;//fire sound
+  explosion1.wav;//hit sound
+  10.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  26;//effect number
+    24.000000;//parameter1
+    30.000000;//parameter2
+    10.000000;//parameter3
+    0.000000;//parameter4 
+  26;//effect number
+    24.000000;//parameter1
+    30.000000;//parameter2
+    44.000000;//parameter3
+    0.000000;//parameter4 
+  26;//effect number
+    24.000000;//parameter1
+    30.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    24.000000;//parameter1
+    60.000000;//parameter2
+    15.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    24.000000;//parameter1
+    30.000000;//parameter2
+    42.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    24.000000;//parameter1
+    10.000000;//parameter2
+    58.000000;//parameter3
+    0.000000;//parameter4
+  27;//effect number
+    15.000000;//parameter1
+    100.000000;//parameter2
+    1.500000;//parameter3
+    2.200000;//parameter4
+  27;//effect number
+    14.000000;//parameter1
+    80.000000;//parameter2
+    0.100000;//parameter3
+    0.200000;//parameter4    
+  26;//effect number
+    1.000000;//parameter1
+    2.000000;//parameter2
+    41.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    2.000000;//parameter1
+    2.000000;//parameter2
+    41.000000;//parameter3
+    0.000000;//parameter4 
+  36;//effect number
+    5.000000;//parameter1
+    1500.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  29;//effect number
+    60.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_fire_effects;
+  begin_hit_effects;
+  4;//effect number
+    -300.000000;//parameter1
+    0.000000;//parameter2
+    4.000000;//parameter3
+    0.000000;//parameter4
+   end_hit_effects;
+Flame Thrower;//name---------------------------------------
+  59;//identifier
+  7;//class
+  invisible.png;//bullet texture
+  3;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  0.000000;//bullet size
+  0.1500000;//spread
+  0.600000;//bullet speed
+  450.000000;//time until bullet disappears
+ 40;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  12;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  fire.wav;//hit effect sound
+  0.010000;//push target back
+  0.000000;//push shooter back
+  fire.wav;//fire sound
+  claws0.wav;//hit sound
+  1.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  3;//condition
+    25.000000;//condition parameter0
+    0.10000;//condition parameter1
+      end_wield_conditions;
+  begin_fire_effects;
+     4;//effect number
+    -0.2600000;//parameter1
+    0.000000;//parameter2
+    25.000000;//parameter3
+    0.000000;//parameter4
+   27;//effect number
+     12.000000;//parameter1
+      50.000000;//parameter2
+      0.300000;//parameter3
+      0.500000;//parameter4
+    26;//effect number
+      16.000000;//parameter1
+      8.000000;//parameter2
+      59.000000;//parameter3
+      0.000000;//parameter4
+  end_fire_effects;
+  begin_hit_effects;
+    4;//effect number
+      -5.000000;//parameter1
+      0.000000;//parameter2
+      4.000000;//parameter3
+      0.000000;//parameter4
+    23;//effect number
+      -4.000000;//parameter1
+      59.000000;//parameter2
+      4.000000;//parameter3
+      7000.000000;//parameter4
+  end_hit_effects;
+Poison dart;//name---------------------------------------
+  60;//identifier
+  11;//class
+ dart_small.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  4.000000;//bullet size
+  0.000000;//spread
+  0.800000;//bullet speed
+  700.000000;//time until bullet disappears
+  400;//fire rate
+ 0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+ 2;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+ 7;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.250000;//push target back
+  0.00000;//push shooter back
+  bow1.wav;//fire sound
+  bimpact.wav;//hit sound
+  1.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  0;//condition
+    99.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_wield_conditions;
+  begin_fire_effects;
+16;//effect number
+    99.000000;//parameter1
+    -1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  end_fire_effects;
+  begin_hit_effects;
+   23;//effect number
+      -13.000000;//parameter1
+      60.000000;//parameter2
+      4.000000;//parameter3
+      20000.000000;//parameter4
+  46;//effect number
+      0.000000;//parameter1
+      10.000000;//parameter2
+      20000.000000;//parameter3
+      60.000000;//parameter4
+22;//effect number
+      6.000000;//parameter1
+      20000.000000;//parameter2
+     60.000000;//parameter3
+      0.000000;//parameter4
+  end_hit_effects;
+Airstrike damage - sound 1;//name---------------------------------------
+  61;//identifier
+  0;//class
+  fire0.png;//bullet texture
+  50;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  1.000000;//bullet size
+  6.280000;//spread
+  2.000000;//bullet speed
+  50.000000;//time until bullet disappears
+  10;//fire rate
+  2;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.200000;//push target back
+  0.000000;//push shooter back
+  explode.WAV;//fire sound
+  explosion1.wav;//hit sound
+  10.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  26;//effect number
+    24.000000;//parameter1
+    30.000000;//parameter2
+    10.000000;//parameter3
+    0.000000;//parameter4 
+  26;//effect number
+    24.000000;//parameter1
+    30.000000;//parameter2
+    44.000000;//parameter3
+    0.000000;//parameter4 
+  26;//effect number
+    24.000000;//parameter1
+    30.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    24.000000;//parameter1
+    60.000000;//parameter2
+    15.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    24.000000;//parameter1
+    30.000000;//parameter2
+    42.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    24.000000;//parameter1
+    10.000000;//parameter2
+    58.000000;//parameter3
+    0.000000;//parameter4
+  27;//effect number
+    15.000000;//parameter1
+    100.000000;//parameter2
+    1.500000;//parameter3
+    2.200000;//parameter4
+  27;//effect number
+    14.000000;//parameter1
+    80.000000;//parameter2
+    0.100000;//parameter3
+    0.200000;//parameter4    
+  26;//effect number
+    1.000000;//parameter1
+    2.000000;//parameter2
+    41.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    2.000000;//parameter1
+    2.000000;//parameter2
+    41.000000;//parameter3
+    0.000000;//parameter4 
+  36;//effect number
+    5.000000;//parameter1
+    1500.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  29;//effect number
+    60.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_fire_effects;
+  begin_hit_effects;
+  4;//effect number
+    -300.000000;//parameter1
+    0.000000;//parameter2
+    4.000000;//parameter3
+    0.000000;//parameter4
+ 44;//effect number
+    0.0700000;//parameter1
+    0.000000;//parameter2
+    9.000000;//parameter3
+    0.000000;//parameter4
+   end_hit_effects;
+Airstrike damage - sound 2;//name---------------------------------------
+  62;//identifier
+  0;//class
+  fire0.png;//bullet texture
+  50;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  1.000000;//bullet size
+  6.280000;//spread
+  2.000000;//bullet speed
+  50.000000;//time until bullet disappears
+  10;//fire rate
+  2;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.200000;//push target back
+  0.000000;//push shooter back
+  explode.WAV;//fire sound
+  explosion1.wav;//hit sound
+  10.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  26;//effect number
+    24.000000;//parameter1
+    30.000000;//parameter2
+    10.000000;//parameter3
+    0.000000;//parameter4 
+  26;//effect number
+    24.000000;//parameter1
+    30.000000;//parameter2
+    44.000000;//parameter3
+    0.000000;//parameter4 
+  26;//effect number
+    24.000000;//parameter1
+    30.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    24.000000;//parameter1
+    60.000000;//parameter2
+    15.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    24.000000;//parameter1
+    30.000000;//parameter2
+    42.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    24.000000;//parameter1
+    10.000000;//parameter2
+    58.000000;//parameter3
+    0.000000;//parameter4
+  27;//effect number
+    15.000000;//parameter1
+    100.000000;//parameter2
+    1.500000;//parameter3
+    2.200000;//parameter4
+  27;//effect number
+    14.000000;//parameter1
+    80.000000;//parameter2
+    0.100000;//parameter3
+    0.200000;//parameter4    
+  26;//effect number
+    1.000000;//parameter1
+    2.000000;//parameter2
+    41.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    2.000000;//parameter1
+    2.000000;//parameter2
+    41.000000;//parameter3
+    0.000000;//parameter4 
+  36;//effect number
+    5.000000;//parameter1
+    1500.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  29;//effect number
+    70.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_fire_effects;
+  begin_hit_effects;
+  4;//effect number
+    -300.000000;//parameter1
+    0.000000;//parameter2
+    4.000000;//parameter3
+    0.000000;//parameter4
+ 44;//effect number
+    0.0700000;//parameter1
+    0.000000;//parameter2
+    9.000000;//parameter3
+    0.000000;//parameter4
+   end_hit_effects;
+Call in airstrike;//name---------------------------------------
+  63;//identifier
+  8;//class
+  invisible.png;//bullet texture
+  0;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  0.000000;//bullet size
+  0.000000;//spread
+  0.300000;//bullet speed
+  100.000000;//time until bullet disappears
+  1000;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.000000;//push target back
+  0.000000;//push shooter back
+  dropbomb.wav;//fire sound
+  bimpact.wav;//hit sound
+  0.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  0;//condition
+    101.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_wield_conditions;
+  begin_fire_effects;
+  29;//effect number                   airstrike script
+     69.000000;//parameter1
+      0.000000;//parameter2
+     0.00000;//parameter3
+      0.000000;//parameter4
+  16;//effect number  
+    101.000000;//parameter1
+    -1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  end_fire_effects;
+  begin_hit_effects;
+  end_hit_effects;
+Wolf native;//name---------------------------------------
+  64;//identifier
+  1;//class
+  bullet0.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  0.000000;//bullet size
+  0.200000;//spread
+  0.750000;//bullet speed
+  100.000000;//time until bullet disappears
+  500;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.200000;//push target back
+  -0.600000;//push shooter back
+  wolfattack.wav;//fire sound
+  wolfattack.wav;//hit sound
+  2.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  end_fire_effects;
+  begin_hit_effects;
+  4;//effect number
+    -10.000000;//parameter1
+    0.000000;//parameter2
+    4.000000;//parameter3
+    0.000000;//parameter4
+  4;//effect number
+    -8.000000;//parameter1
+    0.000000;//parameter2
+    12.000000;//parameter3
+    0.000000;//parameter4
+  end_hit_effects;
+Wolf pet small;//name---------------------------------------
+  65;//identifier
+  1;//class
+  bullet0.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  0.000000;//bullet size
+  0.200000;//spread
+  0.750000;//bullet speed
+  100.000000;//time until bullet disappears
+  500;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.200000;//push target back
+  -0.600000;//push shooter back
+  wolfattack.wav;//fire sound
+  wolfattack.wav;//hit sound
+  2.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  end_fire_effects;
+  begin_hit_effects;
+  4;//effect number
+    -8.000000;//parameter1
+    0.000000;//parameter2
+    4.000000;//parameter3
+    0.000000;//parameter4
+   end_hit_effects;
+Wolf pet medium;//name---------------------------------------
+  66;//identifier
+  1;//class
+  bullet0.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  0.000000;//bullet size
+  0.200000;//spread
+  0.750000;//bullet speed
+  100.000000;//time until bullet disappears
+  500;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.200000;//push target back
+  -0.600000;//push shooter back
+  wolfattack.wav;//fire sound
+  wolfattack.wav;//hit sound
+  2.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  end_fire_effects;
+  begin_hit_effects;
+  4;//effect number
+    -16.000000;//parameter1
+    0.000000;//parameter2
+    4.000000;//parameter3
+    0.000000;//parameter4
+   end_hit_effects;
+Wolf pet grown;//name---------------------------------------
+  67;//identifier
+  1;//class
+  bullet0.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  0.000000;//bullet size
+  0.200000;//spread
+  0.750000;//bullet speed
+  100.000000;//time until bullet disappears
+  500;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.200000;//push target back
+  -0.600000;//push shooter back
+  wolfattack.wav;//fire sound
+  wolfattack.wav;//hit sound
+  2.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  end_fire_effects;
+  begin_hit_effects;
+  4;//effect number
+    -26.000000;//parameter1
+    0.000000;//parameter2
+    4.000000;//parameter3
+    0.000000;//parameter4
+   end_hit_effects;
+Bear native;//name---------------------------------------
+  68;//identifier
+  1;//class
+  bullet0.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  0.000000;//bullet size
+  0.200000;//spread
+  0.750000;//bullet speed
+  120.000000;//time until bullet disappears
+  600;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.5500000;//push target back
+  -0.500000;//push shooter back
+  bearattack2.wav;//fire sound
+    bearattack3.wav;//hit sound
+  2.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  end_fire_effects;
+  begin_hit_effects;
+  4;//effect number
+    -20.000000;//parameter1
+    0.000000;//parameter2
+    4.000000;//parameter3
+    0.000000;//parameter4
+  4;//effect number
+    -14.000000;//parameter1
+    0.000000;//parameter2
+    12.000000;//parameter3
+    0.000000;//parameter4
+  end_hit_effects;
+Tank MG;//name---------------------------------------
+  69;//identifier
+  5;//class
+  shell.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  1.000000;//bullet size
+  0.030000;//spread
+  2.400000;//bullet speed
+  280.000000;//time until bullet disappears
+  100;//fire rate
+  2;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  -1;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.0200000;//push target back
+  0.000000;//push shooter back
+  mg.wav;//fire sound
+  bimpact.wav;//hit sound
+  1.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+    27;//effect number
+    14.000000;//parameter1
+    50.000000;//parameter2
+    0.300000;//parameter3
+    0.400000;//parameter4
+   26;//effect number
+    1.000000;//parameter1
+    2.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    4.000000;//parameter1
+    2.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    2.000000;//parameter1
+    2.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+    end_fire_effects;
+  begin_hit_effects;
+  63;//effect number
+    -10.000000;//parameter1
+    -30.000000;//parameter2
+    4.000000;//parameter3
+    1.000000;//parameter4
+    end_hit_effects;
+Particle placeholder (beacon/radar);//name---------------------------------------
+  70;//identifier
+  10;//class
+  fire0.png;//bullet texture
+  50;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  1.000000;//bullet size
+  6.280000;//spread
+  0.300000;//bullet speed
+  400.000000;//time until bullet disappears
+  10;//fire rate
+  2;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.000000;//push target back
+  0.000000;//push shooter back
+none;//fire sound
+none;//hit sound
+  10.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+   end_fire_effects;
+  begin_hit_effects;
+     end_hit_effects;
+Particle Cannon, battleship;//name---------------------------------------double barrel
+ 71;//identifier
+  1;//class
+  particlecantwin.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  4.000000;//bullet size
+  0.000000;//spread
+  1.300000;//bullet speed
+  500.000000;//time until bullet disappears
+ 65;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.0000000;//push target back
+  0.000000;//push shooter back
+  partcan.wav;//fire sound
+  hit1.wav;//hit sound
+  0.500000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+   end_wield_conditions;
+  begin_fire_effects;
+  27;//effect number
+    12.000000;//parameter1
+    50.000000;//parameter2
+    0.100000;//parameter3
+    0.350000;//parameter4
+  end_fire_effects;
+  begin_hit_effects;
+  4;//effect number
+    -1.300000;//parameter1
+    0.000000;//parameter2
+    8.000000;//parameter3
+    0.000000;//parameter4
+  4;//effect number
+    -4.000000;//parameter1
+    0.000000;//parameter2
+    4.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    2.000000;//parameter1
+    30.000000;//parameter2
+    10.000000;//parameter3
+    0.000000;//parameter4 
+29;//effect number
+    7.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_hit_effects;
+Flame Thrower pillbox;//name---------------------------------------
+ 72;//identifier
+  7;//class
+  invisible.png;//bullet texture
+  3;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  0.000000;//bullet size
+  0.1500000;//spread
+  0.600000;//bullet speed
+  450.000000;//time until bullet disappears
+ 40;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  12;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  fire.wav;//hit effect sound
+  0.010000;//push target back
+  0.000000;//push shooter back
+  fire.wav;//fire sound
+  claws0.wav;//hit sound
+  1.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+       end_wield_conditions;
+  begin_fire_effects;
+       27;//effect number
+     12.000000;//parameter1
+      50.000000;//parameter2
+      0.300000;//parameter3
+      0.500000;//parameter4
+    26;//effect number
+      16.000000;//parameter1
+      8.000000;//parameter2
+      59.000000;//parameter3
+      0.000000;//parameter4
+  end_fire_effects;
+  begin_hit_effects;
+    4;//effect number
+      -10.000000;//parameter1
+      0.000000;//parameter2
+      4.000000;//parameter3
+      0.000000;//parameter4
+    23;//effect number
+      -4.000000;//parameter1
+      59.000000;//parameter2
+      4.000000;//parameter3
+      7000.000000;//parameter4
+  end_hit_effects;
+Flying fighter alien cannon;//name---------------------------------------
+ 73;//identifier
+  0;//class
+  laser_small4.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  6.5000000;//bullet size
+  0.000000;//spread
+  1.400000;//bullet speed
+  530.000000;//time until bullet disappears
+  800;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  7;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  explode.WAV;//hit effect sound
+  0.0700000;//push target back
+  0.000000;//push shooter back
+  phaser.wav;//fire sound
+  explode.WAV;//hit sound
+  1.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  27;//effect number
+    5.000000;//parameter1
+    50.000000;//parameter2
+    0.400000;//parameter3
+    0.450000;//parameter4  
+  27;//effect number
+    6.000000;//parameter1
+    50.000000;//parameter2
+    1.300000;//parameter3
+    1.400000;//parameter4 
+  26;//effect number
+    1.000000;//parameter1
+    2.000000;//parameter2
+    41.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    2.000000;//parameter1
+    2.000000;//parameter2
+    41.000000;//parameter3
+    0.000000;//parameter4
+  end_fire_effects;
+  begin_hit_effects;
+  63;//effect number
+    -4.000000;//parameter1
+    -8.000000;//parameter2
+    4.000000;//parameter3
+    1.000000;//parameter4
+  63;//effect number
+    -4.000000;//parameter1
+    -14.000000;//parameter2
+    12.000000;//parameter3
+    1.000000;//parameter4
+  end_hit_effects;
+Egg laying aliens attack;//name---------------------------------------projectile
+  74;//identifier
+  3;//class
+  alienbullet.png;//bullet texture
+  15;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  3.7000000;//bullet size
+  6.280000;//spread
+  0.900000;//bullet speed
+ 200.000000;//time until bullet disappears
+  600;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  7;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.060000;//push target back
+  -0.100000;//push shooter back
+  shriekattack.wav;//fire sound
+  claws0_hit.wav;//hit sound
+  1.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  26;//effect number
+    7.000000;//parameter1
+    20.000000;//parameter2
+    74.000000;//parameter3
+    0.000000;//parameter4
+  27;//effect number	                  light burst
+    25.000000;//parameter1
+    30.000000;//parameter2
+    0.500000;//parameter3
+    0.800000;//parameter4
+  end_fire_effects;
+  begin_hit_effects;
+ 4;//effect number
+      -3.600000;//parameter1
+      0.000000;//parameter2
+      4.000000;//parameter3
+      0.000000;//parameter4
+ 4;//effect number
+      -5.000000;//parameter1
+      0.000000;//parameter2
+      12.000000;//parameter3
+      0.000000;//parameter4
+    end_hit_effects;
+Ka kalwaa;//name---------------------------------------alien weapon 1
+  75;//identifier
+ 13;//class
+  alienbullet.png;//bullet texture
+  4;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  4.000000;//bullet size
+  0.130000;//spread
+  0.900000;//bullet speed
+  1100.000000;//time until bullet disappears
+ 170;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  7;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.10000;//push target back
+  0.000000;//push shooter back
+ fighter_move3.wav;//fire sound
+  claws0_hit.wav;//hit sound
+  0.5000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+ 0;//condition
+    127.000000;//condition parameter0
+   1.00000;//condition parameter1
+  end_wield_conditions;
+  begin_fire_effects;
+  16;//effect number
+    127.000000;//parameter1
+    -1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    7.000000;//parameter1
+    17.000000;//parameter2
+    75.000000;//parameter3
+    0.000000;//parameter4
+  27;//effect number	                  light burst
+    25.000000;//parameter1
+    30.000000;//parameter2
+    0.300000;//parameter3
+    0.700000;//parameter4
+  end_fire_effects;
+  begin_hit_effects;
+ 63;//effect number
+      -10.00000;//parameter1
+      -33.000000;//parameter2
+      4.000000;//parameter3
+      1.000000;//parameter4
+44;//effect number
+      0.40000;//parameter1
+      1.000000;//parameter2
+      12.000000;//parameter3
+      0.000000;//parameter4
+    end_hit_effects;
+Slime;//name---------------------------------------
+  76;//identifier
+  11;//class
+  slime.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  3.500000;//bullet size
+  0.000000;//spread
+  0.900000;//bullet speed
+  600.000000;//time until bullet disappears
+  400;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  -1;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.100000;//push target back
+  0.000000;//push shooter back
+  squish03.wav;//fire sound
+  squish02.wav;//hit sound
+  0.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+ 0;//condition
+    134.000000;//condition parameter0
+   1.00000;//condition parameter1
+  end_wield_conditions;
+  begin_fire_effects;
+    16;//effect number
+      134.00000;//parameter1
+      -1.000000;//parameter2
+      1.000000;//parameter3
+      0.000000;//parameter4
+  end_fire_effects;
+  begin_hit_effects;
+    4;//effect number
+      -25.000000;//parameter1
+      0.000000;//parameter2
+      4.000000;//parameter3
+      0.000000;//parameter4
+   1;//effect number
+      5000.000000;//parameter1
+      -1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+  end_hit_effects;
+Laser confed heavy fighter;//name---------------------------------------
+  77;//identifier
+  1;//class
+  laser_small2.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  5.000000;//bullet size
+  0.000000;//spread
+  1.400000;//bullet speed
+  1200.000000;//time until bullet disappears
+  140;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.00000;//push target back
+  0.000000;//push shooter back
+  laser1.wav;//fire sound
+  hit2.wav;//hit sound
+  0.500000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  27;//effect number
+    3.000000;//parameter1
+    50.000000;//parameter2
+    0.300000;//parameter3
+    0.350000;//parameter4  
+  27;//effect number
+    4.000000;//parameter1
+    50.000000;//parameter2
+    1.300000;//parameter3
+    1.400000;//parameter4 
+  end_fire_effects;
+  begin_hit_effects;
+  4;//effect number
+    -3.0000000;//parameter1
+    0.000000;//parameter2
+    8.000000;//parameter3
+    0.000000;//parameter4
+  4;//effect number
+    -11.000000;//parameter1
+    0.000000;//parameter2
+    4.000000;//parameter3
+    0.000000;//parameter4 
+29;//effect number
+    7.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_hit_effects;
+Mining Beam;//name--------------------------------------- 
+  78;//identifier
+  14;//class
+  invisible.png;//bullet texture
+ 1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  0.000000;//bullet size
+  0.000000;//spread
+   5.600000;//bullet speed
+  20.000000;//time until bullet disappears
+  13;//fire rate
+  2;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  -1;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  hit.wav;//hit effect sound
+  0.00000000;//push target back
+  0.000000;//push shooter back
+  drill.wav;//fire sound
+  none;//hit sound
+  0.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+ 3;//condition number 
+    1.000000;//parameter0
+    0.5000000;//parameter1
+  end_wield_conditions;
+  begin_fire_effects;
+  27;//effect number
+    14.000000;//parameter1
+    20.000000;//parameter2
+    0.300000;//parameter3
+    0.70000;//parameter4  
+  27;//effect number
+    14.000000;//parameter1
+    20.000000;//parameter2
+    0.0500000;//parameter3
+    0.100000;//parameter4 
+ 4;//effect number 
+    -0.0350000;//parameter1
+    0.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  end_fire_effects;
+  begin_hit_effects;
+  4;//effect number - 
+    -0.100000;//parameter1
+    0.000000;//parameter2
+    4.000000;//parameter3
+    0.000000;//parameter4
+  27;//effect number
+    14.000000;//parameter1
+    20.000000;//parameter2
+    0.100000;//parameter3
+    0.300000;//parameter4 
+ 26;//effect number
+    2.000000;//parameter1
+    30.000000;//parameter2
+    10.000000;//parameter3
+    0.000000;//parameter4         
+  end_hit_effects;
+Kwaj 4 Torpedo;//name---------------------------------------
+  79;//identifier
+ 1;//class
+  torpedo.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  5.00000;//bullet size
+  0.000000;//spread
+  0.55000000;//bullet speed
+  2000.000000;//time until bullet disappears
+  1100;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.000000;//push target back
+  0.0000000;//push shooter back
+ torp.wav;//fire sound
+  torphit.wav;//hit sound
+  0.500000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+ 0;//condition
+   139.000000;//condition parameter0
+    1.000000;//condition parameter1  
+  end_wield_conditions;
+  begin_fire_effects;
+ 16;//effect number
+   139.000000;//parameter1
+    -1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  27;//effect number
+    14.000000;//parameter1
+    50.000000;//parameter2
+    0.700000;//parameter3
+    0.750000;//parameter4
+  27;//effect number
+    14.000000;//parameter1
+    50.000000;//parameter2
+    0.100000;//parameter3
+    0.100000;//parameter4    
+  end_fire_effects;
+  begin_hit_effects;
+  26;//effect number
+    24.000000;//parameter1
+    30.000000;//parameter2
+    10.000000;//parameter3
+    0.000000;//parameter4 
+ 63;//effect number
+    -110.000000;//parameter1
+    -220.000000;//parameter2
+    4.000000;//parameter3
+    1.000000;//parameter4
+ 27;//effect number
+    14.000000;//parameter1
+    20.000000;//parameter2
+    0.100000;//parameter3
+    0.300000;//parameter4 
+  end_hit_effects;
+Phaser cannon;//name---------------------------------------
+  80;//identifier
+  1;//class
+  neutralbullet3.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  2.000000;//bullet size
+  0.000000;//spread
+  1.100000;//bullet speed
+  400.000000;//time until bullet disappears
+  240;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.000000;//push target back
+  0.000000;//push shooter back
+  sound9.wav;//fire sound
+  hit1.wav;//hit sound
+  0.500000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+3;//condition
+   1.000000;//condition parameter0
+   0.27000000;//condition parameter1  
+  end_wield_conditions;
+  begin_fire_effects;
+  27;//effect number
+    12.000000;//parameter1
+    50.000000;//parameter2
+    0.080000;//parameter3
+    0.150000;//parameter4  
+  27;//effect number
+    1.000000;//parameter1
+    50.000000;//parameter2
+    0.400000;//parameter3
+    0.800000;//parameter4 
+ 4;//effect number
+    -0.270000;//parameter1
+    0.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  end_fire_effects;
+  begin_hit_effects;
+  4;//effect number
+    -25.000000;//parameter1
+    0.000000;//parameter2
+    4.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    2.000000;//parameter1
+    30.000000;//parameter2
+    10.000000;//parameter3
+    0.000000;//parameter4  
+26;//effect number
+    2.000000;//parameter1
+    30.000000;//parameter2
+    10.000000;//parameter3
+    0.000000;//parameter4  
+  end_hit_effects;
+Rocket Prop. Grenade;//name---------------------------------------
+  81;//identifier
+ 0;//class
+  rpgbullet.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  5.00000;//bullet size
+  0.000000;//spread
+  0.95000000;//bullet speed
+  2000.000000;//time until bullet disappears
+  2200;//fire rate
+  2;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.000000;//push target back
+  0.1500000;//push shooter back
+rpg.wav;//fire sound
+  torphit.wav;//hit sound
+  0.500000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+ 0;//condition
+   143.000000;//condition parameter0
+    1.000000;//condition parameter1  
+  end_wield_conditions;
+  begin_fire_effects;
+16;//effect number
+   143.000000;//parameter1
+    -1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  27;//effect number
+    14.000000;//parameter1
+    50.000000;//parameter2
+    0.700000;//parameter3
+    0.750000;//parameter4
+  27;//effect number
+    14.000000;//parameter1
+    50.000000;//parameter2
+    0.100000;//parameter3
+    0.100000;//parameter4    
+  end_fire_effects;
+  begin_hit_effects;
+  26;//effect number
+    24.000000;//parameter1
+    30.000000;//parameter2
+    10.000000;//parameter3
+    0.000000;//parameter4 
+ 63;//effect number
+    -170.000000;//parameter1
+    -1000.000000;//parameter2
+    4.000000;//parameter3
+    1.000000;//parameter4
+ 27;//effect number
+    14.000000;//parameter1
+    20.000000;//parameter2
+    0.100000;//parameter3
+    0.300000;//parameter4 
+ 24;//effect number	                fire weapon
+     61.000000;//parameter1
+      1.000000;//parameter2
+      3.000000;//parameter3
+      0.000000;//parameter4
+  end_hit_effects;
+Grenade;//name---------------------------------------
+  82;//identifier
+  10;//class
+  invisible.png;//bullet texture
+  0;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  0.000000;//bullet size
+  0.000000;//spread
+  0.300000;//bullet speed
+  100.000000;//time until bullet disappears
+  400;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.300000;//push target back
+  0.200000;//push shooter back
+  wosh.wav;//fire sound
+  bimpact.wav;//hit sound
+  0.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  0;//condition
+   143.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_wield_conditions;
+  begin_fire_effects;
+ 26;//effect number               shell
+    26.000000;//parameter1
+    1.000000;//parameter2
+   18.000000;//parameter3
+    0.000000;//parameter4   
+  29;//effect number                  grenade food script
+    109.000000;//parameter1
+      0.000000;//parameter2
+     0.00000;//parameter3
+      0.000000;//parameter4
+  10;//effect number  
+    74.000000;//parameter1
+    -1.000000;//parameter2
+    -1.000000;//parameter3
+    -1.000000;//parameter4
+  16;//effect number  
+    143.000000;//parameter1
+    -1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  end_fire_effects;
+  begin_hit_effects;
+  end_hit_effects;
+Pistol (silenced);//name---------------------------------------
+  83;//identifier
+  4;//class
+  shell.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  1.000000;//bullet size
+  0.000000;//spread
+  1.400000;//bullet speed
+  700.000000;//time until bullet disappears
+  400;//fire rate
+  2;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  -1;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.250000;//push target back
+  0.050000;//push shooter back
+  silencer.wav;//fire sound
+  bimpact.wav;//hit sound
+  0.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  0;//condition
+    15.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_wield_conditions;
+  begin_fire_effects;
+  16;//effect number
+    15.000000;//parameter1
+    -1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  27;//effect number
+    14.000000;//parameter1
+    50.000000;//parameter2
+    0.700000;//parameter3
+    0.750000;//parameter4
+  27;//effect number
+    14.000000;//parameter1
+    50.000000;//parameter2
+    0.100000;//parameter3
+    0.100000;//parameter4    
+  26;//effect number
+    1.000000;//parameter1
+    2.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    4.000000;//parameter1
+    2.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    2.000000;//parameter1
+    2.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4 
+ 26;//effect number               shell
+    26.000000;//parameter1
+    1.000000;//parameter2
+   18.000000;//parameter3
+    0.000000;//parameter4     
+  end_fire_effects;
+  begin_hit_effects;
+  63;//effect number
+    -25.000000;//parameter1
+    -80.000000;//parameter2
+    4.000000;//parameter3
+    1.000000;//parameter4
+  end_hit_effects;
+Rifle;//name---------------------------------------
+  84;//identifier
+  5;//class
+  shell.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  1.200000;//bullet size
+  0.000000;//spread
+  1.200000;//bullet speed
+ 1200.000000;//time until bullet disappears
+  700;//fire rate
+  2;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  -1;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.250000;//push target back
+  0.070000;//push shooter back
+  44.wav;//fire sound
+  bimpact.wav;//hit sound
+  3.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  0;//condition
+    15.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_wield_conditions;
+  begin_fire_effects;
+ 4;//effect number
+    -1.000000;//parameter1
+    1.000000;//parameter2
+    10.000000;//parameter3
+    0.000000;//parameter4    
+  16;//effect number
+    15.000000;//parameter1
+    -1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  27;//effect number
+    14.000000;//parameter1
+    50.000000;//parameter2
+    0.700000;//parameter3
+    0.750000;//parameter4
+  27;//effect number
+    14.000000;//parameter1
+    50.000000;//parameter2
+    0.100000;//parameter3
+    0.100000;//parameter4    
+  26;//effect number
+    1.000000;//parameter1
+    2.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    4.000000;//parameter1
+    2.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    2.000000;//parameter1
+    2.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4 
+ 26;//effect number               shell
+    26.000000;//parameter1
+    1.000000;//parameter2
+   18.000000;//parameter3
+    0.000000;//parameter4
+26;//effect number
+    24.000000;//parameter1
+    2.000000;//parameter2
+    41.000000;//parameter3
+    0.000000;//parameter4 
+26;//effect number
+    40.000000;//parameter1
+    1.000000;//parameter2
+    41.000000;//parameter3
+    0.000000;//parameter4    
+  end_fire_effects;
+  begin_hit_effects;
+  63;//effect number
+    -45.000000;//parameter1
+    -135.000000;//parameter2
+    4.000000;//parameter3
+    1.000000;//parameter4
+  end_hit_effects;
+Shotgun;//name---------------------------------------
+  85;//identifier
+  5;//class
+  shell.png;//bullet texture
+  4;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  1.000000;//bullet size
+  0.13000000;//spread
+  1.000000;//bullet speed
+ 900.000000;//time until bullet disappears
+  1100;//fire rate
+  2;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  -1;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.270000;//push target back
+  0.110000;//push shooter back
+  shotgun.wav;//fire sound
+  bimpact.wav;//hit sound
+  3.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  0;//condition
+    15.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_wield_conditions;
+  begin_fire_effects; 
+  16;//effect number
+    15.000000;//parameter1
+    -2.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  27;//effect number
+    14.000000;//parameter1
+    50.000000;//parameter2
+    0.700000;//parameter3
+    0.750000;//parameter4
+  27;//effect number
+    14.000000;//parameter1
+    50.000000;//parameter2
+    0.100000;//parameter3
+    0.100000;//parameter4    
+  26;//effect number
+    1.000000;//parameter1
+    2.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    4.000000;//parameter1
+    2.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    2.000000;//parameter1
+    2.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4 
+ 26;//effect number               shell
+    26.000000;//parameter1
+    1.000000;//parameter2
+   18.000000;//parameter3
+    0.000000;//parameter4
+ 26;//effect number               shell
+    26.000000;//parameter1
+    1.000000;//parameter2
+   18.000000;//parameter3
+    0.000000;//parameter4
+26;//effect number
+    24.000000;//parameter1
+    2.000000;//parameter2
+    41.000000;//parameter3
+    0.000000;//parameter4 
+26;//effect number
+    40.000000;//parameter1
+    1.000000;//parameter2
+    41.000000;//parameter3
+    0.000000;//parameter4    
+  end_fire_effects;
+  begin_hit_effects;
+  63;//effect number
+    -15.000000;//parameter1
+    -75.000000;//parameter2
+    4.000000;//parameter3
+    1.000000;//parameter4
+  end_hit_effects;
+Mega-hertz ECM;//name---------------------------------------
+  86;//identifier
+  0;//class
+  invisible.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  0.100000;//bullet size
+  3.000000;//spread
+  1.300000;//bullet speed
+  10.000000;//time until bullet disappears
+  600;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.000000;//push target back
+  0.000000;//push shooter back
+  ecm.wav;//fire sound
+  hit2.wav;//hit sound
+  1.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  3;//condition
+    1.000000;//condition parameter0
+    2.000000;//condition parameter1  
+  end_wield_conditions;
+  begin_fire_effects;
+  10;//effect number
+    5.000000;//parameter1
+    3.000000;//parameter2
+    -1.000000;//parameter3
+    -1.000000;//parameter4 
+  10;//effect number
+    5.000000;//parameter1
+    3.000000;//parameter2
+    -1.000000;//parameter3
+    -1.000000;//parameter4  
+  4;//effect number
+    -1.5000000;//parameter1
+    0.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  end_fire_effects;
+  begin_hit_effects;
+  end_hit_effects;
+Giga-hertz ECM;//name---------------------------------------
+  87;//identifier
+  0;//class
+  invisible.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  0.100000;//bullet size
+  3.000000;//spread
+  1.300000;//bullet speed
+  10.000000;//time until bullet disappears
+  400;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.000000;//push target back
+  0.000000;//push shooter back
+  ecm.wav;//fire sound
+  hit2.wav;//hit sound
+  1.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  3;//condition
+    1.000000;//condition parameter0
+    2.000000;//condition parameter1  
+  end_wield_conditions;
+  begin_fire_effects;
+ 10;//effect number
+    5.000000;//parameter1
+    3.000000;//parameter2
+    -1.000000;//parameter3
+    -1.000000;//parameter4  
+  4;//effect number
+    -0.3000000;//parameter1
+    0.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  end_fire_effects;
+  begin_hit_effects;
+  end_hit_effects;
+Flying Confed fighter cannon;//name---------------------------------------
+ 88;//identifier
+  0;//class
+  laser_small3.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  6.5000000;//bullet size
+  0.000000;//spread
+  1.400000;//bullet speed
+  530.000000;//time until bullet disappears
+  150;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  7;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  explode.WAV;//hit effect sound
+  0.0700000;//push target back
+  0.000000;//push shooter back
+  phaser.wav;//fire sound
+  explode.WAV;//hit sound
+  1.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  27;//effect number
+    3.000000;//parameter1
+    50.000000;//parameter2
+    0.600000;//parameter3
+    0.650000;//parameter4  
+  27;//effect number
+    4.000000;//parameter1
+    50.000000;//parameter2
+    1.700000;//parameter3
+    1.800000;//parameter4 
+  26;//effect number
+    1.000000;//parameter1
+    2.000000;//parameter2
+    41.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    2.000000;//parameter1
+    2.000000;//parameter2
+    41.000000;//parameter3
+    0.000000;//parameter4
+  end_fire_effects;
+  begin_hit_effects;
+  63;//effect number
+    -40.000000;//parameter1
+    -60.000000;//parameter2
+    4.000000;//parameter3
+    1.000000;//parameter4
+  end_hit_effects;
+Particle Parameter Holder (propaganda);//name---------------------------------------
+  89;//identifier
+  0;//class
+  bullet0.tga;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  0.000000;//bullet size
+  3.140000;//spread
+  0.120000;//bullet speed
+  800.000000;//time until bullet disappears
+  500;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.000000;//push target back
+  0.000000;//push shooter back
+  none;//fire sound
+  none;//hit sound
+  0.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  end_fire_effects;
+  begin_hit_effects;
+  end_hit_effects;
+Alien's Claws;//name---------------------------------------
+  90;//identifier
+  7;//class
+  qalienbullet.png;//bullet texture
+  2;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  1.500000;//bullet size
+  0.300000;//spread
+  1.000000;//bullet speed
+  20.000000;//time until bullet disappears
+  100;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.000000;//push target back
+  -0.050000;//push shooter back
+  groan2.wav;//fire sound
+  claws0_hit.wav;//hit sound
+  1.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  end_fire_effects;
+  begin_hit_effects;
+      4;//effect number
+    -0.8000000;//parameter1
+    0.000000;//parameter2
+    4.000000;//parameter3
+    0.000000;//parameter4
+  4;//effect number
+    -0.500000;//parameter1
+    0.000000;//parameter2
+    12.000000;//parameter3
+    0.000000;//parameter4
+  end_hit_effects;
+Drop propaganda;//name---------------------------------------
+ 91;//identifier
+  8;//class
+  invisible.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  0.000000;//bullet size
+  0.000000;//spread
+  0.000000;//bullet speed
+  10.000000;//time until bullet disappears
+  250;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.000000;//push target back
+  0.000000;//push shooter back
+ paper.wav;//fire sound
+  explosion.wav;//hit sound
+  0.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  0;//condition
+   163.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_wield_conditions;
+  begin_fire_effects;
+  16;//effect number        take
+   163.000000;//parameter1
+    -1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+ 3;//effect number              drop prop
+    163.000000;//parameter1
+    1.00000;//parameter2
+   30.000000;//parameter3
+   0.000000;//parameter4 
+  end_fire_effects;
+  begin_hit_effects;
+  end_hit_effects;
+Shields;//name---------------------------------------
+  92;//identifier
+  0;//class
+  invisible.png;//bullet texture
+ 150;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  10.000000;//bullet size
+  3.140000;//spread
+  0.60000;//bullet speed
+  80.000000;//time until bullet disappears
+  10;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.000000;//push target back
+  0.000000;//push shooter back
+  none;//fire sound
+  none;//hit sound
+  0.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  end_fire_effects;
+  begin_hit_effects;
+  end_hit_effects;
+end_of_file;
+
+
+
+
+
+
+

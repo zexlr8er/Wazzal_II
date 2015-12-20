@@ -1,0 +1,1508 @@
+Start with 20000 Confederate credits;
+Start with 10000 Confederate credits;
+Start with 5000 Confederate credits;
+Wolf IV;//name------------------------------
+  0;//identifier
+  1;//visible in start menu
+  0;//side
+  0;//start area
+  journal.dat;//journal text file name
+  Take command of the legandary ship from Wazzal. Armed with Laser cannons, EMP cannons and mine layers, and protected by ECM defences and a powerful shield. ;//description in start menu
+  0;//creature number in creatures.dat
+  0;//start animation number in animation.dat
+  200;//day length
+  1000.000000;//maximum carry weight
+  1.000000;//climatic temperature change multiplier
+  starwolfrd.png;//rag doll texture
+  computer.png;//interface texture
+  begin_weapon_frames;//must contain all weapon classes in order starting from 0
+  0;//weapon class number                               ship weapons
+    1;//can use the weapon class (0=cannot, 1=can)
+    creature0.png;//texture name
+    2;//row that contains the 4 weapon frames
+    1.000000;//weapon_x
+    5.000000;//weapon_y
+  1;//weapon class number
+    1;//can use the weapon class (0=cannot, 1=can)
+    creature0.png;//texture name
+    2;//row that contains the 4 weapon frames
+    1.000000;//weapon_x
+    5.000000;//weapon_y
+  2;//weapon class number                                  ship thrusters
+    1;//can use the weapon class (0=cannot, 1=can)
+    creature0.png;//texture name
+    2;//row that contains the 4 weapon frames
+    0.000000;//weapon_x
+    -18.000000;//weapon_y
+  3;//weapon class number
+    1;//can use the weapon class (0=cannot, 1=can)
+    captain.png;//texture name
+    3;//row that contains the 4 weapon frames
+    1.000000;//weapon_x
+    27.000000;//weapon_y
+  14;//weapon class number
+    1;//can use the weapon class (0=cannot, 1=can)
+    captain.png;//texture name
+    3;//row that contains the 4 weapon frames
+    1.000000;//weapon_x
+    27.000000;//weapon_y
+  end_weapon_frames;
+  begin_specialties;
+Transports remaining;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    28.000000;//parameter0
+    0.000000;//parameter1
+    7.000000;//parameter2
+   7.000000;//parameter3
+Propaganda;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    2.000000;//parameter0
+    -100.000000;//parameter1
+    100.000000;//parameter2
+   0.000000;//parameter3
+Confed flag;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    26.000000;//parameter0
+    0.000000;//parameter1
+    10.000000;//parameter2
+   10.000000;//parameter3 
+Pirate flag;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    27.000000;//parameter0
+    0.000000;//parameter1
+    10.000000;//parameter2
+   10.000000;//parameter3 
+Fuel;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    25.000000;//parameter0
+    0.000000;//parameter1
+    100.000000;//parameter2
+   0.000000;//parameter3 
+Substations remaining;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    24.000000;//parameter0
+    0.000000;//parameter1
+    10.000000;//parameter2
+   10.000000;//parameter3 
+inventory;//description
+    3;//specialty
+    0;//difficulty level
+    none;//message
+    9.000000;//parameter0
+    1.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3 
+ decrease time distortion bar;//description bookmark
+    7;//specialty 
+    0;//difficulty level
+    none;//message
+    20.000000;//parameter0
+    0.000000;//parameter1
+    20.000000;//parameter2
+    -2.500000;//parameter3
+  time dist;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    20.000000;//parameter0
+    0.000000;//parameter1
+    20.000000;//parameter2
+    0.000000;//parameter3 
+ health restorer timer bar;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    23.000000;//parameter0
+    -25.000000;//parameter1
+   20.000000;//parameter2
+    -25.000000;//parameter3 
+ health restorer;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    21.000000;//parameter0
+    0.000000;//parameter1
+    100.000000;//parameter2
+    100.000000;//parameter3
+   virtual days;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    14.000000;//parameter0
+    0.000000;//parameter1
+    1000.000000;//parameter2
+    0.000000;//parameter3
+  virtual minutes;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    15.000000;//parameter0
+    0.000000;//parameter1
+    60.000000;//parameter2
+    0.000000;//parameter3
+  virtual hours;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    16.000000;//parameter0
+    0.000000;//parameter1
+    12.000000;//parameter2
+    6.000000;//parameter3 
+  Ingame Minute Counter;//description
+    7;//specialty 
+    0;//difficulty level
+    none;//message
+    15.000000;//parameter0
+    0.000000;//parameter1
+    15.000000;//parameter2
+    7.200000;//parameter3
+  Mines;//description
+    3;//specialty
+    0;//difficulty level
+    none;//message
+    21.000000;//parameter0
+    25.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3 
+  Minelayer;//description
+    3;//specialty
+    0;//difficulty level
+    none;//message
+    20.000000;//parameter0
+    1.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3 
+  Leave Bridge;//description
+    3;//specialty
+    0;//difficulty level
+    none;//message
+    12.000000;//parameter0
+    1.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3 
+  starts with ECM;//description
+    3;//specialty
+    0;//difficulty level
+    none;//message
+    8.000000;//parameter0
+    1.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3 
+  Auto-aim Turret;//description
+    3;//specialty
+    0;//difficulty level
+    none;//message
+    23.000000;//parameter0
+    1.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+  Starts with Shield Regen.;//description
+    3;//specialty
+    0;//difficulty level
+    none;//message
+    7.000000;//parameter0
+    1.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3 
+  Starts with laser turet;//description
+    3;//specialty
+    0;//difficulty level
+    none;//message
+    0.000000;//parameter0
+    1.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+  reload (12 clip) bar;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    10.000000;//parameter0
+    0.000000;//parameter1
+    12.000000;//parameter2
+    12.000000;//parameter3
+  slaves;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    17.000000;//parameter0
+    672.000000;//parameter1
+    5000.000000;//parameter2
+    2500.000000;//parameter3 
+slaves (number);//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    31.000000;//parameter0
+    0.000000;//parameter1
+    500.000000;//parameter2
+    0.000000;//parameter3  
+  drugs;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    18.000000;//parameter0
+    183.000000;//parameter1
+    1000.000000;//parameter2
+    500.000000;//parameter3 
+ drugs (number);//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    30.000000;//parameter0
+    0.000000;//parameter1
+    500.000000;//parameter2
+    0.000000;//parameter3  
+  weapons;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    19.000000;//parameter0
+    482.000000;//parameter1
+    3000.000000;//parameter2
+    1500.000000;//parameter3
+ weapons (number);//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    29.000000;//parameter0
+    0.000000;//parameter1
+    500.000000;//parameter2
+    0.000000;//parameter3  
+  shield bar;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    8.000000;//parameter0
+    0.000000;//parameter1
+   20.000000;//parameter2
+    0.000000;//parameter3
+  health bar;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    0.000000;//parameter0
+    0.000000;//parameter1
+    100.000000;//parameter2
+    100.000000;//parameter3
+  Money bar;//description
+    5;//specialty 
+    2;//difficulty level
+    none;//message
+    13.000000;//parameter0
+    0.000000;//parameter1
+    1000000.000000;//parameter2
+    5000.000000;//parameter3 
+Money bar;//description
+    5;//specialty 
+    -1;//difficulty level
+    none;//message
+    13.000000;//parameter0
+    0.000000;//parameter1
+    1000000.000000;//parameter2
+    10000.000000;//parameter3  
+Money bar;//description
+    5;//specialty 
+   -2;//difficulty level
+    none;//message
+    13.000000;//parameter0
+    0.000000;//parameter1
+    1000000.000000;//parameter2
+    10000.000000;//parameter3   
+  Promotion Points bar;//description
+    5;//specialty 
+    0;//difficulty level
+    Promotion Points updated!;//message
+    9.000000;//parameter0
+    0.000000;//parameter1
+    3000.000000;//parameter2
+    0.000000;//parameter3  
+  energy bar;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    1.000000;//parameter0
+    0.000000;//parameter1
+    100.000000;//parameter2
+    100.000000;//parameter3
+  armor meter;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    3.000000;//parameter0
+    -10.000000;//parameter1
+    10.000000;//parameter2
+    1.000000;//parameter3
+  drain health if health too high;//description
+    7;//specialty
+    0;//difficulty level
+    none;//message
+    0.000000;//parameter0
+    1.010000;//parameter1
+    0.000000;//parameter2
+    -5.000000;//parameter3
+   drain battery if battery too high;//description
+    7;//specialty
+    0;//difficulty level
+    none;//message
+    1.000000;//parameter0
+    1.010000;//parameter1
+    1.000000;//parameter2
+    -2.000000;//parameter3
+  unknown;//description
+    0;//specialty
+    0;//difficulty level
+    none;//message
+    1.000000;//parameter0
+    0.300000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+  health bar (h);//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    12.000000;//parameter0
+    0.000000;//parameter1
+    100.000000;//parameter2
+    100.000000;//parameter3
+  energy bar (h);//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    5.000000;//parameter0
+    0.000000;//parameter1
+    100.000000;//parameter2
+    100.000000;//parameter3
+  temperature bar (h);//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    6.000000;//parameter0
+    -100.000000;//parameter1
+    100.000000;//parameter2
+    0.000000;//parameter3
+  armor meter (h);//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    7.000000;//parameter0
+    -10.000000;//parameter1
+    10.000000;//parameter2
+    1.000000;//parameter3
+  Cannot drop ranks;//description
+    0;//specialty
+    0;//difficulty level
+    none;//message
+    2.000000;//parameter0
+    0.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+ Body Slot;//description
+    2;//specialty  
+    0;//difficulty level
+    slot.tga;//message
+    2.000000;//parameter0
+    95.000000;//parameter1
+    60.000000;//parameter2
+    0.000000;//parameter3
+  end_specialties;
+  begin_disabled_endings;
+  end_disabled_endings;
+  begin_disabled_item_classes;
+  end_disabled_item_classes;
+Captain, Wolf IV;//name------------------------------
+  1;//identifier
+  0;//visible in start menu
+  0;//side
+  1;//start area
+  journal.dat;//journal text file name
+  High negative effects of body temperature.;//description in start menu
+  10;//creature number in creatures.dat
+  0;//start animation number in animation.dat
+  200;//day length
+ 120.000000;//maximum carry weight
+  1.000000;//climatic temperature change multiplier
+  ragdoll.png;//rag doll texture
+  computer.png;//interface texture
+  begin_weapon_frames;//must contain all weapon classes in order starting from 0
+  0;//weapon class number                                  big gun - no multipliers
+    1;//can use the weapon class (0=cannot, 1=can)
+    captain.png;//texture name
+    2;//row that contains the 4 weapon frames
+    12.000000;//weapon_x
+   27.000000;//weapon_y
+  1;//weapon class number                                 EMPTY
+    1;//can use the weapon class (0=cannot, 1=can)
+    captain.png;//texture name
+    2;//row that contains the 4 weapon frames
+     9.000000;//weapon_x
+    27.000000;//weapon_y
+  2;//weapon class number                                 reverse ?
+    1;//can use the weapon class (0=cannot, 1=can)
+    captain.png;//texture name
+    2;//row that contains the 4 weapon frames
+    27.000000;//weapon_x
+    27.000000;//weapon_y
+  3;//weapon class number                                hand-laser (pistol)
+    1;//can use the weapon class (0=cannot, 1=can)
+    captain.png;//texture name
+    3;//row that contains the 4 weapon frames
+    9.000000;//weapon_x
+    26.000000;//weapon_y
+  4;//weapon class number                                 hand-projectile (pistol)
+    1;//can use the weapon class (0=cannot, 1=can)
+    captain.png;//texture name
+    3;//row that contains the 4 weapon frames
+    9.000000;//weapon_x
+    26.000000;//weapon_y
+  5;//weapon class number                                 hand-projectile (machinegun)
+    1;//can use the weapon class (0=cannot, 1=can)
+    captain_weapons.png;//texture name
+    0;//row that contains the 4 weapon frames
+    6.000000;//weapon_x
+    27.000000;//weapon_y
+  6;//weapon class number                                 hand-laser (machinegun)
+    1;//can use the weapon class (0=cannot, 1=can)
+    captain_weapons.png;//texture name
+    0;//row that contains the 4 weapon frames
+    6.000000;//weapon_x
+    27.000000;//weapon_y
+  7;//weapon class number                                   fire
+    1;//can use the weapon class (0=cannot, 1=can)
+    captain.png;//texture name
+    2;//row that contains the 4 weapon frames
+     9.000000;//weapon_x
+    27.000000;//weapon_y
+  8;//weapon class number                                 jet exhaust/mines/dynamite - backpack
+    1;//can use the weapon class (0=cannot, 1=can)
+    captain_weapons.png;//texture name
+    1;//row that contains the 4 weapon frames
+    0.000000;//weapon_x
+    -5.000000;//weapon_y
+  9;//weapon class number                                knife/dart/spear hit, melee
+    1;//can use the weapon class (0=cannot, 1=can)
+    captain_weapons.png;//texture name
+    2;//row that contains the 4 weapon frames
+    11.000000;//weapon_x
+    28.000000;//weapon_y
+  10;//weapon class number                                 hand-knife/axe/pick (only one that can harm rocks)
+    1;//can use the weapon class (0=cannot, 1=can)
+    captain_weapons.png;//texture name
+    2;//row that contains the 4 weapon frames
+    9.000000;//weapon_x
+    10.000000;//weapon_y
+ 11;//weapon class number                                 hand-bow
+    1;//can use the weapon class (0=cannot, 1=can)
+    captain_weapons.png;//texture name
+   3;//row that contains the 4 weapon frames
+    9.000000;//weapon_x
+    10.000000;//weapon_y
+  12;//weapon class number                                fusion beam
+    1;//can use the weapon class (0=cannot, 1=can)
+    captain_weapons.png;//texture name
+    0;//row that contains the 4 weapon frames
+    6.000000;//weapon_x
+    27.000000;//weapon_y
+ 13;//weapon class number                                 alien
+    1;//can use the weapon class (0=cannot, 1=can)
+    captain_weapons2.png;//texture name
+    0;//row that contains the 4 weapon frames
+    6.000000;//weapon_x
+    27.000000;//weapon_y
+  end_weapon_frames;
+  begin_specialties;
+Fuel;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    25.000000;//parameter0
+    0.000000;//parameter1
+    100.000000;//parameter2
+   0.000000;//parameter3 
+Substations remaining;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    24.000000;//parameter0
+    0.000000;//parameter1
+    10.000000;//parameter2
+    10.000000;//parameter3 
+ decrease time distortion bar;//description bookmark
+    7;//specialty 
+    0;//difficulty level
+    none;//message
+    20.000000;//parameter0
+    0.000000;//parameter1
+    20.000000;//parameter2
+    -2.500000;//parameter3
+  time dist;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    20.000000;//parameter0
+    0.000000;//parameter1
+    20.000000;//parameter2
+    0.000000;//parameter3 
+decrease health restorer timer bar;//description bookmark
+    7;//specialty 
+    0;//difficulty level
+    none;//message
+    23.000000;//parameter0
+    0.000000;//parameter1
+    23.000000;//parameter2
+    -1.00000;//parameter3
+ health restorer timer bar;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    23.000000;//parameter0
+    -25.000000;//parameter1
+    20.000000;//parameter2
+    -25.000000;//parameter3 
+ health restorer;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    21.000000;//parameter0
+    0.000000;//parameter1
+    100.000000;//parameter2
+    100.000000;//parameter3
+ slaves;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    17.000000;//parameter0
+    0.000000;//parameter1
+    80.000000;//parameter2
+    40.000000;//parameter3 
+  drugs;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    18.000000;//parameter0
+    0.000000;//parameter1
+    100.000000;//parameter2
+    50.000000;//parameter3 
+  illegal;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    19.000000;//parameter0
+    0.000000;//parameter1
+    120.000000;//parameter2
+    60.000000;//parameter3 
+  virtual days;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    14.000000;//parameter0
+    0.000000;//parameter1
+    1000.000000;//parameter2
+    0.000000;//parameter3
+  virtual minutes;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    15.000000;//parameter0
+    0.000000;//parameter1
+    60.000000;//parameter2
+    0.000000;//parameter3
+  virtual hours;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    16.000000;//parameter0
+    0.000000;//parameter1
+    12.000000;//parameter2
+    6.000000;//parameter3 
+  Ingame Minute Counter;//description
+    7;//specialty 
+    0;//difficulty level
+    none;//message
+    15.000000;//parameter0
+    0.000000;//parameter1
+    15.000000;//parameter2
+    7.200000;//parameter3 
+  health bar (h);//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    4.000000;//parameter0
+    0.000000;//parameter1
+    100.000000;//parameter2
+    100.000000;//parameter3
+  energy bar (h);//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    5.000000;//parameter0
+    0.000000;//parameter1
+    100.000000;//parameter2
+    100.000000;//parameter3
+  temperature bar (h);//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    6.000000;//parameter0
+    -100.000000;//parameter1
+    100.000000;//parameter2
+    0.000000;//parameter3
+  armor meter (h);//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    7.000000;//parameter0
+    -10.000000;//parameter1
+    10.000000;//parameter2
+    1.000000;//parameter3
+  drain battery if battery too high;//description
+    7;//specialty 
+    0;//difficulty level
+    none;//message
+    5.000000;//parameter0
+    1.010000;//parameter1
+    5.000000;//parameter2
+    -1.500000;//parameter3
+  drain health if health too high;//description
+    7;//specialty
+    0;//difficulty level
+    none;//message
+    12.000000;//parameter0
+    1.010000;//parameter1
+    12.000000;//parameter2
+    -3.000000;//parameter3
+  drain health if temperature too high;//description
+    7;//specialty 
+    0;//difficulty level
+    It's too hot! Find shelter!;//message
+    6.000000;//parameter0
+    0.900000;//parameter1
+    12.000000;//parameter2
+    -0.500000;//parameter3
+  drain health if temperature too low;//description
+    6;//specialty 
+    0;//difficulty level
+    You're freezing! Find a fire to heat up.;//message
+    6.000000;//parameter0
+    0.200000;//parameter1
+    12.000000;//parameter2
+    -0.500000;//parameter3
+  cannot drop item class 1;//description
+    0;//specialty
+    0;//difficulty level
+    none;//message
+    1.000000;//parameter0
+    0.300000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+  starts with laser;//description
+    3;//specialty
+    0;//difficulty level
+    none;//message
+    0.000000;//parameter0
+    1.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+  Cannot drop powered jetpack;//description
+    0;//specialty
+    0;//difficulty level
+    none;//message
+    1.000000;//parameter0
+    0.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+  Cannot drop ranks;//description
+    0;//specialty
+    0;//difficulty level
+    none;//message
+    2.000000;//parameter0
+    0.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+Right Hand Slot;//description
+    2;//specialty 
+    0;//difficulty level
+    slot.tga;//message
+    0.000000;//parameter0
+    -5.000000;//parameter1
+    100.000000;//parameter2
+    0.000000;//parameter3
+  Left Hand Slot;//description
+    2;//specialty  
+    0;//difficulty level
+    slot.tga;//message
+    1.000000;//parameter0
+    195.000000;//parameter1
+    100.000000;//parameter2
+    0.000000;//parameter3
+  Body Slot;//description
+    2;//specialty  
+    0;//difficulty level
+    slot.tga;//message
+    2.000000;//parameter0
+    95.000000;//parameter1
+    60.000000;//parameter2
+    0.000000;//parameter3
+  Feet Slot;//description
+    2;//specialty  
+    0;//difficulty level
+    slot.tga;//message
+    3.000000;//parameter0
+    95.000000;//parameter1
+    200.000000;//parameter2
+    0.000000;//parameter3
+  Head Slot;//description
+    2;//specialty  
+    0;//difficulty level
+    slot.tga;//message
+    4.000000;//parameter0
+    95.000000;//parameter1
+    -60.000000;//parameter2
+    0.000000;//parameter3
+  end_specialties;
+  begin_disabled_endings;
+  end_disabled_endings;
+  begin_disabled_item_classes;
+  end_disabled_item_classes;
+Shop;//name------------------------------
+  2;//identifier
+  0;//visible in start menu
+  0;//side
+  0;//start area
+  journal.dat;//journal text file name
+none;//description in start menu
+  10;//creature number in creatures.dat
+  0;//start animation number in animation.dat
+  200;//day length
+  1000.000000;//maximum carry weight
+  1.000000;//climatic temperature change multiplier
+  invisible.png;//rag doll texture
+  computer.png;//interface texture
+  begin_weapon_frames;//must contain all weapon classes in order starting from 0
+  end_weapon_frames;
+  begin_specialties;
+  end_specialties;
+  begin_disabled_endings;
+  end_disabled_endings;
+  begin_disabled_item_classes;
+  end_disabled_item_classes;
+Pirate Wolf IV;//name------------------------------
+  3;//identifier
+  0;//visible in start menu
+  0;//side
+  0;//start area
+  journal.dat;//journal text file name
+  Take command of the legandary ship from Wazzal. Armed with Laser cannons, EMP cannons and mine layers, and protected by ECM defences and a powerful shield. ;//description in start menu
+  65;//creature number in creatures.dat
+  0;//start animation number in animation.dat
+  200;//day length
+  1000.000000;//maximum carry weight
+  1.000000;//climatic temperature change multiplier
+  starwolfrd.png;//rag doll texture
+  computer.png;//interface texture
+  begin_weapon_frames;//must contain all weapon classes in order starting from 0
+  0;//weapon class number                               ship weapons
+    1;//can use the weapon class (0=cannot, 1=can)
+    piratewolf.png;//texture name
+    2;//row that contains the 4 weapon frames
+    1.000000;//weapon_x
+    5.000000;//weapon_y
+  1;//weapon class number
+    1;//can use the weapon class (0=cannot, 1=can)
+    piratewolf.png;//texture name
+    2;//row that contains the 4 weapon frames
+    1.000000;//weapon_x
+   5.000000;//weapon_y
+  2;//weapon class number                                  ship thrusters
+    1;//can use the weapon class (0=cannot, 1=can)
+    piratewolf.png;//texture name
+    2;//row that contains the 4 weapon frames
+    0.000000;//weapon_x
+    -18.000000;//weapon_y
+  3;//weapon class number
+    1;//can use the weapon class (0=cannot, 1=can)
+    piratewolf.png;//texture name
+    3;//row that contains the 4 weapon frames
+    1.000000;//weapon_x
+    27.000000;//weapon_y
+  end_weapon_frames;
+  begin_specialties;
+Confed flag;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    26.000000;//parameter0
+    0.000000;//parameter1
+    10.000000;//parameter2
+   10.000000;//parameter3 
+Pirate flag;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    27.000000;//parameter0
+    0.000000;//parameter1
+    10.000000;//parameter2
+   10.000000;//parameter3 
+Fuel;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    25.000000;//parameter0
+    0.000000;//parameter1
+    100.000000;//parameter2
+   0.000000;//parameter3 
+Substations remaining;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    24.000000;//parameter0
+    0.000000;//parameter1
+    10.000000;//parameter2
+   10.000000;//parameter3 
+inventory;//description
+    3;//specialty
+    0;//difficulty level
+    none;//message
+    9.000000;//parameter0
+    1.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3 
+ decrease time distortion bar;//description bookmark
+    7;//specialty 
+    0;//difficulty level
+    none;//message
+    20.000000;//parameter0
+    0.000000;//parameter1
+    20.000000;//parameter2
+    -2.500000;//parameter3
+  time dist;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    20.000000;//parameter0
+    0.000000;//parameter1
+    20.000000;//parameter2
+    0.000000;//parameter3 
+ health restorer timer bar;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    23.000000;//parameter0
+    -25.000000;//parameter1
+   20.000000;//parameter2
+    -25.000000;//parameter3 
+ health restorer;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    21.000000;//parameter0
+    0.000000;//parameter1
+    100.000000;//parameter2
+    100.000000;//parameter3
+   virtual days;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    14.000000;//parameter0
+    0.000000;//parameter1
+    1000.000000;//parameter2
+    0.000000;//parameter3
+  virtual minutes;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    15.000000;//parameter0
+    0.000000;//parameter1
+    60.000000;//parameter2
+    0.000000;//parameter3
+  virtual hours;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    16.000000;//parameter0
+    0.000000;//parameter1
+    12.000000;//parameter2
+    6.000000;//parameter3 
+  Ingame Minute Counter;//description
+    7;//specialty 
+    0;//difficulty level
+    none;//message
+    15.000000;//parameter0
+    0.000000;//parameter1
+    15.000000;//parameter2
+    7.200000;//parameter3
+  Mines;//description
+    3;//specialty
+    0;//difficulty level
+    none;//message
+    21.000000;//parameter0
+    25.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3 
+  Minelayer;//description
+    3;//specialty
+    0;//difficulty level
+    none;//message
+    20.000000;//parameter0
+    1.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3 
+  Leave Bridge;//description
+    3;//specialty
+    0;//difficulty level
+    none;//message
+    12.000000;//parameter0
+    1.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3 
+  starts with ECM;//description
+    3;//specialty
+    0;//difficulty level
+    none;//message
+    8.000000;//parameter0
+    1.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3 
+  Auto-aim Turret;//description
+    3;//specialty
+    0;//difficulty level
+    none;//message
+    23.000000;//parameter0
+    1.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+  Starts with Shield Regen.;//description
+    3;//specialty
+    0;//difficulty level
+    none;//message
+    6.000000;//parameter0
+    1.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3 
+  Starts with laser turet;//description
+    3;//specialty
+    0;//difficulty level
+    none;//message
+    0.000000;//parameter0
+    1.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+  reload (12 clip) bar;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    10.000000;//parameter0
+    0.000000;//parameter1
+    12.000000;//parameter2
+    12.000000;//parameter3
+  slaves;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    17.000000;//parameter0
+    672.000000;//parameter1
+    5000.000000;//parameter2
+    2500.000000;//parameter3 
+  drugs;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    18.000000;//parameter0
+    183.000000;//parameter1
+    1000.000000;//parameter2
+    500.000000;//parameter3 
+  weapons;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    19.000000;//parameter0
+    482.000000;//parameter1
+    3000.000000;//parameter2
+    1500.000000;//parameter3 
+  shield bar;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    8.000000;//parameter0
+    0.000000;//parameter1
+    20.000000;//parameter2
+    20.000000;//parameter3
+  health bar;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    0.000000;//parameter0
+    0.000000;//parameter1
+    100.000000;//parameter2
+    100.000000;//parameter3
+  Money bar;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    13.000000;//parameter0
+    0.000000;//parameter1
+    1000000.000000;//parameter2
+    25000.000000;//parameter3  
+  Promotion Points bar;//description
+    5;//specialty 
+    0;//difficulty level
+    Promotion Points updated!;//message
+    9.000000;//parameter0
+    0.000000;//parameter1
+    3000.000000;//parameter2
+    0.000000;//parameter3  
+  energy bar;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    1.000000;//parameter0
+    0.000000;//parameter1
+    100.000000;//parameter2
+    100.000000;//parameter3
+  armor meter;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    3.000000;//parameter0
+    -10.000000;//parameter1
+    10.000000;//parameter2
+    1.000000;//parameter3
+  drain health if health too high;//description
+    7;//specialty
+    0;//difficulty level
+    none;//message
+    0.000000;//parameter0
+    1.010000;//parameter1
+    0.000000;//parameter2
+    -5.000000;//parameter3
+   drain battery if battery too high;//description
+    7;//specialty
+    0;//difficulty level
+    none;//message
+    1.000000;//parameter0
+    1.010000;//parameter1
+    1.000000;//parameter2
+    -2.000000;//parameter3
+  unknown;//description
+    0;//specialty
+    0;//difficulty level
+    none;//message
+    1.000000;//parameter0
+    0.300000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+  health bar (h);//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    12.000000;//parameter0
+    0.000000;//parameter1
+    100.000000;//parameter2
+    100.000000;//parameter3
+  energy bar (h);//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    5.000000;//parameter0
+    0.000000;//parameter1
+    100.000000;//parameter2
+    100.000000;//parameter3
+  temperature bar (h);//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    6.000000;//parameter0
+    -100.000000;//parameter1
+    100.000000;//parameter2
+    0.000000;//parameter3
+  armor meter (h);//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    7.000000;//parameter0
+    -10.000000;//parameter1
+    10.000000;//parameter2
+    1.000000;//parameter3
+  Cannot drop ranks;//description
+    0;//specialty
+    0;//difficulty level
+    none;//message
+    2.000000;//parameter0
+    0.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+ Cannot drop anything;//description
+    0;//specialty
+    0;//difficulty level
+    none;//message
+    0.000000;//parameter0
+    0.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+  end_specialties;
+  begin_disabled_endings;
+  end_disabled_endings;
+  begin_disabled_item_classes;
+  end_disabled_item_classes;
+Stealth Wolf IV;//name------------------------------
+  4;//identifier
+  0;//visible in start menu
+  0;//side
+  0;//start area
+  journal.dat;//journal text file name
+  Take command of the legandary ship from Wazzal. Armed with Laser cannons, EMP cannons and mine layers, and protected by ECM defences and a powerful shield. ;//description in start menu
+  66;//creature number in creatures.dat
+  0;//start animation number in animation.dat
+  200;//day length
+  1000.000000;//maximum carry weight
+  1.000000;//climatic temperature change multiplier
+  starwolfrd.png;//rag doll texture
+  computer.png;//interface texture
+  begin_weapon_frames;//must contain all weapon classes in order starting from 0
+  0;//weapon class number                               ship weapons
+    1;//can use the weapon class (0=cannot, 1=can)
+   stealthwolf.png;//texture name
+    2;//row that contains the 4 weapon frames
+    1.000000;//weapon_x
+    5.000000;//weapon_y
+  1;//weapon class number
+    1;//can use the weapon class (0=cannot, 1=can)
+    stealthwolf.png;//texture name
+    2;//row that contains the 4 weapon frames
+    1.000000;//weapon_x
+    5.000000;//weapon_y
+  2;//weapon class number                                  ship thrusters
+    1;//can use the weapon class (0=cannot, 1=can)
+    stealthwolf.png;//texture name
+    2;//row that contains the 4 weapon frames
+    0.000000;//weapon_x
+    -18.000000;//weapon_y
+  3;//weapon class number
+    1;//can use the weapon class (0=cannot, 1=can)
+    stealthwolf.png;//texture name
+    3;//row that contains the 4 weapon frames
+    1.000000;//weapon_x
+    27.000000;//weapon_y
+  end_weapon_frames;
+  begin_specialties;
+Confed flag;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    26.000000;//parameter0
+    0.000000;//parameter1
+    10.000000;//parameter2
+   10.000000;//parameter3 
+Pirate flag;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    27.000000;//parameter0
+    0.000000;//parameter1
+    10.000000;//parameter2
+   10.000000;//parameter3 
+Fuel;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    25.000000;//parameter0
+    0.000000;//parameter1
+    100.000000;//parameter2
+   0.000000;//parameter3 
+Substations remaining;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    24.000000;//parameter0
+    0.000000;//parameter1
+    10.000000;//parameter2
+   10.000000;//parameter3 
+inventory;//description
+    3;//specialty
+    0;//difficulty level
+    none;//message
+    9.000000;//parameter0
+    1.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3 
+ decrease time distortion bar;//description bookmark
+    7;//specialty 
+    0;//difficulty level
+    none;//message
+    20.000000;//parameter0
+    0.000000;//parameter1
+    20.000000;//parameter2
+    -2.500000;//parameter3
+  time dist;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    20.000000;//parameter0
+    0.000000;//parameter1
+    20.000000;//parameter2
+    0.000000;//parameter3 
+ health restorer timer bar;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    23.000000;//parameter0
+    -25.000000;//parameter1
+   20.000000;//parameter2
+    -25.000000;//parameter3 
+ health restorer;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    21.000000;//parameter0
+    0.000000;//parameter1
+    100.000000;//parameter2
+    100.000000;//parameter3
+   virtual days;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    14.000000;//parameter0
+    0.000000;//parameter1
+    1000.000000;//parameter2
+    0.000000;//parameter3
+  virtual minutes;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    15.000000;//parameter0
+    0.000000;//parameter1
+    60.000000;//parameter2
+    0.000000;//parameter3
+  virtual hours;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    16.000000;//parameter0
+    0.000000;//parameter1
+    12.000000;//parameter2
+    6.000000;//parameter3 
+  Ingame Minute Counter;//description
+    7;//specialty 
+    0;//difficulty level
+    none;//message
+    15.000000;//parameter0
+    0.000000;//parameter1
+    15.000000;//parameter2
+    7.200000;//parameter3
+  Mines;//description
+    3;//specialty
+    0;//difficulty level
+    none;//message
+    21.000000;//parameter0
+    25.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3 
+  Minelayer;//description
+    3;//specialty
+    0;//difficulty level
+    none;//message
+    20.000000;//parameter0
+    1.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3 
+  Leave Bridge;//description
+    3;//specialty
+    0;//difficulty level
+    none;//message
+    12.000000;//parameter0
+    1.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3 
+  starts with ECM;//description
+    3;//specialty
+    0;//difficulty level
+    none;//message
+    8.000000;//parameter0
+    1.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3 
+  Auto-aim Turret;//description
+    3;//specialty
+    0;//difficulty level
+    none;//message
+    23.000000;//parameter0
+    1.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+  Starts with Shield Regen.;//description
+    3;//specialty
+    0;//difficulty level
+    none;//message
+    6.000000;//parameter0
+    1.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3 
+  Starts with laser turet;//description
+    3;//specialty
+    0;//difficulty level
+    none;//message
+    0.000000;//parameter0
+    1.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+  reload (12 clip) bar;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    10.000000;//parameter0
+    0.000000;//parameter1
+    12.000000;//parameter2
+    12.000000;//parameter3
+  slaves;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    17.000000;//parameter0
+    672.000000;//parameter1
+    5000.000000;//parameter2
+    2500.000000;//parameter3 
+  drugs;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    18.000000;//parameter0
+    183.000000;//parameter1
+    1000.000000;//parameter2
+    500.000000;//parameter3 
+  weapons;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    19.000000;//parameter0
+    482.000000;//parameter1
+    3000.000000;//parameter2
+    1500.000000;//parameter3 
+  shield bar;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    8.000000;//parameter0
+    0.000000;//parameter1
+    20.000000;//parameter2
+    0.000000;//parameter3
+  health bar;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    0.000000;//parameter0
+    0.000000;//parameter1
+    100.000000;//parameter2
+    100.000000;//parameter3
+  Money bar;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    13.000000;//parameter0
+    0.000000;//parameter1
+    1000000.000000;//parameter2
+    25000.000000;//parameter3  
+  Promotion Points bar;//description
+    5;//specialty 
+    0;//difficulty level
+    Promotion Points updated!;//message
+    9.000000;//parameter0
+    0.000000;//parameter1
+    3000.000000;//parameter2
+    0.000000;//parameter3  
+  energy bar;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    1.000000;//parameter0
+    0.000000;//parameter1
+    100.000000;//parameter2
+    100.000000;//parameter3
+  armor meter;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    3.000000;//parameter0
+    -10.000000;//parameter1
+    10.000000;//parameter2
+    1.000000;//parameter3
+  drain health if health too high;//description
+    7;//specialty
+    0;//difficulty level
+    none;//message
+    0.000000;//parameter0
+    1.010000;//parameter1
+    0.000000;//parameter2
+    -5.000000;//parameter3
+   drain battery if battery too high;//description
+    7;//specialty
+    0;//difficulty level
+    none;//message
+    1.000000;//parameter0
+    1.010000;//parameter1
+    1.000000;//parameter2
+    -2.000000;//parameter3
+  unknown;//description
+    0;//specialty
+    0;//difficulty level
+    none;//message
+    1.000000;//parameter0
+    0.300000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+  health bar (h);//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    12.000000;//parameter0
+    0.000000;//parameter1
+    100.000000;//parameter2
+    100.000000;//parameter3
+  energy bar (h);//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    5.000000;//parameter0
+    0.000000;//parameter1
+    100.000000;//parameter2
+    100.000000;//parameter3
+  temperature bar (h);//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    6.000000;//parameter0
+    -100.000000;//parameter1
+    100.000000;//parameter2
+    0.000000;//parameter3
+  armor meter (h);//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    7.000000;//parameter0
+    -10.000000;//parameter1
+    10.000000;//parameter2
+    1.000000;//parameter3
+  Cannot drop ranks;//description
+    0;//specialty
+    0;//difficulty level
+    none;//message
+    2.000000;//parameter0
+    0.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+  end_specialties;
+  begin_disabled_endings;
+  end_disabled_endings;
+  begin_disabled_item_classes;
+  end_disabled_item_classes;
+end_of_file;

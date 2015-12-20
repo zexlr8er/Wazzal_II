@@ -1,0 +1,430 @@
+flashlight;//name-------
+  0;//identifier
+  light0.tga;//texture
+  0;//type, 0=flashlight, 1=omni
+  0;//pulse speed
+  0.800000;//red color component
+  0.800000;//green color component
+  1.000000;//blue color component
+  0.500000;//alpha color component
+  1.000000;//light intensity
+  -1;//flash particle (-1=nothing)
+  0;//flashing speed
+  0;//particle life time   
+omni;//name-------
+  1;//identifier
+  light1.tga;//texture
+  1;//type, 0=flashlight, 1=omni
+  0;//pulse speed
+  1.000000;//red color component
+  1.000000;//green color component
+  1.000000;//blue color component
+  1.000000;//alpha color component
+  1.000000;//light intensity
+  -1;//flash particle (-1=nothing)
+  0;//flashing speed
+  0;//particle life time
+sunomni;//name-------
+  2;//identifier
+  light1.tga;//texture
+  1;//type, 0=flashlight, 1=omni
+  20;//pulse speed
+  1.000000;//red color component
+  0.600000;//green color component
+  0.100000;//blue color component
+  0.400000;//alpha color component
+  1.000000;//light intensity
+  -1;//flash particle (-1=nothing)
+  0;//flashing speed
+  0;//particle life time
+Red blast;//name-------
+  3;//identifier
+  light1.png;//texture
+  1;//type, 0=flashlight, 1=omni
+  0;//pulse speed
+  1.000000;//red color component
+  0.000000;//green color component
+  0.000000;//blue color component
+  1.000000;//alpha color component
+  1.000000;//light intensity
+  -1;//flash particle (-1=nothing)
+  0;//flashing speed
+  0;//particle life time
+Red Omni;//name-------
+  4;//identifier
+  light1.png;//texture
+  1;//type, 0=flashlight, 1=omni
+  0;//pulse speed
+  1.000000;//red color component
+  0.000000;//green color component
+  0.000000;//blue color component
+  0.400000;//alpha color component
+  1.000000;//light intensity
+  -1;//flash particle (-1=nothing)
+  0;//flashing speed
+  0;//particle life time
+Green blast;//name-------
+  5;//identifier
+  light1.png;//texture
+  1;//type, 0=flashlight, 1=omni
+  0;//pulse speed
+  0.000000;//red color component
+  1.000000;//green color component
+  0.000000;//blue color component
+  1.000000;//alpha color component
+  1.000000;//light intensity
+  -1;//flash particle (-1=nothing)
+  0;//flashing speed
+  0;//particle life time
+Green Omni;//name-------
+  6;//identifier
+  light1.png;//texture
+  1;//type, 0=flashlight, 1=omni
+  0;//pulse speed
+  0.000000;//red color component
+  1.000000;//green color component
+  0.000000;//blue color component
+  0.400000;//alpha color component
+  1.000000;//light intensity
+  -1;//flash particle (-1=nothing)
+  0;//flashing speed
+  0;//particle life time
+Blue blast;//name-------
+  7;//identifier
+  light1.png;//texture
+  1;//type, 0=flashlight, 1=omni
+  0;//pulse speed
+  0.000000;//red color component
+  0.000000;//green color component
+  1.000000;//blue color component
+  1.000000;//alpha color component
+  1.000000;//light intensity
+  -1;//flash particle (-1=nothing)
+  0;//flashing speed
+  0;//particle life time
+Blue Omni;//name-------
+  8;//identifier
+  light1.png;//texture
+  1;//type, 0=flashlight, 1=omni
+  0;//pulse speed
+  0.000000;//red color component
+  0.000000;//green color component
+  1.000000;//blue color component
+  1.000000;//alpha color component
+  1.000000;//light intensity
+  -1;//flash particle (-1=nothing)
+  0;//flashing speed
+  0;//particle life time
+fire;//name-------
+  9;//identifier
+  fire0.png;//texture 
+  1;//type, 0=flashlight, 1=omni
+  5;//pulse speed
+  1.000000;//red color component
+  0.400000;//green color component
+  0.000000;//blue color component
+  1.000000;//alpha color component
+  2.000000;//light intensity
+  12;//flash particle (-1=nothing)
+  30;//flashing speed
+  200;//particle life time
+ECM;//name-------
+  10;//identifier
+  light1.png;//texture
+  1;//type, 0=flashlight, 1=omni
+  0;//pulse speed
+  0.000000;//red color component
+  1.000000;//green color component
+  0.000000;//blue color component
+  1.000000;//alpha color component
+  1.000000;//light intensity
+  7;//flash particle (-1=nothing)
+  10;//flashing speed
+  300;//particle life time
+fire trail;//name-------
+  11;//identifier
+  fire0.png;//texture 
+  1;//type, 0=flashlight, 1=omni
+  5;//pulse speed
+  1.000000;//red color component
+  0.400000;//green color component
+  0.000000;//blue color component
+  0.000000;//alpha color component
+  1.000000;//light intensity
+  13;//flash particle (-1=nothing)
+  10;//flashing speed
+  300;//particle life time
+Gunblast;//name-------
+  12;//identifier
+  light1.png;//texture
+  1;//type, 0=flashlight, 1=omni
+  0;//pulse speed
+  1.000000;//red color component
+  1.000000;//green color component
+  0.500000;//blue color component
+  1.000000;//alpha color component
+  1.000000;//light intensity
+  -1;//flash particle (-1=nothing)
+  0;//flashing speed
+  0;//particle life time
+Ship fire trail;//name-------
+  13;//identifier
+  fire0.png;//texture 
+  1;//type, 0=flashlight, 1=omni
+  5;//pulse speed
+  1.000000;//red color component
+  0.400000;//green color component
+  0.000000;//blue color component
+  1.000000;//alpha color component
+  2.000000;//light intensity
+  53;//flash particle (-1=nothing)
+  30;//flashing speed
+  50;//particle life time
+Gunblast;//name-------
+  14;//identifier
+  light1.png;//texture
+  1;//type, 0=flashlight, 1=omni
+  0;//pulse speed
+  1.000000;//red color component
+  1.000000;//green color component
+  0.500000;//blue color component
+  1.000000;//alpha color component
+  1.000000;//light intensity
+  -1;//flash particle (-1=nothing)
+  0;//flashing speed
+  0;//particle life time
+bomb;//name-------
+  15;//identifier
+  light1.tga;//texture
+  1;//type, 0=flashlight, 1=omni
+  0;//pulse speed
+  1.000000;//red color component
+  0.600000;//green color component
+  0.600000;//blue color component
+  0.700000;//alpha color component
+  1.000000;//light intensity
+  -1;//flash particle (-1=nothing)
+  0;//flashing speed
+  0;//particle life time
+Searchlight;//name-------
+  16;//identifier
+  light2.png;//texture
+  0;//type, 0=flashlight, 1=omni
+  0;//pulse speed
+  0.800000;//red color component
+  0.800000;//green color component
+  1.000000;//blue color component
+  0.350000;//alpha color component
+  2.000000;//light intensity
+  -1;//flash particle (-1=nothing)
+  0;//flashing speed
+  0;//particle life time    
+Red Omni;//name-------
+  17;//identifier
+  light1.png;//texture
+  1;//type, 0=flashlight, 1=omni
+  0;//pulse speed
+  1.000000;//red color component
+  0.000000;//green color component
+  0.000000;//blue color component
+  0.400000;//alpha color component
+  1.000000;//light intensity
+  -1;//flash particle (-1=nothing)
+  0;//flashing speed
+  0;//particle life time
+particle trail;//name-------
+  18;//identifier
+  light1.png;//texture
+  1;//type, 0=flashlight, 1=omni
+  0;//pulse speed
+  0.000000;//red color component
+  0.000000;//green color component
+  0.000000;//blue color component
+  0.000000;//alpha color component
+  0.000000;//light intensity
+  35;//flash particle (-1=nothing)
+  10;//flashing speed
+  1000;//particle life time
+particle trail;//name-------
+  19;//identifier
+  light1.png;//texture
+  1;//type, 0=flashlight, 1=omni
+  0;//pulse speed
+  0.000000;//red color component
+  0.000000;//green color component
+  0.000000;//blue color component
+  0.000000;//alpha color component
+  0.000000;//light intensity
+  36;//flash particle (-1=nothing)
+  10;//flashing speed
+  1000;//particle life time
+particle trail;//name-------
+  20;//identifier
+  light1.png;//texture
+  1;//type, 0=flashlight, 1=omni
+  0;//pulse speed
+  0.000000;//red color component
+  0.000000;//green color component
+  0.000000;//blue color component
+  0.000000;//alpha color component
+  0.000000;//light intensity
+  37;//flash particle (-1=nothing)
+  10;//flashing speed
+  1000;//particle life time
+particle trail;//name-------
+  21;//identifier
+  light1.png;//texture
+  1;//type, 0=flashlight, 1=omni
+  0;//pulse speed
+  0.000000;//red color component
+  0.000000;//green color component
+  0.000000;//blue color component
+  0.000000;//alpha color component
+  0.000000;//light intensity
+  38;//flash particle (-1=nothing)
+  10;//flashing speed
+  1000;//particle life time
+fire;//name-------
+  22;//identifier
+  fire0.png;//texture 
+  1;//type, 0=flashlight, 1=omni
+  30;//pulse speed
+  1.000000;//red color component
+  0.400000;//green color component
+  0.000000;//blue color component
+  1.000000;//alpha color component
+  2.000000;//light intensity
+  5;//flash particle (-1=nothing)
+  100;//flashing speed
+  1250;//particle life time
+jet pack fire;//name-------
+  23;//identifier
+  fire0.png;//texture 
+  1;//type, 0=flashlight, 1=omni
+  5;//pulse speed
+  1.000000;//red color component
+  0.400000;//green color component
+  0.000000;//blue color component
+  1.000000;//alpha color component
+  2.000000;//light intensity
+  40;//flash particle (-1=nothing)
+  10;//flashing speed
+  1400;//particle life time
+Green Hologram;//name-------
+  24;//identifier
+  light1.png;//texture
+  1;//type, 0=flashlight, 1=omni
+  30;//pulse speed
+  0.000000;//red color component
+  1.000000;//green color component
+  0.000000;//blue color component
+  0.400000;//alpha color component
+  0.400000;//light intensity
+  -1;//flash particle (-1=nothing)
+  0;//flashing speed
+  0;//particle life time
+Green Hologram entrance/health pool;//name-------
+  25;//identifier
+  light1.png;//texture
+  1;//type, 0=flashlight, 1=omni
+  30;//pulse speed
+  0.000000;//red color component
+  1.000000;//green color component
+  0.000000;//blue color component
+  0.400000;//alpha color component
+  1.000000;//light intensity
+  7;//flash particle (-1=nothing)
+  30;//flashing speed
+  100;//particle life time
+Blue energy pool;//name-------
+  26;//identifier
+  light1.png;//texture
+  1;//type, 0=flashlight, 1=omni
+  30;//pulse speed
+  0.000000;//red color component
+  0.000000;//green color component
+  1.000000;//blue color component
+  0.400000;//alpha color component
+  1.300000;//light intensity
+  44;//flash particle (-1=nothing)
+  30;//flashing speed
+  100;//particle life time
+Red energy pool;//name-------
+  27;//identifier
+  light1.png;//texture
+  1;//type, 0=flashlight, 1=omni
+  30;//pulse speed
+  1.000000;//red color component
+  0.000000;//green color component
+  0.000000;//blue color component
+  0.400000;//alpha color component
+  0.700000;//light intensity
+ 52;//flash particle (-1=nothing)
+  30;//flashing speed
+  100;//particle life time
+Ship fire trail green;//name-------
+  28;//identifier
+  fire0.png;//texture 
+  1;//type, 0=flashlight, 1=omni
+  5;//pulse speed
+  0.000000;//red color component
+  1.000000;//green color component
+  0.000000;//blue color component
+  1.000000;//alpha color component
+  2.000000;//light intensity
+  54;//flash particle (-1=nothing)
+  30;//flashing speed
+  30;//particle life time
+Crystal glow;//name-------
+  29;//identifier
+  light1.png;//texture
+  1;//type, 0=flashlight, 1=omni
+  0;//pulse speed
+  0.000000;//red color component
+  1.000000;//green color component
+  1.000000;//blue color component
+  0.0900000;//alpha color component
+  0.2500000;//light intensity
+  -1;//flash particle (-1=nothing)
+  0;//flashing speed
+  0;//particle life time
+Fuel;//name-------
+  30;//identifier
+  light1.tga;//texture
+  1;//type, 0=flashlight, 1=omni
+  0;//pulse speed
+  1.000000;//red color component
+  0.600000;//green color component
+  0.000000;//blue color component
+  0.600000;//alpha color component
+  0.400000;//light intensity
+  -1;//flash particle (-1=nothing)
+  0;//flashing speed
+  0;//particle life time
+alienfire;//name-------
+  31;//identifier
+  alienfire.png;//texture 
+  1;//type, 0=flashlight, 1=omni
+  5;//pulse speed
+ 0.200000;//red color component
+  1.000000;//green color component
+  0.200000;//blue color component
+  1.000000;//alpha color component
+  2.000000;//light intensity
+ 61;//flash particle (-1=nothing)
+  30;//flashing speed
+  200;//particle life time
+flare;//name-------
+32;//identifier
+  light1.tga;//texture
+  1;//type, 0=flashlight, 1=omni
+  20;//pulse speed
+  1.000000;//red color component
+  0.600000;//green color component
+  0.100000;//blue color component
+  0.200000;//alpha color component
+ 1.000000;//light intensity
+  -1;//flash particle (-1=nothing)
+  0;//flashing speed
+  0;//particle life time
+end_of_file;

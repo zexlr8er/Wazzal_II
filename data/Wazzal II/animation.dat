@@ -1,0 +1,75 @@
+intro;//name-----------------------------------
+  0;//identifier
+  anim.jpg;//texture
+  5;//frames
+  The year 3234, in the Errxelz System....;
+    50;//text_y
+    0;//start_x
+    0;//start_y
+    324;//end_x
+    284;//end_y
+  WOLF IV: ''This is United Confederate Navy Ship Wolf IV to Errxelz Base 8. Over.'' \ \ BASE 8: ''This is Errxelz Base 8. Please state your purpose in entering our system.'' \ \ WOLF IV: ''We are here under reports that several high-level military vessels have disappeared in your system. It seems you have neglected your responsibilities as a member of the United Confederacy of Planets, Base 8. Over. '';// 
+    70;//text_y
+    0;//start_x
+    284;//start_y
+    159;//end_x
+    520;//end_y
+  ;//text 
+    500;//text_y
+    159;//start_x
+    282;//start_y
+    324;//end_x
+    520;//end_y
+  ;//text 
+    500;//text_y
+    0;//start_x
+    520;//start_y
+    324;//end_x
+    768;//end_y
+  ;//text 
+    700;//text_y
+    324;//start_x
+    0;//start_y
+    1024;//end_x
+    768;//end_y
+death;//name-----------------------------------
+  1;//identifier
+  plain_back.jpg;//texture
+  1;//frames
+  You died.;
+    550;//text_y
+    0;//start_x
+    0;//start_y
+    1024;//end_x
+    768;//end_y
+win;//name-----------------------------------
+  2;//identifier
+  plain_back2.jpg;//texture
+  1;//frames
+  You defeated the enemy!! Congratulations!!;
+    550;//text_y
+    0;//start_x
+    0;//start_y
+    1024;//end_x
+    768;//end_y
+Ranks;//name-----------------------------------
+  3;//identifier
+ book1.jpg;//texture
+  1;//frames
+  ;
+    550;//text_y
+    0;//start_x
+    0;//start_y
+    1024;//end_x
+    768;//end_y
+Map;//name-----------------------------------
+  4;//identifier
+ book3.jpg;//texture
+  1;//frames
+  ;
+    550;//text_y
+    0;//start_x
+    0;//start_y
+    1024;//end_x
+    768;//end_y
+end_of_file;

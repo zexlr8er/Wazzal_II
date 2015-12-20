@@ -1,0 +1,3912 @@
+Initialisation;//name-----------------------------------------------------------------
+  0;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  20;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  1;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  end_conditions;
+  begin_effects; 
+ 16;//effect number                   Give Inventory 1 Inventory opener
+    9.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number                   Give Inventory 0 ion cannon
+    85.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4 
+ 16;//effect number                   Give Inventory 0 command ship
+    123.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4  
+ 16;//effect number                   Give Inventory 0 confed flag
+    131.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4 
+ 16;//effect number                   Give Inventory 1 bullets
+    15.000000;//parameter1
+    100.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4 
+  16;//effect number                   Give Inventory 1 health packs
+    17.000000;//parameter1
+    3.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number                   Give Inventory 1 mines
+    76.000000;//parameter1
+    20.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number                   Give Inventory 1 knife
+    57.000000;//parameter1
+    5.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number                   Give Inventory 1 scanner
+    19.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number                   Give Inventory 1 pistol
+    14.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  35;//effect number                   disable ensigns salary
+    27.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  35;//effect number                   disable 2nd left's salary
+    28.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  35;//effect number                   disable 1st left's salary
+    38.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  35;//effect number                   disable left-com salary
+    39.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  35;//effect number                   disable com salary
+    40.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  35;//effect number                   disable cap salary
+    41.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  35;//effect number                   disable commod salary
+    42.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  35;//effect number                   disable r adm salary
+    43.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  35;//effect number                   disable v adm salary
+    44.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  35;//effect number                   disable adm salary
+    45.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  35;//effect number                   disable adm of fleet salary
+    46.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  35;//effect number                    disable script 30
+    30.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  35;//effect number                    disable script 31
+    31.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+35;//effect number                    disable
+      111.000000;//parameter1
+     0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter
+ 35;//effect number                disable health restore
+    71.000000;//parameter1
+      0.000000;//parameter2
+      0.00000;//parameter3
+      0.000000;//parameter4
+  16;//effect number                   Give store Inventory slave item
+    30.000000;//parameter1
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number                   Give store Inventory weapon item
+    28.000000;//parameter1
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number                   Give store Inventory drug item
+    26.000000;//parameter1
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number                   Give store Inventory bullets item
+    32.000000;//parameter1
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number                   Give store Inventory hp item
+    33.000000;//parameter1
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number                   Give store Inventory repair unit item
+    44.000000;//parameter1
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number                   Give store Inventory bmattery
+    108.000000;//parameter1
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number                   Give store Inventory landmines item
+    34.000000;//parameter1
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number                   Give store Inventory goggles item
+    46.000000;//parameter1
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+ 16;//effect number                   Give store Inventory ECM item
+    159.000000;//parameter1
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number                 
+    51.000000;//parameter1         Give store Inventory binoculars item
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number                 
+    52.000000;//parameter1         Give Inventory 1 liquor item
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number                 
+    63.000000;//parameter1         Give Inventory 1 rocket launcher item
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number                 
+    64.000000;//parameter1         Give Inventory 1 rocket item
+    3.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number                 
+    55.000000;//parameter1         Give store Inventory liquor item
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number                 
+    56.000000;//parameter1         Give store Inventory adren item
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number                 
+   103.000000;//parameter1         Give store Inventory paink item
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number                 
+    93.000000;//parameter1         Give store Inventory knife
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number                 
+    65.000000;//parameter1         Give store Inventory rocket item
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number                   Give store Inventory mining beam
+    137.000000;//parameter1
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+ 16;//effect number                   Give store mine item
+    138.000000;//parameter1
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+ 16;//effect number                   Give store Inventory torpedo item
+    140.000000;//parameter1
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+16;//effect number                   Give store Inventory grenade item
+    147.000000;//parameter1
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+16;//effect number                   Give store Inventory silencer item
+    148.000000;//parameter1
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+16;//effect number                   Give store Inventory rifle item
+    151.000000;//parameter1
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+16;//effect number                   Give store Inventory shotgun item
+    153.000000;//parameter1
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+16;//effect number                   Give store Inventory steroids item
+    155.000000;//parameter1
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number                 Give  Inventory spot item
+    58.000000;//parameter1         
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  47;//effect number                 Intro dialogue
+    18.000000;//parameter1         
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  56;//effect number                  overide control
+    2.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Player ship dies due to lack of health;//name-----------------------------------------------------------------
+  1;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  1;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  25;//condition
+    0.000000;//condition parameter0
+    0.100000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  25;//effect number
+    1.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Shields degenerate;//name-----------------------------------------------------------------
+  2;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  0;//condition
+    7.000000;//condition parameter0
+    1.000000;//condition parameter1 
+  end_conditions;
+  begin_effects;
+  53;//effect number
+    -1.000000;//parameter1
+    -1.000000;//parameter2
+    8.000000;//parameter3
+    500.000000;//parameter4
+  end_effects;
+Shields regenerate;//name-----------------------------------------------------------------
+  3;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  150;//run every n milliseconds
+  Shields activated;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  0;//condition
+    6.000000;//condition parameter0
+    1.000000;//condition parameter1 
+  3;//condition
+    1.000000;//condition parameter0
+    1.000000;//condition parameter1  
+ 43;//condition
+    8.000000;//condition parameter0
+    100.000000;//condition parameter1  
+  end_conditions;
+  begin_effects;
+  53;//effect number
+    1.000000;//parameter1
+    -1.000000;//parameter2
+    8.000000;//parameter3
+    250.000000;//parameter4
+  53;//effect number
+    0.050000;//parameter1
+    -1.000000;//parameter2
+    1.000000;//parameter3
+    250.000000;//parameter4
+26;//effect number
+    6.00000;//parameter1
+    1.000000;//parameter2
+    92.00000;//parameter3
+    0.00000;//parameter4
+  end_effects;
+Drop energy;//name-----------------------------------------------------------------
+  4;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  3200;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  6;//condition
+    0.000000;//condition parameter0
+    0.000000;//condition parameter1    
+  end_conditions;
+  begin_effects;
+  19;//effect number
+    14.000000;//parameter1
+    0.300000;//parameter2
+    5000.000000;//parameter3
+    10.000000;//parameter4
+  end_effects;
+Radar Energy Drain;//name-----------------------------------------------------------------
+  5;//identifier
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  end_conditions;
+  begin_effects;
+  23;//effect number
+    -0.500000;//parameter1
+    -1.000000;//parameter2
+    1.000000;//parameter3
+    300.000000;//parameter4
+  end_effects;
+Player destroys enemy soldiers on jungle planet;//name-----------------------------------------------------------------
+  6;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  1000;//run every n milliseconds
+ Captain Klicc: \ 'Thankyou, great captain. This was a great victory, and I will notify the Confederate Navy at once. (Earn 50 Promotion points, and recieve 5 units of Drug stock)';//message
+  1;//message type, 0=quick message, 1=journal
+  morse.wav;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  1;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  4;//condition
+    18.000000;//condition parameter0
+    6.000000;//condition parameter1
+  30;//condition
+    16.000000;//condition parameter0
+    12.000000;//condition parameter1  
+  end_conditions;
+  begin_effects;
+  44;//effect number
+    50.000000;//parameter1
+    1.000000;//parameter2
+    9.000000;//parameter3
+    0.000000;//parameter4  
+  16;//effect number                   give slaves
+    27.000000;//parameter1
+    5.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4 
+  end_effects;
+Enemy Attack Script (hurt player when shields down);//name-----------------------------------------------------------------
+  7;//identifier
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  0;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  5;//condition                        shield bar is 0
+    8.000000;//condition parameter0
+    1.000000;//condition parameter1
+ 45;//condition                        shield bar is 0
+    -1.000000;//condition parameter0
+    100.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  4;//effect number                  take 2 from health
+   -2.0000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Enemy Attack Script (hurt player when shields down);//name-----------------------------------------------------------------
+  8;//identifier
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  0;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  5;//condition                        shield bar is 0
+    8.000000;//condition parameter0
+    1.000000;//condition parameter1
+45;//condition                        shield bar is 0
+    -1.000000;//condition parameter0
+    100.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  4;//effect number                  take 3.0 from health
+    -3.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Player reaches Ensign, 50 Promotion;//name-----------------------------------------------------------------
+  9;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  500;//run every n milliseconds
+  Congratulations!! The Confederate Navy has recognized your achievment, and has promoted you to the rank of Ensign. \ \ To thank you furthermore, we have also fitted out your ship with brand-new radar systems, and increased your shields maximum by 10. \ \ Your current salary is: 20 confederacy credits an hour. \ \ Continue to serve the Confederacy well, and you will be again rewarded richly.;//message
+  1;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  1;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  3;//condition                        promotion bar is over 50
+    9.000000;//condition parameter0
+    50.000000;//condition parameter1    
+  end_conditions;
+  begin_effects;
+  16;//effect number                   give ensign rank
+    35.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4  
+  16;//effect number                   give ensign rank
+    35.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number                   give radar
+    1.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  35;//effect number                   enable ensigns salary
+    27.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4  
+  11;//effect number
+    8.000000;//parameter1
+    10.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  4;//effect number
+    10.000000;//parameter1
+    1.000000;//parameter2
+    8.000000;//parameter3
+    0.000000;//parameter4
+16;//effect number                   Give store Inventory laser pistol item
+    39.000000;//parameter1
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number                 
+    94.000000;//parameter1         Give store Inventory thrusters
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Player reaches 2nd Lieutenant, 100 Promotion;//name-----------------------------------------------------------------
+  10;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  500;//run every n milliseconds
+  Congratulations!! The Confederate Navy has recognized your achievment, and has promoted you to the rank of 2nd Lieutenant. \ \ Included with this rank is the ability to purchase better weaponry, and two highly trained personal bodyguards from the moons of Eza XII. (These men are likely the best fighters you will come across in your travels, so do not let their abilities go to waste.) \ \ Your current salary is: 40 confederacy credits an hour. \ \ Continue to serve the Confederacy well, and you will be again richly rewarded.;//message
+  1;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  1;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  3;//condition                        promotion bar is over 100
+    9.000000;//condition parameter0
+    100.000000;//condition parameter1    
+  end_conditions;
+  begin_effects;
+  16;//effect number                   give 2nd left rank
+    36.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4  
+  16;//effect number                   give 2nd left rank
+    36.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number                   remove ensign rank
+    35.000000;//parameter1
+    -1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4  
+  16;//effect number                   remove ensign rank
+    35.000000;//parameter1
+    -1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  35;//effect number                   disable ensigns salary
+    27.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4 
+  35;//effect number                   enable 2nd lefts salary
+    28.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number                   Give bodyguard item
+    66.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4 
+  16;//effect number                   Give bodyguard item
+    67.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4 
+    16;//effect number                 
+    53.000000;//parameter1         Give store Inventory machine gun item
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Player reaches 1st Lieutenant, 150 Promotion;//name-----------------------------------------------------------------
+  11;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  500;//run every n milliseconds
+  Congratulations!! The Confederate Navy has recognized your achievment, and has promoted you to the rank of 1st Lieutenant. \ \ Included with this rank is the ability to purchase better weaponry, and to thank you further we have also fitted out your ship with brand-new missile racks and 10 Viper missiles, as well as increasing your shields maximum by 10. \ \ Your current salary is: 60 confederacy credits an hour. \ \ Continue to serve the Confederacy well, and you will be again richly rewarded.;//message
+  1;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  1;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  3;//condition                        promotion bar is over 150
+    9.000000;//condition parameter0
+    150.000000;//condition parameter1    
+  end_conditions;
+  begin_effects;
+  16;//effect number                   give 1st left rank
+    37.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4  
+  16;//effect number                   give 1st left rank
+    37.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4  
+  16;//effect number                   remove 2nd lrank
+    36.000000;//parameter1
+    -1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4  
+  16;//effect number                   remove 2nd l rank
+    36.000000;//parameter1
+    -1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4  
+  35;//effect number                   disable 2nd lefts salary
+    28.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4 
+  35;//effect number                   enable 1st lefts
+    38.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  11;//effect number              increase shields
+    8.000000;//parameter1
+    10.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  4;//effect number
+    10.000000;//parameter1
+    1.000000;//parameter2
+    8.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number                   Give Inventory 0 10 missiles
+    5.000000;//parameter1
+    10.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4 
+  16;//effect number                   Give Inventory 0 missile racks
+    4.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+ 16;//effect number                 
+  124.000000;//parameter1      laser rifle in store
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+ 16;//effect number                 
+   104.000000;//parameter1      viper missiles in store
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number                 
+    109.000000;//parameter1         Give store Inventory twin cannon
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4 
+  end_effects;
+Player reaches Lieutenant-Commander, 250 Promotion;//name-----------------------------------------------------------------
+  12;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  500;//run every n milliseconds
+  Congratulations!! The Confederate Navy has recognized your achievment, and has promoted you to the rank of Lieutenant-Commander. \ \ Included with this rank is the ability to purchase better weaponry, and to thank you further we have given you a brand new Particle Cannon and an extremely rare Stealth Armour that will allow you to move completely unseen.  \ \ Your current salary is: 80 confederacy credits an hour. \ \ Continue to serve the Confederacy well, and you will be again richly rewarded.;//message
+  1;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  1;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  3;//condition                        promotion bar is over 250
+    9.000000;//condition parameter0
+    250.000000;//condition parameter1    
+  end_conditions;
+  begin_effects;
+  16;//effect number                   give left com rank
+    38.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4  
+  16;//effect number                   give left com rank
+    38.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number                   remove 1st lrank
+    37.000000;//parameter1
+    -1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4  
+  16;//effect number                   remove 1st l rank
+    37.000000;//parameter1
+    -1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4 
+  35;//effect number                   disable 1std lefts salary
+    38.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4 
+  35;//effect number                   enable lefts-com salary
+    39.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+ 16;//effect number                   Give store Inventory sniper
+    78.000000;//parameter1
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+16;//effect number                   Give store Inventory silencer item
+    149.000000;//parameter1
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+ 16;//effect number                   Give inventory stealth armor
+    62.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+ 16;//effect number                   Give Inventory part cannon
+    2.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+ 16;//effect number                   Give Inventory part cannon ammo
+    110.000000;//parameter1
+    1000.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+16;//effect number                   Give store Inventory part cannon ammo
+    111.000000;//parameter1
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Reload clip;//name-----------------------------------------------------------------
+  13;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  20;//run every n milliseconds
+  ;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  1;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  5;//condition                        reload bar is smaller than 1
+    10.000000;//condition parameter0
+    1.000000;//condition parameter1    
+  end_conditions;
+  begin_effects;
+  4;//effect number                   Give bar 12
+    12.000000;//parameter1
+    1.000000;//parameter2
+    10.000000;//parameter3
+    0.000000;//parameter4 
+  end_effects;
+Sound (reload);//name-----------------------------------------------------------------
+  14;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  500;//run every n milliseconds
+  Reloading!;//message
+  0;//message type, 0=quick message, 1=journal
+  reload.wav;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  5;//condition                        reload bar is smaller than 1
+    10.000000;//condition parameter0
+    1.000000;//condition parameter1    
+  end_conditions;
+  begin_effects;
+  end_effects;
+Player reaches 50 Promotion, BODYGUARDS;//name-----------------------------------------------------------------
+  15;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  1000;//run every n milliseconds
+  Orders, SIR!!;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  3;//condition                        promotion bar is over 50
+    9.000000;//condition parameter0
+    50.000000;//condition parameter1    
+  6;//condition                         player is human
+    1.000000;//condition parameter0
+    0.000000;//condition parameter1
+  0;//condition                        player has item
+    66.000000;//condition parameter0
+    1.000000;//condition parameter1
+  30;//condition                       less than
+    14.000000;//condition parameter0
+    1.000000;//condition parameter1
+  13;//condition                       not area
+    2.000000;//condition parameter0
+    1.000000;//condition parameter1
+  13;//condition                       not area
+    9.000000;//condition parameter0
+    1.000000;//condition parameter1
+  13;//condition                       not area
+    13.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  10;//effect number                   Give bodyguards
+    14.000000;//parameter1
+    -1.000000;//parameter2
+    -1.000000;//parameter3
+    -1.000000;//parameter4 
+  end_effects;
+Player reaches 50 Promotion BODYGUARDS;//name-----------------------------------------------------------------
+  16;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  1000;//run every n milliseconds
+  Orders, SIR!!;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  3;//condition                        promotion bar is over 50
+    9.000000;//condition parameter0
+    50.000000;//condition parameter1    
+  6;//condition                         player is human
+    1.000000;//condition parameter0
+    0.000000;//condition parameter1 
+  0;//condition                        player has item
+    67.000000;//condition parameter0
+    1.000000;//condition parameter1  
+  30;//condition                       less than
+    29.000000;//condition parameter0
+    1.000000;//condition parameter1
+  13;//condition                       not area
+    2.000000;//condition parameter0
+    1.000000;//condition parameter1
+  13;//condition                       not area
+    9.000000;//condition parameter0
+    1.000000;//condition parameter1
+ 13;//condition                       not area
+    13.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  10;//effect number                   Give bodyguards
+    29.000000;//parameter1
+    -1.000000;//parameter2
+    -1.000000;//parameter3
+    -1.000000;//parameter4
+  end_effects;
+Wielded item disabling script;//name-----------------------------------------------------
+  17;//identifier
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  1000;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  33;//condition
+    0.000000;//condition parameter0
+    0.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  end_effects;
+Scanner/goggles Energy Drain;//name-------------------------------------------------------------------
+  18;//identifier
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  end_conditions;
+  begin_effects;
+  23;//effect number
+    -0.3000000;//parameter1
+    -1.000000;//parameter2
+    5.000000;//parameter3
+    300.000000;//parameter4
+  end_effects;
+Player dies due to lack of health;//name-----------------------------------------------------------------
+  19;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  1;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  25;//condition
+    12.000000;//condition parameter0
+    0.100000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  25;//effect number
+    1.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Reactor: S;//name-----------------------------------------------------------------
+  20;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  0;//condition
+    6.000000;//condition parameter0
+    0.000000;//condition parameter1 
+  43;//condition
+    1.000000;//condition parameter0
+    100.000000;//condition parameter1  
+  end_conditions;
+  begin_effects;
+  53;//effect number
+    0.400000;//parameter1
+    -1.000000;//parameter2
+    1.000000;//parameter3
+    500.000000;//parameter4
+  end_effects;
+Turret fire;//name-----------------------------------------------------------------
+  21;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  30;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  6;//condition
+    0.000000;//condition parameter0
+    0.000000;//condition parameter1
+  31;//condition
+    1.000000;//condition parameter0
+    1.000000;//condition parameter1
+ 33;//condition
+    1.000000;//condition parameter0
+    0.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  24;//effect number
+    27.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Disable Turret;//name-----------------------------------------------------------------
+  22;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  20;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  1;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  end_conditions;
+  begin_effects;
+  35;//effect number
+    21.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+ 35;//effect number
+    102.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+ 35;//effect number
+    103.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Re-enable Turret;//name-----------------------------------------------------------------
+  23;//identifier
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  20;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  29;//condition
+    -1.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  35;//effect number
+    21.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+35;//effect number
+    102.000000;//parameter1
+   1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+ 35;//effect number
+    103.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Shields degenerate;//name-----------------------------------------------------------------
+  24;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  Low power!! Shields failing!!;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  0;//condition
+    6.000000;//condition parameter0
+    1.000000;//condition parameter1 
+  5;//condition
+    1.000000;//condition parameter0
+    1.000000;//condition parameter1 
+  end_conditions;
+  begin_effects;
+  59;//effect number
+    6.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Ingame Hour Counter;//name-----------------------------------------------------------------
+  25;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  0;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;//    
+  3;//condition
+    15.000000;//condition parameter0
+    60.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  17;//effect number
+    0.000000;//parameter1
+    0.000000;//parameter2
+    15.000000;//parameter3
+    0.000000;//parameter4
+  4;//effect number
+    1.000000;//parameter1
+    0.000000;//parameter2
+    16.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Ingame Day Counter;//name-----------------------------------------------------------------
+  26;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  0;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;//    
+  3;//condition
+    16.000000;//condition parameter0
+    24.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  17;//effect number
+    1.000000;//parameter1
+    1.000000;//parameter2
+    16.000000;//parameter3
+    0.000000;//parameter4
+  4;//effect number
+    1.000000;//parameter1
+    0.000000;//parameter2
+    14.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Ensign's salary;//name-----------------------------------------------------------------
+  27;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  144;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;//    
+  3;//condition
+    15.000000;//condition parameter0
+    59.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  4;//effect number
+    20.000000;//parameter1
+    0.000000;//parameter2
+    13.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+2nd lieutenants salary;//name-----------------------------------------------------------------
+  28;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  144;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;//    
+  3;//condition
+    15.000000;//condition parameter0
+    59.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  4;//effect number
+    40.000000;//parameter1
+    0.000000;//parameter2
+    13.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Stock exchange;//name-----------------------------------------------------------------
+  29;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  144;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;//    
+  3;//condition
+    15.000000;//condition parameter0
+    59.000000;//condition parameter1     
+  end_conditions;
+  begin_effects;
+  63;//effect number
+    125.000000;//parameter1
+    -125.000000;//parameter2
+    17.000000;//parameter3 slaves
+    1.000000;//parameter4
+  63;//effect number
+    25.000000;//parameter1
+    -25.000000;//parameter2
+    18.000000;//parameter3 drugs
+    1.000000;//parameter4 
+  63;//effect number
+    75.000000;//parameter1
+    -75.000000;//parameter2
+    19.000000;//parameter3 weapons
+    1.000000;//parameter4
+  end_effects;
+Restore players Inventory;//name-----------------------------------------------------------------
+  30;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+ 10;//run every n milliseconds
+  You leave the store;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0.1;//delay script for n seconds after conditions met
+  1;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  6;//condition
+    2.000000;//condition parameter0
+    0.000000;//condition parameter1  
+  end_conditions;
+  begin_effects;
+  52;//effect number 
+    1.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+34;//effect number	                    change into human
+    1.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+59;//effect number 
+    14.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Mouse light;//name-----------------------------------------------------------------
+  31;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  1;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  50;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  end_conditions;
+  begin_effects;
+  27;//effect number
+    18.000000;//parameter1
+    100.000000;//parameter2
+    30.000000;//parameter3
+    100.000000;//parameter4
+  27;//effect number
+    19.000000;//parameter1
+    100.000000;//parameter2
+    30.000000;//parameter3
+    100.000000;//parameter4
+  27;//effect number
+    20.000000;//parameter1
+    100.000000;//parameter2
+    30.000000;//parameter3
+    100.000000;//parameter4
+  27;//effect number
+    21.000000;//parameter1
+    100.000000;//parameter2
+    30.000000;//parameter3
+    100.000000;//parameter4
+  end_effects;
+Time Restore;//name-----------------------------------------------------------------
+  32;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  140;//run every n milliseconds        MAY BE PROBLEM
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  5;//condition
+    20.000000;//condition parameter0
+    0.500000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  38;//effect number
+    1.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  35;//effect number                    disable script 31
+    31.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Fire warms player;//name-----------------------------------------------------------------
+  33;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  500;//run every n milliseconds
+  The fire warms you.;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  2;//condition
+    1.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  53;//effect number
+    15.000000;//parameter1
+    -1.000000;//parameter2
+    6.000000;//parameter3
+    500.000000;//parameter4
+  end_effects;
+Jetpack;//name-----------------------------------------------------------------
+  34;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  50;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  0;//condition
+    60.000000;//condition parameter0
+    1.000000;//condition parameter1 
+  end_conditions;
+  begin_effects;
+  59;//effect number
+    61.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4      
+  36;//effect number
+    3.000000;//parameter1
+    50.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4 
+  24;//effect number  
+    11.000000;//parameter1
+    1.000000;//parameter2
+    3.000000;//parameter3
+    3.130000;//parameter4
+ 53;//effect number
+   0.300000;//parameter1
+    -1.000000;//parameter2
+    6.000000;//parameter3
+    500.000000;//parameter4 
+  end_effects;
+Hide special bar;//name-----------------------------------------------------------------
+  35;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  25;//condition
+    20.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  39;//effect number                   
+    20.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Show special bar;//name-----------------------------------------------------------------
+  36;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  24;//condition
+    20.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  39;//effect number                   
+    20.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Player reaches Commander, 400 Promotion;//name-----------------------------------------------------------------
+  37;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  140;//run every n milliseconds
+  Congratulations!! The Confederate Navy has recognized your achievment, and has promoted you to the rank of Commander. \ \ To thank you furthermore, we have extended the Wolf IV's reactor size by 20 gigawatts and strengthened its hull by 20. You have also been chosen as the first to be provided with a top-secret invention from the laboratories of the United Confederacy Academy of Science: a Cloaking Device, able to completely conceal your ship from sight while activated.  \ \ Your current salary is: 100 confederacy credits an hour. \ \ Continue to serve the Confederacy well, and you will be again richly rewarded.;//message
+  1;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  1;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  3;//condition                        promotion bar is over 400
+    9.000000;//condition parameter0
+    400.000000;//condition parameter1    
+  end_conditions;
+  begin_effects;
+  16;//effect number                  remove left com rank
+    38.000000;//parameter1
+    -1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4  
+  16;//effect number                  remove left com rank
+    38.000000;//parameter1
+    -1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number                   remove comm lrank
+    68.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4  
+  16;//effect number                   remove comm rank
+    68.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4 
+  35;//effect number                   disable lefts-com salary
+    39.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4 
+  35;//effect number                   enable com salary
+    40.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+ 11;//effect number              increase hull strength
+   0.000000;//parameter1
+    20.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+4;//effect number
+    20.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+ 11;//effect number              increase energy
+  1.000000;//parameter1
+    20.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+4;//effect number
+    20.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number                   Give Inventory 0 cloaking device
+    105.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4 
+  end_effects;
+1st lieutenant's salary;//name-----------------------------------------------------------------
+  38;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  144;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;//    
+  3;//condition
+    15.000000;//condition parameter0
+    59.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  4;//effect number
+    60.000000;//parameter1
+    0.000000;//parameter2
+    13.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Lieutenant-commander's salary;//name-----------------------------------------------------------------
+  39;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  144;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;//    
+  3;//condition
+    15.000000;//condition parameter0
+    59.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  4;//effect number
+    80.000000;//parameter1
+    0.000000;//parameter2
+    13.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Commander's salary;//name-----------------------------------------------------------------
+  40;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  144;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;//    
+  3;//condition
+    15.000000;//condition parameter0
+    59.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  4;//effect number
+    100.000000;//parameter1
+    0.000000;//parameter2
+    13.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Captain's salary;//name-----------------------------------------------------------------
+  41;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  144;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;//    
+  3;//condition
+    15.000000;//condition parameter0
+    59.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  4;//effect number
+    120.000000;//parameter1
+    0.000000;//parameter2
+    13.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Commodore's salary;//name-----------------------------------------------------------------
+  42;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  144;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;//    
+  3;//condition
+    15.000000;//condition parameter0
+    59.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  4;//effect number
+    140.000000;//parameter1
+    0.000000;//parameter2
+    13.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Rear Admiral's salary;//name-----------------------------------------------------------------
+  43;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  144;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;//    
+  3;//condition
+    15.000000;//condition parameter0
+    59.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  4;//effect number
+    170.000000;//parameter1
+    0.000000;//parameter2
+    13.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Vice Admiral's salary;//name-----------------------------------------------------------------
+  44;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  144;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;//    
+  3;//condition
+    15.000000;//condition parameter0
+    59.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  4;//effect number
+    200.000000;//parameter1
+    0.000000;//parameter2
+    13.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Admiral's salary;//name-----------------------------------------------------------------
+  45;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  144;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;//    
+  3;//condition
+    15.000000;//condition parameter0
+    59.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  4;//effect number
+   240.000000;//parameter1
+    0.000000;//parameter2
+    13.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Admiral of the Fleet's salary;//name-----------------------------------------------------------------
+  46;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  144;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;//    
+  3;//condition
+    15.000000;//condition parameter0
+    59.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  4;//effect number
+    300.000000;//parameter1
+    0.000000;//parameter2
+    13.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Player reaches captain, 600 Promotion;//name-----------------------------------------------------------------
+  47;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  140;//run every n milliseconds
+  Congratulations!! The Confederate Navy has recognized your achievment, and has promoted you to the rank of Captain. \ \ To thank you furthermore, we have upgraded the Wolf's radar and your SR Battlescanner to Medium Range, and allowed you to purchase Heavy and Light Confederate fighters to develop your own personal fleet. \ \ Your current salary is: 120 confederacy credits an hour. \ \ Continue to serve the Confederacy well, and you will be again richly rewarded.;//message
+  1;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  1;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  3;//condition                        promotion bar is over 600
+    9.000000;//condition parameter0
+    600.000000;//condition parameter1    
+  end_conditions;
+  begin_effects;
+  16;//effect number                  remove comander rank
+    68.000000;//parameter1
+    -1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4  
+  16;//effect number                  remove commander rank
+    68.000000;//parameter1
+    -1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number                   add cap lrank
+    79.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4  
+  16;//effect number                  add cap rank
+    79.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4 
+  35;//effect number                   disable commander salary
+    40.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4 
+  35;//effect number                   enable captain salary
+    41.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+16;//effect number                 
+    70.000000;//parameter1      fighters l
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+ 16;//effect number                 
+    75.000000;//parameter1      fighters h
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+16;//effect number                 
+   1.000000;//parameter1      take ship inv short range scanner
+    -1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+ 16;//effect number                 
+   128.000000;//parameter1      give ship inv medium range scanner
+    1.000000;//parameter2
+   0.000000;//parameter3
+    0.000000;//parameter4
+ 16;//effect number                 
+   19.000000;//parameter1      take cap inv short range scanner
+    -1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+ 16;//effect number                 
+   125.000000;//parameter1      give cap inv medium range scanner
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Player reaches commodore, 800 Promotion;//name-----------------------------------------------------------------
+  48;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  140;//run every n milliseconds
+  Congratulations!! The Confederate Navy has recognized your achievment, and has promoted you to the rank of Commodore. \ \ To thank you furthermore, we have provided you with a brand new, top-of the range military Jetpack, increased the capacity of your in-suit battery by 20, and granted you permission to purchase Phaser Turrets for your ship. \ \ Your current salary is: 140 confederacy credits an hour. \ \ Continue to serve the Confederacy well, and you will be again richly rewarded.;//message
+  1;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  1;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  3;//condition                        promotion bar is over 800
+    9.000000;//condition parameter0
+    800.000000;//condition parameter1    
+  end_conditions;
+  begin_effects;
+  16;//effect number                  remove cap rank
+    79.000000;//parameter1
+    -1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4  
+  16;//effect number                  remove cap rank
+    79.000000;//parameter1
+    -1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number                   add commodor rank
+    80.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4  
+  16;//effect number                  add commodore rank
+    80.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4 
+ 16;//effect number                  add jetpack
+    59.000000;//parameter1
+    1.000000;//parameter2
+   1.000000;//parameter3
+    0.000000;//parameter4 
+ 11;//effect number              increase battery
+    5.000000;//parameter1
+    20.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  4;//effect number
+    20.000000;//parameter1
+    1.000000;//parameter2
+    5.000000;//parameter3
+    0.000000;//parameter4
+ 16;//effect number                   Give store Inventory phaser item
+    141.000000;//parameter1
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+  35;//effect number                   disable captain salary
+    41.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4 
+  35;//effect number                   enable commodore salary
+    42.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Player reaches rear admiral, 1000 Promotion;//name-----------------------------------------------------------------
+  49;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  140;//run every n milliseconds
+  Congratulations!! The Confederate Navy has recognized your achievment, and has promoted you to the rank of Rear Admiral. \ \ To thank you, you are now authorized to purchase a deadly Fusion Beam from any store. \ \ Your current salary is: 170 confederacy credits an hour. \ \ Continue to serve the Confederacy well, and you will be again richly rewarded.;//message
+  1;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  1;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  3;//condition                        promotion bar is over 1000
+    9.000000;//condition parameter0
+    1000.000000;//condition parameter1    
+  end_conditions;
+  begin_effects;
+  16;//effect number                  remove commodore rank
+    80.000000;//parameter1
+    -1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4  
+  16;//effect number                  remove commodore rank
+    80.000000;//parameter1
+    -1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number                   add r admiral rank
+    81.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4  
+  16;//effect number                  add r admiral rank
+    81.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+ 16;//effect number                 
+    72.000000;//parameter1         fusion beam
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+  35;//effect number                   disable commodore salary
+    42.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4 
+  35;//effect number                   enable rear admiral salary
+    43.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Player reaches vice admiral, 1200 Promotion;//name-----------------------------------------------------------------
+  50;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  140;//run every n milliseconds
+  Congratulations!! The Confederate Navy has recognized your achievment, and has promoted you to the rank of Vice Admiral. \ \ To thank you furthermore,\ \ Your current salary is: 200 confederacy credits an hour. \ \ Continue to serve the Confederacy well, and you will be again richly rewarded.;//message
+  1;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  1;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  3;//condition                        promotion bar is over 1200
+    9.000000;//condition parameter0
+    1200.000000;//condition parameter1    
+  end_conditions;
+  begin_effects;
+  16;//effect number                  remove r admiral rank
+    81.000000;//parameter1
+    -1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4  
+  16;//effect number                  remove r admiral rank
+    81.000000;//parameter1
+    -1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number                   add v admiral rank
+    82.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4  
+  16;//effect number                  add v admiral rank
+    82.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  35;//effect number                   disable rear admiral salary
+    43.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4 
+  35;//effect number                   enable vice admiral salary
+    44.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Player reaches admiral 1500 Promotion;//name-----------------------------------------------------------------
+  51;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  20;//run every n milliseconds
+  Congratulations!! The Confederate Navy has recognized your achievment, and has promoted you to the rank of Admiral. \ \ To thank you furthermore,\ \ Your current salary is: 240 confederacy credits an hour. \ \ Continue to serve the Confederacy well, and you will be again richly rewarded.;//message
+  1;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  1;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  3;//condition                        promotion bar is over 1500
+    9.000000;//condition parameter0
+    1500.000000;//condition parameter1    
+  end_conditions;
+  begin_effects;
+  16;//effect number                  remove v admiral rank
+    82.000000;//parameter1
+    -1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4  
+  16;//effect number                  remove v admiral rank
+    82.000000;//parameter1
+    -1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number                   add admiral rank
+    83.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4  
+  16;//effect number                  add admiral rank
+    83.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  35;//effect number                   disable vice admiral salary
+    44.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4 
+  35;//effect number                   enable admiral salary
+    45.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Player reaches admiral of the fleet, 2000 Promotion;//name-----------------------------------------------------------------
+  52;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  20;//run every n milliseconds
+  Congratulations. The Confederate Navy has recognized your incredible achievment, and has promoted you to the supreme rank of Admiral of the Fleet, the highest rank obtainable in the Confederate Fleet. \ \ To thank you furthermore,\ \ Your current salary is: 300 confederacy credits an hour. \ \ Continue to serve the Confederacy well, and you will be again richly rewarded.;//message
+  1;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  1;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  3;//condition                        promotion bar is over 2000
+    9.000000;//condition parameter0
+    2000.000000;//condition parameter1    
+  end_conditions;
+  begin_effects;
+  16;//effect number                  remove admiral rank
+    83.000000;//parameter1
+    -1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4  
+  16;//effect number                  remove admiral rank
+    83.000000;//parameter1
+    -1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number                   add fleet admiral rank
+    84.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4  
+  16;//effect number                  add fleet admiral rank
+    84.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  35;//effect number                   disable admiral salary
+    45.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4 
+  35;//effect number                   enable admiral fleet salary
+    46.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Stealth Energy Drain;//name---------------------------------------------------
+  53;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  100;//run every n milliseconds
+  Stealth armour ON!;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  0;//condition                        has ON stealth item
+    88.000000;//condition parameter0
+    1.000000;//condition parameter1    
+  end_conditions;
+  begin_effects;
+  23;//effect number
+    -0.550000;//parameter1
+    -1.000000;//parameter2
+    5.000000;//parameter3
+    300.000000;//parameter4
+  27;//effect number	                  light burst
+    26.000000;//parameter1
+    100.000000;//parameter2
+    0.300000;//parameter3
+    0.500000;//parameter4 
+  end_effects;
+Stealth deactive if no energy;//name---------------------------------------------------
+  54;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  Battery empty! Stealth armour deactivated.;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  5;//condition                        less than 1 energy
+    5.000000;//condition parameter0
+    1.000000;//condition parameter1    
+  0;//condition                        has ON stealth item
+    88.000000;//condition parameter0
+    1.000000;//condition parameter1  
+  end_conditions;
+  begin_effects;
+  22;//effect number
+    0.000000;//parameter1
+    -1.000000;//parameter2
+    -1.000000;//parameter3
+    0.000000;//parameter4 
+  16;//effect number
+    88.000000;//parameter1
+    -1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number
+    62.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Play sound and stagger when player too cold;//name-------------------------------------------------
+  55;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  600;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  cold.wav;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  8;//condition
+    3.000000;//condition parameter0
+    0.000000;//condition parameter1
+  5;//condition
+    6.000000;//condition parameter0
+    -60.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  33;//effect number
+    4.000000;//parameter1
+    1.000000;//parameter2
+    3000.000000;//parameter3
+    0.000000;//parameter4
+  1;//effect number
+    1200.000000;//parameter1
+    -1.000000;//parameter2
+    0.700000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Play sound and stagger when player too hot;//name---------------------------------------------------------
+  56;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  600;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  hot.wav;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  8;//condition
+    3.000000;//condition parameter0
+    0.000000;//condition parameter1
+  3;//condition
+    6.000000;//condition parameter0
+    80.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  33;//effect number
+    2.000000;//parameter1
+    4.000000;//parameter2
+    3000.000000;//parameter3
+    0.000000;//parameter4
+  1;//effect number
+    3000.000000;//parameter1
+    -1.000000;//parameter2
+    0.700000;//parameter3
+    0.000000;//parameter4
+  36;//effect number
+    2.000000;//parameter1
+    3000.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Switch stock to correct inventory, DRUGS;//name-----------------------------------------------------------------
+  57;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  6;//condition
+    0.000000;//condition parameter0
+    0.000000;//condition parameter1
+  0;//condition
+    27.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  16;//effect number
+    27.000000;//parameter1
+    -1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number
+    27.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+4;//effect number
+    1.000000;//parameter1
+    0.000000;//parameter2
+    29.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Switch stock to correct inventory, SLAVES;//name-----------------------------------------------------------------
+  58;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  6;//condition
+    0.000000;//condition parameter0
+    0.000000;//condition parameter1
+  0;//condition
+    31.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  16;//effect number
+    31.000000;//parameter1
+    -1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number
+    31.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+4;//effect number
+    1.000000;//parameter1
+    0.000000;//parameter2
+    31.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Switch stock to correct inventory, WEAPONS;//name-----------------------------------------------------------------
+  59;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  6;//condition
+    0.000000;//condition parameter0
+    0.000000;//condition parameter1
+  0;//condition
+    29.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  16;//effect number
+    29.000000;//parameter1
+    -1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number
+    29.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+4;//effect number
+    1.000000;//parameter1
+    0.000000;//parameter2
+    30.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Explosion sound;//name-----------------------------------------------------------------
+  60;//identifier
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  Bang!;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  end_conditions;
+  begin_effects;
+  14;//effect number
+    2.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Explosion hurt player;//name-----------------------------------------------------------------
+  61;//identifier
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  15;//condition
+    50.000000;//condition parameter0
+    0.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  63;//effect number
+    -10.000000;//parameter1
+    -30.000000;//parameter2
+    12.000000;//parameter3
+    1.000000;//parameter4
+  end_effects;
+Human energy regenerate;//name-----------------------------------------------------------------
+ 62;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+43;//condition
+   5.000000;//condition parameter0
+    100.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  23;//effect number
+    0.20000;//parameter1
+    -1.000000;//parameter2
+   5.000000;//parameter3
+    300.000000;//parameter4
+  end_effects;
+Jetpack Energy Drain;//name---------------------------------------------------
+  63;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  100;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  0;//condition                        has ON jetpack item
+    60.000000;//condition parameter0
+    1.000000;//condition parameter1    
+  end_conditions;
+  begin_effects;
+  23;//effect number
+    -1.250000;//parameter1
+    -1.000000;//parameter2
+    25.000000;//parameter3
+    300.000000;//parameter4
+   end_effects;
+Jetpack deactive if no energy;//name---------------------------------------------------
+  64;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  Fuel tank empty! Jetpack deacticated.;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  5;//condition                        less than 1 energy
+    25.000000;//condition parameter0
+    3.000000;//condition parameter1    
+  0;//condition                        has ON jetpack item
+    60.000000;//condition parameter0
+    1.000000;//condition parameter1    
+  end_conditions;
+  begin_effects;
+    16;//effect number
+    60.000000;//parameter1
+    -1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number
+    61.000000;//parameter1
+    -1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number
+    59.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+15;//effect number
+      10.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      1.000000;//parameter4
+  end_effects;
+Give player control MG Turrent item;//name-----------------------------------------------------------------
+  65;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+ 200;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  14;//condition
+    19.000000;//condition parameter0
+    60.000000;//condition parameter1
+  0;//condition
+   18.000000;//condition parameter0
+   0.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  16;//effect number
+    18.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Give player control tank item;//name-----------------------------------------------------------------
+  66;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+ 200;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  14;//condition
+   32.000000;//condition parameter0
+    60.000000;//condition parameter1
+  0;//condition
+   95.000000;//condition parameter0
+   0.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  16;//effect number
+    95.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Give player control pillbox item;//name-----------------------------------------------------------------
+  67;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+ 200;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  14;//condition
+   51.000000;//condition parameter0
+    60.000000;//condition parameter1
+  0;//condition
+   96.000000;//condition parameter0
+   0.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  16;//effect number
+    96.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+take player control items;//name-----------------------------------------------------------------
+  68;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+ 720;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  33;//condition
+   1.000000;//condition parameter0
+   0.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  16;//effect number
+    18.000000;//parameter1
+   -1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number
+    95.000000;//parameter1
+   -1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number
+    96.000000;//parameter1
+   -1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+ 16;//effect number
+    156.000000;//parameter1
+   -1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Airstrike;//name-----------------------------------------------------------------
+  69;//identifier
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  1;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+ 100;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+   end_conditions;
+  begin_effects;
+19;//effect number              drop marker
+    64.000000;//parameter1
+   0.60000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4 
+ 19;//effect number              drop dyna
+    59.000000;//parameter1
+    0.360000;//parameter2
+    150.000000;//parameter3
+    10.000000;//parameter4
+ 19;//effect number              drop dyna
+    59.000000;//parameter1
+    0.360000;//parameter2
+   180.000000;//parameter3
+    10.000000;//parameter4 
+ 19;//effect number              drop dyna
+    60.000000;//parameter1
+    0.360000;//parameter2
+   250.000000;//parameter3
+    10.000000;//parameter4 
+ 19;//effect number              drop dyna
+    61.000000;//parameter1
+    0.360000;//parameter2
+   300.000000;//parameter3
+    10.000000;//parameter4
+19;//effect number              drop dyna
+    61.000000;//parameter1
+    0.360000;//parameter2
+   300.000000;//parameter3
+    10.000000;//parameter4  
+ 19;//effect number              drop dyna
+    61.000000;//parameter1
+    0.360000;//parameter2
+    240.000000;//parameter3
+    10.000000;//parameter4 
+ 19;//effect number              drop dyna
+    62.000000;//parameter1
+    0.360000;//parameter2
+    180.000000;//parameter3
+    10.000000;//parameter4  
+ 19;//effect number              drop dyna
+    62.000000;//parameter1
+    0.360000;//parameter2
+    280.000000;//parameter3
+    10.000000;//parameter4  
+ 19;//effect number              drop dyna
+    62.000000;//parameter1
+    0.360000;//parameter2
+    180.000000;//parameter3
+    10.000000;//parameter4  
+19;//effect number              drop dyna
+    63.000000;//parameter1
+    0.360000;//parameter2
+    180.000000;//parameter3
+    10.000000;//parameter4 
+19;//effect number              drop dyna
+    63.000000;//parameter1
+    0.360000;//parameter2
+    180.000000;//parameter3
+    10.000000;//parameter4 
+  end_effects;
+Explosion sound 2;//name-----------------------------------------------------------------
+  70;//identifier
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  Bang!;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  end_conditions;
+  begin_effects;
+  14;//effect number
+    4.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Keep health constant;//name-----------------------------------------------------------------
+  71;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  20;//run every n milliseconds
+  You don't feel pain.;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  3;//condition
+    23.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  17;//effect number                  clear health bar
+    0.100000;//parameter1
+      0.000000;//parameter2
+      12.00000;//parameter3
+      0.000000;//parameter4
+    69;//effect number                   set health bar
+     21.000000;//parameter1
+     12.000000;//parameter2
+      0.00000;//parameter3
+      0.000000;//parameter4
+ 27;//effect number	                  light burst
+    27.000000;//parameter1
+    50.000000;//parameter2
+    0.200000;//parameter3
+    0.400000;//parameter4 
+  end_effects;
+Hide health restorer timer bar;//name-----------------------------------------------------------------
+  72;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  25;//condition
+    23.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  39;//effect number                   
+    23.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Show health restorer timer bar;//name-----------------------------------------------------------------
+  73;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  24;//condition
+    23.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  39;//effect number                   
+    23.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Cloaking Energy Drain;//name---------------------------------------------------
+ 74;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  100;//run every n milliseconds
+  Cloaking device ON!;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  0;//condition                        has ON stealth item
+    106.000000;//condition parameter0
+    1.000000;//condition parameter1    
+  end_conditions;
+  begin_effects;
+  23;//effect number
+    -0.90000;//parameter1
+    -1.000000;//parameter2
+    1.000000;//parameter3
+    300.000000;//parameter4
+  27;//effect number	                  light burst
+    26.000000;//parameter1
+    100.000000;//parameter2
+    0.400000;//parameter3
+    0.700000;//parameter4 
+  end_effects;
+Cloaking deactive if no energy;//name---------------------------------------------------
+ 75;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  No energy! Cloaking device deacticated.;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  5;//condition                        less than 2 energy
+    1.000000;//condition parameter0
+    2.000000;//condition parameter1    
+  0;//condition                        has ON stealth item
+    106.000000;//condition parameter0
+    1.000000;//condition parameter1    
+  end_conditions;
+  begin_effects;
+  22;//effect number
+    0.000000;//parameter1
+    -1.000000;//parameter2
+    -1.000000;//parameter3
+    0.000000;//parameter4 
+  16;//effect number
+   106.000000;//parameter1
+    -1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number
+    105.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Stealth deactive if fire;//name---------------------------------------------------
+  76;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  You use a weapon, suddenly you can be seen!;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;    
+  0;//condition                        has ON stealth item
+    88.000000;//condition parameter0
+    1.000000;//condition parameter1
+ 37;//condition                        fire mouse button pressed
+    0.000000;//condition parameter0
+    0.000000;//condition parameter1    
+  end_conditions;
+  begin_effects;
+  22;//effect number
+    0.000000;//parameter1
+    -1.000000;//parameter2
+    -1.000000;//parameter3
+    0.000000;//parameter4 
+  16;//effect number
+    88.000000;//parameter1
+    -1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number
+    62.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Cloaking deactive if fire;//name---------------------------------------------------
+ 77;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  No energy! Cloaking device deacticated.;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  37;//condition                        fire mouse button pressed
+    0.000000;//condition parameter0
+    0.000000;//condition parameter1   
+  0;//condition                        has ON stealth item
+    106.000000;//condition parameter0
+    1.000000;//condition parameter1    
+  end_conditions;
+  begin_effects;
+  22;//effect number
+    0.000000;//parameter1
+    -1.000000;//parameter2
+    -1.000000;//parameter3
+    0.000000;//parameter4 
+  16;//effect number
+   106.000000;//parameter1
+    -1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number
+    105.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Projectile cannon pause;//name---------------------------------------------------
+ 78;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  4000;//run every n milliseconds
+  Re-arming!;//message
+  0;//message type, 0=quick message, 1=journal
+  Lock_and_load.wav;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  37;//condition                        fire mouse button pressed
+    0.000000;//condition parameter0
+    0.000000;//condition parameter1   
+  11;//condition                        particle wielded
+    2.000000;//condition parameter0
+    0.000000;//condition parameter1    
+  end_conditions;
+  begin_effects;
+  45;//effect number
+    -1.000000;//parameter1
+   450.000000;//parameter2
+    -1.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Trapped animal;//name-----------------------------------------------------------------
+ 79;//identifier
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  You've trapped an animal!;//message
+  0;//message type, 0=quick message, 1=journal
+  siren1.wav;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  end_conditions;
+  begin_effects;
+   end_effects;
+Pet wolf;//name-----------------------------------------------------------------
+  80;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  1000;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  6;//condition                         player is human
+    1.000000;//condition parameter0
+    0.000000;//condition parameter1 
+  0;//condition                        player has item
+    118.000000;//condition parameter0
+    1.000000;//condition parameter1  
+    13;//condition                       not area
+    2.000000;//condition parameter0
+    1.000000;//condition parameter1
+  13;//condition                       not area
+    9.000000;//condition parameter0
+    1.000000;//condition parameter1
+ 13;//condition                       not area
+    13.000000;//condition parameter0
+    1.000000;//condition parameter1
+  30;//condition                       less than
+   55.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  10;//effect number                   Give wolf
+    55.000000;//parameter1
+    -1.000000;//parameter2
+    -1.000000;//parameter3
+    -1.000000;//parameter4
+  end_effects;
+Interplanetary Signal Array activated;//name-----------------------------------------------------------------
+ 81;//identifier
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+ Interplanetary Signal Array activated! Signal sending!;//name;//message
+  0;//message type, 0=quick message, 1=journal
+  morse.wav;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  1;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  end_conditions;
+  begin_effects;
+   end_effects;
+Kinmegag 71 mission completed;//name-----------------------------------------------------------------
+ 82;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  400;//run every n milliseconds
+   Captain Dreton: \ \ 'Thankyou, captain. The signal is sent, and even as we speak, the full might of the Confederate Navy is mobilizing across the United Confederacy of Planets: from the fields of Zemboi and the shipyards of Kryboru to the shining pillars of New Dawn. \ \ At least now the Confederacy will fall fighting, rather than die on our knees. (Earn 30 Promotion points, and recieve a brand new devestating Flame Thrower!)';//name;//message
+  1;//message type, 0=quick message, 1=journal
+  morse.wav;//sound, none for nothing
+  2.9;//delay script for n seconds after conditions met
+  1;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+5;//use condition number                                  powerup beacons
+      24.000000;//use condition parameter0
+      1.000000;//use condition parameter1
+  end_conditions;
+  begin_effects;
+ 44;//effect number
+    30.000000;//parameter1
+    1.000000;//parameter2
+    9.000000;//parameter3
+    0.000000;//parameter4  
+  16;//effect number                   give ft
+    97.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4 
+   end_effects;
+Hide fuel bar if low;//name-----------------------------------------------------------------
+83;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  25;//condition
+    25.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  39;//effect number                   
+    25.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Show fuel bar;//name-----------------------------------------------------------------
+ 84;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  6;//condition
+    1.000000;//condition parameter0
+    0.000000;//condition parameter1
+ 24;//condition
+    25.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  39;//effect number                   
+    25.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Hide fuel bar if Wolf;//name-----------------------------------------------------------------
+85;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  6;//condition
+    0.000000;//condition parameter0
+    0.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  39;//effect number                   
+    25.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Errxelz appears;//name-----------------------------------------------------------------
+86;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  Captain! This is Admiral Fefarewbu of the 4th New Dawn Confederate Fleet. We have come to the decision that you are the best candidate for the most daring mission undertaken by Confederate forces of the war. \ \ As you are aware, the outpost of Errxelz 8 was the first Confederate planet to fall to the Alien onslaught. Our intelligence reports that the planet is now being used as an advance base for thousands of Alien fighters before they launch their invasions into Confederate space. This knowledge gives us the chance to strike a devestating blow to the advancing Alien forces. \ \ Destroy all Alien fighters on the planet, Captain. To complete your mission you will need to source at least 10 units of high explosive and some means to move across the planet unseen. We have four stealth-cloaked heavy fighters in orbit, and will authorise you to direct up to five airstrikes on Alien positions. Go quickly, Captain. The hopes of the Conederacy fly with you.;//message
+  1;//message type, 0=quick message, 1=journal
+  morse.wav;//sound, none for nothing
+ 1800;//delay script for n seconds after conditions met
+  1;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  end_conditions;
+  begin_effects;
+  end_effects;
+Flying ship is close;//name-----------------------------------------------------------------
+87;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  350;//run every n milliseconds
+  Alien fighter! TAKE COVER!;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  14;//condition
+    63.000000;//condition parameter0
+    350.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  end_effects;
+Flying ship is close;//name-----------------------------------------------------------------
+88;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  350;//run every n milliseconds
+  Alien fighter! TAKE COVER!;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  14;//condition
+    22.000000;//condition parameter0
+    350.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  end_effects;
+Goggles Energy Drain;//name-------------------------------------------------------------------
+  89;//identifier
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  end_conditions;
+  begin_effects;
+  23;//effect number
+    -0.35000000;//parameter1
+    -1.000000;//parameter2
+    5.000000;//parameter3
+    300.000000;//parameter4
+  end_effects;
+Player destroys fighters on Erxelz;//name-----------------------------------------------------------------
+  90;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  1000;//run every n milliseconds
+ Admiral Fefarewbu, 4th New Dawn Confederate Fleet: \ \ 'The Alien fleet is burning. This attack will reverberate across every corner of the galaxy. The Aliens will now realize that the United Confederacy of Planets will never, ever lie down or surrender, no matter the size or power of the forces arranged against us. We will fight until the final soldier and the very last rusty ship. \ \ This was a great victory, Captain. A great, great victory. (Earn 100 Promotion points, 5000 credits and 5 units of Drug, Weapon Parts and Slave stock)';//message
+  1;//message type, 0=quick message, 1=journal
+  morse.wav;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  1;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  4;//condition
+    61.000000;//condition parameter0
+   11.000000;//condition parameter1
+  4;//condition
+    62.000000;//condition parameter0
+   11.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  44;//effect number
+    100.000000;//parameter1
+    1.000000;//parameter2
+    9.000000;//parameter3
+    0.000000;//parameter4  
+44;//effect number
+    5000.000000;//parameter1
+    1.000000;//parameter2
+    13.000000;//parameter3
+    0.000000;//parameter4  
+  16;//effect number                   give slaves
+    31.000000;//parameter1
+    5.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number                   give weap
+    29.000000;//parameter1
+    5.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4 
+  16;//effect number                   give drug
+    27.000000;//parameter1
+    5.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4  
+  end_effects;
+Give V item for blood serum;//name-----------------------------------------------------------------
+  91;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  1;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  0;//condition
+    126.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  16;//effect number
+    130.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Turn neutral ships enemy;//name-----------------------------------------------------------------
+  92;//identifier
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  1;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  0;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+21;//condition                       creature is neutral class ship
+    10.000000;//condition parameter0
+    0.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+ 46;//effect number
+      0.000000;//parameter1
+      0.000000;//parameter2
+      25000.000000;//parameter3
+      -1.000000;//parameter4
+    22;//effect number
+      11.000000;//parameter1
+      25000.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4   
+  end_effects;
+Use Pirate flag item if one;//name-----------------------------------------------------------------
+93;//identifier
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  0;//condition
+    132.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  59;//effect number                   
+    132.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+16;//effect number                   
+    132.000000;//parameter1
+    -1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Hide flag bars;//name-----------------------------------------------------------------
+94;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  6;//condition
+    1.000000;//condition parameter0
+    0.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  39;//effect number                   
+    26.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  39;//effect number                   
+    27.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+If Pirate flag item revert to pirate race;//name-----------------------------------------------------------------
+95;//identifier
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  0;//condition
+    132.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  34;//effect number	                    change into pirate ship
+      3.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+  end_effects;
+Switch stock to correct inventory, DRUGS;//name-----------------------------------------------------------------
+  96;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  6;//condition
+    3.000000;//condition parameter0
+    0.000000;//condition parameter1
+  0;//condition
+    27.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  16;//effect number
+    27.000000;//parameter1
+    -1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number
+    27.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+4;//effect number
+    1.000000;//parameter1
+    0.000000;//parameter2
+    29.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Switch stock to correct inventory, SLAVES;//name-----------------------------------------------------------------
+  97;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  6;//condition
+    3.000000;//condition parameter0
+    0.000000;//condition parameter1
+  0;//condition
+    31.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  16;//effect number
+    31.000000;//parameter1
+    -1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number
+    31.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+4;//effect number
+    1.000000;//parameter1
+    0.000000;//parameter2
+    31.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Switch stock to correct inventory, WEAPONS;//name-----------------------------------------------------------------
+  98;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  6;//condition
+    3.000000;//condition parameter0
+    0.000000;//condition parameter1
+  0;//condition
+    29.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  16;//effect number
+    29.000000;//parameter1
+    -1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number
+    29.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+4;//effect number
+    1.000000;//parameter1
+    0.000000;//parameter2
+    30.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Switch stock to correct inventory, DRUGS;//name-----------------------------------------------------------------
+  99;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  6;//condition
+    4.000000;//condition parameter0
+    0.000000;//condition parameter1
+  0;//condition
+    27.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  16;//effect number
+    27.000000;//parameter1
+    -1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number
+    27.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+4;//effect number
+    1.000000;//parameter1
+    0.000000;//parameter2
+    29.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Switch stock to correct inventory, SLAVES;//name-----------------------------------------------------------------
+ 100;//identifier
+ 1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  6;//condition
+    4.000000;//condition parameter0
+    0.000000;//condition parameter1
+  0;//condition
+    31.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  16;//effect number
+    31.000000;//parameter1
+    -1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number
+    31.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+4;//effect number
+    1.000000;//parameter1
+    0.000000;//parameter2
+    31.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Switch stock to correct inventory, WEAPONS;//name-----------------------------------------------------------------
+ 101;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  6;//condition
+    4.000000;//condition parameter0
+    0.000000;//condition parameter1
+  0;//condition
+    29.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  16;//effect number
+    29.000000;//parameter1
+    -1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number
+    29.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+4;//effect number
+    1.000000;//parameter1
+    0.000000;//parameter2
+    30.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Turret fire for pirate;//name-----------------------------------------------------------------
+ 102;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  30;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  6;//condition
+    3.000000;//condition parameter0
+    0.000000;//condition parameter1
+ 31;//condition
+    1.000000;//condition parameter0
+    1.000000;//condition parameter1
+ 33;//condition
+    1.000000;//condition parameter0
+    0.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  24;//effect number
+    27.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Turret fire for stealth;//name-----------------------------------------------------------------
+ 103;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  30;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  6;//condition
+    4.000000;//condition parameter0
+    0.000000;//condition parameter1
+  31;//condition
+    1.000000;//condition parameter0
+    1.000000;//condition parameter1
+ 33;//condition
+    1.000000;//condition parameter0
+    0.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  24;//effect number
+    27.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Drop energy;//name-----------------------------------------------------------------
+  104;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  3200;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  6;//condition
+    3.000000;//condition parameter0
+    0.000000;//condition parameter1    
+  end_conditions;
+  begin_effects;
+  19;//effect number
+    14.000000;//parameter1
+    0.300000;//parameter2
+    5000.000000;//parameter3
+    10.000000;//parameter4
+  end_effects;
+Drop energy;//name-----------------------------------------------------------------
+  105;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  3200;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  6;//condition
+   4.000000;//condition parameter0
+    0.000000;//condition parameter1    
+  end_conditions;
+  begin_effects;
+  19;//effect number
+    14.000000;//parameter1
+    0.300000;//parameter2
+    5000.000000;//parameter3
+    10.000000;//parameter4
+  end_effects;
+Player destroys all slugs;//name-----------------------------------------------------------------
+  106;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  1000;//run every n milliseconds
+ Captain, this is Professor Newtein of the United Confederacy Academy of Science. \ We have recieved reports that due to your actions the Glouibi slug, a rare species found only on the moon of Naquarin, is now extinct. As you are well aware, the willful over-hunting of a rare native species is a grave, grave crime in the Confederacy. As this is your first such offence, your punishment will be light. Be warned however, if any such other malicious abuse of the environment occurs again, you will suffer to the full extent of Confederate law. \ \ (You are fined 1000 credits and lose 20 Promotion Points);//message
+  1;//message type, 0=quick message, 1=journal
+  morse.wav;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  1;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  4;//condition
+    69.000000;//condition parameter0
+    14.000000;//condition parameter1
+  4;//condition
+    68.000000;//condition parameter0
+    14.000000;//condition parameter1
+  4;//condition
+    67.000000;//condition parameter0
+    14.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  44;//effect number
+    -20.000000;//parameter1
+    1.000000;//parameter2
+    9.000000;//parameter3
+    0.000000;//parameter4  
+ 44;//effect number
+    -1000.000000;//parameter1
+    1.000000;//parameter2
+    13.000000;//parameter3
+    0.000000;//parameter4   
+  end_effects;
+Player reaches alien planet for the first time;//name-----------------------------------------------------------------
+  107;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  1000;//run every n milliseconds
+ none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  1;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  13;//condition
+    11.000000;//condition parameter0
+    0.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+16;//effect number                   
+    101.000000;//parameter1
+    5.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4  
+  end_effects;
+Switch ore to correct inventory;//name-----------------------------------------------------------------
+  108;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  6;//condition
+    0.000000;//condition parameter0
+    0.000000;//condition parameter1
+  0;//condition
+    136.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  16;//effect number
+    136.000000;//parameter1
+    -1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number
+   90.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Drop grenade food;//name-----------------------------------------------------------------
+  109;//identifier
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  1;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  0;//run every n milliseconds
+ none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  1;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  end_conditions;
+  begin_effects;
+3;//effect number                   
+   144.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4  
+  end_effects;
+Activate longer rifle view;//name----------------------------------------------
+  110;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  200;//run every n milliseconds
+ none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  11;//condition
+   150.000000;//condition parameter0
+    0.000000;//condition parameter1
+  0;//condition
+   48.000000;//condition parameter0
+    0.000000;//condition parameter1
+  0;//condition
+   49.000000;//condition parameter0
+    0.000000;//condition parameter1
+  0;//condition
+   50.000000;//condition parameter0
+    0.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+49;//effect number
+      0.000000;//parameter1
+      345.000000;//parameter2
+      300.000000;//parameter3
+      0.000000;//parameter4  
+  end_effects;
+Steriods;//name-----------------------------------------------------------------
+  111;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+ 0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+ 300;//run every n milliseconds
+ none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  1;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  end_conditions;
+  begin_effects;
+ 42;//effect number
+      30.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+  end_effects;
+Give player control boat item;//name-----------------------------------------------------------------
+ 112;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+ 200;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  14;//condition
+   75.000000;//condition parameter0
+    60.000000;//condition parameter1
+  0;//condition
+   156.000000;//condition parameter0
+   0.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  16;//effect number
+    156.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Fire giga-hertz ECM;//name-----------------------------------------------------------------
+ 113;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+ 200;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+14;//condition
+      4.000000;//condition parameter0
+      700.000000;//condition parameter1 
+0;//condition
+     158.000000;//condition parameter0
+     1.000000;//condition parameter1 
+  end_conditions;
+  begin_effects;
+  24;//effect number
+      87.000000;//parameter1
+      1.000000;//parameter2
+      1.000000;//parameter3
+      0.000000;//parameter4
+  end_effects;
+Copy logbook into both inventories;//name-----------------------------------------------------------------
+  114;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  500;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  1;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  6;//condition
+    1.000000;//condition parameter0
+    0.000000;//condition parameter1
+  0;//condition
+    161.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  16;//effect number
+    161.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Give player control fighter item;//name-----------------------------------------------------------------
+ 115;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+ 200;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  14;//condition
+   82.000000;//condition parameter0
+    60.000000;//condition parameter1
+  0;//condition
+   162.000000;//condition parameter0
+   0.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  16;//effect number
+    162.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Update propaganda bar;//name-----------------------------------------------------------------
+  116;//identifier
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  500;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  1;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  end_conditions;
+  begin_effects;
+  end_effects;
+end_of_file;
+
+
+
+

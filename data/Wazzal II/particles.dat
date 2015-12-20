@@ -1,0 +1,889 @@
+Blood;//name
+  0;//identifier
+  blood.png;//texture
+  5;//size
+  1.000000;//red color component
+  0.000000;//green color component
+  0.000000;//blue color component
+  0.700000;//alpha component
+  1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  27;//change into another particle when hits ground
+  0;//blending type (0=normal, 1=light)
+Yellow Spark;//name
+  1;//identifier
+  particle.png;//texture
+  3;//size
+  1.000000;//red color component
+  1.000000;//green color component
+  0.000000;//blue color component
+  1.000000;//alpha component
+  1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  0;//blending type (0=normal, 1=light)
+White Spark;//name
+  2;//identifier
+  particle.png;//texture
+  7;//size
+  1.000000;//red color component
+  1.000000;//green color component
+  1.000000;//blue color component
+  1.000000;//alpha component
+  1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  0;//blending type (0=normal, 1=light)
+Footstep Black;//name
+  3;//identifier
+  footstep.png;//texture
+  7;//size
+  1.000000;//red color component
+  1.000000;//green color component
+  1.000000;//blue color component
+  1.000000;//alpha component
+  1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  0;//blending type (0=normal, 1=light)
+Red Spark;//name
+  4;//identifier
+  particle.png;//texture
+  3;//size
+  0.700000;//red color component
+  0.000000;//green color component
+  0.000000;//blue color component
+  1.000000;//alpha component
+  1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  0;//blending type (0=normal, 1=light)
+Fire;//name
+  5;//identifier
+  fire0.png;//texture
+  50;//size
+  1.000000;//red color component
+  1.000000;//green color component
+  1.000000;//blue color component
+  0.500000;//alpha component
+  1.000000;//gets smaller by time
+  1;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  1;//blending type (0=normal, 1=light)
+Electric;//name
+  6;//identifier
+  electric.png;//texture
+  40;//size
+  1.000000;//red color component
+  1.000000;//green color component
+  1.000000;//blue color component
+  0.500000;//alpha component
+  1.000000;//gets smaller by time
+  1;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  1;//blending type (0=normal, 1=light)
+Radioactive;//name--------used for healing pool
+  7;//identifier
+  particle.png;//texture
+  10;//size
+  0.000000;//red color component
+  1.000000;//green color component
+  0.000000;//blue color component
+  1.000000;//alpha component
+  1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  1;//blending type (0=normal, 1=light)
+Raindrop;//name
+  8;//identifier
+  particle.png;//texture
+  7;//size
+  0.600000;//red color component
+  0.800000;//green color component
+  0.900000;//blue color component
+  1.000000;//alpha component
+  1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  1;//blending type (0=normal, 1=light)
+Radar small item dot;//name
+  9;//identifier
+  radar_dot.png;//texture
+  4;//size
+  1.000000;//red color component
+  0.000000;//green color component
+  0.000000;//blue color component
+  1.000000;//alpha component
+  1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  1;//blending type (0=normal, 1=light)
+Lava;//name
+  10;//identifier
+  particle.png;//texture
+  15;//size
+  0.700000;//red color component
+  0.000000;//green color component
+  0.000000;//blue color component
+  1.000000;//alpha component
+  1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  1;//blending type (0=normal, 1=light)
+Snow;//name
+  11;//identifier
+  snowflake.png;//texture
+  15;//size
+  0.600000;//red color component
+  0.800000;//green color component
+  0.900000;//blue color component
+  1.000000;//alpha component
+  1.000000;//gets smaller by time
+  1;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  1;//blending type (0=normal, 1=light)
+Burning Fire;//name
+  12;//identifier
+  fire0.png;//texture
+  20;//size
+  1.000000;//red color component
+  1.000000;//green color component
+  1.000000;//blue color component
+  0.500000;//alpha component
+  1.000000;//gets smaller by time
+  1;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  1;//blending type (0=normal, 1=light)
+Fire Trail;//name
+  13;//identifier
+  fire0.png;//texture
+  15;//size
+  1.000000;//red color component
+  1.000000;//green color component
+  1.000000;//blue color component
+  0.400000;//alpha component
+  0.000000;//gets smaller by time
+  1;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  1;//blending type (0=normal, 1=light)
+Sand;//name
+  14;//identifier
+  particle.png;//texture
+  3;//size
+  0.800000;//red color component
+  0.700000;//green color component
+  0.450000;//blue color component
+  1.000000;//alpha component
+  1.000000;//shrink size
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  0;//blending type (0=normal, 1=light)
+Essence Spark;//name
+  15;//identifier
+  qlifeessence.png;//texture
+  40;//size
+  1.000000;//red color component
+  1.000000;//green color component
+  1.000000;//blue color component
+  0.500000;//alpha component
+  1.500000;//gets smaller by time
+  1;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  1;//blending type (0=normal, 1=light)
+Weapon Fire;//name
+ 16;//identifier
+  fire0.png;//texture
+  80;//size
+  1;//red color component
+  1;//green color component
+  1;//blue color component
+  0.4;//alpha component
+  -1;//shrink size
+  1;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  1;//blending type (0=normal, 1=light)
+Sun;//name
+  17;//identifier
+  radar_dot.png;//texture
+  15;//size
+  0.700000;//red color component
+  0.700000;//green color component
+  0.000000;//blue color component
+  1.000000;//alpha component
+  1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  1;//blending type (0=normal, 1=light)
+Radar small enemy;//name----------------------------fighter
+  18;//identifier
+  particle.tga;//texture
+  6;//size
+  0.000000;//red color component
+  1.000000;//green color component
+  0.000000;//blue color component
+  1.000000;//alpha component
+  1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  1;//blending type (0=normal, 1=light)
+Radar small confederation;//name----------------------------fighter
+  19;//identifier
+  particle.tga;//texture
+  6;//size
+  1.000000;//red color component
+  0.000000;//green color component
+  0.000000;//blue color component
+  1.000000;//alpha component
+  1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  1;//blending type (0=normal, 1=light)
+Radar medium enemy;//name----------------------------corvette
+  20;//identifier
+  particle.tga;//texture
+  9;//size
+  0.000000;//red color component
+  1.000000;//green color component
+  0.000000;//blue color component
+  1.000000;//alpha component
+  1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  1;//blending type (0=normal, 1=light)
+Radar medium confederation;//name----------------------------corvette
+  21;//identifier
+  particle.tga;//texture
+  9;//size
+  1.000000;//red color component
+  0.000000;//green color component
+ 0.000000;//blue color component
+  1.000000;//alpha component
+  1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  1;//blending type (0=normal, 1=light)
+Radar large enemy;//name----------------------------destroyer
+  22;//identifier
+  particle.tga;//texture
+  12;//size
+  0.000000;//red color component
+  1.000000;//green color component
+  0.000000;//blue color component
+  1.000000;//alpha component
+  1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  1;//blending type (0=normal, 1=light)
+Radar large confederation;//name----------------------------destroyer
+  23;//identifier
+  particle.tga;//texture
+  12;//size
+ 1.000000;//red color component
+  0.000000;//green color component
+  0.000000;//blue color component
+  1.000000;//alpha component
+  1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  1;//blending type (0=normal, 1=light)
+Explosion Fire;//name
+  24;//identifier
+  fire0.png;//texture
+  30;//size
+  1.000000;//red color component
+  1.000000;//green color component
+  1.000000;//blue color component
+  0.500000;//alpha component
+  0.000000;//gets smaller by time
+  1;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  1;//blending type (0=normal, 1=light)
+Trail Fire;//name
+  25;//identifier
+  fire0.png;//texture
+  30;//size
+  1.000000;//red color component
+  1.000000;//green color component
+  1.000000;//blue color component
+  1.000000;//alpha component
+  1.000000;//gets smaller by time
+  1;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  1;//blending type (0=normal, 1=light)
+shells;//name
+  26;//identifier
+  shelln.png;//texture
+  6;//size
+  0.600000;//red color component
+  0.600000;//green color component
+  0.600000;//blue color component
+  0.800000;//alpha component
+  0.000000;//gets smaller by time
+ 1;//can be rotated (faster if not)
+ 26;//change into another particle when hits ground
+  0;//blending type (0=normal, 1=light)
+Blood;//name
+  27;//identifier
+  blood.png;//texture
+  6;//size
+  1.000000;//red color component
+  0.000000;//green color component
+  0.000000;//blue color component
+  0.600000;//alpha component
+  0.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  0;//blending type (0=normal, 1=light)
+Radar small creature dot;//name
+  28;//identifier
+  radar_dot.png;//texture
+  2;//size
+  0.700000;//red color component
+  0.700000;//green color component
+  0.000000;//blue color component
+  1.000000;//alpha component
+  1.000000;//shrink size
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  1;//blending type (0=normal, 1=light)
+Radar big creature dot;//name
+  29;//identifier
+  radar_dot.png;//texture
+  4;//size
+  1.000000;//red color component
+  0.700000;//green color component
+  0.000000;//blue color component
+  1.000000;//alpha component
+  1.000000;//shrink size
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  1;//blending type (0=normal, 1=light)
+Radar small item dot;//name
+  30;//identifier
+  radar_dot.png;//texture
+  3;//size
+  1.000000;//red color component
+  0.000000;//green color component
+  0.000000;//blue color component
+  1.000000;//alpha component
+  1.000000;//shrink size
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  1;//blending type (0=normal, 1=light)
+Scanner soldier enemy;//name----------------------------soldier
+  31;//identifier
+  particle.tga;//texture
+  3;//size
+  0.000000;//red color component
+  1.000000;//green color component
+  0.000000;//blue color component
+  1.000000;//alpha component
+  1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  1;//blending type (0=normal, 1=light)
+Scanner soldier federation;//name----------------------------soldier
+  32;//identifier
+  particle.tga;//texture
+  3;//size
+  1.000000;//red color component
+  0.000000;//green color component
+  0.000000;//blue color component
+  1.000000;//alpha component
+  1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  1;//blending type (0=normal, 1=light)
+Planet1;//name---------------------dark
+  33;//identifier
+  plp1.png;//texture
+  14;//size
+  1.000000;//red color component
+  1.000000;//green color component
+  1.000000;//blue color component
+  1.000000;//alpha component
+  1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  0;//blending type (0=normal, 1=light)
+inivisible;//name
+  34;//identifier
+  invisible.png;//texture
+  1;//size
+  1.000000;//red color component
+  1.000000;//green color component
+  1.000000;//blue color component
+  0.000000;//alpha component
+  1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  1;//blending type (0=normal, 1=light)
+Raindrop;//name
+  35;//identifier
+  particle.png;//texture
+  200;//size
+  1.000000;//red color component
+  0.000000;//green color component
+  0.000000;//blue color component
+  0.100000;//alpha component
+  -1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  1;//blending type (0=normal, 1=light)
+Raindrop;//name
+  36;//identifier
+  particle.png;//texture
+  200;//size
+  0.000000;//red color component
+  1.000000;//green color component
+  0.000000;//blue color component
+  0.100000;//alpha component
+  -1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  1;//blending type (0=normal, 1=light)
+Raindrop;//name
+  37;//identifier
+  particle.png;//texture
+  200;//size
+  0.000000;//red color component
+  0.000000;//green color component
+  1.000000;//blue color component
+  0.100000;//alpha component
+  -1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  1;//blending type (0=normal, 1=light)
+Raindrop;//name
+  39;//identifier
+  particle.png;//texture
+  200;//size
+  1.000000;//red color component
+  1.000000;//green color component
+  1.000000;//blue color component
+  0.200000;//alpha component
+  -1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  1;//blending type (0=normal, 1=light)
+Smoke;//name
+  40;//identifier
+  smokep.png;//texture
+  60;//size
+  1.000000;//red color component
+  1.000000;//green color component
+  1.000000;//blue color component
+  0.800000;//alpha component
+  -1.000000;//gets smaller by time
+  1;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  0;//blending type (0=normal, 1=light)
+Essence Spark;//name
+  41;//identifier
+  qlifeessence.png;//texture
+  40;//size
+  0.000000;//red color component
+  0.000000;//green color component
+  0.000000;//blue color component
+  1.000000;//alpha component
+  1.500000;//gets smaller by time
+  1;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  0;//blending type (0=normal, 1=light)
+Planet2;//name-----------------------------------forest
+  42;//identifier
+  plp2.png;//texture
+  14;//size
+  1.000000;//red color component
+  1.000000;//green color component
+  1.000000;//blue color component
+  1.000000;//alpha component
+  1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  0;//blending type (0=normal, 1=light)
+Jumpgate;//name
+  43;//identifier
+  j.png;//texture
+  14;//size
+  1.000000;//red color component
+  1.000000;//green color component
+  1.000000;//blue color component
+  1.000000;//alpha component
+  1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  0;//blending type (0=normal, 1=light)
+blue energy pool;//name
+  44;//identifier
+  particle.png;//texture
+  10;//size
+  0.000000;//red color component
+  0.000000;//green color component
+  1.000000;//blue color component
+  1.000000;//alpha component
+  1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  1;//blending type (0=normal, 1=light)
+Green blood;//name
+  45;//identifier
+  blood.png;//texture
+  6;//size
+  0.000000;//red color component
+  1.000000;//green color component
+  0.000000;//blue color component
+  0.700000;//alpha component
+  1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  46;//change into another particle when hits ground
+  0;//blending type (0=normal, 1=light)
+Green blood splatter;//name
+  46;//identifier
+  blood.png;//texture
+  6;//size
+  0.000000;//red color component
+  1.000000;//green color component
+  0.000000;//blue color component
+  0.600000;//alpha component
+  0.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  0;//blending type (0=normal, 1=light)
+Space station;//name-----------------------------------station
+  47;//identifier
+  plp3.png;//texture
+ 14;//size
+  1.000000;//red color component
+  1.000000;//green color component
+  1.000000;//blue color component
+  1.000000;//alpha component
+  1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  1;//blending type (0=normal, 1=light)
+Water;//name
+  48;//identifier
+  pwater.png;//texture
+  40;//size
+  0.500000;//red color component
+  0.500000;//green color component
+  0.700000;//blue color component
+  0.300000;//alpha component
+  2.200000;//gets smaller by time
+  1;//can be rotated (faster if not)
+  49;//change into another particle when hits ground
+  1;//blending type (0=normal, 1=light)
+Water2;//name
+  49;//identifier
+  pwater.png;//texture
+  20;//size
+  0.500000;//red color component
+  0.500000;//green color component
+  0.700000;//blue color component
+  0.200000;//alpha component
+  2.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  1;//blending type (0=normal, 1=light)
+Planet4;//name-----------------------------------forest
+  50;//identifier
+  plp4.png;//texture
+  14;//size
+  1.000000;//red color component
+  1.000000;//green color component
+  1.000000;//blue color component
+  1.000000;//alpha component
+  1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  0;//blending type (0=normal, 1=light)
+Planet5;//name-----------------------------------lava
+  51;//identifier
+  ppred.png;//texture
+  14;//size
+  1.000000;//red color component
+  1.000000;//green color component
+  1.000000;//blue color component
+  1.000000;//alpha component
+  1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  0;//blending type (0=normal, 1=light)
+red energy pool;//name
+  52;//identifier
+  particle.png;//texture
+  10;//size
+  1.000000;//red color component
+  0.000000;//green color component
+  0.000000;//blue color component
+  1.000000;//alpha component
+  1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  1;//blending type (0=normal, 1=light)
+Ship Trail Fire;//name
+ 53;//identifier
+ fire0.png;//texture
+  45;//size
+  1;//red color component
+  0.4;//green color component
+  0;//blue color component
+  0.26;//alpha component
+  -1;//shrink size
+  1;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  1;//blending type (0=normal, 1=light)
+Ship Trail Fire green;//name
+ 54;//identifier
+  fire0.png;//texture
+  45;//size
+  0;//red color component
+  1;//green color component
+  0;//blue color component
+  0.26;//alpha component
+  -1;//shrink size
+  1;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  1;//blending type (0=normal, 1=light)
+Ice;//name
+  55;//identifier
+  icecrack.png;//texture
+  15;//size
+  0.500000;//red color component
+  0.500000;//green color component
+  0.700000;//blue color component
+  0.400000;//alpha component
+  0.00000;//gets smaller by time
+  1;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  0;//blending type (0=normal, 1=light)
+Radar beacon;//name
+ 56;//identifier
+  radar_dot.png;//texture
+ 4;//size
+  0.700000;//red color component
+  0.700000;//green color component
+  0.000000;//blue color component
+  1.000000;//alpha component
+  1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  1;//blending type (0=normal, 1=light)
+Radioactive;//name--------used for healing pool
+  57;//identifier
+  particle.png;//texture
+ 12;//size
+  0.000000;//red color component
+  1.000000;//green color component
+  0.000000;//blue color component
+  1.000000;//alpha component
+  1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  1;//blending type (0=normal, 1=light)
+shells on ground;//name
+ 58;//identifier
+  shelln.png;//texture
+  5;//size
+  0.600000;//red color component
+  0.600000;//green color component
+  0.600000;//blue color component
+  0.300000;//alpha component
+  0.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  0;//blending type (0=normal, 1=light)
+Planetice;//name-----------------------------------forest
+  59;//identifier
+  ppice1.png;//texture
+  14;//size
+  1.000000;//red color component
+  1.000000;//green color component
+  1.000000;//blue color component
+  1.000000;//alpha component
+  1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  0;//blending type (0=normal, 1=light)
+Alien captured planet;//name---------------------dark
+60;//identifier
+  palienplanet.png;//texture
+  14;//size
+  1.000000;//red color component
+  1.000000;//green color component
+  1.000000;//blue color component
+  1.000000;//alpha component
+  1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  0;//blending type (0=normal, 1=light)
+Burning alien Fire;//name
+  61;//identifier
+  alienfire.png;//texture
+  20;//size
+  1.000000;//red color component
+  1.000000;//green color component
+  1.000000;//blue color component
+  0.500000;//alpha component
+  1.000000;//gets smaller by time
+  1;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  1;//blending type (0=normal, 1=light)
+Moon;//name---------------------
+62;//identifier
+  pmoon1.png;//texture
+  8;//size
+  1.000000;//red color component
+  1.000000;//green color component
+  1.000000;//blue color component
+  1.000000;//alpha component
+  1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  0;//blending type (0=normal, 1=light)
+Moon2;//name---------------------
+63;//identifier
+  pmoon2.png;//texture
+  8;//size
+  1.000000;//red color component
+  1.000000;//green color component
+  1.000000;//blue color component
+  1.000000;//alpha component
+  1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  0;//blending type (0=normal, 1=light)
+Planet4;//name-----------------------------------green
+ 64;//identifier
+  plpgreen.png;//texture
+  14;//size
+  1.000000;//red color component
+  1.000000;//green color component
+  1.000000;//blue color component
+  1.000000;//alpha component
+  1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  0;//blending type (0=normal, 1=light)
+propaganda;//name
+ 65;//identifier
+  propaganda.png;//texture
+  23;//size
+  0.600000;//red color component
+  0.600000;//green color component
+  0.600000;//blue color component
+  0.800000;//alpha component
+  0.000000;//gets smaller by time
+ 1;//can be rotated (faster if not)
+ 65;//change into another particle when hits ground
+  0;//blending type (0=normal, 1=light)
+propaganda2;//name
+ 66;//identifier
+  propaganda2.png;//texture
+  25;//size
+  0.600000;//red color component
+  0.600000;//green color component
+  0.600000;//blue color component
+  0.800000;//alpha component
+  0.000000;//gets smaller by time
+ 1;//can be rotated (faster if not)
+ 65;//change into another particle when hits ground
+  0;//blending type (0=normal, 1=light)
+Map fire;//name-----------------------------------
+ 67;//identifier
+  pfire.png;//texture
+  9;//size
+  1.000000;//red color component
+  1.000000;//green color component
+  1.000000;//blue color component
+  1.000000;//alpha component
+  1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  0;//blending type (0=normal, 1=light)
+Burning earth;//name---------------------
+  68;//identifier
+  pburningearth.png;//texture
+  14;//size
+  1.000000;//red color component
+  1.000000;//green color component
+  1.000000;//blue color component
+  1.000000;//alpha component
+  1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  0;//blending type (0=normal, 1=light)
+Burning moon;//name---------------------
+  69;//identifier
+  pburningmoon.png;//texture
+  9;//size
+  1.000000;//red color component
+  1.000000;//green color component
+  1.000000;//blue color component
+  1.000000;//alpha component
+  1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  0;//blending type (0=normal, 1=light)
+Burning venus;//name---------------------
+  70;//identifier
+  pburningvenus.png;//texture
+  11;//size
+  1.000000;//red color component
+  1.000000;//green color component
+  1.000000;//blue color component
+  1.000000;//alpha component
+  1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  0;//blending type (0=normal, 1=light)
+Burning venus;//name---------------------
+  71;//identifier
+  pburningmerc.png;//texture
+  9;//size
+  1.000000;//red color component
+  1.000000;//green color component
+  1.000000;//blue color component
+  1.000000;//alpha component
+  1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  0;//blending type (0=normal, 1=light)
+Supernova;//name---------------------
+  72;//identifier
+  psupernova.png;//texture
+  35;//size
+  1.000000;//red color component
+  1.000000;//green color component
+  1.000000;//blue color component
+  1.000000;//alpha component
+  1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  0;//blending type (0=normal, 1=light)
+Blown jupiter;//name---------------------
+  73;//identifier
+  pblownjupiter.png;//texture
+  16;//size
+  1.000000;//red color component
+  1.000000;//green color component
+  1.000000;//blue color component
+  1.000000;//alpha component
+  1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  0;//blending type (0=normal, 1=light)
+Mars;//name---------------------
+  74;//identifier
+  pburningmars.png;//texture
+  12;//size
+  1.000000;//red color component
+  1.000000;//green color component
+  1.000000;//blue color component
+  1.000000;//alpha component
+  1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  0;//blending type (0=normal, 1=light)
+end_of_file;

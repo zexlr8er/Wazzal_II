@@ -1,0 +1,22 @@
+test;//name
+  0;//identifier
+  fire.wav;//filename
+engine;//name
+  1;//identifier
+  radiator.wav;//filename
+bomb;//name
+  2;//identifier
+  explode.WAV;//filename
+machinery;//name
+  3;//identifier
+  machinery.wav;//filename
+bomb2;//name
+  4;//identifier
+  explode1.WAV;//filename
+Thunder;//name
+  5;//identifier
+  thunderclap.wav;//filename
+Paper;//name
+  6;//identifier
+  paper.wav;//filename
+end_of_file;

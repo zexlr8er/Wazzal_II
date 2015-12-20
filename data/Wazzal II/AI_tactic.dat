@@ -1,0 +1,397 @@
+Attack Normal;//tactic name
+  0;//identifier
+  begin_levels;
+  10;//anger level size
+    1;//action
+    0;//parameter0
+    1;//can hit enemies
+    1;//can eat
+  25;//anger level size 
+    3;//action
+    0;//parameter0
+    1;//can hit enemies
+    0;//can eat
+  end_levels;
+Avoiding combat;//tactic name-----------Flee
+  1;//identifier
+  begin_levels;
+  10;//anger level size
+    1;//action
+    0;//parameter0
+    1;//can hit enemies
+    1;//can eat
+  10;//anger level size
+    2;//action
+    0;//parameter0
+    1;//can hit enemies
+    1;//can eat
+  10;//anger level size
+    4;//action
+    0;//parameter0
+    1;//can hit enemies
+    0;//can eat
+  end_levels;
+Peaceful Follow;//tactic name
+  2;//identifier
+  begin_levels;
+  10;//anger level size
+    1;//action
+    0;//parameter0
+    0;//can hit enemies
+    1;//can eat
+  10;//anger level size
+    2;//action
+    0;//parameter0
+    0;//can hit enemies
+    1;//can eat
+  5;//anger level size
+    4;//action
+    0;//parameter0
+    0;//can hit enemies
+    0;//can eat
+  end_levels;
+Stand Still;//tactic name
+  3;//identifier
+  begin_levels;
+  10;//anger level size
+    0;//action
+    0;//parameter0
+    0;//can hit enemies
+    0;//can eat
+  end_levels;
+Guard Aggressive;//tactic name
+  4;//identifier
+  begin_levels;
+  10;//anger level size
+    5;//action
+    1000;//parameter0
+    1;//can hit enemies
+    1;//can eat
+  end_levels;
+Follow;//tactic name
+  5;//identifier
+  begin_levels;
+  30;//anger level size
+    2;//action
+    250;//parameter0
+    1;//can hit enemies
+    1;//can eat
+  end_levels;
+Leader Attack;//tactic name
+  6;//identifier
+  begin_levels;
+  10;//anger level size
+    1;//action
+    0;//parameter0
+    1;//can hit enemies
+    1;//can eat
+  10;//anger level size
+    3;//action
+    0;//parameter0
+    1;//can hit enemies
+    0;//can eat
+  end_levels;
+Attack;//tactic name
+  7;//identifier
+  begin_levels;
+  10;//anger level size
+    3;//action
+    0;//parameter0
+    1;//can hit enemies
+    1;//can eat
+  end_levels;
+Press C to control in Battleship;//tactic name
+  8;//identifier
+  begin_levels;
+  10;//anger level size
+    3;//action
+    0;//parameter0
+    1;//can hit enemies
+    1;//can eat
+  end_levels;
+Guard;//tactic name ---firm
+  9;//identifier
+  begin_levels;
+  10;//anger level size
+    5;//action
+    400;//parameter0
+    1;//can hit enemies
+    1;//can eat
+  end_levels;
+Sprinkler;//tactic name
+  10;//identifier
+  begin_levels;
+  10;//anger level size
+    6;//action
+    0;//parameter0
+    0;//can hit enemies
+    0;//can eat
+  end_levels;
+Guard;//tactic name----light
+  11;//identifier
+  begin_levels;
+  10;//anger level size
+    5;//action
+    200;//parameter0
+    1;//can hit enemies
+    0;//can eat
+  end_levels;
+Attack Clumping;//tactic name
+  12;//identifier
+  begin_levels;
+  20;//anger level size
+    1;//action
+    0;//parameter0
+    1;//can hit enemies
+    1;//can eat
+  10;//anger level size
+    2;//action
+    500;//parameter0
+    1;//can hit enemies
+    1;//can eat
+  25;//anger level size 
+    3;//action
+    0;//parameter0
+    1;//can hit enemies
+    0;//can eat
+  end_levels;
+Roaming;//tactic name
+  13;//identifier
+  begin_levels;
+  40;//anger level size
+    1;//action
+    0;//parameter0
+    0;//can hit enemies
+    0;//can eat
+  end_levels;
+Follow;//tactic name--------------bodyguards
+  14;//identifier
+  begin_levels;
+  30;//anger level size
+    2;//action
+    250;//parameter0
+    1;//can hit enemies
+    1;//can eat
+  end_levels;
+Press T to control in Tank;//tactic name --------- standard tank parked
+  15;//identifier
+  begin_levels;
+  30;//anger level size
+    0;//action
+    0;//parameter0
+    0;//can hit enemies
+    0;//can eat
+  end_levels;
+Press C to control in Turret;//tactic name ----- standard machine gun attack
+  16;//identifier
+  begin_levels;
+  10;//anger level size
+    3;//action
+    0;//parameter0
+    1;//can hit enemies
+    1;//can eat
+  end_levels;
+Attack all-out;//tactic name
+  17;//identifier
+  begin_levels;
+  10;//anger level size
+    3;//action
+    0;//parameter0
+    1;//can hit enemies
+    0;//can eat
+  25;//anger level size 
+    3;//action
+    0;//parameter0
+    1;//can hit enemies
+    0;//can eat
+  end_levels;
+Peaceful unless provoked;//tactic name
+  18;//identifier
+  begin_levels;
+  50;//anger level size
+    1;//action
+    0;//parameter0
+    0;//can hit enemies
+    0;//can eat
+  5;//anger level size
+    3;//action
+    0;//parameter0
+    1;//can hit enemies
+    0;//can eat
+  end_levels;
+Reforming formation;//tactic name-----flee
+  19;//identifier
+  begin_levels;
+  50;//anger level size
+    4;//action
+    0;//parameter0
+    1;//can hit enemies
+    0;//can eat
+  end_levels;
+Peaceful unless provoked - wolf;//tactic name
+  20;//identifier
+  begin_levels;
+  45;//anger level size
+    1;//action
+    0;//parameter0
+    0;//can hit enemies
+   0;//can eat
+  5;//anger level size
+    3;//action
+    0;//parameter0
+    1;//can hit enemies
+    0;//can eat
+  end_levels;
+Baby wolf/baby alien;//tactic name
+  21;//identifier
+  begin_levels;
+  30;//anger level size
+    2;//action
+    30;//parameter0
+   0;//can hit enemies
+   1;//can eat
+  15;//anger level size
+    4;//action
+    0;//parameter0
+    1;//can hit enemies
+    1;//can eat
+  end_levels;
+Peaceful unless provoked - bear;//tactic name
+  22;//identifier
+  begin_levels;
+  20;//anger level size
+    1;//action
+    0;//parameter0
+    0;//can hit enemies
+    1;//can eat
+  10;//anger level size
+    3;//action
+    0;//parameter0
+    1;//can hit enemies
+    0;//can eat
+  end_levels;
+Guard area - egg layers;//tactic name
+ 23;//identifier
+  begin_levels;
+  20;//anger level size
+   5;//action
+    400;//parameter0
+    1;//can hit enemies
+    1;//can eat
+  20;//anger level size
+   5;//action
+    550;//parameter0
+    1;//can hit enemies
+    0;//can eat
+  end_levels;
+Attack Normal (for aliens, can't eat);//tactic name
+ 24;//identifier
+  begin_levels;
+  10;//anger level size
+    1;//action
+    0;//parameter0
+    1;//can hit enemies
+    0;//can eat
+  25;//anger level size 
+    3;//action
+    0;//parameter0
+    1;//can hit enemies
+    0;//can eat
+  end_levels;
+Neutral ship;//tactic name
+ 25;//identifier
+  begin_levels;
+  60;//anger level size
+    1;//action
+    0;//parameter0
+    0;//can hit enemies
+    0;//can eat
+  15;//anger level size
+    3;//action
+    0;//parameter0
+    1;//can hit enemies
+    0;//can eat
+  end_levels;
+Press N to control in Boat;//tactic name --------- standard tank parked
+ 26;//identifier
+  begin_levels;
+  30;//anger level size
+    0;//action
+    0;//parameter0
+    0;//can hit enemies
+    0;//can eat
+  end_levels;
+Peaceful unless provoked - dorian prime, can eat;//tactic name
+  27;//identifier
+  begin_levels;
+  45;//anger level size
+    1;//action
+    0;//parameter0
+    0;//can hit enemies
+   1;//can eat
+  5;//anger level size
+    3;//action
+    0;//parameter0
+    1;//can hit enemies
+    1;//can eat
+  end_levels;
+Press X to control in Fighter;//tactic name --------- standard tank parked
+ 28;//identifier
+  begin_levels;
+  30;//anger level size
+    0;//action
+    0;//parameter0
+    0;//can hit enemies
+    0;//can eat
+  end_levels;
+Converted Alien;//tactic name ----- roam, flee
+  29;//identifier
+  begin_levels;
+  45;//anger level size
+    1;//action
+    0;//parameter0
+    0;//can hit enemies
+   0;//can eat
+  5;//anger level size
+   4;//action
+    0;//parameter0
+    1;//can hit enemies
+    0;//can eat
+  end_levels;
+Converted alien, Follow;//tactic name--------------follow
+  30;//identifier
+  begin_levels;
+  30;//anger level size
+    2;//action
+    150;//parameter0
+    1;//can hit enemies
+    0;//can eat
+ 5;//anger level size
+   4;//action
+    0;//parameter0
+    0;//can hit enemies
+    0;//can eat
+  end_levels;
+end_of_file;
+
+
+
+Anger counts the annoyance level of the creature. When enemies are visible,
+the anger level will increase. When the creature gets hit, the anger is at
+the topmost level. The different anger levels control the creatures actions.
+A peaceful creature might stay put, and attack when it's anger level increases.
+
+Anger level is the size of each level, the number is automatically 
+scaled in the game relative to the other levels in the same tactic. 
+The topmost level will be activated when creature isn't angry at 
+all, the lowest level will be activated at maximum anger.
+
+actions:
+0=do nothing, good for crates
+1=roam
+2=follow friend, if distance to enemy is smaller than parameter0, attack
+3=attack
+4=flee
+5=guard place, parameter0=distance to attack enemies in pixels
+6=fire constantly in random directions
+

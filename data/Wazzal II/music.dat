@@ -1,0 +1,34 @@
+0;//identifier
+  music0.mp3;//identifier
+  1;//can be randomly selected
+1;//identifier
+  music1.mp3;//identifier
+  1;//can be randomly selected
+2;//identifier
+  astro.mp3;//identifier
+  1;//can be randomly selected
+3;//identifier
+  ingame0.mp3;//identifier
+  1;//can be randomly selected
+4;//identifier
+  ingame1.mp3;//identifier
+  1;//can be randomly selected
+5;//identifier
+  ingame2.mp3;//identifier
+  1;//can be randomly selected
+6;//identifier
+  battle0.mp3;//identifier
+  1;//can be randomly selected
+7;//identifier
+  battle1.mp3;//identifier
+  1;//can be randomly selected
+8;//identifier
+  battle2.mp3;//identifier
+  1;//can be randomly selected
+9;//identifier
+  battle3.mp3;//identifier
+  1;//can be randomly selected
+10;//identifier
+  battle4.mp3;//identifier
+  1;//can be randomly selected
+end_of_file;
