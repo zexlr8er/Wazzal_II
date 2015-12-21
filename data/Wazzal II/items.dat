@@ -3,7 +3,7 @@ Small Laser cannon;//name---------------------------------------
   0;//item class
  70.000000;//weight
   The Small Laser Cannon is the least powerful of the laser weapons. Even so, it can fire a deadly stream of high-intensity laser beams at an enemy ship, vaporising it in seconds.;//short description
-   Dozens of Alien battleships materialize on your scanners, and the darkness of space is suddenly filled with green light as a thousand laser turrents open fire on the Wolf IV... \ \ There are too many of them... fighting would be useless. Your best hope to survive may be to flee to the planet Errxelz 8, on the opposite side of the system. \ \ There is a Confederate outpost on the north of the planet. Perhaps from there you will be able to get assistance from local groundforces. \ \ A missile strikes the Wolf's blast-shield, and you swear silently. The Aliens will live to regret the day they chose to return...;//first pick up text
+   Dozens of Alien battleships materialize on your scanners, and the darkness of space is suddenly filled with green light as a thousand laser turrents open fire on the Wolf IV... \ \ There are too many of them... fighting would be useless. Your best hope to survive may be to flee to the planet Errxelz 8, on the opposite side of the system. \ \ There is a Confederate outpost on the north of the planet. Perhaps from there you will be able to get assistance from local ground forces. \ \ A missile strikes the Wolf's blast-shield, and you swear silently. The Aliens will live to regret the day they chose to return...;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
@@ -37,7 +37,7 @@ SR Radar;//name---------------------------------------
   1;//identifier
   0;//item class
   50.000000;//weight
-  Your short range Radar shows any nearby ships on your computer display. It uses energy, so be carefull you don't use it needlessly. Press 'R' in-game to activate.;//short description
+  Your short range Radar shows any nearby ships on your computer display. It uses energy, so be careful you don't use it needlessly. Press 'R' in-game to activate.;//short description
   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -75,7 +75,7 @@ Particle Cannon;//name---------------------------------------
   2;//identifier
   0;//item class
   80.000000;//weight
-  This double-barreled Particle Cannon is a deadly space combat weapon. Firing hundreds of rounds of deadly particle ammunition a minute, it is most commonly used as the primary weapon of Confederate destroyers.;//short description
+  This double-barrelled Particle Cannon is a deadly space combat weapon. Firing hundreds of rounds of deadly particle ammunition a minute, it is most commonly used as the primary weapon of Confederate destroyers.;//short description
   none;//first pick up text
   0.350000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -110,7 +110,7 @@ Phaser Turret;//name---------------------------------------
   3;//identifier
   0;//item class
   80.000000;//weight
-  This high-tech phaser turrent fires intermittent beams of powerful amplified radiation at an enemy ship, piercing even the strongest armour and causing massive damage. \ \ Effective against capital ships!;//short description
+  This high-tech phaser turret fires intermittent beams of powerful amplified radiation at an enemy ship, piercing even the strongest armour and causing massive damage. \ \ Effective against capital ships!;//short description
   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -180,7 +180,7 @@ Viper Missile;//name---------------------------------------
   5;//identifier
   0;//item class
   5.000000;//weight
-  The Viper Missile is the smallest and cheapest missile avaliable. They are extremely volatile, so it would be wise to handle them with care.;//short description
+  The Viper Missile is the smallest and cheapest missile available. They are extremely volatile, so it would be wise to handle them with care.;//short description
   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -686,7 +686,7 @@ X-56 Submachine gun;//name---------------------------------------
     use.wav;//sound, none for nothing
     0;//vanishes after event, 0=no, 1=yes
     U;//use key
-    1;//quick key
+    -1;//quick key
     begin_conditions;
     end_conditions;
     begin_effects;
@@ -738,7 +738,7 @@ Commanding machine gun;//name---------------------------------------
   18;//identifier
   0;//item class
   0.000000;//weight
-  Press 'C' when near a machine-gun enplacement to take the controls.;//short description
+  Press 'C' when near a machine-gun emplacement to take the controls.;//short description
   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -858,7 +858,7 @@ Thermon C mines;//name---------------------------------------
   21;//identifier
   0;//item class
   5.000000;//weight
-  The Thermon C class of mines are the smallest and cheapest mine avaliable. Like missiles, they are extremely volatile, so it would be wise to handle them with care.;//short description
+  The Thermon C class of mines are the smallest and cheapest mine available. Like missiles, they are extremely volatile, so it would be wise to handle them with care.;//short description
   none;//first pick up text
   0.150000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -924,11 +924,11 @@ Twin Laser Cannon;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-Targetting beam OFF;//name---------------------------------------
+Targeting beam OFF;//name---------------------------------------
   23;//identifier
   0;//item class
  20.000000;//weight
-  This targetting beam uses a motion sensing beam to locate the position of nearby enemy ships. Beware however, as the beam can alert enemies to your presence. Press 'Z' in-game to activate the beam;//short description
+  This targeting beam uses a motion sensing beam to locate the position of nearby enemy ships. Beware however, as the beam can alert enemies to your presence. Press 'Z' in-game to activate the beam;//short description
   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -967,11 +967,11 @@ Targetting beam OFF;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-Targetting beam ON;//name---------------------------------------
+Targeting beam ON;//name---------------------------------------
   24;//identifier
   0;//item class
   30.000000;//weight
-  This targetting beam uses a motion sensing beam to locate the position of nearby enemy ships. Beware however, as the beam can alert enemies to your presence. Press 'Z' in-game to deactivate the beam.;//short description
+  This targeting beam uses a motion sensing beam to locate the position of nearby enemy ships. Beware however, as the beam can alert enemies to your presence. Press 'Z' in-game to deactivate the beam.;//short description
   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -1094,7 +1094,7 @@ Stock: Drugs;//name---------------------------------------
   27;//identifier
   0;//item class
   0.000000;//weight
-  Use this item near a store to sell them. \ \ You will recieve the current market value of Drugs in Confederate Credits.;//short description
+  Use this item near a store to sell them. \ \ You will receive the current market value of Drugs in Confederate Credits.;//short description
   none;//first pick up text
   0.450000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -1137,7 +1137,7 @@ Stock: Drugs;//name---------------------------------------
   28;//identifier
   0;//item class
   0.000000;//weight
-  Press 'U' to buy one unit of weapons. \ \ You will be charged the current market value of Weapon Parts, visable on the bars to the lower left corner of the main interface (above Money and PP).;//short description
+  Press 'U' to buy one unit of weapons. \ \ You will be charged the current market value of Weapon Parts, visible on the bars to the lower left corner of the main interface (above Money and PP).;//short description
   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -1185,7 +1185,7 @@ Stock:  Weapon Parts;//name---------------------------------------
   29;//identifier
   0;//item class
   0.000000;//weight
-  Use this item near a store to sell them.  \ \ You will recieve the current market value of Weapon Parts in Confederate Credits.;//short description
+  Use this item near a store to sell them.  \ \ You will receive the current market value of Weapon Parts in Confederate Credits.;//short description
   none;//first pick up text
   0.400000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -1228,7 +1228,7 @@ Stock:  Weapon Parts;//name---------------------------------------
   30;//identifier
   0;//item class
   0.000000;//weight
-  Press 'U' to buy one unit of slaves. \ \ You will be charged the current market value of Slaves, visable on the bars to the lower left corner of the main interface (above Money and PP).;//short description
+  Press 'U' to buy one unit of slaves. \ \ You will be charged the current market value of Slaves, visible on the bars to the lower left corner of the main interface (above Money and PP).;//short description
   none;//first pick up text
   0.200000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -1276,7 +1276,7 @@ Stock: Slaves;//name---------------------------------------
   31;//identifier
   0;//item class
   0.000000;//weight
-  Use this item near a store to sell them. \ \ You will recieve the current market value of Slaves in Confederate Credits.;//short description
+  Use this item near a store to sell them. \ \ You will receive the current market value of Slaves in Confederate Credits.;//short description
   none;//first pick up text
   0.400000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -1405,7 +1405,7 @@ Stock: Slaves;//name---------------------------------------
   34;//identifier
   0;//item class
   0.000000;//weight
-  Press 'U' to buy a devestating pressure-sensitive landmine, perfect for setting traps and killing unsuspecting enemies. \ \  Price: 200 credits;//short description
+  Press 'U' to buy a devastating pressure-sensitive landmine, perfect for setting traps and killing unsuspecting enemies. \ \  Price: 200 credits;//short description
   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -1448,7 +1448,7 @@ Rank: Ensign;//name---------------------------------------
   35;//identifier
   2;//item class
   0.000000;//weight
-  The Confederate Navy has recognized your achievment (50PP), and has promoted you to the rank of Ensign. \ \ Salary: 10 credits/hour;//short description
+  The Confederate Navy has recognized your achievement (50PP), and has promoted you to the rank of Ensign. \ \ Salary: 10 credits/hour;//short description
   none;//first pick up text
   0.650000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -1478,7 +1478,7 @@ Rank: 2nd Lieutenant;//name---------------------------------------
   36;//identifier
   2;//item class
   0.000000;//weight
-  The Confederate Navy has recognized your achievment (100PP), and has promoted you to the rank of 2nd Lieutenant. \ \ Salary: 20 credits/hour;//short description
+  The Confederate Navy has recognized your achievement (100PP), and has promoted you to the rank of 2nd Lieutenant. \ \ Salary: 20 credits/hour;//short description
   none;//first pick up text
   0.650000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -1508,7 +1508,7 @@ Rank: 1st Lieutenant;//name---------------------------------------
   37;//identifier
   2;//item class
   0.000000;//weight
-  The Confederate Navy has recognized your achievment (150PP), and has promoted you to the rank of 1st Lieutenant. \ \ Salary: 30 credits/hour;//short description
+  The Confederate Navy has recognized your achievement (150PP), and has promoted you to the rank of 1st Lieutenant. \ \ Salary: 30 credits/hour;//short description
   none;//first pick up text
   0.650000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -1538,7 +1538,7 @@ Rank: Lieutenant-commander;//name---------------------------------------
   38;//identifier
   2;//item class
   0.000000;//weight
-  Congratulations!! The Confederate Navy has recognized your achievment (250PP), and has promoted you to the rank of Lieutenant-Commander. \ \ Salary: 40 credits/hour;//short description
+  Congratulations!! The Confederate Navy has recognized your achievement (250PP), and has promoted you to the rank of Lieutenant-Commander. \ \ Salary: 40 credits/hour;//short description
   none;//first pick up text
   0.650000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -2362,7 +2362,7 @@ Combat Knife;//name---------------------------------------
   57;//identifier
   0;//item class
   1.000000;//weight
-  Throwable knife. You can pick it up again if you miss. A suprisingly useful weapon, no Captain should be without one.;//short description
+  Throwable knife. You can pick it up again if you miss. A surprisingly useful weapon, no Captain should be without one.;//short description
   none;//first pick up text
   0.200000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -2570,8 +2570,8 @@ Stealth armour OFF;//name---------------------------------------
   62;//identifier
   0;//item class
   12.000000;//weight
-  Allows you to move around unnoticed while equiped. You will only become fully visable if you decide to fire a weapon while cloaked. \ Be warned however, it uses significant battery energy (also, both enemies AND allies can hit you by accident, even though they can't see you).;//short description
-   This rare stealth armour allows you to move around unnoticed while equiped. You will only become fully visable if you decide to fire a weapon while cloaked. \ Be warned however, it uses significant battery energy (Beware, both enemies AND allies can hit you by accident, even though they can't see you).;//first pick up text
+  Allows you to move around unnoticed while equipped. You will only become fully visible if you decide to fire a weapon while cloaked. \ Be warned however, it uses significant battery energy (also, both enemies AND allies can hit you by accident, even though they can't see you).;//short description
+   This rare stealth armour allows you to move around unnoticed while equipped. You will only become fully visible if you decide to fire a weapon while cloaked. \ Be warned however, it uses significant battery energy (Beware, both enemies AND allies can hit you by accident, even though they can't see you).;//first pick up text
   0.300000;//size on map
   1;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
@@ -2787,7 +2787,7 @@ Rank: Commander;//name---------------------------------------
   68;//identifier
   2;//item class
   0.000000;//weight
-  Congratulations!! The Confederate Navy has recognized your achievment (400PP), and has promoted you to the rank of Commander. \ \ Salary: 50 credits/hour;//short description
+  Congratulations!! The Confederate Navy has recognized your achievement (400PP), and has promoted you to the rank of Commander. \ \ Salary: 50 credits/hour;//short description
   none;//first pick up text
   0.650000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -3237,7 +3237,7 @@ Rank: Commodore;//name---------------------------------------
   80;//identifier
   22;//item class
   0.000000;//weight
-  Congratulations!! The Confederate Navy has recognized your achievment (800PP), and has promoted you to the rank of Commodore.  \ \ Salary: 70 credits/hour;//short description
+  Congratulations!! The Confederate Navy has recognized your achievement (800PP), and has promoted you to the rank of Commodore.  \ \ Salary: 70 credits/hour;//short description
   none;//first pick up text
   0.650000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -3267,7 +3267,7 @@ Rank: Rear Admiral;//name---------------------------------------
   81;//identifier
   2;//item class
   0.000000;//weight
-  Congratulations!! The Confederate Navy has recognized your achievment (1000PP), and has promoted you to the rank of Rear Admiral. \ \ Salary: 85 credits/hour;//short description
+  Congratulations!! The Confederate Navy has recognized your achievement (1000PP), and has promoted you to the rank of Rear Admiral. \ \ Salary: 85 credits/hour;//short description
   none;//first pick up text
   0.650000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -3297,7 +3297,7 @@ Rank: Vice Admiral;//name---------------------------------------
   82;//identifier
   2;//item class
   0.000000;//weight
-  Congratulations!! The Confederate Navy has recognized your achievment (1200PP), and has promoted you to the rank of Vice Admiral. \ \ Salary: 100 credits/hour;//short description
+  Congratulations!! The Confederate Navy has recognized your achievement (1200PP), and has promoted you to the rank of Vice Admiral. \ \ Salary: 100 credits/hour;//short description
   none;//first pick up text
   0.650000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -3327,7 +3327,7 @@ Rank: Admiral;//name---------------------------------------
   83;//identifier
   2;//item class
   0.000000;//weight
-  Congratulations!! The Confederate Navy has recognized your achievment (1500PP), and has promoted you to the rank of Admiral. \ \ Salary: 120 credits/hour;//short description
+  Congratulations!! The Confederate Navy has recognized your achievement (1500PP), and has promoted you to the rank of Admiral. \ \ Salary: 120 credits/hour;//short description
   none;//first pick up text
   0.650000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -3387,7 +3387,7 @@ Ion Wave;//name---------------------------------------
   85;//identifier
   0;//item class
   50.000000;//weight
-  The Ion Wave fires beams of highly-charged ionized particles at an enemy ship, temporarily disabling almost all electrical systems on board, and leaving it defenseless for a short period of time. \ Highly effective against fighters, however will often only partially disable larger ships.;//short description
+  The Ion Wave fires beams of highly-charged ionized particles at an enemy ship, temporarily disabling almost all electrical systems on board, and leaving it defenceless for a short period of time. \ Highly effective against fighters, however will often only partially disable larger ships.;//short description
   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -3517,7 +3517,7 @@ Stealth armour ON;//name---------------------------------------
   88;//identifier
   0;//item class
   12.000000;//weight
-  Use to de-activate. Allows you to move around unnoticed while equiped. You will only become fully visable if you decide to fire a weapon while cloaked. \ Be warned however, it uses significant battery energy (Beware, both enemies AND allies can hit you by accident, even though they can't see you).;//short description
+  Use to de-activate. Allows you to move around unnoticed while equipped. You will only become fully visible if you decide to fire a weapon while cloaked. \ Be warned however, it uses significant battery energy (Beware, both enemies AND allies can hit you by accident, even though they can't see you).;//short description
   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -3593,7 +3593,7 @@ Crystalline Ore;//name---------------------------------------
   90;//identifier
   0;//item class
   1.000000;//weight
-  This valuable mineral ore is considored a precious resource across the Confederacy, as it has only been found in the Amozius and Hive sectors. \ Use this item near a store to sell the ore for 1000 credits.;//short description
+  This valuable mineral ore is considered a precious resource across the Confederacy, as it has only been found in the Amozius and Hive sectors. \ Use this item near a store to sell the ore for 1000 credits.;//short description
   The crystalline ore glows in your fingers as you pick it up. Memories flood back to you of the last time you held a piece of this mineral in your hands... \ \ If you could find a store, you should be able to sell this tiny fragment of ore for up to 1000 credits. No wonder the Aliens have arrived in this sector in such force...;//first pick up text
   0.350000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -3687,7 +3687,7 @@ High explosive;//name---------------------------------------
   93;//identifier
   0;//item class
   0.000000;//weight
-  Throwable knife. You can pick it up again if you miss. A suprisingly useful weapon, no Captain should be without one. \ \ Price: 2000 credits;//short description
+  Throwable knife. You can pick it up again if you miss. A surprisingly useful weapon, no Captain should be without one. \ \ Price: 2000 credits;//short description
   none;//first pick up text
   0.650000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -3773,7 +3773,7 @@ Commanding tank;//name---------------------------------------
  95;//identifier
   0;//item class
   0.000000;//weight
-  Press 'C' when near a machine-gun enplacement to take the controls.;//short description
+  Press 'C' when near a machine-gun emplacement to take the controls.;//short description
   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -3824,7 +3824,7 @@ Commanding pillbox;//name---------------------------------------
  96;//identifier
   0;//item class
   0.000000;//weight
-  Press 'C' when near a machine-gun enplacement to take the controls.;//short description
+  Press 'C' when near a machine-gun emplacement to take the controls.;//short description
   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -4158,7 +4158,7 @@ Painkillers;//name---------------------------------------
   104;//identifier
   0;//item class
   0.000000;//weight
-  The Viper Missile is the smallest and cheapest missile avaliable. They are extremely volatile, and extremely deadly. Purchased missiles will be placed in your ship's inventory. \ \ Price: 400 credits;//short description
+  The Viper Missile is the smallest and cheapest missile available. They are extremely volatile, and extremely deadly. Purchased missiles will be placed in your ship's inventory. \ \ Price: 400 credits;//short description
   none;//first pick up text
   0.350000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -4201,7 +4201,7 @@ Cloaking device OFF;//name---------------------------------------
   105;//identifier
   0;//item class
   100.000000;//weight
-  Allows you to fly unnoticed while equipped. You will only become visable again if you decide to use a weapon. Be warned however, it uses significant energy (also, both enemies AND allies can hit you by accident, even though they can't see you).;//short description
+  Allows you to fly unnoticed while equipped. You will only become visible again if you decide to use a weapon. Be warned however, it uses significant energy (also, both enemies AND allies can hit you by accident, even though they can't see you).;//short description
   none;//first pick up text
   0.300000;//size on map
   1;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -4249,7 +4249,7 @@ Cloaking device ON;//name---------------------------------------
   106;//identifier
   0;//item class
  100.000000;//weight
-  Use to de-activate. Allows you to fly unnoticed while equipped. You will only become visable again if you decide to use a weapon. Be warned however, it uses significant energy (also, both enemies AND allies can hit you by accident, even though they can't see you).;//short description
+  Use to de-activate. Allows you to fly unnoticed while equipped. You will only become visible again if you decide to use a weapon. Be warned however, it uses significant energy (also, both enemies AND allies can hit you by accident, even though they can't see you).;//short description
   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -4455,7 +4455,7 @@ Particle ammunition;//name---------------------------------------
  111;//identifier
   0;//item class
   0.000000;//weight
-  Press 'U' to buy 200 rounds of ammunition for Particle Cannons. The ammuntion will be placed in your ship's inventory. \ \  Price: 300 credits;//short description
+  Press 'U' to buy 200 rounds of ammunition for Particle Cannons. The ammunition will be placed in your ship's inventory. \ \  Price: 300 credits;//short description
   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -4556,7 +4556,7 @@ Trapped baby Wa-wolf;//name---------------------------------------
   114;//identifier
   0;//item class
  20.000000;//weight
- A trapped baby Wa-wolf. You can try and train it to treat you as its mother by using this item. You'll need to find it food to grow... what could Wa-wolfs eat? All you can guess is definately nothing cooked...;//short description
+ A trapped baby Wa-wolf. You can try and train it to treat you as its mother by using this item. You'll need to find it food to grow... what could Wa-wolfs eat? All you can guess is definitely nothing cooked...;//short description
   none;//first pick up text
   0.550000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -4806,7 +4806,7 @@ Dead Ka-bear;//name---------------------------------------
   0;//item class
   30.000000;//weight
   The carcass of a fearsome Ka-bear from Kinmegag 71. \ Combine with a Combat Knife to skin it.;//short description
-  You reach down and pick up the heavy carcass. The Ka-bear is one of the most fearsome native species ever discovered. Decause of the species' rarity and its thick and luxurious fur, a Ka-bear skin is considored an ultimate symbol of status throughout the Confederacy. \ \ If you could combine this carcass with a Combat Knife, you could skin the bear and sell its coat at a store for a fortune (up to 2000 credits)!;//first pick up text
+  You reach down and pick up the heavy carcass. The Ka-bear is one of the most fearsome native species ever discovered. Decause of the species' rarity and its thick and luxurious fur, a Ka-bear skin is considered an ultimate symbol of status throughout the Confederacy. \ \ If you could combine this carcass with a Combat Knife, you could skin the bear and sell its coat at a store for a fortune (up to 2000 credits)!;//first pick up text
   0.550000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
@@ -4901,7 +4901,7 @@ Commanding battleship;//name---------------------------------------
 123;//identifier
   0;//item class
   0.000000;//weight
-  Press 'C' when near a machine-gun enplacement to take the controls.;//short description
+  Press 'C' when near a battleship to take the controls.;//short description
   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -5033,7 +5033,7 @@ Ka kalwaa;//name---------------------------------------
   0;//item class
 1.000000;//weight
   A weapon produced by the Aliens themselves that drains health from an enemy. It requires a serum produced from your own blood... \ Press 'V' in-game to extract blood (approx. 5 health points for 30mL of serum).;//short description
-  You pick up the strange object. About 20 Confederate centimetres long, it weighs almost nothing, is organic in design, and almost feels alive as it gently pulses in your fingers. \ \ A thin, veiny gill snakes along its underside, and you curiously run your finger along it. Suddenly the object glows irredescant green, and a strong pain rips through your arm. Dozens of fiery balls of green energy spit from its front, spearing off over the ground before careening into one of the slimy, sinewy Alien vines that now litter Errxelz's surface. Within seconds, strange things start to happen... The vine begins to wither, burn and collapse into a pile of charred slime. The huge gash the object opened in your arm seals shut, and heals over in seconds... \ \ It appears you have an Alien weapon. One that has the power to heal you. One that requires human blood as ammunition...  ;//first pick up text
+  You pick up the strange object. About 20 Confederate centimetres long, it weighs almost nothing, is organic in design, and almost feels alive as it gently pulses in your fingers. \ \ A thin, veiny gill snakes along its underside, and you curiously run your finger along it. Suddenly the object glows iridescent green, and a strong pain rips through your arm. Dozens of fiery balls of green energy spit from its front, spearing off over the ground before careening into one of the slimy, sinewy Alien vines that now litter Errxelz's surface. Within seconds, strange things start to happen... The vine begins to wither, burn and collapse into a pile of charred slime. The huge gash the object opened in your arm seals shut, and heals over in seconds... \ \ It appears you have an Alien weapon. One that has the power to heal you. One that requires human blood as ammunition...  ;//first pick up text
   0.350000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
@@ -5098,7 +5098,7 @@ MR Radar;//name---------------------------------------from 1
   128;//identifier
   0;//item class
   60.000000;//weight
-  Your medium range Radar shows any nearby ships on your computer display. It uses energy, so be carefull you don't use it needlessly. Press 'R' in-game to activate.;//short description
+  Your medium range Radar shows any nearby ships on your computer display. It uses energy, so be careful you don't use it needlessly. Press 'R' in-game to activate.;//short description
   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -5248,7 +5248,7 @@ Flag: Confederacy;//name---------------------------------------
   131;//identifier
   2;//item class
   0.000000;//weight
-  You are flying the flag of the Confederate Navy. \ Use or press 'F' in-game to disguise your ship and raise a pirate flag, allowing you to attack neutral ships for loot. Be warned, the Confederacy is also at war against the scurge of piracy...;//short description
+  You are flying the flag of the Confederate Navy. \ Use or press 'F' in-game to disguise your ship and raise a pirate flag, allowing you to attack neutral ships for loot. Be warned, the Confederacy is also at war against the scourge of piracy...;//short description
   none;//first pick up text
   0.650000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -5683,7 +5683,7 @@ Crystalline Ore;//name---------------------------------------
   136;//identifier
   0;//item class
   1.000000;//weight
-  This valuable mineral ore is considored one of the most precious resources in the Confederacy. \ Use this item near a store to sell the ore for 1000 credits.;//short description
+  This valuable mineral ore is considered one of the most precious resources in the Confederacy. \ Use this item near a store to sell the ore for 1000 credits.;//short description
   The crystalline ore gathered from the destroyed remains of the asteroid glows as it sits in your cargo bay. \ \ It will be transferred to your personal inventory. If you could find a store, you should be able to sell this tiny fragment of ore for up to 1000 credits!;//first pick up text
   0.250000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -5834,7 +5834,7 @@ Kwaj 4 Torpedoes;//name---------------------------------------
  140;//identifier
   0;//item class
   0.000000;//weight
- The Kwaj 4 torpedo is the smallest and cheapest torpedo available. Torpedoes are distinguished from missiles as they travel in a fast, straight trajectory, perfect for combat against capital ships. Purchased torpedos will be placed in your ship's inventory. \ \ Price: 300 credits;//short description
+ The Kwaj 4 torpedo is the smallest and cheapest torpedo available. Torpedoes are distinguished from missiles as they travel in a fast, straight trajectory, perfect for combat against capital ships. Purchased torpedoes will be placed in your ship's inventory. \ \ Price: 300 credits;//short description
   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -6031,7 +6031,7 @@ Pistol (silenced);//name---------------------------------------
     use.wav;//sound, none for nothing
     0;//vanishes after event, 0=no, 1=yes
     U;//use key
-    1;//quick key
+    -1;//quick key
     begin_conditions;
     end_conditions;
     begin_effects;
@@ -6225,7 +6225,7 @@ Rifle;//name---------------------------------------
     use.wav;//sound, none for nothing
     0;//vanishes after event, 0=no, 1=yes
     U;//use key
-    1;//quick key
+    -1;//quick key
     begin_conditions;
     end_conditions;
     begin_effects;
@@ -6304,7 +6304,7 @@ Shotgun;//name---------------------------------------
     use.wav;//sound, none for nothing
     0;//vanishes after event, 0=no, 1=yes
     U;//use key
-    1;//quick key
+    -1;//quick key
     begin_conditions;
     end_conditions;
     begin_effects;
@@ -6446,7 +6446,7 @@ Commanding boat;//name---------------------------------------
     use.wav;//sound, none for nothing
     0;//vanishes after event, 0=no, 1=yes
     U;//use key
-   N;//quick key
+   P;//quick key
     begin_conditions;
     end_conditions;
     begin_effects;
@@ -6539,11 +6539,11 @@ ecm2.png;//texture name
   end_effects_block;
   begin_combinations;
   end_combinations;
-10000: Mega-hertz ECM;//name---------------------------------------
+4000: Mega-hertz ECM;//name---------------------------------------
   159;//identifier
   0;//item class
   0.000000;//weight
-   The Mega-hertz electronic counter-measures (ECM) is a major upgrade, with a faster fire rate and twice the effectiveness of Kilo-hertz systems. Mega-hertz ECM uses a vortex of pure energy to track down and destroy enemy missiles. \ \  Price: 10000 credits;//short description
+   The Mega-hertz electronic counter-measures (ECM) is a major upgrade, with a faster fire rate and twice the effectiveness of Kilo-hertz systems. Mega-hertz ECM uses a vortex of pure energy to track down and destroy enemy missiles. \ \  Price: 4000 credits;//short description
   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -6565,7 +6565,7 @@ ecm2.png;//texture name
     begin_conditions;
     3;//condition
       13.000000;//condition parameter0
-      10000.000000;//condition parameter1      
+      4000.000000;//condition parameter1      
     end_conditions;
     begin_effects;
     4;//effect number
@@ -6592,11 +6592,11 @@ ecm2.png;//texture name
   end_effects_block;
   begin_combinations;
   end_combinations;
-10000: Giga-hertz ECM;//name---------------------------------------
+7000: Giga-hertz ECM;//name---------------------------------------
   160;//identifier
   0;//item class
   0.000000;//weight
-  Firing automatically when a missile is near, the Giga-hertz electronic counter-measures (ECM) is the most powerful of all anti-missile systems,  \ \  Price: 10000 credits;//short description
+  Firing automatically when a missile is near, the Giga-hertz electronic counter-measures (ECM) is the most powerful of all anti-missile systems,  \ \  Price: 7000 credits;//short description
   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -6618,7 +6618,7 @@ ecm2.png;//texture name
     begin_conditions;
     3;//condition
       13.000000;//condition parameter0
-      10000.000000;//condition parameter1      
+      7000.000000;//condition parameter1      
     end_conditions;
     begin_effects;
     4;//effect number
@@ -6645,7 +6645,7 @@ Captain's journal;//name---------------------------------------
   0;//item class
  0.000000;//weight
   Wolf IV Captain's journal. Use below keys to select pages. \ \ 1: Confederate rank list\ 2: Map of known universe;//short description
-The Wolf IV Captain's journal! It contains all the journal entries you have recorded over your many years behind the controls (press 'J' in-game), as well as some essential information on the United Confederacy of Planets. \ \ Press '1' in your inventory to access a complete list of the ranks of the Confederate Navy, or press '2' to access a star-map of the known universe, including planets, systems and jumpgate connections!;//first pick up text
+The Wolf IV Captain's journal! It contains all the journal entries you have recorded over your many years behind the controls (press 'J' in-game), as well as some essential information on the United Confederacy of Planets. \ \ Press 'N' (in your inventory or in-game) to access a complete list of the ranks of the Confederate Navy, or press 'M' to access a star-map of the known universe, including planets, systems and jumpgate connections!;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
@@ -6661,8 +6661,8 @@ book0.png;//texture name
     none;//event failure text
     use.wav;//sound, none for nothing
     0;//vanishes after event, 0=no, 1=yes
-    1;//use key
-    0;//quick key
+    N;//use key
+    N;//quick key
     begin_conditions;
     end_conditions;
     begin_effects;
@@ -6676,7 +6676,7 @@ You open the dusty book.;//event text
     none;//event failure text
    paper.wav;//sound, none for nothing
     0;//vanishes after event, 0=no, 1=yes
-    2;//use key
+    M;//use key
     M;//quick key
     begin_conditions;
     end_conditions;
@@ -6853,9 +6853,4 @@ Flare;//name---------------------------------------
   begin_combinations;
   end_combinations;
 end_of_file;
-
-
-
-You take the controls of the United Confederacy tank! \ \ Left-click to fire the tank's devestating long-range cannon, or right-click to fire its short-range heavy machine gun!
-
 

@@ -11,7 +11,7 @@ Wolf IV;//name------------------------------
   0;//creature number in creatures.dat
   0;//start animation number in animation.dat
   200;//day length
-  1000.000000;//maximum carry weight
+  1200.000000;//maximum carry weight
   1.000000;//climatic temperature change multiplier
   starwolfrd.png;//rag doll texture
   computer.png;//interface texture
@@ -807,7 +807,7 @@ Pirate Wolf IV;//name------------------------------
   65;//creature number in creatures.dat
   0;//start animation number in animation.dat
   200;//day length
-  1000.000000;//maximum carry weight
+  1200.000000;//maximum carry weight
   1.000000;//climatic temperature change multiplier
   starwolfrd.png;//rag doll texture
   computer.png;//interface texture
@@ -1165,7 +1165,7 @@ Stealth Wolf IV;//name------------------------------
   66;//creature number in creatures.dat
   0;//start animation number in animation.dat
   200;//day length
-  1000.000000;//maximum carry weight
+  1200.000000;//maximum carry weight
   1.000000;//climatic temperature change multiplier
   starwolfrd.png;//rag doll texture
   computer.png;//interface texture
