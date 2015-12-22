@@ -30,7 +30,7 @@
 4;
 5;
   end_excluded_plot_object_classes;
-The Wolf IV is an old ship, yet since the near-disasterous experience on board the Var Equinallin, it is the only craft with which you will ever trust your life. Even when given the offer of becoming Commander of a United Confederate Navy destroyer after your rescue from Notrium, you turned it down, opting instead to continue at the helm of your old travelling companion. Not the fastest or even the most heavily armed of craft, the Wolf is one of the last remaining ships in the universe to be able to claim the description of 'Earth Built'. That alone is enough reason for you to turn down any newer craft, no matter how more avanced they may be. \ \ The interior of the Wolf IV however has been updated to the very latest in Confederate equipment, complete with healing and energy pools, an on-board supply store, and a large scale holographic training deck.;//enter area text, specify none to not show it
+The Wolf IV is an old ship, yet since the near-disastrous experience on board the Var Equinallin, it is the only craft with which you will ever trust your life. Even when given the offer of becoming Commander of a United Confederate Navy destroyer after your rescue from Notrium, you turned it down, opting instead to continue at the helm of your old travelling companion. Not the fastest or even the most heavily armed of craft, the Wolf is one of the last remaining ships in the universe to be able to claim the description of 'Earth Built'. That alone is enough reason for you to turn down any newer craft, no matter how more advanced they may be. \ \ The interior of the Wolf IV however has been updated to the very latest in Confederate equipment, complete with healing and energy pools, an on-board supply store, and a large scale holographic training deck.;//enter area text, specify none to not show it
 2;//Bunker---------------------------------------------------------Bunker
   Bunker;//area name
   0;//area class
@@ -464,7 +464,7 @@ New Dawn System;//area name
 3;
 4;
   end_excluded_plot_object_classes;
- none;//enter area text, specify none to not show it
+ Protect the transports at all cost!;//enter area text, specify none to not show it
 19;//Meadows---------------------------------------------------------planet
  Dorian Prime;//area name
   0;//area class

@@ -3,7 +3,7 @@ Small Laser cannon;//name---------------------------------------
   0;//item class
  70.000000;//weight
   The Small Laser Cannon is the least powerful of the laser weapons. Even so, it can fire a deadly stream of high-intensity laser beams at an enemy ship, vaporising it in seconds.;//short description
-   Dozens of Alien battleships materialize on your scanners, and the darkness of space is suddenly filled with green light as a thousand laser turrents open fire on the Wolf IV... \ \ There are too many of them... fighting would be useless. Your best hope to survive may be to flee to the planet Errxelz 8, on the opposite side of the system. \ \ There is a Confederate outpost on the north of the planet. Perhaps from there you will be able to get assistance from local ground forces. \ \ A missile strikes the Wolf's blast-shield, and you swear silently. The Aliens will live to regret the day they chose to return...;//first pick up text
+   Dozens of Alien battleships materialize on your scanners, and the darkness of space is suddenly filled with green light as a thousand laser turrets open fire on the Wolf IV... \ \ There are too many of them... fighting would be useless. Your best hope to survive may be to flee to the planet Errxelz 8, on the opposite side of the system. \ \ There is a Confederate outpost on the north of the planet. Perhaps from there you will be able to get assistance from local ground forces. \ \ A missile strikes the Wolf's blast-shield, and you swear silently. The Aliens will live to regret the day they chose to return...;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar

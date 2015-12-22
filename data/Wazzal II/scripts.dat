@@ -422,7 +422,7 @@ Player destroys enemy soldiers on jungle planet;//name--------------------------
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   1000;//run every n milliseconds
- Captain Klicc: \ 'Thankyou, great captain. This was a great victory, and I will notify the Confederate Navy at once. (Earn 50 Promotion points, and recieve 5 units of Drug stock)';//message
+ Captain Klicc: \ 'Thankyou, great captain. This was a great victory, and I will notify the Confederate Navy at once. (Earn 50 Promotion points, and receive 5 units of Drug stock)';//message
   1;//message type, 0=quick message, 1=journal
   morse.wav;//sound, none for nothing
   0;//delay script for n seconds after conditions met
@@ -505,7 +505,7 @@ Player reaches Ensign, 50 Promotion;//name--------------------------------------
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   500;//run every n milliseconds
-  Congratulations!! The Confederate Navy has recognized your achievment, and has promoted you to the rank of Ensign. \ \ To thank you furthermore, we have also fitted out your ship with brand-new radar systems, and increased your shields maximum by 10. \ \ Your current salary is: 20 confederacy credits an hour. \ \ Continue to serve the Confederacy well, and you will be again rewarded richly.;//message
+  Congratulations!! The Confederate Navy has recognized your achievement, and has promoted you to the rank of Ensign. \ \ To thank you furthermore, we have also fitted out your ship with brand-new radar systems, and increased your shields maximum by 10. \ \ Your current salary is: 20 confederacy credits an hour. \ \ Continue to serve the Confederacy well, and you will be again rewarded richly.;//message
   1;//message type, 0=quick message, 1=journal
   none;//sound, none for nothing
   0;//delay script for n seconds after conditions met
@@ -563,7 +563,7 @@ Player reaches 2nd Lieutenant, 100 Promotion;//name-----------------------------
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   500;//run every n milliseconds
-  Congratulations!! The Confederate Navy has recognized your achievment, and has promoted you to the rank of 2nd Lieutenant. \ \ Included with this rank is the ability to purchase better weaponry, and two highly trained personal bodyguards from the moons of Eza XII. (These men are likely the best fighters you will come across in your travels, so do not let their abilities go to waste.) \ \ Your current salary is: 40 confederacy credits an hour. \ \ Continue to serve the Confederacy well, and you will be again richly rewarded.;//message
+  Congratulations!! The Confederate Navy has recognized your achievement, and has promoted you to the rank of 2nd Lieutenant. \ \ Included with this rank is the ability to purchase better weaponry, and two highly trained personal bodyguards from the moons of Eza XII. (These men are likely the best fighters you will come across in your travels, so do not let their abilities go to waste.) \ \ Your current salary is: 40 confederacy credits an hour. \ \ Continue to serve the Confederacy well, and you will be again richly rewarded.;//message
   1;//message type, 0=quick message, 1=journal
   none;//sound, none for nothing
   0;//delay script for n seconds after conditions met
@@ -626,7 +626,7 @@ Player reaches 1st Lieutenant, 150 Promotion;//name-----------------------------
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   500;//run every n milliseconds
-  Congratulations!! The Confederate Navy has recognized your achievment, and has promoted you to the rank of 1st Lieutenant. \ \ Included with this rank is the ability to purchase better weaponry, and to thank you further we have also fitted out your ship with brand-new missile racks and 10 Viper missiles, as well as increasing your shields maximum by 10. \ \ Your current salary is: 60 confederacy credits an hour. \ \ Continue to serve the Confederacy well, and you will be again richly rewarded.;//message
+  Congratulations!! The Confederate Navy has recognized your achievement, and has promoted you to the rank of 1st Lieutenant. \ \ Included with this rank is the ability to purchase better weaponry, and to thank you further we have also fitted out your ship with brand-new missile racks and 10 Viper missiles, as well as increasing your shields maximum by 10. \ \ Your current salary is: 60 confederacy credits an hour. \ \ Continue to serve the Confederacy well, and you will be again richly rewarded.;//message
   1;//message type, 0=quick message, 1=journal
   none;//sound, none for nothing
   0;//delay script for n seconds after conditions met
@@ -709,7 +709,7 @@ Player reaches Lieutenant-Commander, 250 Promotion;//name-----------------------
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   500;//run every n milliseconds
-  Congratulations!! The Confederate Navy has recognized your achievment, and has promoted you to the rank of Lieutenant-Commander. \ \ Included with this rank is the ability to purchase better weaponry, and to thank you further we have given you a brand new Particle Cannon and an extremely rare Stealth Armour that will allow you to move completely unseen.  \ \ Your current salary is: 80 confederacy credits an hour. \ \ Continue to serve the Confederacy well, and you will be again richly rewarded.;//message
+  Congratulations!! The Confederate Navy has recognized your achievement, and has promoted you to the rank of Lieutenant-Commander. \ \ Included with this rank is the ability to purchase better weaponry, and to thank you further we have given you a brand new Particle Cannon and an extremely rare Stealth Armour that will allow you to move completely unseen.  \ \ Your current salary is: 80 confederacy credits an hour. \ \ Continue to serve the Confederacy well, and you will be again richly rewarded.;//message
   1;//message type, 0=quick message, 1=journal
   none;//sound, none for nothing
   0;//delay script for n seconds after conditions met
@@ -1453,7 +1453,7 @@ Player reaches Commander, 400 Promotion;//name----------------------------------
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   140;//run every n milliseconds
-  Congratulations!! The Confederate Navy has recognized your achievment, and has promoted you to the rank of Commander. \ \ To thank you furthermore, we have extended the Wolf IV's reactor size by 20 gigawatts and strengthened its hull by 20. You have also been chosen as the first to be provided with a top-secret invention from the laboratories of the United Confederacy Academy of Science: a Cloaking Device, able to completely conceal your ship from sight while activated.  \ \ Your current salary is: 100 confederacy credits an hour. \ \ Continue to serve the Confederacy well, and you will be again richly rewarded.;//message
+  Congratulations!! The Confederate Navy has recognized your achievement, and has promoted you to the rank of Commander. \ \ To thank you furthermore, we have extended the Wolf IV's reactor size by 20 gigawatts and strengthened its hull by 20. You have also been chosen as the first to be provided with a top-secret invention from the laboratories of the United Confederacy Academy of Science: a Cloaking Device, able to completely conceal your ship from sight while activated.  \ \ Your current salary is: 100 confederacy credits an hour. \ \ Continue to serve the Confederacy well, and you will be again richly rewarded.;//message
   1;//message type, 0=quick message, 1=journal
   none;//sound, none for nothing
   0;//delay script for n seconds after conditions met
@@ -1733,7 +1733,7 @@ Player reaches captain, 600 Promotion;//name------------------------------------
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   140;//run every n milliseconds
-  Congratulations!! The Confederate Navy has recognized your achievment, and has promoted you to the rank of Captain. \ \ To thank you furthermore, we have upgraded the Wolf's radar and your SR Battlescanner to Medium Range, and allowed you to purchase Heavy and Light Confederate fighters to develop your own personal fleet. \ \ Your current salary is: 120 confederacy credits an hour. \ \ Continue to serve the Confederacy well, and you will be again richly rewarded.;//message
+  Congratulations!! The Confederate Navy has recognized your achievement, and has promoted you to the rank of Captain. \ \ To thank you furthermore, we have upgraded the Wolf's radar and your SR Battlescanner to Medium Range, and allowed you to purchase Heavy and Light Confederate fighters to develop your own personal fleet. \ \ Your current salary is: 120 confederacy credits an hour. \ \ Continue to serve the Confederacy well, and you will be again richly rewarded.;//message
   1;//message type, 0=quick message, 1=journal
   none;//sound, none for nothing
   0;//delay script for n seconds after conditions met
@@ -1811,7 +1811,7 @@ Player reaches commodore, 800 Promotion;//name----------------------------------
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   140;//run every n milliseconds
-  Congratulations!! The Confederate Navy has recognized your achievment, and has promoted you to the rank of Commodore. \ \ To thank you furthermore, we have provided you with a brand new, top-of the range military Jetpack, increased the capacity of your in-suit battery by 20, and granted you permission to purchase Phaser Turrets for your ship. \ \ Your current salary is: 140 confederacy credits an hour. \ \ Continue to serve the Confederacy well, and you will be again richly rewarded.;//message
+  Congratulations!! The Confederate Navy has recognized your achievement, and has promoted you to the rank of Commodore. \ \ To thank you furthermore, we have provided you with a brand new, top-of the range military Jetpack, increased the capacity of your in-suit battery by 20, and granted you permission to purchase Phaser Turrets for your ship. \ \ Your current salary is: 140 confederacy credits an hour. \ \ Continue to serve the Confederacy well, and you will be again richly rewarded.;//message
   1;//message type, 0=quick message, 1=journal
   none;//sound, none for nothing
   0;//delay script for n seconds after conditions met
@@ -1879,7 +1879,7 @@ Player reaches rear admiral, 1000 Promotion;//name------------------------------
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   140;//run every n milliseconds
-  Congratulations!! The Confederate Navy has recognized your achievment, and has promoted you to the rank of Rear Admiral. \ \ To thank you, you are now authorized to purchase a deadly Fusion Beam from any store. \ \ Your current salary is: 170 confederacy credits an hour. \ \ Continue to serve the Confederacy well, and you will be again richly rewarded.;//message
+  Congratulations!! The Confederate Navy has recognized your achievement, and has promoted you to the rank of Rear Admiral. \ \ To thank you, you are now authorized to purchase a deadly Fusion Beam from any store. \ \ Your current salary is: 170 confederacy credits an hour. \ \ Continue to serve the Confederacy well, and you will be again richly rewarded.;//message
   1;//message type, 0=quick message, 1=journal
   none;//sound, none for nothing
   0;//delay script for n seconds after conditions met
@@ -1932,7 +1932,7 @@ Player reaches vice admiral, 1200 Promotion;//name------------------------------
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   140;//run every n milliseconds
-  Congratulations!! The Confederate Navy has recognized your achievment, and has promoted you to the rank of Vice Admiral. \ \ To thank you furthermore,\ \ Your current salary is: 200 confederacy credits an hour. \ \ Continue to serve the Confederacy well, and you will be again richly rewarded.;//message
+  Congratulations!! The Confederate Navy has recognized your achievement, and has promoted you to the rank of Vice Admiral. \ \ To thank you furthermore,\ \ Your current salary is: 200 confederacy credits an hour. \ \ Continue to serve the Confederacy well, and you will be again richly rewarded.;//message
   1;//message type, 0=quick message, 1=journal
   none;//sound, none for nothing
   0;//delay script for n seconds after conditions met
@@ -1980,7 +1980,7 @@ Player reaches admiral 1500 Promotion;//name------------------------------------
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   20;//run every n milliseconds
-  Congratulations!! The Confederate Navy has recognized your achievment, and has promoted you to the rank of Admiral. \ \ To thank you furthermore,\ \ Your current salary is: 240 confederacy credits an hour. \ \ Continue to serve the Confederacy well, and you will be again richly rewarded.;//message
+  Congratulations!! The Confederate Navy has recognized your achievement, and has promoted you to the rank of Admiral. \ \ To thank you furthermore,\ \ Your current salary is: 240 confederacy credits an hour. \ \ Continue to serve the Confederacy well, and you will be again richly rewarded.;//message
   1;//message type, 0=quick message, 1=journal
   none;//sound, none for nothing
   0;//delay script for n seconds after conditions met
@@ -2028,7 +2028,7 @@ Player reaches admiral of the fleet, 2000 Promotion;//name----------------------
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   20;//run every n milliseconds
-  Congratulations. The Confederate Navy has recognized your incredible achievment, and has promoted you to the supreme rank of Admiral of the Fleet, the highest rank obtainable in the Confederate Fleet. \ \ To thank you furthermore,\ \ Your current salary is: 300 confederacy credits an hour. \ \ Continue to serve the Confederacy well, and you will be again richly rewarded.;//message
+  Congratulations. The Confederate Navy has recognized your incredible achievement, and has promoted you to the supreme rank of Admiral of the Fleet, the highest rank obtainable in the Confederate Fleet. \ \ To thank you furthermore,\ \ Your current salary is: 300 confederacy credits an hour. \ \ Continue to serve the Confederacy well, and you will be again richly rewarded.;//message
   1;//message type, 0=quick message, 1=journal
   none;//sound, none for nothing
   0;//delay script for n seconds after conditions met
@@ -2404,7 +2404,7 @@ Jetpack deactive if no energy;//name--------------------------------------------
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   300;//run every n milliseconds
-  Fuel tank empty! Jetpack deacticated.;//message
+  Fuel tank empty! Jetpack deactivated.;//message
   0;//message type, 0=quick message, 1=journal
   none;//sound, none for nothing
   0;//delay script for n seconds after conditions met
@@ -2439,7 +2439,7 @@ Jetpack deactive if no energy;//name--------------------------------------------
       -1.000000;//parameter3
       1.000000;//parameter4
   end_effects;
-Give player control MG Turrent item;//name-----------------------------------------------------------------
+Give player control MG Turret item;//name-----------------------------------------------------------------
   65;//identifier
   1;//run without calling (set to 0 if you use the script for example as a wield script)
   0;//call position, 0=player location, 1=mouse location
@@ -2965,7 +2965,7 @@ Kinmegag 71 mission completed;//name--------------------------------------------
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   400;//run every n milliseconds
-   Captain Dreton: \ \ 'Thankyou, captain. The signal is sent, and even as we speak, the full might of the Confederate Navy is mobilizing across the United Confederacy of Planets: from the fields of Zemboi and the shipyards of Kryboru to the shining pillars of New Dawn. \ \ At least now the Confederacy will fall fighting, rather than die on our knees. (Earn 30 Promotion points, and recieve a brand new devestating Flame Thrower!)';//name;//message
+   Captain Dreton: \ \ 'Thankyou, captain. The signal is sent, and even as we speak, the full might of the Confederate Navy is mobilizing across the United Confederacy of Planets: from the fields of Zemboi and the shipyards of Kryboru to the shining pillars of New Dawn. \ \ At least now the Confederacy will fall fighting, rather than die on our knees. (Earn 30 Promotion points, and receive a brand new devastating Flame Thrower!)';//name;//message
   1;//message type, 0=quick message, 1=journal
   morse.wav;//sound, none for nothing
   2.9;//delay script for n seconds after conditions met
@@ -3632,7 +3632,7 @@ Player destroys all slugs;//name------------------------------------------------
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   1000;//run every n milliseconds
- Captain, this is Professor Newtein of the United Confederacy Academy of Science. \ We have recieved reports that due to your actions the Glouibi slug, a rare species found only on the moon of Naquarin, is now extinct. As you are well aware, the willful over-hunting of a rare native species is a grave, grave crime in the Confederacy. As this is your first such offence, your punishment will be light. Be warned however, if any such other malicious abuse of the environment occurs again, you will suffer to the full extent of Confederate law. \ \ (You are fined 1000 credits and lose 20 Promotion Points);//message
+ Captain, this is Professor Newtein of the United Confederacy Academy of Science. \ We have received reports that due to your actions the Glouibi slug, a rare species found only on the moon of Naquarin, is now extinct. As you are well aware, the wilful over-hunting of a rare native species is a grave, grave crime in the Confederacy. As this is your first such offence, your punishment will be light. Be warned however, if any such other malicious abuse of the environment occurs again, you will suffer to the full extent of Confederate law. \ \ (You are fined 1000 credits and lose 20 Promotion Points);//message
   1;//message type, 0=quick message, 1=journal
   morse.wav;//sound, none for nothing
   0;//delay script for n seconds after conditions met
