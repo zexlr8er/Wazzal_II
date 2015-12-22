@@ -8,26 +8,26 @@ intro;//name-----------------------------------
     0;//start_y
     324;//end_x
     284;//end_y
-  WOLF IV: ''This is United Confederate Navy Ship Wolf IV to Errxelz Base 8. Over.'' \ \ BASE 8: ''This is Errxelz Base 8. Please state your purpose in entering our system.'' \ \ WOLF IV: ''We are here under reports that several high-level military vessels have disappeared in your system. It seems you have neglected your responsibilities as a member of the United Confederacy of Planets, Base 8. Over. '';// 
+  WOLF IV: ''This is United Confederate Navy Ship Wolf IV to Errxelz Base 8. Over.'' \ \ ERRXELZ BASE 8: ''This is Errxelz Base 8. Please state your purpose in entering our system.'' \ \ WOLF IV: ''We are here under reports that several high-level military vessels have disappeared in your system. It seems you have neglected your responsibilities as a member of the United Confederacy of Planets, Base 8. Over. '';// 
     70;//text_y
     0;//start_x
     284;//start_y
     159;//end_x
     520;//end_y
-  ;//text 
-    500;//text_y
+  ERRXELZ BASE 8: ''Errxelz has always been a loyal member of the Confederacy. We would never... we would... wait... what is that? No... it can't be...'';//text 
+    600;//text_y
     159;//start_x
     282;//start_y
     324;//end_x
     520;//end_y
-  ;//text 
-    500;//text_y
+  WOLF IV: ''Errxelz Base 8, this is the Wolf IV. Do you read us? What do you see? Reply, Base 8!'';//text 
+    70;//text_y
     0;//start_x
     520;//start_y
     324;//end_x
     768;//end_y
-  ;//text 
-    700;//text_y
+  Dozens of Alien battleships materialize on your scanners, and the darkness of space is suddenly filled with green light as a thousand laser turrets open fire on the Wolf IV...;//text 
+    600;//text_y
     324;//start_x
     0;//start_y
     1024;//end_x
