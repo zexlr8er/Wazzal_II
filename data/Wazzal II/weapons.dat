@@ -3416,7 +3416,7 @@ Particle Cannon, battleship;//name---------------------------------------double 
     0.000000;//parameter3
     0.000000;//parameter4
   end_hit_effects;
-Flame Thrower pillbox;//name---------------------------------------
+Flame Thrower pillbox;//name--------------------------------------- also used for tank secondary weapon
  72;//identifier
   7;//class
   invisible.png;//bullet texture
@@ -3452,7 +3452,7 @@ Flame Thrower pillbox;//name---------------------------------------
   end_fire_effects;
   begin_hit_effects;
     4;//effect number
-      -10.000000;//parameter1
+      -7.000000;//parameter1
       0.000000;//parameter2
       4.000000;//parameter3
       0.000000;//parameter4
@@ -3460,7 +3460,7 @@ Flame Thrower pillbox;//name---------------------------------------
       -4.000000;//parameter1
       59.000000;//parameter2
       4.000000;//parameter3
-      7000.000000;//parameter4
+      5000.000000;//parameter4
   end_hit_effects;
 Flying fighter alien cannon;//name---------------------------------------
  73;//identifier
