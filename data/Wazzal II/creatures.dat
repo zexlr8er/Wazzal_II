@@ -5061,7 +5061,7 @@ resistance;//description
   end_specialties;
 Red Wazzal ship;//name---------------------------------------
   45;//identifier
- 1;//class
+ 6;//class
   redwazzal.png;//texture
   2;//draw layer
   -2;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
@@ -5338,7 +5338,7 @@ shield;//description
   end_specialties;
 Blue Wazzal ship;//name---------------------------------------
   46;//identifier
- 1;//class
+ 6;//class
   bluewazzal.png;//texture
   2;//draw layer
   -2;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
@@ -5596,7 +5596,7 @@ shield;//description
   end_specialties;
 Green Wazzal ship;//name---------------------------------------
   47;//identifier
-  1;//class
+  6;//class
   greenwazzal.png;//texture
   2;//draw layer
   -2;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
@@ -5854,7 +5854,7 @@ shield;//description
   end_specialties;
 Yellow Wazzal ship;//name---------------------------------------
   48;//identifier
- 1;//class
+ 6;//class
   yellowwazzal.png;//texture
   2;//draw layer
   -2;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
@@ -6131,7 +6131,7 @@ shield;//description
   end_specialties;
 Silver Wazzal ship;//name---------------------------------------
   49;//identifier
- 1;//class
+ 6;//class
   silverwazzal.png;//texture
   2;//draw layer
   -2;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
