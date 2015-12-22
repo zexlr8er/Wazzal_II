@@ -327,7 +327,7 @@ Neutral ship;//tactic name
     1;//can hit enemies
     0;//can eat
   end_levels;
-Press N to control in Boat;//tactic name --------- standard tank parked
+Press C to control in Boat;//tactic name --------- standard tank parked
  26;//identifier
   begin_levels;
   30;//anger level size

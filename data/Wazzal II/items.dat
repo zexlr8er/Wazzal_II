@@ -6427,7 +6427,7 @@ Commanding boat;//name---------------------------------------
 156;//identifier
   0;//item class
   0.000000;//weight
-  Press 'P' when near a boat to take the controls.;//short description
+  Press 'C' when near a boat to take the controls.;//short description
   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -6446,7 +6446,7 @@ Commanding boat;//name---------------------------------------
     use.wav;//sound, none for nothing
     0;//vanishes after event, 0=no, 1=yes
     U;//use key
-   P;//quick key
+   C;//quick key
     begin_conditions;
     end_conditions;
     begin_effects;
@@ -6741,7 +6741,7 @@ Confederate propaganda;//name---------------------------------------
   0;//item class
  0.0100000;//weight
  A piece of propaganda, used to gain support for the Confederate cause on faraway star systems. \ \ Equip as a weapon to drop on foot, or right-click while in flight to deploy from a fighter!;//short description
-'Long Live the Confederacy!' \ \ After only four words, you are already feeling patriotic. This masterful piece of propaganda can be dropped on a planet's surface to encourage neutral or misguided savage species to join the Confederate cause. Perhaps even the vicious inhabitants of Dorian Prime could be convinced to join the Confederacy? They would surely be mighty allies in the war against the Alien horde... \ The propaganda can be equipped as a weapon to drop on foot, or even deployed in flight from a fighter if you can find one (right-click in flight)! \ \ The more Dorian Prime natives you convert with this propaganda, the more goodwill they will hold towards the Confederacy. Make sure you don't turn goodwill to hate by killing them instead!;//first pick up text
+'Long Live the Confederacy!' \ \ After only four words, you are already feeling patriotic. This masterful piece of propaganda can be dropped on a planet's surface to encourage neutral or misguided savage species to join the Confederate cause. Perhaps even the vicious inhabitants of Dorian Prime could be convinced to join the Confederacy? They would surely be mighty allies in the war against the Alien horde... \ The propaganda can be equipped as a weapon to drop on foot, or even deployed in flight from a fighter if you can find one (right-click in flight)! \ \ The more Dorian Prime natives you convert with this propaganda, the more goodwill they will hold towards the Confederacy. Achieving a goodwill of 50 would surely earn you a nice reward, but make sure you don't turn goodwill to hate by killing them instead!;//first pick up text
   0.2100000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
@@ -6775,7 +6775,7 @@ Fireflower;//name---------------------------------------
   164;//identifier
   0;//item class
   0.5000000;//weight
-  This incredibly rare and valuable flower from the fields of Dorian Prime can be handed into any Confederate store for 0.5PP worth of fame. \ \ Use near store to hand in.;//short description
+  This incredibly rare and valuable flower from the fields of Dorian Prime can be handed into any Confederate store for 10PP worth of fame. \ \ Use near store to hand in.;//short description
   none;//first pick up text
   0.270000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -6801,7 +6801,7 @@ Fireflower;//name---------------------------------------
     end_conditions;
     begin_effects;
     4;//effect number
-     0.500000;//parameter1
+     10.00000;//parameter1
       0.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4
