@@ -6460,6 +6460,11 @@ Commanding boat;//name---------------------------------------
       75.000000;//parameter2
       100.000000;//parameter3
       -2.000000;//parameter4
+	 49;//effect number   # Change camera
+      0.000000;//parameter1
+      200.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4 
      56;//effect number                  overide control
     2.000000;//parameter1
     0.000000;//parameter2
