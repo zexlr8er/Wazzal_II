@@ -80,12 +80,22 @@ Follow;//tactic name
 Leader Attack;//tactic name
   6;//identifier
   begin_levels;
-  10;//anger level size
+  10;//anger level size  # first roam
     1;//action
     0;//parameter0
     1;//can hit enemies
     1;//can eat
-  10;//anger level size
+  10;//anger level size  # then attack
+    3;//action
+    0;//parameter0
+    1;//can hit enemies
+    0;//can eat
+  5;//anger level size  # temporarily break off attack
+    4;//action
+    0;//parameter0
+    1;//can hit enemies
+    0;//can eat
+  10;//anger level size  # attack again
     3;//action
     0;//parameter0
     1;//can hit enemies
@@ -301,12 +311,17 @@ Attack Normal (for aliens, can't eat);//tactic name
 Neutral ship;//tactic name
  25;//identifier
   begin_levels;
-  60;//anger level size
+  60;//anger level size  # First roam
     1;//action
     0;//parameter0
     0;//can hit enemies
     0;//can eat
-  15;//anger level size
+  15;//anger level size  # Then flee
+    4;//action
+    0;//parameter0
+    1;//can hit enemies
+    0;//can eat
+  5;//anger level size  # Then attack
     3;//action
     0;//parameter0
     1;//can hit enemies

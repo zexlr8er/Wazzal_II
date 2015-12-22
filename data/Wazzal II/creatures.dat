@@ -134,7 +134,7 @@ Small Alien Fighter;//name---------------------------------------
       4.000000;//parameter1
       1.000000;//parameter2
       9.000000;//parameter3
-      0.000000;//parameter4    
+      0.000000;//parameter4     
     end_effects;
   2;//death type, 0=any death, 1=timed death, 2=killed by player
     begin_conditions;
@@ -5069,7 +5069,7 @@ Red Wazzal ship;//name---------------------------------------
   0;//attack type, 0=shooting attack, 1=close combat
   21;//particle to show on radar, -1=none
   25;//primary AI tactic from AI_tactic.dat
-  18;//secondary AI tactic from AI_tactic.dat
+  25;//secondary AI tactic from AI_tactic.dat
   16;//footstep particle from particles.dat
   0;//die after how many seconds, 0=doesn't die
   -1;//eat item number from items.dat, -1=nothing
@@ -5346,7 +5346,7 @@ Blue Wazzal ship;//name---------------------------------------
   0;//attack type, 0=shooting attack, 1=close combat
   21;//particle to show on radar, -1=none
   25;//primary AI tactic from AI_tactic.dat
-  18;//secondary AI tactic from AI_tactic.dat
+  25;//secondary AI tactic from AI_tactic.dat
   53;//footstep particle from particles.dat
   0;//die after how many seconds, 0=doesn't die
   -1;//eat item number from items.dat, -1=nothing
@@ -5604,7 +5604,7 @@ Green Wazzal ship;//name---------------------------------------
   0;//attack type, 0=shooting attack, 1=close combat
   21;//particle to show on radar, -1=none
   25;//primary AI tactic from AI_tactic.dat
-  18;//secondary AI tactic from AI_tactic.dat
+  25;//secondary AI tactic from AI_tactic.dat
   53;//footstep particle from particles.dat
   0;//die after how many seconds, 0=doesn't die
   -1;//eat item number from items.dat, -1=nothing
@@ -5862,7 +5862,7 @@ Yellow Wazzal ship;//name---------------------------------------
   0;//attack type, 0=shooting attack, 1=close combat
   21;//particle to show on radar, -1=none
   25;//primary AI tactic from AI_tactic.dat
-  18;//secondary AI tactic from AI_tactic.dat
+  25;//secondary AI tactic from AI_tactic.dat
  16;//footstep particle from particles.dat
   0;//die after how many seconds, 0=doesn't die
   -1;//eat item number from items.dat, -1=nothing
@@ -6139,7 +6139,7 @@ Silver Wazzal ship;//name---------------------------------------
   0;//attack type, 0=shooting attack, 1=close combat
   21;//particle to show on radar, -1=none
   25;//primary AI tactic from AI_tactic.dat
-  18;//secondary AI tactic from AI_tactic.dat
+  25;//secondary AI tactic from AI_tactic.dat
   -1;//footstep particle from particles.dat
   0;//die after how many seconds, 0=doesn't die
   -1;//eat item number from items.dat, -1=nothing
