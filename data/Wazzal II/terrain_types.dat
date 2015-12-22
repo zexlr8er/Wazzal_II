@@ -819,11 +819,6 @@ Water;//name---------------------------------------
       -1.000000;//parameter2
       0.250000;//parameter3
       0.000000;//parameter4
-    23;//effect number
-      -4.000000;//parameter1
-      -1.000000;//parameter2
-      6.000000;//parameter3
-      100.000000;//parameter4
      end_effects;
   end_effects_block;
 Brick floor;//name---------------------------------------
