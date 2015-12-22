@@ -3905,6 +3905,34 @@ Update propaganda bar;//name----------------------------------------------------
   end_conditions;
   begin_effects;
   end_effects;
+Player achieves positive X propaganda;//name-----------------------------------------------------------------
+  117;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  1000;//run every n milliseconds
+ Captain, this is Admiral Werbung of the United Confederacy Hearts and Minds Division. \ \ We have received reports that you have successfully converted 50 Dorian Prime savages to the Confederacy cause. Congratulations! You are truly a beacon of liberty, justice and the Confederacy way! \ \ (You receive 1000 credits and 100 Promotion Points);//message
+  1;//message type, 0=quick message, 1=journal
+  morse.wav;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  1;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  24;//condition
+    2.000000;//condition parameter0
+    50.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  44;//effect number
+    100.000000;//parameter1
+    1.000000;//parameter2
+    9.000000;//parameter3
+    0.000000;//parameter4  
+ 44;//effect number
+    1000.000000;//parameter1
+    1.000000;//parameter2
+    13.000000;//parameter3
+    0.000000;//parameter4   
+  end_effects;
 end_of_file;
 
 
