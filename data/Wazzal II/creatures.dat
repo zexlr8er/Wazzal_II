@@ -2216,7 +2216,20 @@ Flying L Alien ship;//name---------------------------------------flying above on
       0.000000;//parameter3
       0.000000;//parameter4
     end_effects;
-200;//interval in milliseconds      --------laser
+150;//interval in milliseconds      --------laser for flying fighter
+    begin_conditions;
+    14;//condition
+      81.000000;//condition parameter0
+      550.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    24;//effect number
+      73.000000;//parameter1
+      1.000000;//parameter2
+      1.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+	200;//interval in milliseconds      --------laser for all enemies
     begin_conditions;
     14;//condition
       -4.000000;//condition parameter0
@@ -2241,8 +2254,8 @@ Flying L Alien ship;//name---------------------------------------flying above on
     0;//number
     4.000000;//parameter0
     0.000000;//parameter1
-    400.000000;//parameter2
-    400.000000;//parameter3
+    500.000000;//parameter2
+    500.000000;//parameter3
   fly;//description
     4;//number
     1.000000;//parameter0
@@ -7823,14 +7836,27 @@ Flying S Alien ship;//name---------------------------------------flying above on
       1.000000;//parameter3
       0.000000;//parameter4
     end_effects;
+   210;//interval in milliseconds      --------laser for flying fighter
+    begin_conditions;
+    14;//condition
+      81.000000;//condition parameter0
+      550.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    24;//effect number
+      73.000000;//parameter1
+      1.000000;//parameter2
+      1.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
   end_timed_block;
   begin_specialties;//
   health;//description
     0;//number
     4.000000;//parameter0
     0.000000;//parameter1
-    350.000000;//parameter2
-   350.000000;//parameter3
+    400.000000;//parameter2
+   400.000000;//parameter3
   fly;//description
     4;//number
     1.000000;//parameter0
@@ -9764,8 +9790,8 @@ Flying fighter;//name--------------------------------------- on planet
     0;//number
     4.000000;//parameter0
     0.000000;//parameter1
-    400.000000;//parameter2
-    400.000000;//parameter3
+    300.000000;//parameter2
+    300.000000;//parameter3
   fly;//description
     4;//number
     1.000000;//parameter0
@@ -9872,8 +9898,8 @@ Flying fighter - stationary;//name--------------------------------------- on pla
     0;//number
     4.000000;//parameter0
     0.000000;//parameter1
-    400.000000;//parameter2
-    400.000000;//parameter3
+    600.000000;//parameter2
+    600.000000;//parameter3
   fly;//description
     4;//number
     0.000000;//parameter0
