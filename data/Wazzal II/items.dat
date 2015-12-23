@@ -4600,7 +4600,7 @@ Plexi-steel cage;//name---------------------------------------
   0;//item class
   10.000000;//weight
  A cage that can be deployed to try and catch native alien species. If the trap is triggered, a homing signal will be activated, and you will be notified immediately. \ Press 'C' in-game to deploy.;//short description
-  none;//first pick up text
+   You inspect the shining metal cage. This trap can be deployed to try and catch native alien species, and even sends you a homing signal if you catch one!;//first pick up text
   0.550000;//size on map
  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
@@ -6779,8 +6779,8 @@ Ready to drop;//event text
 Fireflower;//name---------------------------------------
   164;//identifier
   0;//item class
-  0.5000000;//weight
-  This incredibly rare and valuable flower from the fields of Dorian Prime can be handed into any Confederate store for 10PP worth of fame. \ \ Use near store to hand in.;//short description
+  0.1000000;//weight
+  This incredibly rare and valuable flower from the fields of Dorian Prime can be handed into any Confederate store for 5PP worth of fame. \ \ Use near store to hand in.;//short description
   none;//first pick up text
   0.270000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -6806,7 +6806,7 @@ Fireflower;//name---------------------------------------
     end_conditions;
     begin_effects;
     4;//effect number
-     10.00000;//parameter1
+     5.00000;//parameter1
       0.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4

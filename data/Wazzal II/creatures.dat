@@ -9479,7 +9479,7 @@ Dorian Prime alien;//name---------------------------------------
   11;//secondary AI tactic from AI_tactic.dat
   3;//footstep particle from particles.dat
   0;//die after how many seconds, 0=doesn't die
-  164;//eat item number from items.dat, -1=nothing
+  -1;//eat item number from items.dat, -1=nothing
   0.900000;//creature size
   1.000000;//creature weight (affects pushing)
   0.750000;//maximum movement speed
