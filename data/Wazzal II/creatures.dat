@@ -9670,7 +9670,7 @@ Flying fighter;//name--------------------------------------- on planet
   -1;//eat item number from items.dat, -1=nothing
   2.400000;//creature size
   100.000000;//creature weight (affects pushing)
-  2.5000000;//maximum movement speed
+  2.8000000;//maximum movement speed
   0.9000000;//minimum movement speed
   20.000000;//leg animation speed
   0.070000;//turn speed
@@ -9748,6 +9748,22 @@ Flying fighter;//name--------------------------------------- on planet
     0.000000;//parameter3
     0.000000;//parameter4
     end_effects;
+200;//interval in milliseconds
+    begin_conditions;     
+   37;//condition                        right fire mouse button pressed
+    1.000000;//condition parameter0
+    0.000000;//condition parameter1
+   0;//condition                       No propoganda
+    163.000000;//condition parameter0
+    0.000000;//condition parameter1 	
+    end_conditions;
+    begin_effects;  
+	  29;//effect number                   airstrike script
+     118.000000;//parameter1
+      0.000000;//parameter2
+     0.00000;//parameter3
+      0.000000;//parameter4
+    end_effects;	
 10;//interval in milliseconds
     begin_conditions;
     end_conditions;
@@ -9790,8 +9806,8 @@ Flying fighter;//name--------------------------------------- on planet
     0;//number
     4.000000;//parameter0
     0.000000;//parameter1
-    300.000000;//parameter2
-    300.000000;//parameter3
+    200.000000;//parameter2
+    200.000000;//parameter3
   fly;//description
     4;//number
     1.000000;//parameter0

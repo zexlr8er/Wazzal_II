@@ -3933,6 +3933,41 @@ Player achieves positive X propaganda;//name------------------------------------
     13.000000;//parameter3
     0.000000;//parameter4   
   end_effects;
+ Small fighter airstrike;//name-----------------------------------------------------------------
+  118;//identifier
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  1;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+ 40;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  bombfall.wav;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+   end_conditions;
+  begin_effects;
+19;//effect number              drop marker
+    131.000000;//parameter1
+   0.60000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4 
+ 19;//effect number              drop dyna
+    59.000000;//parameter1
+    0.430000;//parameter2
+    150.000000;//parameter3
+    10.000000;//parameter4
+ 19;//effect number              drop dyna
+    59.000000;//parameter1
+    0.320000;//parameter2
+   180.000000;//parameter3
+    10.000000;//parameter4 
+ 19;//effect number              drop dyna
+    59.000000;//parameter1
+    0.200000;//parameter2
+   100.000000;//parameter3
+    10.000000;//parameter4 
+  end_effects;
 end_of_file;
 
 
