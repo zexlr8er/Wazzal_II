@@ -40,12 +40,72 @@ Wolf IV;//name------------------------------
     3;//row that contains the 4 weapon frames
     1.000000;//weapon_x
     27.000000;//weapon_y
-  14;//weapon class number
+  4;//weapon class number                               placeholder
     1;//can use the weapon class (0=cannot, 1=can)
-    captain.png;//texture name
-    3;//row that contains the 4 weapon frames
-    1.000000;//weapon_x
-    27.000000;//weapon_y
+    creature0.png;//texture name
+    2;//row that contains the 4 weapon frames
+    0.000000;//weapon_x
+    0.000000;//weapon_y
+   5;//weapon class number                               placeholder
+    1;//can use the weapon class (0=cannot, 1=can)
+    creature0.png;//texture name
+    2;//row that contains the 4 weapon frames
+    0.000000;//weapon_x
+    0.000000;//weapon_y  
+   6;//weapon class number                               placeholder
+    1;//can use the weapon class (0=cannot, 1=can)
+    creature0.png;//texture name
+    2;//row that contains the 4 weapon frames
+    0.000000;//weapon_x
+    0.000000;//weapon_y  
+   7;//weapon class number                               placeholder
+    1;//can use the weapon class (0=cannot, 1=can)
+    creature0.png;//texture name
+    2;//row that contains the 4 weapon frames
+    0.000000;//weapon_x
+    0.000000;//weapon_y  
+   8;//weapon class number                               placeholder
+    1;//can use the weapon class (0=cannot, 1=can)
+    creature0.png;//texture name
+    2;//row that contains the 4 weapon frames
+    0.000000;//weapon_x
+    0.000000;//weapon_y  
+   9;//weapon class number                               placeholder
+    1;//can use the weapon class (0=cannot, 1=can)
+    creature0.png;//texture name
+    2;//row that contains the 4 weapon frames
+    0.000000;//weapon_x
+    0.000000;//weapon_y  
+  10;//weapon class number                               placeholder
+    1;//can use the weapon class (0=cannot, 1=can)
+    creature0.png;//texture name
+    2;//row that contains the 4 weapon frames
+    0.000000;//weapon_x
+    0.000000;//weapon_y  
+  11;//weapon class number                               placeholder
+    1;//can use the weapon class (0=cannot, 1=can)
+    creature0.png;//texture name
+    2;//row that contains the 4 weapon frames
+    0.000000;//weapon_x
+    0.000000;//weapon_y  
+  12;//weapon class number                               placeholder
+    1;//can use the weapon class (0=cannot, 1=can)
+    creature0.png;//texture name
+    2;//row that contains the 4 weapon frames
+    0.000000;//weapon_x
+    0.000000;//weapon_y  
+  13;//weapon class number                               placeholder
+    1;//can use the weapon class (0=cannot, 1=can)
+    creature0.png;//texture name
+    2;//row that contains the 4 weapon frames
+    0.000000;//weapon_x
+    0.000000;//weapon_y  
+  14;//weapon class number                               mining beam
+    1;//can use the weapon class (0=cannot, 1=can)
+    creature0.png;//texture name
+    2;//row that contains the 4 weapon frames
+    0.000000;//weapon_x
+    0.000000;//weapon_y
   end_weapon_frames;
   begin_specialties;
 Transports remaining;//description
@@ -836,6 +896,72 @@ Pirate Wolf IV;//name------------------------------
     3;//row that contains the 4 weapon frames
     1.000000;//weapon_x
     27.000000;//weapon_y
+   4;//weapon class number                               placeholder
+    1;//can use the weapon class (0=cannot, 1=can)
+    creature0.png;//texture name
+    2;//row that contains the 4 weapon frames
+    0.000000;//weapon_x
+    0.000000;//weapon_y
+   5;//weapon class number                               placeholder
+    1;//can use the weapon class (0=cannot, 1=can)
+    creature0.png;//texture name
+    2;//row that contains the 4 weapon frames
+    0.000000;//weapon_x
+    0.000000;//weapon_y  
+   6;//weapon class number                               placeholder
+    1;//can use the weapon class (0=cannot, 1=can)
+    creature0.png;//texture name
+    2;//row that contains the 4 weapon frames
+    0.000000;//weapon_x
+    0.000000;//weapon_y  
+   7;//weapon class number                               placeholder
+    1;//can use the weapon class (0=cannot, 1=can)
+    creature0.png;//texture name
+    2;//row that contains the 4 weapon frames
+    0.000000;//weapon_x
+    0.000000;//weapon_y  
+   8;//weapon class number                               placeholder
+    1;//can use the weapon class (0=cannot, 1=can)
+    creature0.png;//texture name
+    2;//row that contains the 4 weapon frames
+    0.000000;//weapon_x
+    0.000000;//weapon_y  
+   9;//weapon class number                               placeholder
+    1;//can use the weapon class (0=cannot, 1=can)
+    creature0.png;//texture name
+    2;//row that contains the 4 weapon frames
+    0.000000;//weapon_x
+    0.000000;//weapon_y  
+  10;//weapon class number                               placeholder
+    1;//can use the weapon class (0=cannot, 1=can)
+    creature0.png;//texture name
+    2;//row that contains the 4 weapon frames
+    0.000000;//weapon_x
+    0.000000;//weapon_y  
+  11;//weapon class number                               placeholder
+    1;//can use the weapon class (0=cannot, 1=can)
+    creature0.png;//texture name
+    2;//row that contains the 4 weapon frames
+    0.000000;//weapon_x
+    0.000000;//weapon_y  
+  12;//weapon class number                               placeholder
+    1;//can use the weapon class (0=cannot, 1=can)
+    creature0.png;//texture name
+    2;//row that contains the 4 weapon frames
+    0.000000;//weapon_x
+    0.000000;//weapon_y  
+  13;//weapon class number                               placeholder
+    1;//can use the weapon class (0=cannot, 1=can)
+    creature0.png;//texture name
+    2;//row that contains the 4 weapon frames
+    0.000000;//weapon_x
+    0.000000;//weapon_y  
+  14;//weapon class number                               mining beam
+    1;//can use the weapon class (0=cannot, 1=can)
+    creature0.png;//texture name
+    2;//row that contains the 4 weapon frames
+    0.000000;//weapon_x
+    0.000000;//weapon_y
   end_weapon_frames;
   begin_specialties;
 Confed flag;//description
@@ -1194,6 +1320,72 @@ Stealth Wolf IV;//name------------------------------
     3;//row that contains the 4 weapon frames
     1.000000;//weapon_x
     27.000000;//weapon_y
+  4;//weapon class number                               placeholder
+    1;//can use the weapon class (0=cannot, 1=can)
+    creature0.png;//texture name
+    2;//row that contains the 4 weapon frames
+    0.000000;//weapon_x
+    0.000000;//weapon_y
+   5;//weapon class number                               placeholder
+    1;//can use the weapon class (0=cannot, 1=can)
+    creature0.png;//texture name
+    2;//row that contains the 4 weapon frames
+    0.000000;//weapon_x
+    0.000000;//weapon_y  
+   6;//weapon class number                               placeholder
+    1;//can use the weapon class (0=cannot, 1=can)
+    creature0.png;//texture name
+    2;//row that contains the 4 weapon frames
+    0.000000;//weapon_x
+    0.000000;//weapon_y  
+   7;//weapon class number                               placeholder
+    1;//can use the weapon class (0=cannot, 1=can)
+    creature0.png;//texture name
+    2;//row that contains the 4 weapon frames
+    0.000000;//weapon_x
+    0.000000;//weapon_y  
+   8;//weapon class number                               placeholder
+    1;//can use the weapon class (0=cannot, 1=can)
+    creature0.png;//texture name
+    2;//row that contains the 4 weapon frames
+    0.000000;//weapon_x
+    0.000000;//weapon_y  
+   9;//weapon class number                               placeholder
+    1;//can use the weapon class (0=cannot, 1=can)
+    creature0.png;//texture name
+    2;//row that contains the 4 weapon frames
+    0.000000;//weapon_x
+    0.000000;//weapon_y  
+  10;//weapon class number                               placeholder
+    1;//can use the weapon class (0=cannot, 1=can)
+    creature0.png;//texture name
+    2;//row that contains the 4 weapon frames
+    0.000000;//weapon_x
+    0.000000;//weapon_y  
+  11;//weapon class number                               placeholder
+    1;//can use the weapon class (0=cannot, 1=can)
+    creature0.png;//texture name
+    2;//row that contains the 4 weapon frames
+    0.000000;//weapon_x
+    0.000000;//weapon_y  
+  12;//weapon class number                               placeholder
+    1;//can use the weapon class (0=cannot, 1=can)
+    creature0.png;//texture name
+    2;//row that contains the 4 weapon frames
+    0.000000;//weapon_x
+    0.000000;//weapon_y  
+  13;//weapon class number                               placeholder
+    1;//can use the weapon class (0=cannot, 1=can)
+    creature0.png;//texture name
+    2;//row that contains the 4 weapon frames
+    0.000000;//weapon_x
+    0.000000;//weapon_y  
+  14;//weapon class number                               mining beam
+    1;//can use the weapon class (0=cannot, 1=can)
+    creature0.png;//texture name
+    2;//row that contains the 4 weapon frames
+    0.000000;//weapon_x
+    0.000000;//weapon_y
   end_weapon_frames;
   begin_specialties;
 Confed flag;//description
