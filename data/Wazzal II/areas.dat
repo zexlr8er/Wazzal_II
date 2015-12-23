@@ -3,7 +3,7 @@
   1;//area class
   3;//climate in climate_types.dat, -1=random climate
   5;//terrain map number
-  -1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
+  1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
   0.5000000;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
   begin_alien_list;
   end_alien_list;
@@ -88,7 +88,7 @@ end_alien_list;
   2;//area class
   0;//climate in climate_types.dat, -1=random climate
   0;//terrain map number
-  -1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
+  2;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
   1.000000;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
   begin_alien_list;
   1;//alien type in creatures.dat---------small alien fighters
@@ -164,7 +164,7 @@ end_excluded_plot_object_classes;
   3;//area class
   3;//climate in climate_types.dat, -1=random climate
   8;//terrain map number
-  -1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
+  2;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
   1.000000;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
   begin_alien_list;
   45;//alien type in creatures.dat---------red wazzal
@@ -270,7 +270,7 @@ end_excluded_plot_object_classes;
  4;//area class
   3;//climate in climate_types.dat, -1=random climate
   12;//terrain map number
-  -1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
+  2;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
   1.000000;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
   begin_alien_list;
  1;//alien type in creatures.dat---------small alien fighters
@@ -320,7 +320,7 @@ end_excluded_plot_object_classes;
 5;
   end_excluded_plot_object_classes;
  You step down the gangplank, and immediately your feet fly from under you. Throughout a lifetime as an explorer you have encountered low-gravity many, many times, yet the strange sensation of being almost weightless never ceases to suprise you. \ \ Kinmegag 71's moon is a small and desolate place, not much to see here. You remember once long ago it being mentioned in the Confederacy Minutely News as a planetoid of interest in the Crystalline Ore Rush of 3321, however anything of value it once contained has long since passed from memory.   ;//enter area text, specify none to not show it
-14;//Caremel Moon---------------------------------------------------------
+14;//Caramel Moon---------------------------------------------------------
   Moon of Naquarin;//area name
   0;//area class
   11;//climate in climate_types.dat, -1=random climate
@@ -350,7 +350,7 @@ end_excluded_plot_object_classes;
  4;//area class
  12;//climate in climate_types.dat, -1=random climate
   15;//terrain map number
-  -1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
+  2;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
   1.000000;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
   begin_alien_list;
  1;//alien type in creatures.dat---------small alien fighters
@@ -398,7 +398,7 @@ New Dawn System;//area name
   3;//area class
   3;//climate in climate_types.dat, -1=random climate
   16;//terrain map number
-  -1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
+  2;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
   1.000000;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
   begin_alien_list;
   45;//alien type in creatures.dat---------red wazzal
@@ -445,7 +445,7 @@ New Dawn System;//area name
   1;//area class
   3;//climate in climate_types.dat, -1=random climate
   18;//terrain map number
-  -1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
+  1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
   0.5000000;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
   begin_alien_list;
  1;//alien type in creatures.dat---------small alien fighters
@@ -484,7 +484,7 @@ end_alien_list;
   1;//area class
   15;//climate in climate_types.dat, -1=random climate
   20;//terrain map number
-  -1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
+  2;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
   0.5000000;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
   begin_alien_list;
  1;//alien type in creatures.dat---------small alien fighters
