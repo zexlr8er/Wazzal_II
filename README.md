@@ -22,22 +22,22 @@ Repository contains files required to install Wazzal II: The Final Dawn mod for 
 4. *Five controllable vehicles**, including tanks (armed with cannons and flamethrowers), armored boats (armed with machine guns), fighters (armed with airstrikes and lasers), machine gun emplacements and flamethrower pillboxes
 5. **11 United Confederacy Ranks** (Ensign to Admiral of the Fleet) with valuable rewards for completing ingame missions
 
-<img src="https://github.com/zexlr8er/Wazzal_II/blob/master/textures/Wazzal%20II/book3.jpg" align="left"  height="300" width="400" >
-<img src="https://github.com/zexlr8er/Wazzal_II/blob/master/textures/Wazzal%20II/book1.jpg" align="left"  height="300" width="400" ><br>
+<img src="https://github.com/zexlr8er/Wazzal_II/blob/master/textures/Wazzal%20II/book3.jpg" align="left" width="410" >
+<img src="https://github.com/zexlr8er/Wazzal_II/blob/master/textures/Wazzal%20II/book1.jpg" align="left" width="410" >
 *Confederacy map and ranks*
 
-<img src="https://github.com/zexlr8er/Wazzal_II/blob/master/textures/Wazzal%20II/Promotional/screenshot1.png" align="left" height="300" width="400" >
-<img src="https://github.com/zexlr8er/Wazzal_II/blob/master/textures/Wazzal%20II/Promotional/screenshot2.png" align="left"  height="300" width="400" ><br>
+<img src="https://github.com/zexlr8er/Wazzal_II/blob/master/textures/Wazzal%20II/Promotional/screenshot1.png" align="left" width="410" >
+<img src="https://github.com/zexlr8er/Wazzal_II/blob/master/textures/Wazzal%20II/Promotional/screenshot2.png" align="left" width="410" >
 
 *Space combat and exploration*
 
-<img src="https://github.com/zexlr8er/Wazzal_II/blob/master/textures/Wazzal%20II/Promotional/screenshot3.png" align="left" height="300" width="400" >
-<img src="https://github.com/zexlr8er/Wazzal_II/blob/master/textures/Wazzal%20II/Promotional/screenshot6.png" align="left"  height="300" width="400" ><br>
+<img src="https://github.com/zexlr8er/Wazzal_II/blob/master/textures/Wazzal%20II/Promotional/screenshot3.png" align="left" width="410" >
+<img src="https://github.com/zexlr8er/Wazzal_II/blob/master/textures/Wazzal%20II/Promotional/screenshot6.png" align="left" width="410" >
 
 *Unique worlds to explore*
 
-<img src="https://github.com/zexlr8er/Wazzal_II/blob/master/textures/Wazzal%20II/Promotional/screenshot5.png" align="left" height="300" width="400" >
-<img src="https://github.com/zexlr8er/Wazzal_II/blob/master/textures/Wazzal%20II/Promotional/screenshot4.png" align="left"  height="300" width="400" ><br>
+<img src="https://github.com/zexlr8er/Wazzal_II/blob/master/textures/Wazzal%20II/Promotional/screenshot5.png" align="left" width="410" >
+<img src="https://github.com/zexlr8er/Wazzal_II/blob/master/textures/Wazzal%20II/Promotional/screenshot4.png" align="left" width="410" >
 
 *Rare and exotic native creatures*
 
