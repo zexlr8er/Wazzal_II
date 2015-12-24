@@ -567,8 +567,8 @@ ECM;//name---------------------------------------
     0;//number
     4.000000;//parameter0
     0.000000;//parameter1
-    5.000000;//parameter2
-    5.000000;//parameter3
+    500.000000;//parameter2
+    500.000000;//parameter3
   fly;//description
     4;//number
     1.000000;//parameter0
@@ -3877,7 +3877,7 @@ Alien Tank;//name---------------------------------------
   0.400000;//maximum movement speed
   0.050000;//minimum movement speed
   7.000000;//leg animation speed
-  0.200000;//turn speed
+  0.300000;//turn speed
   0.200000;//inertia level (acceleration/deceleration)
   0;//hide when behind walls
   51;//weapon number
@@ -3887,8 +3887,8 @@ Alien Tank;//name---------------------------------------
   1;//bars visible when player hovers mouse on top
   1.200000;//death animation speed
   0;//creature can move from area to another
-  1500.000000;//AI hear range
-  750.000000;//AI see range
+  2000.000000;//AI hear range
+  1000.000000;//AI see range
   4.000000;//AI see angle
   begin_footstep_sounds;//
   fighter_move.wav;//      
