@@ -2220,7 +2220,7 @@ Flying L Alien ship;//name---------------------------------------flying above on
     begin_conditions;
     14;//condition
       81.000000;//condition parameter0
-      550.000000;//condition parameter1  
+      1300.000000;//condition parameter1  
     end_conditions;
     begin_effects;
     24;//effect number
@@ -3348,8 +3348,8 @@ fighter_move.wav;//
     0;//number
     4.000000;//parameter0
     0.000000;//parameter1
-    1200.000000;//parameter2
-    1200.000000;//parameter3
+    900.000000;//parameter2
+    900.000000;//parameter3
 light;//description
     2;//number
     16.000000;//parameter0
@@ -7840,7 +7840,7 @@ Flying S Alien ship;//name---------------------------------------flying above on
     begin_conditions;
     14;//condition
       81.000000;//condition parameter0
-      550.000000;//condition parameter1  
+      1200.000000;//condition parameter1  
     end_conditions;
     begin_effects;
     24;//effect number
@@ -9806,8 +9806,8 @@ Flying fighter;//name--------------------------------------- on planet
     0;//number
     4.000000;//parameter0
     0.000000;//parameter1
-    200.000000;//parameter2
-    200.000000;//parameter3
+    140.000000;//parameter2
+    140.000000;//parameter3
   fly;//description
     4;//number
     1.000000;//parameter0
@@ -9914,8 +9914,8 @@ Flying fighter - stationary;//name--------------------------------------- on pla
     0;//number
     4.000000;//parameter0
     0.000000;//parameter1
-    600.000000;//parameter2
-    600.000000;//parameter3
+    200.000000;//parameter2
+    200.000000;//parameter3
   fly;//description
     4;//number
     0.000000;//parameter0
