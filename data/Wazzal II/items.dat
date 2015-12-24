@@ -2426,7 +2426,7 @@ Spotlight;//name---------------------------------------
     begin_effects;
     7;//effect number
       16.000000;//parameter1
-      3.500000;//parameter2
+      4.800000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
     end_effects;
