@@ -104,7 +104,7 @@ Laser Cannon (S);//name---------------------------------------
   5.000000;//bullet size
   0.000000;//spread
   1.100000;//bullet speed
-  500.000000;//time until bullet disappears
+  600.000000;//time until bullet disappears
   130;//fire rate
   0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
   -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
@@ -481,8 +481,8 @@ Laser Rifle;//name---------------------------------------
   0;//stop at hit 0=stop where hit, 1=don't stop
   5.000000;//bullet size
   0.000000;//spread
-  1.100000;//bullet speed
-  500.000000;//time until bullet disappears
+  1.150000;//bullet speed
+  800.000000;//time until bullet disappears
   100;//fire rate
   0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
   -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
@@ -702,7 +702,7 @@ Particle Cannon;//name---------------------------------------double barrel
   4.000000;//bullet size
   0.000000;//spread
   1.300000;//bullet speed
-  500.000000;//time until bullet disappears
+  600.000000;//time until bullet disappears
  65;//fire rate
   0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
   -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
@@ -751,7 +751,7 @@ X-56 Submachine gun;//name---------------------------------------
   1.000000;//bullet size
   0.060000;//spread
   2.400000;//bullet speed
-  240.000000;//time until bullet disappears
+  350.000000;//time until bullet disappears
   100;//fire rate
   2;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
   -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
@@ -815,7 +815,7 @@ X-56 Submachine gun;//name---------------------------------------
   begin_hit_effects;
    63;//effect number
     -18.000000;//parameter1
-    -47.000000;//parameter2
+    -55.000000;//parameter2
     4.000000;//parameter3
     1.000000;//parameter4
   end_hit_effects;
@@ -1249,7 +1249,7 @@ Laser cannon (Twin);//name---------------------------------------Fed player
   5.000000;//bullet size
   0.000000;//spread
   1.100000;//bullet speed
-  500.000000;//time until bullet disappears
+  650.000000;//time until bullet disappears
   140;//fire rate
   0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
   -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
@@ -3374,7 +3374,7 @@ Particle Cannon, battleship;//name---------------------------------------double 
   4.000000;//bullet size
   0.000000;//spread
   1.300000;//bullet speed
-  500.000000;//time until bullet disappears
+  600.000000;//time until bullet disappears
  65;//fire rate
   0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
   -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
@@ -3471,7 +3471,7 @@ Flying fighter alien cannon;//name---------------------------------------
   6.5000000;//bullet size
   0.000000;//spread
   1.400000;//bullet speed
-  530.000000;//time until bullet disappears
+  600.000000;//time until bullet disappears
   800;//fire rate
   0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
   -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
@@ -3840,7 +3840,7 @@ Phaser cannon;//name---------------------------------------
   2.000000;//bullet size
   0.000000;//spread
   1.100000;//bullet speed
-  400.000000;//time until bullet disappears
+  600.000000;//time until bullet disappears
   240;//fire rate
   0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
   -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
@@ -4078,11 +4078,11 @@ Rifle;//name---------------------------------------
   shell.png;//bullet texture
   1;//bullets at one shot
   0;//stop at hit 0=stop where hit, 1=don't stop
-  1.200000;//bullet size
+  1.400000;//bullet size
   0.000000;//spread
-  1.200000;//bullet speed
- 1200.000000;//time until bullet disappears
-  500;//fire rate
+  1.400000;//bullet speed
+ 1000.000000;//time until bullet disappears
+  450;//fire rate
   2;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
   -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
   -1;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
@@ -4331,8 +4331,8 @@ Flying Confed fighter cannon;//name---------------------------------------
   0;//stop at hit 0=stop where hit, 1=don't stop
   6.5000000;//bullet size
   0.000000;//spread
-  1.400000;//bullet speed
-  530.000000;//time until bullet disappears
+  2.300000;//bullet speed
+  370.000000;//time until bullet disappears
   150;//fire rate
   0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
   -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
