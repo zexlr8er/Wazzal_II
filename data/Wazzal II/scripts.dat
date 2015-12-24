@@ -2592,7 +2592,7 @@ Airstrike;//name----------------------------------------------------------------
  19;//effect number              drop dyna
     61.000000;//parameter1
     0.360000;//parameter2
-   300.000000;//parameter3
+   350.000000;//parameter3
     10.000000;//parameter4
 19;//effect number              drop dyna
     61.000000;//parameter1
@@ -2612,7 +2612,7 @@ Airstrike;//name----------------------------------------------------------------
  19;//effect number              drop dyna
     62.000000;//parameter1
     0.360000;//parameter2
-    280.000000;//parameter3
+    350.000000;//parameter3
     10.000000;//parameter4  
  19;//effect number              drop dyna
     62.000000;//parameter1
@@ -2627,7 +2627,7 @@ Airstrike;//name----------------------------------------------------------------
 19;//effect number              drop dyna
     63.000000;//parameter1
     0.360000;//parameter2
-    180.000000;//parameter3
+    330.000000;//parameter3
     10.000000;//parameter4 
   end_effects;
 Explosion sound 2;//name-----------------------------------------------------------------
@@ -3766,13 +3766,13 @@ Activate longer rifle view;//name----------------------------------------------
       300.000000;//parameter3
       0.000000;//parameter4  
   end_effects;
-Steriods;//name-----------------------------------------------------------------
+Steriods;//name----------------------------------------------------------------- so that effect is applied to human inventory, not shop
   111;//identifier
   1;//run without calling (set to 0 if you use the script for example as a wield script)
  0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
  300;//run every n milliseconds
- none;//message
+ 'roids...;//message
   0;//message type, 0=quick message, 1=journal
   none;//sound, none for nothing
   0;//delay script for n seconds after conditions met

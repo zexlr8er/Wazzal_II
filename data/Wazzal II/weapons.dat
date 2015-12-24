@@ -1075,8 +1075,8 @@ Sniper Rifle;//name---------------------------------------
   end_fire_effects;
   begin_hit_effects;
   63;//effect number
-    -99.000000;//parameter1
-    -120.000000;//parameter2
+    -120.000000;//parameter1
+    -150.000000;//parameter2
     4.000000;//parameter3
     1.000000;//parameter4
   end_hit_effects;
@@ -1784,7 +1784,7 @@ Fusion Beam;//name---------------------------------------
   0.000000;//bullet size
   0.000000;//spread
   10.000000;//bullet speed
-  300.000000;//time until bullet disappears
+  100.000000;//time until bullet disappears
   50;//fire rate
   4;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
   -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
