@@ -28,14 +28,17 @@ Repository contains files required to install Wazzal II: The Final Dawn mod for 
 
 <img src="https://github.com/zexlr8er/Wazzal_II/blob/master/textures/Wazzal%20II/Promotional/screenshot1.png" align="left" height="300" width="400" >
 <img src="https://github.com/zexlr8er/Wazzal_II/blob/master/textures/Wazzal%20II/Promotional/screenshot2.png" align="left"  height="300" width="400" >
+
 *Space combat and exploration*
 
 <img src="https://github.com/zexlr8er/Wazzal_II/blob/master/textures/Wazzal%20II/Promotional/screenshot3.png" align="left" height="300" width="400" >
 <img src="https://github.com/zexlr8er/Wazzal_II/blob/master/textures/Wazzal%20II/Promotional/screenshot6.png" align="left"  height="300" width="400" >
+
 *Unique worlds to explore*
 
 <img src="https://github.com/zexlr8er/Wazzal_II/blob/master/textures/Wazzal%20II/Promotional/screenshot5.png" align="left" height="300" width="400" >
 <img src="https://github.com/zexlr8er/Wazzal_II/blob/master/textures/Wazzal%20II/Promotional/screenshot4.png" align="left"  height="300" width="400" >
+
 *Rare and exotic native creatures*
 
 
