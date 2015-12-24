@@ -447,7 +447,7 @@ Player destroys enemy soldiers on jungle planet;//name--------------------------
     1.000000;//parameter3
     0.000000;//parameter4 
   end_effects;
-Enemy Attack Script (hurt player when shields down);//name-----------------------------------------------------------------
+Enemy Attack Script (hurt player when shields down; small);//name-----------------------------------------------------------------
   7;//identifier
   0;//run without calling (set to 0 if you use the script for example as a wield script)
   0;//call position, 0=player location, 1=mouse location
@@ -468,12 +468,12 @@ Enemy Attack Script (hurt player when shields down);//name----------------------
   end_conditions;
   begin_effects;
   4;//effect number                  take 2 from health
-   -2.0000000;//parameter1
+   -0.8000000;//parameter1
     0.000000;//parameter2
     0.000000;//parameter3
     0.000000;//parameter4
   end_effects;
-Enemy Attack Script (hurt player when shields down);//name-----------------------------------------------------------------
+Enemy Attack Script (hurt player when shields down; large);//name-----------------------------------------------------------------
   8;//identifier
   0;//run without calling (set to 0 if you use the script for example as a wield script)
   0;//call position, 0=player location, 1=mouse location
@@ -494,7 +494,7 @@ Enemy Attack Script (hurt player when shields down);//name----------------------
   end_conditions;
   begin_effects;
   4;//effect number                  take 3.0 from health
-    -3.000000;//parameter1
+    -0.60000;//parameter1
     0.000000;//parameter2
     0.000000;//parameter3
     0.000000;//parameter4

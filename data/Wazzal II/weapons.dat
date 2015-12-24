@@ -151,24 +151,24 @@ Laser Cannon (S);//name---------------------------------------
   end_hit_effects;
 Laser alien heavy fighter;//name---------------------------------------double barrel
   4;//identifier
- 1;//class
-  laser_small.png;//bullet texture
-  1;//bullets at one shot
+ 1;//class 
+   alienbullet.png;//bullet texture
+  4;//bullets at one shot
   0;//stop at hit 0=stop where hit, 1=don't stop
-  5.000000;//bullet size
-  0.000000;//spread
-  1.200000;//bullet speed
-  750.000000;//time until bullet disappears
-  140;//fire rate
+  4.000000;//bullet size
+  0.130000;//spread
+  1.2;//bullet speed
+  700.000000;//time until bullet disappears
+ 155;//fire rate
   0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
   -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
-  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  7;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
   none;//hit effect sound
-  0.000000;//push target back
-  0.00000;//push shooter back
-  laser1.wav;//fire sound
+  0.00000;//push target back
+  0.000000;//push shooter back
+  alienlaser.wav;//fire sound
   hit2.wav;//hit sound
-  0.500000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  0.5000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
   begin_wield_conditions;
   end_wield_conditions;
   begin_fire_effects;
@@ -185,12 +185,12 @@ Laser alien heavy fighter;//name---------------------------------------double ba
   end_fire_effects;
   begin_hit_effects;
   4;//effect number
-    -3.300000;//parameter1
+    -0.60000;//parameter1  # was 3.3
     0.000000;//parameter2
     8.000000;//parameter3
     0.000000;//parameter4
   4;//effect number
-    -14.000000;//parameter1
+    -2.700000;//parameter1  # was 14
     0.000000;//parameter2
     4.000000;//parameter3
     0.000000;//parameter4 
@@ -330,7 +330,7 @@ Missile Damage Enemy;//name---------------------------------------ENEMY MISSILE
     0.000000;//parameter2
     4.000000;//parameter3
     0.000000;//parameter4  
-4;//effect number                  take 3.0 from health
+4;//effect number                  take 50 from health
     -50.000000;//parameter1
     0.000000;//parameter2
     0.000000;//parameter3
@@ -1240,7 +1240,7 @@ Deploy mines;//name---------------------------------------
     4.000000;//parameter3
     0.000000;//parameter4
   end_hit_effects;
-Laser cannon (Twin);//name---------------------------------------Fed player
+Laser cannon (Twin);//name---------------------------------------Confed player
   25;//identifier
   1;//class
   laser_small2.png;//bullet texture
@@ -2224,24 +2224,24 @@ Rear Thrusters;//name--------------------------------------- fired by weapon 2
   end_hit_effects;
 Laser alien small fighter;//name---------------------------------------single barrel
   48;//identifier
-  1;//class
-  laser_small4.png;//bullet texture
-  1;//bullets at one shot
+  1;//class  
+   alienbullet.png;//bullet texture
+  2;//bullets at one shot
   0;//stop at hit 0=stop where hit, 1=don't stop
-  5.000000;//bullet size
-  0.000000;//spread
-  1.100000;//bullet speed
+  4.000000;//bullet size
+  0.130000;//spread
+  1.1;//bullet speed
   600.000000;//time until bullet disappears
-  140;//fire rate
+ 170;//fire rate
   0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
   -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
-  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  7;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
   none;//hit effect sound
-  0.000000;//push target back
+  0.00000;//push target back
   0.000000;//push shooter back
-  laser1.wav;//fire sound
+  alienlaser.wav;//fire sound
   hit2.wav;//hit sound
-  0.500000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  0.5000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon  
   begin_wield_conditions;
   end_wield_conditions;
   begin_fire_effects;
@@ -2258,12 +2258,12 @@ Laser alien small fighter;//name---------------------------------------single ba
   end_fire_effects;
   begin_hit_effects;
   4;//effect number
-    -2.300000;//parameter1
+    -0.80000;//parameter1
     0.000000;//parameter2
     8.000000;//parameter3
     0.000000;//parameter4
   4;//effect number
-    -7.000000;//parameter1
+    -3.500000;//parameter1
     0.000000;//parameter2
     4.000000;//parameter3
     0.000000;//parameter4 
@@ -2376,23 +2376,23 @@ Dark alien attack;//name---------------------------------------projectile
 Tank alien cannon;//name---------------------------------------
   51;//identifier
   0;//class
-  laser_small4.png;//bullet texture
-  1;//bullets at one shot
+  alienbullet.png;//bullet texture
+  3;//bullets at one shot
   0;//stop at hit 0=stop where hit, 1=don't stop
-  5.000000;//bullet size
-  0.000000;//spread
+  6.000000;//bullet size
+  0.130000;//spread
   1.400000;//bullet speed
   530.000000;//time until bullet disappears
-  800;//fire rate
+ 700;//fire rate
   0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
   -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
   7;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
-  explode.WAV;//hit effect sound
-  0.1200000;//push target back
+  none;//hit effect sound
+  0.120000;//push target back
   0.000000;//push shooter back
   phaser.wav;//fire sound
   explode.WAV;//hit sound
-  1.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  1.0000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon  
   begin_wield_conditions;
   end_wield_conditions;
   begin_fire_effects;
@@ -2429,13 +2429,13 @@ Tank alien cannon;//name---------------------------------------
   end_fire_effects;
   begin_hit_effects;
   63;//effect number
-    -10.000000;//parameter1
-    -15.000000;//parameter2
+    -3.300000;//parameter1
+    -6.500000;//parameter2
     4.000000;//parameter3
     1.000000;//parameter4
   63;//effect number
-    -8.000000;//parameter1
-    -15.000000;//parameter2
+    -2.75000000;//parameter1
+    -6.500000;//parameter2
     12.000000;//parameter3
     1.000000;//parameter4
   end_hit_effects;
@@ -3465,23 +3465,23 @@ Flame Thrower pillbox;//name--------------------------------------- also used fo
 Flying fighter alien cannon;//name---------------------------------------
  73;//identifier
   0;//class
-  laser_small4.png;//bullet texture
-  1;//bullets at one shot
+   alienbullet.png;//bullet texture
+  3;//bullets at one shot
   0;//stop at hit 0=stop where hit, 1=don't stop
-  6.5000000;//bullet size
-  0.000000;//spread
-  1.400000;//bullet speed
+  7.500000;//bullet size
+  0.130000;//spread
+  1.800000;//bullet speed
   600.000000;//time until bullet disappears
-  800;//fire rate
+ 800;//fire rate
   0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
   -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
   7;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
-  explode.WAV;//hit effect sound
-  0.0700000;//push target back
+  none;//hit effect sound
+  0.070000;//push target back
   0.000000;//push shooter back
-  phaser.wav;//fire sound
-  explode.WAV;//hit sound
-  1.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  alienlaser.wav;//fire sound
+  hit2.wav;//hit sound
+  1.0000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon 
   begin_wield_conditions;
   end_wield_conditions;
   begin_fire_effects;
@@ -3508,13 +3508,13 @@ Flying fighter alien cannon;//name---------------------------------------
   end_fire_effects;
   begin_hit_effects;
   63;//effect number
-    -4.000000;//parameter1
-    -8.000000;//parameter2
+    -1.300000;//parameter1
+    -2.7500000;//parameter2
     4.000000;//parameter3
     1.000000;//parameter4
   63;//effect number
-    -4.000000;//parameter1
-    -14.000000;//parameter2
+    -1.300000;//parameter1
+    -4.300000;//parameter2
     12.000000;//parameter3
     1.000000;//parameter4
   end_hit_effects;
