@@ -4,7 +4,7 @@
 
 >*After their defeat in the Zoo system, the Alien threat has re-emerged, and now they are no longer peaceful. Star system after system has fallen to their terrible, ruthless surprise attack, known as 'the Stellar Pearl Harbour". The United Confederacy of Planets is in ultimate peril, as the massive alien fleets begin their relentless drive towards the capital, New Dawn, leaving nothing alive.*
 
->*Man's last hope lies on the shoulders of a single man: the man who led the survivors from the doomed Sol System, one who had survived the terrible planet of Notrium, and the only human to have defeated the aliens in combat. If the Captain fails, mankind will forever be destroyed... *
+>*Man's last hope lies on the shoulders of a single man: the man who led the survivors from the doomed Sol System, one who had survived the terrible planet of Notrium, and the only human to have defeated the aliens in combat. If the Captain fails, mankind will forever be destroyed...*
 
 ----
 ## Installation
