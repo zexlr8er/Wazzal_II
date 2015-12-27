@@ -1181,7 +1181,7 @@ Stock: Drugs;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-Stock:  Weapon Parts;//name---------------------------------------
+Stock: Weapon Parts;//name---------------------------------------
   29;//identifier
   0;//item class
   0.000000;//weight
@@ -4334,7 +4334,7 @@ Battery;//name---------------------------------------
  108;//identifier
   0;//item class
   0.000000;//weight
-  Press 'U' to buy a set of 2 batteries that can be used to recharge your suit's inbuilt battery energy by 20 points. \ \  Price: 300 credits;//short description
+  Press 'U' to buy a powerful battery that can be used to recharge your suit's inbuilt battery energy by 20 points. \ \  Price: 150 credits;//short description
   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -4347,7 +4347,7 @@ Battery;//name---------------------------------------
   begin_wield_slots;
   end_wield_slots;
   begin_effects_block;
-  You purchase the batteries.;//event text
+  You purchase the battery.;//event text
     You need more money;//event failure text
     chaching.wav;//sound, none for nothing
     0;//vanishes after event, 0=no, 1=yes
@@ -4356,28 +4356,28 @@ Battery;//name---------------------------------------
     begin_conditions;
     3;//condition
       13.000000;//condition parameter0
-      300.000000;//condition parameter1      
+      150.000000;//condition parameter1      
     end_conditions;
     begin_effects;
     4;//effect number
-      -300.000000;//parameter1
+      -150.000000;//parameter1
       1.000000;//parameter2
       13.000000;//parameter3
       0.000000;//parameter4     
     16;//effect number
       107.000000;//parameter1
-      2.000000;//parameter2
+      1.000000;//parameter2
       1.000000;//parameter3
       0.000000;//parameter4
     end_effects;
   end_effects_block;
   begin_combinations;
   end_combinations;
-15000: Twin Laser Cannon;//name---------------------------------------
+12000: Twin Laser Cannon;//name---------------------------------------
   109;//identifier
   0;//item class
   0.000000;//weight
-   Press 'U' to purchase the Twin Laser Cannon, a double-barrelled version of the basic laser cannon. The cannon will be placed in your ship's inventory and your Small Laser Cannon discarded. (Restricted for ranks below 1st Lieutenant) \ \ Price: 15000 credits;//short description
+   Press 'U' to purchase the Twin Laser Cannon, a double-barrelled version of the basic laser cannon. The cannon will be placed in your ship's inventory and your Small Laser Cannon discarded. (Restricted for ranks below 1st Lieutenant) \ \ Price: 12000 credits;//short description
   none;//first pick up text
   0.350000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -4399,11 +4399,11 @@ Battery;//name---------------------------------------
     begin_conditions;
     3;//condition
       13.000000;//condition parameter0
-     15000.000000;//condition parameter1    
+     12000.000000;//condition parameter1    
     end_conditions;
     begin_effects;
     4;//effect number
-      -15000.000000;//parameter1
+      -12000.000000;//parameter1
       1.000000;//parameter2
       13.000000;//parameter3
       0.000000;//parameter4     
@@ -4806,7 +4806,7 @@ Dead Ka-bear;//name---------------------------------------
   0;//item class
   30.000000;//weight
   The carcass of a fearsome Ka-bear from Kinmegag 71. \ Combine with a Combat Knife to skin it.;//short description
-  You reach down and pick up the heavy carcass. The Ka-bear is one of the most fearsome native species ever discovered. Decause of the species' rarity and its thick and luxurious fur, a Ka-bear skin is considered an ultimate symbol of status throughout the Confederacy. \ \ If you could combine this carcass with a Combat Knife, you could skin the bear and sell its coat at a store for a fortune (up to 2000 credits)!;//first pick up text
+  You reach down and pick up the heavy carcass. The Ka-bear is one of the most fearsome native species ever discovered. Because of the species' rarity and its thick and luxurious fur, a Ka-bear skin is considered an ultimate symbol of status throughout the Confederacy. \ \ If you could combine this carcass with a Combat Knife, you could skin the bear and sell its coat at a store for a fortune (up to 2000 credits)!;//first pick up text
   0.550000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
