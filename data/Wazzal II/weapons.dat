@@ -701,7 +701,7 @@ Particle Cannon;//name---------------------------------------double barrel
   0;//stop at hit 0=stop where hit, 1=don't stop
   4.000000;//bullet size
   0.000000;//spread
-  1.300000;//bullet speed
+  1.350000;//bullet speed
   600.000000;//time until bullet disappears
  65;//fire rate
   0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
@@ -1284,7 +1284,7 @@ Laser cannon (Twin);//name---------------------------------------Confed player
   end_fire_effects;
   begin_hit_effects;
   4;//effect number
-    -12.000000;//parameter1
+    -14.000000;//parameter1
     0.000000;//parameter2
     4.000000;//parameter3
     0.000000;//parameter4
@@ -3839,9 +3839,9 @@ Phaser cannon;//name---------------------------------------
   0;//stop at hit 0=stop where hit, 1=don't stop
   2.000000;//bullet size
   0.000000;//spread
-  1.100000;//bullet speed
-  600.000000;//time until bullet disappears
-  240;//fire rate
+  1.220000;//bullet speed
+  900.000000;//time until bullet disappears
+  230;//fire rate
   0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
   -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
   0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
