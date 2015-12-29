@@ -4160,7 +4160,7 @@ Shotgun;//name---------------------------------------
   85;//identifier
   5;//class
   shell.png;//bullet texture
-  4;//bullets at one shot
+  6;//bullets at one shot
   0;//stop at hit 0=stop where hit, 1=don't stop
   1.000000;//bullet size
   0.13000000;//spread

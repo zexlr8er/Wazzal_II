@@ -1777,11 +1777,11 @@ Show map;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-500: Repair unit;//name---------------------------------------
+250: Repair unit;//name---------------------------------------
   44;//identifier
   0;//item class
   0.000000;//weight
-  Press 'U' to buy two starship repair unit (the repair units will be placed in your starship's inventory). \ \  Price: 500 credits;//short description
+  Press 'U' to buy one starship repair unit (the repair unit will be placed in your starship's inventory). \ \  Price: 250 credits;//short description
   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -1803,17 +1803,17 @@ Show map;//name---------------------------------------
     begin_conditions;
     3;//condition
       13.000000;//condition parameter0
-      500.000000;//condition parameter1      
+      250.000000;//condition parameter1      
     end_conditions;
     begin_effects;
     4;//effect number
-      -500.000000;//parameter1
+      -250.000000;//parameter1
       1.000000;//parameter2
       13.000000;//parameter3
       0.000000;//parameter4     
     16;//effect number
       25.000000;//parameter1
-      2.000000;//parameter2
+      1.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
     end_effects;
@@ -4010,7 +4010,7 @@ Poison fruit;//name---------------------------------------
     0;//can be broken up
     begin_items_given;
       99;//result of combine
-     5;//amount to give
+     10;//amount to give
     end_items_given;
       end_combinations;
 Call in airstrike;//name---------------------------------------
@@ -5150,7 +5150,7 @@ Wa Kakakaa;//name---------------------------------------
   end_wield_slots;
   begin_effects_block;
   Your batteries drain as your wounds heal.;//event text
-   none;//event failure text
+   Too much health or not enough energy!;//event failure text
     fighter_move3.wav;//sound, none for nothing
     0;//vanishes after event, 0=no, 1=yes
     K;//use key
