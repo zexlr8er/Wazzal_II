@@ -53,8 +53,8 @@ Wolf IV;//name---------------------------------------Player
     27;//effect number
       13.000000;//parameter1
       30.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
+      0.01000;//parameter3
+      0.100000;//parameter4
     end_effects;
   end_timed_block;
   begin_specialties;//
