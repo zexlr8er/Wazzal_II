@@ -422,7 +422,7 @@ Player destroys enemy soldiers on jungle planet;//name--------------------------
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   10000;//run every n milliseconds
- Captain Klicc: \ 'Thankyou, great captain. This was a great victory, and I will notify the Confederate Navy at once. (Earn 50 Promotion points, and receive 5 units of Drug stock)';//message
+ Captain Klicc: \ 'Thankyou, great captain. This was a great victory, and I will notify the Confederate Navy at once. (Earn 50 Promotion points, and receive 5 units of Drug stock. The Galactic Stock Exchange soars in value to hear of your victory!)';//message
   1;//message type, 0=quick message, 1=journal
   morse.wav;//sound, none for nothing
   0;//delay script for n seconds after conditions met
@@ -451,6 +451,21 @@ Player destroys enemy soldiers on jungle planet;//name--------------------------
     0.000000;//parameter2
    29.000000;//parameter3
     0.000000;//parameter4
+  63;//effect number
+    500.000000;//parameter1
+    0.000000;//parameter2
+    17.000000;//parameter3 slaves
+    1.000000;//parameter4
+  63;//effect number
+    300.000000;//parameter1
+    0.000000;//parameter2
+    19.000000;//parameter3 weapons
+    1.000000;//parameter4
+  63;//effect number
+    100.000000;//parameter1
+    0.000000;//parameter2
+    18.000000;//parameter3 drugs
+    1.000000;//parameter4 
   end_effects;
 Enemy Attack Script (hurt player when shields down; small);//name-----------------------------------------------------------------
   7;//identifier
@@ -2970,7 +2985,7 @@ Kinmegag 71 mission completed;//name--------------------------------------------
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   400;//run every n milliseconds
-   Captain Dreton: \ \ 'Thankyou, captain. The signal is sent, and even as we speak, the full might of the Confederate Navy is mobilizing across the United Confederacy of Planets: from the fields of Zemboi and the shipyards of Kryboru to the shining pillars of New Dawn. \ \ At least now the Confederacy will fall fighting, rather than die on our knees. (Earn 30 Promotion points, and receive a brand new devastating Flame Thrower!)';//name;//message
+   Captain Dreton: \ \ 'Thankyou, captain. The signal is sent, and even as we speak, the full might of the Confederate Navy is mobilizing across the United Confederacy of Planets: from the fields of Zemboi and the shipyards of Kryboru to the shining pillars of New Dawn. \ \ At least now the Confederacy will fall fighting, rather than die on our knees. (Earn 30 Promotion points, and receive a brand new devastating Flame Thrower! The Galactic Stock Exchange rises sharply as your acheivement becomes known!)';//name;//message
   1;//message type, 0=quick message, 1=journal
   morse.wav;//sound, none for nothing
   2.9;//delay script for n seconds after conditions met
@@ -2991,6 +3006,21 @@ Kinmegag 71 mission completed;//name--------------------------------------------
     1.000000;//parameter2
     1.000000;//parameter3
     0.000000;//parameter4 
+  63;//effect number
+    500.000000;//parameter1
+    0.000000;//parameter2
+    17.000000;//parameter3 slaves
+    1.000000;//parameter4
+  63;//effect number
+    300.000000;//parameter1
+    0.000000;//parameter2
+    19.000000;//parameter3 weapons
+    1.000000;//parameter4
+  63;//effect number
+    100.000000;//parameter1
+    0.000000;//parameter2
+    18.000000;//parameter3 drugs
+    1.000000;//parameter4 
    end_effects;
 Hide fuel bar if low;//name-----------------------------------------------------------------
 83;//identifier
@@ -3141,7 +3171,7 @@ Player destroys fighters on Erxelz;//name---------------------------------------
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   1000;//run every n milliseconds
- Admiral Fefarewbu, 4th New Dawn Confederate Fleet: \ \ 'The Alien fleet is burning. This attack will reverberate across every corner of the galaxy. The Aliens will now realize that the United Confederacy of Planets will never, ever lie down or surrender, no matter the size or power of the forces arranged against us. We will fight until the final soldier and the very last rusty ship. \ \ This was a great victory, Captain. A great, great victory. (Earn 100 Promotion points, 5000 credits and 5 units of Drug, Weapon Parts and Slave stock)';//message
+ Admiral Fefarewbu, 4th New Dawn Confederate Fleet: \ \ 'The Alien fleet is burning. This attack will reverberate across every corner of the galaxy. The Aliens will now realize that the United Confederacy of Planets will never, ever lie down or surrender, no matter the size or power of the forces arranged against us. We will fight until the final soldier and the very last rusty ship. \ \ This was a great victory, Captain. A great, great victory. (Earn 100 Promotion points, 5000 credits and 5 units of Drug, Weapon Parts and Slave stock. The Galactic Stock Exchange skyrockets to hear of your great victory!)';//message
   1;//message type, 0=quick message, 1=journal
   morse.wav;//sound, none for nothing
   0;//delay script for n seconds after conditions met
@@ -3195,6 +3225,21 @@ Player destroys fighters on Erxelz;//name---------------------------------------
     0.000000;//parameter2
     29.000000;//parameter3
     0.000000;//parameter4
+  63;//effect number
+    500.000000;//parameter1
+    0.000000;//parameter2
+    17.000000;//parameter3 slaves
+    1.000000;//parameter4
+  63;//effect number
+    300.000000;//parameter1
+    0.000000;//parameter2
+    19.000000;//parameter3 weapons
+    1.000000;//parameter4
+  63;//effect number
+    100.000000;//parameter1
+    0.000000;//parameter2
+    18.000000;//parameter3 drugs
+    1.000000;//parameter4 
   end_effects;
 Give V item for blood serum;//name-----------------------------------------------------------------
   91;//identifier
@@ -3931,7 +3976,7 @@ Player achieves positive X propaganda;//name------------------------------------
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   1000;//run every n milliseconds
- Captain, this is Admiral Werbung of the United Confederacy Naval Academy, Hearts and Minds Division. \ \ We have received reports that you have successfully converted 50 Dorian Prime savages to the Confederacy cause. Congratulations! You are truly a beacon of liberty, justice and the Confederacy way! \ \ (You receive 1000 credits and 100 Promotion Points);//message
+ Captain, this is Admiral Werbung of the United Confederacy Naval Academy, Hearts and Minds Division. \ \ We have received reports that you have successfully converted 50 Dorian Prime savages to the Confederacy cause. Congratulations! You are truly a beacon of liberty, justice and the Confederacy way! \ \ (You receive 1000 credits and 100 Promotion Points... and the Galactic Stock Exchange soars in value to hear the news of your achievement!);//message
   1;//message type, 0=quick message, 1=journal
   morse.wav;//sound, none for nothing
   0;//delay script for n seconds after conditions met
@@ -3952,6 +3997,21 @@ Player achieves positive X propaganda;//name------------------------------------
     1.000000;//parameter2
     13.000000;//parameter3
     0.000000;//parameter4   
+  63;//effect number
+    500.000000;//parameter1
+    0.000000;//parameter2
+    17.000000;//parameter3 slaves
+    1.000000;//parameter4
+  63;//effect number
+    300.000000;//parameter1
+    0.000000;//parameter2
+    19.000000;//parameter3 weapons
+    1.000000;//parameter4
+  63;//effect number
+    100.000000;//parameter1
+    0.000000;//parameter2
+    18.000000;//parameter3 drugs
+    1.000000;//parameter4 
   end_effects;
  Small fighter airstrike;//name-----------------------------------------------------------------
   118;//identifier
