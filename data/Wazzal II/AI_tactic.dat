@@ -73,7 +73,7 @@ Follow;//tactic name
   begin_levels;
   30;//anger level size
     2;//action
-    250;//parameter0
+    500;//parameter0
     1;//can hit enemies
     1;//can eat
   end_levels;
@@ -179,7 +179,7 @@ Follow;//tactic name--------------bodyguards
   begin_levels;
   30;//anger level size
     2;//action
-    250;//parameter0
+    400;//parameter0
     1;//can hit enemies
     1;//can eat
   end_levels;
@@ -385,6 +385,30 @@ Converted alien, Follow;//tactic name--------------follow
    4;//action
     0;//parameter0
     0;//can hit enemies
+    0;//can eat
+  end_levels;
+Press T to control in Tank;//tactic name --------- standard tank moving
+  31;//identifier
+  begin_levels;
+  20;//anger level size
+    1;//action
+    0;//parameter0
+    1;//can hit enemies
+    1;//can eat
+  25;//anger level size 
+    3;//action
+    0;//parameter0
+    1;//can hit enemies
+    0;//can eat
+ 15;//anger level size 
+    4;//action
+    0;//parameter0
+    1;//can hit enemies
+    0;//can eat
+	 15;//anger level size 
+    3;//action
+    0;//parameter0
+    1;//can hit enemies
     0;//can eat
   end_levels;
 end_of_file;

@@ -100,9 +100,9 @@ Small Alien Fighter;//name---------------------------------------
   1;//bars visible when player hovers mouse on top
   1.000000;//death animation speed
   1;//creature can move from area to another
-  500.000000;//AI hear range
-  300.000000;//AI see range
-  4.000000;//AI see angle
+  1000.000000;//AI hear range
+  500.000000;//AI see range
+  3.000000;//AI see angle
   begin_footstep_sounds;//
   none.wav;//     
   end_footstep_sounds;
@@ -296,9 +296,9 @@ Large Alien Fighter;//name---------------------------------------
   1;//bars visible when player hovers mouse on top
   1.000000;//death animation speed
   1;//creature can move from area to another
-  500.000000;//AI hear range
-  300.000000;//AI see range
-  4.000000;//AI see angle
+  1000.000000;//AI hear range
+  500.000000;//AI see range
+  3.000000;//AI see angle
   begin_footstep_sounds;//
   none.wav;//      
   end_footstep_sounds;
@@ -1446,7 +1446,7 @@ Bodyguards;//name---------------------------------------first bodyguard
   0;//creature can move from area to another
   1000.000000;//AI hear range
   500.000000;//AI see range
-  4.000000;//AI see angle
+  6.200000;//AI see angle
   begin_footstep_sounds;//
   step0.wav;//sample name
   step1.wav;//sample name
@@ -2570,9 +2570,9 @@ Small Confed Fighter;//name---------------------------------------
   1;//bars visible when player hovers mouse on top
   1.000000;//death animation speed
   1;//creature can move from area to another
-  500.000000;//AI hear range
-  300.000000;//AI see range
-  4.000000;//AI see angle
+  1000.000000;//AI hear range
+  500.000000;//AI see range
+  6.2000000;//AI see angle
   begin_footstep_sounds;//
   none.wav;//     
   end_footstep_sounds;
@@ -2645,8 +2645,8 @@ Small Confed Fighter;//name---------------------------------------
     0;//number
     4.000000;//parameter0
     0.000000;//parameter1
-    60.000000;//parameter2
-    60.000000;//parameter3
+    100.000000;//parameter2
+    100.000000;//parameter3
 shield;//description
     0;//number
     8.000000;//parameter0
@@ -3001,7 +3001,7 @@ Bodyguards;//name---------------------------------------2nd bodyguard
   0;//creature can move from area to another
   1000.000000;//AI hear range
   500.000000;//AI see range
-  4.000000;//AI see angle
+  6.200000;//AI see angle
   begin_footstep_sounds;//
   step0.wav;//sample name
   step1.wav;//sample name
@@ -3164,9 +3164,9 @@ Large Confed Fighter;//name---------------------------------------
   1;//bars visible when player hovers mouse on top
   1.000000;//death animation speed
   1;//creature can move from area to another
-  500.000000;//AI hear range
-  300.000000;//AI see range
-  4.000000;//AI see angle
+  1000.000000;//AI hear range
+  500.000000;//AI see range
+  6.2000000;//AI see angle
   begin_footstep_sounds;//
   none.wav;//     
   end_footstep_sounds;
@@ -3239,8 +3239,8 @@ Large Confed Fighter;//name---------------------------------------
     0;//number
     4.000000;//parameter0
     0.000000;//parameter1
-    90.000000;//parameter2
-    90.000000;//parameter3
+    140.000000;//parameter2
+    140.000000;//parameter3
 shield;//description
     0;//number
     8.000000;//parameter0
@@ -3254,7 +3254,7 @@ shield;//description
     0.000000;//parameter2
     1.000000;//parameter3
   end_specialties;
-Tank;//name---------------------------------------
+Tank (parked);//name---------------------------------------
   32;//identifier
   4;//class
   tank.png;//texture
@@ -3270,7 +3270,7 @@ Tank;//name---------------------------------------
   -1;//eat item number from items.dat, -1=nothing
   2.400000;//creature size
   9999.000000;//creature weight (affects pushing)
-  1.300000;//maximum movement speed
+  0.700000;//maximum movement speed
   0.000000;//minimum movement speed
   9.000000;//leg animation speed
   0.1100000;//turn speed
@@ -3874,10 +3874,10 @@ Alien Tank;//name---------------------------------------
   -1;//eat item number from items.dat, -1=nothing
   2.400000;//creature size
   9999.000000;//creature weight (affects pushing)
-  0.400000;//maximum movement speed
-  0.050000;//minimum movement speed
+ 0.700000;//maximum movement speed
+  0.000000;//minimum movement speed
   7.000000;//leg animation speed
-  0.300000;//turn speed
+  0.200000;//turn speed
   0.200000;//inertia level (acceleration/deceleration)
   0;//hide when behind walls
   51;//weapon number
@@ -3889,7 +3889,7 @@ Alien Tank;//name---------------------------------------
   0;//creature can move from area to another
   2000.000000;//AI hear range
   1000.000000;//AI see range
-  4.000000;//AI see angle
+  6.200000;//AI see angle
   begin_footstep_sounds;//
   fighter_move.wav;//      
   end_footstep_sounds;
@@ -6409,7 +6409,7 @@ shield;//description
     0.000000;//parameter2
     1.000000;//parameter3
   end_specialties;
-Tank (attacking) DEFUNCT;//name---------------------------------------
+Tank (moving);//name---------------------------------------
   50;//identifier
   4;//class
   tank.png;//texture
@@ -6418,17 +6418,17 @@ Tank (attacking) DEFUNCT;//name---------------------------------------
   0;//corpse item amount
   0;//attack type, 0=shooting attack, 1=close combat
   19;//particle to show on radar, -1=none
-  7;//primary AI tactic from AI_tactic.dat
-  7;//secondary AI tactic from AI_tactic.dat
+ 31;//primary AI tactic from AI_tactic.dat
+ 31;//secondary AI tactic from AI_tactic.dat
   3;//footstep particle from particles.dat
   0;//die after how many seconds, 0=doesn't die
   -1;//eat item number from items.dat, -1=nothing
   2.400000;//creature size
   9999.000000;//creature weight (affects pushing)
- 1.100000;//maximum movement speed
+  0.700000;//maximum movement speed
   0.000000;//minimum movement speed
-  7.000000;//leg animation speed
-  0.100000;//turn speed
+  9.000000;//leg animation speed
+  0.200000;//turn speed
   0.200000;//inertia level (acceleration/deceleration)
   0;//hide when behind walls
   40;//weapon number
@@ -6441,25 +6441,33 @@ Tank (attacking) DEFUNCT;//name---------------------------------------
   1500.000000;//AI hear range
   750.000000;//AI see range
   4.000000;//AI see angle
-  begin_footstep_sounds;
-  fighter_move.wav;    
+  begin_footstep_sounds;//
+  fighter_move.wav;//  
+fighter_move.wav;// 
+fighter_move.wav;// 
+fighter_move.wav;//     
   end_footstep_sounds;
-  begin_hit_sounds;
+  begin_hit_sounds;//
   hit.wav;//sample name  
   end_hit_sounds;
-  begin_die_sounds;
+  begin_die_sounds;//
   explosion1.wav;//sample name
   explosion2.wav;//sample name 
   end_die_sounds;
-  begin_eat_block;
+  begin_eat_block;//
   end_eat_block;
-  begin_death_block;
-    0;//death type, 0=any death, 1=timed death, 2=killed by player
+  begin_death_block;//
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
     begin_conditions;
     end_conditions;
     begin_effects;
  10;//effect number                   drop creature
       15.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+    -1.000000;//parameter4 
+10;//effect number                   drop creature
+      17.000000;//parameter1
       -1.000000;//parameter2
       7.000000;//parameter3
      7.000000;//parameter4 
@@ -6470,23 +6478,51 @@ Tank (attacking) DEFUNCT;//name---------------------------------------
      7.000000;//parameter4 
     end_effects;
   end_death_block;
-  begin_hit_block;
+  begin_hit_block;//
   end_hit_block;
-  begin_timed_block;
+  begin_timed_block;//
+60;//interval in milliseconds -----fire machine gun when right click  # was 140
+    begin_conditions;
+  34;//condition
+     0.000000;//condition parameter0
+      0.000000;//condition parameter1      
+   37;//condition                        right fire mouse button pressed
+    1.000000;//condition parameter0
+    0.000000;//condition parameter1     
+    end_conditions;
+    begin_effects;
+66;//effect number
+    72.000000;//parameter1    # was 69 for machine gun; testing 72 for flamethrower
+      1.000000;//parameter2
+     -3.00000;//parameter3
+     -28.00000;//parameter4    # was -16
+    end_effects;
   end_timed_block;
-  begin_specialties;
-  ;//description
+  begin_specialties;//
+  health;//description
     0;//number
     4.000000;//parameter0
     0.000000;//parameter1
-    1800.000000;//parameter2
-    1800.000000;//parameter3
-  light;//description 
+    900.000000;//parameter2
+    900.000000;//parameter3
+light;//description
     2;//number
     16.000000;//parameter0
-    3.700000;//parameter1
-    0.300000;//parameter2
-    0.000000;//parameter3 
+    6.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+resistance to alien fighter;//description
+    1;//number
+   0.000000;//parameter0
+    0.300000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+ No pushing;//description
+    4;//number
+    0.000000;//parameter0
+    1.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
   end_specialties;
 Pillbox;//name---------------------------------------
   51;//identifier
