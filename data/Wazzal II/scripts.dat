@@ -2172,6 +2172,9 @@ Play sound and stagger when player too cold;//name------------------------------
   5;//condition
     6.000000;//condition parameter0
     -60.000000;//condition parameter1
+  33;//condition                          not if being carried
+   1.000000;//condition parameter0
+    0.000000;//condition parameter1
   end_conditions;
   begin_effects;
   33;//effect number
@@ -2203,6 +2206,9 @@ Play sound and stagger when player too hot;//name-------------------------------
   3;//condition
     6.000000;//condition parameter0
     80.000000;//condition parameter1
+	  33;//condition                          not if being carried
+   1.000000;//condition parameter0
+    0.000000;//condition parameter1
   end_conditions;
   begin_effects;
   33;//effect number
