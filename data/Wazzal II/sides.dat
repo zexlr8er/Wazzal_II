@@ -1,66 +1,73 @@
-friendly ships;//name
+friendly ships;//name-------------------------------------------
   0;//identifier
   start_hostile_sides;//identifier
   1;
   2;
   6;
 10; 
+7;
   end_hostile_sides;
-alien ships;//name
+alien ships;//name-------------------------------------------
   1;//identifier
   start_hostile_sides;//identifier
   0;
 10;
+7;
   end_hostile_sides;
-alien missiles;//name
+alien missiles;//name-------------------------------------------
   2;//identifier
   start_hostile_sides;//identifier
   0;
 3;
 10;
   end_hostile_sides;
-friendly ecm;//name
+friendly ecm;//name-------------------------------------------
   3;//identifier
   start_hostile_sides;//identifier
   2;
   end_hostile_sides;
-friendly missiles;//name
+friendly missiles;//name-------------------------------------------
   4;//identifier
-  start_hostile_sides;//identifier
+  start_hostile_sides;
   1;
 11;
   end_hostile_sides;
-Asteroids;//name
+Asteroids;//name-------------------------------------------
   5;//identifier
-  start_hostile_sides;//identifier
+  start_hostile_sides;
   end_hostile_sides;
-alien soldiers;//name
+alien soldiers;//name-------------------------------------------
   6;//identifier
-  start_hostile_sides;//identifier
+  start_hostile_sides;
   0;
+  7;
   end_hostile_sides;
-Allied Soldiers DEFUNCT;//name
+Poison dart (everyone except player);//name-------------------------------------------
   7;//identifier
-  start_hostile_sides;//identifier
-  6;
+  start_hostile_sides;
   1;
+  2;
+  3;
+  4;
+  6;
+  10;  
   end_hostile_sides;
-Stealth;//name
+Stealth;//name-------------------------------------------
   8;//identifier
-  start_hostile_sides;//identifier
+  start_hostile_sides;
   1;
   2;
   6;
   end_hostile_sides;
-Searchlights warpgate;//name
+Searchlights warpgate;//name-------------------------------------------
   9;//identifier
-  start_hostile_sides;//identifier
+  start_hostile_sides;
   0;
   1;
   end_hostile_sides;
-Pirate;//name
+Pirate;//name-------------------------------------------
   10;//identifier
-  start_hostile_sides;//identifier
+  start_hostile_sides;
 0; 
  1;
   2;

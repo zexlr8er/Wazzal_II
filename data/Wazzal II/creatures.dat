@@ -8133,7 +8133,7 @@ Alien Larva;//name---------------------------------------
   creature8.png;//texture
   0;//draw layer
   134;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
-  2;//corpse item amount
+  100;//corpse item amount
   1;//attack type, 0=shooting attack, 1=close combat
   -1;//particle to show on radar, -1=none
   1;//primary AI tactic from AI_tactic.dat
@@ -8197,7 +8197,7 @@ Alien Larva s;//name---------------------------------------
   creature8.png;//texture
   0;//draw layer
   134;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
-  1;//corpse item amount
+  50;//corpse item amount
   1;//attack type, 0=shooting attack, 1=close combat
   -1;//particle to show on radar, -1=none
   1;//primary AI tactic from AI_tactic.dat
@@ -8261,7 +8261,7 @@ Alien Larva l;//name---------------------------------------
   creature8.png;//texture
   0;//draw layer
   134;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
-  3;//corpse item amount
+  200;//corpse item amount
   1;//attack type, 0=shooting attack, 1=close combat
  -1;//particle to show on radar, -1=none
   1;//primary AI tactic from AI_tactic.dat

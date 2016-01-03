@@ -2855,8 +2855,8 @@ Poison dart;//name---------------------------------------
   700.000000;//time until bullet disappears
   400;//fire rate
  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
- 2;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
- 7;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+ 1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+ 75;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
   none;//hit effect sound
   0.250000;//push target back
   0.00000;//push shooter back
@@ -2881,13 +2881,8 @@ Poison dart;//name---------------------------------------
       60.000000;//parameter2
       4.000000;//parameter3
       20000.000000;//parameter4
-  46;//effect number
-      0.000000;//parameter1
-      10.000000;//parameter2
-      20000.000000;//parameter3
-      60.000000;//parameter4
 22;//effect number
-      6.000000;//parameter1
+      7.000000;//parameter1
       20000.000000;//parameter2
      60.000000;//parameter3
       0.000000;//parameter4
@@ -3622,16 +3617,16 @@ Slime;//name---------------------------------------
   76;//identifier
   11;//class
   slime.png;//bullet texture
-  1;//bullets at one shot
+  10;//bullets at one shot
   0;//stop at hit 0=stop where hit, 1=don't stop
-  3.500000;//bullet size
-  0.000000;//spread
-  0.900000;//bullet speed
-  600.000000;//time until bullet disappears
-  400;//fire rate
+  2.500000;//bullet size
+  0.600000;//spread
+  0.600000;//bullet speed
+  650.000000;//time until bullet disappears
+  40;//fire rate
   0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
-  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
-  -1;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  2;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  76;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
   none;//hit effect sound
   0.100000;//push target back
   0.000000;//push shooter back
@@ -3652,14 +3647,19 @@ Slime;//name---------------------------------------
   end_fire_effects;
   begin_hit_effects;
     4;//effect number
-      -25.000000;//parameter1
+      -0.5000000;//parameter1
       0.000000;//parameter2
       4.000000;//parameter3
       0.000000;//parameter4
    1;//effect number
-      5000.000000;//parameter1
+      15000.000000;//parameter1
       -1.000000;//parameter2
       0.000000;//parameter3
+      0.000000;//parameter4
+	 45;//effect number
+      -1.000000;//parameter1
+      15000.000000;//parameter2
+      76.000000;//parameter3
       0.000000;//parameter4
   end_hit_effects;
 Laser confed heavy fighter;//name---------------------------------------

@@ -5611,7 +5611,7 @@ none;//event text
 Slime;//name---------------------------------------
  134;//identifier
   0;//item class
-  0.2000000;//weight
+  0.0100000;//weight
   This incredibly sticky slime from the remains of a Glouibi slug is powerful enough to stop even the strongest creature from moving for about 5 seconds.;//short description
   You reach down and pick up the remains of the very sorry looking Glouibi slug, found only on the moon of Naquarin. You try to stand, and promptly fall straight back down. Your hands are stuck to the ground! \ After much effort, you finally free your hands and wipe the remains of the slime into one of the frictionless specimen compartments of your suit. This could be used as a very effective way to stop enemies in their tracks... ;//first pick up text
   0.300000;//size on map

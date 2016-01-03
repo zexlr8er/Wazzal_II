@@ -886,4 +886,28 @@ Mars;//name---------------------
   0;//can be rotated (faster if not)
   -1;//change into another particle when hits ground
   0;//blending type (0=normal, 1=light)
+Red poison;//name--------
+  75;//identifier
+  particle.png;//texture
+  10;//size
+  0.700000;//red color component
+  0.000000;//green color component
+  0.000000;//blue color component
+  0.800000;//alpha component
+  1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  1;//blending type (0=normal, 1=light)
+Slime;//name--------
+  76;//identifier
+  slime.png;//texture
+  10;//size
+  0.500000;//red color component
+  0.700000;//green color component
+  0.100000;//blue color component
+  0.600000;//alpha component
+  1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  1;//blending type (0=normal, 1=light)
 end_of_file;
