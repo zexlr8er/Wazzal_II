@@ -99,9 +99,9 @@ Blue blast;//name-------
   1.000000;//blue color component
   1.000000;//alpha color component
   1.000000;//light intensity
-  -1;//flash particle (-1=nothing)
-  0;//flashing speed
-  0;//particle life time
+  6;//flash particle (-1=nothing)
+  10;//flashing speed
+  200;//particle life time
 Blue Omni;//name-------
   8;//identifier
   light1.png;//texture
