@@ -1,6 +1,6 @@
 friendly ships;//name-------------------------------------------
   0;//identifier
-  start_hostile_sides;//identifier
+  start_hostile_sides;
   1;
   2;
   6;
@@ -9,21 +9,21 @@ friendly ships;//name-------------------------------------------
   end_hostile_sides;
 alien ships;//name-------------------------------------------
   1;//identifier
-  start_hostile_sides;//identifier
+  start_hostile_sides;
   0;
 10;
 7;
   end_hostile_sides;
 alien missiles;//name-------------------------------------------
   2;//identifier
-  start_hostile_sides;//identifier
+  start_hostile_sides;
   0;
 3;
 10;
   end_hostile_sides;
 friendly ecm;//name-------------------------------------------
   3;//identifier
-  start_hostile_sides;//identifier
+  start_hostile_sides;
   2;
   end_hostile_sides;
 friendly missiles;//name-------------------------------------------
