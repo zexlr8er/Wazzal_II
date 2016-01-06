@@ -3837,7 +3837,7 @@ Activate longer rifle view;//name----------------------------------------------
       300.000000;//parameter3
       0.000000;//parameter4  
   end_effects;
-Steriods;//name----------------------------------------------------------------- so that effect is applied to human inventory, not shop
+Steroids;//name----------------------------------------------------------------- so that effect is applied to human inventory, not shop
   111;//identifier
   1;//run without calling (set to 0 if you use the script for example as a wield script)
  0;//call position, 0=player location, 1=mouse location
@@ -3961,20 +3961,25 @@ Give player control fighter item;//name-----------------------------------------
     1.000000;//parameter3
     0.000000;//parameter4
   end_effects;
-Update propaganda bar;//name-----------------------------------------------------------------
+Turn off flare light addition;//name-----------------------------------------------------------------
   116;//identifier
   0;//run without calling (set to 0 if you use the script for example as a wield script)
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
-  500;//run every n milliseconds
-  none;//message
-  0;//message type, 0=quick message, 1=journal
+  1000;//run every n milliseconds
+  Test;//message
+  1;//message type, 0=quick message, 1=journal
   none;//sound, none for nothing
-  0;//delay script for n seconds after conditions met
+  5000;//delay script for n seconds after conditions met
   1;//disabled after first use, 0=no, 1=yes
   begin_conditions;
   end_conditions;
   begin_effects;
+    0;//effect number
+    0.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4  
   end_effects;
 Player achieves positive X propaganda;//name-----------------------------------------------------------------
   117;//identifier
