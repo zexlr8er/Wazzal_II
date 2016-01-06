@@ -2,7 +2,7 @@ Wolf IV;//name---------------------------------------Player
   0;//identifier
   4;//class
   creature0.png;//texture
-  2;//draw layer
+  1;//draw layer
   -1;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
   0;//corpse item amount
   0;//attack type, 0=shooting attack, 1=close combat
@@ -3270,11 +3270,11 @@ Tank (parked);//name---------------------------------------
   -1;//eat item number from items.dat, -1=nothing
   2.400000;//creature size
   9999.000000;//creature weight (affects pushing)
-  0.700000;//maximum movement speed
+  1.300000;//maximum movement speed
   0.000000;//minimum movement speed
   9.000000;//leg animation speed
-  0.1100000;//turn speed
-  0.300000;//inertia level (acceleration/deceleration)
+  0.200000;//turn speed
+  0.200000;//inertia level (acceleration/deceleration)
   0;//hide when behind walls
   40;//weapon number
   0.000000;//weapon_x
@@ -3874,7 +3874,7 @@ Alien Tank;//name---------------------------------------
   -1;//eat item number from items.dat, -1=nothing
   2.400000;//creature size
   9999.000000;//creature weight (affects pushing)
- 0.700000;//maximum movement speed
+ 0.500000;//maximum movement speed
   0.000000;//minimum movement speed
   7.000000;//leg animation speed
   0.200000;//turn speed
@@ -6418,14 +6418,14 @@ Tank (moving);//name---------------------------------------
   0;//corpse item amount
   0;//attack type, 0=shooting attack, 1=close combat
   19;//particle to show on radar, -1=none
- 31;//primary AI tactic from AI_tactic.dat
- 31;//secondary AI tactic from AI_tactic.dat
+ 6;//primary AI tactic from AI_tactic.dat
+ 9;//secondary AI tactic from AI_tactic.dat
   3;//footstep particle from particles.dat
   0;//die after how many seconds, 0=doesn't die
   -1;//eat item number from items.dat, -1=nothing
   2.400000;//creature size
   9999.000000;//creature weight (affects pushing)
-  0.700000;//maximum movement speed
+  0.500000;//maximum movement speed
   0.000000;//minimum movement speed
   9.000000;//leg animation speed
   0.200000;//turn speed
@@ -6481,6 +6481,19 @@ fighter_move.wav;//
   begin_hit_block;//
   end_hit_block;
   begin_timed_block;//
+  300;//interval in milliseconds -----realistic following
+    begin_conditions;
+    8;//condition
+      3.000000;//condition parameter0
+      0.000000;//condition parameter1       
+    end_conditions;
+    begin_effects;
+    46;//effect number
+      0.000000;//parameter1
+      19.000000;//parameter2
+     200.000000;//parameter3
+      -1.000000;//parameter4
+    end_effects;
 60;//interval in milliseconds -----fire machine gun when right click  # was 140
     begin_conditions;
   34;//condition
@@ -6505,12 +6518,6 @@ fighter_move.wav;//
     0.000000;//parameter1
     900.000000;//parameter2
     900.000000;//parameter3
-light;//description
-    2;//number
-    16.000000;//parameter0
-    6.000000;//parameter1
-    1.000000;//parameter2
-    0.000000;//parameter3
 resistance to alien fighter;//description
     1;//number
    0.000000;//parameter0
@@ -7985,7 +7992,7 @@ Pirate Wolf IV;//name---------------------------------------Player
   65;//identifier
   4;//class
   piratewolf.png;//texture
-  2;//draw layer
+  1;//draw layer
   -1;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
   0;//corpse item amount
   0;//attack type, 0=shooting attack, 1=close combat
@@ -8029,15 +8036,15 @@ Pirate Wolf IV;//name---------------------------------------Player
   begin_hit_block;//
   end_hit_block;
   begin_timed_block;//
-10;//interval in milliseconds
+	10;//interval in milliseconds
     begin_conditions;
     end_conditions;
     begin_effects;
     27;//effect number
       13.000000;//parameter1
       30.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
+      0.01000;//parameter3
+      0.100000;//parameter4
     end_effects;
   end_timed_block;
   begin_specialties;//
@@ -8058,7 +8065,7 @@ Stealth Wolf IV;//name---------------------------------------Player
   66;//identifier
   4;//class
   stealthwolf.png;//texture
-  2;//draw layer
+  1;//draw layer
   -1;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
   0;//corpse item amount
   0;//attack type, 0=shooting attack, 1=close combat
@@ -8109,8 +8116,8 @@ Stealth Wolf IV;//name---------------------------------------Player
     27;//effect number
       13.000000;//parameter1
       30.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
+      0.01000;//parameter3
+      0.100000;//parameter4
     end_effects;
   end_timed_block;
   begin_specialties;//
@@ -10103,11 +10110,96 @@ Dorian Prime alien (eat ;//name---------------------------------------
     0.000000;//parameter2
     0.000000;//parameter3
   end_specialties;
-end_of_file;
-
-
-
-
-
+Storm large;//name---------------------------------------
+ 84;//identifier
+  5;//class
+  storm.png;//texture
+  2;//draw layer
+  -2;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
+  0;//corpse item amount
+  0;//attack type, 0=shooting attack, 1=close combat
+  -1;//particle to show on radar, -1=none
+ 0;//primary AI tactic from AI_tactic.dat
+  0;//secondary AI tactic from AI_tactic.dat
+  3;//footstep particle from particles.dat
+  0;//die after how many seconds, 0=doesn't die
+  -1;//eat item number from items.dat, -1=nothing
+  4.000000;//creature size
+  9999.00000;//creature weight (affects pushing)
+  1.0000;//maximum movement speed
+  1.00000;//minimum movement speed
+  0.600000;//leg animation speed
+  0.050000;//turn speed
+  0.030000;//inertia level (acceleration/deceleration)
+  0;//hide when behind walls
+  93;//weapon number
+  0.000000;//weapon_x
+  0.000000;//weapon_y
+  2;//blood particle
+  0;//bars visible when player hovers mouse on top
+  1.000000;//death animation speed
+  1;//creature can move from area to another
+  2000.000000;//AI hear range
+  100.000000;//AI see range
+  6.200000;//AI see angle
+  begin_footstep_sounds;//
+     storm.wav;//   
+  storm2.wav;// 
+  storm3.wav;//   
+  storm4.wav;// 
+  end_footstep_sounds;
+  begin_hit_sounds;//
+  none.wav;//       
+  end_hit_sounds;
+  begin_die_sounds;//
+  explosion1.wav;
+  explosion2.wav;
+  end_die_sounds;
+  begin_eat_block;//
+  end_eat_block;
+  begin_death_block;//
+  end_death_block;
+  begin_hit_block;//
+  end_hit_block;
+  begin_timed_block;//
+     500;//interval in milliseconds -----lightning
+    begin_conditions;
+    8;//condition
+      10.000000;//condition parameter0
+      0.000000;//condition parameter1            
+    end_conditions;
+    begin_effects;
+	 14;//effect number  ---sound
+    7.000000;//parameter1
+    1.000000;//parameter2
+    0.00000;//parameter3
+    0.00000;//parameter4 
+    27;//effect number  ---flash
+    7.000000;//parameter1
+    100.000000;//parameter2
+    1.30000;//parameter3
+    2.000000;//parameter4 
+		 27;//effect number  ---flash
+    14.000000;//parameter1
+    20.000000;//parameter2
+    0.200000;//parameter3
+    0.400000;//parameter4 
+    end_effects;
+	end_timed_block;
+  begin_specialties;//
+    fly;//description
+    4;//number
+    1.000000;//parameter0
+    1.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+		  immune;//description
+    1;//number
+    1.000000;//parameter0
+    0.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+  end_specialties;
+ end_of_file;
 
 Classes: 0= NA 1=Alien ships 2=? 3=Alien soldiers 4=All Allied 5=Asteroids 6=neutral ships
