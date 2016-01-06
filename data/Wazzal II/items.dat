@@ -6814,7 +6814,7 @@ Fireflower;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-Flare;//name---------------------------------------
+Flare (unfinished);//name---------------------------------------
   165;//identifier
   0;//item class
   0.5000000;//weight
@@ -6845,14 +6845,39 @@ Flare;//name---------------------------------------
     begin_effects;
 27;//effect number
      2.00000;//parameter1
-     120000.000000;//parameter2
-      40.00000;//parameter3
-      40.00000;//parameter4
+     5000.000000;//parameter2
+      10.00000;//parameter3
+      10.00000;//parameter4
 19;//effect number
      116.00000;//parameter1
      1;//parameter2
       0.00000;//parameter3
       1.00000;//parameter4
+	29;//effect number
+      116.00000;//parameter1
+      0;//parameter2
+      0.00000;//parameter3
+      0.00000;//parameter4
+	8;//effect number
+      3.000000;//parameter1
+      0.50000;//parameter2
+      0.50000;//parameter3
+      0.30000;//parameter4 
+    8;//effect number
+      0.000000;//parameter1
+      0.50000;//parameter2
+      0.50000;//parameter3
+      0.30000;//parameter4 
+    8;//effect number
+      1.000000;//parameter1
+      0.50000;//parameter2
+      0.50000;//parameter3
+      0.30000;//parameter4 
+    8;//effect number
+      2.000000;//parameter1
+      0.50000;//parameter2
+      0.50000;//parameter3
+      0.30000;//parameter4 
     end_effects;
   end_effects_block;
   begin_combinations;
