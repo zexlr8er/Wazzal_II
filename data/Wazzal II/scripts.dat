@@ -2813,6 +2813,11 @@ Cloaking deactive if no energy;//name-------------------------------------------
     -1.000000;//parameter2
     0.000000;//parameter3
     0.000000;//parameter4
+	 34;//effect number	                    change into ship
+      0.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
   16;//effect number
     105.000000;//parameter1
     1.000000;//parameter2
@@ -2861,7 +2866,7 @@ Cloaking deactive if fire;//name------------------------------------------------
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   300;//run every n milliseconds
-  No energy! Cloaking device deacticated.;//message
+  Your weapons make you visible! Cloaking device deactivated.;//message
   0;//message type, 0=quick message, 1=journal
   none;//sound, none for nothing
   0;//delay script for n seconds after conditions met
@@ -2872,7 +2877,7 @@ Cloaking deactive if fire;//name------------------------------------------------
     0.000000;//condition parameter1   
   0;//condition                        has ON stealth item
     106.000000;//condition parameter0
-    1.000000;//condition parameter1    
+    1.000000;//condition parameter1   	
   end_conditions;
   begin_effects;
   22;//effect number
@@ -2885,6 +2890,11 @@ Cloaking deactive if fire;//name------------------------------------------------
     -1.000000;//parameter2
     0.000000;//parameter3
     0.000000;//parameter4
+	 34;//effect number	                    change into ship
+      0.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
   16;//effect number
     105.000000;//parameter1
     1.000000;//parameter2
@@ -3106,10 +3116,10 @@ Errxelz appears;//name----------------------------------------------------------
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   300;//run every n milliseconds
-  Captain! This is Admiral Fefarewbu of the 4th New Dawn Confederate Fleet. We have come to the decision that you are the best candidate for the most daring mission undertaken by Confederate forces of the war. \ \ As you are aware, the outpost of Errxelz 8 was the first Confederate planet to fall to the Alien onslaught. Our intelligence reports that the planet is now being used as an advance base for thousands of Alien fighters before they launch their invasions into Confederate space. This knowledge gives us the chance to strike a devestating blow to the advancing Alien forces. \ \ Destroy all Alien fighters on the planet, Captain. To complete your mission you will need to source at least 10 units of high explosive and some means to move across the planet unseen. We have four stealth-cloaked heavy fighters in orbit, and will authorise you to direct up to five airstrikes on Alien positions. Go quickly, Captain. The hopes of the Conederacy fly with you.;//message
+  Captain! This is Admiral Fefarewbu of the 4th New Dawn Confederate Fleet. We have come to the decision that you are the best candidate for the most daring mission undertaken by Confederate forces of the war. \ \ As you are aware, the outpost of Errxelz 8 was the first Confederate planet to fall to the Alien onslaught. Our intelligence reports that the planet is now being used as an advance base for thousands of Alien fighters before they launch their invasions into Confederate space. This knowledge gives us the chance to strike a devastating blow to the advancing Alien forces. \ \ Destroy all Alien fighters on the planet, Captain. To complete your mission you will need to source at least 10 units of high explosive and some means to move across the planet unseen. We have four stealth-cloaked heavy fighters in orbit, and will authorise you to direct up to five airstrikes on Alien positions. Go quickly, Captain. The hopes of the Confederacy fly with you.;//message
   1;//message type, 0=quick message, 1=journal
   morse.wav;//sound, none for nothing
- 1800;//delay script for n seconds after conditions met
+ 1800;//delay script for n seconds after conditions met        
   1;//disabled after first use, 0=no, 1=yes
   begin_conditions;
   end_conditions;
@@ -3270,7 +3280,7 @@ Give V item for blood serum;//name----------------------------------------------
     1.000000;//parameter3
     0.000000;//parameter4
   end_effects;
-Turn neutral ships enemy;//name-----------------------------------------------------------------
+Turn neutral ships enemy (unused);//name-----------------------------------------------------------------
   92;//identifier
   0;//run without calling (set to 0 if you use the script for example as a wield script)
   0;//call position, 0=player location, 1=mouse location
@@ -3298,7 +3308,7 @@ Turn neutral ships enemy;//name-------------------------------------------------
       -1.000000;//parameter3
       0.000000;//parameter4   
   end_effects;
-Use Pirate flag item if one;//name-----------------------------------------------------------------
+Use Pirate flag item if one;//name-----------------------------------------------------------------for original flag items
 93;//identifier
   0;//run without calling (set to 0 if you use the script for example as a wield script)
   0;//call position, 0=player location, 1=mouse location
@@ -3354,7 +3364,7 @@ Hide flag bars;//name-----------------------------------------------------------
     0.000000;//parameter3
     0.000000;//parameter4
   end_effects;
-If Pirate flag item revert to pirate race;//name-----------------------------------------------------------------
+If Pirate flag item revert to pirate race (stealth);//name-----------------------------------------------------------------
 95;//identifier
   0;//run without calling (set to 0 if you use the script for example as a wield script)
   0;//call position, 0=player location, 1=mouse location
@@ -4058,6 +4068,62 @@ Player achieves positive X propaganda;//name------------------------------------
     0.200000;//parameter2
    100.000000;//parameter3
     10.000000;//parameter4 
+  end_effects;
+If has new Pirate flag item;//name-----------------------------------------------------------------for new flag items
+119;//identifier
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  0;//condition
+    169.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  59;//effect number                   
+    169.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+16;//effect number                   
+    169.000000;//parameter1
+    -1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+ If has new Alien flag item;//name-----------------------------------------------------------------for new flag items
+120;//identifier
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  0;//condition
+    167.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  59;//effect number                   
+    167.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+16;//effect number                   
+    167.000000;//parameter1
+    -1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
   end_effects;
 end_of_file;
 

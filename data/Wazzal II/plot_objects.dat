@@ -61,8 +61,18 @@ Errxelz 8;//name---------------------------------------
     begin_conditions;
     end_conditions;
     begin_effects;
-29;//effect number                          use flag checker script
+29;//effect number                          use pirate flag checker script
       93.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+29;//effect number                          use new flag item checker script pirate
+      119.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+29;//effect number                          use new flag checker script alien
+      120.000000;//parameter1
       1.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
@@ -96,11 +106,6 @@ Errxelz 8;//name---------------------------------------
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
-       39;//effect number                         hide bar3
-      3.000000;//parameter1
-      0.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
     39;//effect number                          show bar12
       12.000000;//parameter1
       1.000000;//parameter2
@@ -116,19 +121,9 @@ Errxelz 8;//name---------------------------------------
       1.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
-    39;//effect number                          show bar7
-      7.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
     39;//effect number                          hide bar8
       8.000000;//parameter1
       0.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4 
-29;//effect number                          use flag checker script
-      93.000000;//parameter1
-      1.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4 
     59;//effect number                          use spotlight
@@ -167,8 +162,18 @@ Lvlei;//name---------------------------------------Jungle battle planet
     begin_conditions;
     end_conditions;
     begin_effects;
-29;//effect number                          use flag checker script
+29;//effect number                          use pirate flag checker script
       93.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+29;//effect number                          use new flag item checker script pirate
+      119.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+29;//effect number                          use new flag checker script alien
+      120.000000;//parameter1
       1.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
@@ -202,11 +207,6 @@ Lvlei;//name---------------------------------------Jungle battle planet
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
-       39;//effect number                         hide bar3
-      3.000000;//parameter1
-      0.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
     39;//effect number                          show bar12
       12.000000;//parameter1
       1.000000;//parameter2
@@ -219,11 +219,6 @@ Lvlei;//name---------------------------------------Jungle battle planet
       0.000000;//parameter4
     39;//effect number                          show bar6
       6.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
-    39;//effect number                          show bar7
-      7.000000;//parameter1
       1.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
@@ -294,11 +289,21 @@ Kinmegag 71;//name---------------------------------------
     begin_conditions;
     end_conditions;
     begin_effects;
-29;//effect number                          use flag checker script
+29;//effect number                          use pirate flag checker script
       93.000000;//parameter1
       1.000000;//parameter2
       0.000000;//parameter3
-      0.000000;//parameter4  
+      0.000000;//parameter4
+29;//effect number                          use new flag item checker script pirate
+      119.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+29;//effect number                          use new flag checker script alien
+      120.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
 21;//effect number                          teleport to planet
       10.000000;//parameter1
      65.000000;//parameter2
@@ -329,11 +334,6 @@ Kinmegag 71;//name---------------------------------------
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
-       39;//effect number                         hide bar3
-      3.000000;//parameter1
-      0.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
     39;//effect number                          show bar12
       12.000000;//parameter1
       1.000000;//parameter2
@@ -346,11 +346,6 @@ Kinmegag 71;//name---------------------------------------
       0.000000;//parameter4
     39;//effect number                          show bar6
       6.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
-    39;//effect number                          show bar7
-      7.000000;//parameter1
       1.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
@@ -513,11 +508,6 @@ Click to return to space;//name---------------------------------------
       1.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
-       39;//effect number                         show bar3
-      3.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
     39;//effect number                          hide bar12
       12.000000;//parameter1
       0.000000;//parameter2
@@ -532,12 +522,7 @@ Click to return to space;//name---------------------------------------
       6.000000;//parameter1
       0.000000;//parameter2
       0.000000;//parameter3
-      0.000000;//parameter4
-    39;//effect number                          hide bar7
-      7.000000;//parameter1
-      0.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4      
+      0.000000;//parameter4     
     39;//effect number                          show bar8
       8.000000;//parameter1
       1.000000;//parameter2
@@ -640,11 +625,6 @@ Click to Enter Bridge;//name---------------------------------------
       1.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
-      39;//effect number                         show bar3
-      3.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
     39;//effect number                          hide bar12
       12.000000;//parameter1
       0.000000;//parameter2
@@ -659,12 +639,7 @@ Click to Enter Bridge;//name---------------------------------------
       6.000000;//parameter1
       0.000000;//parameter2
       0.000000;//parameter3
-      0.000000;//parameter4
-    39;//effect number                          hide bar7
-      7.000000;//parameter1
-      0.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4      
+      0.000000;//parameter4   
     39;//effect number                          show bar8
       8.000000;//parameter1
       1.000000;//parameter2
@@ -943,11 +918,6 @@ Click to return to Wolf IV;//name---------------------------------------(for for
       1.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
-      39;//effect number                         show bar3
-      3.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
     39;//effect number                          hide bar12
       12.000000;//parameter1
       0.000000;//parameter2
@@ -962,12 +932,7 @@ Click to return to Wolf IV;//name---------------------------------------(for for
       6.000000;//parameter1
       0.000000;//parameter2
       0.000000;//parameter3
-      0.000000;//parameter4
-    39;//effect number                          hide bar7
-      7.000000;//parameter1
-      0.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4      
+      0.000000;//parameter4     
     39;//effect number                          show bar8
       8.000000;//parameter1
       1.000000;//parameter2
@@ -1613,8 +1578,18 @@ Naquarin;//name---------------------------------------ocean
     begin_conditions;
     end_conditions;
     begin_effects;
-29;//effect number                          use flag checker script
+29;//effect number                          use pirate flag checker script
       93.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+29;//effect number                          use new flag item checker script pirate
+      119.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+29;//effect number                          use new flag checker script alien
+      120.000000;//parameter1
       1.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
@@ -1648,11 +1623,6 @@ Naquarin;//name---------------------------------------ocean
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
-       39;//effect number                         hide bar3
-      3.000000;//parameter1
-      0.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
     39;//effect number                          show bar12
       12.000000;//parameter1
       1.000000;//parameter2
@@ -1665,11 +1635,6 @@ Naquarin;//name---------------------------------------ocean
       0.000000;//parameter4
     39;//effect number                          show bar6
       6.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
-    39;//effect number                          show bar7
-      7.000000;//parameter1
       1.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
@@ -1770,11 +1735,6 @@ Click to return to Wolf IV;//name---------------------------------------(for oce
       1.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
-       39;//effect number                         show bar3
-      3.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
     39;//effect number                          hide bar12
       12.000000;//parameter1
       0.000000;//parameter2
@@ -1789,12 +1749,7 @@ Click to return to Wolf IV;//name---------------------------------------(for oce
       6.000000;//parameter1
       0.000000;//parameter2
       0.000000;//parameter3
-      0.000000;//parameter4
-    39;//effect number                          hide bar7
-      7.000000;//parameter1
-      0.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4      
+      0.000000;//parameter4   
     39;//effect number                          show bar8
       8.000000;//parameter1
       1.000000;//parameter2
@@ -1904,8 +1859,18 @@ Zycar;//name---------------------------------------lava
     begin_conditions;
     end_conditions;
     begin_effects;
-29;//effect number                          use flag checker script
+29;//effect number                          use pirate flag checker script
       93.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+29;//effect number                          use new flag item checker script pirate
+      119.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+29;//effect number                          use new flag checker script alien
+      120.000000;//parameter1
       1.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
@@ -1939,11 +1904,6 @@ Zycar;//name---------------------------------------lava
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
-        39;//effect number                         hide bar3
-      3.000000;//parameter1
-      0.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
     39;//effect number                          show bar12
       12.000000;//parameter1
       1.000000;//parameter2
@@ -1956,11 +1916,6 @@ Zycar;//name---------------------------------------lava
       0.000000;//parameter4
     39;//effect number                          show bar6
       6.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
-    39;//effect number                          show bar7
-      7.000000;//parameter1
       1.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
@@ -2035,11 +1990,6 @@ Click to return to Wolf IV;//name---------------------------------------(for lav
       1.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
-        39;//effect number                         show bar3
-      3.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
     39;//effect number                          show bar8
       8.000000;//parameter1
       1.000000;//parameter2
@@ -2060,11 +2010,6 @@ Click to return to Wolf IV;//name---------------------------------------(for lav
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
-    39;//effect number                          hide bar7
-      7.000000;//parameter1
-      0.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4  
     56;//effect number                  overide control
     2.000000;//parameter1
       0.000000;//parameter2
@@ -2836,11 +2781,6 @@ Click to return to Wolf IV;//name---------------------------------------for ice
       1.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
-       39;//effect number                         show bar3
-      3.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
     39;//effect number                          hide bar12
       12.000000;//parameter1
       0.000000;//parameter2
@@ -2860,12 +2800,7 @@ Click to return to Wolf IV;//name---------------------------------------for ice
       6.000000;//parameter1
       0.000000;//parameter2
       0.000000;//parameter3
-      0.000000;//parameter4
-    39;//effect number                          hide bar7
-      7.000000;//parameter1
-      0.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4      
+      0.000000;//parameter4 
     39;//effect number                          show bar8
       8.000000;//parameter1
       1.000000;//parameter2
@@ -3526,11 +3461,21 @@ Errxelz 8 (formally);//name---------------------------------------
     begin_conditions;
     end_conditions;
     begin_effects;
-29;//effect number                          use flag checker script
+29;//effect number                          use pirate flag checker script
       93.000000;//parameter1
       1.000000;//parameter2
       0.000000;//parameter3
-      0.000000;//parameter4 
+      0.000000;//parameter4
+29;//effect number                          use new flag item checker script pirate
+      119.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+29;//effect number                          use new flag checker script alien
+      120.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
     21;//effect number                          teleport to planet
       11.000000;//parameter1
       84.000000;//parameter2
@@ -3561,11 +3506,6 @@ Errxelz 8 (formally);//name---------------------------------------
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
-       39;//effect number                         hide bar3
-      3.000000;//parameter1
-      0.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
     39;//effect number                          show bar12
       12.000000;//parameter1
       1.000000;//parameter2
@@ -3578,11 +3518,6 @@ Errxelz 8 (formally);//name---------------------------------------
       0.000000;//parameter4
     39;//effect number                          show bar6
       6.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
-    39;//effect number                          show bar7
-      7.000000;//parameter1
       1.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
@@ -3657,11 +3592,6 @@ Click to return to Wolf IV;//name---------------------------------------alien
       1.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
-       39;//effect number                         show bar3
-      3.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
     39;//effect number                          hide bar12
       12.000000;//parameter1
       0.000000;//parameter2
@@ -3676,12 +3606,7 @@ Click to return to Wolf IV;//name---------------------------------------alien
       6.000000;//parameter1
       0.000000;//parameter2
       0.000000;//parameter3
-      0.000000;//parameter4
-    39;//effect number                          hide bar7
-      7.000000;//parameter1
-      0.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4      
+      0.000000;//parameter4 
     39;//effect number                          show bar8
       8.000000;//parameter1
       1.000000;//parameter2
@@ -3816,11 +3741,21 @@ Moon of Kinmegag 71;//name---------------------------------------
     begin_conditions;
     end_conditions;
     begin_effects;
-29;//effect number                          use flag checker script
+29;//effect number                          use pirate flag checker script
       93.000000;//parameter1
       1.000000;//parameter2
       0.000000;//parameter3
-      0.000000;//parameter4 
+      0.000000;//parameter4
+29;//effect number                          use new flag item checker script pirate
+      119.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+29;//effect number                          use new flag checker script alien
+      120.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
     21;//effect number                          teleport to planet
       13.000000;//parameter1
      89.000000;//parameter2
@@ -3851,11 +3786,6 @@ Moon of Kinmegag 71;//name---------------------------------------
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
-       39;//effect number                         hide bar3
-      3.000000;//parameter1
-      0.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
     39;//effect number                          show bar12
       12.000000;//parameter1
       1.000000;//parameter2
@@ -3868,11 +3798,6 @@ Moon of Kinmegag 71;//name---------------------------------------
       0.000000;//parameter4
     39;//effect number                          show bar6
       6.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
-    39;//effect number                          show bar7
-      7.000000;//parameter1
       1.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
@@ -3962,11 +3887,6 @@ Click to return to Wolf IV;//name---------------------------------------mooon
       1.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
-       39;//effect number                         show bar3
-      3.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
     39;//effect number                          hide bar12
       12.000000;//parameter1
       0.000000;//parameter2
@@ -3982,11 +3902,6 @@ Click to return to Wolf IV;//name---------------------------------------mooon
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
-    39;//effect number                          hide bar7
-      7.000000;//parameter1
-      0.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4      
     39;//effect number                          show bar8
       8.000000;//parameter1
       1.000000;//parameter2
@@ -4138,11 +4053,21 @@ Moon of Naquarin;//name---------------------------------------
     begin_conditions;
     end_conditions;
     begin_effects;
-29;//effect number                          use flag checker script
+29;//effect number                          use pirate flag checker script
       93.000000;//parameter1
       1.000000;//parameter2
       0.000000;//parameter3
-      0.000000;//parameter4 
+      0.000000;//parameter4
+29;//effect number                          use new flag item checker script pirate
+      119.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+29;//effect number                          use new flag checker script alien
+      120.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
     21;//effect number                          teleport to planet
       14.000000;//parameter1
      94.000000;//parameter2
@@ -4173,11 +4098,6 @@ Moon of Naquarin;//name---------------------------------------
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
-       39;//effect number                         hide bar3
-      3.000000;//parameter1
-      0.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
     39;//effect number                          show bar12
       12.000000;//parameter1
       1.000000;//parameter2
@@ -4190,11 +4110,6 @@ Moon of Naquarin;//name---------------------------------------
       0.000000;//parameter4
     39;//effect number                          show bar6
       6.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
-    39;//effect number                          show bar7
-      7.000000;//parameter1
       1.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
@@ -4284,11 +4199,6 @@ Click to return to Wolf IV;//name---------------------------------------moon
       1.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
-       39;//effect number                         show bar3
-      3.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
     39;//effect number                          hide bar12
       12.000000;//parameter1
       0.000000;//parameter2
@@ -4303,12 +4213,7 @@ Click to return to Wolf IV;//name---------------------------------------moon
       6.000000;//parameter1
       0.000000;//parameter2
       0.000000;//parameter3
-      0.000000;//parameter4
-    39;//effect number                          hide bar7
-      7.000000;//parameter1
-      0.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4      
+      0.000000;//parameter4  
     39;//effect number                          show bar8
       8.000000;//parameter1
       1.000000;//parameter2
@@ -4350,8 +4255,18 @@ none;//event text
     begin_conditions;
     end_conditions;
     begin_effects;
-29;//effect number                          use flag checker script
+29;//effect number                          use pirate flag checker script
       93.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+29;//effect number                          use new flag item checker script pirate
+      119.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+29;//effect number                          use new flag checker script alien
+      120.000000;//parameter1
       1.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4 
@@ -4385,11 +4300,6 @@ none;//event text
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
-       39;//effect number                         hide bar3
-      3.000000;//parameter1
-      0.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
     39;//effect number                          show bar12
       12.000000;//parameter1
       1.000000;//parameter2
@@ -4402,11 +4312,6 @@ none;//event text
       0.000000;//parameter4
     39;//effect number                          show bar6
       6.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
-    39;//effect number                          show bar7
-      7.000000;//parameter1
       1.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
@@ -4755,11 +4660,6 @@ Click to return to Wolf IV;//name---------------------------------------(for spa
       1.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
-      39;//effect number                         show bar3
-      3.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
     39;//effect number                          hide bar12
       12.000000;//parameter1
       0.000000;//parameter2
@@ -4772,11 +4672,6 @@ Click to return to Wolf IV;//name---------------------------------------(for spa
       0.000000;//parameter4
     39;//effect number                          hide bar6
       6.000000;//parameter1
-      0.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
-    39;//effect number                          hide bar7
-      7.000000;//parameter1
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4      
@@ -5012,8 +4907,18 @@ Dorian Prime;//name---------------------------------------meadows
     begin_conditions;
     end_conditions;
     begin_effects;
-29;//effect number                          use flag checker script
+29;//effect number                          use pirate flag checker script
       93.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+29;//effect number                          use new flag item checker script pirate
+      119.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+29;//effect number                          use new flag checker script alien
+      120.000000;//parameter1
       1.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
@@ -5047,11 +4952,6 @@ Dorian Prime;//name---------------------------------------meadows
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
-        39;//effect number                         hide bar3
-      3.000000;//parameter1
-      0.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
     39;//effect number                          show bar12
       12.000000;//parameter1
       1.000000;//parameter2
@@ -5064,11 +4964,6 @@ Dorian Prime;//name---------------------------------------meadows
       0.000000;//parameter4
     39;//effect number                          show bar6
       6.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
-    39;//effect number                          show bar7
-      7.000000;//parameter1
       1.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
@@ -5148,11 +5043,6 @@ Click to return to Wolf IV;//name---------------------------------------(for mea
       1.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
-        39;//effect number                         show bar3
-      3.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
     39;//effect number                          show bar8
       8.000000;//parameter1
       1.000000;//parameter2
@@ -5173,11 +5063,6 @@ Click to return to Wolf IV;//name---------------------------------------(for mea
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
-    39;//effect number                          hide bar7
-      7.000000;//parameter1
-      0.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4 
 39;//effect number                          show bar28
       2.000000;//parameter1
       0.000000;//parameter2
@@ -5825,8 +5710,18 @@ Desert planet;//name---------------------------------------desert
     begin_conditions;
     end_conditions;
     begin_effects;
-29;//effect number                          use flag checker script
+29;//effect number                          use pirate flag checker script
       93.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+29;//effect number                          use new flag item checker script pirate
+      119.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+29;//effect number                          use new flag checker script alien
+      120.000000;//parameter1
       1.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
@@ -5860,11 +5755,6 @@ Desert planet;//name---------------------------------------desert
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
-        39;//effect number                         hide bar3
-      3.000000;//parameter1
-      0.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
     39;//effect number                          show bar12
       12.000000;//parameter1
       1.000000;//parameter2
@@ -5877,11 +5767,6 @@ Desert planet;//name---------------------------------------desert
       0.000000;//parameter4
     39;//effect number                          show bar6
       6.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
-    39;//effect number                          show bar7
-      7.000000;//parameter1
       1.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
@@ -5961,11 +5846,6 @@ Click to return to Wolf IV;//name---------------------------------------(for mea
       1.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
-        39;//effect number                         show bar3
-      3.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
     39;//effect number                          show bar8
       8.000000;//parameter1
       1.000000;//parameter2
@@ -5986,11 +5866,6 @@ Click to return to Wolf IV;//name---------------------------------------(for mea
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
-    39;//effect number                          hide bar7
-      7.000000;//parameter1
-      0.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4 
 39;//effect number                          show bar28
       2.000000;//parameter1
       0.000000;//parameter2

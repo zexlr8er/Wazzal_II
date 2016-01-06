@@ -468,8 +468,18 @@ Leave Bridge;//name---------------------------------------
       1.000000;//parameter2
       1.000000;//parameter3
       1.000000;//parameter4
-29;//effect number                          use flag checker script
+29;//effect number                          use pirate flag checker script
       93.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+29;//effect number                          use new flag item checker script pirate
+      119.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+29;//effect number                          use new flag checker script alien
+      120.000000;//parameter1
       1.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
@@ -508,11 +518,6 @@ Leave Bridge;//name---------------------------------------
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
-       39;//effect number                         hide bar3
-      3.000000;//parameter1
-      0.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
     39;//effect number                          hide bar8
       8.000000;//parameter1
       0.000000;//parameter2
@@ -530,11 +535,6 @@ Leave Bridge;//name---------------------------------------
       0.000000;//parameter4
     39;//effect number                          show bar6
       6.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
-    39;//effect number                          show bar7
-      7.000000;//parameter1
       1.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
@@ -4215,7 +4215,7 @@ Cloaking device OFF;//name---------------------------------------
   end_wield_slots;
   begin_effects_block;
   You fly unseen..;//event text
-    You need more energy!;//event failure text
+    Fly Confederate flag or obtain more energy to active cloaking device!;//event failure text
     use.wav;//sound, none for nothing
     1;//vanishes after event, 0=no, 1=yes
     U;//use key
@@ -4224,6 +4224,9 @@ Cloaking device OFF;//name---------------------------------------
     3;//condition
      1.000000;//condition parameter0
       1.000000;//condition parameter1 
+	  	 6;//condition
+     0.000000;//condition parameter0
+     0.000000;//condition parameter1 
     end_conditions;
     begin_effects;
  34;//effect number	                    change into ship
@@ -4279,11 +4282,6 @@ Cloaking device ON;//name---------------------------------------
  34;//effect number	                    change into ship
       0.000000;//parameter1
       0.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4 
-29;//effect number	                    change into pirate ship script
-     95.000000;//parameter1
-      1.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4 
     16;//effect number
@@ -5262,12 +5260,15 @@ Flag: Confederacy;//name---------------------------------------
   end_wield_slots;
   begin_effects_block;
   Arrr me hearties!;//event text
-    none;//event failure text
-    use.wav;//sound, none for nothing
+    Cannot change flag in cloaked mode;//event failure text
+    paper.wav;//sound, none for nothing
     1;//vanishes after event, 0=no, 1=yes
     U;//use key
     F;//quick key
     begin_conditions;
+	0;//use condition number                     no cloaking device on
+      106.000000;//use condition parameter0
+      0.000000;//use condition parameter1   
     end_conditions;
     begin_effects;
  34;//effect number	                    change into pirate
@@ -5317,12 +5318,15 @@ Flag: Pirate;//name---------------------------------------
   end_wield_slots;
   begin_effects_block;
   In the navy...;//event text
-    none;//event failure text
-    use.wav;//sound, none for nothing
+    Cannot change flag in cloaked mode;//event failure text
+    paper.wav;//sound, none for nothing
     1;//vanishes after event, 0=no, 1=yes
     U;//use key
     F;//quick key
     begin_conditions;
+	0;//use condition number                     no cloaking device on
+      106.000000;//use condition parameter0
+      0.000000;//use condition parameter1  
     end_conditions;
     begin_effects;
  34;//effect number	                    change into ship
@@ -5330,22 +5334,22 @@ Flag: Pirate;//name---------------------------------------
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4 
-39;//effect number                   
+39;//effect number                   show confed flag           
     26.000000;//parameter1
     1.000000;//parameter2
     0.000000;//parameter3
     0.000000;//parameter4
-39;//effect number                   
+39;//effect number                  hide pirate flag            
     27.000000;//parameter1
     0.000000;//parameter2
     0.000000;//parameter3
     0.000000;//parameter4
- 22;//effect number
+ 22;//effect number                  change side to friendly ships
      0.000000;//parameter1
       -1.000000;//parameter2
       -1.000000;//parameter3
       0.000000;//parameter4 
-16;//effect number
+16;//effect number                add confed flag to inventory  
      131.000000;//parameter1
      1.000000;//parameter2
       0.000000;//parameter3
@@ -6882,5 +6886,233 @@ Flare (unfinished);//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
+Alien ship parts;//name---------------------------------------
+ 166;//identifier
+  0;//item class
+  1.000000;//weight
+   Use these assembled Alien ship parts (press U) to disguise the Wolf IV and fly the Alien flag, allowing you to move unhindered through Alien systems... \ \ Press "F" after using this item to switch between Alien, Pirate and Confederacy flags!;//short description
+  As you slot the last piece in place, you realise you suddenly have the Alien parts required to completely disguise the Wolf IV from prying Alien eyes... \ \ Be warned: prepare to suffer the full force of Confederate justice if you meet a Navy ship while disguised!;//first pick up text
+  0.70000;//size on map
+  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  -1;//particle to shown on radar
+  1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
+  alienobject.png;//texture name
+  -1;//wielded script,-1=nothing, only applicable for wieldable items
+  -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
+  1;//show help text for conditions
+  begin_wield_slots;
+  end_wield_slots;
+  begin_effects_block;
+  You can now raise the Alien flag...;//event text
+   Must be flying the Confederacy Flag for this to work!;//event failure text
+    paper.wav;//sound, none for nothing
+    1;//vanishes after event, 0=no, 1=yes
+    U;//use key
+    0;//quick key
+    begin_conditions;
+ 0;//use condition number
+      131.000000;//use condition parameter0
+      1.000000;//use condition parameter1   
+    end_conditions;
+    begin_effects;
+16;//effect number                remove old confed flag to inventory  
+     131.000000;//parameter1
+     -1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+	  16;//effect number                add new Pirate flag to inventory  
+     169.000000;//parameter1
+     1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+	 59;//effect number               run Pirate flag item to activate Alien flag
+     169.000000;//parameter1
+     0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+	  	  16;//effect number                add new Pirate flag to inventory  
+     169.000000;//parameter1
+     -1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+	  end_effects;
+	end_effects_block;
+   begin_combinations;
+  end_combinations;
+Flag: Alien;//name---------------------------------------
+  167;//identifier
+  2;//item class
+  0.000000;//weight
+  You are flying the Alien flag! \ This flag allows you to fly freely in Alien space. \ Use or press 'F' in-game to raise the flag of the United Confederacy of Planets, and become a law-abiding citizen once again.;//short description
+ none;//first pick up text
+  0.650000;//size on map
+  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  -1;//particle to shown on radar
+  1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
+  Alien_Flag.png;//texture name
+  -1;//wielded script,-1=nothing, only applicable for wieldable items
+  -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
+  1;//show help text for conditions
+  begin_wield_slots;
+  end_wield_slots;
+  begin_effects_block;
+  In the navy...;//event text
+    Cannot change flag in cloaked mode;//event failure text
+    paper.wav;//sound, none for nothing
+    1;//vanishes after event, 0=no, 1=yes
+    U;//use key
+    F;//quick key
+    begin_conditions;
+	0;//use condition number                     no cloaking device on
+      106.000000;//use condition parameter0
+      0.000000;//use condition parameter1  
+    end_conditions;
+    begin_effects;
+ 34;//effect number	                    change into ship
+      0.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+39;//effect number                   show confed flag           
+    26.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+39;//effect number                  hide Alien flag            
+    32.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+ 22;//effect number                  change side to friendly ships
+     0.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4 
+16;//effect number                add confed flag to inventory  
+     168.000000;//parameter1
+     1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  end_effects_block;
+  begin_combinations;
+  end_combinations;
+Flag: Confederacy;//name---------------------------------------
+  168;//identifier
+  2;//item class
+  0.000000;//weight
+  You are flying the flag of the Confederate Navy. \ Use or press 'F' in-game to disguise your ship and raise a pirate flag, allowing you to attack neutral ships for loot. Be warned, the Confederacy is also at war against the scourge of piracy...;//short description
+  none;//first pick up text
+  0.650000;//size on map
+  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  -1;//particle to shown on radar
+  1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
+  Confederate_Flag.png;//texture name
+  -1;//wielded script,-1=nothing, only applicable for wieldable items
+  -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
+  1;//show help text for conditions
+  begin_wield_slots;
+  end_wield_slots;
+  begin_effects_block;
+  Arrr me hearties!;//event text
+    Cannot change flag in cloaked mode;//event failure text
+    paper.wav;//sound, none for nothing
+    1;//vanishes after event, 0=no, 1=yes
+    U;//use key
+    F;//quick key
+    begin_conditions;
+	0;//use condition number                     no cloaking device on
+      106.000000;//use condition parameter0
+      0.000000;//use condition parameter1    
+    end_conditions;
+    begin_effects;
+ 34;//effect number	                    change into pirate
+      3.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+39;//effect number                   
+    26.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+39;//effect number                   
+    27.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+ 22;//effect number
+     10.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4
+16;//effect number
+     169.000000;//parameter1
+     1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  end_effects_block;
+  begin_combinations;
+  end_combinations;
+Flag: Pirate;//name---------------------------------------
+  169;//identifier
+  2;//item class
+  0.000000;//weight
+  You are flying a pirate flag. Arrr! \ This flag allows you to attack neutral ships for loot. Be warned, as a pirate you will lose PP! \ Use or press 'F' in-game to raise the flag of the Alien Horde...;//short description
+ none;//first pick up text
+  0.650000;//size on map
+  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  -1;//particle to shown on radar
+  1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
+  Pirate_Flag.png;//texture name
+  -1;//wielded script,-1=nothing, only applicable for wieldable items
+  -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
+  1;//show help text for conditions
+  begin_wield_slots;
+  end_wield_slots;
+  begin_effects_block;
+  It's not easy being green...;//event text
+    Cannot change flag in cloaked mode;//event failure text
+    paper.wav;//sound, none for nothing
+    1;//vanishes after event, 0=no, 1=yes
+    U;//use key
+    F;//quick key
+    begin_conditions;
+	0;//use condition number                     no cloaking device on
+      106.000000;//use condition parameter0
+      0.000000;//use condition parameter1  
+    end_conditions;
+    begin_effects;
+ 34;//effect number	                    change into alien ship
+      5.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+39;//effect number                   show Alien flag           
+    32.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+39;//effect number                  hide pirate flag            
+    27.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+ 22;//effect number                  change side to alien ships
+     1.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4 
+16;//effect number                add Alien flag to inventory  
+     167.000000;//parameter1
+     1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  end_effects_block;
+  begin_combinations;
+  end_combinations;
 end_of_file;
 
+ 
