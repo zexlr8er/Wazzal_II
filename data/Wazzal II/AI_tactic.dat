@@ -134,7 +134,7 @@ Sprinkler;//tactic name
   10;//anger level size
     6;//action
     0;//parameter0
-    0;//can hit enemies
+    1;//can hit enemies
     0;//can eat
   end_levels;
 Guard;//tactic name----light
@@ -385,30 +385,6 @@ Converted alien, Follow;//tactic name--------------follow
    4;//action
     0;//parameter0
     0;//can hit enemies
-    0;//can eat
-  end_levels;
-Press T to control in Tank;//tactic name --------- standard tank moving
-  31;//identifier
-  begin_levels;
-  20;//anger level size
-    1;//action
-    0;//parameter0
-    1;//can hit enemies
-    1;//can eat
-  25;//anger level size 
-    3;//action
-    0;//parameter0
-    1;//can hit enemies
-    0;//can eat
- 15;//anger level size 
-    4;//action
-    0;//parameter0
-    1;//can hit enemies
-    0;//can eat
-	 15;//anger level size 
-    3;//action
-    0;//parameter0
-    1;//can hit enemies
     0;//can eat
   end_levels;
 end_of_file;
