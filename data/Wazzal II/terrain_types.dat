@@ -212,6 +212,15 @@ Lava;//name---------------------------------------
 26;//condition
       26.000000;//condition parameter0
       0.000000;//condition parameter1 
+	  26;//condition
+      0.000000;//condition parameter0
+      0.000000;//condition parameter1
+26;//condition
+      65.000000;//condition parameter0
+      0.000000;//condition parameter1 
+26;//condition
+      66.000000;//condition parameter0
+      0.000000;//condition parameter1 
     end_conditions;
     begin_effects;
     1;//effect number
@@ -978,6 +987,15 @@ Hotrock1;//name---------------------------------------
 26;//condition
       26.000000;//condition parameter0
       0.000000;//condition parameter1 
+26;//condition
+      0.000000;//condition parameter0
+      0.000000;//condition parameter1
+26;//condition
+      65.000000;//condition parameter0
+      0.000000;//condition parameter1 
+26;//condition
+      66.000000;//condition parameter0
+      0.000000;//condition parameter1 	  
     end_conditions;
     begin_effects;
     1;//effect number
@@ -1019,7 +1037,16 @@ Hotrock2;//name---------------------------------------
     begin_conditions;
 26;//condition
       26.000000;//condition parameter0
+      0.000000;//condition parameter1
+26;//condition
+      0.000000;//condition parameter0
+      0.000000;//condition parameter1
+26;//condition
+      65.000000;//condition parameter0
       0.000000;//condition parameter1 
+26;//condition
+      66.000000;//condition parameter0
+      0.000000;//condition parameter1 	  
     end_conditions;
     begin_effects;
     1;//effect number
@@ -1424,6 +1451,839 @@ New Grass;//name---------------------------------------
   none;//override footstep sound
   begin_terrain_frames;
   grass4.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+Jupiter;//name----------------------------------
+  68;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.100000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  jupiter_1_0.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+ Jupiter;//name----------------------------------
+  69;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.100000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  jupiter_2_0.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+  Jupiter;//name----------------------------------
+  70;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.100000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  jupiter_3_0.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+  Jupiter;//name----------------------------------
+  71;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.100000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  jupiter_4_0.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+  Jupiter;//name----------------------------------
+ 72;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.100000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  jupiter_5_0.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+  Jupiter;//name----------------------------------
+  73;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.100000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  jupiter_6_0.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+  Jupiter;//name----------------------------------
+  74;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.100000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  jupiter_7_0.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+    Jupiter;//name----------------------------------
+  75;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.100000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  jupiter_8_0.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+    Jupiter;//name----------------------------------
+  76;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.100000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  jupiter_9_0.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+    Jupiter;//name----------------------------------
+  77;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.100000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  jupiter_10_0.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+    Jupiter;//name----------------------------------
+  78;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.100000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  jupiter_11_0.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+    Jupiter;//name----------------------------------
+  79;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.100000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  jupiter_12_0.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+    Jupiter;//name----------------------------------
+  80;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.100000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  jupiter_13_0.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+    Jupiter;//name----------------------------------
+  81;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.100000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  jupiter_14_0.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+    Jupiter;//name----------------------------------
+  82;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.100000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  jupiter_15_0.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+    Jupiter;//name----------------------------------
+  83;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.100000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  jupiter_16_0.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+     Jupiter;//name----------------------------------
+  84;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.100000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  jupiter_17_0.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+      Jupiter;//name----------------------------------
+  85;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.100000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  jupiter_18_0.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+      Jupiter;//name----------------------------------
+  86;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.100000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  jupiter_19_0.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+      Jupiter;//name----------------------------------
+  87;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.100000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  jupiter_20_0.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+    Jupiter;//name----------------------------------
+  88;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.100000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  jupiter_21_0.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+    Jupiter;//name----------------------------------
+  89;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.100000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  jupiter_22_0.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+    Jupiter;//name----------------------------------
+  90;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.100000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  jupiter_23_0.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+    Jupiter;//name----------------------------------
+  91;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.100000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  jupiter_24_0.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+    Jupiter;//name----------------------------------
+  92;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.100000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  jupiter_25_0.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+    Jupiter;//name----------------------------------
+  93;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.100000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  jupiter_26_0.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+     Jupiter;//name----------------------------------
+  94;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.100000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  jupiter_27_0.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+      Jupiter;//name----------------------------------
+  95;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.100000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  jupiter_28_0.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+      Jupiter;//name----------------------------------
+  96;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.100000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  jupiter_29_0.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+        Jupiter;//name----------------------------------
+  97;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.100000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  jupiter_30_0.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+    Jupiter;//name----------------------------------
+  98;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.100000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  jupiter_31_0.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+    Jupiter;//name----------------------------------
+  99;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.100000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  jupiter_32_0.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+    Jupiter;//name----------------------------------
+ 100;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.100000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  jupiter_33_0.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+    Jupiter;//name----------------------------------
+  101;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.100000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  jupiter_34_0.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+    Jupiter;//name----------------------------------
+  102;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.100000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  jupiter_35_0.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+    Jupiter;//name----------------------------------
+  103;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.100000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  jupiter_36_0.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+     Jupiter;//name----------------------------------
+  104;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.100000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  jupiter_37_0.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+      Jupiter;//name----------------------------------
+  105;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.100000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  jupiter_38_0.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+      Jupiter;//name----------------------------------
+  106;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.100000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  jupiter_39_0.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+         Jupiter;//name----------------------------------
+  107;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.100000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  jupiter_40_0.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+    Jupiter;//name----------------------------------
+  108;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.100000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  jupiter_41_0.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+    Jupiter;//name----------------------------------
+  109;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.100000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  jupiter_42_0.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+    Jupiter;//name----------------------------------
+ 110;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.100000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  jupiter_43_0.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+    Jupiter;//name----------------------------------
+  111;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.100000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  jupiter_44_0.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+    Jupiter;//name----------------------------------
+  112;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.100000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  jupiter_45_0.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+    Jupiter;//name----------------------------------
+  113;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.100000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  jupiter_46_0.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+     Jupiter;//name----------------------------------
+  114;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.100000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  jupiter_47_0.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+      Jupiter;//name----------------------------------
+  115;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.100000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  jupiter_48_0.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+  end_effects_block;
+      Jupiter;//name----------------------------------
+  116;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.100000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  250.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none.wav;//override footstep sound
+  begin_terrain_frames;
+  jupiter_49_0.png;//terrain texture
     0.000000;//time to display frame
   end_terrain_frames;
   begin_effects_block;
