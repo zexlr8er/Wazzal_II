@@ -6889,14 +6889,14 @@ Flare (unfinished);//name---------------------------------------
 Alien ship parts;//name---------------------------------------
  166;//identifier
   0;//item class
-  1.000000;//weight
+  90.000000;//weight
    Use these assembled Alien ship parts (press U) to disguise the Wolf IV and fly the Alien flag, allowing you to move unhindered through Alien systems... \ \ Press "F" after using this item to switch between Alien, Pirate and Confederacy flags!;//short description
   As you slot the last piece in place, you realise you suddenly have the Alien parts required to completely disguise the Wolf IV from prying Alien eyes... \ \ Be warned: prepare to suffer the full force of Confederate justice if you meet a Navy ship while disguised!;//first pick up text
   0.70000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
   1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
-  alienobject.png;//texture name
+  alienpartsall.png;//texture name
   -1;//wielded script,-1=nothing, only applicable for wieldable items
   -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
   1;//show help text for conditions
@@ -7112,6 +7112,122 @@ Flag: Pirate;//name---------------------------------------
     end_effects;
   end_effects_block;
   begin_combinations;
+  end_combinations;
+  Alien wing cladding;//name---------------------------------------
+ 170;//identifier
+  0;//item class
+  30.000000;//weight
+  The wing cladding from an Alien ship. Combine with other Alien ship parts to form a disguise for the Wolf IV!;//short description
+  none;//first pick up text
+  0.650000;//size on map
+  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  -1;//particle to shown on radar
+  1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
+  alienpart1.png;//texture name
+  -1;//wielded script,-1=nothing, only applicable for wieldable items
+  -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
+  1;//show help text for conditions
+  begin_wield_slots;
+  end_wield_slots;
+  begin_effects_block;
+	end_effects_block;
+   begin_combinations;
+       1;//discard this item after combine
+    171;//combines with
+    1;//discard that item after combine
+    5;//combine time
+    1;//can be broken up
+    begin_items_given;
+      173;//result of combine
+     1;//amount to give
+    end_items_given;
+  end_combinations;
+   Alien engine cladding;//name---------------------------------------
+ 171;//identifier
+  0;//item class
+  30.000000;//weight
+  The engine room cladding from an Alien ship. Combine with other Alien ship parts to form a disguise for the Wolf IV!;//short description
+  none;//first pick up text
+  0.70000;//size on map
+  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  -1;//particle to shown on radar
+  1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
+  alienpart2.png;//texture name
+  -1;//wielded script,-1=nothing, only applicable for wieldable items
+  -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
+  1;//show help text for conditions
+  begin_wield_slots;
+  end_wield_slots;
+  begin_effects_block;
+	end_effects_block;
+   begin_combinations;
+          1;//discard this item after combine
+    170;//combines with
+    1;//discard that item after combine
+    5;//combine time
+    1;//can be broken up
+    begin_items_given;
+      173;//result of combine
+     1;//amount to give
+    end_items_given;
+  end_combinations;
+  Alien bridge cladding;//name---------------------------------------
+ 172;//identifier
+  0;//item class
+  30.000000;//weight
+  The bridge and cockpit cladding from an Alien ship. Combine with other Alien ship parts to form a disguise for the Wolf IV!;//short description
+  none;//first pick up text
+  0.50000;//size on map
+  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  -1;//particle to shown on radar
+  1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
+  alienpart3.png;//texture name
+  -1;//wielded script,-1=nothing, only applicable for wieldable items
+  -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
+  1;//show help text for conditions
+  begin_wield_slots;
+  end_wield_slots;
+  begin_effects_block;
+	end_effects_block;
+   begin_combinations;
+             1;//discard this item after combine
+    173;//combines with
+    1;//discard that item after combine
+    5;//combine time
+    1;//can be broken up
+    begin_items_given;
+      166;//result of combine
+     1;//amount to give
+    end_items_given;
+  end_combinations;
+    Alien wing and engine cladding;//name---------------------------------------
+ 173;//identifier
+  0;//item class
+  60.000000;//weight
+  The wing and engine room cladding from an Alien ship. Combine with other Alien ship parts to form a disguise for the Wolf IV!;//short description
+  none;//first pick up text
+  0.70000;//size on map
+  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  -1;//particle to shown on radar
+  1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
+  alienpart12.png;//texture name
+  -1;//wielded script,-1=nothing, only applicable for wieldable items
+  -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
+  1;//show help text for conditions
+  begin_wield_slots;
+  end_wield_slots;
+  begin_effects_block;
+	end_effects_block;
+   begin_combinations;
+          1;//discard this item after combine
+    172;//combines with
+    1;//discard that item after combine
+    5;//combine time
+    1;//can be broken up
+    begin_items_given;
+      166;//result of combine
+     1;//amount to give
+    end_items_given;
   end_combinations;
 end_of_file;
 
