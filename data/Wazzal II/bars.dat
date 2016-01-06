@@ -70,7 +70,7 @@ Good will;//name----------------------------------------------------------
   1.000000;//red color component for maximum
   0.000000;//green color component for maximum
   0.000000;//blue color component for maximum
-Armor;//name----------------------------------------------------------
+Unused;//name----------------------------------------------------------
   3;//identifier
   4;//bar type, 0=normal, 1=show body temperature, 2=show number of items parameter0, 3=show wielded weapon ammo, 4=show armor, 5=show carry weight, 6=show seconds from game start
   0;//parameter0
@@ -166,7 +166,7 @@ Temperature;//name----------------------------------------------------------
   1.000000;//red color component for maximum
   0.00000;//green color component for maximum
   0.000000;//blue color component for maximum
-Armor;//name----------------------------------------------------------
+Unused;//name----------------------------------------------------------
   7;//identifier
   4;//bar type, 0=normal, 1=show body temperature, 2=show number of items parameter0, 3=show wielded weapon ammo, 4=show armor, 5=show carry weight, 6=show seconds from game start
   0;//parameter0
@@ -759,6 +759,30 @@ Slaves in inventory;//name------------------------------------------------------
   0;//background picture width
   0;//background picture height
 1;//height    
+  60;//length in pixels for maximum (negative = bar increases to left)
+  1.000000;//red color component for minimum
+  0.000000;//green color component for minimum
+  0.000000;//blue color component for minimum
+  1.000000;//red color component for maximum
+  0.000000;//green color component for maximum
+  0.000000;//blue color component for maximum
+ Alien flag;//name----------------------------------------------------------
+ 32;//identifier
+  0;//bar type, 0=normal, 1=show body temperature, 2=show number of items parameter0, 3=show wielded weapon ammo, 4=show armor, 5=show carry weight, 6=show seconds from game start
+  0;//parameter0
+  0;//visible (only applicable for player's bars)
+  1;//visible on enemies
+  0;//show number
+  2;//anchor point (0=left top, 1=right top, 2=left bottom, 3=right bottom)
+ 23;//location x, pixels from anchor point
+  -220;//location y, pixels from anchor point
+  invisible.png;//bar picture
+  Alien_Flag.png;//background picture
+ 0;//background picture x offset
+  -14;//background picture y offset
+ 80;//background picture width
+ 80;//background picture height
+  2.3;//height    
   60;//length in pixels for maximum (negative = bar increases to left)
   1.000000;//red color component for minimum
   0.000000;//green color component for minimum
