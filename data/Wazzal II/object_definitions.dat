@@ -4212,7 +4212,7 @@ ruin5;//name---------------------------------------
   0.500000;//vary size
   1;//transparent
   0;//layer
-  1;//does it sway with the wind
+  0;//does it sway with the wind
   0;//gets transparent when player near
   0;//provides shade for player
   -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
