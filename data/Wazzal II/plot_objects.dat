@@ -459,7 +459,7 @@ Captain's chair;//name---------------------------------------
     begin_effects;
     end_effects;
   end_effects_block;
-Click to return to Ship;//name---------------------------------------
+Click to return to space;//name---------------------------------------
   16;//identifier
   -1;//map type to place to -1=any map 0=> type from areas.dat
   0;//plot_object class
@@ -889,7 +889,7 @@ Fire;//name---------------------------------------
       0.400000;//parameter4
     end_effects;
   end_effects_block;
-Click to return to ship;//name---------------------------------------(for forest)
+Click to return to Wolf IV;//name---------------------------------------(for forest)
   25;//identifier
   -1;//map type to place to -1=any map 0=> type from areas.dat
   0;//plot_object class
@@ -1716,7 +1716,7 @@ Berry tree;//name-----------------------------------------
       0.000000;//parameter4
     end_effects;
   end_effects_block;
-Click to return to ship;//name---------------------------------------(for ocean)
+Click to return to Wolf IV;//name---------------------------------------(for ocean)
   43;//identifier
   -1;//map type to place to -1=any map 0=> type from areas.dat
   0;//plot_object class
@@ -1981,7 +1981,7 @@ Zycar;//name---------------------------------------lava
       0.000000;//parameter4  
     end_effects;
   end_effects_block;
-Click to return to ship;//name---------------------------------------(for lava)
+Click to return to Wolf IV;//name---------------------------------------(for lava)
   47;//identifier
   -1;//map type to place to -1=any map 0=> type from areas.dat
   0;//plot_object class
@@ -2782,7 +2782,7 @@ Airstrike marker;//name--------------------------------------
     0.000000;//parameter4
     end_effects;
   end_effects_block;
-Click to return to Ship;//name---------------------------------------for ice
+Click to return to Wolf IV;//name---------------------------------------for ice
   65;//identifier
   -1;//map type to place to -1=any map 0=> type from areas.dat
   0;//plot_object class
@@ -3603,7 +3603,7 @@ Errxelz 8 (formally);//name---------------------------------------
       0.000000;//parameter4 
     end_effects;
   end_effects_block;
-Click to return to Ship;//name---------------------------------------
+Click to return to Wolf IV;//name---------------------------------------alien
  84;//identifier
   -1;//map type to place to -1=any map 0=> type from areas.dat
   0;//plot_object class
@@ -3898,7 +3898,7 @@ Moon of Kinmegag 71;//name---------------------------------------
       0.000000;//parameter4 
      end_effects;
   end_effects_block;
-Click to return to Ship;//name---------------------------------------
+Click to return to Wolf IV;//name---------------------------------------mooon
  89;//identifier
   -1;//map type to place to -1=any map 0=> type from areas.dat
   0;//plot_object class
@@ -4220,7 +4220,7 @@ Moon of Naquarin;//name---------------------------------------
       0.000000;//parameter4 
     end_effects;
   end_effects_block;
-Click to return to Ship;//name---------------------------------------
+Click to return to Wolf IV;//name---------------------------------------moon
  94;//identifier
   -1;//map type to place to -1=any map 0=> type from areas.dat
   0;//plot_object class
@@ -4701,7 +4701,7 @@ Jumpgate to New Dawn System;//name---------------------------------------
       0.000000;//parameter4     
     end_effects;
   end_effects_block;
-Click to return to space;//name---------------------------------------(for space station)
+Click to return to Wolf IV;//name---------------------------------------(for space station)
   105;//identifier
   -1;//map type to place to -1=any map 0=> type from areas.dat
   0;//plot_object class
@@ -5094,7 +5094,7 @@ Dorian Prime;//name---------------------------------------meadows
       0.000000;//parameter4 
     end_effects;
   end_effects_block;
-Click to return to ship;//name---------------------------------------(for meadows)
+Click to return to Wolf IV;//name---------------------------------------(for meadows)
  112;//identifier
   -1;//map type to place to -1=any map 0=> type from areas.dat
   0;//plot_object class
@@ -5291,7 +5291,7 @@ Flare;//name---------------------------------------
   2;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   15;//particle to shown on radar
   none;//radiate sound
-  120000.000000;//time to delete object in milliseconds, -1=don't delete
+  5000.000000;//time to delete object in milliseconds, -1=don't delete
   0;//trigger event by 0=player click, 1=player near, 2=near or click, 3=map creation (try to avoid any creature specific effects when using this, also does not check conditions), 4=interval parameter1
   0;//trigger event parameter1
   1;//show help text for conditions
@@ -5799,6 +5799,342 @@ $500 Confederate Credits;//name---------------------------------------
 	0.000000;//parameter2
 	30.000000;//parameter3
 	0.000000;//parameter4	
+    end_effects;
+  end_effects_block;
+Desert planet;//name---------------------------------------desert
+  134;//identifier
+  -1;//map type to place to -1=any map 0=> type from areas.dat
+  0;//plot_object class
+ 190;//object definition number
+  0;//number of objects to be placed
+  0;//location type, 0=random, 1=distance min(parameter1) max(parameter2) from player start, 2=distance min(parameter1) max(parameter2) from object parameter0, 3=coordinates [parameter0, parameter1] (0=min, 1=max)  vary location=parameter2
+  0.000000;//location parameter0
+  0.000000;//location parameter1
+  0.0000w00;//location parameter2
+  2;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+ 64;//particle to shown on radar
+  none;//radiate sound
+  -1.000000;//time to delete object in milliseconds, -1=don't delete
+  0;//trigger event by 0=player click, 1=player near, 2=near or click, 3=map creation (try to avoid any creature specific effects when using this, also does not check conditions), 4=interval parameter1
+  0;//trigger event parameter1
+  1;//show help text for conditions
+  begin_effects_block;
+  none;//event text
+    none;//sound, none for nothing
+    2;//vanishes after event, 0=no, but cannot be reused, 1=vanishes, 2=no, and can be reused
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+29;//effect number                          use flag checker script
+      93.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    21;//effect number                          teleport to planet
+      21.000000;//parameter1
+      135.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    34;//effect number	                    change into human
+      1.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4     
+    52;//effect number                          change inventory to 1
+      1.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    62;//effect number                          force close inventory
+      0.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4    
+    39;//effect number                          hide bar0
+      0.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+    39;//effect number                          hide bar1
+      1.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+        39;//effect number                         hide bar3
+      3.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    39;//effect number                          show bar12
+      12.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    39;//effect number                          show bar5
+      5.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    39;//effect number                          show bar6
+      6.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    39;//effect number                          show bar7
+      7.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    39;//effect number                          hide bar8
+      8.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+39;//effect number                          show bar28
+      2.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+39;//effect number                         hide bar28
+      28.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+    56;//effect number                  overide control
+      -1.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+    end_effects;
+  end_effects_block;
+Click to return to Wolf IV;//name---------------------------------------(for meadows)
+ 135;//identifier
+  -1;//map type to place to -1=any map 0=> type from areas.dat
+  0;//plot_object class
+  28;//object definition number
+  0;//number of objects to be placed
+  0;//location type, 0=random, 1=distance min(parameter1) max(parameter2) from player start, 2=distance min(parameter1) max(parameter2) from object parameter0, 3=coordinates [parameter0, parameter1] (0=min, 1=max)  vary location=parameter2
+  0.000000;//location parameter0
+  0.000000;//location parameter1
+  0.000000;//location parameter2
+  2;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  56;//particle to shown on radar
+  none;//radiate sound
+  -1.000000;//time to delete object in milliseconds, -1=don't delete
+  0;//trigger event by 0=player click, 1=player near, 2=near or click, 3=map creation (try to avoid any creature specific effects when using this, also does not check conditions), 4=interval parameter1
+  0;//trigger event parameter1
+  1;//show help text for conditions
+  begin_effects_block;
+  none;//event text
+    none;//sound, none for nothing
+    2;//vanishes after event, 0=no, but cannot be reused, 1=vanishes, 2=no, and can be reused
+    begin_conditions;//  
+    end_conditions;
+    begin_effects;
+    34;//effect number	             change into ship
+      0.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    21;//effect number                          teleport to planet
+      -1.000000;//parameter1
+      134.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4     
+    62;//effect number                          force close inventory
+      0.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+    52;//effect number                         change inventory to 0
+      0.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    39;//effect number                          show bar0
+      0.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+    39;//effect number                          show bar1
+      1.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+        39;//effect number                         show bar3
+      3.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    39;//effect number                          show bar8
+      8.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+    39;//effect number                          hide bar12
+      12.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    39;//effect number                          hide bar5
+      5.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    39;//effect number                          hide bar6
+      6.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    39;//effect number                          hide bar7
+      7.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+39;//effect number                          show bar28
+      2.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+    56;//effect number                  overide control
+    2.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+39;//effect number                          show bar28
+      28.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+39;//effect number                      show flag bar                 
+    26.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4      
+    end_effects;
+  end_effects_block;
+Descend to Jupiter;//name---------------------------------------
+  136;//identifier
+  -1;//map type to place to -1=any map 0=> type from areas.dat
+  0;//plot_object class
+  193;//object definition number
+  0;//number of objects to be placed
+  0;//location type, 0=random, 1=distance min(parameter1) max(parameter2) from player start, 2=distance min(parameter1) max(parameter2) from object parameter0, 3=coordinates [parameter0, parameter1] (0=min, 1=max)  vary location=parameter2
+  0.000000;//location parameter0
+  0.000000;//location parameter1
+  0.000000;//location parameter2
+  2;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  73;//particle to shown on radar
+  none;//radiate sound
+  -1.000000;//time to delete object in milliseconds, -1=don't delete
+  0;//trigger event by 0=player click, 1=player near, 2=near or click, 3=map creation (try to avoid any creature specific effects when using this, also does not check conditions), 4=interval parameter1
+  0;//trigger event parameter1
+  1;//show help text for conditions
+  begin_effects_block;
+  none;//event text
+    none;//sound, none for nothing
+    2;//vanishes after event, 0=no, but cannot be reused, 1=vanishes, 2=no, and can be reused
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+    21;//effect number                          teleport to Jupiter
+     22.000000;//parameter1
+     137.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4     
+    end_effects;
+  end_effects_block;
+ Click to return to space;//name---------------------------------------
+137;//identifier
+  -1;//map type to place to -1=any map 0=> type from areas.dat
+  0;//plot_object class
+  216;//object definition number
+  0;//number of objects to be placed
+  0;//location type, 0=random, 1=distance min(parameter1) max(parameter2) from player start, 2=distance min(parameter1) max(parameter2) from object parameter0, 3=coordinates [parameter0, parameter1] (0=min, 1=max)  vary location=parameter2
+  0.000000;//location parameter0
+  0.000000;//location parameter1
+  0.000000;//location parameter2
+  2;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  56;//particle to shown on radar
+  none;//radiate sound
+  -1.000000;//time to delete object in milliseconds, -1=don't delete
+  0;//trigger event by 0=player click, 1=player near, 2=near or click, 3=map creation (try to avoid any creature specific effects when using this, also does not check conditions), 4=interval parameter1
+  0;//trigger event parameter1
+  1;//show help text for conditions
+  begin_effects_block;
+  none;//event text
+    none;//sound, none for nothing
+    2;//vanishes after event, 0=no, but cannot be reused, 1=vanishes, 2=no, and can be reused
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+    21;//effect number                          teleport to Jupiter
+      20.000000;//parameter1
+      136.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4     
+    end_effects;
+  end_effects_block;
+ Descend to Mars;//name---------------------------------------
+  138;//identifier
+  -1;//map type to place to -1=any map 0=> type from areas.dat
+  0;//plot_object class
+  194;//object definition number
+  0;//number of objects to be placed
+  0;//location type, 0=random, 1=distance min(parameter1) max(parameter2) from player start, 2=distance min(parameter1) max(parameter2) from object parameter0, 3=coordinates [parameter0, parameter1] (0=min, 1=max)  vary location=parameter2
+  0.000000;//location parameter0
+  0.000000;//location parameter1
+  0.000000;//location parameter2
+  2;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+ 74;//particle to shown on radar
+  fire.wav;//radiate sound
+  -1.000000;//time to delete object in milliseconds, -1=don't delete
+  0;//trigger event by 0=player click, 1=player near, 2=near or click, 3=map creation (try to avoid any creature specific effects when using this, also does not check conditions), 4=interval parameter1
+  0;//trigger event parameter1
+  1;//show help text for conditions
+  begin_effects_block;
+  none;//event text
+    none;//sound, none for nothing
+    2;//vanishes after event, 0=no, but cannot be reused, 1=vanishes, 2=no, and can be reused
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+    21;//effect number                          teleport to Mars
+     23.000000;//parameter1
+     139.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4     
+    end_effects;
+  end_effects_block;
+ Click to return to space;//name---------------------------------------
+139;//identifier
+  -1;//map type to place to -1=any map 0=> type from areas.dat
+  0;//plot_object class
+  216;//object definition number
+  0;//number of objects to be placed
+  0;//location type, 0=random, 1=distance min(parameter1) max(parameter2) from player start, 2=distance min(parameter1) max(parameter2) from object parameter0, 3=coordinates [parameter0, parameter1] (0=min, 1=max)  vary location=parameter2
+  0.000000;//location parameter0
+  0.000000;//location parameter1
+  0.000000;//location parameter2
+  2;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  56;//particle to shown on radar
+  none;//radiate sound
+  -1.000000;//time to delete object in milliseconds, -1=don't delete
+  0;//trigger event by 0=player click, 1=player near, 2=near or click, 3=map creation (try to avoid any creature specific effects when using this, also does not check conditions), 4=interval parameter1
+  0;//trigger event parameter1
+  1;//show help text for conditions
+  begin_effects_block;
+  none;//event text
+    none;//sound, none for nothing
+    2;//vanishes after event, 0=no, but cannot be reused, 1=vanishes, 2=no, and can be reused
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+    21;//effect number                          teleport to Venus
+      20.000000;//parameter1
+      138.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4     
     end_effects;
   end_effects_block;
 end_of_file;
