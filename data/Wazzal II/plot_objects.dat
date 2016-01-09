@@ -1097,7 +1097,7 @@ Jumpgate to Ennokknmo System;//name---------------------------------------
   1;//show help text for conditions
   begin_effects_block;
   none;//event text
-    none;//sound, none for nothing
+    jumpgate.wav;//sound, none for nothing
     2;//vanishes after event, 0=no, but cannot be reused, 1=vanishes, 2=no, and can be reused
     begin_conditions;
     end_conditions;
@@ -1133,7 +1133,7 @@ Jumpgate to Errxelz System;//name---------------------------------------
   1;//show help text for conditions
   begin_effects_block;
   none;//event text
-    none;//sound, none for nothing
+    jumpgate.wav;//sound, none for nothing
     2;//vanishes after event, 0=no, but cannot be reused, 1=vanishes, 2=no, and can be reused
     begin_conditions;
     end_conditions;
@@ -2041,7 +2041,7 @@ Jumpgate to Ennokknmo System;//name---------------------------------------
   1;//show help text for conditions
   begin_effects_block;
   none;//event text
-    none;//sound, none for nothing
+    jumpgate.wav;//sound, none for nothing
     2;//vanishes after event, 0=no, but cannot be reused, 1=vanishes, 2=no, and can be reused
     begin_conditions;
     end_conditions;
@@ -2072,7 +2072,7 @@ Jumpgate to Tiodia System;//name---------------------------------------
   1;//show help text for conditions
   begin_effects_block;
   none;//event text
-    none;//sound, none for nothing
+    jumpgate.wav;//sound, none for nothing
     2;//vanishes after event, 0=no, but cannot be reused, 1=vanishes, 2=no, and can be reused
     begin_conditions;
     end_conditions;
@@ -3674,7 +3674,7 @@ Jumpgate to Arhamt System;//name---------------------------------------
   1;//show help text for conditions
   begin_effects_block;
   none;//event text
-    none;//sound, none for nothing
+    jumpgate.wav;//sound, none for nothing
     2;//vanishes after event, 0=no, but cannot be reused, 1=vanishes, 2=no, and can be reused
     begin_conditions;
     end_conditions;
@@ -3705,7 +3705,7 @@ Jumpgate to Tiodia System;//name---------------------------------------
   1;//show help text for conditions
   begin_effects_block;
   none;//event text
-    none;//sound, none for nothing
+    jumpgate.wav;//sound, none for nothing
     2;//vanishes after event, 0=no, but cannot be reused, 1=vanishes, 2=no, and can be reused
     begin_conditions;
     end_conditions;
@@ -4346,7 +4346,7 @@ Jumpgate to Arhamt System;//name---------------------------------------
   1;//show help text for conditions
   begin_effects_block;
   none;//event text
-    none;//sound, none for nothing
+    jumpgate.wav;//sound, none for nothing
     2;//vanishes after event, 0=no, but cannot be reused, 1=vanishes, 2=no, and can be reused
     begin_conditions;
     end_conditions;
@@ -4377,7 +4377,7 @@ Jumpgate to Ntedro System;//name---------------------------------------
   1;//show help text for conditions
   begin_effects_block;
   none;//event text
-    none;//sound, none for nothing
+    jumpgate.wav;//sound, none for nothing
     2;//vanishes after event, 0=no, but cannot be reused, 1=vanishes, 2=no, and can be reused
     begin_conditions;
     end_conditions;
@@ -4501,7 +4501,7 @@ Jumpgate to New Dawn System;//name---------------------------------------
   1;//show help text for conditions
   begin_effects_block;
   none;//event text
-    none;//sound, none for nothing
+    jumpgate.wav;//sound, none for nothing
     2;//vanishes after event, 0=no, but cannot be reused, 1=vanishes, 2=no, and can be reused
     begin_conditions;
     end_conditions;
@@ -4532,7 +4532,7 @@ Jumpgate to Ntedro System;//name---------------------------------------
   1;//show help text for conditions
   begin_effects_block;
   none;//event text
-    none;//sound, none for nothing
+    jumpgate.wav;//sound, none for nothing
     2;//vanishes after event, 0=no, but cannot be reused, 1=vanishes, 2=no, and can be reused
     begin_conditions;
     end_conditions;
@@ -4563,7 +4563,7 @@ Jumpgate to Arhamt System;//name---------------------------------------
   1;//show help text for conditions
   begin_effects_block;
   none;//event text
-    none;//sound, none for nothing
+    jumpgate.wav;//sound, none for nothing
     2;//vanishes after event, 0=no, but cannot be reused, 1=vanishes, 2=no, and can be reused
     begin_conditions;
     end_conditions;
@@ -4594,7 +4594,7 @@ Jumpgate to New Dawn System;//name---------------------------------------
   1;//show help text for conditions
   begin_effects_block;
   none;//event text
-    none;//sound, none for nothing
+    jumpgate.wav;//sound, none for nothing
     2;//vanishes after event, 0=no, but cannot be reused, 1=vanishes, 2=no, and can be reused
     begin_conditions;
     end_conditions;
@@ -4830,7 +4830,7 @@ Jumpgate to Eent 4 System;//name---------------------------------------
   1;//show help text for conditions
   begin_effects_block;
   none;//event text
-    none;//sound, none for nothing
+    jumpgate.wav;//sound, none for nothing
     2;//vanishes after event, 0=no, but cannot be reused, 1=vanishes, 2=no, and can be reused
     begin_conditions;
     end_conditions;
@@ -4866,7 +4866,7 @@ Jumpgate to Tiodia System;//name---------------------------------------
   1;//show help text for conditions
   begin_effects_block;
   none;//event text
-    none;//sound, none for nothing
+    jumpgate.wav;//sound, none for nothing
     2;//vanishes after event, 0=no, but cannot be reused, 1=vanishes, 2=no, and can be reused
     begin_conditions;
     end_conditions;
@@ -5338,7 +5338,7 @@ Jumpgate to Former Sol System;//name---------------------------------------
   1;//show help text for conditions
   begin_effects_block;
   none;//event text
-    none;//sound, none for nothing
+    jumpgate.wav;//sound, none for nothing
     2;//vanishes after event, 0=no, but cannot be reused, 1=vanishes, 2=no, and can be reused
     begin_conditions;
     end_conditions;
@@ -5369,7 +5369,7 @@ Jumpgate to New Dawn System;//name---------------------------------------
   1;//show help text for conditions
   begin_effects_block;
   none;//event text
-    none;//sound, none for nothing
+   jumpgate.wav;//sound, none for nothing
     2;//vanishes after event, 0=no, but cannot be reused, 1=vanishes, 2=no, and can be reused
     begin_conditions;
     end_conditions;

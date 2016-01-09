@@ -6905,7 +6905,7 @@ Alien ship cladding;//name---------------------------------------
   begin_effects_block;
   You can now raise the Alien flag...;//event text
    Must be flying the Confederacy Flag for this to work!;//event failure text
-    paper.wav;//sound, none for nothing
+    shriek1.wav;//sound, none for nothing
     1;//vanishes after event, 0=no, 1=yes
     U;//use key
     0;//quick key
@@ -7074,7 +7074,7 @@ Flag: Pirate;//name---------------------------------------
   begin_effects_block;
   It's not easy being green...;//event text
     Cannot change flag in cloaked mode;//event failure text
-    paper.wav;//sound, none for nothing
+    shriek1.wav;//sound, none for nothing
     1;//vanishes after event, 0=no, 1=yes
     U;//use key
     F;//quick key
