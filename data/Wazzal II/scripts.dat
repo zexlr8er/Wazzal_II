@@ -388,6 +388,12 @@ Drop energy;//name--------------------------------------------------------------
   6;//condition
     0.000000;//condition parameter0
     0.000000;//condition parameter1    
+	 13;//condition                    ---------------area not jupiter
+    22.000000;//condition parameter0
+    1.000000;//condition parameter1    
+		 13;//condition                ---------------area not mars
+    23.000000;//condition parameter0
+    1.000000;//condition parameter1   
   end_conditions;
   begin_effects;
   19;//effect number
@@ -3280,33 +3286,34 @@ Give V item for blood serum;//name----------------------------------------------
     1.000000;//parameter3
     0.000000;//parameter4
   end_effects;
-Turn neutral ships enemy (unused);//name-----------------------------------------------------------------
+Drop energy for alien;//name-----------------------------------------------------------------
   92;//identifier
-  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
   0;//call position, 0=player location, 1=mouse location
-  1;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
-  0;//run every n milliseconds
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  3200;//run every n milliseconds
   none;//message
   0;//message type, 0=quick message, 1=journal
   none;//sound, none for nothing
   0;//delay script for n seconds after conditions met
   0;//disabled after first use, 0=no, 1=yes
   begin_conditions;
-21;//condition                       creature is neutral class ship
-    10.000000;//condition parameter0
-    0.000000;//condition parameter1
+  6;//condition
+   5.000000;//condition parameter0
+    0.000000;//condition parameter1    
+		 13;//condition                    ---------------area not jupiter
+    22.000000;//condition parameter0
+    1.000000;//condition parameter1    
+		 13;//condition                ---------------area not mars
+    23.000000;//condition parameter0
+    1.000000;//condition parameter1   
   end_conditions;
   begin_effects;
- 46;//effect number
-      0.000000;//parameter1
-      0.000000;//parameter2
-      25000.000000;//parameter3
-      -1.000000;//parameter4
-    22;//effect number
-      11.000000;//parameter1
-      25000.000000;//parameter2
-      -1.000000;//parameter3
-      0.000000;//parameter4   
+  19;//effect number
+    14.000000;//parameter1
+    0.300000;//parameter2
+    5000.000000;//parameter3
+    10.000000;//parameter4
   end_effects;
 Use Pirate flag item if one;//name-----------------------------------------------------------------for original flag items
 93;//identifier
@@ -3676,6 +3683,12 @@ Drop energy;//name--------------------------------------------------------------
   6;//condition
     3.000000;//condition parameter0
     0.000000;//condition parameter1    
+		 13;//condition                    ---------------area not jupiter
+    22.000000;//condition parameter0
+    1.000000;//condition parameter1    
+		 13;//condition                ---------------area not mars
+    23.000000;//condition parameter0
+    1.000000;//condition parameter1   
   end_conditions;
   begin_effects;
   19;//effect number
@@ -3698,7 +3711,13 @@ Drop energy;//name--------------------------------------------------------------
   begin_conditions;
   6;//condition
    4.000000;//condition parameter0
-    0.000000;//condition parameter1    
+    0.000000;//condition parameter1 
+	 13;//condition                    ---------------area not jupiter
+    22.000000;//condition parameter0
+    1.000000;//condition parameter1    
+		 13;//condition                ---------------area not mars
+    23.000000;//condition parameter0
+    1.000000;//condition parameter1   	
   end_conditions;
   begin_effects;
   19;//effect number
