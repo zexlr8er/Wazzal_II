@@ -558,6 +558,7 @@ end_alien_list;
 2;
 3;
 4;
+5;
   end_excluded_plot_object_classes;
    none;//enter area text, specify none to not show it
  23;//---------------------------------------------------------
@@ -573,6 +574,7 @@ end_alien_list;
 2;
 3;
 4;
+5;
   end_excluded_plot_object_classes;
  none;//enter area text, specify none to not show it
 end_of_file;
