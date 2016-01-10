@@ -103,7 +103,7 @@ Laser Cannon (S);//name---------------------------------------
   0;//stop at hit 0=stop where hit, 1=don't stop
   5.000000;//bullet size
   0.000000;//spread
-  1.100000;//bullet speed
+  1.300000;//bullet speed
   600.000000;//time until bullet disappears
   130;//fire rate
   0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
@@ -1248,7 +1248,7 @@ Laser cannon (Twin);//name---------------------------------------Confed player
   0;//stop at hit 0=stop where hit, 1=don't stop
   5.000000;//bullet size
   0.000000;//spread
-  1.100000;//bullet speed
+  1.300000;//bullet speed
   650.000000;//time until bullet disappears
   140;//fire rate
   0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
