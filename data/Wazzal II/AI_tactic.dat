@@ -1,7 +1,7 @@
 Attack Normal;//tactic name
   0;//identifier
   begin_levels;
-  10;//anger level size
+  20;//anger level size
     1;//action
     0;//parameter0
     1;//can hit enemies
@@ -297,7 +297,7 @@ Guard area - egg layers;//tactic name
 Attack Normal (for aliens, can't eat);//tactic name
  24;//identifier
   begin_levels;
-  10;//anger level size
+  20;//anger level size
     1;//action
     0;//parameter0
     1;//can hit enemies
@@ -378,7 +378,7 @@ Converted alien, Follow;//tactic name--------------follow
   begin_levels;
   30;//anger level size
     2;//action
-    150;//parameter0
+    300;//parameter0
     1;//can hit enemies
     0;//can eat
  5;//anger level size
