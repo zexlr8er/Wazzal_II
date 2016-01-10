@@ -7426,6 +7426,41 @@ Flag: Pirate;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
+ Shovel;//name---------------------------------------
+  180;//identifier
+  0;//item class
+ 5.0000000;//weight
+ A sturdy shovel. This should allow you to plant some plants!;//short description
+none;//first pick up text
+  0.400000;//size on map
+  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  -1;//particle to shown on radar
+  1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
+shovel.png;//texture name
+  -1;//wielded script,-1=nothing, only applicable for wieldable items
+  -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
+  1;//show help text for conditions
+  begin_wield_slots;
+  end_wield_slots;
+  begin_effects_block;
+Ready to dig!;//event text
+   No more plants!;//event failure text
+    paper.wav;//sound, none for nothing
+    0;//vanishes after event, 0=no, 1=yes
+    U;//use key
+   0;//quick key
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+  9;//effect number
+      94.000000;//parameter1
+     0.000000;//parameter2
+    0.000000;//parameter3
+     0.000000;//parameter4
+        end_effects; 
+  end_effects_block;
+  begin_combinations;
+  end_combinations;
 end_of_file;
 
  

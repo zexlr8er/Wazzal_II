@@ -2288,4 +2288,28 @@ Jupiter;//name----------------------------------
   end_terrain_frames;
   begin_effects_block;
   end_effects_block;
+  Farming land;//name---------------------------------------
+ 117;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  0.000000;//base light r
+  0.000000;//base light g
+  0.000000;//base light b
+  20000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+ gravel2.png;//terrain texture
+    0.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+    This looks like good farming land!;//event text
+    100.000000;//interval
+    0;//run only once 0=no, 1=yes
+    begin_conditions;	  
+    end_conditions;
+    begin_effects;
+    end_effects;
+  end_effects_block;
 end_of_file;
