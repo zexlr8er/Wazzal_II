@@ -4144,8 +4144,34 @@ If has new Pirate flag item;//name----------------------------------------------
     0.000000;//parameter3
     0.000000;//parameter4
   end_effects;
+ Replacement health drain script;//name-----------------------------------------------------------------
+121;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  6;//condition
+    1.000000;//condition parameter0
+    0.000000;//condition parameter1
+	 44;//condition
+    12.000000;//condition parameter0
+    101.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  23;//effect number 
+    -1.500000;//parameter1
+    -1.0000;//parameter2
+    12.000000;//parameter3
+    300.000000;//parameter4
+  end_effects;
 end_of_file;
 
 
-
+23=continuously increase bar parameter3 by parameter1 for time parameter4 with creature visual effect from weapon parameter2
 

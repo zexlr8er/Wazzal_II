@@ -718,14 +718,6 @@ decrease health restorer timer bar;//description bookmark
     1.010000;//parameter1
     5.000000;//parameter2
     -1.500000;//parameter3
-  drain health if health too high;//description
-    7;//specialty
-    0;//difficulty level
-    none;//message
-    12.000000;//parameter0
-    1.010000;//parameter1
-    12.000000;//parameter2
-    -3.000000;//parameter3
   drain health if temperature too high;//description
     7;//specialty 
     0;//difficulty level
