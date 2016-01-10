@@ -153,6 +153,32 @@ Small Alien Fighter;//name---------------------------------------
   begin_hit_block;//
   end_hit_block;
   begin_timed_block;//
+300;//interval in milliseconds -----realistic combat
+    begin_conditions;
+    8;//condition
+      15.000000;//condition parameter0
+      0.000000;//condition parameter1       
+      end_conditions;
+    begin_effects;
+    46;//effect number
+      0.000000;//parameter1
+      19.000000;//parameter2
+      650.000000;//parameter3
+      -1.000000;//parameter4 
+    end_effects;
+	300;//interval in milliseconds -----realistic combat
+    begin_conditions;
+    15;//condition
+      200.000000;//condition parameter0
+      0.000000;//condition parameter1       
+      end_conditions;
+    begin_effects;
+    46;//effect number
+      0.000000;//parameter1
+      19.000000;//parameter2
+      650.000000;//parameter3
+      -1.000000;//parameter4 
+    end_effects;
      end_timed_block;
   begin_specialties;//
   health;//description
@@ -374,6 +400,32 @@ Large Alien Fighter;//name---------------------------------------
       2.000000;//parameter2
       7.000000;//parameter3
       7.000000;//parameter4
+    end_effects;
+300;//interval in milliseconds -----realistic combat
+    begin_conditions;
+    8;//condition
+      15.000000;//condition parameter0
+      0.000000;//condition parameter1       
+      end_conditions;
+    begin_effects;
+    46;//effect number
+      0.000000;//parameter1
+      19.000000;//parameter2
+      650.000000;//parameter3
+      -1.000000;//parameter4 
+    end_effects;
+	300;//interval in milliseconds -----realistic combat
+    begin_conditions;
+    15;//condition
+      200.000000;//condition parameter0
+      0.000000;//condition parameter1       
+      end_conditions;
+    begin_effects;
+    46;//effect number
+      0.000000;//parameter1
+      19.000000;//parameter2
+      650.000000;//parameter3
+      -1.000000;//parameter4 
     end_effects;
   end_timed_block;
   begin_specialties;//
@@ -2379,7 +2431,7 @@ Confederacy destroyer;//name---------------------------------------
     10;//effect number
       24.000000;//parameter1
       -1.000000;//parameter2
-      -1.000000;//parameter3
+      4.000000;//parameter3
       -1.000000;//parameter4
     end_effects;
 55000;//interval in milliseconds   -----drop large fighters
@@ -2395,7 +2447,7 @@ Confederacy destroyer;//name---------------------------------------
     10;//effect number
       31.000000;//parameter1
       -1.000000;//parameter2
-      -1.000000;//parameter3
+      4.000000;//parameter3
       -1.000000;//parameter4
     end_effects;
   150;//interval in milliseconds    --------secondary laser
@@ -3664,7 +3716,7 @@ Alien Battleship;//name---------------------------------------
     10;//effect number
       1.000000;//parameter1
       -1.000000;//parameter2
-      -1.000000;//parameter3
+      4.000000;//parameter3
       -1.000000;//parameter4
     end_effects;
 60000;//interval in milliseconds -----drop heavy fighters
@@ -3683,7 +3735,7 @@ Alien Battleship;//name---------------------------------------
     10;//effect number
       3.000000;//parameter1
       -1.000000;//parameter2
-      -1.000000;//parameter3
+      4.000000;//parameter3
       -1.000000;//parameter4
     end_effects;
   140;//interval in milliseconds --------secondary laser
@@ -10293,6 +10345,75 @@ Storm large;//name---------------------------------------
     1.000000;//parameter1
     0.000000;//parameter2
     1.000000;//parameter3
+  end_specialties;
+  Naqua-Turtle;//name---------------------------------------
+  86;//identifier
+  3;//class
+  turtle.png;//texture
+  0;//draw layer
+  178;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
+  1;//corpse item amount
+  1;//attack type, 0=shooting attack, 1=close combat
+  -1;//particle to show on radar, -1=none
+  1;//primary AI tactic from AI_tactic.dat
+  1;//secondary AI tactic from AI_tactic.dat
+  3;//footstep particle from particles.dat
+  0;//die after how many seconds, 0=doesn't die
+  -1;//eat item number from items.dat, -1=nothing
+  1.000000;//creature size
+  6.000000;//creature weight (affects pushing)
+  0.1000;//maximum movement speed
+  0.000000;//minimum movement speed
+  0.5000;//leg animation speed
+  0.50000;//turn speed
+  0.300000;//inertia level (acceleration/deceleration)
+  0;//hide when behind walls
+  0;//weapon number
+  0.000000;//weapon_x
+  0.000000;//weapon_y
+  0;//blood particle
+  1;//bars visible when player hovers mouse on top
+  1.000000;//death animation speed
+  1;//creature can move from area to another
+  600.000000;//AI hear range
+  400.000000;//AI see range
+  4.500000;//AI see angle
+  begin_footstep_sounds;//
+  step_a0.wav;//sample name
+  step_a1.wav;//sample name
+  step_a2.wav;//sample name
+  end_footstep_sounds;
+  begin_hit_sounds;//
+  squish02.wav;//sample name
+  squish03.wav;//sample name
+  squish04.wav;//sample name
+  end_hit_sounds;
+  begin_die_sounds;//
+ turtle1.wav;//sample name
+ turtle2.wav;//sample name
+ turtle3.wav;//sample name
+  end_die_sounds;
+  begin_eat_block;//
+  end_eat_block;
+  begin_death_block;//
+  end_death_block;
+  begin_hit_block;//
+  end_hit_block;
+  begin_timed_block;//
+  end_timed_block;
+  begin_specialties;//
+  ;//description
+    0;//number
+    4.000000;//parameter0
+    0.000000;//parameter1
+   500.000000;//parameter2
+    500.000000;//parameter3
+ knife hurts;//description
+    1;//number
+    9.000000;//parameter0
+    10.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
   end_specialties;
  end_of_file;
 

@@ -62,6 +62,9 @@ The Wolf IV is an old ship, yet since the near-disastrous experience on board th
   38;//alien type in creatures.dat---------aliens
     20;//number of these aliens
     1;//side  
+	 86;//alien type in creatures.dat---------turtle
+   40;//number of these aliens
+    10;//side
 end_alien_list;
   begin_excluded_plot_object_classes;
   1;

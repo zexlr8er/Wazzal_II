@@ -1853,8 +1853,8 @@ Infra-red Goggles;//name---------------------------------------
     8;//effect number
       3.000000;//parameter1
       5.000000;//parameter2
-      0.0000000;//parameter3
-      0.0000000;//parameter4 
+      5.0000000;//parameter3
+      5.0000000;//parameter4 
     8;//effect number
       0.000000;//parameter1
       0.650000;//parameter2
@@ -2612,7 +2612,7 @@ Stealth armour OFF;//name---------------------------------------
 Rocket launcher;//name---------------------------------------
   63;//identifier
   0;//item class
-  15.00000;//weight
+  10.00000;//weight
   This rocket launcher can fire deadly heat-seeking rockets. This is a perfect weapon for use on groups of tightly packed enemies, as the explosion can kill several creatures at a time.;//short description
   none;//first pick up text
   0.300000;//size on map
@@ -6784,7 +6784,7 @@ Fireflower;//name---------------------------------------
   164;//identifier
   0;//item class
   0.1000000;//weight
-  This incredibly rare and valuable flower from the fields of Dorian Prime can be handed into any Confederate store for 5PP worth of fame. \ \ Use near store to hand in.;//short description
+  This incredibly rare and valuable flower from the fields of Dorian Prime can be handed into any Confederate store for 2.5PP worth of fame. \ \ Use near store to hand in.;//short description
   none;//first pick up text
   0.270000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -6810,7 +6810,7 @@ Fireflower;//name---------------------------------------
     end_conditions;
     begin_effects;
     4;//effect number
-     5.00000;//parameter1
+     2.50000;//parameter1
       0.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4
@@ -7344,6 +7344,87 @@ Flag: Pirate;//name---------------------------------------
       166;//result of combine
      1;//amount to give
     end_items_given;
+  end_combinations;
+ Dead Naqua-Turtle;//name---------------------------------------
+  178;//identifier
+  0;//item class
+  12.000000;//weight
+  The carcass of a rare Naqua-Turtle from Naquarin. \ Combine with a Combat Knife to extract its shell.;//short description
+  You reach down and pick up the heavy carcass. The Naqua-Turtle is a rare semi-aquatic species, native of the planet Naquarin. Its shell is famed for its kevlar-like strength, able to slow even the most deadly of projectiles. \ \ If you could combine this carcass with a Combat Knife, you could skin the turtle and use its shell to increase your resistance to weapon fire!;//first pick up text
+  0.450000;//size on map
+  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  -1;//particle to shown on radar
+  1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
+  deadturtle.png;//texture name
+  -1;//wielded script,-1=nothing, only applicable for wieldable items
+  -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
+  1;//show help text for conditions
+  begin_wield_slots;
+  end_wield_slots;
+  begin_effects_block;
+ none;//event text
+    none;//event failure text
+    none;//sound, none for nothing
+   0;//vanishes after event, 0=no, 1=yes
+    U;//use key
+    0;//quick key
+    begin_conditions;
+       end_conditions;
+    begin_effects;
+      end_effects;
+  end_effects_block;
+  begin_combinations;
+ 1;//discard this item after combine
+    57;//combines with
+    0;//discard that item after combine
+    3;//combine time
+    0;//can be broken up
+    begin_items_given;
+      179;//result of combine  --shell
+      1;//amount to give
+117;//result of combine  ---meat
+     1;//amount to give
+    end_items_given;
+  end_combinations;
+ Naqua-Turtle shell;//name---------------------------------------
+  179;//identifier
+  0;//item class
+  5.000000;//weight
+ This armoured shell is from a rare Naqua-Turtle from the planet Naquarin. The Naqua-Turtle's shell is famed for its kevlar-like strength. \ Use this item to increase your maximum health by 2 units!;//short description
+  You quickly butcher the carcass, and remove the shell. Naqua-Turtle's shells are famed for their kevlar-like strength, able to slow even the most deadly of projectiles. \ \ If you use the shell like body armour, you should be able to take on more enemy fire before dying (increase maximum health by 2 units)!;//first pick up text
+  0.450000;//size on map
+  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  -1;//particle to shown on radar
+  1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
+  turtleshell.png;//texture name
+  -1;//wielded script,-1=nothing, only applicable for wieldable items
+  -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
+  1;//show help text for conditions
+  begin_wield_slots;
+  end_wield_slots;
+  begin_effects_block;
+ Turtle-powered body armour!;//event text
+    none;//event failure text
+    use.wav;//sound, none for nothing
+   1;//vanishes after event, 0=no, 1=yes
+    U;//use key
+    0;//quick key
+    begin_conditions;
+       end_conditions;
+    begin_effects;
+	    11;//effect number   ----increase health max by 2
+      12.000000;//parameter1
+      2.0000;//parameter2
+      0.0000;//parameter3
+      0.0000;//parameter4 
+	  44;//effect number        ----increase health by 2 
+      2.000000;//parameter1
+      0.0000;//parameter2
+      12.0000;//parameter3
+      0.0000;//parameter4 
+      end_effects;
+  end_effects_block;
+  begin_combinations;
   end_combinations;
 end_of_file;
 
