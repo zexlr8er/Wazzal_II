@@ -652,7 +652,7 @@ Player reaches 1st Lieutenant, 150 Promotion;//name-----------------------------
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   500;//run every n milliseconds
-  Congratulations!! The Confederate Navy has recognized your achievement, and has promoted you to the rank of 1st Lieutenant. \ \ Included with this rank is the ability to purchase better weaponry, and to thank you further we have also fitted out your ship with brand-new missile racks and 10 Viper missiles, as well as increasing your shields maximum by 10. \ \ Your current salary is: 60 Confederate Credits an hour. \ \ Continue to serve the Confederacy well, and you will be again richly rewarded.;//message
+  Congratulations!! The Confederate Navy has recognized your achievement, and has promoted you to the rank of 1st Lieutenant. \ \ Included with this rank is the ability to purchase better weaponry. To thank you further, we have also fitted out your ship with 10 brand-new Viper missiles, as well as increasing your shields maximum by 10. \ \ Your current salary is: 60 Confederate Credits an hour. \ \ Continue to serve the Confederacy well, and you will be again richly rewarded.;//message
   1;//message type, 0=quick message, 1=journal
   none;//sound, none for nothing
   0;//delay script for n seconds after conditions met
@@ -708,11 +708,6 @@ Player reaches 1st Lieutenant, 150 Promotion;//name-----------------------------
     10.000000;//parameter2
     0.000000;//parameter3
     0.000000;//parameter4 
-  16;//effect number                   Give Inventory 0 missile racks
-    4.000000;//parameter1
-    1.000000;//parameter2
-    0.000000;//parameter3
-    0.000000;//parameter4
  16;//effect number                 
   124.000000;//parameter1      laser rifle in store
     1.000000;//parameter2

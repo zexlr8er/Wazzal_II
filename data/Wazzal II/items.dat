@@ -141,7 +141,7 @@ Phaser Turret;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-Missile Rack;//name---------------------------------------
+Unused;//name---------------------------------------
   4;//identifier
   0;//item class
  50.000000;//weight
@@ -180,7 +180,7 @@ Viper Missile;//name---------------------------------------
   5;//identifier
   0;//item class
   5.000000;//weight
-  The Viper Missile is the smallest and cheapest missile available. They are extremely volatile, so it would be wise to handle them with care.;//short description
+  The deadly heat-seeking Viper Missiles are the smallest and cheapest missile available. Use to equip!;//short description
   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -193,18 +193,18 @@ Viper Missile;//name---------------------------------------
   begin_wield_slots;
   end_wield_slots;
   begin_effects_block;
-  The missile explodes!!!;//event text
-    You feel your ship crumble beneath you as you detonate the last missile. You won't do that again!;//event failure text
-    explosion2.wav;//sound, none for nothing
-    1;//vanishes after event, 0=no, 1=yes
+  Missiles loaded and ready for firing!!;//event text
+    ;//event failure text
+    use.wav;//sound, none for nothing
+    0;//vanishes after event, 0=no, 1=yes
     U;//use key
     0;//quick key
     begin_conditions;
     end_conditions;
     begin_effects;
-    4;//effect number
-      -10.000000;//parameter1
-      1.000000;//parameter2
+	    9;//effect number
+      5.000000;//parameter1
+      0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
     end_effects;
@@ -441,7 +441,7 @@ Leave Bridge;//name---------------------------------------
   12;//identifier
   1;//item class
   0.000000;//weight
-  Press B in-game to activate the autopilot and exit the bridge of the Wolf IV.;//short description
+  Press 'B' in-game to activate the autopilot and exit the bridge of the Wolf IV.;//short description
   none;//first pick up text
   0.650000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -819,7 +819,7 @@ SR Battle scanner;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-Mine layer;//name---------------------------------------
+Unused;//name---------------------------------------
   20;//identifier
   0;//item class
  50.000000;//weight
@@ -858,7 +858,7 @@ Thermon C mines;//name---------------------------------------
   21;//identifier
   0;//item class
   5.000000;//weight
-  The Thermon C class of mines are the smallest and cheapest mine available. Like missiles, they are extremely volatile, so it would be wise to handle them with care.;//short description
+  The Thermon C class of mines are the smallest and cheapest mine available. Use to equip and release a cargo of deadly space mines into battle, destroying any ship that comes near!;//short description
   none;//first pick up text
   0.150000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -871,18 +871,18 @@ Thermon C mines;//name---------------------------------------
   begin_wield_slots;
   end_wield_slots;
   begin_effects_block;
-  The mine explodes!!!;//event text
-    You feel your ship crumble beneath you as you detonate the last mine. You won't do that again!;//event failure text
-    explosion2.wav;//sound, none for nothing
-    1;//vanishes after event, 0=no, 1=yes
+  Mines ready for deployment!;//event text
+    none;//event failure text
+    use.wav;//sound, none for nothing
+    0;//vanishes after event, 0=no, 1=yes
     U;//use key
     0;//quick key
     begin_conditions;
     end_conditions;
     begin_effects;
-    4;//effect number
-      -6.000000;//parameter1
-      1.000000;//parameter2
+	    9;//effect number
+      24.000000;//parameter1
+      0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
     end_effects;
@@ -2376,7 +2376,7 @@ Combat Knife;//name---------------------------------------
   0;//wield slot number
   end_wield_slots;
   begin_effects_block;
-  Equiped;//event text
+  Equipped;//event text
     none;//event failure text
     use.wav;//sound, none for nothing
     0;//vanishes after event, 0=no, 1=yes
@@ -6653,8 +6653,8 @@ Captain's journal;//name---------------------------------------
   161;//identifier
   0;//item class
  0.000000;//weight
-  Wolf IV Captain's journal. Use below keys to select pages. \ \ 1: Confederate rank list\ 2: Map of known universe;//short description
-The Wolf IV Captain's journal! It contains all the journal entries you have recorded over your many years behind the controls (press 'J' in-game), as well as some essential information on the United Confederacy of Planets. \ \ Press 'N' (in your inventory or in-game) to access a complete list of the ranks of the Confederate Navy, or press 'M' to access a star-map of the known universe, including planets, systems and jumpgate connections!;//first pick up text
+  Wolf IV Captain's journal. Use below keys (in-game) to select pages. \ \ N: Confederate rank list\ M: Map of known universe;//short description
+The Wolf IV Captain's journal! It contains all the journal entries you have recorded over your many years behind the controls (press 'J' in-game), as well as some essential information on the United Confederacy of Planets. \ \ Press 'N' (in-game) to access a complete list of the ranks of the Confederate Navy, or press 'M' to access a star-map of the known universe, including planets, systems and jumpgate connections!;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
