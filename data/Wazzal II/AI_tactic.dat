@@ -1,7 +1,7 @@
 Attack Normal;//tactic name
   0;//identifier
   begin_levels;
-  20;//anger level size
+  25;//anger level size
     1;//action
     0;//parameter0
     1;//can hit enemies
