@@ -7461,6 +7461,137 @@ Ready to dig!;//event text
   end_effects_block;
   begin_combinations;
   end_combinations;
+ Drop barrier;//name---------------------------------------
+ 181;//identifier
+  0;//item class
+  2.000000;//weight
+Use to drop a sand-filled barrier which will protect you from enemy fire! (press 'B' in-game to deploy);//short description
+  none;//first pick up text
+  0.500000;//size on map
+  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  0;//particle to shown on radar
+  1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
+  repair.png;//texture name
+  -1;//wielded script,-1=nothing, only applicable for wieldable items
+  -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
+  1;//show help text for conditions
+  begin_wield_slots;
+  end_wield_slots;
+  begin_effects_block;
+  Barrier deployed!;//event text
+    none;//event failure text
+    use.wav;//sound, none for nothing
+    1;//vanishes after event, 0=no, 1=yes
+    U;//use key
+    B;//quick key
+    begin_conditions; 
+    end_conditions;
+    begin_effects;
+    10;//effect number
+      34.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      -1.000000;//parameter4
+    end_effects;
+  end_effects_block;
+  begin_combinations;
+  end_combinations;
+  Drop pillbox;//name---------------------------------------
+ 182;//identifier
+  0;//item class
+  20.000000;//weight
+Use to construct a powerful flamethrower pillbox which will destroy any enemy that comes close!;//short description
+  none;//first pick up text
+  0.68000;//size on map
+  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  0;//particle to shown on radar
+  1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
+  pillbox_small.png;//texture name
+  -1;//wielded script,-1=nothing, only applicable for wieldable items
+  -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
+  1;//show help text for conditions
+  begin_wield_slots;
+  end_wield_slots;
+  begin_effects_block;
+  Pillbox deployed!;//event text
+    none;//event failure text
+    use.wav;//sound, none for nothing
+    1;//vanishes after event, 0=no, 1=yes
+    U;//use key
+    0;//quick key
+    begin_conditions; 
+    end_conditions;
+    begin_effects;
+    10;//effect number
+      51.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      -1.000000;//parameter4
+    end_effects;
+  end_effects_block;
+  begin_combinations;
+  end_combinations;
+    Drop machine gun turret;//name---------------------------------------
+ 183;//identifier
+  0;//item class
+  20.000000;//weight
+Use to construct a powerful machine gun emplacement which will destroy any enemy that comes close!;//short description
+  none;//first pick up text
+  0.78000;//size on map
+  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  0;//particle to shown on radar
+  1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
+  mg_small.png;//texture name
+  -1;//wielded script,-1=nothing, only applicable for wieldable items
+  -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
+  1;//show help text for conditions
+  begin_wield_slots;
+  end_wield_slots;
+  begin_effects_block;
+  Machine gun deployed!;//event text
+    none;//event failure text
+    use.wav;//sound, none for nothing
+    1;//vanishes after event, 0=no, 1=yes
+    U;//use key
+    0;//quick key
+    begin_conditions; 
+    end_conditions;
+    begin_effects;  
+	  10;//effect number
+      19.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      -1.000000;//parameter4
+    end_effects;
+  end_effects_block;
+  begin_combinations;
+  end_combinations;
+    Machine gun turret food;//name---------------------------------------
+ 184;//identifier
+  0;//item class
+  0.000000;//weight
+  Hack to make machine gun drop sandbags on first deployment;//short description
+  none;//first pick up text
+  2.0000;//size on map
+  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  0;//particle to shown on radar
+  1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
+  mg_small.png;//texture name
+  -1;//wielded script,-1=nothing, only applicable for wieldable items
+  -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
+  1;//show help text for conditions
+  begin_wield_slots;
+  end_wield_slots;
+  begin_effects_block;
+  end_effects_block;
+  begin_combinations;
+  end_combinations
 end_of_file;
 
- 
+
+
+	      3;//effect number
+      184.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
