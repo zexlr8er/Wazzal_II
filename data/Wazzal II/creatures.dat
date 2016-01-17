@@ -14,7 +14,7 @@ Wolf IV;//name---------------------------------------Player
   -1;//eat item number from items.dat, -1=nothing
   0.800000;//creature size
   1.300000;//creature weight (affects pushing)
-  1.180000;//maximum movement speed
+  1.30000;//maximum movement speed
   0.3500000;//minimum movement speed
   0.000000;//leg animation speed
   0.130000;//turn speed
@@ -153,7 +153,7 @@ Small Alien Fighter;//name---------------------------------------
   begin_hit_block;//
   end_hit_block;
   begin_timed_block;//
-300;//interval in milliseconds -----realistic combat
+400;//interval in milliseconds -----realistic combat
     begin_conditions;
     8;//condition
       15.000000;//condition parameter0
@@ -163,13 +163,13 @@ Small Alien Fighter;//name---------------------------------------
     46;//effect number
       0.000000;//parameter1
       19.000000;//parameter2
-      650.000000;//parameter3
+      200.000000;//parameter3
       -1.000000;//parameter4 
     end_effects;
 	300;//interval in milliseconds -----realistic combat
     begin_conditions;
     15;//condition
-      200.000000;//condition parameter0
+      150.000000;//condition parameter0
       0.000000;//condition parameter1       
       end_conditions;
     begin_effects;
@@ -401,7 +401,7 @@ Large Alien Fighter;//name---------------------------------------
       7.000000;//parameter3
       7.000000;//parameter4
     end_effects;
-300;//interval in milliseconds -----realistic combat
+400;//interval in milliseconds -----realistic combat
     begin_conditions;
     8;//condition
       15.000000;//condition parameter0
@@ -411,13 +411,13 @@ Large Alien Fighter;//name---------------------------------------
     46;//effect number
       0.000000;//parameter1
       19.000000;//parameter2
-      650.000000;//parameter3
+      200.000000;//parameter3
       -1.000000;//parameter4 
     end_effects;
 	300;//interval in milliseconds -----realistic combat
     begin_conditions;
     15;//condition
-      200.000000;//condition parameter0
+      150.000000;//condition parameter0
       0.000000;//condition parameter1       
       end_conditions;
     begin_effects;
@@ -433,8 +433,8 @@ Large Alien Fighter;//name---------------------------------------
     0;//number
     4.000000;//parameter0
     0.000000;//parameter1
-    70.000000;//parameter2
-    70.000000;//parameter3
+    65.000000;//parameter2
+    65.000000;//parameter3
   fly;//description
     4;//number
     1.000000;//parameter0
@@ -2008,7 +2008,7 @@ MG Turret;//name---------------------------------------
   16;//secondary AI tactic from AI_tactic.dat
   3;//footstep particle from particles.dat
   0;//die after how many seconds, 0=doesn't die
-  17;//eat item number from items.dat, -1=nothing
+  184;//eat item number from items.dat, -1=nothing
   1.700000;//creature size
   1000.000000;//creature weight (affects pushing)
   0.000000;//maximum movement speed
@@ -2037,13 +2037,22 @@ MG Turret;//name---------------------------------------
   explosion2.wav;//sample name 
   end_die_sounds;
   begin_eat_block;//
+      begin_conditions;
+    end_conditions;
+	    begin_effects;
+	  	    19;//effect number
+      146.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      -1.000000;//parameter4
+    end_effects;
   end_eat_block;
   begin_death_block;//
   end_death_block;
   begin_hit_block;//
   end_hit_block;
-  begin_timed_block;//
-  50;//interval in milliseconds
+    begin_timed_block;//
+   50;//interval in milliseconds
     begin_conditions;
     5;//condition                        reload bar is smaller than 2
       11.000000;//condition parameter0
@@ -2418,7 +2427,7 @@ Confederacy destroyer;//name---------------------------------------
       0.000000;//parameter3
       0.000000;//parameter4
     end_effects;
- 55000;//interval in milliseconds -----drop small fighters
+ 60000;//interval in milliseconds -----drop small fighters
     begin_conditions;
     8;//condition
      2.000000;//condition parameter0
@@ -2434,7 +2443,7 @@ Confederacy destroyer;//name---------------------------------------
       4.000000;//parameter3
       -1.000000;//parameter4
     end_effects;
-55000;//interval in milliseconds   -----drop large fighters
+60000;//interval in milliseconds   -----drop large fighters
     begin_conditions;
     8;//condition
      3.000000;//condition parameter0
@@ -2696,21 +2705,18 @@ Small Confed Fighter;//name---------------------------------------
       4.000000;//parameter3
       0.000000;//parameter4
      end_effects;
-300;//interval in milliseconds -----realistic following
+400;//interval in milliseconds -----realistic combat
     begin_conditions;
     8;//condition
-      3.000000;//condition parameter0
+      15.000000;//condition parameter0
       0.000000;//condition parameter1       
- 19;//condition
-     14.000000;//condition parameter0
-      0.000000;//condition parameter1             
-    end_conditions;
+      end_conditions;
     begin_effects;
     46;//effect number
       0.000000;//parameter1
       19.000000;//parameter2
-     200.000000;//parameter3
-      -1.000000;//parameter4
+      200.000000;//parameter3
+      -1.000000;//parameter4 
     end_effects;
   end_timed_block;
   begin_specialties;//
@@ -3290,21 +3296,18 @@ Large Confed Fighter;//name---------------------------------------
       4.000000;//parameter3
       0.000000;//parameter4
     end_effects;
-300;//interval in milliseconds -----realistic following
+400;//interval in milliseconds -----realistic combat
     begin_conditions;
     8;//condition
-      3.000000;//condition parameter0
+      15.000000;//condition parameter0
       0.000000;//condition parameter1       
- 19;//condition
-      14.000000;//condition parameter0
-     0.000000;//condition parameter1          
-    end_conditions;
+      end_conditions;
     begin_effects;
     46;//effect number
       0.000000;//parameter1
       19.000000;//parameter2
-     200.000000;//parameter3
-      -1.000000;//parameter4
+      200.000000;//parameter3
+      -1.000000;//parameter4 
     end_effects;
   end_timed_block;
   begin_specialties;//
@@ -3704,13 +3707,10 @@ Alien Battleship;//name---------------------------------------
     begin_conditions;
       32;//condition
      1.000000;//condition parameter0
-      7.000000;//condition parameter1 
+      15.000000;//condition parameter1 
    8;//condition
      2.000000;//condition parameter0
-      0.000000;//condition parameter1  
-  15;//condition
-     1000.000000;//condition parameter0
-      1.000000;//condition parameter1       
+      0.000000;//condition parameter1       
     end_conditions;
     begin_effects;
     10;//effect number
@@ -3723,13 +3723,10 @@ Alien Battleship;//name---------------------------------------
     begin_conditions;
        32;//condition
      1.000000;//condition parameter0
-     4.000000;//condition parameter1  
+     10.000000;//condition parameter1  
    8;//condition
      3.000000;//condition parameter0
-      0.000000;//condition parameter1 
-  15;//condition
-      1000.000000;//condition parameter0
-      1.000000;//condition parameter1    
+      0.000000;//condition parameter1  
     end_conditions;
     begin_effects;
     10;//effect number
@@ -4509,8 +4506,8 @@ Rock Monster;//name---------------------------------------
   1;//corpse item amount
   1;//attack type, 0=shooting attack, 1=close combat
   -1;//particle to show on radar, -1=none
-  18;//primary AI tactic from AI_tactic.dat
-  7;//secondary AI tactic from AI_tactic.dat
+  22;//primary AI tactic from AI_tactic.dat
+  22;//secondary AI tactic from AI_tactic.dat
   3;//footstep particle from particles.dat
   0;//die after how many seconds, 0=doesn't die
   -1;//eat item number from items.dat, -1=nothing
@@ -8077,7 +8074,7 @@ Pirate Wolf IV;//name---------------------------------------Player
   -1;//eat item number from items.dat, -1=nothing
   0.800000;//creature size
   1.300000;//creature weight (affects pushing)
-  1.200000;//maximum movement speed
+  1.300000;//maximum movement speed
   0.3600000;//minimum movement speed
   0.000000;//leg animation speed
   0.130000;//turn speed
@@ -8150,7 +8147,7 @@ Stealth Wolf IV;//name---------------------------------------Player
   -1;//eat item number from items.dat, -1=nothing
   0.800000;//creature size
   1.300000;//creature weight (affects pushing)
-  1.180000;//maximum movement speed
+  1.30000;//maximum movement speed
   0.3600000;//minimum movement speed
   0.000000;//leg animation speed
   0.130000;//turn speed
@@ -10289,7 +10286,7 @@ Storm large;//name---------------------------------------
   -1;//eat item number from items.dat, -1=nothing
   0.800000;//creature size
   1.300000;//creature weight (affects pushing)
-  1.200000;//maximum movement speed
+  1.300000;//maximum movement speed
   0.3600000;//minimum movement speed
   0.000000;//leg animation speed
   0.130000;//turn speed
