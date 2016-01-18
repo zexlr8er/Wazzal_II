@@ -1289,7 +1289,7 @@ Laser cannon (Twin);//name---------------------------------------Confed player
     4.000000;//parameter3
     0.000000;//parameter4
   end_hit_effects;
-Laser confed outliers battleship;//name---------------------------------------
+Laser confed outliers destroyer;//name---------------------------------------
   26;//identifier
   1;//class
   laser_small3.png;//bullet texture
@@ -1335,12 +1335,12 @@ Laser confed outliers battleship;//name---------------------------------------
     4.000000;//parameter3
     0.000000;//parameter4 
 29;//effect number
-    7.000000;//parameter1
+    123.000000;//parameter1
     1.000000;//parameter2
     0.000000;//parameter3
     0.000000;//parameter4
   end_hit_effects;
-Targetting Beam;//name---------------------------------------
+Targeting Beam;//name---------------------------------------
   27;//identifier
   8;//class
   invisible.png;//bullet texture
@@ -1369,7 +1369,7 @@ Targetting Beam;//name---------------------------------------
   end_fire_effects;
   begin_hit_effects;
   end_hit_effects;
-Laser confed battleship;//name---------------------------------------
+Laser confed destroyer;//name---------------------------------------
   28;//identifier
  1;//class
   laser_small2.png;//bullet texture
@@ -1425,7 +1425,7 @@ Laser confed battleship;//name---------------------------------------
     4.000000;//parameter3
     0.000000;//parameter4 
 29;//effect number
-    8.000000;//parameter1
+    123.000000;//parameter1
     1.000000;//parameter2
     0.000000;//parameter3
     0.000000;//parameter4
@@ -1502,7 +1502,7 @@ Laser confed small fighter;//name---------------------------------------
     4.000000;//parameter3
     0.000000;//parameter4 
 29;//effect number
-    7.000000;//parameter1
+    123.000000;//parameter1
     1.000000;//parameter2
     0.000000;//parameter3
     0.000000;//parameter4
@@ -2516,7 +2516,7 @@ Neutralbullet1;//name---------------------------------------single barrel
   0.000000;//spread
   1.300000;//bullet speed
   500.000000;//time until bullet disappears
-  130;//fire rate
+  140;//fire rate
   0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
   -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
   0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
@@ -2552,7 +2552,7 @@ Neutralbullet1;//name---------------------------------------single barrel
     4.000000;//parameter3
     0.000000;//parameter4 
   29;//effect number
-    7.000000;//parameter1
+    123.000000;//parameter1
     1.000000;//parameter2
     0.000000;//parameter3
     0.000000;//parameter4
@@ -2567,7 +2567,7 @@ Neutralbullet2;//name---------------------------------------double barrel
   0.000000;//spread
   1.300000;//bullet speed
   500.000000;//time until bullet disappears
-  130;//fire rate
+  90;//fire rate
   0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
   -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
   0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
@@ -2603,7 +2603,7 @@ Neutralbullet2;//name---------------------------------------double barrel
     4.000000;//parameter3
     0.000000;//parameter4 
   29;//effect number
-    8.000000;//parameter1
+    123.000000;//parameter1
     1.000000;//parameter2
     0.000000;//parameter3
     0.000000;//parameter4
@@ -2654,7 +2654,7 @@ Neutralbullet3;//name---------------------------------------single barrel
     4.000000;//parameter3
     0.000000;//parameter4 
   29;//effect number
-    7.000000;//parameter1
+    123.000000;//parameter1
     1.000000;//parameter2
     0.000000;//parameter3
     0.000000;//parameter4
@@ -3360,7 +3360,7 @@ none;//hit sound
    end_fire_effects;
   begin_hit_effects;
      end_hit_effects;
-Particle Cannon, battleship;//name---------------------------------------double barrel
+Particle Cannon, destroyer;//name---------------------------------------double barrel
  71;//identifier
   1;//class
   particlecantwin.png;//bullet texture
@@ -3396,7 +3396,7 @@ Particle Cannon, battleship;//name---------------------------------------double 
     8.000000;//parameter3
     0.000000;//parameter4
   4;//effect number
-    -4.000000;//parameter1
+    -2.000000;//parameter1
     0.000000;//parameter2
     4.000000;//parameter3
     0.000000;//parameter4
@@ -3406,7 +3406,7 @@ Particle Cannon, battleship;//name---------------------------------------double 
     10.000000;//parameter3
     0.000000;//parameter4 
 29;//effect number
-    7.000000;//parameter1
+    123.000000;//parameter1
     1.000000;//parameter2
     0.000000;//parameter3
     0.000000;//parameter4
@@ -3672,7 +3672,7 @@ Laser confed heavy fighter;//name---------------------------------------
   0.000000;//spread
   1.400000;//bullet speed
   1200.000000;//time until bullet disappears
-  140;//fire rate
+  120;//fire rate
   0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
   -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
   0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
@@ -3708,7 +3708,7 @@ Laser confed heavy fighter;//name---------------------------------------
     4.000000;//parameter3
     0.000000;//parameter4 
 29;//effect number
-    7.000000;//parameter1
+    123.000000;//parameter1
     1.000000;//parameter2
     0.000000;//parameter3
     0.000000;//parameter4
@@ -4547,7 +4547,7 @@ Storm hit;//name---------------------------------------
     4.000000;//parameter3
     0.000000;//parameter4 
   29;//effect number     # shields down script
-    8.000000;//parameter1
+    123.000000;//parameter1
     1.000000;//parameter2
     0.000000;//parameter3
     0.000000;//parameter4
