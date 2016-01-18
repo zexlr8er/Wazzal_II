@@ -6289,7 +6289,7 @@ Shotgun;//name---------------------------------------
   152;//identifier
   7;//item class
   6.000000;//weight
-  A ballistic type weapon that fires a spread of deadly pellets. Perfect for causing damage to a large group of densely packed targets. Requires the explosive power of two bullets per shot.;//short description
+  A ballistic type weapon that fires a spread of deadly pellets. Perfect for causing damage to a large group of densely packed targets.;//short description
   none;//first pick up text
   0.450000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -6321,11 +6321,11 @@ Shotgun;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-11000: Shotgun;//name---------------------------------------
+10000: Shotgun;//name---------------------------------------
  153;//identifier
   0;//item class
   0.000000;//weight
-  A ballistic type weapon that fires a spread of deadly pellets. Perfect for causing damage to a large group of densely packed targets. Requires the explosive power of two bullets per shot. \ \ Price: 11000 credits;//short description
+  A ballistic type weapon that fires a spread of deadly pellets. Perfect for causing damage to a large group of densely packed targets. \ \ Price: 10000 credits;//short description
   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner

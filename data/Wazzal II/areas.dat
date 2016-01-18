@@ -104,10 +104,10 @@ end_alien_list;
   1.000000;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
   begin_alien_list;
   1;//alien type in creatures.dat---------small alien fighters
-    30;//number of these aliens
+    50;//number of these aliens
     1;//side
   3;//alien type in creatures.dat---------large alien fighters
-    20;//number of these aliens
+    30;//number of these aliens
     1;//side
 35;//alien type in creatures.dat---------alien mothership
     3;//number of these aliens
@@ -286,10 +286,10 @@ end_excluded_plot_object_classes;
   1.000000;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
   begin_alien_list;
  1;//alien type in creatures.dat---------small alien fighters
-    20;//number of these aliens
+    30;//number of these aliens
     1;//side
   3;//alien type in creatures.dat---------large alien fighters
-    10;//number of these aliens
+    20;//number of these aliens
     1;//side
 35;//alien type in creatures.dat---------alien mothership
     2;//number of these aliens
