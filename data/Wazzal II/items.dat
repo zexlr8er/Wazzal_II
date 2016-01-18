@@ -1096,7 +1096,7 @@ Stock: Drugs;//name---------------------------------------
   0.000000;//weight
   Use this item near a store to sell them. \ \ You will receive the current market value of Drugs in Confederate Credits.;//short description
   none;//first pick up text
-  0.450000;//size on map
+  0.30000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
   1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
@@ -1187,7 +1187,7 @@ Stock: Weapon Parts;//name---------------------------------------
   0.000000;//weight
   Use this item near a store to sell them.  \ \ You will receive the current market value of Weapon Parts in Confederate Credits.;//short description
   none;//first pick up text
-  0.400000;//size on map
+  0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
   1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
@@ -1278,7 +1278,7 @@ Stock: Slaves;//name---------------------------------------
   0.000000;//weight
   Use this item near a store to sell them. \ \ You will receive the current market value of Slaves in Confederate Credits.;//short description
   none;//first pick up text
-  0.400000;//size on map
+  0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
   1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
@@ -4299,7 +4299,7 @@ Battery;//name---------------------------------------
  1.000000;//weight
   Using this battery will recharge your suit's inbuilt battery energy by 20 points. \ Press 'B' in-game to use.;//short description
   none;//first pick up text
-  0.300000;//size on map
+  0.340000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
   1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
