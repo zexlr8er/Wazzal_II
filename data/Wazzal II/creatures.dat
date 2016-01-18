@@ -3943,7 +3943,7 @@ Alien Tank;//name---------------------------------------
   0;//die after how many seconds, 0=doesn't die
   -1;//eat item number from items.dat, -1=nothing
   2.400000;//creature size
-  9999.000000;//creature weight (affects pushing)
+  400.000000;//creature weight (affects pushing)
  0.500000;//maximum movement speed
   0.000000;//minimum movement speed
   7.000000;//leg animation speed
@@ -3996,8 +3996,8 @@ Alien Tank;//name---------------------------------------
     0;//number
     4.000000;//parameter0
     0.000000;//parameter1
-    1000.000000;//parameter2
-    1000.000000;//parameter3
+    1400.000000;//parameter2
+    1400.000000;//parameter3
 resistance to projectile 1;//description
     1;//number
     4.000000;//parameter0
@@ -4464,7 +4464,7 @@ Talking commander;//name---------------------------------------
   180;//interval in milliseconds      --------talking
     begin_conditions;
     15;//condition
-      200.000000;//condition parameter0
+      650.000000;//condition parameter0
       0.000000;//condition parameter1 
     3;//condition
       22.000000;//condition parameter0
@@ -6494,7 +6494,7 @@ Tank (moving);//name---------------------------------------
   0;//die after how many seconds, 0=doesn't die
   -1;//eat item number from items.dat, -1=nothing
   2.400000;//creature size
-  9999.000000;//creature weight (affects pushing)
+  400.000000;//creature weight (affects pushing)
   0.500000;//maximum movement speed
   0.000000;//minimum movement speed
   9.000000;//leg animation speed

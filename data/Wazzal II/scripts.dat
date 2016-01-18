@@ -3132,7 +3132,7 @@ Flying ship is close;//name-----------------------------------------------------
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   350;//run every n milliseconds
-  Alien fighter! TAKE COVER!;//message
+  Alien fighter! Take cover under a tree or building!;//message
   0;//message type, 0=quick message, 1=journal
   none;//sound, none for nothing
   0;//delay script for n seconds after conditions met
@@ -3140,7 +3140,7 @@ Flying ship is close;//name-----------------------------------------------------
   begin_conditions;
   14;//condition
     63.000000;//condition parameter0
-    350.000000;//condition parameter1
+    450.000000;//condition parameter1
   end_conditions;
   begin_effects;
   end_effects;
@@ -4164,6 +4164,24 @@ If has new Pirate flag item;//name----------------------------------------------
     -1.0000;//parameter2
     12.000000;//parameter3
     300.000000;//parameter4
+  end_effects;
+ Meet commander at Zrxles;//name-----------------------------------------------------------------
+  122;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  1000;//run every n milliseconds
+  I am Governor Ruefserouc of Errxelz Base 8. All hell has broken loose: we count thirteen Alien battleships in this system alone, Alien fighters to the north, south and east of our positions, and alien drones are on the rampage everwhere: black hand-to-hand fighters, and green-stripes with long-ranged weapons. \ \ Captain, I believe this attack force is only a fraction of the Alien forces. Their fleet must carry enough firepower to annihilate the entire Confederacy! We will hold them off here as long as we can. You must escape and send out a warning to the Confederate destroyer UCS Crego in the neighbouring Ennokknmo system! \ \ Captain, I am the only survivor of a family who were taken by the Aliens from Sol before the supernova, all those years ago. Swear to me that you will not rest until the deaths of all those slaughtered have been avenged!;//message
+  1;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  1;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  14;//condition
+    40.000000;//condition parameter0
+    300.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
   end_effects;
 end_of_file;
 
