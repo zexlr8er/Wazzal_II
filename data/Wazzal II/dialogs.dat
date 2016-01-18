@@ -32,17 +32,17 @@ Stargun hit;//name
   0.000000;//text color b
 Errxelz 8 captain;//name ---------------------------------------------
   4;//identifier
-  Captain!;//text
-  4000;//duration
+  Governor Ruefserouc: Captain! I am Governor of Errxelz Base 8.;//text
+  3000;//duration
   5;//next dialog line (-1=none)
   1.000000;//text color r
   1.000000;//text color g
   1.000000;//text color b
 Errxelz 8 captain;//name ---------------------------------------------
   5;//identifier
-  I am Governor Ruefserouc of Errxelz Base 8.;//text
-  3300;//duration
-  6;//next dialog line (-1=none)
+  Governor Ruefserouc: Use our last remaining battle tank (press T to mount/dismount. Right click to fire secondary weapon) to get back to your ship safely!;//text
+  15000;//duration
+  -1;//next dialog line (-1=none)
   1.000000;//text color r
   1.000000;//text color g
   1.000000;//text color b
