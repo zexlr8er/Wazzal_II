@@ -1925,11 +1925,6 @@ explosion2.wav;//sample name
     24.000000;//parameter1
      40.000000;//parameter2
     44.000000;//parameter3
-      0.000000;//parameter4
-2;//effect number                   start alien attack
-   0.000000;//parameter1
-    0.000000;//parameter2
-    0.000000;//parameter3
       0.000000;//parameter4         
     end_effects;
   end_death_block;
@@ -7685,12 +7680,7 @@ explosion2.wav;//sample name
     24.000000;//parameter1
      40.000000;//parameter2
     44.000000;//parameter3
-      0.000000;//parameter4
-2;//effect number                   start alien attack
-   0.000000;//parameter1
-    0.000000;//parameter2
-    0.000000;//parameter3
-      0.000000;//parameter4         
+      0.000000;//parameter4       
     end_effects;
   end_death_block;
   begin_hit_block;//
@@ -7801,11 +7791,6 @@ explosion2.wav;//sample name
     24.000000;//parameter1
      40.000000;//parameter2
     44.000000;//parameter3
-      0.000000;//parameter4
-2;//effect number                   start alien attack
-   0.000000;//parameter1
-    0.000000;//parameter2
-    0.000000;//parameter3
       0.000000;//parameter4         
     end_effects;
   end_death_block;
