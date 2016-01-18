@@ -40,7 +40,8 @@ alien soldiers;//name-------------------------------------------
   6;//identifier
   start_hostile_sides;
   0;
-  7;
+10;
+7;
   end_hostile_sides;
 Poison dart (everyone except player);//name-------------------------------------------
   7;//identifier

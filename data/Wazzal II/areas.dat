@@ -79,13 +79,22 @@ end_alien_list;
   -1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
   0.8000000;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
   begin_alien_list;
+    11;//alien type in creatures.dat--------aliens hand
+    80;//number of these aliens
+    1;//side
+  38;//alien type in creatures.dat---------aliens proj
+    50;//number of these aliens
+    1;//side  
+	  37;//alien type in creatures.dat---------alien tank
+    10;//number of these aliens
+    1;//side  
   end_alien_list;
   begin_excluded_plot_object_classes;
   1;
 2;
 5;
   end_excluded_plot_object_classes;
-  You shiver as you take in the death and destruction that surrounds you. Your mind can only wonder... what happened here? \ \ Suddenly, a flash of brilliant light fills the sky, followed by the boom of explosions and the chatter of gunfire. It seems the Confederate forces are still desperately trying to defend the planet! In the distance several alien fighters scream over the city, and you realise that there is little chance of saving this outpost. Even so, you feel honour-bound to assist these few remaining brave men. \ \ Strapping your weapons to your belt, you run down the gangway and onto the planet. Before you even have a moment to react, a chilling scream fills the air, and from behind a large rock an alien drone hurtles towards you...;//enter area text, specify none to not show it
+  You shiver as you take in the death and destruction that surrounds you. Your mind can only wonder... what happened here? \ \ Suddenly, a flash of brilliant light fills the sky, followed by the boom of explosions and the chatter of gunfire. It seems the Confederate forces based to the north-west are still desperately trying to defend the planet! In the distance several alien fighters scream over the city, and you realise that there is little chance of saving this outpost. Even so, you feel honour-bound to assist these few remaining brave men. \ \ Strapping your weapons to your belt, you run down the gangway and onto the planet. Before you even have a moment to react, a chilling scream fills the air, and from behind a large rock an alien drone hurtles towards you...;//enter area text, specify none to not show it
 5;//---------------------------------------------------------
   Ennokknmo System;//area name
   2;//area class
