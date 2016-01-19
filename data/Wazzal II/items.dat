@@ -6347,11 +6347,11 @@ Shotgun;//name---------------------------------------
     begin_conditions;
     3;//condition
       13.000000;//condition parameter0
-      11000.000000;//condition parameter1      
+      10000.000000;//condition parameter1      
     end_conditions;
     begin_effects;
     4;//effect number
-      -11000.000000;//parameter1
+      -10000.000000;//parameter1
       1.000000;//parameter2
       13.000000;//parameter3
       0.000000;//parameter4     
@@ -6548,11 +6548,11 @@ ecm2.png;//texture name
   end_effects_block;
   begin_combinations;
   end_combinations;
-4000: Mega-hertz ECM;//name---------------------------------------
+3000: Mega-hertz ECM;//name---------------------------------------
   159;//identifier
   0;//item class
   0.000000;//weight
-   The Mega-hertz electronic counter-measures (ECM) is a major upgrade, with a faster fire rate and twice the effectiveness of Kilo-hertz systems. Mega-hertz ECM uses a vortex of pure energy to track down and destroy enemy missiles. \ \  Price: 4000 credits;//short description
+   The major Mega-hertz electronic counter-measures (ECM) upgrade fires twice as fast and launches two ECMs at a time. Mega-hertz ECM uses a vortex of pure energy to track down and destroy enemy missiles. \ \  Price: 3000 credits;//short description
   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -6574,11 +6574,11 @@ ecm2.png;//texture name
     begin_conditions;
     3;//condition
       13.000000;//condition parameter0
-      4000.000000;//condition parameter1      
+      3000.000000;//condition parameter1      
     end_conditions;
     begin_effects;
     4;//effect number
-      -10000.000000;//parameter1
+      -3000.000000;//parameter1
       1.000000;//parameter2
       13.000000;//parameter3
       0.000000;//parameter4     
