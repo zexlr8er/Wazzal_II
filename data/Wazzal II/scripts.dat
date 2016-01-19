@@ -494,7 +494,7 @@ Enemy Attack Script (hurt player when shields down; small Alien);//name---------
   end_conditions;
   begin_effects;
   4;//effect number                  take 2 from health
-   -0.8000000;//parameter1
+   -0.4000000;//parameter1
     0.000000;//parameter2
     0.000000;//parameter3
     0.000000;//parameter4
@@ -520,7 +520,7 @@ Enemy Attack Script (hurt player when shields down; large Alien);//name---------
   end_conditions;
   begin_effects;
   4;//effect number                  take 3.0 from health
-    -0.60000;//parameter1
+    -0.50000;//parameter1
     0.000000;//parameter2
     0.000000;//parameter3
     0.000000;//parameter4

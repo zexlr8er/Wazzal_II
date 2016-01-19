@@ -3790,8 +3790,8 @@ Alien Battleship;//name---------------------------------------
     0;//number
     4.000000;//parameter0
     0.000000;//parameter1
-    2000.000000;//parameter2
-    2000.000000;//parameter3
+    2200.000000;//parameter2
+    2200.000000;//parameter3
   fly;//description
     4;//number
     1.000000;//parameter0
