@@ -1049,7 +1049,7 @@ Healing pool;//name---------------------------------------
   1;//trigger event parameter1
   1;//show help text for conditions
   begin_effects_block;
-  Welcome to ZEX Industries MXV Healing Pool. \ In this state of the art system, any wounds you have suffered throughout your escapades can be fully healed. \ To keep the system at optimum operating capacity, you will be charged 4 credits for every 1 point of health healed in maintance costs.;//event text
+  Welcome to ZEX Industries MXV Healing Pool. \ In this state of the art system, any wounds you have suffered throughout your escapades can be fully healed. \ To keep the system at optimum operating capacity, you will be charged 4 credits for every 1 point of health healed in maintenance costs.;//event text
     hum.wav;//sound, none for nothing
     2;//vanishes after event, 0=no, but cannot be reused, 1=vanishes, 2=no, and can be reused
     begin_conditions;
@@ -1067,12 +1067,12 @@ Healing pool;//name---------------------------------------
       0.500000;//parameter3
       1.200000;//parameter4 
     4;//effect number	                 health
-      0.060000;//parameter1
+      0.120000;//parameter1
       1.000000;//parameter2
       12.000000;//parameter3
       0.000000;//parameter4 
     4;//effect number	                money
-      -0.240000;//parameter1
+      -0.480000;//parameter1
       1.000000;//parameter2
       13.000000;//parameter3
       0.000000;//parameter4 
@@ -1181,12 +1181,12 @@ Energy pool;//name---------------------------------------
       0.500000;//parameter3
       1.200000;//parameter4 
     4;//effect number	                 energy
-      0.060000;//parameter1
+      0.120000;//parameter1
       1.000000;//parameter2
       5.000000;//parameter3
       0.000000;//parameter4 
     4;//effect number	                money
-      -0.240000;//parameter1
+      -0.480000;//parameter1
       1.000000;//parameter2
       13.000000;//parameter3
       0.000000;//parameter4 
@@ -2898,7 +2898,7 @@ Interplanetary Signal Substation;//name---------------------------------------
   10;//map type to place to -1=any map 0=> type from areas.dat
   0;//plot_object class
  127;//object definition number
- 6;//number of objects to be placed   6
+ 9;//number of objects to be placed   6
   0;//location type, 0=random, 1=distance min(parameter1) max(parameter2) from player start, 2=distance min(parameter1) max(parameter2) from object parameter0, 3=coordinates [parameter0, parameter1] (0=min, 1=max)  vary location=parameter2
   0.000000;//location parameter0
   0.000000;//location parameter1
@@ -3133,18 +3133,18 @@ Fuel pump;//name---------------------------------------
     3;//condition                        min money
       13.000000;//condition parameter0
       1.000000;//condition parameter1 
- 43;//condition                        min money
+ 43;//condition                        fuel less 100
       25.000000;//condition parameter0
     100.000000;//condition parameter1 
     end_conditions;
     begin_effects;
     4;//effect number	                fuel
-      0.070000;//parameter1
+      0.140000;//parameter1
       1.000000;//parameter2
       25.000000;//parameter3
       0.000000;//parameter4 
     4;//effect number	                money
-      -0.420000;//parameter1
+      -0.840000;//parameter1
       1.000000;//parameter2
       13.000000;//parameter3
       0.000000;//parameter4 
