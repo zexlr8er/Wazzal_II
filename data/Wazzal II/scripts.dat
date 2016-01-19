@@ -2420,7 +2420,7 @@ Jetpack Energy Drain;//name---------------------------------------------------
   end_conditions;
   begin_effects;
   23;//effect number
-    -1.250000;//parameter1
+    -0.750000;//parameter1
     -1.000000;//parameter2
     25.000000;//parameter3
     300.000000;//parameter4

@@ -1658,7 +1658,7 @@ Jet exhuast;//name---------------------------------------
   0.000000;//bullet size
   0.100000;//spread
   0.700000;//bullet speed
-  230.000000;//time until bullet disappears
+  430.000000;//time until bullet disappears
   80;//fire rate
   0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
   -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
@@ -1676,11 +1676,6 @@ Jet exhuast;//name---------------------------------------
     5.000000;//parameter1
     3.000000;//parameter2
     35.000000;//parameter3
-    0.000000;//parameter4
-4;//effect number
-    -0.500000;//parameter1
-    0.000000;//parameter2
-    25.000000;//parameter3
     0.000000;//parameter4
   end_fire_effects;
   begin_hit_effects;
