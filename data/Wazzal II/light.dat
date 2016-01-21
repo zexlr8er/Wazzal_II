@@ -427,4 +427,17 @@ flare;//name-------
   -1;//flash particle (-1=nothing)
   0;//flashing speed
   0;//particle life time
+ Insect;//name-------
+  33;//identifier
+  light1.png;//texture
+  1;//type, 0=flashlight, 1=omni
+  30;//pulse speed
+  0.000000;//red color component
+  0.000000;//green color component
+  0.1000;//blue color component
+  0.20000;//alpha color component
+  0.50000;//light intensity
+ 6;//flash particle (-1=nothing)
+  30;//flashing speed
+  400;//particle life time
 end_of_file;
