@@ -485,6 +485,9 @@ New Dawn System;//area name
   -1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
   0.7000000;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
   begin_alien_list;
+  	 87;//alien type in creatures.dat---------fly
+   80;//number of these aliens
+    10;//side
 end_alien_list;
   begin_excluded_plot_object_classes;
   1;

@@ -2419,8 +2419,8 @@ Confederacy destroyer;//name---------------------------------------
     27;//effect number
       13.000000;//parameter1
       60.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
+      0.010000;//parameter3
+      0.010000;//parameter4
     end_effects;
  60000;//interval in milliseconds -----drop small fighters
     begin_conditions;   
@@ -2530,19 +2530,6 @@ Confederacy destroyer;//name---------------------------------------
       22.000000;//parameter3
       0.000000;//parameter4
     end_effects;
-300;//interval in milliseconds -----realistic combat
-    begin_conditions;
-    8;//condition
-      15.000000;//condition parameter0
-      0.000000;//condition parameter1       
-      end_conditions;
-    begin_effects;
-    46;//effect number
-      0.000000;//parameter1
-      19.000000;//parameter2
-      650.000000;//parameter3
-      -1.000000;//parameter4 
-    end_effects
 150;//interval in milliseconds    --------secondary laser for pirate
     begin_conditions;
  6;//condition
@@ -3749,24 +3736,6 @@ Alien Battleship;//name---------------------------------------
       1.000000;//parameter2
       1.000000;//parameter3
       0.000000;//parameter4
-    end_effects;
-300;//interval in milliseconds -----realistic combat
-    begin_conditions;
-    8;//condition
-      15.000000;//condition parameter0
-      0.000000;//condition parameter1       
-      end_conditions;
-    begin_effects;
-    46;//effect number
-      0.000000;//parameter1
-      19.000000;//parameter2
-      500.000000;//parameter3
-      -1.000000;//parameter4
-    27;//effect number
-      6.000000;//parameter1
-      50.000000;//parameter2
-      1.300000;//parameter3
-      1.700000;//parameter4 
     end_effects;
  6000;//interval in milliseconds----- missiles
     begin_conditions;
@@ -5328,8 +5297,8 @@ Red Wazzal ship;//name---------------------------------------
     27;//effect number
       13.000000;//parameter1
       60.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
+      0.010000;//parameter3
+      0.010000;//parameter4
     end_effects;
   300;//interval in milliseconds -----realistic combat
     begin_conditions;
@@ -5605,8 +5574,8 @@ Blue Wazzal ship;//name---------------------------------------
     27;//effect number
       13.000000;//parameter1
       60.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
+      0.010000;//parameter3
+      0.010000;//parameter4
     end_effects;
   300;//interval in milliseconds -----realistic combat
     begin_conditions;
@@ -5863,8 +5832,8 @@ Green Wazzal ship;//name---------------------------------------
     27;//effect number
       13.000000;//parameter1
       60.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
+      0.010000;//parameter3
+      0.010000;//parameter4
     end_effects;
   300;//interval in milliseconds -----realistic combat
     begin_conditions;
@@ -6121,8 +6090,8 @@ Yellow Wazzal ship;//name---------------------------------------
     27;//effect number
       13.000000;//parameter1
       60.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
+      0.010000;//parameter3
+      0.010000;//parameter4
     end_effects;
   300;//interval in milliseconds -----realistic combat
     begin_conditions;
@@ -9764,7 +9733,7 @@ Flying fighter;//name--------------------------------------- on planet
   100.000000;//creature weight (affects pushing)
   2.8000000;//maximum movement speed
   0.9000000;//minimum movement speed
-  20.000000;//leg animation speed
+  1.000000;//leg animation speed
   0.070000;//turn speed
   0.090000;//inertia level (acceleration/deceleration)
   0;//hide when behind walls
@@ -10390,6 +10359,85 @@ Storm large;//name---------------------------------------
     10.000000;//parameter1
     0.000000;//parameter2
     0.000000;//parameter3
+  end_specialties;
+  Insect;//name---------------------------------------flying above on planet
+  87;//identifier
+  0;//class
+  fly.png;//texture
+  2;//draw layer
+  -1;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
+  0;//corpse item amount
+  0;//attack type, 0=shooting attack, 1=close combat
+  -1;//particle to show on radar, -1=none
+  1;//primary AI tactic from AI_tactic.dat
+  1;//secondary AI tactic from AI_tactic.dat
+  -1;//footstep particle from particles.dat
+  0;//die after how many seconds, 0=doesn't die
+  -1;//eat item number from items.dat, -1=nothing
+  0.800000;//creature size
+  1.000000;//creature weight (affects pushing)
+  1.000000;//maximum movement speed
+  0.000000;//minimum movement speed
+  10.000000;//leg animation speed
+  0.150000;//turn speed
+  0.020000;//inertia level (acceleration/deceleration)
+  0;//hide when behind walls
+  0;//weapon number
+  0.000000;//weapon_x
+  27.000000;//weapon_y
+  46;//blood particle
+  0;//bars visible when player hovers mouse on top
+  1.000000;//death animation speed
+  0;//creature can move from area to another
+  700.000000;//AI hear range
+  500.000000;//AI see range
+  4.000000;//AI see angle
+  begin_footstep_sounds;//  
+  fly2.wav;//sample name
+  fly3.wav;//sample name
+  fly4.wav;//sample name
+  end_footstep_sounds;
+  begin_hit_sounds;// 
+    squish02.wav;//sample name
+  squish03.wav;//sample name
+  squish04.wav;//sample name
+  end_hit_sounds;
+  begin_die_sounds;//  
+    squish02.wav;//sample name
+  squish03.wav;//sample name
+  squish04.wav;//sample name
+  end_die_sounds;
+  begin_eat_block;//
+  end_eat_block;
+  begin_death_block;//
+  end_death_block;
+  begin_hit_block;//
+  end_hit_block;
+  begin_timed_block;//
+  50;//interval in milliseconds----------------fire
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+    27;//effect number
+      33.000000;//parameter1
+      100.000000;//parameter2
+      0.050000;//parameter3
+      0.050000;//parameter4
+    end_effects;
+  end_timed_block;
+  begin_specialties;//
+  health;//description
+    0;//number
+    4.000000;//parameter0
+    0.000000;//parameter1
+    5.000000;//parameter2
+    5.000000;//parameter3
+  fly;//description
+    4;//number
+    1.000000;//parameter0
+    1.000000;//parameter1
+    0.000000;//parameter2
+    1.000000;//parameter3
   end_specialties;
  end_of_file;
 
