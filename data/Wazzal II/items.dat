@@ -6785,7 +6785,7 @@ Fireflower;//name---------------------------------------
   0;//item class
   0.1000000;//weight
   This incredibly rare and valuable flower from the fields of Dorian Prime can be handed into any Confederate store for 2.5PP worth of fame. \ \ Use near store to hand in.;//short description
-  none;//first pick up text
+  You pick up the beautiful Fireflower. Native only to Dorian Prime, its rarity makes it highly prized throughout the Confederacy. \ \ You could either hand it into a store for instant fame, or try your hand at farming if you could find some suitable digging equipment!;//first pick up text;//first pick up text
   0.270000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
@@ -7431,7 +7431,7 @@ Flag: Pirate;//name---------------------------------------
   0;//item class
  5.0000000;//weight
  A sturdy shovel. This should allow you to plant some plants!;//short description
-none;//first pick up text
+You pick up the sturdy shovel. This would be perfect to help you farm some rare plants - you will need to find suitable farming soil first, however!;//first pick up text
   0.400000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
