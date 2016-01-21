@@ -522,59 +522,54 @@ Laser Rifle;//name---------------------------------------
     4.000000;//parameter3
     1.000000;//parameter4
   end_hit_effects;
-Pistol (Bodyguards);//name---------------------------------------
-  13;//identifier
-  4;//class
-  shell.png;//bullet texture
+ Unused;//name---------------------------------------
+ 88;//identifier
+  0;//class
+  laser_small3.png;//bullet texture
   1;//bullets at one shot
   0;//stop at hit 0=stop where hit, 1=don't stop
-  1.600000;//bullet size
+  6.5000000;//bullet size
   0.000000;//spread
-  1.200000;//bullet speed
-  1000.000000;//time until bullet disappears
-  700;//fire rate
-  2;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  2.300000;//bullet speed
+  370.000000;//time until bullet disappears
+  150;//fire rate 150
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
   -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
-  -1;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
-  none;//hit effect sound
-  0.750000;//push target back
-  0.050000;//push shooter back
-  pistol.wav;//fire sound
-  bimpact.wav;//hit sound
+  7;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  explode.WAV;//hit effect sound
+  0.0700000;//push target back
+  0.000000;//push shooter back
+  phaser.wav;//fire sound
+  explode.WAV;//hit sound
   1.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
   begin_wield_conditions;
   end_wield_conditions;
   begin_fire_effects;
   27;//effect number
-    14.000000;//parameter1
+    3.000000;//parameter1
     50.000000;//parameter2
-    0.700000;//parameter3
-    0.750000;//parameter4
+    0.600000;//parameter3
+    0.650000;//parameter4  
   27;//effect number
-    14.000000;//parameter1
+    4.000000;//parameter1
     50.000000;//parameter2
-    0.100000;//parameter3
-    0.100000;//parameter4    
+    1.700000;//parameter3
+    1.800000;//parameter4 
   26;//effect number
     1.000000;//parameter1
     2.000000;//parameter2
-    1.000000;//parameter3
-    0.000000;//parameter4
-  26;//effect number
-    4.000000;//parameter1
-    2.000000;//parameter2
-    1.000000;//parameter3
+    41.000000;//parameter3
     0.000000;//parameter4
   26;//effect number
     2.000000;//parameter1
     2.000000;//parameter2
-    1.000000;//parameter3
-    0.000000;//parameter4     
+    41.000000;//parameter3
+    0.000000;//parameter4
   end_fire_effects;
   begin_hit_effects;
   63;//effect number
-    -10.000000;//parameter1
-    -70.000000;//parameter2
+    -50.000000;//parameter1
+    -85.000000;//parameter2
     4.000000;//parameter3
     1.000000;//parameter4
   end_hit_effects;
@@ -4328,7 +4323,7 @@ Flying Confed fighter cannon;//name---------------------------------------
   0.000000;//spread
   2.300000;//bullet speed
   370.000000;//time until bullet disappears
-  150;//fire rate
+  150;//fire rate 150
   0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
   -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
   7;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
