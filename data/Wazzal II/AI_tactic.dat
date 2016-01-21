@@ -359,14 +359,14 @@ Press X to control in Fighter;//tactic name --------- standard tank parked
     0;//can hit enemies
     0;//can eat
   end_levels;
-Converted Alien;//tactic name ----- roam, flee
+Converted Alien;//tactic name ----- guard, flee
   29;//identifier
   begin_levels;
-  45;//anger level size
-    1;//action
-    0;//parameter0
-    0;//can hit enemies
-   0;//can eat
+    40;//anger level size
+   5;//action
+    200;//parameter0
+    1;//can hit enemies
+    0;//can eat
   5;//anger level size
    4;//action
     0;//parameter0

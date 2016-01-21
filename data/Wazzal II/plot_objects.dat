@@ -1214,6 +1214,9 @@ Click to enter bunker;//name---------------------------------------
     none;//sound, none for nothing
     2;//vanishes after event, 0=no, but cannot be reused, 1=vanishes, 2=no, and can be reused
     begin_conditions;
+	    33;//condition                       not carried
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1
     end_conditions;
     begin_effects;
     19;//effect number                          drop plot
@@ -1224,7 +1227,7 @@ Click to enter bunker;//name---------------------------------------
     21;//effect number                          teleport to bunker
       2.000000;//parameter1
       33.000000;//parameter2
-      1.000000;//parameter3
+      0.000000;//parameter3
       0.000000;//parameter4   
     60;//effect number                          cannot drop
       0.000000;//parameter1
@@ -1260,7 +1263,7 @@ Click to leave bunker;//name---------------------------------------
     21;//effect number                          teleport to 'leave bridge' point
       -1.000000;//parameter1
       34.000000;//parameter2
-      1.000000;//parameter3
+      0.000000;//parameter3
       0.000000;//parameter4     
     40;//effect number                          delete plot object placeholder
       34.000000;//parameter1
@@ -6226,7 +6229,7 @@ Descend to Jupiter;//name---------------------------------------
    1;//vanishes after event, 0=no, but cannot be reused, 1=vanishes, 2=no, and can be reused
     begin_conditions;
 	  8;//condition
-   3.000000;//condition parameter0
+   4.000000;//condition parameter0
     0.000000;//condition parameter1
 		  17;//condition
    117.000000;//condition parameter0

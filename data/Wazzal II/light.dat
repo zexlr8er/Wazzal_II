@@ -427,7 +427,7 @@ flare;//name-------
   -1;//flash particle (-1=nothing)
   0;//flashing speed
   0;//particle life time
- Insect;//name-------
+   Insect;//name-------
   33;//identifier
   light1.png;//texture
   1;//type, 0=flashlight, 1=omni

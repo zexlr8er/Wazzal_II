@@ -434,8 +434,8 @@ Ocean planet;//name-----------------------------------------------------------
   0;//can be a random map
   200;//light oscillate time
   0.000000;//light r phase shift
-  -0.200000;//light g phase shift
-  -0.200000;//light b phase shift
+  -0.100000;//light g phase shift
+  -0.100000;//light b phase shift
   0.900000;//light r amplitude
   1.000000;//light g amplitude
   1.000000;//light b amplitude
@@ -568,15 +568,15 @@ Lava planet;//name------------------------------------------------------------
   0.500000;//light r phase shift
   -0.100000;//light g phase shift
   -0.100000;//light b phase shift
-  0.9;//light r amplitude
-  1.0;//light g amplitude
-  1.0;//light b amplitude
-  0.7;//light max r
-  0.5;//light max g
-  0.5;//light max b
-  0;//light min r
-  0;//light min g
-  0.2;//light min b
+  1.000000;//light r amplitude
+  0.500000;//light g amplitude
+  0.500000;//light b amplitude
+  0.900000;//light max r
+  0.300000;//light max g
+  0.300000;//light max b
+  0.200000;//light min r
+  0.000000;//light min g
+  0.000000;//light min b
   0.650000;//night temperature
   0.850000;//day temperature
   1.200000;//maximum wind speed
@@ -780,8 +780,8 @@ Snow;//name------------------------------------------------------------
 0;//can be a random map
 200;//light oscillate time
   0;//light r phase shift
-  -0.2;//light g phase shift
-  -0.2;//light b phase shift
+  -0.1;//light g phase shift
+  -0.1;//light b phase shift
   0.9;//light r amplitude
   1.0;//light g amplitude
   1.0;//light b amplitude
@@ -897,10 +897,10 @@ Errxelz 8 (alien);//name--------------------------------------------------------
   1.000000;//light g amplitude
   0.800000;//light b amplitude
   0.100000;//light max r
-  0.400000;//light max g
+  0.300000;//light max g
   0.10000;//light max b
   0.100000;//light min r
-  0.400000;//light min g
+  0.300000;//light min g
   0.10000;//light min b
   -0.200000;//night temperature
   -0.200000;//day temperature
@@ -1254,8 +1254,8 @@ Meadow;//name-----------------------------------------------------------
   0;//can be a random map
   200;//light oscillate time
   0.000000;//light r phase shift
-  -0.200000;//light g phase shift
-  -0.200000;//light b phase shift
+  -0.100000;//light g phase shift
+  -0.100000;//light b phase shift
   0.900000;//light r amplitude
   1.000000;//light g amplitude
   1.000000;//light b amplitude
@@ -1296,27 +1296,23 @@ Meadow;//name-----------------------------------------------------------
 48;
   end_of_terrains;
   start_of_night_sounds;
+    crickets1.wav;
+   crickets2.wav;
+  crickets3.wav;
+    wind0.wav;
+   wind1.wav;
+   wind2.wav;
+   owl1.wav;
+   owl2.wav;
+   owl4.wav;
+   end_of_night_sounds;
+   start_of_day_sounds;
 junglebird1.wav;
- wind0.wav;
-  wind1.wav;
-  wind2.wav;
-  crickets1.wav;
-    crickets2.wav;
-	  crickets3.wav;
-	  owl1.wav;
- 	  owl2.wav;
-	   	  owl3.wav;
-  end_of_night_sounds;
-  start_of_day_sounds;
-junglebird1.wav;
-junglebird3.wav;
+ junglebird3.wav;
  birds1.wav;
-  birds2.wav;
-   birds3.wav;
-    birds4.wav;
-	 birds5.wav;
-forest.wav;
-  end_of_day_sounds;
+birds2.wav;
+birds3.wav;
+   end_of_day_sounds;  
   start_of_props;
  163;//object definition number		tree
     600;//number of these on a 100*100 map

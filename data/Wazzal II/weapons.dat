@@ -4339,23 +4339,13 @@ Flying Confed fighter cannon;//name---------------------------------------
   27;//effect number
     3.000000;//parameter1
     50.000000;//parameter2
-    0.600000;//parameter3
-    0.650000;//parameter4  
+    0.700000;//parameter3
+    0.80000;//parameter4  
   27;//effect number
     4.000000;//parameter1
     50.000000;//parameter2
-    1.700000;//parameter3
-    1.800000;//parameter4 
-  26;//effect number
-    1.000000;//parameter1
-    2.000000;//parameter2
-    41.000000;//parameter3
-    0.000000;//parameter4
-  26;//effect number
-    2.000000;//parameter1
-    2.000000;//parameter2
-    41.000000;//parameter3
-    0.000000;//parameter4
+    1.800000;//parameter3
+    2.500000;//parameter4 
   end_fire_effects;
   begin_hit_effects;
   63;//effect number

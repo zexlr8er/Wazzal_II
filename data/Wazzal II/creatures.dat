@@ -2420,7 +2420,7 @@ Confederacy destroyer;//name---------------------------------------
       13.000000;//parameter1
       60.000000;//parameter2
       0.010000;//parameter3
-      0.010000;//parameter4
+      0.020000;//parameter4
     end_effects;
  60000;//interval in milliseconds -----drop small fighters
     begin_conditions;   
@@ -5298,7 +5298,7 @@ Red Wazzal ship;//name---------------------------------------
       13.000000;//parameter1
       60.000000;//parameter2
       0.010000;//parameter3
-      0.010000;//parameter4
+      0.020000;//parameter4
     end_effects;
   300;//interval in milliseconds -----realistic combat
     begin_conditions;
@@ -5575,7 +5575,7 @@ Blue Wazzal ship;//name---------------------------------------
       13.000000;//parameter1
       60.000000;//parameter2
       0.010000;//parameter3
-      0.010000;//parameter4
+      0.020000;//parameter4
     end_effects;
   300;//interval in milliseconds -----realistic combat
     begin_conditions;
@@ -5833,7 +5833,7 @@ Green Wazzal ship;//name---------------------------------------
       13.000000;//parameter1
       60.000000;//parameter2
       0.010000;//parameter3
-      0.010000;//parameter4
+      0.020000;//parameter4
     end_effects;
   300;//interval in milliseconds -----realistic combat
     begin_conditions;
@@ -6091,7 +6091,7 @@ Yellow Wazzal ship;//name---------------------------------------
       13.000000;//parameter1
       60.000000;//parameter2
       0.010000;//parameter3
-      0.010000;//parameter4
+      0.020000;//parameter4
     end_effects;
   300;//interval in milliseconds -----realistic combat
     begin_conditions;
@@ -9733,7 +9733,7 @@ Flying fighter;//name--------------------------------------- on planet
   100.000000;//creature weight (affects pushing)
   2.8000000;//maximum movement speed
   0.9000000;//minimum movement speed
-  1.000000;//leg animation speed
+  20.000000;//leg animation speed
   0.070000;//turn speed
   0.090000;//inertia level (acceleration/deceleration)
   0;//hide when behind walls
