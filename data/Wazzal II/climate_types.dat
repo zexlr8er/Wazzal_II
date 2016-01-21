@@ -445,7 +445,7 @@ Ocean planet;//name-----------------------------------------------------------
   0.000000;//light min r
   0.000000;//light min g
   0.200000;//light min b
-  -0.590000;//night temperature
+  0.20000;//night temperature
   0.800000;//day temperature
   1.300000;//maximum wind speed
   8;//rain particle, -1=no rain
@@ -1296,27 +1296,23 @@ Meadow;//name-----------------------------------------------------------
 48;
   end_of_terrains;
   start_of_night_sounds;
+    crickets1.wav;
+   crickets2.wav;
+  crickets3.wav;
+    wind0.wav;
+   wind1.wav;
+   wind2.wav;
+   owl1.wav;
+   owl2.wav;
+   owl4.wav;
+   end_of_night_sounds;
+   start_of_day_sounds;
 junglebird1.wav;
- wind0.wav;
-  wind1.wav;
-  wind2.wav;
-jungle.wav;
-junglebird3.wav;
-  m16distant.wav;
-  luger.wav;
-  44.wav;
-wildcat.wav;
-  end_of_night_sounds;
-  start_of_day_sounds;
-junglebird.wav;
-junglebird2.wav;
-junglebird3.wav;
-  m16distant.wav;
-  luger.wav;
-  44.wav;
-jungle.wav;
-forest.wav;
-  end_of_day_sounds;
+ junglebird3.wav;
+ birds1.wav;
+birds2.wav;
+birds3.wav;
+   end_of_day_sounds;  
   start_of_props;
  163;//object definition number		tree
     600;//number of these on a 100*100 map
