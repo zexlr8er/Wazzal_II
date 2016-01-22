@@ -2480,6 +2480,19 @@ Confederacy destroyer;//name---------------------------------------
       1.000000;//parameter3
       0.000000;//parameter4
     end_effects;
+ 1500;//interval in milliseconds      --------ecm
+    begin_conditions;
+    14;//condition
+      4.000000;//condition parameter0
+      1500.000000;//condition parameter1      
+    end_conditions;
+    begin_effects;
+  10;//effect number
+    5.000000;//parameter1
+    3.000000;//parameter2
+    -1.000000;//parameter3
+    -1.000000;//parameter4 
+    end_effects;		
 140;//interval in milliseconds -----fire machine gun when right click
     begin_conditions;
   34;//condition
@@ -2578,8 +2591,8 @@ Confederacy destroyer;//name---------------------------------------
     0;//number
     4.000000;//parameter0
     0.000000;//parameter1
-    2200.000000;//parameter2
-    2200.000000;//parameter3
+    2600.000000;//parameter2
+    2600.000000;//parameter3
  shield;//description
     0;//number
     8.000000;//parameter0
@@ -3705,12 +3718,12 @@ Alien Battleship;//name---------------------------------------
       -1.000000;//parameter3
       -1.000000;//parameter4
     end_effects;
-  140;//interval in milliseconds --------secondary laser
+140;//interval in milliseconds --------secondary laser
     begin_conditions;
     14;//condition
       -4.000000;//condition parameter0
       800.000000;//condition parameter1
-0//condition
+	0//condition
       106.000000;//condition parameter0
       0.000000;//condition parameter1               
     end_conditions;
@@ -3721,7 +3734,7 @@ Alien Battleship;//name---------------------------------------
       2.000000;//parameter3
       0.000000;//parameter4
     end_effects;
-  160;//interval in milliseconds      --------secondary laser
+160;//interval in milliseconds      --------secondary laser
     begin_conditions;
     14;//condition
       -4.000000;//condition parameter0
@@ -3737,7 +3750,7 @@ Alien Battleship;//name---------------------------------------
       1.000000;//parameter3
       0.000000;//parameter4
     end_effects;
- 6000;//interval in milliseconds----- missiles
+6000;//interval in milliseconds----- missiles
     begin_conditions;
     8;//condition
       20.000000;//condition parameter0
@@ -3753,6 +3766,24 @@ Alien Battleship;//name---------------------------------------
       7.000000;//parameter3
       7.000000;//parameter4
     end_effects;
+500;//interval in milliseconds -----realistic combat		
+     begin_conditions;		
+     8;//condition		
+      15.000000;//condition parameter0		
+      0.000000;//condition parameter1       		
+      end_conditions;		
+     begin_effects;		
+     46;//effect number		
+       0.000000;//parameter1		
+       19.000000;//parameter2		
+       300.000000;//parameter3		
+       -1.000000;//parameter4		
+     27;//effect number		
+      6.000000;//parameter1		
+       50.000000;//parameter2		
+       1.300000;//parameter3		
+       1.700000;//parameter4 		
+     end_effects;
   end_timed_block;
   begin_specialties;//
   health;//description
