@@ -523,7 +523,7 @@ Laser Rifle;//name---------------------------------------
     1.000000;//parameter4
   end_hit_effects;
  Unused;//name---------------------------------------
- 88;//identifier
+ 13;//identifier
   0;//class
   laser_small3.png;//bullet texture
   1;//bullets at one shot
