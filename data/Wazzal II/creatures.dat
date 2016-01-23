@@ -7384,14 +7384,14 @@ Egg laying dark alien;//name---------------------------------------
   3;//footstep particle from particles.dat
   0;//die after how many seconds, 0=doesn't die
   91;//eat item number from items.dat, -1=nothing
-  1.45000000;//creature size
+  1.55000000;//creature size
  6.000000;//creature weight (affects pushing)
   0.350000;//maximum movement speed
   0.100000;//minimum movement speed
   1.200000;//leg animation speed
   1.000000;//turn speed
   1.000000;//inertia level (acceleration/deceleration)
-  1;//hide when behind walls
+  0;//hide when behind walls
   74;//weapon number
   0.000000;//weapon_x
   0.000000;//weapon_y
@@ -7428,12 +7428,12 @@ Egg laying dark alien;//name---------------------------------------
     end_conditions;
     begin_effects;
     44;//effect number
-      5.000000;//parameter1
+      15.000000;//parameter1
       1.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4
     end_effects;
-  2;//death type, 0=any death, 1=timed death, 2=killed by player
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
     begin_conditions;
 8;//condition
     4.000000;//condition parameter0
@@ -7443,10 +7443,10 @@ Egg laying dark alien;//name---------------------------------------
    3;//effect number
       129.000000;//parameter1
       1.000000;//parameter2
-      15.000000;//parameter3
+      50.000000;//parameter3
       0.000000;//parameter4    
     end_effects;
- 2;//death type, 0=any death, 1=timed death, 2=killed by player
+ 0;//death type, 0=any death, 1=timed death, 2=killed by player
     begin_conditions;
 8;//condition
     5.000000;//condition parameter0
@@ -7456,10 +7456,10 @@ Egg laying dark alien;//name---------------------------------------
    3;//effect number
       133.000000;//parameter1
       1.000000;//parameter2
-      15.000000;//parameter3
+      50.000000;//parameter3
       0.000000;//parameter4    
     end_effects;
- 2;//death type, 0=any death, 1=timed death, 2=killed by player
+ 0;//death type, 0=any death, 1=timed death, 2=killed by player
     begin_conditions;
 8;//condition
     6.000000;//condition parameter0
@@ -7469,7 +7469,7 @@ Egg laying dark alien;//name---------------------------------------
    3;//effect number
       126.000000;//parameter1
       1.000000;//parameter2
-      15.000000;//parameter3
+      50.000000;//parameter3
       0.000000;//parameter4    
     end_effects;
   end_death_block;
@@ -9597,7 +9597,7 @@ Dorian Prime alien;//name---------------------------------------
   11;//secondary AI tactic from AI_tactic.dat
   3;//footstep particle from particles.dat
   0;//die after how many seconds, 0=doesn't die
-  -1;//eat item number from items.dat, -1=nothing
+  163;//eat item number from items.dat, -1=nothing
   0.900000;//creature size
   1.000000;//creature weight (affects pushing)
   0.750000;//maximum movement speed
@@ -9607,8 +9607,8 @@ Dorian Prime alien;//name---------------------------------------
   1.000000;//inertia level (acceleration/deceleration)
   0;//hide when behind walls
   90;//weapon number
-  5.000000;//weapon_x
-  25.000000;//weapon_y
+  0.000000;//weapon_x
+  0.000000;//weapon_y
   0;//blood particle
   1;//bars visible when player hovers mouse on top
   1.000000;//death animation speed
@@ -9658,7 +9658,7 @@ Dorian Prime alien;//name---------------------------------------
     0.600000;//parameter3
     0.650000;//parameter4
  44;//effect number
-      1.000000;//parameter1
+      1.200000;//parameter1
       1.000000;//parameter2
       2.000000;//parameter3
       0.000000;//parameter4    
@@ -9689,48 +9689,6 @@ Dorian Prime alien;//name---------------------------------------
   begin_hit_block;//
   end_hit_block;
   begin_timed_block;//
-300;//interval in milliseconds----------------
-    begin_conditions;
-35;//condition
-    163.000000;//condition parameter0
-   400.000000;//condition parameter1
-    end_conditions;
-    begin_effects;
-    15;//effect number
-     83.000000;//parameter1
-     -1.000000;//parameter2
-      -1.000000;//parameter3
-     1.000000;//parameter4
-    end_effects;
-3000;//interval in milliseconds----------------if good side
-    begin_conditions;
-21;//condition
-    0.000000;//condition parameter0
-   0.000000;//condition parameter1
-24;//condition
-    2.000000;//condition parameter0
-  20.000000;//condition parameter1
-8;//condition
-   10.000000;//condition parameter0
-  0.000000;//condition parameter1
-    end_conditions;
-    begin_effects;
-    22;//effect number
-     1.000000;//parameter1
-      -1.000000;//parameter2
-     0.000000;//parameter3
-      0.000000;//parameter4
-46;//effect number
-      0.000000;//parameter1
-      27.000000;//parameter2
-     -1.000000;//parameter3
-      0.000000;//parameter4
-46;//effect number
-      1.000000;//parameter1
-      11.000000;//parameter2
-     -1.000000;//parameter3
-      0.000000;//parameter4
-    end_effects;
   end_timed_block;
   begin_specialties;//
   ;//description
@@ -9898,8 +9856,8 @@ Flying fighter;//name--------------------------------------- on planet
     0;//number
     4.000000;//parameter0
     0.000000;//parameter1
-    140.000000;//parameter2
-    140.000000;//parameter3
+    110.000000;//parameter2
+    110.000000;//parameter3
   fly;//description
     4;//number
     1.000000;//parameter0
@@ -10039,7 +9997,7 @@ resistance to fusion beam;//description
     0.000000;//parameter2
     0.000000;//parameter3
   end_specialties;
-Dorian Prime alien (eat ;//name---------------------------------------
+Unused;//name---------------------------------------
  83;//identifier
   3;//class
   dpalien.png;//texture
@@ -10062,8 +10020,8 @@ Dorian Prime alien (eat ;//name---------------------------------------
   1.000000;//inertia level (acceleration/deceleration)
   0;//hide when behind walls
   90;//weapon number
-  5.000000;//weapon_x
-  25.000000;//weapon_y
+  0.000000;//weapon_x
+  0.000000;//weapon_y
   0;//blood particle
   1;//bars visible when player hovers mouse on top
   1.000000;//death animation speed
@@ -10469,6 +10427,116 @@ Storm large;//name---------------------------------------
     1.000000;//parameter1
     0.000000;//parameter2
     1.000000;//parameter3
+  end_specialties;
+  Dorian Prime alien (baby);//name---------------------------------------
+ 88;//identifier
+  3;//class
+  dpalien.png;//texture
+  1;//draw layer
+  -1;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
+  1;//corpse item amount
+  1;//attack type, 0=shooting attack, 1=close combat
+  -1;//particle to show on radar, -1=none
+  21;//primary AI tactic from AI_tactic.dat
+  21;//secondary AI tactic from AI_tactic.dat
+  3;//footstep particle from particles.dat
+  0;//die after how many seconds, 0=doesn't die
+  163;//eat item number from items.dat, -1=nothing
+  0.400000;//creature size
+  0.500000;//creature weight (affects pushing)
+  0.750000;//maximum movement speed
+  0.000000;//minimum movement speed
+  1.200000;//leg animation speed
+  1.000000;//turn speed
+  1.000000;//inertia level (acceleration/deceleration)
+  0;//hide when behind walls
+  90;//weapon number
+  0.000000;//weapon_x
+  0.000000;//weapon_y
+  0;//blood particle
+  1;//bars visible when player hovers mouse on top
+  1.000000;//death animation speed
+  1;//creature can move from area to another
+  600.000000;//AI hear range
+  400.000000;//AI see range
+  4.500000;//AI see angle
+  begin_footstep_sounds;//
+  step_a0.wav;//sample name
+  step_a1.wav;//sample name
+  step_a2.wav;//sample name
+  end_footstep_sounds;
+  begin_hit_sounds;//
+  dphurt1.wav;//sample name
+     dphurt2.wav;//sample name
+     dphurt3.wav;//sample name
+ dphurt4.wav;//sample name
+  end_hit_sounds;
+  begin_die_sounds;//
+   dphurt1.wav;//sample name
+     dphurt2.wav;//sample name
+     dphurt3.wav;//sample name
+ dphurt4.wav;//sample name
+  end_die_sounds;
+  begin_eat_block;//
+ begin_conditions;
+    end_conditions;
+    begin_effects;
+ 22;//effect number
+      0.000000;//parameter1
+      -1.000000;//parameter2
+     0.000000;//parameter3
+      0.000000;//parameter4
+ 27;//effect number
+    3.000000;//parameter1
+    50.000000;//parameter2
+    0.600000;//parameter3
+    0.650000;//parameter4
+ 44;//effect number
+      0.6500000;//parameter1
+      1.000000;//parameter2
+      2.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+  end_eat_block;
+  begin_death_block;//
+ 2;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+ 44;//effect number
+      -0.500000;//parameter1
+      1.000000;//parameter2
+      2.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+ 44;//effect number
+      -0.500000;//parameter1
+      1.000000;//parameter2
+      2.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+  end_death_block;
+  begin_hit_block;//
+  end_hit_block;
+  begin_timed_block;//
+  end_timed_block;
+  begin_specialties;//
+  ;//description
+    0;//number
+    4.000000;//parameter0
+    0.000000;//parameter1
+   50.000000;//parameter2
+    50.000000;//parameter3
+ knife hurts;//description
+    1;//number
+    9.000000;//parameter0
+    10.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
   end_specialties;
  end_of_file;
 
