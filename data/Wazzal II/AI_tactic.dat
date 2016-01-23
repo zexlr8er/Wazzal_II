@@ -364,12 +364,7 @@ Converted Alien;//tactic name ----- guard, flee
   begin_levels;
     40;//anger level size
    5;//action
-    200;//parameter0
-    1;//can hit enemies
-    0;//can eat
-  5;//anger level size
-   4;//action
-    0;//parameter0
+    300;//parameter0
     1;//can hit enemies
     0;//can eat
   end_levels;
@@ -378,13 +373,8 @@ Converted alien, Follow;//tactic name--------------follow
   begin_levels;
   30;//anger level size
     2;//action
-    300;//parameter0
+    500;//parameter0
     1;//can hit enemies
-    0;//can eat
- 5;//anger level size
-   4;//action
-    0;//parameter0
-    0;//can hit enemies
     0;//can eat
   end_levels;
 end_of_file;
