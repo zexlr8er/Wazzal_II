@@ -4225,8 +4225,8 @@ Shotgun;//name---------------------------------------
   end_fire_effects;
   begin_hit_effects;
   63;//effect number
-    -15.000000;//parameter1
-    -75.000000;//parameter2
+    -35.000000;//parameter1
+    -85.000000;//parameter2
     4.000000;//parameter3
     1.000000;//parameter4
   end_hit_effects;
@@ -4321,14 +4321,14 @@ Flying Confed fighter cannon;//name---------------------------------------
   0;//stop at hit 0=stop where hit, 1=don't stop
   6.5000000;//bullet size
   0.000000;//spread
-  2.300000;//bullet speed
+  2.600000;//bullet speed
   370.000000;//time until bullet disappears
   150;//fire rate 150
   0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
   -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
   7;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
   explode.WAV;//hit effect sound
-  0.0700000;//push target back
+  0.1500000;//push target back
   0.000000;//push shooter back
   phaser.wav;//fire sound
   explode.WAV;//hit sound
@@ -4349,8 +4349,8 @@ Flying Confed fighter cannon;//name---------------------------------------
   end_fire_effects;
   begin_hit_effects;
   63;//effect number
-    -50.000000;//parameter1
-    -85.000000;//parameter2
+    -70.000000;//parameter1
+    -125.000000;//parameter2
     4.000000;//parameter3
     1.000000;//parameter4
   end_hit_effects;
@@ -4382,14 +4382,14 @@ Particle Parameter Holder (propaganda);//name-----------------------------------
   end_hit_effects;
 Alien's Claws;//name---------------------------------------
   90;//identifier
-  7;//class
+  4;//class
   qalienbullet.png;//bullet texture
   2;//bullets at one shot
   0;//stop at hit 0=stop where hit, 1=don't stop
   1.500000;//bullet size
   0.300000;//spread
   1.000000;//bullet speed
-  50.000000;//time until bullet disappears
+  20.000000;//time until bullet disappears
   100;//fire rate
   0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
   -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
@@ -4406,12 +4406,12 @@ Alien's Claws;//name---------------------------------------
   end_fire_effects;
   begin_hit_effects;
       4;//effect number
-    -0.8000000;//parameter1
+    -4.000000;//parameter1
     0.000000;//parameter2
     4.000000;//parameter3
     0.000000;//parameter4
   4;//effect number
-    -0.500000;//parameter1
+    -0.300000;//parameter1
     0.000000;//parameter2
     12.000000;//parameter3
     0.000000;//parameter4
