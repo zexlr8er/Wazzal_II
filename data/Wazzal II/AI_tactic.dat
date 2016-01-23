@@ -73,7 +73,7 @@ Follow;//tactic name
   begin_levels;
   30;//anger level size
     2;//action
-    500;//parameter0
+    600;//parameter0
     1;//can hit enemies
     1;//can eat
   end_levels;
@@ -179,7 +179,7 @@ Follow;//tactic name--------------bodyguards
   begin_levels;
   30;//anger level size
     2;//action
-    400;//parameter0
+    600;//parameter0
     1;//can hit enemies
     1;//can eat
   end_levels;
@@ -348,7 +348,7 @@ Peaceful unless provoked - dorian prime, can eat;//tactic name
     3;//action
     0;//parameter0
     1;//can hit enemies
-    1;//can eat
+    0;//can eat
   end_levels;
 Press X to control in Fighter;//tactic name --------- standard tank parked
  28;//identifier
@@ -373,7 +373,7 @@ Converted alien, Follow;//tactic name--------------follow
   begin_levels;
   30;//anger level size
     2;//action
-    500;//parameter0
+    800;//parameter0
     1;//can hit enemies
     0;//can eat
   end_levels;

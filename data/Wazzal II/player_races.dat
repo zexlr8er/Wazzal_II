@@ -121,8 +121,8 @@ Propaganda;//description
     0;//difficulty level
     none;//message
     2.000000;//parameter0
-    -100.000000;//parameter1
-    100.000000;//parameter2
+    -51.000000;//parameter1
+    51.000000;//parameter2
    0.000000;//parameter3
 Confed flag;//description
     5;//specialty 
