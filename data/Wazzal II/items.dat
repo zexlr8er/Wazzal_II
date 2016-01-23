@@ -7585,13 +7585,100 @@ Use to construct a powerful machine gun emplacement which will destroy any enemy
   begin_effects_block;
   end_effects_block;
   begin_combinations;
-  end_combinations
+  end_combinations;
+ Call Dorian Prime shuttle;//name---------------------------------------
+  185;//identifier
+  0;//item class
+ 0.0000000;//weight
+ none;//short description
+ none;//first pick up text
+  0.400000;//size on map
+  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  -1;//particle to shown on radar
+  1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
+shuttle.png;//texture name
+  -1;//wielded script,-1=nothing, only applicable for wieldable items
+  -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
+  1;//show help text for conditions
+  begin_wield_slots;
+  end_wield_slots;
+  begin_effects_block;
+  ;//event text
+  ;//event failure text
+    jumpgate.wav;//sound, none for nothing
+    1;//vanishes after event, 0=no, 1=yes
+    U;//use key
+   0;//quick key
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+  19;//effect number                                  Drop Dorian shuttle plot object
+      147.000000;//parameter1
+     3.000000;//parameter2
+    0.000000;//parameter3
+     0.000000;//parameter4
+		10;//effect number                    Dorian Prime friendly aliens
+	80.000000;//parameter1
+	0.000000;//parameter2
+	29.000000;//parameter3
+	30.000000;//parameter4		
+		10;//effect number                    Dorian Prime friendly aliens
+	80.000000;//parameter1
+	0.000000;//parameter2
+	29.000000;//parameter3
+	30.000000;//parameter4	
+		10;//effect number                    Dorian Prime friendly aliens
+	80.000000;//parameter1
+	0.000000;//parameter2
+	29.000000;//parameter3
+	30.000000;//parameter4	
+		10;//effect number                    Dorian Prime friendly aliens
+	80.000000;//parameter1
+	0.000000;//parameter2
+	29.000000;//parameter3
+	30.000000;//parameter4		
+			10;//effect number                    Dorian Prime friendly aliens
+	80.000000;//parameter1
+	0.000000;//parameter2
+	30.000000;//parameter3
+	29.000000;//parameter4	
+			10;//effect number                    Dorian Prime friendly aliens
+	80.000000;//parameter1
+	0.000000;//parameter2
+	30.000000;//parameter3
+	29.000000;//parameter4	
+			10;//effect number                    Dorian Prime friendly aliens
+	80.000000;//parameter1
+	0.000000;//parameter2
+	30.000000;//parameter3
+	29.000000;//parameter4	
+			10;//effect number                    Dorian Prime friendly aliens
+	80.000000;//parameter1
+	0.000000;//parameter2
+	30.000000;//parameter3
+	29.000000;//parameter4	
+			10;//effect number                    Dorian Prime friendly aliens
+	80.000000;//parameter1
+	0.000000;//parameter2
+	30.000000;//parameter3
+	29.000000;//parameter4	
+			10;//effect number                    Dorian Prime friendly aliens
+	80.000000;//parameter1
+	0.000000;//parameter2
+	30.000000;//parameter3
+	29.000000;//parameter4	
+			10;//effect number                    Dorian Prime friendly aliens
+	80.000000;//parameter1
+	0.000000;//parameter2
+	30.000000;//parameter3
+	29.000000;//parameter4	
+			10;//effect number                    Dorian Prime friendly aliens
+	80.000000;//parameter1
+	0.000000;//parameter2
+	30.000000;//parameter3
+	29.000000;//parameter4	
+        end_effects; 
+  end_effects_block;
+  begin_combinations;
+  end_combinations;
 end_of_file;
-
-
-
-	      3;//effect number
-      184.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
