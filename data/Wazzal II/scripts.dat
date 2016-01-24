@@ -192,13 +192,23 @@ Initialisation;//name-----------------------------------------------------------
     1.000000;//parameter2
     2.000000;//parameter3
     0.000000;//parameter4
-  16;//effect number                 
-    52.000000;//parameter1         Give Inventory 1 liquor item
+	  16;//effect number                 
+    187.000000;//parameter1         Give store Inventory barrier item
     1.000000;//parameter2
-    1.000000;//parameter3
+    2.000000;//parameter3
+    0.000000;//parameter4
+		  16;//effect number                 
+    188.000000;//parameter1         Give store Inventory MG turrent item
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+			  16;//effect number                 
+    189.000000;//parameter1         Give store Inventory pillbox item
+    1.000000;//parameter2
+    2.000000;//parameter3
     0.000000;//parameter4
   16;//effect number                 
-    63.000000;//parameter1         Give Inventory 1 rocket launcher item
+    52.000000;//parameter1         Give Inventory 1 liquor item
     1.000000;//parameter2
     1.000000;//parameter3
     0.000000;//parameter4
@@ -292,7 +302,7 @@ Initialisation;//name-----------------------------------------------------------
     1.000000;//parameter2
     0.000000;//parameter3
     0.000000;//parameter4
-		 16;//effect number                   Give Inventory 1 rank increase (for testing)
+    16;//effect number                   Give Inventory 1 rank increase (for testing)
     186.000000;//parameter1
     1.000000;//parameter2
     1.000000;//parameter3
