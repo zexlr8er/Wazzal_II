@@ -2183,7 +2183,7 @@ Play sound and stagger when player too cold;//name------------------------------
   300;//run every n milliseconds
   You're freezing! Find a fire to heat up.;//message
   0;//message type, 0=quick message, 1=journal
-  cold2.wav;//sound, none for nothing
+  cold.wav;//sound, none for nothing
   0;//delay script for n seconds after conditions met
   0;//disabled after first use, 0=no, 1=yes
   begin_conditions;
