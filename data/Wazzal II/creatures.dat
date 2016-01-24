@@ -1489,7 +1489,7 @@ Bodyguards;//name---------------------------------------first bodyguard
   0.400000;//turn speed
   1.000000;//inertia level (acceleration/deceleration)
   0;//hide when behind walls
-  20;//weapon number
+  95;//weapon number
   9.000000;//weapon_x
   26.000000;//weapon_y
   0;//blood particle
@@ -3060,7 +3060,7 @@ Bodyguards;//name---------------------------------------2nd bodyguard
   0.400000;//turn speed
   1.000000;//inertia level (acceleration/deceleration)
   0;//hide when behind walls
-  20;//weapon number
+  95;//weapon number
   9.000000;//weapon_x
   26.000000;//weapon_y
   0;//blood particle
