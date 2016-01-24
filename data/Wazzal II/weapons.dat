@@ -228,7 +228,7 @@ Viper Missile;//name---------------------------------------
   begin_fire_effects;
   10;//effect number
     2.000000;//parameter1
-    4.000000;//parameter2
+    -1.000000;//parameter2   4
     7.000000;//parameter3
     7.000000;//parameter4  
   16;//effect number
