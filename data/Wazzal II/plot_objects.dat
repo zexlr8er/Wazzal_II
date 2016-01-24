@@ -4744,6 +4744,11 @@ Grenade;//name--------------------------------------
       1.000000;//parameter2
       30.000000;//parameter3
       0.000000;//parameter4 
+	  	36;//effect number     ---shake
+    5.000000;//parameter1
+    600.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4 
     end_effects;
   end_effects_block; 
 Anti-grav;//name---------------------------------------
