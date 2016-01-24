@@ -287,6 +287,16 @@ Initialisation;//name-----------------------------------------------------------
     0.000000;//parameter2
     0.000000;//parameter3
     0.000000;//parameter4
+	 16;//effect number                   Give Inventory 0 rank increase (for testing)
+    186.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+		 16;//effect number                   Give Inventory 1 rank increase (for testing)
+    186.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
   end_effects;
 Player ship dies due to lack of health;//name-----------------------------------------------------------------
   1;//identifier
@@ -4215,7 +4225,7 @@ If has new Pirate flag item;//name----------------------------------------------
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   1000;//run every n milliseconds
- Captain, this is Admiral Werbung of the United Confederacy Navy Hearts and Minds Division. \ \ We have received word from the chief of the local tribes - Nai' R' Nuaq the II - that due to your efforts Dorian Prime will finally end its decades-long conflict with the Confederacy, and join our battle against the Alien invasion! Congratulations! You are truly a beacon of liberty, justice and the Confederacy way! \ \ To show their gratitude for your compassion, Nai' R' Nuaq the II has sworn the Dorian Prime tribes will come to your aid whenever and wherever you need it most! \ \ (You receive a beacon to call in a shuttle of deadly Dorian Prime warriors to your location, in addition to 500 credits and 50 Promotion Points. The Galactic Stock Exchange also soars in value!);//message
+ Captain, this is Admiral Werbung of the United Confederacy Navy Hearts and Minds Division. \ \ We have received word from the chief of the local tribes - Nai' R' Nuaq the II - that due to your efforts Dorian Prime will finally end its decades-long conflict with the Confederacy, and join our battle against the Alien invasion! Congratulations! You are truly a beacon of liberty, justice and the Confederacy way! \ \ To show their gratitude for your compassion, Nai' R' Nuaq the II has sworn the Dorian Prime tribes will come to your aid whenever and wherever you need it most! \ (You receive a beacon to call in a dropship of deadly Dorian Prime warriors to your location, in addition to 500 credits and 50 Promotion Points. The Galactic Stock Exchange also soars in value!);//message
   1;//message type, 0=quick message, 1=journal
   morse.wav;//sound, none for nothing
   0;//delay script for n seconds after conditions met

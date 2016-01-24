@@ -2851,11 +2851,11 @@ Deploy L. Fighter;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-3000: Deployable L. Fighters;//name---------------------------------------
+2000: Deployable L. Fighters;//name---------------------------------------
   70;//identifier
   0;//item class
   0.000000;//weight
-  Purchasing these five light fighters could give you an edge in ship-to-ship combat (restricted for ranks below Captain). \ \ Price: 3000 credits;//short description
+  Purchase five Light Confederate Fighters to give you an edge in ship-to-ship combat! (restricted for ranks below Captain). \ \ Price: 2000 credits;//short description
   none;//first pick up text
   0.650000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -2877,11 +2877,11 @@ Deploy L. Fighter;//name---------------------------------------
     begin_conditions;
     3;//condition
       13.000000;//condition parameter0
-      3000.000000;//condition parameter1      
+      2000.000000;//condition parameter1      
     end_conditions;
     begin_effects;
     4;//effect number
-      -3000.000000;//parameter1
+      -2000.000000;//parameter1
       1.000000;//parameter2
       13.000000;//parameter3
       0.000000;//parameter4     
@@ -3046,11 +3046,11 @@ Deploy H. Fighter;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-5000: Deployable H. Fighters;//name---------------------------------------
+3000: Deployable H. Fighters;//name---------------------------------------
   75;//identifier
   0;//item class
   0.000000;//weight
-  Purchasing these five heavy fighters could give you an edge in ship-to-ship combat (restricted for ranks below Captain). \ \ Price: 5000 credits;//short description
+  Purchase five Heavy Confederate Fighters to give you an edge in ship-to-ship combat! (restricted for ranks below Captain) \ \ Price: 3000 credits;//short description
   none;//first pick up text
   0.650000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -3072,11 +3072,11 @@ Deploy H. Fighter;//name---------------------------------------
     begin_conditions;
     3;//condition
       13.000000;//condition parameter0
-      5000.000000;//condition parameter1       
+      3000.000000;//condition parameter1       
     end_conditions;
     begin_effects;
     4;//effect number
-      -5000.000000;//parameter1
+      -3000.000000;//parameter1
       1.000000;//parameter2
       13.000000;//parameter3
       0.000000;//parameter4     
@@ -6783,8 +6783,8 @@ Ready to drop;//event text
 Fireflower;//name---------------------------------------
   164;//identifier
   0;//item class
-  0.1000000;//weight
-  This incredibly rare and valuable flower from the fields of Dorian Prime can be handed into any Confederate store for 2.5PP worth of fame. \ \ Use near store to hand in.;//short description
+  0.100000;//weight
+  This incredibly rare and valuable flower from the fields of Dorian Prime can be handed into any Confederate store for 1.5PP worth of fame. \ \ Use near store to hand in.;//short description
   You pick up the beautiful Fireflower. Native only to Dorian Prime, its rarity makes it highly prized throughout the Confederacy. \ \ You could either hand it into a store for instant fame, or try your hand at farming if you could find some suitable digging equipment!;//first pick up text;//first pick up text
   0.270000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -6810,7 +6810,7 @@ Fireflower;//name---------------------------------------
     end_conditions;
     begin_effects;
     4;//effect number
-     2.50000;//parameter1
+     1.50000;//parameter1
       0.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4
@@ -7586,11 +7586,11 @@ Use to construct a powerful machine gun emplacement which will destroy any enemy
   end_effects_block;
   begin_combinations;
   end_combinations;
- Call Dorian Prime shuttle;//name---------------------------------------
+ Call Dorian Prime dropship;//name---------------------------------------
   185;//identifier
   0;//item class
  0.0000000;//weight
- none;//short description
+ Use this item when you are most in need to call in a Dorian Prime dropship, fully laden with deadly tribal warriors to fight on your side! ;//short description
  none;//first pick up text
   0.400000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -7603,7 +7603,7 @@ shuttle.png;//texture name
   begin_wield_slots;
   end_wield_slots;
   begin_effects_block;
-  ;//event text
+  Long live Dorian Prime!;//event text
   ;//event failure text
     jumpgate.wav;//sound, none for nothing
     1;//vanishes after event, 0=no, 1=yes
@@ -7620,23 +7620,13 @@ shuttle.png;//texture name
 		10;//effect number                    Dorian Prime friendly aliens
 	80.000000;//parameter1
 	0.000000;//parameter2
-	29.000000;//parameter3
-	30.000000;//parameter4		
+	30.000000;//parameter3
+	29.000000;//parameter4	
 		10;//effect number                    Dorian Prime friendly aliens
 	80.000000;//parameter1
 	0.000000;//parameter2
-	29.000000;//parameter3
-	30.000000;//parameter4	
-		10;//effect number                    Dorian Prime friendly aliens
-	80.000000;//parameter1
-	0.000000;//parameter2
-	29.000000;//parameter3
-	30.000000;//parameter4	
-		10;//effect number                    Dorian Prime friendly aliens
-	80.000000;//parameter1
-	0.000000;//parameter2
-	29.000000;//parameter3
-	30.000000;//parameter4		
+	30.000000;//parameter3
+	29.000000;//parameter4		
 			10;//effect number                    Dorian Prime friendly aliens
 	80.000000;//parameter1
 	0.000000;//parameter2
@@ -7678,6 +7668,41 @@ shuttle.png;//texture name
 	30.000000;//parameter3
 	29.000000;//parameter4	
         end_effects; 
+  end_effects_block;
+  begin_combinations;
+  end_combinations;
+ Secret rank increase item;//name---------------------------------------
+ 186;//identifier
+  0;//item class
+  0.000000;//weight
+  Increase ranks by 50;//short description
+  none;//first pick up text
+  2.0000;//size on map
+  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  0;//particle to shown on radar
+  0;//visible in inventory 0=no (can only be used via quick keys), 1=yes
+  mg_small.png;//texture name
+  -1;//wielded script,-1=nothing, only applicable for wieldable items
+  -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
+  1;//show help text for conditions
+  begin_wield_slots;
+  end_wield_slots;
+  begin_effects_block;
+    Machine gun deployed!;//event text
+    none;//event failure text
+    use.wav;//sound, none for nothing
+    0;//vanishes after event, 0=no, 1=yes
+    U;//use key
+    9;//quick key
+    begin_conditions; 
+    end_conditions;
+    begin_effects;  
+    44;//effect number
+      50.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4   
+    end_effects;
   end_effects_block;
   begin_combinations;
   end_combinations;

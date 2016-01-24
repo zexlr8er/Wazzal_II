@@ -30,7 +30,6 @@ friendly missiles;//name-------------------------------------------
   4;//identifier
   start_hostile_sides;
   1;
-11;
   end_hostile_sides;
 Asteroids;//name-------------------------------------------
   5;//identifier

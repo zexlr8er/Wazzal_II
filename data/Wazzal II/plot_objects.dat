@@ -6262,7 +6262,7 @@ Descend to Jupiter;//name---------------------------------------
   0;//show help text for conditions
   begin_effects_block;
   end_effects_block;
-  Dorian Prime shuttle;//name---------------------------------------
+  Dorian Prime dropship;//name---------------------------------------
   147;//identifier
   -1;//map type to place to -1=any map 0=> type from areas.dat
   0;//plot_object class
