@@ -2397,6 +2397,11 @@ Confederacy destroyer;//name---------------------------------------
       50.000000;//parameter2
       10.000000;//parameter3
       0.000000;//parameter4    
+	  	36;//effect number           shake
+    12.000000;//parameter1
+    600.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4 
     end_effects;
  2;//death type, 0=any death, 1=timed death, 2=killed by player
     begin_conditions;
@@ -3389,6 +3394,11 @@ fighter_move.wav;//
       -1.000000;//parameter2
       7.000000;//parameter3
      7.000000;//parameter4 
+	  36;//effect number           shake
+    6.000000;//parameter1
+    600.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4  
     end_effects;
   end_death_block;
   begin_hit_block;//
@@ -3667,6 +3677,11 @@ Alien Battleship;//name---------------------------------------
       30.000000;//parameter2
       10.000000;//parameter3
       0.000000;//parameter4    
+	36;//effect number           shake
+    12.000000;//parameter1
+    600.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4 
     end_effects;
   2;//death type, 0=any death, 1=timed death, 2=killed by player
     begin_conditions;
@@ -3959,6 +3974,26 @@ Alien Tank;//name---------------------------------------
   begin_eat_block;//
   end_eat_block;
   begin_death_block;//
+    2;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+    44;//effect number                 add PP
+      10.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+	   0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+  	36;//effect number           shake
+    6.000000;//parameter1
+    600.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4  
+    end_effects;
   end_death_block;
   begin_hit_block;//
   end_hit_block;
@@ -6538,6 +6573,11 @@ fighter_move.wav;//
       -1.000000;//parameter2
       7.000000;//parameter3
      7.000000;//parameter4 
+ 36;//effect number           shake
+    6.000000;//parameter1
+    600.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4  
     end_effects;
   end_death_block;
   begin_hit_block;//

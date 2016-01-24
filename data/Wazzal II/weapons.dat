@@ -341,7 +341,7 @@ Missile Damage Enemy;//name---------------------------------------
     0.000000;//parameter3
     0.000000;//parameter4
 	  36;//effect number           shake
-    12.000000;//parameter1
+    9.000000;//parameter1
     600.000000;//parameter2
     0.000000;//parameter3
     0.000000;//parameter4 
@@ -1244,6 +1244,11 @@ Deploy mines;//name---------------------------------------
     0.000000;//parameter2
     4.000000;//parameter3
     0.000000;//parameter4
+	36;//effect number           shake
+    6.000000;//parameter1
+    300.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4 
   end_hit_effects;
 Laser cannon (Twin);//name---------------------------------------Confed player
   25;//identifier
@@ -1735,6 +1740,11 @@ Rocket explosion;//name---------------------------------------
     0.000000;//parameter2
     9.000000;//parameter3
     0.000000;//parameter4
+		36;//effect number           shake
+    12.000000;//parameter1
+    600.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4 
   end_hit_effects;
 Rocket Launcher;//name---------------------------------------
   37;//identifier
@@ -3835,6 +3845,11 @@ Kwaj 4 Torpedo;//name---------------------------------------
     20.000000;//parameter2
     0.100000;//parameter3
     0.300000;//parameter4 
+	36;//effect number           shake
+    6.000000;//parameter1
+    600.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4 
   end_hit_effects;
 Phaser cannon;//name---------------------------------------
   80;//identifier
