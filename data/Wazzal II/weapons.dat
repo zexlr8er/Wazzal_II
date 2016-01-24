@@ -1746,7 +1746,7 @@ Rocket explosion;//name---------------------------------------
     0.000000;//parameter3
     0.000000;//parameter4 
   end_hit_effects;
-Rocket Launcher;//name---------------------------------------
+Rocket;//name---------------------------------------
   37;//identifier
   0;//class
   invisible.png;//bullet texture

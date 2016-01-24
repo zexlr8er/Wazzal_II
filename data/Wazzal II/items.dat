@@ -2649,7 +2649,7 @@ Rockets;//name---------------------------------------
   64;//identifier
   0;//item class
   2.000000;//weight
-  This rocket would work perfectly if you had a rocket launcher. It seems extremely volatile, so it would be wise to handle them with care.;//short description
+  A deadly heat-seeking rocket. This is a perfect weapon for use on groups of tightly packed enemies, as the explosion can kill several creatures at a time.;//short description
   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -2662,19 +2662,19 @@ Rockets;//name---------------------------------------
   begin_wield_slots;
   end_wield_slots;
   begin_effects_block;
-  The rocket explodes!!!;//event text
+  Rockets loaded!;//event text
     none;//event failure text
-    explosion2.wav;//sound, none for nothing
+    use.wav;//sound, none for nothing
     1;//vanishes after event, 0=no, 1=yes
     U;//use key
     0;//quick key
     begin_conditions;
     end_conditions;
     begin_effects;
-    4;//effect number
-      -10.000000;//parameter1
-      1.000000;//parameter2
-      4.000000;//parameter3
+    9;//effect number
+      37.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
       0.000000;//parameter4
     end_effects;
   end_effects_block;
