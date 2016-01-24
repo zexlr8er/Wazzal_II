@@ -248,7 +248,7 @@ Missile/mine Damage;//name---------------------------------------
   1.000000;//bullet size
   0.100000;//spread
   2.000000;//bullet speed
-  34.000000;//time until bullet disappears
+  64.000000;//time until bullet disappears
   10;//fire rate
   0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
   -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
@@ -275,17 +275,22 @@ Missile/mine Damage;//name---------------------------------------
   end_fire_effects;
   begin_hit_effects;
   4;//effect number
-    -70.000000;//parameter1
+    -80.000000;//parameter1
     0.000000;//parameter2
     4.000000;//parameter3
     0.000000;//parameter4
-44;//effect number
+  44;//effect number
     1.0000000;//parameter1
     1.000000;//parameter2
     9.000000;//parameter3
     0.000000;//parameter4
+  36;//effect number     ---shake
+    5.000000;//parameter1
+    600.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4 
    end_hit_effects;
-Missile Damage Enemy;//name---------------------------------------ENEMY MISSILE
+Missile Damage Enemy;//name---------------------------------------
   7;//identifier
   7;//class
   fire0.png;//bullet texture
@@ -320,21 +325,26 @@ Missile Damage Enemy;//name---------------------------------------ENEMY MISSILE
     0.000000;//parameter4 
   end_fire_effects;
   begin_hit_effects;
-  4;//effect number
+  4;//effect number                15 from shields (player damage x0.1)
     -150.000000;//parameter1
     0.000000;//parameter2
     8.000000;//parameter3
-    0.000000;//parameter4
-  4;//effect number
+    0.000000;//parameter4 
+  4;//effect number                150 from health (for enemies)
     -150.000000;//parameter1
     0.000000;//parameter2
     4.000000;//parameter3
     0.000000;//parameter4  
-4;//effect number                  take 50 from health
+4;//effect number                  5 from shields (player damage x0.1)
     -50.000000;//parameter1
     0.000000;//parameter2
     0.000000;//parameter3
     0.000000;//parameter4
+	  36;//effect number           shake
+    12.000000;//parameter1
+    600.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4 
   end_hit_effects;
 Kilo-hertz ECM;//name---------------------------------------
   8;//identifier
@@ -1425,7 +1435,7 @@ Laser confed destroyer;//name---------------------------------------
     0.000000;//parameter3
     0.000000;//parameter4
   end_hit_effects;
-Missile Damage shot;//name---------------------------------------ENEMY MISSILE
+Unused (Missile Damage shot);//name---------------------------------------
   29;//identifier
   7;//class
   fire0.png;//bullet texture
@@ -2176,6 +2186,11 @@ Landmine Damage;//name---------------------------------------
     40.000000;//parameter1
     3.000000;//parameter2
     10.000000;//parameter3
+    0.000000;//parameter4 
+		36;//effect number     ---shake
+    5.000000;//parameter1
+    600.000000;//parameter2
+    0.000000;//parameter3
     0.000000;//parameter4 
   end_hit_effects;
 Rear Thrusters;//name--------------------------------------- fired by weapon 2
@@ -3943,6 +3958,11 @@ rpg.wav;//fire sound
       1.000000;//parameter2
       3.000000;//parameter3
       0.000000;//parameter4
+	36;//effect number     ---shake
+    5.000000;//parameter1
+    600.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4 
   end_hit_effects;
 Grenade;//name---------------------------------------
   82;//identifier
