@@ -2609,7 +2609,7 @@ Stealth armour OFF;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-Rocket launcher;//name---------------------------------------
+Unused (Rocket launcher);//name---------------------------------------
   63;//identifier
   0;//item class
   10.00000;//weight
@@ -2684,7 +2684,7 @@ Rockets;//name---------------------------------------
   65;//identifier
   0;//item class
   0.000000;//weight
-  This deadly rocket would work perfectly if you had a rocket launcher \ \ Price: 500 credits;//short description
+  A deadly heat-seeking rocket. A perfect weapon for use on groups of tightly packed enemies! \ \ Price: 300 credits;//short description
   none;//first pick up text
   0.650000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
