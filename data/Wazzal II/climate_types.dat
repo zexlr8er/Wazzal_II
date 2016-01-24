@@ -420,6 +420,8 @@ fightercrash.wav;
 fightercrash.wav;
   end_of_day_sounds;
   start_of_props;
+  80;//object definition number		tree
+   60;//number of these on a 100*100 map
   47;//object definition number		ast1
     100;//number of these on a 100*100 map
   104;//object definition number		kivi
