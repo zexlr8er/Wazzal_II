@@ -17,7 +17,7 @@ alien ships;//name-------------------------------------------
 alien missiles;//name-------------------------------------------
   2;//identifier
   start_hostile_sides;
-  0;
+  0; 
 3;
 10;
   end_hostile_sides;
@@ -26,7 +26,7 @@ friendly ecm;//name-------------------------------------------
   start_hostile_sides;
   2;
   end_hostile_sides;
-friendly missiles;//name-------------------------------------------
+Unused (friendly missiles);//name-------------------------------------------
   4;//identifier
   start_hostile_sides;
   1;
