@@ -2180,10 +2180,10 @@ Play sound and stagger when player too cold;//name------------------------------
   1;//run without calling (set to 0 if you use the script for example as a wield script)
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
-  600;//run every n milliseconds
-  none;//message
+  300;//run every n milliseconds
+  You're freezing! Find a fire to heat up.;//message
   0;//message type, 0=quick message, 1=journal
-  cold.wav;//sound, none for nothing
+  cold2.wav;//sound, none for nothing
   0;//delay script for n seconds after conditions met
   0;//disabled after first use, 0=no, 1=yes
   begin_conditions;
@@ -2199,23 +2199,28 @@ Play sound and stagger when player too cold;//name------------------------------
   end_conditions;
   begin_effects;
   33;//effect number
-    4.000000;//parameter1
+    7.000000;//parameter1
     1.000000;//parameter2
-    3000.000000;//parameter3
+    1500.000000;//parameter3
     0.000000;//parameter4
   1;//effect number
-    1200.000000;//parameter1
+    1500.000000;//parameter1
     -1.000000;//parameter2
     0.700000;//parameter3
     0.000000;//parameter4
+		  23;//effect number                drain health
+    -1.000000;//parameter1
+    -1.0000;//parameter2
+    12.000000;//parameter3
+    300.000000;//parameter4
   end_effects;
 Play sound and stagger when player too hot;//name---------------------------------------------------------
   56;//identifier
   1;//run without calling (set to 0 if you use the script for example as a wield script)
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
-  600;//run every n milliseconds
-  none;//message
+  300;//run every n milliseconds
+  It's too hot! Find shelter!;//message
   0;//message type, 0=quick message, 1=journal
   hot.wav;//sound, none for nothing
   0;//delay script for n seconds after conditions met
@@ -2233,20 +2238,25 @@ Play sound and stagger when player too hot;//name-------------------------------
   end_conditions;
   begin_effects;
   33;//effect number
-    2.000000;//parameter1
+    7.000000;//parameter1
     4.000000;//parameter2
-    3000.000000;//parameter3
+    1500.000000;//parameter3
     0.000000;//parameter4
   1;//effect number
-    3000.000000;//parameter1
+    1500.000000;//parameter1
     -1.000000;//parameter2
     0.700000;//parameter3
     0.000000;//parameter4
   36;//effect number
-    2.000000;//parameter1
-    3000.000000;//parameter2
+    4.000000;//parameter1
+    1500.000000;//parameter2
     0.000000;//parameter3
     0.000000;//parameter4
+	  23;//effect number                drain health
+    -1.000000;//parameter1
+    -1.0000;//parameter2
+    12.000000;//parameter3
+    300.000000;//parameter4
   end_effects;
 Switch stock to correct inventory, DRUGS;//name-----------------------------------------------------------------
   57;//identifier

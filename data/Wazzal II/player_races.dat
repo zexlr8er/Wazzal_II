@@ -710,22 +710,6 @@ decrease health restorer timer bar;//description bookmark
     1.010000;//parameter1
     5.000000;//parameter2
     -1.500000;//parameter3
-  drain health if temperature too high;//description
-    7;//specialty 
-    0;//difficulty level
-    It's too hot! Find shelter!;//message
-    6.000000;//parameter0
-    0.900000;//parameter1
-    12.000000;//parameter2
-    -0.500000;//parameter3
-  drain health if temperature too low;//description
-    6;//specialty 
-    0;//difficulty level
-    You're freezing! Find a fire to heat up.;//message
-    6.000000;//parameter0
-    0.200000;//parameter1
-    12.000000;//parameter2
-    -0.500000;//parameter3
   cannot drop item class 1;//description
     0;//specialty
     0;//difficulty level
