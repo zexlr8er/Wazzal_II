@@ -25,4 +25,7 @@ Paper;//name--------------------------------------
     Thunder;//name--------------------------------------
   8;//identifier
   thunderclap.wav;//filename
+  Jumpgate;//name--------------------------------------
+  9;//identifier
+  jumpgate.wav;//filename
 end_of_file;

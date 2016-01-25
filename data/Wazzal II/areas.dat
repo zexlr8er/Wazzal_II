@@ -112,6 +112,9 @@ end_alien_list;
 35;//alien type in creatures.dat---------alien mothership
     3;//number of these aliens
     1;//side
+  89;//alien type in creatures.dat---------alien cruiser
+    3;//number of these aliens
+    1;//side
   6;//alien type in creatures.dat---------asteroids
     30;//number of these aliens
     5;//side
@@ -294,6 +297,9 @@ end_excluded_plot_object_classes;
 35;//alien type in creatures.dat---------alien mothership
     2;//number of these aliens
     1;//side
+89;//alien type in creatures.dat---------alien cruiser
+    3;//number of these aliens
+    1;//side
   7;//alien type in creatures.dat---------asteroids
     13;//number of these aliens
     5;//side
@@ -372,7 +378,10 @@ end_excluded_plot_object_classes;
     30;//number of these aliens
     1;//side
 35;//alien type in creatures.dat---------alien mothership
-    5;//number of these aliens
+    3;//number of these aliens
+    1;//side
+89;//alien type in creatures.dat---------alien cruiser
+    3;//number of these aliens
     1;//side
   6;//alien type in creatures.dat---------asteroids
   80;//number of these aliens
@@ -452,7 +461,7 @@ New Dawn System;//area name
 5;
   end_excluded_plot_object_classes;
   none;//enter area text, specify none to not show it
-18;//---------------------------------------------------------player will start on first area
+18;//---------------------------------------------------------
  Eent 4 System;//area name
   1;//area class
   3;//climate in climate_types.dat, -1=random climate
@@ -468,6 +477,9 @@ New Dawn System;//area name
     1;//side
 35;//alien type in creatures.dat---------alien mothership
     2;//number of these aliens
+    1;//side
+89;//alien type in creatures.dat---------alien cruiser
+    3;//number of these aliens
     1;//side
   end_alien_list;
   begin_excluded_plot_object_classes;
@@ -487,7 +499,7 @@ New Dawn System;//area name
   begin_alien_list;
     	 87;//alien type in creatures.dat---------fly
    80;//number of these aliens
-   10;//side
+   15;//side
 end_alien_list;
   begin_excluded_plot_object_classes;
   1;
@@ -502,38 +514,32 @@ end_alien_list;
   2;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
   0.5000000;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
   begin_alien_list;
- 1;//alien type in creatures.dat---------small alien fighters
-    5;//number of these aliens
-    1;//side
-  3;//alien type in creatures.dat---------large alien fighters
-    5;//number of these aliens
-    1;//side
-35;//alien type in creatures.dat---------alien mothership
-    0;//number of these aliens
+89;//alien type in creatures.dat---------alien cruiser
+    10;//number of these aliens
     1;//side
 6;//alien type in creatures.dat---------asteroids
-    10;//number of these aliens
+    20;//number of these aliens
     5;//side
   7;//alien type in creatures.dat---------asteroids
-    20;//number of these aliens
+    30;//number of these aliens
     5;//side
   8;//alien type in creatures.dat---------asteroids
-    5;//number of these aliens
+    10;//number of these aliens
     5;//side
   9;//alien type in creatures.dat---------asteroids
-    20;//number of these aliens
+    30;//number of these aliens
     5;//side
 70;//alien type in creatures.dat---------asteroids
- 5;//number of these aliens
+ 15;//number of these aliens
     5;//side
   71;//alien type in creatures.dat---------asteroids
-  15;//number of these aliens
+  25;//number of these aliens
     5;//side
  72;//alien type in creatures.dat---------asteroids
-    5;//number of these aliens
+    10;//number of these aliens
     5;//side
   73;//alien type in creatures.dat---------asteroids
-    10;//number of these aliens
+    20;//number of these aliens
     5;//side
   end_alien_list;
   begin_excluded_plot_object_classes;

@@ -4234,7 +4234,7 @@ If has new Pirate flag item;//name----------------------------------------------
   end_conditions;
   begin_effects;
   4;//effect number                  take from health
-    -1.80000;//parameter1
+    -2.40000;//parameter1
     0.000000;//parameter2
     0.000000;//parameter3
     0.000000;//parameter4
