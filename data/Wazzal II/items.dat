@@ -1026,7 +1026,7 @@ Ship repair unit;//name---------------------------------------
   begin_effects_block;
   Emergency repairs in progress...;//event text
     ;//event failure text
-    use.wav;//sound, none for nothing
+    wrench.wav;//sound, none for nothing
     1;//vanishes after event, 0=no, 1=yes
     U;//use key
     H;//quick key
