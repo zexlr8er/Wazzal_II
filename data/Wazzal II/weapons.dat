@@ -4824,12 +4824,12 @@ Storm hit;//name---------------------------------------
   end_fire_effects;
   begin_hit_effects;
   4;//effect number
-    -15.000000;//parameter1
+    -9.000000;//parameter1
     0.000000;//parameter2
     4.000000;//parameter3
     0.000000;//parameter4
 	  4;//effect number
-    -0.500000;//parameter1
+    -0.3300000;//parameter1
     0.000000;//parameter2
     12.000000;//parameter3
     0.000000;//parameter4
