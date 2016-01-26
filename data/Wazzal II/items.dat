@@ -2315,11 +2315,11 @@ Adrenaline injection;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-1000: Adrenaline injection;//name---------------------------------------
+500: Adrenaline injection;//name---------------------------------------
   56;//identifier
   0;//item class
   0.000000;//weight
-  This adrenaline injection will give you a 15 second burst of speed when used. \ \  Price: 1000 credits;//short description
+  This adrenaline injection will give you a 15 second burst of speed when used. \ \  Price: 500 credits;//short description
   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -2341,11 +2341,11 @@ Adrenaline injection;//name---------------------------------------
     begin_conditions;
     3;//condition
       13.000000;//condition parameter0
-      1000.000000;//condition parameter1      
+      500.000000;//condition parameter1      
     end_conditions;
     begin_effects;
     4;//effect number
-      -1000.000000;//parameter1
+      -500.000000;//parameter1
       1.000000;//parameter2
       13.000000;//parameter3
       0.000000;//parameter4     
@@ -4111,11 +4111,11 @@ Painkillers;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-1000: Painkillers;//name---------------------------------------
+500: Painkillers;//name---------------------------------------
   103;//identifier
   0;//item class
   0.000000;//weight
-  These pills will allow you to become impervious to pain for 20 seconds when used. \ \  Price: 1000 credits;//short description
+  These pills will allow you to become impervious to pain for 20 seconds when used. \ \  Price: 500 credits;//short description
   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -4137,11 +4137,11 @@ Painkillers;//name---------------------------------------
     begin_conditions;
     3;//condition
       13.000000;//condition parameter0
-      1000.000000;//condition parameter1      
+      500.000000;//condition parameter1      
     end_conditions;
     begin_effects;
     4;//effect number
-      -1000.000000;//parameter1
+      -500.000000;//parameter1
       1.000000;//parameter2
       13.000000;//parameter3
       0.000000;//parameter4     
