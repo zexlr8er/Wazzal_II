@@ -811,7 +811,7 @@ Water;//name---------------------------------------
     80.000000;//time to display frame
   end_terrain_frames;
   begin_effects_block;
-  The water slows you down. Good thing it's shallow.;//event text
+  The water slows you down. Good thing it's shallow!;//event text
     100.000000;//interval
     1;//run only once 0=no, 1=yes
     begin_conditions;
@@ -826,8 +826,13 @@ Water;//name---------------------------------------
     1;//effect number
       100.000000;//parameter1
       -1.000000;//parameter2
-      0.250000;//parameter3
+      0.30000;//parameter3
       0.000000;//parameter4
+	      23;//effect number
+      -2.000000;//parameter1
+      -1.000000;//parameter2
+      6.000000;//parameter3
+      100.000000;//parameter4
      end_effects;
   end_effects_block;
 Brick floor;//name---------------------------------------
