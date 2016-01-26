@@ -688,12 +688,12 @@ Claws0;//name---------------------------------------
     0.300000;//parameter3
     0.700000;//parameter4
   4;//effect number
-    -9.000000;//parameter1
+    -8.000000;//parameter1
     0.000000;//parameter2
     4.000000;//parameter3
     0.000000;//parameter4
   4;//effect number
-    -7.000000;//parameter1
+    -6.000000;//parameter1
     0.000000;//parameter2
     12.000000;//parameter3
     0.000000;//parameter4
@@ -896,7 +896,7 @@ Submachine gun (Soldiers);//name---------------------------------------
   -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
   0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
   none;//hit effect sound
-  0.030000;//push target back
+  0.0220000;//push target back
   0.020000;//push shooter back
   sub.wav;//fire sound
   bimpact.wav;//hit sound
@@ -936,16 +936,16 @@ Submachine gun (Soldiers);//name---------------------------------------
     0.000000;//parameter4
   end_fire_effects;
   begin_hit_effects;
-  4;//effect number
-    -8.000000;//parameter1
-    0.000000;//parameter2
+  63;//effect number
+    -4.000000;//parameter1
+    -9.000000;//parameter2
     4.000000;//parameter3
-    0.000000;//parameter4
-  4;//effect number
-    -16.000000;//parameter1
-    0.000000;//parameter2
+    1.000000;//parameter4
+  63;//effect number
+    -5.000000;//parameter1
+    -10.000000;//parameter2
     12.000000;//parameter3
-    0.000000;//parameter4
+    1.000000;//parameter4
   end_hit_effects;
 Pistol (Soldiers);//name---------------------------------------
   21;//identifier
@@ -962,7 +962,7 @@ Pistol (Soldiers);//name---------------------------------------
   -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
   -1;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
   none;//hit effect sound
-  0.250000;//push target back
+  0.150000;//push target back
   0.050000;//push shooter back
   pistol.wav;//fire sound
   bimpact.wav;//hit sound
@@ -2397,7 +2397,7 @@ Tank alien cannon;//name---------------------------------------
   6.000000;//bullet size
   0.130000;//spread
   1.400000;//bullet speed
-  530.000000;//time until bullet disappears
+  630.000000;//time until bullet disappears
  700;//fire rate
   0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
   -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
@@ -2444,8 +2444,8 @@ Tank alien cannon;//name---------------------------------------
   end_fire_effects;
   begin_hit_effects;
   63;//effect number
-    -3.300000;//parameter1
-    -6.500000;//parameter2
+    -4.300000;//parameter1
+    -11.500000;//parameter2
     4.000000;//parameter3
     1.000000;//parameter4
   63;//effect number
@@ -3487,7 +3487,7 @@ Flying fighter alien cannon;//name---------------------------------------
   -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
   7;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
   none;//hit effect sound
-  0.070000;//push target back
+  0.040000;//push target back
   0.000000;//push shooter back
   alienlaser.wav;//fire sound
   hit2.wav;//hit sound
@@ -4105,15 +4105,15 @@ Rifle;//name---------------------------------------
   0;//stop at hit 0=stop where hit, 1=don't stop
   1.400000;//bullet size
   0.000000;//spread
-  1.400000;//bullet speed
- 1000.000000;//time until bullet disappears
+  1.600000;//bullet speed
+ 900.000000;//time until bullet disappears
   450;//fire rate
   2;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
   -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
   -1;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
   none;//hit effect sound
   0.250000;//push target back
-  0.070000;//push shooter back
+  0.050000;//push shooter back
   44.wav;//fire sound
   bimpact.wav;//hit sound
   3.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
@@ -4363,7 +4363,7 @@ Flying Confed fighter cannon;//name---------------------------------------
   -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
   7;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
   explode.WAV;//hit effect sound
-  0.1500000;//push target back
+  0.100000;//push target back
   0.000000;//push shooter back
   phaser.wav;//fire sound
   explode.WAV;//hit sound
@@ -4738,6 +4738,102 @@ Storm hit;//name---------------------------------------
     0.000000;//parameter3
     0.000000;//parameter4 
   end_hit_effects;
+  Alien airstrike - damage;//name---------------------------------------
+  97;//identifier
+  0;//class
+  fire0.png;//bullet texture
+  50;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  1.000000;//bullet size
+  6.280000;//spread
+  2.000000;//bullet speed
+  55.000000;//time until bullet disappears
+  10;//fire rate
+  2;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.0700000;//push target back
+  0.000000;//push shooter back
+  torphit.wav;//fire sound
+  explosion1.wav;//hit sound
+  10.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  26;//effect number
+    79.000000;//parameter1
+    30.000000;//parameter2
+    10.000000;//parameter3
+    0.000000;//parameter4 
+  26;//effect number
+    79.000000;//parameter1
+    30.000000;//parameter2
+    44.000000;//parameter3
+    0.000000;//parameter4 
+  26;//effect number
+    79.000000;//parameter1
+    30.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    79.000000;//parameter1
+    60.000000;//parameter2
+    15.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    79.000000;//parameter1
+    30.000000;//parameter2
+    42.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    79.000000;//parameter1
+    10.000000;//parameter2
+    58.000000;//parameter3
+    0.000000;//parameter4
+  27;//effect number
+    35.000000;//parameter1
+    100.000000;//parameter2
+    1.500000;//parameter3
+    2.700000;//parameter4
+  27;//effect number
+    34.000000;//parameter1
+    80.000000;//parameter2
+    0.700000;//parameter3
+    1.200000;//parameter4    
+  26;//effect number
+    1.000000;//parameter1
+    2.000000;//parameter2
+    41.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    2.000000;//parameter1
+    2.000000;//parameter2
+    41.000000;//parameter3
+    0.000000;//parameter4 
+  36;//effect number
+    5.000000;//parameter1
+    1500.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  29;//effect number
+    60.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_fire_effects;
+  begin_hit_effects;
+  4;//effect number
+    -15.000000;//parameter1
+    0.000000;//parameter2
+    4.000000;//parameter3
+    0.000000;//parameter4
+	  4;//effect number
+    -0.500000;//parameter1
+    0.000000;//parameter2
+    12.000000;//parameter3
+    0.000000;//parameter4
+   end_hit_effects;
 end_of_file;
 
 

@@ -71,7 +71,7 @@ Wolf IV;//name---------------------------------------Player
     0.000000;//parameter2
     1.000000;//parameter3
   end_specialties;
-Small Alien Fighter;//name---------------------------------------
+Alien Small Fighter (space);//name---------------------------------------
   1;//identifier
   1;//class
   alienfighter1.png;//texture
@@ -293,7 +293,7 @@ Missile;//name---------------------------------------
     0.000000;//parameter2
     0.000000;//parameter3  
   end_specialties;
-Large Alien Fighter;//name---------------------------------------
+Alien Large Fighter (space);//name---------------------------------------
   3;//identifier
   1;//class
   alienfighter2.png;//texture
@@ -1262,7 +1262,7 @@ Dark Alien (claws);//name---------------------------------------
   1.200000;//leg animation speed
   1.000000;//turn speed
   1.000000;//inertia level (acceleration/deceleration)
-  1;//hide when behind walls
+  0;//hide when behind walls
   15;//weapon number
   0.000000;//weapon_x
   0.000000;//weapon_y
@@ -1308,6 +1308,32 @@ Dark Alien (claws);//name---------------------------------------
   begin_hit_block;//
   end_hit_block;
   begin_timed_block;//
+    800;//interval in milliseconds             charge on turret
+    begin_conditions;
+	    14;//condition
+      19.000000;//condition parameter0
+      350.000000;//condition parameter1   
+	  8;//condition
+      6.000000;//condition parameter0
+      0.000000;//condition parameter1   
+      end_conditions;
+    begin_effects;
+	    27;//effect number      flash light
+    5.000000;//parameter1
+    50.000000;//parameter2
+    1.400000;//parameter3
+    1.90000;//parameter4  
+  27;//effect number           flash light
+    6.000000;//parameter1
+    50.000000;//parameter2
+    1.800000;//parameter3
+    3.200000;//parameter4 
+	1;//effect number        speed increase
+    1300.000000;//parameter1
+    -1.000000;//parameter2
+    1.70000;//parameter3
+    -1.00000;//parameter4 	
+    end_effects;
 300;//interval in milliseconds -----scared egg layers
     begin_conditions;    
     14;//condition
@@ -1591,7 +1617,7 @@ Soldiers Pistol;//name---------------------------------------
   0.900000;//leg animation speed
   0.400000;//turn speed
   1.000000;//inertia level (acceleration/deceleration)
-  1;//hide when behind walls
+  0;//hide when behind walls
   21;//weapon number
   9.000000;//weapon_x
   26.000000;//weapon_y
@@ -1680,7 +1706,7 @@ Enemy Soldiers Pistol;//name---------------------------------------
   0.900000;//leg animation speed
   0.400000;//turn speed
   1.000000;//inertia level (acceleration/deceleration)
-  1;//hide when behind walls
+  0;//hide when behind walls
   21;//weapon number
   9.000000;//weapon_x
   26.000000;//weapon_y
@@ -1850,7 +1876,7 @@ Soldiers (Defenders);//name---------------------------------------
     100.000000;//parameter2
     100.000000;//parameter3
   end_specialties;
-Landed fighter (Enemy spawner);//name--------------------------------------- soldiers in forest (in form of fighter)
+Alien Large Fighter (enemy spawner);//name--------------------------------------- 
   18;//identifier
   1;//class
   alienfighter2.png;//texture
@@ -2008,7 +2034,7 @@ MG Turret;//name---------------------------------------
   1000.000000;//creature weight (affects pushing)
   0.000000;//maximum movement speed
   0.000000;//minimum movement speed
-  1.000000;//leg animation speed
+  0.000000;//leg animation speed
   0.100000;//turn speed
   1.000000;//inertia level (acceleration/deceleration)
   0;//hide when behind walls
@@ -2159,7 +2185,7 @@ Mine;//name---------------------------------------(not being used?)
   0.000000;//leg animation speed
   0.050000;//turn speed
   0.050000;//inertia level (acceleration/deceleration)
-  1;//hide when behind walls
+  0;//hide when behind walls
   0;//weapon number
   0.000000;//weapon_x
   0.000000;//weapon_y
@@ -2187,7 +2213,7 @@ Mine;//name---------------------------------------(not being used?)
   end_timed_block;
   begin_specialties;//
   end_specialties;
-Flying L Alien ship;//name---------------------------------------flying above on planet
+Alien Large Fighter (flying over planet);//name---------------------------------------
   22;//identifier
   0;//class
   alienfighter2.png;//texture
@@ -2208,7 +2234,7 @@ Flying L Alien ship;//name---------------------------------------flying above on
   20.000000;//leg animation speed
   0.070000;//turn speed
   0.020000;//inertia level (acceleration/deceleration)
-  1;//hide when behind walls
+  0;//hide when behind walls
   0;//weapon number
   0.000000;//weapon_x
   27.000000;//weapon_y
@@ -2244,6 +2270,11 @@ Flying L Alien ship;//name---------------------------------------flying above on
       30.000000;//parameter2
       10.000000;//parameter3
       0.000000;//parameter4  
+	    	36;//effect number           shake
+    6.000000;//parameter1
+    600.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4  
     end_effects;
 	  0;//death type, 0=any death, 1=timed death, 2=killed by player
     begin_conditions;
@@ -2287,18 +2318,42 @@ Flying L Alien ship;//name---------------------------------------flying above on
   begin_hit_block;//
   end_hit_block;
   begin_timed_block;//
-100;//interval in milliseconds----------------delete if in bunker
+      150;//interval in milliseconds            airstrike
     begin_conditions;
-13;//condition
-    2.000000;//condition parameter0
-   0.000000;//condition parameter1
+	    14;//condition
+      19.000000;//condition parameter0
+      260.000000;//condition parameter1   
+	  8;//condition
+      2.000000;//condition parameter0
+      0.000000;//condition parameter1 
+	  15;//condition
+      500.000000;//condition parameter0
+      0.000000;//condition parameter1  
     end_conditions;
     begin_effects;
-    54;//effect number
-      -1.000000;//parameter1
-      0.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
+    10;//effect number                   drop creature
+      91.000000;//parameter1
+      1.000000;//parameter2
+      7.000000;//parameter3
+      -1.000000;//parameter4 
+    end_effects;
+    30000;//interval in milliseconds
+    begin_conditions;
+    32;//condition
+      3.000000;//parameter0
+      60.000000;//parameter1 
+    end_conditions;
+    begin_effects;
+    10;//effect number                   drop creature
+      38.000000;//parameter1
+      1.000000;//parameter2
+      7.000000;//parameter3
+      -1.000000;//parameter4 
+	      10;//effect number                   drop creature
+      11.000000;//parameter1
+      1.000000;//parameter2
+      7.000000;//parameter3
+      -1.000000;//parameter4 
     end_effects;
 150;//interval in milliseconds      --------laser for flying fighter
     begin_conditions;
@@ -2648,7 +2703,7 @@ Confederacy destroyer;//name---------------------------------------
     10.000000;//parameter2
     10.000000;//parameter3
   end_specialties;
-Small Confed Fighter;//name---------------------------------------
+Confederate Light Fighter (space);//name---------------------------------------
   24;//identifier
   4;//class
   creature2.png;//texture
@@ -2669,7 +2724,7 @@ Small Confed Fighter;//name---------------------------------------
   0.000000;//leg animation speed
   0.350000;//turn speed
   0.050000;//inertia level (acceleration/deceleration)
-  1;//hide when behind walls
+  0;//hide when behind walls
   30;//weapon number
   0.000000;//weapon_x
   27.000000;//weapon_y
@@ -3239,7 +3294,7 @@ Searchlight DEFUNCT;//name---------------------------------------
     1.000000;//parameter2
     0.000000;//parameter3
   end_specialties;
-Large Confed Fighter;//name---------------------------------------
+Confederate Heavy Fighter (space);//name---------------------------------------
   31;//identifier
   4;//class
   creature4.png;//texture
@@ -3260,7 +3315,7 @@ Large Confed Fighter;//name---------------------------------------
   0.000000;//leg animation speed
   0.350000;//turn speed
   0.050000;//inertia level (acceleration/deceleration)
-  1;//hide when behind walls
+  0;//hide when behind walls
   77;//weapon number             ------using double barrel weapon
   0.000000;//weapon_x
   27.000000;//weapon_y
@@ -3563,7 +3618,7 @@ Enemy Soldiers Pistol hologram;//name---------------------------------------
   end_specialties;
 Barrier;//name---------------------------------------
   34;//identifier
-  1;//class
+  4;//class
   qbarrier.png;//texture
   0;//draw layer
   -1;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
@@ -3973,7 +4028,7 @@ Alien Tank;//name---------------------------------------
   -1;//eat item number from items.dat, -1=nothing
   2.400000;//creature size
   400.000000;//creature weight (affects pushing)
- 0.500000;//maximum movement speed
+ 0.4300000;//maximum movement speed
   0.000000;//minimum movement speed
   7.000000;//leg animation speed
   0.200000;//turn speed
@@ -4007,7 +4062,7 @@ Alien Tank;//name---------------------------------------
     end_conditions;
     begin_effects;
     44;//effect number                 add PP
-      10.000000;//parameter1
+      13.000000;//parameter1
       1.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4    
@@ -4087,7 +4142,7 @@ Dark Alien (proj);//name---------------------------------------
   1.200000;//leg animation speed
   1.000000;//turn speed
   1.000000;//inertia level (acceleration/deceleration)
-  1;//hide when behind walls
+  0;//hide when behind walls
   50;//weapon number
   0.000000;//weapon_x
   0.000000;//weapon_y
@@ -7231,7 +7286,7 @@ Dark Alien (baby claws);//name---------------------------------------
   1.200000;//leg animation speed
   1.000000;//turn speed
   1.000000;//inertia level (acceleration/deceleration)
-  1;//hide when behind walls
+  0;//hide when behind walls
   15;//weapon number
   0.000000;//weapon_x
   0.000000;//weapon_y
@@ -7612,7 +7667,7 @@ Dark Alien (claws, in zoo);//name---------------------------------------
   1.200000;//leg animation speed
   1.000000;//turn speed
   1.000000;//inertia level (acceleration/deceleration)
-  1;//hide when behind walls
+  0;//hide when behind walls
   15;//weapon number
   0.000000;//weapon_x
   0.000000;//weapon_y
@@ -7673,7 +7728,7 @@ Dark Alien (claws, in zoo);//name---------------------------------------
     0.000000;//parameter2
     0.000000;//parameter3
   end_specialties;
-Landed L fighter (on alien planet);//name--------------------------------------- 
+Alien Large Fighter (landed on alien planet);//name--------------------------------------- 
  61;//identifier
   1;//class
   alienfighter2.png;//texture
@@ -7784,7 +7839,7 @@ resistance to fusion beam;//description
     0.000000;//parameter2
     0.000000;//parameter3
   end_specialties;
-Landed S fighter (on alien planet);//name--------------------------------------- 
+Alien Small Fighter (landed on alien planet);//name--------------------------------------- 
  62;//identifier
   1;//class
   alienfighter2large.png;//texture
@@ -7895,7 +7950,7 @@ resistance to fusion beam;//description
     0.000000;//parameter2
     0.000000;//parameter3
   end_specialties;
-Flying S Alien ship;//name---------------------------------------flying above on planet
+Alien Small Fighter (flying over planet);//name---------------------------------------
   63;//identifier
  0;//class
   alienfighter2large.png;//texture
@@ -7916,7 +7971,7 @@ Flying S Alien ship;//name---------------------------------------flying above on
   20.000000;//leg animation speed
   0.070000;//turn speed
   0.020000;//inertia level (acceleration/deceleration)
-  1;//hide when behind walls
+  0;//hide when behind walls
   0;//weapon number
   0.000000;//weapon_x
   27.000000;//weapon_y
@@ -7952,6 +8007,11 @@ Flying S Alien ship;//name---------------------------------------flying above on
       30.000000;//parameter2
       10.000000;//parameter3
       0.000000;//parameter4   
+	    	36;//effect number           shake
+    6.000000;//parameter1
+    600.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4  
     end_effects;
 	  0;//death type, 0=any death, 1=timed death, 2=killed by player
     begin_conditions;
@@ -9798,7 +9858,7 @@ Dorian Prime alien;//name---------------------------------------
     0.000000;//parameter2
     0.000000;//parameter3
   end_specialties;
-Flying fighter;//name--------------------------------------- on planet
+Confederate Light Fighter (flying over planet);//name--------------------------------------- on planet
   81;//identifier
  7;//class
  terrfighter.png;//texture
@@ -10005,7 +10065,7 @@ resistance to fusion beam;//description
     0.000000;//parameter2
     0.000000;//parameter3
   end_specialties;
-Flying fighter - stationary;//name--------------------------------------- on planet
+Confederate Light Fighter (stationary on planet);//name--------------------------------------- on planet
   82;//identifier
  7;//class
  terrfighter.png;//texture
@@ -10702,8 +10762,8 @@ Storm large;//name---------------------------------------
   1;//bars visible when player hovers mouse on top
   1.000000;//death animation speed
   1;//creature can move from area to another
-  2000.000000;//AI hear range
-  1000.000000;//AI see range
+  1200.000000;//AI hear range
+  800.000000;//AI see range
   6.200000;//AI see angle
   begin_footstep_sounds;//   
   end_footstep_sounds;
@@ -10843,8 +10903,8 @@ Storm large;//name---------------------------------------
   1;//bars visible when player hovers mouse on top
   1.000000;//death animation speed
   1;//creature can move from area to another
-  2000.000000;//AI hear range
-  1000.000000;//AI see range
+  1200.000000;//AI hear range
+  800.000000;//AI see range
   6.200000;//AI see angle
   begin_footstep_sounds;//   
   end_footstep_sounds;
@@ -10907,7 +10967,7 @@ Storm large;//name---------------------------------------
   begin_hit_block;//
   end_hit_block;
   begin_timed_block;//
-    1000;//interval in milliseconds             appear
+    1000;//interval in milliseconds             disappear
     begin_conditions;
 	    15;//condition
       2000.000000;//condition parameter0
@@ -10929,6 +10989,16 @@ Storm large;//name---------------------------------------
     50.000000;//parameter2
     1.800000;//parameter3
     2.400000;//parameter4 
+    end_effects;
+  50;//interval in milliseconds                       fire trail
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+    27;//effect number
+      28.000000;//parameter1
+      60.000000;//parameter2
+      0.00000;//parameter3
+      0.2000;//parameter4
     end_effects;
   50;//interval in milliseconds                       fire trail
     begin_conditions;
@@ -10993,6 +11063,105 @@ Storm large;//name---------------------------------------
     1.000000;//parameter1
     0.000000;//parameter2
     1.000000;//parameter3
+  end_specialties;
+  Alien airstrike;//name---------------------------------------
+  91;//identifier
+  1;//class
+  invisible.png;//texture
+  0;//draw layer
+  -1;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
+  0;//corpse item amount
+  1;//attack type, 0=shooting attack, 1=close combat
+  -1;//particle to show on radar, -1=none
+  3;//primary AI tactic from AI_tactic.dat
+  3;//secondary AI tactic from AI_tactic.dat
+  0;//footstep particle from particles.dat
+  1;//die after how many seconds, 0=doesn't die
+  -1;//eat item number from items.dat, -1=nothing
+  1.000000;//creature size
+  50.000000;//creature weight (affects pushing)
+  0.000000;//maximum movement speed
+  0.000000;//minimum movement speed
+  0.000000;//leg animation speed
+  0.000000;//turn speed
+  0.000000;//inertia level (acceleration/deceleration)
+  0;//hide when behind walls
+  0;//weapon number
+  0.000000;//weapon_x
+  0.000000;//weapon_y
+  14;//blood particle
+  0;//bars visible when player hovers mouse on top
+  1.000000;//death animation speed
+  0;//creature can move from area to another
+  1000.000000;//AI hear range
+  500.000000;//AI see range
+  4.000000;//AI see angle
+  begin_footstep_sounds;//
+  end_footstep_sounds;
+  begin_hit_sounds;//
+  end_hit_sounds;
+  begin_die_sounds;//
+  end_die_sounds;
+  begin_eat_block;//
+  end_eat_block;
+  begin_death_block;//
+  0;//death type, 0=any death, 1=timed death, 2=killed by player       
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+    24;//effect number	                fire weapon
+     97.000000;//parameter1
+      1.000000;//parameter2
+      3.000000;//parameter3
+      0.000000;//parameter4  	  
+    end_effects;
+	  0;//death type, 0=any death, 1=timed death, 2=killed by player       
+    begin_conditions;
+		17;//condition                        not on water
+      37.000000;//condition parameter0
+      1.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    19;//effect number	                Crater
+      151.000000;//parameter1
+      0.650000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+	0;//death type, 0=any death, 1=timed death, 2=killed by player       
+    begin_conditions;
+		17;//condition                        not on water
+      37.000000;//condition parameter0
+      1.000000;//condition parameter1 
+	  8;//condition                        not on water
+      3.000000;//condition parameter0
+      0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    19;//effect number	                Crater
+      151.000000;//parameter1
+      1.00000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  end_death_block;
+  begin_hit_block;//
+  end_hit_block;
+  begin_timed_block;//
+  end_timed_block;
+  begin_specialties;//
+  health;//description
+    0;//number
+    4.000000;//parameter0
+    0.000000;//parameter1
+    10000.000000;//parameter2
+    10000.000000;//parameter3
+  No AI;//description
+    5;//number
+    0.000000;//parameter0
+    0.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
   end_specialties;
  end_of_file;
 

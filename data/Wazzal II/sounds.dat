@@ -28,4 +28,7 @@ Paper;//name--------------------------------------
   Jumpgate;//name--------------------------------------
   9;//identifier
   jumpgate.wav;//filename
+  Alien airstrike;//name--------------------------------------
+  10;//identifier
+  explode.WAV;//filename
 end_of_file;
