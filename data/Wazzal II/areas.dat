@@ -499,7 +499,7 @@ New Dawn System;//area name
   begin_alien_list;
     	 87;//alien type in creatures.dat---------fly
    80;//number of these aliens
-   15;//side
+   10;//side
 end_alien_list;
   begin_excluded_plot_object_classes;
   1;
