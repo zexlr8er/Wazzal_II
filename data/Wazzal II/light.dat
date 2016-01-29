@@ -466,4 +466,17 @@ Alien bomb;//name-------
   -1;//flash particle (-1=nothing)
   0;//flashing speed
   0;//particle life time  
+Vehicle light;//name-------
+  36;//identifier
+  light3.png;//texture
+  0;//type, 0=flashlight, 1=omni
+  0;//pulse speed
+  0.800000;//red color component
+  0.800000;//green color component
+  1.000000;//blue color component
+  0.3500000;//alpha color component
+  1.200000;//light intensity
+  -1;//flash particle (-1=nothing)
+  0;//flashing speed
+  0;//particle life time    
 end_of_file;

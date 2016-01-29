@@ -11,7 +11,12 @@ Initialisation;//name-----------------------------------------------------------
   1;//disabled after first use, 0=no, 1=yes
   begin_conditions;
   end_conditions;
-  begin_effects; 
+  begin_effects;
+ 16;//effect number                   Give Inventory 1 Command anti-aircraft
+    190.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4  
  16;//effect number                   Give Inventory 1 Inventory opener
     9.000000;//parameter1
     1.000000;//parameter2

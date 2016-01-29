@@ -6,10 +6,10 @@ Stargun taunt;//name
   1.000000;//text color r
   1.000000;//text color g
   1.000000;//text color b
-Stargun taunt2;//name
+Out of airstrikes;//name
   1;//identifier
-  Let's show'em who's boss!!;//text
-  2000;//duration
+  Out of airstrikes!;//text
+  1500;//duration
   -1;//next dialog line (-1=none)
   1.000000;//text color r
   1.000000;//text color g
