@@ -5698,14 +5698,14 @@ Desert planet;//name---------------------------------------desert
   134;//identifier
   -1;//map type to place to -1=any map 0=> type from areas.dat
   0;//plot_object class
- 190;//object definition number
+ 219;//object definition number
   0;//number of objects to be placed
   0;//location type, 0=random, 1=distance min(parameter1) max(parameter2) from player start, 2=distance min(parameter1) max(parameter2) from object parameter0, 3=coordinates [parameter0, parameter1] (0=min, 1=max)  vary location=parameter2
   0.000000;//location parameter0
   0.000000;//location parameter1
   0.0000w00;//location parameter2
   2;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
- 64;//particle to shown on radar
+ 80;//particle to shown on radar
   none;//radiate sound
   -1.000000;//time to delete object in milliseconds, -1=don't delete
   0;//trigger event by 0=player click, 1=player near, 2=near or click, 3=map creation (try to avoid any creature specific effects when using this, also does not check conditions), 4=interval parameter1
@@ -5787,11 +5787,6 @@ Desert planet;//name---------------------------------------desert
       2.000000;//parameter1
       1.000000;//parameter2
       0.000000;//parameter3
-      0.000000;//parameter4
-39;//effect number                         hide bar28
-      28.000000;//parameter1
-      0.000000;//parameter2
-      0.000000;//parameter3
       0.000000;//parameter4  
     56;//effect number                  overide control
       -1.000000;//parameter1
@@ -5800,7 +5795,7 @@ Desert planet;//name---------------------------------------desert
       0.000000;//parameter4 
     end_effects;
   end_effects_block;
-Click to return to Wolf IV;//name---------------------------------------(for meadows)
+Click to return to Wolf IV;//name---------------------------------------(for desert)
  135;//identifier
   -1;//map type to place to -1=any map 0=> type from areas.dat
   0;//plot_object class
@@ -6438,6 +6433,25 @@ Alien airstrike;//name--------------------------------------
   none;//radiate sound
   30000.000000;//time to delete object in milliseconds, -1=don't delete
   3;//trigger event by 0=player click, 1=player near, 2=near or click, 3=map creation (try to avoid any creature specific effects when using this, also does not check conditions), 4=interval parameter1
+  0;//trigger event parameter1
+  1;//show help text for conditions
+  begin_effects_block;
+  end_effects_block;
+ Oil rig;//name---------------------------------------
+  152;//identifier
+  -1;//map type to place to -1=any map 0=> type from areas.dat
+  0;//plot_object class
+  220;//object definition number
+  0;//number of objects to be placed
+  0;//location type, 0=random, 1=distance min(parameter1) max(parameter2) from player start, 2=distance min(parameter1) max(parameter2) from object parameter0, 3=coordinates [parameter0, parameter1] (0=min, 1=max)  vary location=parameter2
+  0.000000;//location parameter0
+  0.000000;//location parameter1
+  0.000000;//location parameter2
+  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  0;//particle to shown on radar
+  oiler.wav;//radiate sound
+  -1.000000;//time to delete object in milliseconds, -1=don't delete
+  1;//trigger event by 0=player click, 1=player near, 2=near or click, 3=map creation (try to avoid any creature specific effects when using this, also does not check conditions), 4=interval parameter1
   0;//trigger event parameter1
   1;//show help text for conditions
   begin_effects_block;

@@ -1455,11 +1455,11 @@ Desert planet;//name------------------------------------------------------------
   0.7;//light max r
   0.5;//light max g
   0.5;//light max b
-  0;//light min r
-  0;//light min g
-  0.2;//light min b
+  0.05;//light min r
+  0.05;//light min g
+  0.3;//light min b
   0.650000;//night temperature
-  0.850000;//day temperature
+  0.740000;//day temperature
   1.500000;//maximum wind speed
   14;//rain particle, -1=no rain
   300;//rain_particle_life_min
@@ -1474,12 +1474,7 @@ Desert planet;//name------------------------------------------------------------
     end_conditions;
     begin_effects;
     23;//effect number
-      -0.250000;//parameter1
-      -1.000000;//parameter2
-      12.000000;//parameter3
-      100.000000;//parameter4
-    23;//effect number
-      0.600000;//parameter1
+      0.300000;//parameter1
       -1.000000;//parameter2
       6.000000;//parameter3
       100.000000;//parameter4
@@ -1495,17 +1490,53 @@ Desert planet;//name------------------------------------------------------------
  54;
   end_of_terrains;
   start_of_night_sounds;
+    wind_low_0.wav;
+  wind_low_1.wav;
   wind0.wav;
   wind1.wav;
   wind2.wav;
+  cannon.wav;
+  bomb.wav;
+  m16distant.wav;
+  m16.wav;
+  m16distant.wav;
+  luger.wav;
+  44.wav;
+  machinegun.wav;
+  explode.wav;
+  explosion2.wav;
+  explosion1.wav;
+  dropbomb.wav;
+  gunshots3.wav;
+  cannon.wav;
+  gunbattle.wav;
+  bulletricochet.wav;
+  explode1.wav;
+fightercrash.wav;
   alienambient.wav;
   alienambient2.wav;
   alienambient3.wav;
   alienambient4.wav;
   end_of_night_sounds;
   start_of_day_sounds;
-  wind_low_0.wav;
-  wind_low_1.wav;
+cannon.wav;
+  bomb.wav;
+  m16distant.wav;
+  m16.wav;
+  m16distant.wav;
+  luger.wav;
+  44.wav;
+  machinegun.wav;
+  explode.wav;
+  explosion2.wav;
+  explosion1.wav;
+  dropbomb.wav;
+  gunshots3.wav;
+  cannon.wav;
+  gunbattle.wav;
+  bulletricochet.wav;
+  explode1.wav;
+fightercrash.wav;
   wind0.wav;
   wind1.wav;
   wind2.wav;
@@ -1516,19 +1547,19 @@ Desert planet;//name------------------------------------------------------------
   end_of_day_sounds;
   start_of_props;
    163;//object definition number		tree
-    60;//number of these on a 100*100 map
+    200;//number of these on a 100*100 map
   164;//object definition number		tree
-    60;//number of these on a 100*100 map
+    300;//number of these on a 100*100 map
   84;//object definition number		scel
     260;//number of these on a 100*100 map
   85;//object definition number		skel
     260;//number of these on a 100*100 map
   104;//object definition number		kivi
-    120;//number of these on a 100*100 map
+    180;//number of these on a 100*100 map
   105;//object definition number		kivi
-   120;//number of these on a 100*100 map
+   180;//number of these on a 100*100 map
   106;//object definition number		kivi
-    120;//number of these on a 100*100 map
+    180;//number of these on a 100*100 map
   end_of_props;
   Jupiter;//name-------------------------------------------
   17;//identifier
