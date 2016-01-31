@@ -371,19 +371,6 @@ Alien Large Fighter (space);//name---------------------------------------
       0.000000;//parameter3
       1.000000;//parameter4    
     end_effects;
-  2;//death type, 0=any death, 1=timed death, 2=killed by player
-    begin_conditions;
-    8;//condition
-      4.000000;//condition parameter0
-      0.000000;//condition parameter1      
-    end_conditions;
-    begin_effects;
-    19;//effect number
-      14.000000;//parameter1
-      0.400000;//parameter2
-      10.000000;//parameter3
-      1.000000;//parameter4    
-    end_effects;
   end_death_block;
   begin_hit_block;//
   end_hit_block;
@@ -4537,19 +4524,6 @@ Confederacy transport;//name---------------------------------------
       0.000000;//parameter3
       1.000000;//parameter4  
  end_effects; 
-25000;//interval in milliseconds      --------drop energy
-    begin_conditions;
-     8;//condition
-     5.000000;//condition parameter0
-      0.000000;//condition parameter1   
-    end_conditions;
-    begin_effects;
- 19;//effect number
-      14.000000;//parameter1
-      0.400000;//parameter2
-      10.000000;//parameter3
-      1.000000;//parameter4      
-    end_effects;   
      end_timed_block;
   begin_specialties;//
   health;//description
@@ -9779,19 +9753,6 @@ Confederacy transport - no turns;//name---------------------------------------
       0.000000;//parameter3
       1.000000;//parameter4  
  end_effects; 
-25000;//interval in milliseconds      --------drop energy
-    begin_conditions;
-     8;//condition
-     5.000000;//condition parameter0
-      0.000000;//condition parameter1   
-    end_conditions;
-    begin_effects;
- 19;//effect number
-      14.000000;//parameter1
-      0.400000;//parameter2
-      10.000000;//parameter3
-      1.000000;//parameter4      
-    end_effects;   
      end_timed_block;
   begin_specialties;//
   health;//description
@@ -10910,19 +10871,6 @@ Storm large;//name---------------------------------------
       0.000000;//parameter3
       1.000000;//parameter4    
     end_effects;
-  2;//death type, 0=any death, 1=timed death, 2=killed by player
-    begin_conditions;
-    8;//condition
-      4.000000;//condition parameter0
-      0.000000;//condition parameter1      
-    end_conditions;
-    begin_effects;
-    19;//effect number
-      14.000000;//parameter1
-      0.400000;//parameter2
-      10.000000;//parameter3
-      1.000000;//parameter4    
-    end_effects;
   end_death_block;
   begin_hit_block;//
   end_hit_block;
@@ -11049,19 +10997,6 @@ Storm large;//name---------------------------------------
       25.000000;//parameter1
       1.000000;//parameter2
       0.000000;//parameter3
-      1.000000;//parameter4    
-    end_effects;
-  2;//death type, 0=any death, 1=timed death, 2=killed by player
-    begin_conditions;
-    8;//condition
-      4.000000;//condition parameter0
-      0.000000;//condition parameter1      
-    end_conditions;
-    begin_effects;
-    19;//effect number
-      14.000000;//parameter1
-      0.400000;//parameter2
-      10.000000;//parameter3
       1.000000;//parameter4    
     end_effects;
   end_death_block;

@@ -398,9 +398,9 @@ Shields regenerate;//name-------------------------------------------------------
     92.00000;//parameter3
     0.00000;//parameter4
   end_effects;
-Drop energy;//name-----------------------------------------------------------------
+Unused;//name-----------------------------------------------------------------
   4;//identifier
-  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   3200;//run every n milliseconds
@@ -409,23 +409,9 @@ Drop energy;//name--------------------------------------------------------------
   none;//sound, none for nothing
   0;//delay script for n seconds after conditions met
   0;//disabled after first use, 0=no, 1=yes
-  begin_conditions;
-  6;//condition
-    0.000000;//condition parameter0
-    0.000000;//condition parameter1    
-	 13;//condition                    ---------------area not jupiter
-    22.000000;//condition parameter0
-    1.000000;//condition parameter1    
-		 13;//condition                ---------------area not mars
-    23.000000;//condition parameter0
-    1.000000;//condition parameter1   
+  begin_conditions; 
   end_conditions;
   begin_effects;
-  19;//effect number
-    14.000000;//parameter1
-    0.300000;//parameter2
-    5000.000000;//parameter3
-    10.000000;//parameter4
   end_effects;
 Radar Energy Drain;//name-----------------------------------------------------------------
   5;//identifier
@@ -3321,9 +3307,9 @@ Give V item for blood serum;//name----------------------------------------------
     1.000000;//parameter3
     0.000000;//parameter4
   end_effects;
-Drop energy for alien;//name-----------------------------------------------------------------
+Unused;//name-----------------------------------------------------------------
   92;//identifier
-  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   3200;//run every n milliseconds
@@ -3332,23 +3318,9 @@ Drop energy for alien;//name----------------------------------------------------
   none;//sound, none for nothing
   0;//delay script for n seconds after conditions met
   0;//disabled after first use, 0=no, 1=yes
-  begin_conditions;
-  6;//condition
-   5.000000;//condition parameter0
-    0.000000;//condition parameter1    
-		 13;//condition                    ---------------area not jupiter
-    22.000000;//condition parameter0
-    1.000000;//condition parameter1    
-		 13;//condition                ---------------area not mars
-    23.000000;//condition parameter0
-    1.000000;//condition parameter1   
+  begin_conditions; 
   end_conditions;
   begin_effects;
-  19;//effect number
-    14.000000;//parameter1
-    0.300000;//parameter2
-    5000.000000;//parameter3
-    10.000000;//parameter4
   end_effects;
 Use Pirate flag item if one;//name-----------------------------------------------------------------for original flag items
 93;//identifier
@@ -3703,9 +3675,9 @@ Turret fire for stealth;//name--------------------------------------------------
     1.000000;//parameter3
     0.000000;//parameter4
   end_effects;
-Drop energy;//name-----------------------------------------------------------------
+Unused;//name-----------------------------------------------------------------
   104;//identifier
-  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   3200;//run every n milliseconds
@@ -3714,27 +3686,13 @@ Drop energy;//name--------------------------------------------------------------
   none;//sound, none for nothing
   0;//delay script for n seconds after conditions met
   0;//disabled after first use, 0=no, 1=yes
-  begin_conditions;
-  6;//condition
-    3.000000;//condition parameter0
-    0.000000;//condition parameter1    
-		 13;//condition                    ---------------area not jupiter
-    22.000000;//condition parameter0
-    1.000000;//condition parameter1    
-		 13;//condition                ---------------area not mars
-    23.000000;//condition parameter0
-    1.000000;//condition parameter1   
+  begin_conditions; 
   end_conditions;
   begin_effects;
-  19;//effect number
-    14.000000;//parameter1
-    0.300000;//parameter2
-    5000.000000;//parameter3
-    10.000000;//parameter4
   end_effects;
-Drop energy;//name-----------------------------------------------------------------
-  105;//identifier
-  1;//run without calling (set to 0 if you use the script for example as a wield script)
+Unused;//name-----------------------------------------------------------------
+ 105;//identifier
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   3200;//run every n milliseconds
@@ -3743,23 +3701,9 @@ Drop energy;//name--------------------------------------------------------------
   none;//sound, none for nothing
   0;//delay script for n seconds after conditions met
   0;//disabled after first use, 0=no, 1=yes
-  begin_conditions;
-  6;//condition
-   4.000000;//condition parameter0
-    0.000000;//condition parameter1 
-	 13;//condition                    ---------------area not jupiter
-    22.000000;//condition parameter0
-    1.000000;//condition parameter1    
-		 13;//condition                ---------------area not mars
-    23.000000;//condition parameter0
-    1.000000;//condition parameter1   	
+  begin_conditions; 
   end_conditions;
   begin_effects;
-  19;//effect number
-    14.000000;//parameter1
-    0.300000;//parameter2
-    5000.000000;//parameter3
-    10.000000;//parameter4
   end_effects;
 Player destroys all slugs;//name-----------------------------------------------------------------
   106;//identifier

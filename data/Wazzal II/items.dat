@@ -1096,7 +1096,7 @@ Stock: Drugs;//name---------------------------------------
   0.000000;//weight
   Use this item near a store to sell them. \ \ You will receive the current market value of Drugs in Confederate Credits.;//short description
   none;//first pick up text
-  0.30000;//size on map
+  0.36000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
   1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
@@ -1187,11 +1187,11 @@ Stock: Weapon Parts;//name---------------------------------------
   0.000000;//weight
   Use this item near a store to sell them.  \ \ You will receive the current market value of Weapon Parts in Confederate Credits.;//short description
   none;//first pick up text
-  0.300000;//size on map
+  0.360000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
   1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
-  Gs.png;//texture name
+  Ws.png;//texture name
   -1;//wielded script,-1=nothing, only applicable for wieldable items
   -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
   1;//show help text for conditions
@@ -1278,7 +1278,7 @@ Stock: Slaves;//name---------------------------------------
   0.000000;//weight
   Use this item near a store to sell them. \ \ You will receive the current market value of Slaves in Confederate Credits.;//short description
   none;//first pick up text
-  0.300000;//size on map
+  0.360000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
   1;//visible in inventory 0=no (can only be used via quick keys), 1=yes

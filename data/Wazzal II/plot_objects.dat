@@ -407,7 +407,7 @@ Pergor;//name---------------------------------------
       0.000000;//parameter4
     end_effects;
   end_effects_block;
-Energy;//name---------------------------------------
+Unused;//name---------------------------------------
   14;//identifier
   -1;//map type to place to -1=any map 0=> type from areas.dat
   0;//plot_object class
@@ -6483,6 +6483,100 @@ Alien airstrike;//name--------------------------------------
   0;//trigger event parameter1
   1;//show help text for conditions
   begin_effects_block;
+  end_effects_block;
+  Repair dock;//name---------------------------------------
+  153;//identifier
+  -1;//map type to place to -1=any map 0=> type from areas.dat
+  5;//plot_object class
+  224;//object definition number
+  100;//number of objects to be placed
+  0;//location type, 0=random, 1=distance min(parameter1) max(parameter2) from player start, 2=distance min(parameter1) max(parameter2) from object parameter0, 3=coordinates [parameter0, parameter1] (0=min, 1=max)  vary location=parameter2
+  0.000000;//location parameter0
+  0.000000;//location parameter1
+  0.000000;//location parameter2
+  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  -1;//particle to shown on radar
+  none;//radiate sound
+  -1.000000;//time to delete object in milliseconds, -1=don't delete
+  2;//trigger event by 0=player click, 1=player near, 2=near or click, 3=map creation (try to avoid any creature specific effects when using this, also does not check conditions), 4=interval parameter1
+  1;//trigger event parameter1
+  1;//show help text for conditions
+  begin_effects_block;
+  Welcome to ZEX Industries X22 Repair Dock! \ In this state of the art system, any damage your ship's hull has suffered throughout your escapades can be fully repaired. \ To keep the system at optimum operating capacity, you will be charged 4 credits in maintenance costs for every 1 point of hull strength repaired.;//event text
+    hum.wav;//sound, none for nothing
+    2;//vanishes after event, 0=no, but cannot be reused, 1=vanishes, 2=no, and can be reused
+    begin_conditions;
+    3;//condition                        min money
+      13.000000;//condition parameter0
+      1.000000;//condition parameter1 
+43;//condition                        max health
+     0.000000;//condition parameter0
+      100.000000;//condition parameter1
+    end_conditions;
+    begin_effects;
+    27;//effect number	                  light burst
+      27.000000;//parameter1
+      30.000000;//parameter2
+      0.500000;//parameter3
+      1.700000;//parameter4 
+    4;//effect number	                 health
+      0.1440000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+    4;//effect number	                money
+      -0.5760000;//parameter1
+      1.000000;//parameter2
+      13.000000;//parameter3
+      0.000000;//parameter4  	  
+    end_effects;
+  end_effects_block;
+  Energy dock;//name---------------------------------------
+  154;//identifier
+  -1;//map type to place to -1=any map 0=> type from areas.dat
+  5;//plot_object class
+  225;//object definition number
+  100;//number of objects to be placed
+  0;//location type, 0=random, 1=distance min(parameter1) max(parameter2) from player start, 2=distance min(parameter1) max(parameter2) from object parameter0, 3=coordinates [parameter0, parameter1] (0=min, 1=max)  vary location=parameter2
+  0.000000;//location parameter0
+  0.000000;//location parameter1
+  0.000000;//location parameter2
+  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  -1;//particle to shown on radar
+ none;//radiate sound
+  -1.000000;//time to delete object in milliseconds, -1=don't delete
+  2;//trigger event by 0=player click, 1=player near, 2=near or click, 3=map creation (try to avoid any creature specific effects when using this, also does not check conditions), 4=interval parameter1
+  1;//trigger event parameter1
+  1;//show help text for conditions
+  begin_effects_block;
+  Welcome to the ZEX Industries X12 Energy Charging Dock! \ In this state of the art system, your ship's reactor will be be fully recharged. \ To pay for energy costs, you will be charged 4 credits for every 1 point of energy recharged.;//event text
+    electric2.wav;//sound, none for nothing
+    2;//vanishes after event, 0=no, but cannot be reused, 1=vanishes, 2=no, and can be reused
+    begin_conditions;
+    3;//condition                        min money
+      13.000000;//condition parameter0
+      1.000000;//condition parameter1
+43;//condition                        max energy
+     1.000000;//condition parameter0
+      100.000000;//condition parameter1 	  
+    end_conditions;
+    begin_effects;
+    27;//effect number	                  light burst
+      26.000000;//parameter1
+      30.000000;//parameter2
+      0.500000;//parameter3
+      1.700000;//parameter4 
+    4;//effect number	                 energy
+      0.1440000;//parameter1
+      1.000000;//parameter2
+      1.000000;//parameter3
+      0.000000;//parameter4 
+    4;//effect number	                money
+      -0.5760000;//parameter1
+      1.000000;//parameter2
+      13.000000;//parameter3
+      0.000000;//parameter4 
+    end_effects;
   end_effects_block;
 end_of_file;
 
