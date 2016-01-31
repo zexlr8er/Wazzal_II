@@ -362,8 +362,6 @@ Errxelz 8;//name----------------------------------------------------------------
   wind2.wav;
   wind_low_1.wav;
   wind_low_0.wav;
-    wolf.wav;
-  wolf2.wav;
   alienambient.wav;
   alienambient2.wav;
   alienambient3.wav;
@@ -410,8 +408,6 @@ cannon.wav;
   wind2.wav;
   wind_low_1.wav;
   wind_low_0.wav;
-    wolf.wav;
-  wolf2.wav;
 fightercrash.wav;
   alienambient.wav;
   alienambient2.wav;
@@ -514,14 +510,14 @@ gull2.wav;
 gull3;
   end_of_day_sounds;
   start_of_props;
- 80;//object definition number		tree
-    200;//number of these on a 100*100 map
   99;//object definition number		tree
   200;//number of these on a 100*100 map
  163;//object definition number		tree
     200;//number of these on a 100*100 map
  164;//object definition number		tree
-  1100;//number of these on a 100*100 map
+  800;//number of these on a 100*100 map
+  223;//object definition number	tree
+  300;//number of these on a 100*100 map
   84;//object definition number		scel
     100;//number of these on a 100*100 map
   85;//object definition number		skel
@@ -1546,6 +1542,8 @@ fightercrash.wav;
   alienambient4.wav;
   end_of_day_sounds;
   start_of_props;
+    223;//object definition number		tree
+  300;//number of these on a 100*100 map
    163;//object definition number		tree
     200;//number of these on a 100*100 map
   164;//object definition number		tree

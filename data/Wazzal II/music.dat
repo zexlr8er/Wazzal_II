@@ -31,4 +31,7 @@
 10;//identifier
   battle4.mp3;//identifier
   1;//can be randomly selected
+ 11;//identifier
+ airraid.mp3;//identifier
+ 0;//can be randomly selected
 end_of_file;

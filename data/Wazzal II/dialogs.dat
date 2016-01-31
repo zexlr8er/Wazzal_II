@@ -1,8 +1,8 @@
-Stargun taunt;//name
+Reloading;//name
   0;//identifier
-  Enemies approaching!!;//text
-  2000;//duration
-  1;//next dialog line (-1=none)
+  Reloading!;//text
+  1500;//duration
+  -1;//next dialog line (-1=none)
   1.000000;//text color r
   1.000000;//text color g
   1.000000;//text color b
@@ -12,8 +12,8 @@ Out of airstrikes;//name
   1500;//duration
   -1;//next dialog line (-1=none)
   1.000000;//text color r
-  1.000000;//text color g
-  1.000000;//text color b
+  0.000000;//text color g
+  0.000000;//text color b
 Stargun hit;//name
   2;//identifier
   Agh!!;//text

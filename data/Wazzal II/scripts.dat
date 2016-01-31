@@ -2134,7 +2134,7 @@ Stealth Energy Drain;//name---------------------------------------------------
   end_conditions;
   begin_effects;
   23;//effect number
-    -0.550000;//parameter1
+    -0.30000;//parameter1
     -1.000000;//parameter2
     5.000000;//parameter3
     300.000000;//parameter4
@@ -2455,7 +2455,7 @@ Jetpack Energy Drain;//name---------------------------------------------------
   end_conditions;
   begin_effects;
   23;//effect number
-    -0.750000;//parameter1
+    -0.60000;//parameter1
     -1.000000;//parameter2
     25.000000;//parameter3
     300.000000;//parameter4
@@ -2636,6 +2636,11 @@ Airstrike;//name----------------------------------------------------------------
    0.60000;//parameter2
     0.000000;//parameter3
     0.000000;//parameter4 
+	27;//effect number              drop red omni
+    4.000000;//parameter1
+   3600.0000;//parameter2
+    0.500000;//parameter3
+    0.500000;//parameter4 
  19;//effect number              drop dyna
     59.000000;//parameter1
     0.360000;//parameter2
@@ -2809,7 +2814,7 @@ Cloaking Energy Drain;//name---------------------------------------------------
   end_conditions;
   begin_effects;
   23;//effect number
-    -0.90000;//parameter1
+    -0.40000;//parameter1
     -1.000000;//parameter2
     1.000000;//parameter3
     300.000000;//parameter4
@@ -4102,6 +4107,11 @@ Player achieves negative X propaganda;//name------------------------------------
    0.60000;//parameter2
     0.000000;//parameter3
     0.000000;//parameter4 
+	27;//effect number              drop red omni
+    4.000000;//parameter1
+   3600.0000;//parameter2
+    0.500000;//parameter3
+    0.500000;//parameter4 
  19;//effect number              drop dyna
     59.000000;//parameter1
     0.430000;//parameter2

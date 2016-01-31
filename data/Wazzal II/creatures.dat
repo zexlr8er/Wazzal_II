@@ -11588,6 +11588,168 @@ resistance to fusion beam;//description
     0.000000;//parameter2
     0.000000;//parameter3
   end_specialties;
+  Insect;//name---------------------------------------
+  94;//identifier
+  3;//class
+  insect.png;//texture
+  0;//draw layer
+ -1;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
+  1;//corpse item amount
+  1;//attack type, 0=shooting attack, 1=close combat
+  -1;//particle to show on radar, -1=none
+  1;//primary AI tactic from AI_tactic.dat
+  1;//secondary AI tactic from AI_tactic.dat
+  3;//footstep particle from particles.dat
+  0;//die after how many seconds, 0=doesn't die
+  -1;//eat item number from items.dat, -1=nothing
+  0.900000;//creature size
+  5.000000;//creature weight (affects pushing)
+  0.1000;//maximum movement speed
+  0.000000;//minimum movement speed
+  1.5000;//leg animation speed
+  0.80000;//turn speed
+  1.000000;//inertia level (acceleration/deceleration)
+  0;//hide when behind walls
+  0;//weapon number
+  0.000000;//weapon_x
+  0.000000;//weapon_y
+  0;//blood particle
+  1;//bars visible when player hovers mouse on top
+  1.000000;//death animation speed
+  1;//creature can move from area to another
+  400.000000;//AI hear range
+  300.000000;//AI see range
+  4.500000;//AI see angle
+  begin_footstep_sounds;//
+  end_footstep_sounds;
+  begin_hit_sounds;//
+  end_hit_sounds;
+  begin_die_sounds;//
+  squish02.wav;//sample name
+  squish03.wav;//sample name
+  squish04.wav;//sample name
+  end_die_sounds;
+  begin_eat_block;//
+  end_eat_block;
+  begin_death_block;//
+  end_death_block;
+  begin_hit_block;//
+  end_hit_block;
+  begin_timed_block;//
+  end_timed_block;
+  begin_specialties;//
+  health;//description
+    0;//number
+    4.000000;//parameter0
+    0.000000;//parameter1
+   50.000000;//parameter2
+    50.000000;//parameter3
+ knife hurts;//description
+    1;//number
+    9.000000;//parameter0
+    10.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+  end_specialties;
+  Alien cannon;//name---------------------------------------
+  95;//identifier
+  3;//class
+  alien_cannon.png;//texture
+  1;//draw layer
+  -1;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
+  0;//corpse item amount
+  0;//attack type, 0=shooting attack, 1=close combat
+  18;//particle to show on radar, -1=none
+  7;//primary AI tactic from AI_tactic.dat
+  7;//secondary AI tactic from AI_tactic.dat
+  3;//footstep particle from particles.dat
+  0;//die after how many seconds, 0=doesn't die
+  -1;//eat item number from items.dat, -1=nothing
+  2.400000;//creature size
+  400.000000;//creature weight (affects pushing)
+ 0.000000;//maximum movement speed
+  0.000000;//minimum movement speed
+  7.000000;//leg animation speed
+  0.200000;//turn speed
+  0.200000;//inertia level (acceleration/deceleration)
+  0;//hide when behind walls
+  102;//weapon number
+  0.000000;//weapon_x
+  28.000000;//weapon_y
+  2;//blood particle
+  1;//bars visible when player hovers mouse on top
+  1.200000;//death animation speed
+  0;//creature can move from area to another
+  2000.000000;//AI hear range
+  1000.000000;//AI see range
+  6.200000;//AI see angle
+  begin_footstep_sounds;//
+  fighter_move.wav;//      
+  end_footstep_sounds;
+  begin_hit_sounds;//
+  hit.wav;//sample name  
+  end_hit_sounds;
+  begin_die_sounds;//
+  explosion1.wav;//sample name
+  explosion2.wav;//sample name 
+  end_die_sounds;
+  begin_eat_block;//
+  end_eat_block;
+  begin_death_block;//
+    2;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+    44;//effect number                 add PP
+      13.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+	0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+	15;//condition              player nearer
+    800.000000;//condition parameter0
+    0.000000;//condition parameter1      
+    end_conditions;
+    begin_effects;
+  	36;//effect number           shake
+    6.000000;//parameter1
+    600.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4  
+    end_effects;
+  end_death_block;
+  begin_hit_block;//
+  end_hit_block;
+  begin_timed_block;//
+  end_timed_block;
+  begin_specialties;//
+  health;//description
+    0;//number
+    4.000000;//parameter0
+    0.000000;//parameter1
+    1100.000000;//parameter2
+    1100.000000;//parameter3
+resistance to projectile 1;//description
+    1;//number
+    4.000000;//parameter0
+    0.900000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+resistance to projectile 2;//description
+    1;//number
+    5.000000;//parameter0
+    0.900000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+	resistance to fire;//description
+    1;//number
+    7.000000;//parameter0
+    0.2000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+  end_specialties;
  end_of_file;
 
 Classes: 0= NA 1=Alien ships 2=? 3=Alien soldiers 4=All Allied 5=Asteroids 6=neutral ships

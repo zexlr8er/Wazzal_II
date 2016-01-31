@@ -136,6 +136,11 @@ Errxelz 8;//name---------------------------------------
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4 
+	  	  61;//effect number                 play airraid
+      11.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
     end_effects;
   end_effects_block;
 Lvlei;//name---------------------------------------Jungle battle planet
@@ -363,7 +368,12 @@ Kinmegag 71;//name---------------------------------------
       -1.000000;//parameter1
       0.000000;//parameter2
       0.000000;//parameter3
-      0.000000;//parameter4 
+      0.000000;//parameter4
+    59;//effect number                          use spotlight
+      58.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4   	  
     end_effects;
   end_effects_block;
 Pergor;//name---------------------------------------
@@ -1650,15 +1660,20 @@ Naquarin;//name---------------------------------------ocean
       -1.000000;//parameter1
       0.000000;//parameter2
       0.000000;//parameter3
-      0.000000;//parameter4       
+      0.000000;//parameter4     
+    59;//effect number                          use spotlight
+      58.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4   	  
     end_effects;
   end_effects_block;
 Berry tree;//name-----------------------------------------
   42;//identifier
   3;//map type to place to -1=any map 0=> type from areas.dat
   0;//plot_object class
-  99;//object definition number
-  20;//number of objects to be placed
+  164;//object definition number
+  50;//number of objects to be placed
   0;//location type, 0=random, 1=distance min(parameter1) max(parameter2) from player start, 2=distance min(parameter1) max(parameter2) from object parameter0, 3=coordinates [parameter0, parameter1] (0=min, 1=max)  vary location=parameter2
   0.000000;//location parameter0
   0.000000;//location parameter1
@@ -3139,6 +3154,9 @@ Fuel pump;//name---------------------------------------
  43;//condition                        fuel less 100
       25.000000;//condition parameter0
     100.000000;//condition parameter1 
+	 33;//condition                        not being carried
+     1.000000;//condition parameter0
+   0.000000;//condition parameter1 
     end_conditions;
     begin_effects;
     4;//effect number	                fuel
@@ -4995,6 +5013,11 @@ Dorian Prime;//name---------------------------------------meadows
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4 
+	      59;//effect number                          use spotlight
+      58.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4   
     end_effects;
   end_effects_block;
 Click to return to Wolf IV;//name---------------------------------------(for meadows)
@@ -5793,6 +5816,11 @@ Desert planet;//name---------------------------------------desert
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4 
+	      59;//effect number                          use spotlight
+      58.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4   
     end_effects;
   end_effects_block;
 Click to return to Wolf IV;//name---------------------------------------(for desert)
@@ -6449,7 +6477,7 @@ Alien airstrike;//name--------------------------------------
   0.000000;//location parameter2
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   0;//particle to shown on radar
-  oiler.wav;//radiate sound
+  drill.wav;//radiate sound
   -1.000000;//time to delete object in milliseconds, -1=don't delete
   1;//trigger event by 0=player click, 1=player near, 2=near or click, 3=map creation (try to avoid any creature specific effects when using this, also does not check conditions), 4=interval parameter1
   0;//trigger event parameter1
