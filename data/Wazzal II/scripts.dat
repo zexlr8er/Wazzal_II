@@ -172,7 +172,7 @@ Initialisation;//name-----------------------------------------------------------
     1.000000;//parameter2
     2.000000;//parameter3
     0.000000;//parameter4
-  16;//effect number                   Give store Inventory bmattery
+  16;//effect number                   Give store Inventory battery
     108.000000;//parameter1
     1.000000;//parameter2
     2.000000;//parameter3
@@ -264,6 +264,11 @@ Initialisation;//name-----------------------------------------------------------
     0.000000;//parameter4
 16;//effect number                   Give store Inventory grenade item
     147.000000;//parameter1
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+	16;//effect number                   Give store Inventory mortar item
+    192.000000;//parameter1
     1.000000;//parameter2
     2.000000;//parameter3
     0.000000;//parameter4
@@ -4245,6 +4250,36 @@ If has new Pirate flag item;//name----------------------------------------------
     0.000000;//parameter2
     18.000000;//parameter3 drugs
     1.000000;//parameter4 
+  end_effects;
+  Mortar;//name-----------------------------------------------------------------
+  125;//identifier
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  1;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+ 100;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+   end_conditions;
+  begin_effects;
+19;//effect number              drop marker
+    155.000000;//parameter1
+   0.60000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4 
+	27;//effect number              drop red omni
+    4.000000;//parameter1
+   2560.0000;//parameter2
+    0.500000;//parameter3
+    0.500000;//parameter4 
+ 19;//effect number              drop dyna
+    156.000000;//parameter1
+    0.360000;//parameter2
+    60.000000;//parameter3
+    10.000000;//parameter4
   end_effects;
 end_of_file;
 

@@ -13,7 +13,7 @@
 Effect/Condition List
 //effect numbers:
 0=nothing
-1=multiply creature speed by parameter3 for time parameter1 with creature visual effect from weapon parameter2, parameter4=disable speed change when bullet hits (0=no/1=yes)
+1=multiply creature speed by parameter3 for time parameter1 with creature visual effect from weapon-1 parameter2, parameter4=disable speed change when bullet hits (0=no/1=yes)
 2=start alien attack
 3=drop item parameter1, amount parameter2, random area size parameter3 pixels, maximum amount of similar items in area parameter4 (0=infinite)
 4=increase creature's bar parameter3 with parameter1 (if parameter2=1, don't increase over maximum or decrease below minimum)
@@ -27,7 +27,7 @@ Effect/Condition List
 12=change armor level to parameter1
 13=enable creature detector with distance parameter1
 14=play sound parameter1 (from sounds.dat) with volume parameter2
-15=change creature into creature number parameter1 for time parameter2 (-1 for infinite) with creature visual effect from weapon parameter3, parameter4 (0=reset bars, 1=don't reset bars)
+15=change creature into3 creature number parameter1 for time parameter2 (-1 for infinite) with creature visual effe6ct from weapon parameter3, parameter4 (0=reset bars, 1=don't reset bars)
 16=give item parameter1 amount parameter2, parameter3=inventory number
 17=set creature's bar parameter3 to parameter1
 18=increase player's body temperature by parameter1

@@ -1969,7 +1969,7 @@ explosion2.wav;//sample name
 resistance to fire;//description
     1;//number
     7.000000;//parameter0
-    0.2000000;//parameter1
+    0.01000000;//parameter1
     0.000000;//parameter2
     0.000000;//parameter3
 resistance to bow;//description
@@ -2010,7 +2010,7 @@ MG Turret;//name---------------------------------------
   0.000000;//maximum movement speed
   0.000000;//minimum movement speed
   0.000000;//leg animation speed
-  0.100000;//turn speed
+  0.200000;//turn speed
   1.000000;//inertia level (acceleration/deceleration)
   0;//hide when behind walls
   23;//weapon number
@@ -2303,13 +2303,37 @@ Alien Large Fighter (flying over planet);//name---------------------------------
       3.000000;//parameter3
       0.000000;//parameter4 
     end_effects;
-      170;//interval in milliseconds            airstrike drop
+      170;//interval in milliseconds            airstrike drop (MG turret)
     begin_conditions;
       3;//condition                        			airstrike bar is greater than 2
       3.000000;//condition parameter0
       2.000000;//condition parameter1  
 	  14;//condition								closer than x to MG turret                                
       19.000000;//condition parameter0
+      260.000000;//condition parameter1   
+	  15;//condition                                player closer than x  
+      500.000000;//condition parameter0
+      0.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+	  4;//effect number                    			take 1 from airstrike bar
+      -1.000000;//parameter1
+      1.000000;//parameter2
+      3.000000;//parameter3
+      0.000000;//parameter4 
+    10;//effect number                   			drop creature
+      91.000000;//parameter1
+      -1.000000;//parameter2
+      7.000000;//parameter3
+      -1.000000;//parameter4 
+    end_effects;
+	170;//interval in milliseconds            airstrike drop (tank)
+    begin_conditions;
+      3;//condition                        			airstrike bar is greater than 2
+      3.000000;//condition parameter0
+      2.000000;//condition parameter1  
+	  14;//condition								closer than x to MG turret                                
+      50.000000;//condition parameter0
       260.000000;//condition parameter1   
 	  15;//condition                                player closer than x  
       500.000000;//condition parameter0
@@ -6797,7 +6821,7 @@ Pillbox;//name---------------------------------------
   0.000000;//maximum movement speed
   0.000000;//minimum movement speed
   1.000000;//leg animation speed
-  0.100000;//turn speed
+  0.400000;//turn speed
   1.000000;//inertia level (acceleration/deceleration)
   0;//hide when behind walls
   72;//weapon number
@@ -7879,7 +7903,7 @@ explosion2.wav;//sample name
 resistance to fire;//description
     1;//number
     7.000000;//parameter0
-    0.2000000;//parameter1
+    0.01000000;//parameter1
     0.000000;//parameter2
     0.000000;//parameter3
 resistance to bow;//description
@@ -7990,7 +8014,7 @@ explosion2.wav;//sample name
 resistance to fire;//description
     1;//number
     7.000000;//parameter0
-    0.2000000;//parameter1
+    0.01000000;//parameter1
     0.000000;//parameter2
     0.000000;//parameter3
 resistance to bow;//description
@@ -11538,11 +11562,11 @@ resistance to fusion beam;//description
   0;//die after how many seconds, 0=doesn't die
   -1;//eat item number from items.dat, -1=nothing
   0.900000;//creature size
-  5.000000;//creature weight (affects pushing)
-  0.1000;//maximum movement speed
+  0.500000;//creature weight (affects pushing)
+  1.3000;//maximum movement speed
   0.000000;//minimum movement speed
-  1.5000;//leg animation speed
-  0.80000;//turn speed
+  1.3000;//leg animation speed
+  2.00000;//turn speed
   1.000000;//inertia level (acceleration/deceleration)
   0;//hide when behind walls
   0;//weapon number
@@ -11577,8 +11601,8 @@ resistance to fusion beam;//description
     0;//number
     4.000000;//parameter0
     0.000000;//parameter1
-   50.000000;//parameter2
-    50.000000;//parameter3
+   100.000000;//parameter2
+    100.000000;//parameter3
  knife hurts;//description
     1;//number
     9.000000;//parameter0
@@ -11666,6 +11690,18 @@ resistance to fusion beam;//description
     0.000000;//parameter1
     1100.000000;//parameter2
     1100.000000;//parameter3
+	resistance to fire;//description
+    1;//number
+    7.000000;//parameter0
+    0.01000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+	resistance to fusion beam;//description
+    1;//number
+    12.000000;//parameter0
+    0.37000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
 resistance to projectile 1;//description
     1;//number
     4.000000;//parameter0
