@@ -633,7 +633,7 @@ M Asteroid;//name---------------------------------------
  5;//class
   creature7.png;//texture
   1;//draw layer
-  -2;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
+  -1;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
   0;//corpse item amount
   0;//attack type, 0=shooting attack, 1=close combat
   -1;//particle to show on radar, -1=none
@@ -655,7 +655,7 @@ M Asteroid;//name---------------------------------------
   27.000000;//weapon_y
   2;//blood particle
   0;//bars visible when player hovers mouse on top
-  1.000000;//death animation speed
+  1.700000;//death animation speed
   1;//creature can move from area to another
   10.000000;//AI hear range
   10.000000;//AI see range
@@ -672,13 +672,28 @@ M Asteroid;//name---------------------------------------
   begin_eat_block;//
   end_eat_block;
   begin_death_block;//
+    0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;   
+    end_conditions;
+    begin_effects;
+    26;//effect number
+    24.000000;//parameter1
+    30.000000;//parameter2
+    10.000000;//parameter3
+    0.000000;//parameter4  
+	36;//effect number           shake
+    4.000000;//parameter1
+    300.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4  
+    end_effects;
  2;//death type, 0=any death, 1=timed death, 2=killed by player
     begin_conditions;
     45;//condition
       -14.000000;//condition parameter0
      50.000000;//condition parameter1 
  8;//condition
-    10.000000;//condition parameter0
+    8.000000;//condition parameter0
      0.000000;//condition parameter1 
     end_conditions;
     begin_effects;
@@ -694,7 +709,7 @@ M Asteroid;//name---------------------------------------
       -14.000000;//condition parameter0
      50.000000;//condition parameter1 
  8;//condition
-     10.000000;//condition parameter0
+     8.000000;//condition parameter0
      0.000000;//condition parameter1 
     end_conditions;
     begin_effects;
@@ -710,7 +725,7 @@ M Asteroid;//name---------------------------------------
       -14.000000;//condition parameter0
      50.000000;//condition parameter1 
  8;//condition
-      10.000000;//condition parameter0
+      8.000000;//condition parameter0
      0.000000;//condition parameter1 
     end_conditions;
     begin_effects;
@@ -719,54 +734,6 @@ M Asteroid;//name---------------------------------------
       1.000000;//parameter2
       30.000000;//parameter3
       0.000000;//parameter4    
-    end_effects;
-;//death type, 0=any death, 1=timed death, 2=killed by player
-    begin_conditions;
-    45;//condition
-      -14.000000;//condition parameter0
-     50.000000;//condition parameter1 
- 8;//condition
-     13.000000;//condition parameter0
-     0.000000;//condition parameter1 
-    end_conditions;
-    begin_effects;
-3;//effect number---------------------give 1 unit of drugs
-      27.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4      
-    end_effects;
-2;//death type, 0=any death, 1=timed death, 2=killed by player
-    begin_conditions;
-    45;//condition
-      -14.000000;//condition parameter0
-     50.000000;//condition parameter1 
- 8;//condition
-      17.000000;//condition parameter0
-     0.000000;//condition parameter1 
-    end_conditions;
-    begin_effects;
-3;//effect number---------------------give 1 unit of weapons
-      29.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4      
-    end_effects;
-2;//death type, 0=any death, 1=timed death, 2=killed by player
-    begin_conditions;
-    45;//condition
-      -14.000000;//condition parameter0
-     50.000000;//condition parameter1 
- 8;//condition
-     20.000000;//condition parameter0
-     0.000000;//condition parameter1 
-    end_conditions;
-    begin_effects;
-3;//effect number---------------------give 1 unit of slaves
-      31.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4      
     end_effects;
   end_death_block;
   begin_hit_block;//
@@ -792,6 +759,12 @@ anti-resistance to mining beam;//description
     20.000000;//parameter1
     0.000000;//parameter2
     0.000000;//parameter3
+Not affected by ion wave;//description
+    1;//number
+    16.000000;//parameter0
+    0.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
   No AI;//description
     5;//number
     0.000000;//parameter0
@@ -804,7 +777,7 @@ MS Asteroid;//name---------------------------------------
   5;//class
   creature7.png;//texture
   1;//draw layer
-  -2;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
+  -1;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
   0;//corpse item amount
   0;//attack type, 0=shooting attack, 1=close combat
   -1;//particle to show on radar, -1=none
@@ -826,7 +799,7 @@ MS Asteroid;//name---------------------------------------
   27.000000;//weapon_y
   2;//blood particle
   0;//bars visible when player hovers mouse on top
-  1.000000;//death animation speed
+  1.7000000;//death animation speed
   1;//creature can move from area to another
   10.000000;//AI hear range
   10.000000;//AI see range
@@ -843,13 +816,28 @@ MS Asteroid;//name---------------------------------------
   begin_eat_block;//
   end_eat_block;
   begin_death_block;//
+      0;//death type, 0=any death, 1=timed death, 2=killed by player   ---- shake and flames
+    begin_conditions;   
+    end_conditions;
+    begin_effects;
+    26;//effect number
+    24.000000;//parameter1
+    30.000000;//parameter2
+    10.000000;//parameter3
+    0.000000;//parameter4  
+	36;//effect number           shake
+    3.5000000;//parameter1
+    300.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4  
+    end_effects;
    2;//death type, 0=any death, 1=timed death, 2=killed by player
     begin_conditions;
     45;//condition
       -14.000000;//condition parameter0
      50.000000;//condition parameter1 
  8;//condition
-    10.000000;//condition parameter0
+    8.000000;//condition parameter0
      0.000000;//condition parameter1 
     end_conditions;
     begin_effects;
@@ -865,7 +853,7 @@ MS Asteroid;//name---------------------------------------
       -14.000000;//condition parameter0
      50.000000;//condition parameter1 
  8;//condition
-     10.000000;//condition parameter0
+     8.000000;//condition parameter0
      0.000000;//condition parameter1 
     end_conditions;
     begin_effects;
@@ -899,6 +887,12 @@ anti-resistance to mining beam;//description
    20.000000;//parameter1
     0.000000;//parameter2
     0.000000;//parameter3
+	Not affected by ion wave;//description
+    1;//number
+    16.000000;//parameter0
+    0.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
   No AI;//description
     5;//number
     0.000000;//parameter0
@@ -911,7 +905,7 @@ L Asteroid;//name---------------------------------------
   5;//class
   creature7.png;//texture
   1;//draw layer
-  -2;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
+  -1;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
   0;//corpse item amount
   0;//attack type, 0=shooting attack, 1=close combat
   -1;//particle to show on radar, -1=none
@@ -933,7 +927,7 @@ L Asteroid;//name---------------------------------------
   27.000000;//weapon_y
   2;//blood particle
   0;//bars visible when player hovers mouse on top
-  1.000000;//death animation speed
+  1.7000000;//death animation speed
   1;//creature can move from area to another
   10.000000;//AI hear range
   10.000000;//AI see range
@@ -950,13 +944,28 @@ L Asteroid;//name---------------------------------------
   begin_eat_block;//
   end_eat_block;
   begin_death_block;//
+        0;//death type, 0=any death, 1=timed death, 2=killed by player   ---- shake and flames
+    begin_conditions;   
+    end_conditions;
+    begin_effects;
+    26;//effect number
+    24.000000;//parameter1
+    30.000000;//parameter2
+    10.000000;//parameter3
+    0.000000;//parameter4  
+	36;//effect number           shake
+    5.000000;//parameter1
+    350.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4  
+    end_effects;
  2;//death type, 0=any death, 1=timed death, 2=killed by player
     begin_conditions;
     45;//condition
       -14.000000;//condition parameter0
      50.000000;//condition parameter1 
  8;//condition
-    10.000000;//condition parameter0
+    8.000000;//condition parameter0
      0.000000;//condition parameter1 
     end_conditions;
     begin_effects;
@@ -972,7 +981,7 @@ L Asteroid;//name---------------------------------------
       -14.000000;//condition parameter0
      50.000000;//condition parameter1 
  8;//condition
-      10.000000;//condition parameter0
+      8.000000;//condition parameter0
      0.000000;//condition parameter1 
     end_conditions;
     begin_effects;
@@ -988,7 +997,7 @@ L Asteroid;//name---------------------------------------
       -14.000000;//condition parameter0
      50.000000;//condition parameter1 
  8;//condition
-      10.000000;//condition parameter0
+      8.000000;//condition parameter0
      0.000000;//condition parameter1 
     end_conditions;
     begin_effects;
@@ -1004,7 +1013,7 @@ L Asteroid;//name---------------------------------------
       -14.000000;//condition parameter0
      50.000000;//condition parameter1 
  8;//condition
-      10.000000;//condition parameter0
+      8.000000;//condition parameter0
      0.000000;//condition parameter1 
     end_conditions;
     begin_effects;
@@ -1013,54 +1022,6 @@ L Asteroid;//name---------------------------------------
       1.000000;//parameter2
       30.000000;//parameter3
       0.000000;//parameter4    
-    end_effects;
-;//death type, 0=any death, 1=timed death, 2=killed by player
-    begin_conditions;
-    45;//condition
-      -14.000000;//condition parameter0
-     50.000000;//condition parameter1 
- 8;//condition
-     10.000000;//condition parameter0
-     0.000000;//condition parameter1 
-    end_conditions;
-    begin_effects;
-3;//effect number---------------------give 1 unit of drugs
-      27.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4      
-    end_effects;
-2;//death type, 0=any death, 1=timed death, 2=killed by player
-    begin_conditions;
-    45;//condition
-      -14.000000;//condition parameter0
-     50.000000;//condition parameter1 
- 8;//condition
-      13.000000;//condition parameter0
-     0.000000;//condition parameter1 
-    end_conditions;
-    begin_effects;
-3;//effect number---------------------give 1 unit of weapons
-      29.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4      
-    end_effects;
-2;//death type, 0=any death, 1=timed death, 2=killed by player
-    begin_conditions;
-    45;//condition
-      -14.000000;//condition parameter0
-     50.000000;//condition parameter1 
- 8;//condition
-     16.000000;//condition parameter0
-     0.000000;//condition parameter1 
-    end_conditions;
-    begin_effects;
-3;//effect number---------------------give 1 unit of slaves
-      31.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4      
     end_effects;
   end_death_block;
   begin_hit_block;//
@@ -1086,6 +1047,12 @@ anti-resistance to mining beam;//description
     20.000000;//parameter1
     0.000000;//parameter2
     0.000000;//parameter3
+	Not affected by ion wave;//description
+    1;//number
+    16.000000;//parameter0
+    0.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
   No AI;//description
     5;//number
     0.000000;//parameter0
@@ -1098,7 +1065,7 @@ S Asteroid;//name---------------------------------------
   5;//class
   creature7.png;//texture
   1;//draw layer
-  -2;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
+  -1;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
   0;//corpse item amount
   0;//attack type, 0=shooting attack, 1=close combat
   -1;//particle to show on radar, -1=none
@@ -1120,7 +1087,7 @@ S Asteroid;//name---------------------------------------
   27.000000;//weapon_y
   2;//blood particle
   0;//bars visible when player hovers mouse on top
-  1.000000;//death animation speed
+  1.7000000;//death animation speed
   1;//creature can move from area to another
   10.000000;//AI hear range
   10.000000;//AI see range
@@ -1137,13 +1104,28 @@ S Asteroid;//name---------------------------------------
   begin_eat_block;//
   end_eat_block;
   begin_death_block;//
+    0;//death type, 0=any death, 1=timed death, 2=killed by player   ---- shake and flames
+    begin_conditions;   
+    end_conditions;
+    begin_effects;
+    26;//effect number
+    24.000000;//parameter1
+    30.000000;//parameter2
+    10.000000;//parameter3
+    0.000000;//parameter4  
+	36;//effect number           shake
+    2.8000000;//parameter1
+    300.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4  
+    end_effects;
 2;//death type, 0=any death, 1=timed death, 2=killed by player
     begin_conditions;
     45;//condition
       -14.000000;//condition parameter0
      50.000000;//condition parameter1 
  8;//condition
-     10.000000;//condition parameter0
+     8.000000;//condition parameter0
      0.000000;//condition parameter1 
     end_conditions;
     begin_effects;
@@ -1175,6 +1157,12 @@ anti-resistance to mining beam;//description
     1;//number
     14.000000;//parameter0
     17.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+	Not affected by ion wave;//description
+    1;//number
+    16.000000;//parameter0
+    0.000000;//parameter1
     0.000000;//parameter2
     0.000000;//parameter3
   No AI;//description
@@ -2408,8 +2396,8 @@ Alien Large Fighter (flying over planet);//name---------------------------------
     0;//number
     4.000000;//parameter0
     0.000000;//parameter1
-    500.000000;//parameter2
-    500.000000;//parameter3
+    600.000000;//parameter2
+    600.000000;//parameter3
   health (secondary);//description
     0;//number
     7.000000;//parameter0
@@ -7912,8 +7900,8 @@ explosion2.wav;//sample name
     0;//number
     4.000000;//parameter0
     0.000000;//parameter1
-    800.000000;//parameter2
-    800.000000;//parameter3
+    900.000000;//parameter2
+    900.000000;//parameter3
 resistance to fire;//description
     1;//number
     7.000000;//parameter0
@@ -8194,8 +8182,8 @@ Alien Small Fighter (flying over planet);//name---------------------------------
     0;//number
     4.000000;//parameter0
     0.000000;//parameter1
-    400.000000;//parameter2
-   400.000000;//parameter3
+    500.000000;//parameter2
+   500.000000;//parameter3
      health (secondary);//description
     0;//number
     7.000000;//parameter0
@@ -8633,7 +8621,7 @@ M Asteroid2;//name---------------------------------------
  5;//class
   asteroidc2.png;//texture
   1;//draw layer
-  -2;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
+  -1;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
   0;//corpse item amount
   0;//attack type, 0=shooting attack, 1=close combat
   -1;//particle to show on radar, -1=none
@@ -8655,7 +8643,7 @@ M Asteroid2;//name---------------------------------------
   27.000000;//weapon_y
   2;//blood particle
   0;//bars visible when player hovers mouse on top
-  1.000000;//death animation speed
+  1.7000000;//death animation speed
   1;//creature can move from area to another
   10.000000;//AI hear range
   10.000000;//AI see range
@@ -8672,13 +8660,28 @@ M Asteroid2;//name---------------------------------------
   begin_eat_block;//
   end_eat_block;
   begin_death_block;//
+        0;//death type, 0=any death, 1=timed death, 2=killed by player   ---- shake and flames
+    begin_conditions;   
+    end_conditions;
+    begin_effects;
+    26;//effect number
+    24.000000;//parameter1
+    30.000000;//parameter2
+    10.000000;//parameter3
+    0.000000;//parameter4  
+	36;//effect number           shake
+    4.0000000;//parameter1
+    300.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4  
+    end_effects;
   2;//death type, 0=any death, 1=timed death, 2=killed by player
     begin_conditions;
     45;//condition
       -14.000000;//condition parameter0
      50.000000;//condition parameter1 
  8;//condition
-      10.000000;//condition parameter0
+      8.000000;//condition parameter0
      0.000000;//condition parameter1 
     end_conditions;
     begin_effects;
@@ -8694,7 +8697,7 @@ M Asteroid2;//name---------------------------------------
       -14.000000;//condition parameter0
      50.000000;//condition parameter1 
  8;//condition
-      10.000000;//condition parameter0
+      8.000000;//condition parameter0
      0.000000;//condition parameter1 
     end_conditions;
     begin_effects;
@@ -8710,7 +8713,7 @@ M Asteroid2;//name---------------------------------------
       -14.000000;//condition parameter0
      50.000000;//condition parameter1 
  8;//condition
-      10.000000;//condition parameter0
+      8.000000;//condition parameter0
      0.000000;//condition parameter1 
     end_conditions;
     begin_effects;
@@ -8719,54 +8722,6 @@ M Asteroid2;//name---------------------------------------
       1.000000;//parameter2
       30.000000;//parameter3
       0.000000;//parameter4    
-    end_effects;
-2;//death type, 0=any death, 1=timed death, 2=killed by player
-    begin_conditions;
-    45;//condition
-      -14.000000;//condition parameter0
-     50.000000;//condition parameter1 
- 8;//condition
-      13.000000;//condition parameter0
-     0.000000;//condition parameter1 
-    end_conditions;
-    begin_effects;
-3;//effect number---------------------give 1 unit of drugs
-      27.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4      
-    end_effects;
-2;//death type, 0=any death, 1=timed death, 2=killed by player
-    begin_conditions;
-    45;//condition
-      -14.000000;//condition parameter0
-     50.000000;//condition parameter1 
- 8;//condition
-      17.000000;//condition parameter0
-     0.000000;//condition parameter1 
-    end_conditions;
-    begin_effects;
-3;//effect number---------------------give 1 unit of weapons
-      29.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4      
-    end_effects;
-2;//death type, 0=any death, 1=timed death, 2=killed by player
-    begin_conditions;
-    45;//condition
-      -14.000000;//condition parameter0
-     50.000000;//condition parameter1 
- 8;//condition
-      20.000000;//condition parameter0
-     0.000000;//condition parameter1 
-    end_conditions;
-    begin_effects;
-3;//effect number---------------------give 1 unit of slaves
-      31.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4      
     end_effects;
   end_death_block;
   begin_hit_block;//
@@ -8792,6 +8747,12 @@ anti-resistance to mining beam;//description
     20.000000;//parameter1
     0.000000;//parameter2
     0.000000;//parameter3
+	Not affected by ion wave;//description
+    1;//number
+    16.000000;//parameter0
+    0.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
   No AI;//description
     5;//number
     0.000000;//parameter0
@@ -8804,7 +8765,7 @@ MS Asteroid 2;//name---------------------------------------
   5;//class
  asteroidc2.png;//texture
   1;//draw layer
-  -2;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
+  -1;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
   0;//corpse item amount
   0;//attack type, 0=shooting attack, 1=close combat
   -1;//particle to show on radar, -1=none
@@ -8826,7 +8787,7 @@ MS Asteroid 2;//name---------------------------------------
   27.000000;//weapon_y
   2;//blood particle
   0;//bars visible when player hovers mouse on top
-  1.000000;//death animation speed
+  1.7000000;//death animation speed
   1;//creature can move from area to another
   10.000000;//AI hear range
   10.000000;//AI see range
@@ -8843,13 +8804,28 @@ MS Asteroid 2;//name---------------------------------------
   begin_eat_block;//
   end_eat_block;
   begin_death_block;//
+        0;//death type, 0=any death, 1=timed death, 2=killed by player   ---- shake and flames
+    begin_conditions;   
+    end_conditions;
+    begin_effects;
+    26;//effect number
+    24.000000;//parameter1
+    30.000000;//parameter2
+    10.000000;//parameter3
+    0.000000;//parameter4  
+	36;//effect number           shake
+    3.5000000;//parameter1
+    300.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4  
+    end_effects;
 2;//death type, 0=any death, 1=timed death, 2=killed by player
     begin_conditions;
     45;//condition
       -14.000000;//condition parameter0
      50.000000;//condition parameter1 
  8;//condition
-      10.000000;//condition parameter0
+      8.000000;//condition parameter0
      0.000000;//condition parameter1 
     end_conditions;
     begin_effects;
@@ -8865,7 +8841,7 @@ MS Asteroid 2;//name---------------------------------------
       -14.000000;//condition parameter0
      50.000000;//condition parameter1 
  8;//condition
-     10.000000;//condition parameter0
+     8.000000;//condition parameter0
      0.000000;//condition parameter1 
     end_conditions;
     begin_effects;
@@ -8899,6 +8875,12 @@ anti-resistance to mining beam;//description
     20.000000;//parameter1
     0.000000;//parameter2
     0.000000;//parameter3
+	Not affected by ion wave;//description
+    1;//number
+    16.000000;//parameter0
+    0.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
   No AI;//description
     5;//number
     0.000000;//parameter0
@@ -8911,7 +8893,7 @@ L Asteroid 2;//name---------------------------------------
   5;//class
   asteroidc2.png;//texture
   1;//draw layer
-  -2;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
+  -1;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
   0;//corpse item amount
   0;//attack type, 0=shooting attack, 1=close combat
   -1;//particle to show on radar, -1=none
@@ -8933,7 +8915,7 @@ L Asteroid 2;//name---------------------------------------
   27.000000;//weapon_y
   2;//blood particle
   0;//bars visible when player hovers mouse on top
-  1.000000;//death animation speed
+  1.7000000;//death animation speed
   1;//creature can move from area to another
   10.000000;//AI hear range
   10.000000;//AI see range
@@ -8950,13 +8932,28 @@ L Asteroid 2;//name---------------------------------------
   begin_eat_block;//
   end_eat_block;
   begin_death_block;//
+    0;//death type, 0=any death, 1=timed death, 2=killed by player   ---- shake and flames
+    begin_conditions;   
+    end_conditions;
+    begin_effects;
+    26;//effect number
+    24.000000;//parameter1
+    30.000000;//parameter2
+    10.000000;//parameter3
+    0.000000;//parameter4  
+	36;//effect number           shake
+    5.000000;//parameter1
+    350.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4  
+    end_effects;
 2;//death type, 0=any death, 1=timed death, 2=killed by player
     begin_conditions;
     45;//condition
       -14.000000;//condition parameter0
      50.000000;//condition parameter1 
  8;//condition
-      10.000000;//condition parameter0
+      8.000000;//condition parameter0
      0.000000;//condition parameter1 
     end_conditions;
     begin_effects;
@@ -8972,7 +8969,7 @@ L Asteroid 2;//name---------------------------------------
       -14.000000;//condition parameter0
      50.000000;//condition parameter1 
  8;//condition
-     10.000000;//condition parameter0
+     8.000000;//condition parameter0
      0.000000;//condition parameter1 
     end_conditions;
     begin_effects;
@@ -8988,7 +8985,7 @@ L Asteroid 2;//name---------------------------------------
       -14.000000;//condition parameter0
      50.000000;//condition parameter1 
  8;//condition
-      10.000000;//condition parameter0
+      8.000000;//condition parameter0
      0.000000;//condition parameter1 
     end_conditions;
     begin_effects;
@@ -9004,7 +9001,7 @@ L Asteroid 2;//name---------------------------------------
       -14.000000;//condition parameter0
      50.000000;//condition parameter1 
  8;//condition
-      10.000000;//condition parameter0
+      8.000000;//condition parameter0
      0.000000;//condition parameter1 
     end_conditions;
     begin_effects;
@@ -9013,54 +9010,6 @@ L Asteroid 2;//name---------------------------------------
       1.000000;//parameter2
       30.000000;//parameter3
       0.000000;//parameter4    
-    end_effects;
-2;//death type, 0=any death, 1=timed death, 2=killed by player
-    begin_conditions;
-    45;//condition
-      -14.000000;//condition parameter0
-     50.000000;//condition parameter1 
- 8;//condition
-     10.000000;//condition parameter0
-     0.000000;//condition parameter1 
-    end_conditions;
-    begin_effects;
-3;//effect number---------------------give 1 unit of drugs
-      27.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4      
-    end_effects;
-2;//death type, 0=any death, 1=timed death, 2=killed by player
-    begin_conditions;
-    45;//condition
-      -14.000000;//condition parameter0
-     50.000000;//condition parameter1 
- 8;//condition
-      13.000000;//condition parameter0
-     0.000000;//condition parameter1 
-    end_conditions;
-    begin_effects;
-3;//effect number---------------------give 1 unit of weapons
-      29.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4      
-    end_effects;
-2;//death type, 0=any death, 1=timed death, 2=killed by player
-    begin_conditions;
-    45;//condition
-      -14.000000;//condition parameter0
-     50.000000;//condition parameter1 
- 8;//condition
-     16.000000;//condition parameter0
-     0.000000;//condition parameter1 
-    end_conditions;
-    begin_effects;
-3;//effect number---------------------give 1 unit of slaves
-      31.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4      
     end_effects;
   end_death_block;
   begin_hit_block;//
@@ -9086,6 +9035,12 @@ anti-resistance to mining beam;//description
     20.000000;//parameter1
     0.000000;//parameter2
     0.000000;//parameter3
+	Not affected by ion wave;//description
+    1;//number
+    16.000000;//parameter0
+    0.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
   No AI;//description
     5;//number
     0.000000;//parameter0
@@ -9098,7 +9053,7 @@ S Asteroid 2;//name---------------------------------------
   5;//class
  asteroidc2.png;//texture
   1;//draw layer
-  -2;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
+  -1;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
   0;//corpse item amount
   0;//attack type, 0=shooting attack, 1=close combat
   -1;//particle to show on radar, -1=none
@@ -9120,7 +9075,7 @@ S Asteroid 2;//name---------------------------------------
   27.000000;//weapon_y
   2;//blood particle
   0;//bars visible when player hovers mouse on top
-  1.000000;//death animation speed
+  1.7000000;//death animation speed
   1;//creature can move from area to another
   10.000000;//AI hear range
   10.000000;//AI see range
@@ -9137,13 +9092,28 @@ S Asteroid 2;//name---------------------------------------
   begin_eat_block;//
   end_eat_block;
   begin_death_block;//
+    0;//death type, 0=any death, 1=timed death, 2=killed by player   ---- shake and flames
+    begin_conditions;   
+    end_conditions;
+    begin_effects;
+    26;//effect number
+    24.000000;//parameter1
+    30.000000;//parameter2
+    10.000000;//parameter3
+    0.000000;//parameter4  
+	36;//effect number           shake
+    2.8000000;//parameter1
+    270.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4  
+    end_effects;
 2;//death type, 0=any death, 1=timed death, 2=killed by player
     begin_conditions;
     45;//condition
       -14.000000;//condition parameter0
      50.000000;//condition parameter1 
  8;//condition
-      10.000000;//condition parameter0
+      8.000000;//condition parameter0
      0.000000;//condition parameter1 
     end_conditions;
     begin_effects;
@@ -9175,6 +9145,12 @@ anti-resistance to mining beam;//description
     1;//number
     14.000000;//parameter0
     20.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+	Not affected by ion wave;//description
+    1;//number
+    16.000000;//parameter0
+    0.000000;//parameter1
     0.000000;//parameter2
     0.000000;//parameter3
   No AI;//description
@@ -10079,7 +10055,7 @@ Confederate Light Fighter (player; flying over planet);//name-------------------
     0.000000;//parameter3
     0.000000;//parameter4
     end_effects;
-200;//interval in milliseconds
+130;//interval in milliseconds
     begin_conditions;     
    37;//condition                        right fire mouse button pressed
     1.000000;//condition parameter0
@@ -10087,14 +10063,14 @@ Confederate Light Fighter (player; flying over planet);//name-------------------
    0;//condition                       No propoganda
     163.000000;//condition parameter0
     0.000000;//condition parameter1 	
-	3;//condition                       Airstrike bar greater than
+	3;//condition                       Airstrike bar greater than/equal to
     11.000000;//condition parameter0
     2.000000;//condition parameter1 
     end_conditions;
     begin_effects;  
 		 4;//effect number                   reduce airstrike bar
      -1.000000;//parameter1
-      1.000000;//parameter2
+     0.000000;//parameter2
      11.00000;//parameter3
       0.000000;//parameter4
 	  29;//effect number                   airstrike script
@@ -10103,7 +10079,7 @@ Confederate Light Fighter (player; flying over planet);//name-------------------
      0.00000;//parameter3
       0.000000;//parameter4
     end_effects;
-200;//interval in milliseconds
+130;//interval in milliseconds
     begin_conditions;     
    37;//condition                        right fire mouse button pressed
     1.000000;//condition parameter0
@@ -10151,14 +10127,14 @@ Confederate Light Fighter (player; flying over planet);//name-------------------
     0;//number
     4.000000;//parameter0
     0.000000;//parameter1
-    110.000000;//parameter2
-    110.000000;//parameter3
-		    clip;//description 
+    150.000000;//parameter2
+    150.000000;//parameter3
+	clip;//description 
     0;//number
     11.000000;//parameter0
     0.000000;//parameter1
-    7.000000;//parameter2
-    7.000000;//parameter3  
+    6.000000;//parameter2
+    6.000000;//parameter3  
   fly;//description
     4;//number
     1.000000;//parameter0
@@ -10278,14 +10254,14 @@ Confederate Light Fighter (stationary on planet);//name-------------------------
     0;//number
     4.000000;//parameter0
     0.000000;//parameter1
-    200.000000;//parameter2
-    200.000000;//parameter3
-			    clip;//description 
+    300.000000;//parameter2
+    300.000000;//parameter3
+	clip;//description 
     0;//number
     11.000000;//parameter0
     0.000000;//parameter1
-    7.000000;//parameter2
-    7.000000;//parameter3  
+    6.000000;//parameter2
+    6.000000;//parameter3  
   fly;//description
     4;//number
     0.000000;//parameter0
@@ -11408,6 +11384,11 @@ fighter_move.wav;//
       1.000000;//parameter2
       11.000000;//parameter3
       0.000000;//parameter4 
+	  47;//effect number                   play dialogue
+     0.000000;//parameter1
+      0.000000;//parameter2
+     0.00000;//parameter3
+      0.000000;//parameter4
     end_effects;
   end_timed_block;
   begin_specialties;//
@@ -11574,8 +11555,8 @@ fighter_move.wav;//
     0;//number
     4.000000;//parameter0
     0.000000;//parameter1
-    400.000000;//parameter2
-   400.000000;//parameter3
+    500.000000;//parameter2
+   500.000000;//parameter3
   fly;//description
     4;//number
     1.000000;//parameter0

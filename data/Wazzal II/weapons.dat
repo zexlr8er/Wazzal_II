@@ -1,4 +1,4 @@
-0=standard ship weapons (for human: big gun no multp.), 1=teeth/jaw attacks, 2=thruster/reverse firing weapons, 3=hand-laser pistol), 4=hand-projectile (pistol), 5=hand-projectile (machinegun), 6=hand-laser (machinegun), 7=Flame weapons (big gun), 8=jetpack/mines/dynamite/airstrike (backpack), 9=knife hit melee (harms animals more), 10=Pick/mining/knifethrow (only thing to hurt rocks), 11=hand (bow harms animals more), 12=fusion, 13=alien tech, 14=space mining, 15=ECM;//weapon class names
+0=standard ship weapons (for human: big gun no multp.), 1=teeth/jaw attacks, 2=thruster/reverse firing weapons, 3=hand-laser pistol), 4=hand-projectile (pistol), 5=hand-projectile (machinegun), 6=hand-laser (machinegun), 7=Flame weapons (big gun), 8=jetpack/mines/dynamite/airstrike (backpack), 9=knife hit melee (harms animals more), 10=Pick/mining/knifethrow (only thing to hurt rocks), 11=hand (bow harms animals more), 12=fusion, 13=alien tech, 14=space mining, 15=ECM, 16=Ion wave;//weapon class names
 ;//name---------------------------------------
   0;//identifier
   0;//class
@@ -2295,9 +2295,9 @@ Laser alien small fighter;//name---------------------------------------single ba
   end_hit_effects;
 Ion Wave;//name---------------------------------------
   49;//identifier
-  1;//class
+  16;//class
   bullet0.png;//bullet texture
-  24;//bullets at one shot
+  35;//bullets at one shot
   0;//stop at hit 0=stop where hit, 1=don't stop
   0.000000;//bullet size
   3.0000;//spread
@@ -2331,13 +2331,13 @@ Ion Wave;//name---------------------------------------
     0.350000;//parameter4
   26;//effect number
     6.000000;//parameter1
-    5.000000;//parameter2
+    10.000000;//parameter2
     49.000000;//parameter3
     0.000000;//parameter4
   end_fire_effects;
   begin_hit_effects;
   1;//effect number
-    9000.000000;//parameter1
+    12000.000000;//parameter1
     49.000000;//parameter2
     0.000000;//parameter3
     0.000000;//parameter4
@@ -2809,7 +2809,7 @@ Dynamite damage;//name---------------------------------------
     4.000000;//parameter3
     0.000000;//parameter4
    end_hit_effects;
-Flame Thrower;//name---------------------------------------
+Flamethrower;//name---------------------------------------
   59;//identifier
   7;//class
   invisible.png;//bullet texture
@@ -2836,7 +2836,7 @@ Flame Thrower;//name---------------------------------------
       end_wield_conditions;
   begin_fire_effects;
      4;//effect number
-    -0.2600000;//parameter1
+    -0.1500000;//parameter1
     0.000000;//parameter2
     25.000000;//parameter3
     0.000000;//parameter4
@@ -3743,7 +3743,7 @@ Mining Beam;//name---------------------------------------
   0.000000;//spread
    5.600000;//bullet speed
   20.000000;//time until bullet disappears
-  13;//fire rate
+  40;//fire rate
   2;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
   -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
   -1;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
@@ -3756,7 +3756,7 @@ Mining Beam;//name---------------------------------------
   begin_wield_conditions;
  3;//condition number 
     1.000000;//parameter0
-    0.5000000;//parameter1
+    1.000000;//parameter1
   end_wield_conditions;
   begin_fire_effects;
   27;//effect number
@@ -3770,14 +3770,14 @@ Mining Beam;//name---------------------------------------
     0.0500000;//parameter3
     0.100000;//parameter4 
  4;//effect number 
-    -0.0350000;//parameter1
+    -0.120000;//parameter1
     0.000000;//parameter2
     1.000000;//parameter3
     0.000000;//parameter4
   end_fire_effects;
   begin_hit_effects;
   4;//effect number - 
-    -0.100000;//parameter1
+    -0.300000;//parameter1
     0.000000;//parameter2
     4.000000;//parameter3
     0.000000;//parameter4
@@ -4737,11 +4737,6 @@ Storm hit;//name---------------------------------------
     1.000000;//parameter2
     0.000000;//parameter3
     0.000000;//parameter4
-	  36;//effect number     ---shake
-    3.000000;//parameter1
-    150.000000;//parameter2
-    0.000000;//parameter3
-    0.000000;//parameter4 
   end_hit_effects;
   Alien airstrike - damage;//name---------------------------------------
   97;//identifier

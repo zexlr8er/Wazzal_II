@@ -3387,7 +3387,7 @@ Ion Wave;//name---------------------------------------
   85;//identifier
   0;//item class
   50.000000;//weight
-  The Ion Wave fires beams of highly-charged ionized particles at an enemy ship, temporarily disabling almost all electrical systems on board, and leaving it defenceless for a short period of time. \ Highly effective against fighters, however will often only partially disable larger ships.;//short description
+  The Ion Wave fires beams of highly-charged ionized particles at an enemy ship, temporarily disabling almost all electrical systems on board, and leaving it defenceless for a short period of time. \ Highly effective against fighters, however may only partially disable larger ships!;//short description
   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner

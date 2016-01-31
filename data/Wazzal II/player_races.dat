@@ -106,6 +106,18 @@ Wolf IV (Confederacy);//name------------------------------
     2;//row that contains the 4 weapon frames
     0.000000;//weapon_x
     0.000000;//weapon_y
+  15;//weapon class number                               placeholder
+    1;//can use the weapon class (0=cannot, 1=can)
+    creature0.png;//texture name
+    2;//row that contains the 4 weapon frames
+    0.000000;//weapon_x
+    0.000000;//weapon_y  
+  16;//weapon class number                               ion wave
+    1;//can use the weapon class (0=cannot, 1=can)
+    creature0.png;//texture name
+    2;//row that contains the 4 weapon frames
+    0.000000;//weapon_x
+    0.000000;//weapon_y
   end_weapon_frames;
   begin_specialties;
 Transports remaining;//description
@@ -914,6 +926,18 @@ Wolf IV (Pirate Flag);//name------------------------------
     2;//row that contains the 4 weapon frames
     0.000000;//weapon_x
     0.000000;//weapon_y
+ 15;//weapon class number                               placeholder
+    1;//can use the weapon class (0=cannot, 1=can)
+    creature0.png;//texture name
+    2;//row that contains the 4 weapon frames
+    0.000000;//weapon_x
+    0.000000;//weapon_y  
+  16;//weapon class number                               ion wave
+    1;//can use the weapon class (0=cannot, 1=can)
+    creature0.png;//texture name
+    2;//row that contains the 4 weapon frames
+    0.000000;//weapon_x
+    0.000000;//weapon_y
   end_weapon_frames;
   begin_specialties;
 Confed flag;//description
@@ -1322,6 +1346,18 @@ Stealth Wolf IV;//name------------------------------
     2;//row that contains the 4 weapon frames
     0.000000;//weapon_x
     0.000000;//weapon_y
+  15;//weapon class number                               placeholder
+    1;//can use the weapon class (0=cannot, 1=can)
+    creature0.png;//texture name
+    2;//row that contains the 4 weapon frames
+    0.000000;//weapon_x
+    0.000000;//weapon_y  
+  16;//weapon class number                               ion wave
+    1;//can use the weapon class (0=cannot, 1=can)
+    creature0.png;//texture name
+    2;//row that contains the 4 weapon frames
+    0.000000;//weapon_x
+    0.000000;//weapon_y
   end_weapon_frames;
   begin_specialties;
 Confed flag;//description
@@ -1719,6 +1755,18 @@ Wolf IV (Alien Flag);//name------------------------------
   14;//weapon class number                               mining beam
     1;//can use the weapon class (0=cannot, 1=can)
     alienwolf.png;//texture name
+    2;//row that contains the 4 weapon frames
+    0.000000;//weapon_x
+    0.000000;//weapon_y
+  15;//weapon class number                               placeholder
+    1;//can use the weapon class (0=cannot, 1=can)
+    creature0.png;//texture name
+    2;//row that contains the 4 weapon frames
+    0.000000;//weapon_x
+    0.000000;//weapon_y  
+  16;//weapon class number                               ion wave
+    1;//can use the weapon class (0=cannot, 1=can)
+    creature0.png;//texture name
     2;//row that contains the 4 weapon frames
     0.000000;//weapon_x
     0.000000;//weapon_y
