@@ -2004,7 +2004,7 @@ MG Turret;//name---------------------------------------
   16;//secondary AI tactic from AI_tactic.dat
   3;//footstep particle from particles.dat
   0;//die after how many seconds, 0=doesn't die
-  184;//eat item number from items.dat, -1=nothing
+  -1;//eat item number from items.dat, -1=nothing
   1.700000;//creature size
   1000.000000;//creature weight (affects pushing)
   0.000000;//maximum movement speed
@@ -11236,7 +11236,7 @@ Storm large;//name---------------------------------------
   16;//secondary AI tactic from AI_tactic.dat
   3;//footstep particle from particles.dat
   0;//die after how many seconds, 0=doesn't die
-  184;//eat item number from items.dat, -1=nothing
+  -1;//eat item number from items.dat, -1=nothing
   2.600000;//creature size
   500.000000;//creature weight (affects pushing)
   0.560000;//maximum movement speed
@@ -11720,6 +11720,112 @@ resistance to projectile 2;//description
     0.2000000;//parameter1
     0.000000;//parameter2
     0.000000;//parameter3
+  end_specialties;
+  Thrown fishing line;//name---------------------------------------
+  96;//identifier
+  4;//class
+  fishingc.png;//texture 
+  2;//draw layer
+  -2;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
+ 0;//corpse item amount
+  1;//attack type, 0=shooting attack, 1=close combat
+  -1;//particle to show on radar, -1=none
+  7;//primary AI tactic from AI_tactic.dat
+  7;//secondary AI tactic from AI_tactic.dat
+  -1;//footstep particle from particles.dat
+  1;//die after how many seconds, 0=doesn't die
+  184;//eat item number from items.dat, -1=nothing
+  0.5500000;//creature size
+  0.500000;//creature weight (affects pushing)
+  1.100000;//maximum movement speed
+  1.100000;//minimum movement speed
+ 1.000000;//leg animation speed
+  0.000000;//turn speed
+  1.000000;//inertia level (acceleration/deceleration)
+  0;//hide when behind walls
+  33;//weapon number
+  0.000000;//weapon_x
+  -100.000000;//weapon_y
+  0;//blood particle
+  0;//bars visible when player hovers mouse on top
+  1.000000;//death animation speed
+  1;//creature can move from area to another
+  50.000000;//AI hear range
+  5000.000000;//AI see range
+  6.280000;//AI see angle
+  begin_footstep_sounds;//
+  end_footstep_sounds;
+  begin_hit_sounds;//
+  end_hit_sounds;
+  begin_die_sounds;//
+  splash.wav;
+  end_die_sounds;
+  begin_eat_block;//
+ begin_conditions;
+    end_conditions;
+    begin_effects;
+31;//effect number             kill
+   0.000000;//parameter1
+    0.00000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4   
+    end_effects;
+  end_eat_block;
+  begin_death_block;//
+0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+	17;//condition
+   37.000000;//condition parameter0
+    0.000000;//condition parameter1
+    end_conditions;
+    begin_effects;
+26;//effect number              fire water particle
+    48.000000;//parameter1
+    15.00000;//parameter2
+    106.000000;//parameter3
+    0.000000;//parameter4  
+19;//effect number              drop fishing plot object
+    163.000000;//parameter1
+    0.250000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4  	
+    end_effects;
+  end_death_block;
+  begin_hit_block;//
+  end_hit_block;
+  begin_timed_block;//
+  	50;//interval in milliseconds      
+    begin_conditions;
+    35;//condition
+      184.000000;//condition parameter0
+      40.000000;//condition parameter1     
+    end_conditions;
+    begin_effects;
+		41;//effect number  
+    184.000000;//parameter1
+    500.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4  
+31;//effect number             kill
+   0.000000;//parameter1
+    0.00000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4 	
+    end_effects;
+  end_timed_block;
+  begin_specialties;//
+  health;//description
+    0;//number
+    4.000000;//parameter0
+    0.000000;//parameter1
+    500.000000;//parameter2
+    500.000000;//parameter3 
+  fly;//description
+    4;//number
+    1.000000;//parameter0
+    1.000000;//parameter1
+   1.000000;//parameter2
+    1.000000;//parameter3
   end_specialties;
  end_of_file;
 

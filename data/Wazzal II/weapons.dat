@@ -5259,4 +5259,76 @@ Grenade/mortar damage;//name---------------------------------------
     4.000000;//parameter3
     1.000000;//parameter4
    end_hit_effects;
+Fishing rod;//name---------------------------------------
+  105;//identifier
+  10;//class
+  invisible.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  0.000000;//bullet size
+  0.000000;//spread
+  0.300000;//bullet speed
+  500.000000;//time until bullet disappears
+  400;//fire rate
+  2;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.300000;//push target back
+  0.200000;//push shooter back
+  wosh.wav;//fire sound
+  bimpact.wav;//hit sound
+  0.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects; 
+	40;//effect number  
+    163.000000;//parameter1
+    500.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+	41;//effect number  
+    184.000000;//parameter1
+    500.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4  
+  29;//effect number                 fishing lure script
+    126.000000;//parameter1
+      1.000000;//parameter2
+     0.00000;//parameter3
+      0.000000;//parameter4
+  10;//effect number  
+    96.000000;//parameter1
+    -1.000000;//parameter2
+    -1.000000;//parameter3
+    -1.000000;//parameter4  
+  end_fire_effects;
+  begin_hit_effects;
+  end_hit_effects;
+  Particle Parameter Holder - water;//name---------------------------------------
+ 106;//identifier
+  0;//class
+  bullet0.tga;//bullet texture
+  15;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  0.000000;//bullet size
+  6.2800000;//spread
+  0.700000;//bullet speed
+  150.000000;//time until bullet disappears
+  500;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.000000;//push target back
+  0.000000;//push shooter back
+  none;//fire sound
+  none;//hit sound
+  1.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  end_fire_effects;
+  begin_hit_effects;
+  end_hit_effects;
 end_of_file;

@@ -3593,8 +3593,8 @@ Crystalline Ore;//name---------------------------------------
   90;//identifier
   0;//item class
   1.000000;//weight
-  This valuable mineral ore is considered a precious resource across the Confederacy, as it has only been found in the Amozius and Hive sectors. \ Use this item near a store to sell the ore for 1000 credits.;//short description
-  The crystalline ore glows in your fingers as you pick it up. Memories flood back to you of the last time you held a piece of this mineral in your hands... \ \ If you could find a store, you should be able to sell this tiny fragment of ore for up to 1000 credits. No wonder the Aliens have arrived in this sector in such force...;//first pick up text
+  This valuable mineral ore is considered a precious resource across the Confederacy, as it has only been found in the Amozius and Hive sectors. \ Use this item near a store to sell the ore for 500 credits.;//short description
+  The crystalline ore glows in your fingers as you pick it up. Memories flood back to you of the last time you held a piece of this mineral in your hands... \ \ If you could find a store, you should be able to sell this tiny fragment of ore for 500 credits. No wonder the Aliens have arrived in this sector in such force...;//first pick up text
   0.350000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
@@ -3619,7 +3619,7 @@ Crystalline Ore;//name---------------------------------------
     end_conditions;
     begin_effects;
     4;//effect number
-      1000.000000;//parameter1
+      500.000000;//parameter1
       1.000000;//parameter2
       13.000000;//parameter3
       0.000000;//parameter4
@@ -5687,8 +5687,8 @@ Crystalline Ore;//name---------------------------------------
   136;//identifier
   0;//item class
   1.000000;//weight
-  This valuable mineral ore is considered one of the most precious resources in the Confederacy. \ Use this item near a store to sell the ore for 1000 credits.;//short description
-  The crystalline ore gathered from the destroyed remains of the asteroid glows as it sits in your cargo bay. \ \ It will be transferred to your personal inventory. If you could find a store, you should be able to sell this tiny fragment of ore for up to 1000 credits!;//first pick up text
+  This valuable mineral ore is considered one of the most precious resources in the Confederacy. \ Use this item near a store to sell the ore for 500 credits.;//short description
+  The crystalline ore gathered from the destroyed remains of the asteroid glows as it sits in your cargo bay. \ \ It will be transferred to your personal inventory. If you could find a store, you should be able to sell this tiny fragment of ore for up to 500 credits!;//first pick up text
   0.250000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
@@ -7566,20 +7566,20 @@ Use to construct a powerful machine gun emplacement which will destroy any enemy
   end_effects_block;
   begin_combinations;
   end_combinations;
-    Machine gun turret food;//name---------------------------------------
- 184;//identifier
+Fishing lure;//name---------------------------------------
+  184;//identifier
   0;//item class
   0.000000;//weight
-  Hack to make machine gun drop sandbags on first deployment;//short description
+  Opens inventory.;//short description
   none;//first pick up text
-  2.0000;//size on map
+ 3.000000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
-  0;//particle to shown on radar
-  1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
-  mg_small.png;//texture name
+  -1;//particle to shown on radar
+  0;//visible in inventory 0=no (can only be used via quick keys), 1=yes
+  invisible.png;//texture name
   -1;//wielded script,-1=nothing, only applicable for wieldable items
   -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
-  1;//show help text for conditions
+  0;//show help text for conditions
   begin_wield_slots;
   end_wield_slots;
   begin_effects_block;
@@ -7960,15 +7960,268 @@ Use to fire a deadly long-ranged mortar. Use as a weapon by left-clicking, and t
   end_effects_block;
   begin_combinations;
   end_combinations;
+  Fishing rod;//name---------------------------------------
+  193;//identifier
+  0;//item class
+  0.300000;//weight
+  This sturdy fishing rod allows you to try and catch valuable fish! To use, cast off over water!;//short description
+  You pick up the sturdy fishing rod. This should allow you to make some extra money by catching valuable fish! \ \ The fishing rod should work when cast off over any water body... it may take more than a few attempts to catch anything, however!;//first pick up text
+  0.420000;//size on map
+  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  0;//particle to shown on radar
+  1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
+ pole.png;//texture name
+  -1;//wielded script,-1=nothing, only applicable for wieldable items
+  -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
+  0;//show help text for conditions
+  begin_wield_slots;
+0;
+  end_wield_slots;
+  begin_effects_block;
+ none;//event text
+   none;//event failure text
+   use.wav;//sound, none for nothing
+    0;//vanishes after event, 0=no, 1=yes
+    U;//use key
+    0;//quick key
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+   9;//effect number
+     105.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  end_effects_block;
+  begin_combinations;
+  end_combinations;
+  Rare fish;//name---------------------------------------
+  194;//identifier
+  0;//item class
+  0.800000;//weight
+  Got a big one! Sell this rare fish at any store for the current price of 'Weapon Parts' stock! (check bottom left of screen);//short description
+  You pick up the giant fish - you've caught an incredibly rare and valuable species! \ \ The Confederacy has pegged the price of rare fish species at the current cost of 'Weapon Parts' stock. Sell this species at any store to receive some generous cash!;//first pick up text
+  0.420000;//size on map
+  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  0;//particle to shown on radar
+  1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
+ fish0.png;//texture name
+  -1;//wielded script,-1=nothing, only applicable for wieldable items
+  -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
+  0;//show help text for conditions
+  begin_wield_slots;
+  end_wield_slots;
+  begin_effects_block;
+    You sell the fish!;//event text
+    Must be nearer to a store;//event failure text
+    chaching.wav;//sound, none for nothing
+    1;//vanishes after event, 0=no, 1=yes
+    U;//use key
+    0;//quick key
+    begin_conditions;
+    1;//use condition number
+      22.000000;//use condition parameter0
+      30.000000;//use condition parameter1
+    end_conditions;
+    begin_effects;
+    28;//effect number
+      13.000000;//parameter1
+      19.000000;//parameter2
+      1.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  end_effects_block;
+  begin_combinations;
+  end_combinations;
+    Common fish;//name---------------------------------------
+  195;//identifier
+  0;//item class
+  0.500000;//weight
+  Got a big one! Sell this giant fish at any store for the current price of 'Drugs' stock! (check bottom left of screen);//short description
+  You pick up the giant fish - good catch! \ \ The Confederacy has pegged the price of common fish species at the current cost of 'Drugs' stock. Sell this species at any store to receive some generous cash!;//first pick up text
+  0.350000;//size on map
+  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  0;//particle to shown on radar
+  1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
+ fish1.png;//texture name
+  -1;//wielded script,-1=nothing, only applicable for wieldable items
+  -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
+  0;//show help text for conditions
+  begin_wield_slots;
+  end_wield_slots;
+  begin_effects_block;
+    You sell the fish!;//event text
+    Must be nearer to a store;//event failure text
+    chaching.wav;//sound, none for nothing
+    1;//vanishes after event, 0=no, 1=yes
+    U;//use key
+    0;//quick key
+    begin_conditions;
+    1;//use condition number
+      22.000000;//use condition parameter0
+      30.000000;//use condition parameter1
+    end_conditions;
+    begin_effects;
+    28;//effect number
+      13.000000;//parameter1
+      18.000000;//parameter2
+      1.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  end_effects_block;
+  begin_combinations;
+  end_combinations;
+    Common fish;//name---------------------------------------
+  196;//identifier
+  0;//item class
+  0.500000;//weight
+  Got a big one! Sell this giant fish at any store for the current price of 'Drugs' stock! (check bottom left of screen);//short description
+  You pick up the giant fish - good catch! \ \ The Confederacy has pegged the price of common fish species at the current cost of 'Drugs' stock. Sell this species at any store to receive some generous cash!;//first pick up text
+  0.350000;//size on map
+  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  0;//particle to shown on radar
+  1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
+ fish2.png;//texture name
+  -1;//wielded script,-1=nothing, only applicable for wieldable items
+  -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
+  0;//show help text for conditions
+  begin_wield_slots;
+  end_wield_slots;
+  begin_effects_block;
+    You sell the fish!;//event text
+    Must be nearer to a store;//event failure text
+    chaching.wav;//sound, none for nothing
+    1;//vanishes after event, 0=no, 1=yes
+    U;//use key
+    0;//quick key
+    begin_conditions;
+    1;//use condition number
+      22.000000;//use condition parameter0
+      30.000000;//use condition parameter1
+    end_conditions;
+    begin_effects;
+    28;//effect number
+      13.000000;//parameter1
+      18.000000;//parameter2
+      1.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  end_effects_block;
+  begin_combinations;
+  end_combinations;
+    Common fish;//name---------------------------------------
+  197;//identifier
+  0;//item class
+  0.500000;//weight
+  Got a big one! Sell this giant fish at any store for the current price of 'Drugs' stock! (check bottom left of screen);//short description
+  You pick up the giant fish - good catch! \ \ The Confederacy has pegged the price of common fish species at the current cost of 'Drugs' stock. Sell this species at any store to receive some generous cash!;//first pick up text
+  0.350000;//size on map
+  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  0;//particle to shown on radar
+  1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
+ fish3.png;//texture name
+  -1;//wielded script,-1=nothing, only applicable for wieldable items
+  -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
+  0;//show help text for conditions
+  begin_wield_slots;
+  end_wield_slots;
+  begin_effects_block;
+    You sell the fish!;//event text
+    Must be nearer to a store;//event failure text
+    chaching.wav;//sound, none for nothing
+    1;//vanishes after event, 0=no, 1=yes
+    U;//use key
+    0;//quick key
+    begin_conditions;
+    1;//use condition number
+      22.000000;//use condition parameter0
+      30.000000;//use condition parameter1
+    end_conditions;
+    begin_effects;
+    28;//effect number
+      13.000000;//parameter1
+      18.000000;//parameter2
+      1.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  end_effects_block;
+  begin_combinations;
+  end_combinations;
+    Rare fish;//name---------------------------------------
+  198;//identifier
+  0;//item class
+  0.800000;//weight
+  Got a big one! Sell this rare fish at any store for the current price of 'Weapon Parts' stock! (check bottom left of screen);//short description
+  You pick up the giant fish - you've caught an incredibly rare and valuable species! \ \ The Confederacy has pegged the price of rare fish species at the current cost of 'Weapon Parts' stock. Sell this species at any store to receive some generous cash!;//first pick up text
+  0.420000;//size on map
+  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  0;//particle to shown on radar
+  1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
+ fish4.png;//texture name
+  -1;//wielded script,-1=nothing, only applicable for wieldable items
+  -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
+  0;//show help text for conditions
+  begin_wield_slots;
+  end_wield_slots;
+  begin_effects_block;
+    You sell the fish!;//event text
+    Must be nearer to a store;//event failure text
+    chaching.wav;//sound, none for nothing
+    1;//vanishes after event, 0=no, 1=yes
+    U;//use key
+    0;//quick key
+    begin_conditions;
+    1;//use condition number
+      22.000000;//use condition parameter0
+      30.000000;//use condition parameter1
+    end_conditions;
+    begin_effects;
+    28;//effect number
+      13.000000;//parameter1
+      19.000000;//parameter2
+      1.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  end_effects_block;
+  begin_combinations;
+  end_combinations;
+    Common fish;//name---------------------------------------
+  199;//identifier
+  0;//item class
+  0.500000;//weight
+  Got a big one! Sell this giant fish at any store for the current price of 'Drugs' stock! (check bottom left of screen);//short description
+  You pick up the giant fish - good catch! \ \ The Confederacy has pegged the price of common fish species at the current cost of 'Drugs' stock. Sell this species at any store to receive some generous cash!;//first pick up text
+  0.350000;//size on map
+  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  0;//particle to shown on radar
+  1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
+ fish5.png;//texture name
+  -1;//wielded script,-1=nothing, only applicable for wieldable items
+  -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
+  0;//show help text for conditions
+  begin_wield_slots;
+  end_wield_slots;
+  begin_effects_block;
+    You sell the fish!;//event text
+    Must be nearer to a store;//event failure text
+    chaching.wav;//sound, none for nothing
+    1;//vanishes after event, 0=no, 1=yes
+    U;//use key
+    0;//quick key
+    begin_conditions;
+    1;//use condition number
+      22.000000;//use condition parameter0
+      30.000000;//use condition parameter1
+    end_conditions;
+    begin_effects;
+    28;//effect number
+      13.000000;//parameter1
+      18.000000;//parameter2
+      1.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  end_effects_block;
+  begin_combinations;
+  end_combinations;
 end_of_file;
-
-
- 13;//condition
-    1.000000;//condition parameter0
-   1.000000;//condition parameter1
- 13;//condition
-   2.000000;//condition parameter0
-   1.000000;//condition parameter1
- 13;//condition
-    9.000000;//condition parameter0
-   1.000000;//condition parameter1
