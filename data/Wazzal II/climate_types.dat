@@ -1455,7 +1455,7 @@ Desert planet;//name------------------------------------------------------------
   0.05;//light min g
   0.3;//light min b
   0.650000;//night temperature
-  0.740000;//day temperature
+  0.760000;//day temperature
   1.500000;//maximum wind speed
   14;//rain particle, -1=no rain
   300;//rain_particle_life_min

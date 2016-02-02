@@ -4495,7 +4495,7 @@ Particle ammunition;//name---------------------------------------
 Wa-wolf skin;//name---------------------------------------
   112;//identifier
   0;//item class
- 5.000000;//weight
+ 4.000000;//weight
  This heavy pelt is from a rare Wa-wolf, a native of the planet Kinmegag 71. The Wa-wolf's fur is famed for its heat-keeping abilities. \ Use this item near a store to sell the fur for 500 credits.;//short description
   You quickly skin the carcass, and roll up the pelt. The Wa-wolf's fur is famed for its heat-keeping abilities, and even through your suit you can feel the warmth radiating into your hands. \ \ If you could find a store, you should be able to sell this rare pelt for up to 500 credits.;//first pick up text
   0.350000;//size on map
@@ -4764,8 +4764,8 @@ Summon wolf pet;//name---------------------------------------
 Ka-bear skin;//name---------------------------------------
   119;//identifier
   0;//item class
- 10.000000;//weight
- This heavy pelt is from a fearsome Ka-bear, a native of the planet Kinmegag 71. Its thick and luxurious fur is a status symbol throughout the Confederacy. \ Use this item near a store to sell the fur for 2000 credits.;//short description
+ 8.000000;//weight
+ This heavy pelt is from a fearsome Ka-bear, a native of the planet Kinmegag 71. Its thick and luxurious fur is a status symbol throughout the Confederacy. \ Use this item near a store to sell the fur for 1000 credits.;//short description
   none;//first pick up text
   0.60000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -4791,7 +4791,7 @@ Ka-bear skin;//name---------------------------------------
     end_conditions;
     begin_effects;
     4;//effect number
-      2000.000000;//parameter1
+      1000.000000;//parameter1
       1.000000;//parameter2
       13.000000;//parameter3
       0.000000;//parameter4

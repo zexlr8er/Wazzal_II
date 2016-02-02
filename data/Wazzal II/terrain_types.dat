@@ -795,7 +795,7 @@ Water;//name---------------------------------------
   0.250000;//base light b
   500.000000;//footstep particle live time, -1=no footsteps
   48;//override footstep particle
-  water.wav;//override footstep sound
+  splash.wav;//override footstep sound
   begin_terrain_frames;
   aw1.jpg;//terrain texture
     80.000000;//time to display frame
