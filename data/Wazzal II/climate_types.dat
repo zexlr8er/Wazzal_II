@@ -1239,16 +1239,6 @@ Amarda;//name----------------------------------------------------------------
   intro.wav;
   end_of_day_sounds;
   start_of_props;
-   79;//object definition number		tree1
-    40;//number of these on a 100*100 map
-  81;//object definition number		tree3
-    40;//number of these on a 100*100 map
-  99;//object definition number		tree
- 40;//number of these on a 100*100 map
- 163;//object definition number		tree
-    40;//number of these on a 100*100 map
- 164;//object definition number		tree
- 80;//number of these on a 100*100 map
   end_of_props;
 Meadow;//name-----------------------------------------------------------
  14;//identifier
