@@ -925,7 +925,7 @@ Slime;//name--------
   Map bunker;//name-----------------------------------
  78;//identifier
   pbunker.png;//texture
-  5.5;//size
+  4.5;//size
   1.000000;//red color component
   1.000000;//green color component
   1.000000;//blue color component
@@ -954,6 +954,18 @@ Slime;//name--------
   1.000000;//green color component
   1.000000;//blue color component
   1.000000;//alpha component
+  1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  0;//blending type (0=normal, 1=light)
+    Map tear;//name-----------------------------------
+ 81;//identifier
+  tear.png;//texture
+  6.5;//size
+  1.000000;//red color component
+  1.000000;//green color component
+  1.000000;//blue color component
+  0.700000;//alpha component
   1.000000;//gets smaller by time
   0;//can be rotated (faster if not)
   -1;//change into another particle when hits ground

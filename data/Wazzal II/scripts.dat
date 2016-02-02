@@ -4301,6 +4301,34 @@ If has new Pirate flag item;//name----------------------------------------------
     0.000000;//parameter3
     0.000000;//parameter4  
   end_effects;
+ Drop tear;//name-----------------------------------------------------------------
+  127;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  5000;//run every n milliseconds
+ none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  60;//delay script for n seconds after conditions met
+  1;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+    13;//condition
+    17.000000;//condition parameter0
+    0.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+16;//effect number                   
+   200.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4 
+		14;//effect number     sound
+    11.000000;//parameter1
+    1.300000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4 
+  end_effects;
 end_of_file;
 
 

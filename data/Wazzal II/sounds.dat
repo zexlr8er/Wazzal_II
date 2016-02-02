@@ -31,4 +31,7 @@ Paper;//name--------------------------------------
   Alien airstrike;//name--------------------------------------
   10;//identifier
   explode.WAV;//filename
+  Alien fighter arrival (tear);//name--------------------------------------
+  11;//identifier
+  explosion2.wav;//filename
 end_of_file;
