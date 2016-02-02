@@ -1481,7 +1481,7 @@ Bodyguards;//name---------------------------------------first bodyguard
   9;//secondary AI tactic from AI_tactic.dat
   3;//footstep particle from particles.dat
   0;//die after how many seconds, 0=doesn't die
-  17;//eat item number from items.dat, -1=nothing
+  -1;//eat item number from items.dat, -1=nothing
   1.100000;//creature size
   4.000000;//creature weight (affects pushing)
   1.100000;//maximum movement speed
@@ -1516,18 +1516,6 @@ Bodyguards;//name---------------------------------------first bodyguard
   grunt2.wav;//sample name
   end_die_sounds;
   begin_eat_block;//
-  begin_conditions;
-  43;//condition                        if injured
-    4.000000;//condition parameter0
-    100.000000;//condition parameter1 
-  end_conditions;
-    begin_effects;
-    4;//effect
-     600.000000;//parameter0
-      1.000000;//parameter1
-      4.000000;//parameter2
-      0.000000;//parameter3
-    end_effects;
   end_eat_block;
   begin_death_block;//
   0;//death type, 0=any death, 1=timed death, 2=killed by player
@@ -1562,14 +1550,27 @@ Bodyguards;//name---------------------------------------first bodyguard
       0.000000;//parameter3
       0.000000;//parameter4  
     end_effects;
+	1000;//interval in milliseconds
+    begin_conditions;
+	  43;//condition                        if injured
+    4.000000;//condition parameter0
+    100.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    4;//effect number
+      3.000000;//parameter1
+      1.000000;//parameter2
+      4.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
   end_timed_block;
   begin_specialties;//
   health;//description
     0;//number
     4.000000;//parameter0
     0.000000;//parameter1
-    600.000000;//parameter2
-    600.000000;//parameter3
+    1000.000000;//parameter2
+    1000.000000;//parameter3
   end_specialties;
 Soldiers Pistol;//name---------------------------------------
   15;//identifier
@@ -1584,7 +1585,7 @@ Soldiers Pistol;//name---------------------------------------
   9;//secondary AI tactic from AI_tactic.dat
   3;//footstep particle from particles.dat
   0;//die after how many seconds, 0=doesn't die
-  17;//eat item number from items.dat, -1=nothing
+  -1;//eat item number from items.dat, -1=nothing
   1.100000;//creature size
   4.000000;//creature weight (affects pushing)
   0.850000;//maximum movement speed
@@ -1673,7 +1674,7 @@ Enemy Soldiers Pistol;//name---------------------------------------
   5;//secondary AI tactic from AI_tactic.dat
   3;//footstep particle from particles.dat
   0;//die after how many seconds, 0=doesn't die
-  17;//eat item number from items.dat, -1=nothing
+  -1;//eat item number from items.dat, -1=nothing
   1.100000;//creature size
   1.000000;//creature weight (affects pushing)
   0.850000;//maximum movement speed
@@ -1775,7 +1776,7 @@ Soldiers (Defenders);//name---------------------------------------
   7;//secondary AI tactic from AI_tactic.dat
   3;//footstep particle from particles.dat
   0;//die after how many seconds, 0=doesn't die
-  17;//eat item number from items.dat, -1=nothing
+  -1;//eat item number from items.dat, -1=nothing
   1.100000;//creature size
   4.000000;//creature weight (affects pushing)
   0.000000;//maximum movement speed
@@ -1864,7 +1865,7 @@ Alien Large Fighter (enemy spawner);//name--------------------------------------
   5;//secondary AI tactic from AI_tactic.dat
   3;//footstep particle from particles.dat
   0;//die after how many seconds, 0=doesn't die
-  17;//eat item number from items.dat, -1=nothing
+  -1;//eat item number from items.dat, -1=nothing
   2.800000;//creature size
   100.000000;//creature weight (affects pushing)
   0.000000;//maximum movement speed
@@ -3171,7 +3172,7 @@ Bodyguards;//name---------------------------------------2nd bodyguard
   9;//secondary AI tactic from AI_tactic.dat
   3;//footstep particle from particles.dat
   0;//die after how many seconds, 0=doesn't die
-  17;//eat item number from items.dat, -1=nothing
+  -1;//eat item number from items.dat, -1=nothing
   1.100000;//creature size
   4.000000;//creature weight (affects pushing)
   1.100000;//maximum movement speed
@@ -3206,22 +3207,6 @@ Bodyguards;//name---------------------------------------2nd bodyguard
   grunt2.wav;//sample name
   end_die_sounds;
   begin_eat_block;//
-  begin_conditions;
-  end_conditions;
-    begin_effects;
-    end_effects;
-  begin_conditions;
-  43;//condition                        if injured
-    4.000000;//condition parameter0
-    100.000000;//condition parameter1 
-  end_conditions;
-    begin_effects;
-    4;//effect
-      600.000000;//parameter0
-      1.000000;//parameter1
-      4.000000;//parameter2
-      0.000000;//parameter3
-    end_effects;
   end_eat_block;
   begin_death_block;//
   0;//death type, 0=any death, 1=timed death, 2=killed by player
@@ -3243,6 +3228,19 @@ Bodyguards;//name---------------------------------------2nd bodyguard
   begin_hit_block;//
   end_hit_block;
   begin_timed_block;//
+  	1000;//interval in milliseconds
+    begin_conditions;
+	  43;//condition                        if injured
+    4.000000;//condition parameter0
+    100.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    4;//effect number
+      3.000000;//parameter1
+      1.000000;//parameter2
+      4.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
   100;//interval in milliseconds
     begin_conditions;
     0;//condition                        if no item
@@ -3262,8 +3260,8 @@ Bodyguards;//name---------------------------------------2nd bodyguard
     0;//number
     4.000000;//parameter0
     0.000000;//parameter1
-    600.000000;//parameter2
-    600.000000;//parameter3
+    1000.000000;//parameter2
+    1000.000000;//parameter3
   end_specialties;
 Searchlight DEFUNCT;//name---------------------------------------
   30;//identifier
@@ -4588,7 +4586,7 @@ Talking commander;//name---------------------------------------
   7;//secondary AI tactic from AI_tactic.dat
   3;//footstep particle from particles.dat
   0;//die after how many seconds, 0=doesn't die
-  17;//eat item number from items.dat, -1=nothing
+  -1;//eat item number from items.dat, -1=nothing
   1.200000;//creature size
   2.000000;//creature weight (affects pushing)
   0.000000;//maximum movement speed
@@ -6815,7 +6813,7 @@ Pillbox;//name---------------------------------------
   16;//secondary AI tactic from AI_tactic.dat
   3;//footstep particle from particles.dat
   0;//die after how many seconds, 0=doesn't die
-  17;//eat item number from items.dat, -1=nothing
+  -1;//eat item number from items.dat, -1=nothing
   1.300000;//creature size
   100000.000000;//creature weight (affects pushing)
   0.000000;//maximum movement speed
@@ -7827,7 +7825,7 @@ Alien Large Fighter (landed on alien planet);//name-----------------------------
   5;//secondary AI tactic from AI_tactic.dat
   3;//footstep particle from particles.dat
   0;//die after how many seconds, 0=doesn't die
-  17;//eat item number from items.dat, -1=nothing
+  -1;//eat item number from items.dat, -1=nothing
   2.700000;//creature size
   100.000000;//creature weight (affects pushing)
   0.000000;//maximum movement speed
@@ -7938,7 +7936,7 @@ Alien Small Fighter (landed on alien planet);//name-----------------------------
   5;//secondary AI tactic from AI_tactic.dat
   3;//footstep particle from particles.dat
   0;//die after how many seconds, 0=doesn't die
-  17;//eat item number from items.dat, -1=nothing
+  -1;//eat item number from items.dat, -1=nothing
   2.300000;//creature size
   100.000000;//creature weight (affects pushing)
   0.000000;//maximum movement speed
@@ -9338,7 +9336,7 @@ Unarmed Confederacy soldier - wandering;//name----------------------------------
  0;//class
   computertech.png;//texture
   1;//draw layer
-  -2;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
+  -1;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
   0;//corpse item amount
   0;//attack type, 0=shooting attack, 1=close combat
   -1;//particle to show on radar, -1=none
