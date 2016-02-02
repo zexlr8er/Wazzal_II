@@ -3465,7 +3465,7 @@ Tank (parked);//name---------------------------------------
   2;//blood particle
   1;//bars visible when player hovers mouse on top
   1.200000;//death animation speed
-  0;//creature can move from area to another
+  1;//creature can move from area to another
   1500.000000;//AI hear range
   750.000000;//AI see range
   4.000000;//AI see angle
@@ -9358,7 +9358,7 @@ Unarmed Confederacy soldier - wandering;//name----------------------------------
   27.000000;//weapon_y
   0;//blood particle
   1;//bars visible when player hovers mouse on top
-  1.000000;//death animation speed
+  1.400000;//death animation speed
   0;//creature can move from area to another
   1000.000000;//AI hear range
   500.000000;//AI see range
@@ -9425,7 +9425,7 @@ Psionic - wandering;//name---------------------------------------
   27.000000;//weapon_y
   0;//blood particle
   1;//bars visible when player hovers mouse on top
-  1.000000;//death animation speed
+  1.400000;//death animation speed
   0;//creature can move from area to another
   1000.000000;//AI hear range
   500.000000;//AI see range
@@ -9470,7 +9470,7 @@ Android - wandering;//name---------------------------------------
  0;//class
   android.png;//texture
   1;//draw layer
-  -2;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
+  -1;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
   0;//corpse item amount
   0;//attack type, 0=shooting attack, 1=close combat
   -1;//particle to show on radar, -1=none
@@ -9492,7 +9492,7 @@ Android - wandering;//name---------------------------------------
   27.000000;//weapon_y
   0;//blood particle
   1;//bars visible when player hovers mouse on top
-  1.000000;//death animation speed
+  1.500000;//death animation speed
   0;//creature can move from area to another
   1000.000000;//AI hear range
   500.000000;//AI see range
