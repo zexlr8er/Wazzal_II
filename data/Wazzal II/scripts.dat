@@ -4301,16 +4301,16 @@ If has new Pirate flag item;//name----------------------------------------------
     0.000000;//parameter3
     0.000000;//parameter4  
   end_effects;
- Drop tear;//name-----------------------------------------------------------------
+ Drop tear 1;//name-----------------------------------------------------------------
   127;//identifier
   1;//run without calling (set to 0 if you use the script for example as a wield script)
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
-  5000;//run every n milliseconds
+  1000;//run every n milliseconds
  none;//message
   0;//message type, 0=quick message, 1=journal
-  none;//sound, none for nothing
-  60;//delay script for n seconds after conditions met
+  jumpgate.wav;//sound, none for nothing
+  100;//delay script for n seconds after conditions met
   1;//disabled after first use, 0=no, 1=yes
   begin_conditions;
     13;//condition
@@ -4320,6 +4320,67 @@ If has new Pirate flag item;//name----------------------------------------------
   begin_effects;
 16;//effect number                   
    200.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4 
+		14;//effect number     sound
+    11.000000;//parameter1
+    1.300000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4 
+	   	36;//effect number               shake
+    14.000000;//parameter1
+    4000.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4 
+  end_effects;
+   Drop tear 2;//name-----------------------------------------------------------------
+  128;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  1000;//run every n milliseconds
+ none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  104;//delay script for n seconds after conditions met
+  1;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+    13;//condition
+    17.000000;//condition parameter0
+    0.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+16;//effect number                   
+   201.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4 
+		14;//effect number     sound
+    10.000000;//parameter1
+    1.300000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4 
+  end_effects;
+     Drop tear 3;//name-----------------------------------------------------------------
+  129;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  1000;//run every n milliseconds
+ none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  107;//delay script for n seconds after conditions met
+  1;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+    13;//condition
+    17.000000;//condition parameter0
+    0.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+16;//effect number                   
+   202.000000;//parameter1
     1.000000;//parameter2
     1.000000;//parameter3
     0.000000;//parameter4 
