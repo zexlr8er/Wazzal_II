@@ -1,6 +1,6 @@
-Start with 20000 Confederate credits;
 Start with 10000 Confederate credits;
 Start with 5000 Confederate credits;
+Start with 2500 Confederate credits;
 Wolf IV (Confederacy);//name------------------------------
   0;//identifier
   1;//visible in start menu
@@ -375,7 +375,7 @@ slaves (number);//description
     13.000000;//parameter0
     0.000000;//parameter1
     1000000.000000;//parameter2
-    5000.000000;//parameter3 
+    2500.000000;//parameter3 
 Money bar;//description
     5;//specialty 
     -1;//difficulty level
@@ -383,7 +383,7 @@ Money bar;//description
     13.000000;//parameter0
     0.000000;//parameter1
     1000000.000000;//parameter2
-    10000.000000;//parameter3  
+    5000.000000;//parameter3  
 Money bar;//description
     5;//specialty 
    -2;//difficulty level
@@ -391,7 +391,7 @@ Money bar;//description
     13.000000;//parameter0
     0.000000;//parameter1
     1000000.000000;//parameter2
-    10000.000000;//parameter3   
+    5000.000000;//parameter3   
   Promotion Points bar;//description
     5;//specialty 
     0;//difficulty level
