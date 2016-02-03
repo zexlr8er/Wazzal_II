@@ -1568,7 +1568,7 @@ Rank: Lieutenant-commander;//name---------------------------------------
   39;//identifier
   0;//item class
   0.000000;//weight
-  Press 'U' to buy the high powered marine laser pistol. (Restricted for ranks below Ensign) \ \  Price: 4000 credits;//short description
+  Press 'U' to buy the high powered marine laser pistol. \ \  Price: 4000 credits;//short description
   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -2193,7 +2193,7 @@ Strong Liquor;//name---------------------------------------
   53;//identifier
   0;//item class
   0.000000;//weight
-  A close range assault weapon. This model was probably made by the famed weapon manufacturers of Kig-Hax. (Restricted for ranks below 2nd Lieutenant) \ \  Price: 10000 credits;//short description
+  A close range assault weapon. This model was probably made by the famed weapon manufacturers of Kig-Hax. \ \ Price: 10000 credits;//short description
   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -2855,7 +2855,7 @@ Deploy L. Fighter;//name---------------------------------------
   70;//identifier
   0;//item class
   0.000000;//weight
-  Purchase five Light Confederate Fighters to give you an edge in ship-to-ship combat! (restricted for ranks below Captain). \ \ Price: 2000 credits;//short description
+  Purchase five Light Confederate Fighters to give you an edge in ship-to-ship combat! \ \ Price: 2000 credits;//short description
   none;//first pick up text
   0.650000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -2934,7 +2934,7 @@ Fusion Beam;//name---------------------------------------
   72;//identifier
   0;//item class
   0.000000;//weight
-  This beam can cut through almost anything, guaranteed. (restricted for ranks below Rear Admiral). \ \ Price: 30000 credits;//short description
+  This beam can cut through almost anything, guaranteed. \ \ Price: 30000 credits;//short description
   none;//first pick up text
   0.650000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -3050,7 +3050,7 @@ Deploy H. Fighter;//name---------------------------------------
   75;//identifier
   0;//item class
   0.000000;//weight
-  Purchase five Heavy Confederate Fighters to give you an edge in ship-to-ship combat! (restricted for ranks below Captain) \ \ Price: 3000 credits;//short description
+  Purchase five Heavy Confederate Fighters to give you an edge in ship-to-ship combat! \ \ Price: 3000 credits;//short description
   none;//first pick up text
   0.650000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -3164,7 +3164,7 @@ Force field;//name--------------------------------------- UNFINISHED
   78;//identifier
   0;//item class
   0.000000;//weight
-  This powerful stealth weapon comes equipped with a targeting beam, allowing you to pick off even distant enemies, disposing of them with one shot. (Restricted for ranks below Lieutenant-Commander) \ \  Price: 15000 credits;//short description
+  This powerful stealth weapon comes equipped with a targeting beam, allowing you to pick off even distant enemies, disposing of them with one shot. \ \  Price: 15000 credits;//short description
   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -3730,7 +3730,7 @@ High explosive;//name---------------------------------------
   94;//identifier
   0;//item class
   0.000000;//weight
-  Rear Thrusters can supply your ship with a short burst of extra speed. They will be placed in your ship's inventory once bought. (Restricted for ranks below Ensign) \ \ Price: 10000 credits;//short description
+  Rear Thrusters can supply your ship with a short burst of extra speed. They will be placed in your ship's inventory once bought. \ \ Price: 10000 credits;//short description
   none;//first pick up text
   0.350000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -4375,7 +4375,7 @@ Battery;//name---------------------------------------
   109;//identifier
   0;//item class
   0.000000;//weight
-   Press 'U' to purchase the Twin Laser Cannon, a double-barrelled version of the basic laser cannon. The cannon will be placed in your ship's inventory and your Small Laser Cannon discarded. (Restricted for ranks below 1st Lieutenant) \ \ Price: 12000 credits;//short description
+   Press 'U' to purchase the Twin Laser Cannon, a double-barrelled version of the basic laser cannon. The cannon will be placed in your ship's inventory and your Small Laser Cannon discarded. \ \ Price: 12000 credits;//short description
   none;//first pick up text
   0.350000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -4948,7 +4948,7 @@ Commanding battleship;//name---------------------------------------
   124;//identifier
   0;//item class
   0.000000;//weight
-  Press 'U' to buy the high powered marine laser rifle. (Restricted for ranks below 1st Lieutenant) \ \  Price: 9000 credits;//short description
+  Press 'U' to buy a high powered marine laser rifle. A perfect supplement to projectile weapons!  \ \  Price: 9000 credits;//short description
   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
