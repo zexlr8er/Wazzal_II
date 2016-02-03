@@ -63,7 +63,7 @@ SR Radar;//name---------------------------------------
     end_conditions;
     begin_effects;
     13;//effect number
-      2000.000000;//parameter1
+      1500.000000;//parameter1
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
@@ -780,11 +780,11 @@ Commanding machine gun;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-SR Battle scanner;//name---------------------------------------
+SR Battlescanner;//name---------------------------------------
   19;//identifier
   0;//item class
   10.000000;//weight
-  Your short range battle scanner shows any nearby allies, neutral or enemy units on the battlefield. It uses energy, so be carefull you don't use it needlessly. Press 'R' in-game to activate.;//short description
+  Your short range battlescanner shows any nearby allies, neutral or enemy units on the battlefield. It uses energy, so be careful you don't use it needlessly. Press 'R' in-game to activate.;//short description
   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -811,7 +811,7 @@ SR Battle scanner;//name---------------------------------------
     end_conditions;
     begin_effects;
     13;//effect number
-      2000.000000;//parameter1
+      1500.000000;//parameter1
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
@@ -2930,11 +2930,11 @@ Fusion Beam;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-15000: Fusion Beam;//name---------------------------------------
+30000: Fusion Beam;//name---------------------------------------
   72;//identifier
   0;//item class
   0.000000;//weight
-  This beam can cut through almost anything, guaranteed. (restricted for ranks below Lieutenant-Commander). \ \ Price: 15000 credits;//short description
+  This beam can cut through almost anything, guaranteed. (restricted for ranks below Rear Admiral). \ \ Price: 30000 credits;//short description
   none;//first pick up text
   0.650000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -2956,11 +2956,11 @@ Fusion Beam;//name---------------------------------------
     begin_conditions;
     3;//condition
       13.000000;//condition parameter0
-      15000.000000;//condition parameter1      
+      30000.000000;//condition parameter1      
     end_conditions;
     begin_effects;
     4;//effect number
-      -15000.000000;//parameter1
+      -30000.000000;//parameter1
       1.000000;//parameter2
       13.000000;//parameter3
       0.000000;//parameter4     
@@ -5018,7 +5018,7 @@ MR Battle scanner;//name---------------------------------------
     end_conditions;
     begin_effects;
     13;//effect number
-      4000.000000;//parameter1
+      2500.000000;//parameter1
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
@@ -5122,7 +5122,7 @@ MR Radar;//name---------------------------------------from 1
     end_conditions;
     begin_effects;
     13;//effect number
-      3000.000000;//parameter1
+      2500.000000;//parameter1
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
@@ -7702,6 +7702,11 @@ shuttle.png;//texture name
       1.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4   
+	      4;//effect number
+      1000.000000;//parameter1
+      1.000000;//parameter2
+      13.000000;//parameter3
+      0.000000;//parameter4  
     end_effects;
   end_effects_block;
   begin_combinations;
@@ -8284,4 +8289,81 @@ Use to fire a deadly long-ranged mortar. Use as a weapon by left-clicking, and t
   end_effects_block;
   begin_combinations;
   end_combinations;
+  LR Radar;//name---------------------------------------from 1
+  203;//identifier
+  0;//item class
+  60.000000;//weight
+  Your long range Radar shows shows even distant ships on your computer display. It uses energy, so be careful you don't use it needlessly. Press 'R' in-game to activate.;//short description
+  none;//first pick up text
+  0.300000;//size on map
+  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  -1;//particle to shown on radar
+  1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
+  rad7.png;//texture name
+  5;//wielded script,-1=nothing, only applicable for wieldable items
+  -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
+  1;//show help text for conditions
+  begin_wield_slots;
+  end_wield_slots;
+  begin_effects_block;
+  Radar activated!;//event text
+    Not enough energy!;//event failure text
+   computer2.wav;//sound, none for nothing
+    0;//vanishes after event, 0=no, 1=yes
+    U;//use key
+    R;//quick key
+    begin_conditions;
+    3;//use condition number
+      1.000000;//use condition parameter0
+      1.000000;//use condition parameter1    
+    end_conditions;
+    begin_effects;
+    13;//effect number
+      3500.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  end_effects_block;
+  begin_combinations;
+  end_combinations;
+  LR Battle scanner;//name---------------------------------------
+  204;//identifier
+  0;//item class
+  10.000000;//weight
+  Your long range battle scanner shows even distant allies, neutral or enemy units on the battlefield. It uses energy, so be careful you don't use it needlessly. Press 'R' in-game to activate.;//short description
+  none;//first pick up text
+  0.300000;//size on map
+  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  -1;//particle to shown on radar
+  1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
+  radio.png;//texture name
+  18;//wielded script,-1=nothing, only applicable for wieldable items
+  -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
+  1;//show help text for conditions
+  begin_wield_slots;
+  2;// 
+  end_wield_slots;
+  begin_effects_block;
+  Scanner Activated;//event text
+    none;//event failure text
+    use.wav;//sound, none for nothing
+    0;//vanishes after event, 0=no, 1=yes
+    U;//use key
+    R;//quick key
+    begin_conditions;
+    3;//use condition number
+      5.000000;//use condition parameter0
+      1.000000;//use condition parameter1    
+    end_conditions;
+    begin_effects;
+    13;//effect number
+      3500.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  end_effects_block;
+  begin_combinations;
+  end_combinations;'
 end_of_file;
