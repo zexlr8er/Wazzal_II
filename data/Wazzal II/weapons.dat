@@ -4422,7 +4422,7 @@ Particle Parameter Holder (propaganda);//name-----------------------------------
   end_hit_effects;
 Alien's Claws;//name---------------------------------------
   90;//identifier
-  4;//class
+  1;//class
   qalienbullet.png;//bullet texture
   2;//bullets at one shot
   0;//stop at hit 0=stop where hit, 1=don't stop
