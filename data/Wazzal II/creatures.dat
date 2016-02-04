@@ -7643,7 +7643,7 @@ Baby Wa-wolf (player's pet);//name--------------------------------------- EXPERI
  11;//secondary AI tactic from AI_tactic.dat
  -1;//footstep particle from particles.dat
   0;//die after how many seconds, 0=doesn't die
-  117;//eat item number from items.dat, -1=nothing
+  -1;//eat item number from items.dat, -1=nothing
   0.500000;//creature size
   2.000000;//creature weight (affects pushing)
   0.95000;//maximum movement speed
@@ -7685,24 +7685,25 @@ Baby Wa-wolf (player's pet);//name--------------------------------------- EXPERI
   wolfhit7.wav;//sample name
   end_die_sounds;
   begin_eat_block
-begin_conditions;
- 10;//condition
-     2.000000;//condition parameter0
-      0.000000;//condition parameter1  
-    end_conditions;
-    begin_effects;
-  15;//effect number
-      54.000000;//parameter1
-      -1.0000;//parameter2
-     0.000000;//parameter3
-      1.000000;//parameter4 
-    end_effects;
      end_eat_block
   begin_death_block;//
   end_death_block;
   begin_hit_block;//
   end_hit_block;
   begin_timed_block;//
+  	1000;//interval in milliseconds
+    begin_conditions;
+	  43;//condition                        if injured
+    4.000000;//condition parameter0
+    100.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    4;//effect number
+      1.000000;//parameter1
+      1.000000;//parameter2
+      4.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
   end_timed_block;
   begin_specialties;//
   ;//description
@@ -7725,7 +7726,7 @@ Medium Wa-wolf (player's pet);//name--------------------------------------- EXPE
  11;//secondary AI tactic from AI_tactic.dat
  3;//footstep particle from particles.dat
   0;//die after how many seconds, 0=doesn't die
- 117;//eat item number from items.dat, -1=nothing
+ -1;//eat item number from items.dat, -1=nothing
   0.750000;//creature size
   4.000000;//creature weight (affects pushing)
   0.95000;//maximum movement speed
@@ -7766,30 +7767,26 @@ Medium Wa-wolf (player's pet);//name--------------------------------------- EXPE
   wolfhit5.wav;//sample name
   wolfhit7.wav;//sample name
   end_die_sounds;
-  begin_eat_block
-begin_conditions;
- 10;//condition
-    6.000000;//condition parameter0
-      0.000000;//condition parameter1  
-    end_conditions;
-    begin_effects;
-  15;//effect number
-      55.000000;//parameter1
-     -1.0000;//parameter2
-     0.000000;//parameter3
-      1.000000;//parameter4
-16;//effect number
-    118.000000;//parameter1
-    1.000000;//parameter2
-    1.000000;//parameter3
-    0.000000;//parameter4  
-    end_effects;
-     end_eat_block
+  begin_eat_block;
+     end_eat_block;
   begin_death_block;//
   end_death_block;
   begin_hit_block;//
   end_hit_block;
   begin_timed_block;//
+  	1000;//interval in milliseconds
+    begin_conditions;
+	  43;//condition                        if injured
+    4.000000;//condition parameter0
+    100.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    4;//effect number
+      1.000000;//parameter1
+      1.000000;//parameter2
+      4.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
   end_timed_block;
   begin_specialties;//
   ;//description
@@ -7812,7 +7809,7 @@ Large Wa-wolf (player's pet);//name--------------------------------------- EXPER
  11;//secondary AI tactic from AI_tactic.dat
  3;//footstep particle from particles.dat
   0;//die after how many seconds, 0=doesn't die
- 117;//eat item number from items.dat, -1=nothing
+ -1;//eat item number from items.dat, -1=nothing
   1.000000;//creature size
   6.000000;//creature weight (affects pushing)
   0.95000;//maximum movement speed
@@ -7853,17 +7850,8 @@ Large Wa-wolf (player's pet);//name--------------------------------------- EXPER
   wolfhit5.wav;//sample name
   wolfhit7.wav;//sample name
   end_die_sounds;
-  begin_eat_block
-begin_conditions;
-    end_conditions;
-    begin_effects;
-    4;//effect
-      100.000000;//parameter0
-      1.000000;//parameter1
-      4.000000;//parameter2
-      0.000000;//parameter3
-    end_effects;
-     end_eat_block
+  begin_eat_block;
+     end_eat_block;
   begin_death_block;//
  0;//death type, 0=any death, 1=timed death, 2=killed by player
     begin_conditions;
@@ -7879,6 +7867,19 @@ begin_conditions;
   begin_hit_block;//
   end_hit_block;
   begin_timed_block;//
+  	1000;//interval in milliseconds
+    begin_conditions;
+	  43;//condition                        if injured
+    4.000000;//condition parameter0
+    100.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    4;//effect number
+      1.000000;//parameter1
+      1.000000;//parameter2
+      4.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
 100;//interval in milliseconds
     begin_conditions;
     0;//condition                        if no item
