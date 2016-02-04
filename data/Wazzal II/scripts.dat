@@ -517,7 +517,7 @@ Player reaches Ensign, 50 Promotion;//name--------------------------------------
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   3000;//run every n milliseconds
-  Congratulations! The Confederate Navy has recognized your achievement, and has promoted you to the rank of Ensign. \ \ To thank you, we have fitted your ship with brand-new SR radar systems, provided you with a personal SR battle scanner, and increased your shields maximum by 10! \ \ Your current salary is: 20 Confederate Credits an hour. \ \ Obtain 100 pp to be promoted to 2nd Lieutenant!;//message
+  Congratulations! The Confederate Navy has recognized your achievement, and has promoted you to the rank of Ensign. \ \ To thank you, we have fitted your ship with brand-new SR radar systems, provided you with a personal SR battle scanner, and increased your shields maximum by 10! \ \ Your current salary is: 20 Confederate Credits an hour. \ \ Obtain 100PP to be promoted to 2nd Lieutenant!;//message
   1;//message type, 0=quick message, 1=journal
   none;//sound, none for nothing
   0;//delay script for n seconds after conditions met
@@ -580,7 +580,7 @@ Player reaches 2nd Lieutenant, 100 Promotion;//name-----------------------------
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   3000;//run every n milliseconds
-  Congratulations! The Confederate Navy has promoted you to the rank of 2nd Lieutenant. \ \ Included with this rank is the ability to purchase better weaponry, and two highly trained personal bodyguards from the moons of Eza XII. (These men are likely the best fighters you will come across in your travels, so do not let their abilities go to waste!) \ \ Your current salary is: 40 Confederate Credits an hour. \ \ Obtain 150 pp to be promoted to 1st Lieutenant!;//message
+  Congratulations! The Confederate Navy has promoted you to the rank of 2nd Lieutenant. \ \ Included with this rank is the ability to purchase better weaponry, and two highly trained personal bodyguards from the moons of Eza XII. (These men are likely the best fighters you will come across in your travels, so do not let their abilities go to waste!) \ \ Your current salary is: 40 Confederate Credits an hour. \ \ Obtain 150PP to be promoted to 1st Lieutenant!;//message
   1;//message type, 0=quick message, 1=journal
   none;//sound, none for nothing
   0;//delay script for n seconds after conditions met
@@ -648,7 +648,7 @@ Player reaches 1st Lieutenant, 150 Promotion;//name-----------------------------
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   3000;//run every n milliseconds
-  Congratulations! The Confederate Navy has promoted you to the rank of 1st Lieutenant. \ \ To thank you, we have fitted out your ship with 10 brand-new Viper missiles, increased your shields maximum by 10, and allowed you to purchase additional weaponry from any store! \ \ Your current salary is: 60 Confederate Credits an hour. \ \ Obtain 250 pp to be promoted to Lieutenant-commander!;//message
+  Congratulations! The Confederate Navy has promoted you to the rank of 1st Lieutenant. \ \ To thank you, we have fitted out your ship with 10 brand-new Viper missiles, increased your shields maximum by 10, and allowed you to purchase additional weaponry from any store! \ \ Your current salary is: 60 Confederate Credits an hour. \ \ Obtain 250PP to be promoted to Lieutenant-commander!;//message
   1;//message type, 0=quick message, 1=journal
   none;//sound, none for nothing
   0;//delay script for n seconds after conditions met
@@ -721,7 +721,7 @@ Player reaches Lieutenant-Commander, 250 Promotion;//name-----------------------
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   3000;//run every n milliseconds
-  Congratulations! The Confederate Navy has promoted you to the rank of Lieutenant-Commander. \ \ To thank you, the Confederacy has provided you with a brand new Particle Cannon: one of the deadliest ship weapons available! You are also authorised to purchase additional weaponry from any store. \ \ Your current salary is: 80 Confederate Credits an hour. \ \ Obtain 400 pp to be promoted to Commander!;//message
+  Congratulations! The Confederate Navy has promoted you to the rank of Lieutenant-Commander. \ \ To thank you, the Confederacy has provided you with a brand new Particle Cannon: one of the deadliest ship weapons available! You are also authorised to purchase additional weaponry from any store. \ \ Your current salary is: 80 Confederate Credits an hour. \ \ Obtain 400PP to be promoted to Commander!;//message
   1;//message type, 0=quick message, 1=journal
   none;//sound, none for nothing
   0;//delay script for n seconds after conditions met
@@ -1460,7 +1460,7 @@ Player reaches Commander, 400 Promotion;//name----------------------------------
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   3000;//run every n milliseconds
-  Congratulations! The Confederate Navy has promoted you to the rank of Commander. \ \ To thank you, we have extended the Wolf IV's reactor size by 20 gigawatts of energy, and increased your personal battery by 20 percent! You are also authorised to purchase additional weaponry from any store. \ \ Your current salary is: 100 Confederate Credits an hour. \ \ Obtain 400 pp to be promoted to Captain!;//message
+  Congratulations! The Confederate Navy has promoted you to the rank of Commander. \ \ To thank you, we have extended the Wolf IV's reactor size by 20 gigawatts of energy, and increased your personal battery by 20 percent! You are also authorised to purchase additional weaponry from any store. \ \ Your current salary is: 100 Confederate Credits an hour. \ \ Obtain 400PP to be promoted to Captain!;//message
   1;//message type, 0=quick message, 1=journal
   none;//sound, none for nothing
   0;//delay script for n seconds after conditions met
@@ -1740,7 +1740,7 @@ Player reaches captain, 600 Promotion;//name------------------------------------
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   3000;//run every n milliseconds
-  Congratulations, Captain! You can now 'legally' call yourself Captain with your latest Confederate Navy promotion! \ \ As a reward, we have upgraded the Wolf's radar and your SR battlescanner to Medium Range, and allowed you to purchase Heavy and Light Confederate fighters to develop your own fleet! \ \ Your current salary is: 120 Confederate Credits an hour. \ \ Obtain 800 pp to be promoted to Commodore!;//message
+  Congratulations, Captain! You can now 'legally' call yourself Captain with your latest Confederate Navy promotion! \ \ As a reward, we have upgraded the Wolf's radar and your SR battlescanner to Medium Range, and allowed you to purchase Heavy and Light Confederate fighters to develop your own fleet! \ \ Your current salary is: 120 Confederate Credits an hour. \ \ Obtain 800PP to be promoted to Commodore!;//message
   1;//message type, 0=quick message, 1=journal
   none;//sound, none for nothing
   0;//delay script for n seconds after conditions met
@@ -1818,7 +1818,7 @@ Player reaches commodore, 800 Promotion;//name----------------------------------
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   3000;//run every n milliseconds
-  Congratulations! The Confederate Navy has  promoted you to the rank of Commodore. \ \ To thank you, we have provided you with a top-of the range military Jetpack, increased the Wolf IV's hull strength by 20 percent, and granted you permission to purchase deadly Phaser Turrets for your ship! \ \ Your current salary is: 140 Confederate Credits an hour. \ \ Obtain 1000 pp to be promoted to Rear Admiral!;//message
+  Congratulations! The Confederate Navy has  promoted you to the rank of Commodore. \ \ To thank you, we have provided you with a top-of the range military Jetpack, increased the Wolf IV's hull strength by 20 percent, and granted you permission to purchase deadly Phaser Turrets for your ship! \ \ Your current salary is: 140 Confederate Credits an hour. \ \ Obtain 1000PP to be promoted to Rear Admiral!;//message
   1;//message type, 0=quick message, 1=journal
   none;//sound, none for nothing
   0;//delay script for n seconds after conditions met
@@ -1886,7 +1886,7 @@ Player reaches rear admiral, 1000 Promotion;//name------------------------------
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   3000;//run every n milliseconds
-  Congratulations! The Confederate Navy has  promoted you to the rank of Rear Admiral. \ \ To thank you, we have upgraded both your ship's radar and personal battlescanner to Long Range, and authorized you to purchase a deadly Fusion Beam from any store. This marvel of military engineering can cut through ANYTHING in your path, satisfaction guaranteed! \ \ Your current salary is: 170 Confederate Credits an hour. \ \ Obtain 1200 pp to be promoted to Vice Admiral!;//message
+  Congratulations! The Confederate Navy has  promoted you to the rank of Rear Admiral. \ \ To thank you, we have upgraded both your ship's radar and personal battlescanner to Long Range, and authorized you to purchase a deadly Fusion Beam from any store. This marvel of military engineering can cut through ANYTHING in your path, satisfaction guaranteed! \ \ Your current salary is: 170 Confederate Credits an hour. \ \ Obtain 1200PP to be promoted to Vice Admiral!;//message
   1;//message type, 0=quick message, 1=journal
   none;//sound, none for nothing
   0;//delay script for n seconds after conditions met
@@ -1959,7 +1959,7 @@ Player reaches vice admiral, 1200 Promotion;//name------------------------------
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   3000;//run every n milliseconds
-  Congratulations! The Confederate Navy has promoted you to the rank of Vice Admiral! \ \ To thank you, we have authorised you to purchase the equipment you need to construct your own bases on planets: sand-filled barriers for protection, and deployable machine-gun turrets and flamethrower pillboxes for defence! \ \ Your current salary is: 200 confederacy credits an hour. \ \ Obtain 1500 pp to be promoted to Admiral!;//message
+  Congratulations! The Confederate Navy has promoted you to the rank of Vice Admiral! \ \ To thank you, we have authorised you to purchase the equipment you need to construct your own bases on planets: sand-filled barriers for protection, and deployable machine-gun turrets and flamethrower pillboxes for defence! \ \ Your current salary is: 200 confederacy credits an hour. \ \ Obtain 1500PP to be promoted to Admiral!;//message
   1;//message type, 0=quick message, 1=journal
   none;//sound, none for nothing
   0;//delay script for n seconds after conditions met
@@ -2022,7 +2022,7 @@ Player reaches admiral 1500 Promotion;//name------------------------------------
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   3000;//run every n milliseconds
-  Congratulations! The Confederate Navy has promoted you to the rank of Admiral! \ \ You have been chosen as the first to be provided with two top-secret inventions from the laboratories of the United Confederacy Academy of Science: a Cloaking Device and Stealth Armour that will allow you to move completely unseen! \ \ Your current salary is: 240 confederacy credits an hour. \ \ Obtain 2000 pp to be promoted to Admiral of the Fleet, the highest Confederate rank available!;//message
+  Congratulations! The Confederate Navy has promoted you to the rank of Admiral! \ \ You have been chosen as the first to be provided with two top-secret inventions from the laboratories of the United Confederacy Academy of Science: a Cloaking Device and Stealth Armour that will allow you to move completely unseen! \ \ Your current salary is: 240 confederacy credits an hour. \ \ Obtain 2000PP to be promoted to Admiral of the Fleet, the highest Confederate rank available!;//message
   1;//message type, 0=quick message, 1=journal
   none;//sound, none for nothing
   0;//delay script for n seconds after conditions met
