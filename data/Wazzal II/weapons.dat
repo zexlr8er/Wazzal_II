@@ -1750,11 +1750,11 @@ Rocket explosion;//name---------------------------------------
     0.000000;//parameter4
   end_fire_effects;
   begin_hit_effects;
-  4;//effect number
-    -40.000000;//parameter1
-    0.000000;//parameter2
+  63;//effect number
+    -10.000000;//parameter1
+    -40.000000;//parameter2
     4.000000;//parameter3
-    0.000000;//parameter4
+    1.000000;//parameter4
 		36;//effect number           shake
     12.000000;//parameter1
     600.000000;//parameter2
