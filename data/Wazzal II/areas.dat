@@ -488,7 +488,7 @@ New Dawn System;//area name
 3;
 4;
   end_excluded_plot_object_classes;
- Protect the transports at all cost!;//enter area text, specify none to not show it
+ Admiral Fefarewbu, 4th New Dawn Confederate Fleet: \ \ 'Captain! We have been ambushed! Our seven transports are heavily loaded with much needed equipment to resupply our military base on Dorian Prime, where brave Confederate soldiers have been fighting a decade-long conflict against a local tribal insurgency. This was to be a routine mission, but the Aliens were waiting for us. Without your help, all hope is lost! \ \ Please, assist us in ensuring at least one transport arrives at Dorian Prime on the other side of this system! Use your ECM systems to destroy missiles and your ion wave cannon to temporarily disable Alien ships, allowing our transports to make a run of it!;//enter area text, specify none to not show it
 19;//Meadows---------------------------------------------------------planet
  Dorian Prime;//area name
   0;//area class

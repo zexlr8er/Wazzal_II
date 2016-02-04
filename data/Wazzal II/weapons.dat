@@ -299,7 +299,7 @@ Missile Damage Enemy;//name---------------------------------------
   1.000000;//bullet size
   0.000000;//spread
   2.000000;//bullet speed
-  10.000000;//time until bullet disappears
+  25.000000;//time until bullet disappears
   10;//fire rate
   0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
   -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
