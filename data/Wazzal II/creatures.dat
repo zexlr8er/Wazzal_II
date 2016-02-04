@@ -348,6 +348,7 @@ Alien Large Fighter (space);//name---------------------------------------
       9.000000;//parameter3
       0.000000;//parameter4    
     end_effects;
+    end_effects;
   0;//death type, 0=any death, 1=timed death, 2=killed by player
     begin_conditions;
     end_conditions;
@@ -1287,7 +1288,7 @@ Dark Alien (claws);//name---------------------------------------
     end_conditions;
     begin_effects;
     44;//effect number
-      1.000000;//parameter1
+      0.500000;//parameter1
       1.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4    
@@ -1300,7 +1301,7 @@ Dark Alien (claws);//name---------------------------------------
     end_conditions;
     begin_effects;
     44;//effect number
-      1.000000;//parameter1
+      0.5000000;//parameter1
       1.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4    
@@ -1313,7 +1314,7 @@ Dark Alien (claws);//name---------------------------------------
     end_conditions;
     begin_effects;
     44;//effect number
-      1.000000;//parameter1
+      0.5000000;//parameter1
       1.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4    
@@ -1326,7 +1327,7 @@ Dark Alien (claws);//name---------------------------------------
     end_conditions;
     begin_effects;
     44;//effect number
-      1.000000;//parameter1
+      0.5000000;//parameter1
       1.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4    
@@ -1339,7 +1340,7 @@ Dark Alien (claws);//name---------------------------------------
     end_conditions;
     begin_effects;
     44;//effect number
-      1.000000;//parameter1
+      0.5000000;//parameter1
       1.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4    
@@ -2047,7 +2048,7 @@ explosion2.wav;//sample name
     end_conditions;
     begin_effects;
     44;//effect number
-      10.000000;//parameter1
+      5.000000;//parameter1
       1.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4    
@@ -2060,7 +2061,7 @@ explosion2.wav;//sample name
     end_conditions;
     begin_effects;
     44;//effect number
-      10.000000;//parameter1
+      5.000000;//parameter1
       1.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4    
@@ -2073,7 +2074,7 @@ explosion2.wav;//sample name
     end_conditions;
     begin_effects;
     44;//effect number
-      10.000000;//parameter1
+      5.000000;//parameter1
       1.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4    
@@ -2086,7 +2087,7 @@ explosion2.wav;//sample name
     end_conditions;
     begin_effects;
     44;//effect number
-      10.000000;//parameter1
+      5.000000;//parameter1
       1.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4    
@@ -2099,7 +2100,7 @@ explosion2.wav;//sample name
     end_conditions;
     begin_effects;
     44;//effect number
-      10.000000;//parameter1
+      5.000000;//parameter1
       1.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4    
@@ -2112,7 +2113,7 @@ explosion2.wav;//sample name
     end_conditions;
     begin_effects;
     44;//effect number
-      10.000000;//parameter1
+      5.000000;//parameter1
       1.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4    
@@ -3418,7 +3419,7 @@ Rocket;//name---------------------------------------
   2;//draw layer
   -2;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
   0;//corpse item amount
-  1;//attack type, 0=shooting attack, 1=close combat
+  0;//attack type, 0=shooting attack, 1=close combat
   -1;//particle to show on radar, -1=none
   7;//primary AI tactic from AI_tactic.dat
   7;//secondary AI tactic from AI_tactic.dat
@@ -3989,8 +3990,8 @@ fighter_move.wav;//
     0;//number
     4.000000;//parameter0
     0.000000;//parameter1
-    900.000000;//parameter2
-    900.000000;//parameter3
+    700.000000;//parameter2
+    700.000000;//parameter3
 resistance to alien fighter;//description
     1;//number
    0.000000;//parameter0
@@ -4552,7 +4553,7 @@ Alien Tank;//name---------------------------------------
     end_conditions;
     begin_effects;
     44;//effect number
-      10.000000;//parameter1
+      5.000000;//parameter1
       1.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4    
@@ -4565,7 +4566,7 @@ Alien Tank;//name---------------------------------------
     end_conditions;
     begin_effects;
     44;//effect number
-      10.000000;//parameter1
+      5.000000;//parameter1
       1.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4    
@@ -4578,7 +4579,7 @@ Alien Tank;//name---------------------------------------
     end_conditions;
     begin_effects;
     44;//effect number
-      10.000000;//parameter1
+      5.000000;//parameter1
       1.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4    
@@ -4591,7 +4592,7 @@ Alien Tank;//name---------------------------------------
     end_conditions;
     begin_effects;
     44;//effect number
-      10.000000;//parameter1
+      5.000000;//parameter1
       1.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4    
@@ -4604,7 +4605,7 @@ Alien Tank;//name---------------------------------------
     end_conditions;
     begin_effects;
     44;//effect number
-      10.000000;//parameter1
+      5.000000;//parameter1
       1.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4    
@@ -8317,6 +8318,123 @@ Egg laying dark alien;//name---------------------------------------
       9.000000;//parameter3
       0.000000;//parameter4
     end_effects;
+	0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by tank cannon       
+    begin_conditions;
+	45;//condition
+      40.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      7.500000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by fighter cannon     
+    begin_conditions;
+	45;//condition
+      88.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      7.500000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by boat MG   
+    begin_conditions;
+	45;//condition
+      69.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      7.500000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by pillbox/tank flamethrower
+    begin_conditions;
+	45;//condition
+      29.000000;//condition parameter0
+      5000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      7.500000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by player turret MG   
+    begin_conditions;
+	45;//condition
+      107.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      7.500000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by rocket     
+    begin_conditions;
+	45;//condition
+      36.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      15.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed airstrike 1     
+    begin_conditions;
+	45;//condition
+      61.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      7.50000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed airstrike 2  
+    begin_conditions;
+	45;//condition
+      62.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      7.50000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed knife
+    begin_conditions;
+	45;//condition
+      34.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      15.00000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
   0;//death type, 0=any death, 1=timed death, 2=killed by player
     begin_conditions;
 8;//condition
@@ -8548,7 +8666,7 @@ explosion2.wav;//sample name
     end_conditions;
     begin_effects;
     44;//effect number
-      10.000000;//parameter1
+      5.000000;//parameter1
       1.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4    
@@ -8561,7 +8679,7 @@ explosion2.wav;//sample name
     end_conditions;
     begin_effects;
     44;//effect number
-      10.000000;//parameter1
+      5.000000;//parameter1
       1.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4    
@@ -8574,7 +8692,7 @@ explosion2.wav;//sample name
     end_conditions;
     begin_effects;
     44;//effect number
-      10.000000;//parameter1
+      5.000000;//parameter1
       1.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4    
@@ -8587,7 +8705,7 @@ explosion2.wav;//sample name
     end_conditions;
     begin_effects;
     44;//effect number
-      10.000000;//parameter1
+      5.000000;//parameter1
       1.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4    
@@ -8600,7 +8718,7 @@ explosion2.wav;//sample name
     end_conditions;
     begin_effects;
     44;//effect number
-      10.000000;//parameter1
+      5.000000;//parameter1
       1.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4    
@@ -8613,7 +8731,7 @@ explosion2.wav;//sample name
     end_conditions;
     begin_effects;
     44;//effect number
-      10.000000;//parameter1
+      5.000000;//parameter1
       1.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4    
@@ -8776,7 +8894,7 @@ explosion2.wav;//sample name
     end_conditions;
     begin_effects;
     44;//effect number
-      5.000000;//parameter1
+      2.500000;//parameter1
       1.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4    
@@ -8789,7 +8907,7 @@ explosion2.wav;//sample name
     end_conditions;
     begin_effects;
     44;//effect number
-      5.000000;//parameter1
+      2.500000;//parameter1
       1.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4    
@@ -8802,7 +8920,7 @@ explosion2.wav;//sample name
     end_conditions;
     begin_effects;
     44;//effect number
-      5.000000;//parameter1
+      2.500000;//parameter1
       1.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4    
@@ -8815,7 +8933,7 @@ explosion2.wav;//sample name
     end_conditions;
     begin_effects;
     44;//effect number
-      5.000000;//parameter1
+      2.500000;//parameter1
       1.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4    
@@ -8828,7 +8946,7 @@ explosion2.wav;//sample name
     end_conditions;
     begin_effects;
     44;//effect number
-      5.000000;//parameter1
+      2.500000;//parameter1
       1.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4    
@@ -8841,7 +8959,7 @@ explosion2.wav;//sample name
     end_conditions;
     begin_effects;
     44;//effect number
-      5.000000;//parameter1
+      2.500000;//parameter1
       1.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4    
@@ -11890,7 +12008,20 @@ Storm large;//name---------------------------------------
     end_conditions;
     begin_effects;
     44;//effect number
-     15.000000;//parameter1
+     12.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+		0;//death type, 0=any death, 1=timed death, 2=killed by player      killed missile
+    begin_conditions;
+	45;//condition
+      36.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      6.0000;//parameter1
       1.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4    
@@ -12019,6 +12150,19 @@ Storm large;//name---------------------------------------
     begin_effects;
     44;//effect number
      15.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+			0;//death type, 0=any death, 1=timed death, 2=killed by player      killed missile
+    begin_conditions;
+	45;//condition
+      36.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      15.00000;//parameter1
       1.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4    
@@ -12696,7 +12840,7 @@ resistance to fusion beam;//description
     end_conditions;
     begin_effects;
     44;//effect number
-      10.000000;//parameter1
+      5.000000;//parameter1
       1.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4    
@@ -12709,7 +12853,7 @@ resistance to fusion beam;//description
     end_conditions;
     begin_effects;
     44;//effect number
-      10.000000;//parameter1
+      5.000000;//parameter1
       1.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4    
@@ -12722,7 +12866,7 @@ resistance to fusion beam;//description
     end_conditions;
     begin_effects;
     44;//effect number
-      10.000000;//parameter1
+      5.000000;//parameter1
       1.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4    
@@ -12735,7 +12879,7 @@ resistance to fusion beam;//description
     end_conditions;
     begin_effects;
     44;//effect number
-      10.000000;//parameter1
+      5.000000;//parameter1
       1.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4    
@@ -12748,7 +12892,7 @@ resistance to fusion beam;//description
     end_conditions;
     begin_effects;
     44;//effect number
-      10.000000;//parameter1
+      5.000000;//parameter1
       1.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4    
@@ -12761,7 +12905,7 @@ resistance to fusion beam;//description
     end_conditions;
     begin_effects;
     44;//effect number
-      10.000000;//parameter1
+      5.000000;//parameter1
       1.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4    
