@@ -12,6 +12,16 @@ Initialisation;//name-----------------------------------------------------------
   begin_conditions;
   end_conditions;
   begin_effects;
+   16;//effect number                   Give Inventory 1 journal
+    161.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4 
+	   16;//effect number                   Give Inventory 1 journal
+    161.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4   
  16;//effect number                   Give Inventory 1 Command anti-aircraft
     190.000000;//parameter1
     1.000000;//parameter2
@@ -3940,9 +3950,9 @@ Fire giga-hertz ECM;//name------------------------------------------------------
       1.000000;//parameter3
       0.000000;//parameter4
   end_effects;
-Copy logbook into both inventories;//name-----------------------------------------------------------------
+None;//name-----------------------------------------------------------------
   114;//identifier
-  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   500;//run every n milliseconds
@@ -3952,19 +3962,8 @@ Copy logbook into both inventories;//name---------------------------------------
   0;//delay script for n seconds after conditions met
   1;//disabled after first use, 0=no, 1=yes
   begin_conditions;
-  6;//condition
-    1.000000;//condition parameter0
-    0.000000;//condition parameter1
-  0;//condition
-    161.000000;//condition parameter0
-    1.000000;//condition parameter1
   end_conditions;
   begin_effects;
-  16;//effect number
-    161.000000;//parameter1
-    1.000000;//parameter2
-    0.000000;//parameter3
-    0.000000;//parameter4
   end_effects;
 Give player control fighter item;//name-----------------------------------------------------------------
  115;//identifier

@@ -6653,8 +6653,8 @@ Captain's journal;//name---------------------------------------
   161;//identifier
   0;//item class
  0.000000;//weight
-  Wolf IV Captain's journal. Use below keys (in-game) to select pages. \ \ N: Confederate rank list\ M: Map of known universe;//short description
-The Wolf IV Captain's journal! It contains all the journal entries you have recorded over your many years behind the controls (press 'J' in-game), as well as some essential information on the United Confederacy of Planets. \ \ Press 'N' (in-game) to access a complete list of the ranks of the Confederate Navy, or press 'M' to access a star-map of the known universe, including planets, systems and jumpgate connections!;//first pick up text
+  Wolf IV Captain's journal. Use below keys in-game to select pages. \ \ J: Previous log entries\ N: Confederate ranks\ M: Map of known universe, including planets, systems and jumpgate connections!;//short description
+none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
