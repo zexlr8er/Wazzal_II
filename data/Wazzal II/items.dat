@@ -7698,12 +7698,12 @@ shuttle.png;//texture name
     end_conditions;
     begin_effects;  
     44;//effect number
-      50.000000;//parameter1
+      99.000000;//parameter1
       1.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4   
 	      4;//effect number
-      1000.000000;//parameter1
+      2000.000000;//parameter1
       1.000000;//parameter2
       13.000000;//parameter3
       0.000000;//parameter4  
