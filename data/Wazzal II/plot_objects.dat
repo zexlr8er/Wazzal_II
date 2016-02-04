@@ -1129,7 +1129,7 @@ Jumpgate to Ennokknmo System;//name---------------------------------------
       4.000000;//parameter4     
     end_effects;
   end_effects_block;
-Jumpgate to Errxelz System;//name---------------------------------------
+Jumpgate to Errxelz System (restricted);//name---------------------------------------
   30;//identifier
   -1;//map type to place to -1=any map 0=> type from areas.dat
   0;//plot_object class
@@ -1151,6 +1151,9 @@ Jumpgate to Errxelz System;//name---------------------------------------
     jumpgate.wav;//sound, none for nothing
     2;//vanishes after event, 0=no, but cannot be reused, 1=vanishes, 2=no, and can be reused
     begin_conditions;
+	  0;//condition                        must have Alien flag
+      167.000000;//condition parameter0
+      1.000000;//condition parameter1
     end_conditions;
     begin_effects;
     21;//effect number                          teleport to warpgate in Errxelz 8
@@ -5420,7 +5423,7 @@ Supernova remnant;//name---------------------------------------
     begin_effects;
     end_effects;
   end_effects_block;
-Jumpgate to Former Sol System;//name---------------------------------------
+Jumpgate to Former Sol System (restricted);//name---------------------------------------
   122;//identifier
   -1;//map type to place to -1=any map 0=> type from areas.dat
   0;//plot_object class
@@ -5442,6 +5445,9 @@ Jumpgate to Former Sol System;//name---------------------------------------
     jumpgate.wav;//sound, none for nothing
     2;//vanishes after event, 0=no, but cannot be reused, 1=vanishes, 2=no, and can be reused
     begin_conditions;
+	0;//condition                            has rank
+    84.000000;//condition parameter0
+    1.000000;//condition parameter1
     end_conditions;
     begin_effects;
     21;//effect number                          teleport to warpgate in Former Sol system
