@@ -737,7 +737,7 @@ Particle Cannon;//name---------------------------------------double barrel
   end_fire_effects;
   begin_hit_effects;
   4;//effect number
-    -4.000000;//parameter1
+    -5.200000;//parameter1
     0.000000;//parameter2
     4.000000;//parameter3
     0.000000;//parameter4
