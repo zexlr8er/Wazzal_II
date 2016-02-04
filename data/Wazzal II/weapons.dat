@@ -1085,7 +1085,7 @@ Sniper Rifle;//name---------------------------------------
     4.000000;//parameter3
     1.000000;//parameter4
   end_hit_effects;
-Machine gun;//name---------------------------------------
+Machine gun (allies turret);//name---------------------------------------
   23;//identifier
   6;//class
   shell.png;//bullet texture
@@ -1445,31 +1445,51 @@ Laser confed destroyer;//name---------------------------------------
     0.000000;//parameter3
     0.000000;//parameter4
   end_hit_effects;
-Unused (Missile Damage shot);//name---------------------------------------
-  29;//identifier
+Flame Thrower pillbox (player);//name--------------------------------------- also used for tank secondary weapon
+ 29;//identifier
   7;//class
-  fire0.png;//bullet texture
-  1;//bullets at one shot
+  invisible.png;//bullet texture
+  3;//bullets at one shot
   0;//stop at hit 0=stop where hit, 1=don't stop
-  1.000000;//bullet size
-  3.000000;//spread
-  2.000000;//bullet speed
-  50.000000;//time until bullet disappears
-  10;//fire rate
+  0.000000;//bullet size
+  0.1500000;//spread
+  0.600000;//bullet speed
+  450.000000;//time until bullet disappears
+ 40;//fire rate
   0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
   -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
-  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
-  none;//hit effect sound
-  0.000000;//push target back
+  12;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  fire.wav;//hit effect sound
+  0.010000;//push target back
   0.000000;//push shooter back
-  explosion2.wav;//fire sound
-  explosion1.wav;//hit sound
+  fire.wav;//fire sound
+  claws0.wav;//hit sound
   1.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
   begin_wield_conditions;
-  end_wield_conditions;
+       end_wield_conditions;
   begin_fire_effects;
+       27;//effect number
+     12.000000;//parameter1
+      50.000000;//parameter2
+      0.300000;//parameter3
+      0.500000;//parameter4
+    26;//effect number
+      16.000000;//parameter1
+      8.000000;//parameter2
+      59.000000;//parameter3
+      0.000000;//parameter4
   end_fire_effects;
   begin_hit_effects;
+    4;//effect number
+      -7.000000;//parameter1
+      0.000000;//parameter2
+      4.000000;//parameter3
+      0.000000;//parameter4
+    23;//effect number
+      -4.000000;//parameter1
+      59.000000;//parameter2
+      4.000000;//parameter3
+      5000.000000;//parameter4
   end_hit_effects;
 Laser confed small fighter;//name---------------------------------------
   30;//identifier
@@ -1658,11 +1678,6 @@ Knife hit;//name---------------------------------------
     0.000000;//parameter2
     4.000000;//parameter3
     0.000000;//parameter4 
-  44;//effect number  
-    0.100000;//parameter1
-    1.000000;//parameter2
-    9.000000;//parameter3
-    0.000000;//parameter4
   end_hit_effects;
 Jet exhuast;//name---------------------------------------
   35;//identifier
@@ -1739,11 +1754,6 @@ Rocket explosion;//name---------------------------------------
     -40.000000;//parameter1
     0.000000;//parameter2
     4.000000;//parameter3
-    0.000000;//parameter4
-  44;//effect number
-    0.160000;//parameter1
-    0.000000;//parameter2
-    9.000000;//parameter3
     0.000000;//parameter4
 		36;//effect number           shake
     12.000000;//parameter1
@@ -1880,7 +1890,7 @@ Dreadnought Cannon;//name--------------------------------------- very sketchy
     2.000000;//parameter3
     0.000000;//parameter4
   end_hit_effects;
-Tank cannon;//name---------------------------------------player
+Tank cannon (player);//name---------------------------------------player
   40;//identifier
   0;//class
   shell.png;//bullet texture
@@ -2997,11 +3007,6 @@ Airstrike damage - sound 1;//name---------------------------------------
     0.000000;//parameter2
     4.000000;//parameter3
     0.000000;//parameter4
- 44;//effect number
-    0.0700000;//parameter1
-    0.000000;//parameter2
-    9.000000;//parameter3
-    0.000000;//parameter4
    end_hit_effects;
 Airstrike damage - sound 2;//name---------------------------------------
   62;//identifier
@@ -3092,11 +3097,6 @@ Airstrike damage - sound 2;//name---------------------------------------
     -300.000000;//parameter1
     0.000000;//parameter2
     4.000000;//parameter3
-    0.000000;//parameter4
- 44;//effect number
-    0.0700000;//parameter1
-    0.000000;//parameter2
-    9.000000;//parameter3
     0.000000;//parameter4
    end_hit_effects;
 Call in airstrike;//name---------------------------------------
@@ -3303,7 +3303,7 @@ Bear native;//name---------------------------------------
     12.000000;//parameter3
     0.000000;//parameter4
   end_hit_effects;
-Tank MG;//name---------------------------------------
+Boat MG (player);//name---------------------------------------
   69;//identifier
   5;//class
   shell.png;//bullet texture
@@ -3349,8 +3349,8 @@ Tank MG;//name---------------------------------------
     end_fire_effects;
   begin_hit_effects;
   63;//effect number
-    -10.000000;//parameter1
-    -30.000000;//parameter2
+    -15.000000;//parameter1
+    -35.000000;//parameter2
     4.000000;//parameter3
     1.000000;//parameter4
     end_hit_effects;
@@ -4353,7 +4353,7 @@ Giga-hertz ECM;//name---------------------------------------
   end_fire_effects;
   begin_hit_effects;
   end_hit_effects;
-Flying Confed fighter cannon;//name---------------------------------------
+Flying Confed fighter cannon (player);//name---------------------------------------
  88;//identifier
   0;//class
   laser_small3.png;//bullet texture
@@ -4976,7 +4976,7 @@ Storm hit;//name---------------------------------------
     7.000000;//parameter3
     1.000000;//parameter4
   end_hit_effects;
-  Tank cannon;//name--------------------------------------Allied moving tank
+  Tank cannon (allies);//name--------------------------------------Allied moving tank
   100;//identifier
   0;//class
   shell.png;//bullet texture
@@ -5042,7 +5042,7 @@ Storm hit;//name---------------------------------------
     2.000000;//parameter3
     0.000000;//parameter4 
   end_hit_effects;
-  Flying Confed fighter cannon (Allied);//name---------------------------------------
+  Flying Confed fighter cannon (allies);//name---------------------------------------
  101;//identifier
   0;//class
   laser_small3.png;//bullet texture
@@ -5330,5 +5330,126 @@ Fishing rod;//name---------------------------------------
   begin_fire_effects;
   end_fire_effects;
   begin_hit_effects;
+  end_hit_effects;
+  Machine gun (player turret);//name---------------------------------------
+  107;//identifier
+  6;//class
+  shell.png;//bullet texture
+  2;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  1.000000;//bullet size
+  0.060000;//spread
+  2.000000;//bullet speed
+  360.000000;//time until bullet disappears
+  140;//fire rate
+  2;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.100000;//push target back
+  0.000000;//push shooter back
+  mg.wav;//fire sound
+  bimpact.wav;//hit sound
+  5.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  4;//effect number
+    -1.000000;//parameter1
+    0.000000;//parameter2
+    11.000000;//parameter3
+    0.000000;//parameter4
+  27;//effect number
+    14.000000;//parameter1
+    50.000000;//parameter2
+    0.300000;//parameter3
+    0.200000;//parameter4
+  26;//effect number
+    1.000000;//parameter1
+    2.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    4.000000;//parameter1
+    2.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    2.000000;//parameter1
+    2.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  27;//effect number
+    14.000000;//parameter1
+    50.000000;//parameter2
+    0.700000;//parameter3
+    0.750000;//parameter4
+  27;//effect number
+    14.000000;//parameter1
+    50.000000;//parameter2
+    0.100000;//parameter3
+    0.100000;//parameter4    
+  26;//effect number
+    1.000000;//parameter1
+    2.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    4.000000;//parameter1
+    2.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    2.000000;//parameter1
+    2.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4  
+  27;//effect number
+    14.000000;//parameter1
+    50.000000;//parameter2
+    1.000000;//parameter3
+    1.400000;//parameter4
+  27;//effect number
+    14.000000;//parameter1
+    50.000000;//parameter2
+    0.100000;//parameter3
+    0.200000;//parameter4    
+  26;//effect number
+    1.000000;//parameter1
+    2.000000;//parameter2
+    41.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    24.000000;//parameter1
+    2.000000;//parameter2
+    41.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    2.000000;//parameter1
+    2.000000;//parameter2
+    41.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    40.000000;//parameter1
+    1.000000;//parameter2
+    41.000000;//parameter3
+    0.000000;//parameter4
+ 26;//effect number               shell
+    26.000000;//parameter1
+   1.000000;//parameter2
+   18.000000;//parameter3
+    0.000000;//parameter4    
+  end_fire_effects;
+  begin_hit_effects;
+  4;//effect number
+    -15.000000;//parameter1
+    0.000000;//parameter2
+    4.000000;//parameter3
+    0.000000;//parameter4
+	  4;//effect number
+    -15.000000;//parameter1
+    0.000000;//parameter2
+    7.000000;//parameter3
+    0.000000;//parameter4
   end_hit_effects;
 end_of_file;

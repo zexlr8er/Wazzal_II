@@ -1269,12 +1269,129 @@ Dark Alien (claws);//name---------------------------------------
   begin_eat_block;//
   end_eat_block;
   begin_death_block;//
-  2;//death type, 0=any death, 1=timed death, 2=killed by player
+2;//death type, 0=any death, 1=timed death, 2=killed by player         any killed by player
     begin_conditions;
     end_conditions;
     begin_effects;
     44;//effect number
       1.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by tank cannon       
+    begin_conditions;
+	45;//condition
+      40.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      1.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by fighter cannon     
+    begin_conditions;
+	45;//condition
+      88.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      1.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by boat MG   
+    begin_conditions;
+	45;//condition
+      69.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      1.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by pillbox/tank flamethrower
+    begin_conditions;
+	45;//condition
+      29.000000;//condition parameter0
+      5000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      1.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by player turret MG   
+    begin_conditions;
+	45;//condition
+      107.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      1.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by rocket     
+    begin_conditions;
+	45;//condition
+      36.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      1.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed airstrike 1     
+    begin_conditions;
+	45;//condition
+      61.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      0.500000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed airstrike 2  
+    begin_conditions;
+	45;//condition
+      62.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      0.500000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed knife
+    begin_conditions;
+	45;//condition
+      34.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      1.00000;//parameter1
       1.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4    
@@ -1286,7 +1403,7 @@ Dark Alien (claws);//name---------------------------------------
     800;//interval in milliseconds             charge on turret
     begin_conditions;
 	    14;//condition
-      19.000000;//condition parameter0
+      -8.000000;//condition parameter0
       350.000000;//condition parameter1   
 	  8;//condition
       6.000000;//condition parameter0
@@ -1309,7 +1426,7 @@ Dark Alien (claws);//name---------------------------------------
     1.70000;//parameter3
     -1.00000;//parameter4 	
     end_effects;
-300;//interval in milliseconds -----scared egg layers
+500;//interval in milliseconds                   scared egg layers
     begin_conditions;    
     14;//condition
       59.000000;//condition parameter0
@@ -1320,6 +1437,19 @@ Dark Alien (claws);//name---------------------------------------
       0.000000;//parameter1
       19.000000;//parameter2
       4000.000000;//parameter3
+      -1.000000;//parameter4
+    end_effects;
+	300;//interval in milliseconds                scared flying fighter
+    begin_conditions;    
+    14;//condition
+      81.000000;//condition parameter0
+      300.000000;//condition parameter1      
+    end_conditions;
+    begin_effects;
+    46;//effect number
+      0.000000;//parameter1
+      19.000000;//parameter2
+      1000.000000;//parameter3
       -1.000000;//parameter4
     end_effects;
   end_timed_block;
@@ -1909,6 +2039,123 @@ explosion2.wav;//sample name
       9.000000;//parameter3
       0.000000;//parameter4    
     end_effects;
+		0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by tank cannon       
+    begin_conditions;
+	45;//condition
+      40.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      10.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by fighter cannon     
+    begin_conditions;
+	45;//condition
+      88.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      10.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by boat MG   
+    begin_conditions;
+	45;//condition
+      69.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      10.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by pillbox/tank flamethrower
+    begin_conditions;
+	45;//condition
+      29.000000;//condition parameter0
+      5000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      10.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by player turret MG   
+    begin_conditions;
+	45;//condition
+      107.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      10.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by rocket     
+    begin_conditions;
+	45;//condition
+      36.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      10.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed airstrike 1     
+    begin_conditions;
+	45;//condition
+      61.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      5.00000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed airstrike 2  
+    begin_conditions;
+	45;//condition
+      62.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      5.00000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed knife
+    begin_conditions;
+	45;//condition
+      34.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      10.00000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
  0;//death type, 0=any death, 1=timed death, 2=killed by player
     begin_conditions;
     end_conditions;
@@ -1994,7 +2241,7 @@ resistance to fusion beam;//description
   end_specialties;
 MG Turret;//name---------------------------------------
   19;//identifier
-  4;//class
+  8;//class
   turret.png;//texture
   1;//draw layer
   -1;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
@@ -2057,6 +2304,19 @@ MG Turret;//name---------------------------------------
       1.000000;//parameter2
       11.000000;//parameter3
       0.000000;//parameter4 
+    end_effects;
+	100;//interval in milliseconds                      creature carrying captain
+    begin_conditions;
+34;//condition
+    0.000000;//condition parameter0
+   0.000000;//condition parameter1
+    end_conditions;
+    begin_effects;
+    15;//effect number                          change to player mg with different weapon to allow PP
+      83.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+     -1.000000;//parameter4
     end_effects;
   end_timed_block;
   begin_specialties;//
@@ -2287,6 +2547,149 @@ Alien Large Fighter (flying over planet);//name---------------------------------
       9.000000;//parameter3
       0.000000;//parameter4  
     end_effects;
+			0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by tank cannon       
+    begin_conditions;
+	45;//condition
+      40.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      10.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by fighter cannon     
+    begin_conditions;
+	45;//condition
+      88.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      10.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by boat MG   
+    begin_conditions;
+	45;//condition
+      69.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      10.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by pillbox/tank flamethrower
+    begin_conditions;
+	45;//condition
+      29.000000;//condition parameter0
+      5000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      10.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by player turret MG   
+    begin_conditions;
+	45;//condition
+      107.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      10.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by rocket     
+    begin_conditions;
+	45;//condition
+      36.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      10.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed airstrike 1     
+    begin_conditions;
+	45;//condition
+      61.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      5.00000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed airstrike 2  
+    begin_conditions;
+	45;//condition
+      62.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      5.00000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed knife
+    begin_conditions;
+	45;//condition
+      34.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      10.00000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+	0;//death type, 0=any death, 1=timed death, 2=killed by player      killed anti aircraft
+    begin_conditions;
+	45;//condition
+      98.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      10.00000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+		0;//death type, 0=any death, 1=timed death, 2=killed by player      killed anti aircraft
+    begin_conditions;
+	45;//condition
+      99.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      10.00000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
   end_death_block;
   begin_hit_block;//
   end_hit_block;
@@ -2310,7 +2713,7 @@ Alien Large Fighter (flying over planet);//name---------------------------------
       3.000000;//condition parameter0
       2.000000;//condition parameter1  
 	  14;//condition								closer than x to MG turret                                
-      19.000000;//condition parameter0
+      -8.000000;//condition parameter0
       260.000000;//condition parameter1   
 	  15;//condition                                player closer than x  
       500.000000;//condition parameter0
@@ -2333,8 +2736,32 @@ Alien Large Fighter (flying over planet);//name---------------------------------
       3;//condition                        			airstrike bar is greater than 2
       3.000000;//condition parameter0
       2.000000;//condition parameter1  
-	  14;//condition								closer than x to MG turret                                
+	  14;//condition								closer than x to tank                               
       50.000000;//condition parameter0
+      260.000000;//condition parameter1   
+	  15;//condition                                player closer than x  
+      500.000000;//condition parameter0
+      0.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+	  4;//effect number                    			take 1 from airstrike bar
+      -1.000000;//parameter1
+      1.000000;//parameter2
+      3.000000;//parameter3
+      0.000000;//parameter4 
+    10;//effect number                   			drop creature
+      91.000000;//parameter1
+      -1.000000;//parameter2
+      7.000000;//parameter3
+      -1.000000;//parameter4 
+    end_effects;
+		170;//interval in milliseconds            airstrike drop (boat)
+    begin_conditions;
+      3;//condition                        			airstrike bar is greater than 2
+      3.000000;//condition parameter0
+      2.000000;//condition parameter1  
+	  14;//condition								closer than x to boat                              
+      75.000000;//condition parameter0
       260.000000;//condition parameter1   
 	  15;//condition                                player closer than x  
       500.000000;//condition parameter0
@@ -3551,7 +3978,7 @@ fighter_move.wav;//
     end_conditions;
     begin_effects;
 66;//effect number
-    72.000000;//parameter1    # was 69 for machine gun; testing 72 for flamethrower
+    29.000000;//parameter1    # was 69 for machine gun; testing 29 for flamethrower
       1.000000;//parameter2
      -3.00000;//parameter3
      -28.00000;//parameter4    # was -16
@@ -4112,7 +4539,124 @@ Alien Tank;//name---------------------------------------
     end_conditions;
     begin_effects;
     44;//effect number                 add PP
-      13.000000;//parameter1
+      10.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+	0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by tank cannon       
+    begin_conditions;
+	45;//condition
+      40.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      10.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by fighter cannon     
+    begin_conditions;
+	45;//condition
+      88.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      10.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by boat MG   
+    begin_conditions;
+	45;//condition
+      69.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      10.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by pillbox/tank flamethrower
+    begin_conditions;
+	45;//condition
+      29.000000;//condition parameter0
+      5000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      10.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by player turret MG   
+    begin_conditions;
+	45;//condition
+      107.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      10.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by rocket     
+    begin_conditions;
+	45;//condition
+      36.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      10.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed airstrike 1     
+    begin_conditions;
+	45;//condition
+      61.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      5.00000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed airstrike 2  
+    begin_conditions;
+	45;//condition
+      62.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      5.00000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed knife
+    begin_conditions;
+	45;//condition
+      34.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      10.00000;//parameter1
       1.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4    
@@ -4271,7 +4815,124 @@ Dark Alien (proj);//name---------------------------------------
     end_conditions;
     begin_effects;
     44;//effect number
-      1.500000;//parameter1
+      1.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+	0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by tank cannon       
+    begin_conditions;
+	45;//condition
+      40.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      1.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by fighter cannon     
+    begin_conditions;
+	45;//condition
+      88.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      1.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by boat MG   
+    begin_conditions;
+	45;//condition
+      69.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      1.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by pillbox/tank flamethrower
+    begin_conditions;
+	45;//condition
+      29.000000;//condition parameter0
+      5000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      1.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by player turret MG   
+    begin_conditions;
+	45;//condition
+      107.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      1.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by rocket     
+    begin_conditions;
+	45;//condition
+      36.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      1.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed airstrike 1     
+    begin_conditions;
+	45;//condition
+      61.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      0.500000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed airstrike 2  
+    begin_conditions;
+	45;//condition
+      62.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      0.500000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed knife
+    begin_conditions;
+	45;//condition
+      34.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      1.00000;//parameter1
       1.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4    
@@ -6802,7 +7463,7 @@ resistance to alien fighter;//description
   end_specialties;
 Pillbox;//name---------------------------------------
   51;//identifier
-  4;//class
+  8;//class
  pillbox.png;//texture
   0;//draw layer
   -1;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
@@ -6848,6 +7509,19 @@ Pillbox;//name---------------------------------------
   begin_hit_block;//
   end_hit_block;
   begin_timed_block;//
+  	100;//interval in milliseconds                      creature carrying captain
+    begin_conditions;
+  34;//condition
+    0.000000;//condition parameter0
+   0.000000;//condition parameter1
+    end_conditions;
+    begin_effects;
+    15;//effect number                          change to player mg with different weapon to allow PP
+      97.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+     -1.000000;//parameter4
+    end_effects;
    end_timed_block;
   begin_specialties;//
   ;//description
@@ -7861,7 +8535,124 @@ explosion2.wav;//sample name
     end_conditions;
     begin_effects;
     44;//effect number
-     6.000000;//parameter1
+     10.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+		0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by tank cannon       
+    begin_conditions;
+	45;//condition
+      40.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      10.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by fighter cannon     
+    begin_conditions;
+	45;//condition
+      88.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      10.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by boat MG   
+    begin_conditions;
+	45;//condition
+      69.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      10.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by pillbox/tank flamethrower
+    begin_conditions;
+	45;//condition
+      29.000000;//condition parameter0
+      5000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      10.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by player turret MG   
+    begin_conditions;
+	45;//condition
+      107.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      10.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by rocket     
+    begin_conditions;
+	45;//condition
+      36.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      10.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed airstrike 1     
+    begin_conditions;
+	45;//condition
+      61.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      5.00000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed airstrike 2  
+    begin_conditions;
+	45;//condition
+      62.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      5.00000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed knife
+    begin_conditions;
+	45;//condition
+      34.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      10.00000;//parameter1
       1.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4    
@@ -7972,7 +8763,124 @@ explosion2.wav;//sample name
     end_conditions;
     begin_effects;
     44;//effect number
-     4.000000;//parameter1
+     5.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+		0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by tank cannon       
+    begin_conditions;
+	45;//condition
+      40.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      5.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by fighter cannon     
+    begin_conditions;
+	45;//condition
+      88.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      5.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by boat MG   
+    begin_conditions;
+	45;//condition
+      69.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      5.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by pillbox/tank flamethrower
+    begin_conditions;
+	45;//condition
+      29.000000;//condition parameter0
+      5000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      5.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by player turret MG   
+    begin_conditions;
+	45;//condition
+      107.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      5.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by rocket     
+    begin_conditions;
+	45;//condition
+      36.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      5.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed airstrike 1     
+    begin_conditions;
+	45;//condition
+      61.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      2.50000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed airstrike 2  
+    begin_conditions;
+	45;//condition
+      62.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      2.50000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed knife
+    begin_conditions;
+	45;//condition
+      34.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      5.00000;//parameter1
       1.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4    
@@ -8135,6 +9043,149 @@ Alien Small Fighter (flying over planet);//name---------------------------------
       1.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4  
+    end_effects;
+			0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by tank cannon       
+    begin_conditions;
+	45;//condition
+      40.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      5.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by fighter cannon     
+    begin_conditions;
+	45;//condition
+      88.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      5.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by boat MG   
+    begin_conditions;
+	45;//condition
+      69.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      5.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by pillbox/tank flamethrower
+    begin_conditions;
+	45;//condition
+      29.000000;//condition parameter0
+      5000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      5.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by player turret MG   
+    begin_conditions;
+	45;//condition
+      107.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      5.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by rocket     
+    begin_conditions;
+	45;//condition
+      36.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      5.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed airstrike 1     
+    begin_conditions;
+	45;//condition
+      61.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      2.50000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed airstrike 2  
+    begin_conditions;
+	45;//condition
+      62.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      2.50000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed knife
+    begin_conditions;
+	45;//condition
+      34.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      5.00000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+		0;//death type, 0=any death, 1=timed death, 2=killed by player      killed anti aircraft
+    begin_conditions;
+	45;//condition
+      98.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      5.00000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+		0;//death type, 0=any death, 1=timed death, 2=killed by player      killed anti aircraft
+    begin_conditions;
+	45;//condition
+      99.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      5.00000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
     end_effects;
   end_death_block;
   begin_hit_block;//
@@ -9311,7 +10362,7 @@ boat4.wav;//
     end_conditions;
     begin_effects;
 66;//effect number
-    72.000000;//parameter1    # flamethrower
+    29.000000;//parameter1    # flamethrower
       1.000000;//parameter2
      -3.00000;//parameter3
      -10.00000;//parameter4  
@@ -9322,8 +10373,8 @@ boat4.wav;//
     0;//number
     4.000000;//parameter0
     0.000000;//parameter1
-    700.000000;//parameter2
-    700.000000;//parameter3
+    400.000000;//parameter2
+    400.000000;//parameter3
    light;//description 
     2;//number
     16.000000;//parameter0
@@ -10091,14 +11142,14 @@ Confederate Light Fighter (player; flying over planet);//name-------------------
       0.300000;//parameter3
       0.500000;//parameter4
     end_effects;
-200;//interval in milliseconds----------------
+200;//interval in milliseconds                      creature not carrying player
     begin_conditions;
 34;//condition
     1.000000;//condition parameter0
    0.000000;//condition parameter1
     end_conditions;
     begin_effects;
-    15;//effect number
+    15;//effect number                         change back to stationary
       82.000000;//parameter1
       -1.000000;//parameter2
       -1.000000;//parameter3
@@ -10218,14 +11269,14 @@ Confederate Light Fighter (stationary on planet);//name-------------------------
   begin_hit_block;//
   end_hit_block;
   begin_timed_block;//
-100;//interval in milliseconds----------------
+100;//interval in milliseconds                      creature carrying captain
     begin_conditions;
 34;//condition
     0.000000;//condition parameter0
    0.000000;//condition parameter1
     end_conditions;
     begin_effects;
-    15;//effect number
+    15;//effect number                          change to flying
       81.000000;//parameter1
       -1.000000;//parameter2
       -1.000000;//parameter3
@@ -10276,125 +11327,99 @@ resistance to fusion beam;//description
     0.000000;//parameter2
     0.000000;//parameter3
   end_specialties;
-Unused;//name---------------------------------------
- 83;//identifier
-  3;//class
-  dpalien.png;//texture
+MG Turret (player carried);//name---------------------------------------
+  83;//identifier
+  8;//class
+  turret.png;//texture
   1;//draw layer
   -1;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
-  1;//corpse item amount
-  1;//attack type, 0=shooting attack, 1=close combat
-  -1;//particle to show on radar, -1=none
-  27;//primary AI tactic from AI_tactic.dat
-  11;//secondary AI tactic from AI_tactic.dat
+  0;//corpse item amount
+  0;//attack type, 0=shooting attack, 1=close combat
+  19;//particle to show on radar, -1=none
+  16;//primary AI tactic from AI_tactic.dat
+  16;//secondary AI tactic from AI_tactic.dat
   3;//footstep particle from particles.dat
   0;//die after how many seconds, 0=doesn't die
-  163;//eat item number from items.dat, -1=nothing
-  0.900000;//creature size
-  1.000000;//creature weight (affects pushing)
-  0.750000;//maximum movement speed
+  -1;//eat item number from items.dat, -1=nothing
+  1.700000;//creature size
+  1000.000000;//creature weight (affects pushing)
+  0.000000;//maximum movement speed
   0.000000;//minimum movement speed
-  1.200000;//leg animation speed
-  1.000000;//turn speed
+  0.000000;//leg animation speed
+  0.200000;//turn speed
   1.000000;//inertia level (acceleration/deceleration)
   0;//hide when behind walls
-  90;//weapon number
+  107;//weapon number
   0.000000;//weapon_x
-  0.000000;//weapon_y
-  0;//blood particle
+  28.000000;//weapon_y
+  2;//blood particle
   1;//bars visible when player hovers mouse on top
-  1.000000;//death animation speed
-  1;//creature can move from area to another
-  600.000000;//AI hear range
-  400.000000;//AI see range
-  4.500000;//AI see angle
+  1.200000;//death animation speed
+  0;//creature can move from area to another
+  1500.000000;//AI hear range
+  750.000000;//AI see range
+  4.000000;//AI see angle
   begin_footstep_sounds;//
-  step_a0.wav;//sample name
-  step_a1.wav;//sample name
-  step_a2.wav;//sample name
   end_footstep_sounds;
   begin_hit_sounds;//
-   dphurt1.wav;//sample name
-     dphurt2.wav;//sample name
-     dphurt3.wav;//sample name
- dphurt4.wav;//sample name
+  hit.wav;//sample name  
   end_hit_sounds;
   begin_die_sounds;//
-   dphurt1.wav;//sample name
-     dphurt2.wav;//sample name
-     dphurt3.wav;//sample name
- dphurt4.wav;//sample name
+  explosion1.wav;//sample name
+  explosion2.wav;//sample name 
   end_die_sounds;
   begin_eat_block;//
- begin_conditions;
-    end_conditions;
-    begin_effects;
- 22;//effect number
-      0.000000;//parameter1
-      -1.000000;//parameter2
-     0.000000;//parameter3
-      0.000000;//parameter4
-46;//effect number
-      0.000000;//parameter1
-      29.000000;//parameter2
-     -1.000000;//parameter3
-      0.000000;//parameter4
-46;//effect number
-      1.000000;//parameter1
-      30.000000;//parameter2
-     -1.000000;//parameter3
-      0.000000;//parameter4
- 27;//effect number
-    3.000000;//parameter1
-    50.000000;//parameter2
-    0.600000;//parameter3
-    0.650000;//parameter4
- 44;//effect number
-      1.000000;//parameter1
-      1.000000;//parameter2
-      2.000000;//parameter3
-      0.000000;//parameter4    
-    end_effects;
   end_eat_block;
   begin_death_block;//
- 2;//death type, 0=any death, 1=timed death, 2=killed by player
-    begin_conditions;
-    end_conditions;
-    begin_effects;
- 44;//effect number
-      -1.000000;//parameter1
-      1.000000;//parameter2
-      2.000000;//parameter3
-      0.000000;//parameter4    
-    end_effects;
-0;//death type, 0=any death, 1=timed death, 2=killed by player
-    begin_conditions;
-    end_conditions;
-    begin_effects;
- 44;//effect number
-      -1.000000;//parameter1
-      1.000000;//parameter2
-      2.000000;//parameter3
-      0.000000;//parameter4    
-    end_effects;
   end_death_block;
   begin_hit_block;//
   end_hit_block;
-  begin_timed_block;//
+    begin_timed_block;//
+   50;//interval in milliseconds
+    begin_conditions;
+    5;//condition                        reload bar is smaller than 2
+      11.000000;//condition parameter0
+      2.000000;//condition parameter1    
+    end_conditions;
+    begin_effects;
+    45;//effect number                   stop firing
+      -1.000000;//parameter1
+    500.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4 
+    4;//effect number                   Give bar 12
+      12.000000;//parameter1
+      1.000000;//parameter2
+      11.000000;//parameter3
+      0.000000;//parameter4 
+    end_effects;
+	200;//interval in milliseconds                      creature not carrying player
+    begin_conditions;
+34;//condition
+    1.000000;//condition parameter0
+   0.000000;//condition parameter1
+    end_conditions;
+    begin_effects;
+    15;//effect number                         change back to stationary
+      19.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+     -1.000000;//parameter4
+    end_effects;
   end_timed_block;
   begin_specialties;//
-  ;//description
+ health;//description
     0;//number
     4.000000;//parameter0
     0.000000;//parameter1
-   230.000000;//parameter2
-    230.000000;//parameter3
- knife hurts;//description
-    1;//number
-    9.000000;//parameter0
-    10.000000;//parameter1
-    0.000000;//parameter2
-    0.000000;//parameter3
+    400.000000;//parameter2
+    400.000000;//parameter3
+  clip;//description 
+    0;//number
+    11.000000;//parameter0
+    0.000000;//parameter1
+    20.000000;//parameter2
+    20.000000;//parameter3    
   end_specialties;
 Storm large;//name---------------------------------------
  84;//identifier
@@ -11658,7 +12683,124 @@ resistance to fusion beam;//description
     end_conditions;
     begin_effects;
     44;//effect number                 add PP
-      13.000000;//parameter1
+      10.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+		0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by tank cannon       
+    begin_conditions;
+	45;//condition
+      40.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      10.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by fighter cannon     
+    begin_conditions;
+	45;//condition
+      88.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      10.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by boat MG   
+    begin_conditions;
+	45;//condition
+      69.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      10.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by pillbox/tank flamethrower
+    begin_conditions;
+	45;//condition
+      29.000000;//condition parameter0
+      5000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      10.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by player turret MG   
+    begin_conditions;
+	45;//condition
+      107.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      10.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by rocket     
+    begin_conditions;
+	45;//condition
+      36.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      10.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed airstrike 1     
+    begin_conditions;
+	45;//condition
+      61.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      5.00000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed airstrike 2  
+    begin_conditions;
+	45;//condition
+      62.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      5.00000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed knife
+    begin_conditions;
+	45;//condition
+      34.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      10.00000;//parameter1
       1.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4    
@@ -11825,6 +12967,76 @@ resistance to projectile 2;//description
    1.000000;//parameter2
     1.000000;//parameter3
   end_specialties;
+  Pillbox (player);//name---------------------------------------
+ 97;//identifier
+  8;//class
+ pillbox.png;//texture
+  0;//draw layer
+  -1;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
+  0;//corpse item amount
+  0;//attack type, 0=shooting attack, 1=close combat
+  19;//particle to show on radar, -1=none
+  16;//primary AI tactic from AI_tactic.dat
+  16;//secondary AI tactic from AI_tactic.dat
+  3;//footstep particle from particles.dat
+  0;//die after how many seconds, 0=doesn't die
+  -1;//eat item number from items.dat, -1=nothing
+  1.300000;//creature size
+  100000.000000;//creature weight (affects pushing)
+  0.000000;//maximum movement speed
+  0.000000;//minimum movement speed
+  1.000000;//leg animation speed
+  0.400000;//turn speed
+  1.000000;//inertia level (acceleration/deceleration)
+  0;//hide when behind walls
+  29;//weapon number
+  0.000000;//weapon_x
+  28.000000;//weapon_y
+  2;//blood particle
+  1;//bars visible when player hovers mouse on top
+  1.200000;//death animation speed
+  0;//creature can move from area to another
+  1500.000000;//AI hear range
+  750.000000;//AI see range
+  4.000000;//AI see angle
+  begin_footstep_sounds;//
+  end_footstep_sounds;
+  begin_hit_sounds;//
+  hit.wav;//sample name  
+  end_hit_sounds;
+  begin_die_sounds;//
+  explosion1.wav;//sample name
+  explosion2.wav;//sample name 
+  end_die_sounds;
+  begin_eat_block;//
+  end_eat_block;
+  begin_death_block;//
+  end_death_block;
+  begin_hit_block;//
+  end_hit_block;
+  begin_timed_block;//
+   200;//interval in milliseconds                      creature not carrying captain
+    begin_conditions;
+  34;//condition
+    1.000000;//condition parameter0
+   0.000000;//condition parameter1
+    end_conditions;
+    begin_effects;
+    15;//effect number                          change to normal pillbox
+      51.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      -1.000000;//parameter4
+    end_effects;
+   end_timed_block;
+  begin_specialties;//
+  ;//description
+    0;//number
+    4.000000;//parameter0
+    0.000000;//parameter1
+    350.000000;//parameter2
+    350.000000;//parameter3
+   end_specialties;
  end_of_file;
 
-Classes: 0= NA 1=Alien ships 2=? 3=Alien soldiers 4=All Allied 5=Asteroids 6=neutral ships
+Classes: 0= NA 1=Alien ships 2=? 3=Alien soldiers 4=All Allied 5=Asteroids 6=neutral ships 7=player fighters 8=player turrets

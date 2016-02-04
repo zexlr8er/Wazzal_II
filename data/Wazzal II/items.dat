@@ -762,13 +762,13 @@ Commanding machine gun;//name---------------------------------------
     end_conditions;
     begin_effects;
     51;//effect number
-      0.000000;//parameter1
-      19.000000;//parameter2
+      1.000000;//parameter1
+      8.000000;//parameter2
       100.000000;//parameter3
       -2.000000;//parameter4
     50;//effect number
-      0.000000;//parameter1
-      19.000000;//parameter2
+      1.000000;//parameter1
+      8.000000;//parameter2
       100.000000;//parameter3
       -2.000000;//parameter4
     49;//effect number
@@ -3848,13 +3848,13 @@ Commanding pillbox;//name---------------------------------------
     end_conditions;
     begin_effects;
     51;//effect number
-      0.000000;//parameter1
-      51.000000;//parameter2
+      1.000000;//parameter1
+      8.000000;//parameter2
       100.000000;//parameter3
       -2.000000;//parameter4
     50;//effect number
-      0.000000;//parameter1
-      51.000000;//parameter2
+      1.000000;//parameter1
+      8.000000;//parameter2
       100.000000;//parameter3
       -2.000000;//parameter4
     49;//effect number
