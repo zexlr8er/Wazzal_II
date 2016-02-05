@@ -12015,11 +12015,11 @@ Storm large;//name---------------------------------------
   -1;//eat item number from items.dat, -1=nothing
   1.80000;//creature size
   1000.0000;//creature weight (affects pushing)
-  1.300000;//maximum movement speed
-  0.700000;//minimum movement speed
+  1.400000;//maximum movement speed
+  1.100000;//minimum movement speed
   0.000000;//leg animation speed
-  0.13000;//turn speed
-  0.025000;//inertia level (acceleration/deceleration)
+  0.18000;//turn speed
+  0.045000;//inertia level (acceleration/deceleration)
     0;//hide when behind walls
   0;//weapon number
   0.000000;//weapon_x
@@ -12156,11 +12156,11 @@ Storm large;//name---------------------------------------
   -1;//eat item number from items.dat, -1=nothing
   1.80000;//creature size
   1000.0000;//creature weight (affects pushing)
-  1.300000;//maximum movement speed
-  0.700000;//minimum movement speed
+  1.450000;//maximum movement speed
+  1.100000;//minimum movement speed
   0.000000;//leg animation speed
-  0.13000;//turn speed
-  0.025000;//inertia level (acceleration/deceleration)
+  0.18000;//turn speed
+  0.045000;//inertia level (acceleration/deceleration)
     0;//hide when behind walls
   96;//weapon number
   0.000000;//weapon_x
