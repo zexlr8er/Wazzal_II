@@ -2,7 +2,7 @@ intro;//name-----------------------------------
   0;//identifier
   anim.jpg;//texture
   5;//frames
-  The year 3234, in the Errxelz System....;
+  The year 3334, in the Errxelz System....;
     50;//text_y
     0;//start_x
     0;//start_y

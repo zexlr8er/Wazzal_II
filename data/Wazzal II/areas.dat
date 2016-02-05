@@ -547,7 +547,7 @@ end_alien_list;
 3;
 4;
   end_excluded_plot_object_classes;
- none;//enter area text, specify none to not show it
+ As the Wolf IV emerges from the warpgate, a sudden chill runs through you. Only a shattered core remains of the Earth's once beautiful sun, casting a terrifying red glow over the remnants of the Solar System. \ \ You close your eyes, and think back to those terrible days, now almost 17 years ago. The first Alien treachery, where thousands of your fellow inhabitants of Earth were kidnapped and taken to the terrible 'Zoo' prison planet... The supernova itself, destroying all traces of life in this once vibrant system... \ \ The less time you spend here, the better. Confederate intelligence suggests that some Alien ship parts have been spotted on the surface of some of the remaining planets. You will have to be careful, however: this is now a dangerous, dangerous part of the Confederacy...;//enter area text, specify none to not show it
 21;//Desert---------------------------------------------------------planet
  Garreempir;//area name
   0;//area class
