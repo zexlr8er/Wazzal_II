@@ -3848,7 +3848,7 @@ Drop grenade food;//name--------------------------------------------------------
   end_effects;
 Activate longer rifle view;//name----------------------------------------------
   110;//identifier
-  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   200;//run every n milliseconds

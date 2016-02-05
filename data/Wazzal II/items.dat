@@ -63,7 +63,7 @@ SR Radar;//name---------------------------------------
     end_conditions;
     begin_effects;
     13;//effect number
-      1500.000000;//parameter1
+      2000.000000;//parameter1
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
@@ -811,7 +811,7 @@ SR Battlescanner;//name---------------------------------------
     end_conditions;
     begin_effects;
     13;//effect number
-      1500.000000;//parameter1
+      2000.000000;//parameter1
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
@@ -4895,7 +4895,7 @@ Counter for radar;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-Commanding battleship;//name---------------------------------------
+Commanding destroyer;//name---------------------------------------
 123;//identifier
   0;//item class
   0.000000;//weight
@@ -5018,7 +5018,7 @@ MR Battle scanner;//name---------------------------------------
     end_conditions;
     begin_effects;
     13;//effect number
-      2500.000000;//parameter1
+      3500.000000;//parameter1
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
@@ -5122,7 +5122,7 @@ MR Radar;//name---------------------------------------from 1
     end_conditions;
     begin_effects;
     13;//effect number
-      2500.000000;//parameter1
+      3500.000000;//parameter1
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
@@ -8319,7 +8319,7 @@ Use to fire a deadly long-ranged mortar. Use as a weapon by left-clicking, and t
     end_conditions;
     begin_effects;
     13;//effect number
-      3500.000000;//parameter1
+      6500.000000;//parameter1
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
@@ -8358,7 +8358,7 @@ Use to fire a deadly long-ranged mortar. Use as a weapon by left-clicking, and t
     end_conditions;
     begin_effects;
     13;//effect number
-      3500.000000;//parameter1
+      6500.000000;//parameter1
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
