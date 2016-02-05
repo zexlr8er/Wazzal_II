@@ -3905,7 +3905,7 @@ Tank (parked);//name---------------------------------------
   0;//die after how many seconds, 0=doesn't die
   -1;//eat item number from items.dat, -1=nothing
   2.400000;//creature size
-  9999.000000;//creature weight (affects pushing)
+  500.000000;//creature weight (affects pushing)
   1.300000;//maximum movement speed
   0.000000;//minimum movement speed
   9.000000;//leg animation speed
@@ -4015,18 +4015,12 @@ fighter_move.wav;//
     0;//number
     4.000000;//parameter0
     0.000000;//parameter1
-    700.000000;//parameter2
-    700.000000;//parameter3
+    1100.000000;//parameter2
+    1100.000000;//parameter3
 resistance to alien fighter;//description
     1;//number
    0.000000;//parameter0
     0.300000;//parameter1
-    0.000000;//parameter2
-    0.000000;//parameter3
- No pushing;//description
-    4;//number
-    0.000000;//parameter0
-    1.000000;//parameter1
     0.000000;//parameter2
     0.000000;//parameter3
   No AI;//description
@@ -11366,7 +11360,7 @@ Confederate Light Fighter (stationary on planet);//name-------------------------
   0;//die after how many seconds, 0=doesn't die
   -1;//eat item number from items.dat, -1=nothing
   2.200000;//creature size
-  100.000000;//creature weight (affects pushing)
+  500.000000;//creature weight (affects pushing)
   0.000000;//maximum movement speed
   0.000000;//minimum movement speed
   20.000000;//leg animation speed
