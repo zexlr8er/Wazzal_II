@@ -1362,14 +1362,35 @@ Space (wrecks);//name-----------------------------------------------------------
   0.500000;//light max b
   0.000000;//night temperature
   0.000000;//day temperature
-  1.000000;//maximum wind speed
-  -1;//rain particle, -1=no rain
-  300;//rain_particle_life_min
-  800;//rain_particle_life_max
-  15000;//rain_probability (the bigger the number, the more unlikely the rain)
-  5000;//rain_time_min
-  15000;//rain_time_max
-  begin_effects_block;//    
+  3.500000;//maximum wind speed
+  77;//rain particle, -1=no rain
+  800;//rain_particle_life_min
+  2000;//rain_particle_life_max
+  7000;//rain_probability (the bigger the number, the more unlikely the rain)
+  2000;//rain_time_min
+  5000;//rain_time_max
+  begin_effects_block;//   
+  Violent solar wind!;//event text
+    100;//interval
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+    67;//effect number  ---push
+      0.15000;//parameter1
+      0.000000;//parameter2
+      2.000000;//parameter3
+      100.000000;//parameter4
+	 23;//effect number   ---health
+      -0.150000;//parameter1
+      3.000000;//parameter2
+      0.000000;//parameter3
+      100.000000;//parameter4
+	      1;//effect number  ---slow
+      100.000000;//parameter1
+      -1.000000;//parameter2
+      0.60000;//parameter3
+      0.000000;//parameter4
+    end_effects;    
   end_effects_block;
   start_of_terrains;//  
   2;
@@ -1559,9 +1580,9 @@ fightercrash.wav;
   0.900000;//light r amplitude
   1.000000;//light g amplitude
   1.000000;//light b amplitude
-  0.5500000;//light max r
-  0.550000;//light max g
-  0.550000;//light max b
+  0.4500000;//light max r
+  0.450000;//light max g
+  0.450000;//light max b
   0.300000;//light min r
   0.300000;//light min g
   0.300000;//light min b
@@ -1571,9 +1592,9 @@ fightercrash.wav;
   77;//rain particle, -1=no rain
   800;//rain_particle_life_min
   2000;//rain_particle_life_max
-  12000;//rain_probability (the bigger the number, the more unlikely the rain)
+  7000;//rain_probability (the bigger the number, the more unlikely the rain)
   2000;//rain_time_min
-  4000;//rain_time_max
+  5000;//rain_time_max
   begin_effects_block;//
   Violent solar wind!;//event text
     100;//interval
@@ -1687,10 +1708,10 @@ Mars;//name-------------------------------------------
     end_effects;
   end_effects_block;
   start_of_terrains;
-   11;
-      11;
-	     11;
-		    11;
+   120;
+      120;
+	     120;
+		   120;
   31;
   32;
   10;
@@ -1743,5 +1764,85 @@ Mars;//name-------------------------------------------
     350;//number of these on a 100*100 map
 	210;//object definition number		mist small
     350;//number of these on a 100*100 map
+  end_of_props;
+ Venus;//name-------------------------------------------
+  19;//identifier
+  0;//can be a random map
+  50;//light oscillate time
+  0.000000;//light r phase shift
+  0.000000;//light g phase shift
+  0.000000;//light b phase shift
+  1.000000;//light r amplitude
+  0.700000;//light g amplitude
+  0.700000;//light b amplitude
+  0.900000;//light max r
+  0.550000;//light max g
+  0.550000;//light max b
+  0.600000;//light min r
+  0.300000;//light min g
+  0.300000;//light min b
+  0.000000;//night temperature
+  0.000000;//day temperature
+  2.200000;//maximum wind speed
+  10;//rain particle, -1=no rain
+  700;//rain_particle_life_min
+  1100;//rain_particle_life_max
+  10000;//rain_probability (the bigger the number, the more unlikely the rain)
+  5000;//rain_time_min
+  15000;//rain_time_max
+  begin_effects_block;
+  Raining Lava! Seek cover under a cloud!;//event text
+    100;//interval
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+    23;//effect number
+      -0.50000;//parameter1
+      -1.000000;//parameter2
+      0.000000;//parameter3
+      100.000000;//parameter4
+    end_effects;
+  end_effects_block;
+  start_of_terrains;
+   118;
+   119;
+   118;
+   119;
+   118;
+   120;
+  end_of_terrains;
+  start_of_night_sounds;
+  magma.wav;
+  magma2.wav;
+      wind_low_0.wav;
+	  wind_low_1.wav;
+	  wind0.wav;
+	  wind1.wav;
+	  wind2.wav;
+	  thunderclap2.wav;
+	  thunderclap3.wav;
+	  thunderclap4.wav;
+  end_of_night_sounds;
+  start_of_day_sounds;
+	  wind_low_0.wav;
+	  wind_low_1.wav;
+	  wind0.wav;
+	  wind1.wav;
+	  wind2.wav;
+	  thunderclap2.wav;
+	  thunderclap3.wav;
+	  thunderclap4.wav;
+  end_of_day_sounds;
+  start_of_props;
+    206;//object definition number		mist
+    450;//number of these on a 100*100 map
+	207;//object definition number		mist
+    450;//number of these on a 100*100 map
+	208;//object definition number		mist
+    450;//number of these on a 100*100 map
+	209;//object definition number		mist small
+    550;//number of these on a 100*100 map
+	210;//object definition number		mist small
+    550;//number of these on a 100*100 map
   end_of_props;
 end_of_file;

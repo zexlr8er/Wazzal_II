@@ -73,4 +73,14 @@ Pirate;//name-------------------------------------------
   2;
   6;
   end_hostile_sides;
+ Storms (enemies of everyone);//name-------------------------------------------
+  11;//identifier
+  start_hostile_sides;
+0; 
+ 1;
+  2;
+  6;
+  8;
+  10;
+  end_hostile_sides;
 end_of_file;

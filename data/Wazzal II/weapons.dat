@@ -5452,4 +5452,55 @@ Fishing rod;//name---------------------------------------
     7.000000;//parameter3
     0.000000;//parameter4
   end_hit_effects;
+Volcano damage;//name---------------------------------------
+  108;//identifier
+  7;//class
+  fire0.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  1.000000;//bullet size
+  0.000000;//spread
+  2.000000;//bullet speed
+  25.000000;//time until bullet disappears
+  10;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.260000;//push target back
+  0.000000;//push shooter back
+  explosion2.wav;//fire sound
+  explosion1.wav;//hit sound
+  1.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  26;//effect number
+    24.000000;//parameter1
+    30.000000;//parameter2
+    10.000000;//parameter3
+    0.000000;//parameter4 
+  end_fire_effects;
+  begin_hit_effects;
+  4;//effect number                15 from shields (player damage x0.1)
+    -150.000000;//parameter1
+    0.000000;//parameter2
+    8.000000;//parameter3
+    0.000000;//parameter4 
+  4;//effect number                150 from health (for enemies)
+    -150.000000;//parameter1
+    0.000000;//parameter2
+    4.000000;//parameter3
+    0.000000;//parameter4  
+4;//effect number                  5 from shields (player damage x0.1)
+    -50.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+	  36;//effect number           shake
+    9.000000;//parameter1
+    600.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4 
+  end_hit_effects;
 end_of_file;

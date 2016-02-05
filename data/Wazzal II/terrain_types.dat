@@ -1579,7 +1579,7 @@ Jupiter;//name----------------------------------
   end_terrain_frames;
   begin_effects_block;
   end_effects_block;
-    Jupiter;//name----------------------------------
+    Jupiter (animation 1);//name----------------------------------
   75;//identifier
   0;//AI avoids this terrain
   0;//do not place on map edges on random selection
@@ -1591,8 +1591,14 @@ Jupiter;//name----------------------------------
   -1;//override footstep particle
   none.wav;//override footstep sound
   begin_terrain_frames;
-  jupiter_8_0.png;//terrain texture
-    0.000000;//time to display frame
+	  jupiter_8_0.png;//terrain texture
+    80.000000;//time to display frame
+	  jupiter_8_1.png;//terrain texture
+    80.000000;//time to display frame
+	  jupiter_8_2.png;//terrain texture
+    80.000000;//time to display frame
+	  jupiter_8_3.png;//terrain texture
+    80.000000;//time to display frame
   end_terrain_frames;
   begin_effects_block;
   end_effects_block;
@@ -1715,7 +1721,7 @@ Jupiter;//name----------------------------------
   end_terrain_frames;
   begin_effects_block;
   end_effects_block;
-    Jupiter;//name----------------------------------
+    Jupiter (animation 2);//name----------------------------------
   83;//identifier
   0;//AI avoids this terrain
   0;//do not place on map edges on random selection
@@ -1728,7 +1734,13 @@ Jupiter;//name----------------------------------
   none.wav;//override footstep sound
   begin_terrain_frames;
   jupiter_16_0.png;//terrain texture
-    0.000000;//time to display frame
+    80.000000;//time to display frame
+	  jupiter_16_1.png;//terrain texture
+    80.000000;//time to display frame
+	  jupiter_16_2.png;//terrain texture
+    80.000000;//time to display frame
+	  jupiter_16_3.png;//terrain texture
+    80.000000;//time to display frame
   end_terrain_frames;
   begin_effects_block;
   end_effects_block;
@@ -1783,7 +1795,7 @@ Jupiter;//name----------------------------------
   end_terrain_frames;
   begin_effects_block;
   end_effects_block;
-      Jupiter;//name----------------------------------
+      Jupiter (animation 3);//name----------------------------------
   87;//identifier
   0;//AI avoids this terrain
   0;//do not place on map edges on random selection
@@ -1795,8 +1807,14 @@ Jupiter;//name----------------------------------
   -1;//override footstep particle
   none.wav;//override footstep sound
   begin_terrain_frames;
-  jupiter_20_0.png;//terrain texture
-    0.000000;//time to display frame
+	  jupiter_20_0.png;//terrain texture
+    80.000000;//time to display frame
+	  jupiter_20_1.png;//terrain texture
+    80.000000;//time to display frame
+	  jupiter_20_2.png;//terrain texture
+    80.000000;//time to display frame
+	  jupiter_20_3.png;//terrain texture
+    80.000000;//time to display frame
   end_terrain_frames;
   begin_effects_block;
   end_effects_block;
@@ -1919,7 +1937,7 @@ Jupiter;//name----------------------------------
   end_terrain_frames;
   begin_effects_block;
   end_effects_block;
-      Jupiter;//name----------------------------------
+      Jupiter (animation 4);//name----------------------------------
   95;//identifier
   0;//AI avoids this terrain
   0;//do not place on map edges on random selection
@@ -1931,8 +1949,14 @@ Jupiter;//name----------------------------------
   -1;//override footstep particle
   none.wav;//override footstep sound
   begin_terrain_frames;
-  jupiter_28_0.png;//terrain texture
-    0.000000;//time to display frame
+	  jupiter_28_0.png;//terrain texture
+    80.000000;//time to display frame
+	  jupiter_28_1.png;//terrain texture
+    80.000000;//time to display frame
+	  jupiter_28_2.png;//terrain texture
+    80.000000;//time to display frame
+	  jupiter_28_3.png;//terrain texture
+    80.000000;//time to display frame
   end_terrain_frames;
   begin_effects_block;
   end_effects_block;
@@ -2021,7 +2045,7 @@ Jupiter;//name----------------------------------
   end_terrain_frames;
   begin_effects_block;
   end_effects_block;
-    Jupiter;//name----------------------------------
+    Jupiter (animation 5);//name----------------------------------
   101;//identifier
   0;//AI avoids this terrain
   0;//do not place on map edges on random selection
@@ -2033,8 +2057,14 @@ Jupiter;//name----------------------------------
   -1;//override footstep particle
   none.wav;//override footstep sound
   begin_terrain_frames;
-  jupiter_34_0.png;//terrain texture
-    0.000000;//time to display frame
+	  jupiter_34_0.png;//terrain texture
+    80.000000;//time to display frame
+	  jupiter_34_1.png;//terrain texture
+    80.000000;//time to display frame
+	  jupiter_34_2.png;//terrain texture
+    80.000000;//time to display frame
+	  jupiter_34_3.png;//terrain texture
+    80.000000;//time to display frame
   end_terrain_frames;
   begin_effects_block;
   end_effects_block;
@@ -2123,7 +2153,7 @@ Jupiter;//name----------------------------------
   end_terrain_frames;
   begin_effects_block;
   end_effects_block;
-         Jupiter;//name----------------------------------
+         Jupiter (animation 6);//name----------------------------------
   107;//identifier
   0;//AI avoids this terrain
   0;//do not place on map edges on random selection
@@ -2135,8 +2165,14 @@ Jupiter;//name----------------------------------
   -1;//override footstep particle
   none.wav;//override footstep sound
   begin_terrain_frames;
-  jupiter_40_0.png;//terrain texture
-    0.000000;//time to display frame
+	  jupiter_40_0.png;//terrain texture
+    80.000000;//time to display frame
+	  jupiter_40_1.png;//terrain texture
+    80.000000;//time to display frame
+	  jupiter_40_2.png;//terrain texture
+    80.000000;//time to display frame
+	  jupiter_40_3.png;//terrain texture
+    80.000000;//time to display frame
   end_terrain_frames;
   begin_effects_block;
   end_effects_block;
@@ -2225,7 +2261,7 @@ Jupiter;//name----------------------------------
   end_terrain_frames;
   begin_effects_block;
   end_effects_block;
-    Jupiter;//name----------------------------------
+    Jupiter (animation 7);//name----------------------------------
   113;//identifier
   0;//AI avoids this terrain
   0;//do not place on map edges on random selection
@@ -2237,8 +2273,14 @@ Jupiter;//name----------------------------------
   -1;//override footstep particle
   none.wav;//override footstep sound
   begin_terrain_frames;
-  jupiter_46_0.png;//terrain texture
-    0.000000;//time to display frame
+	  jupiter_46_0.png;//terrain texture
+    80.000000;//time to display frame
+	  jupiter_46_1.png;//terrain texture
+    80.000000;//time to display frame
+	  jupiter_46_2.png;//terrain texture
+    80.000000;//time to display frame
+	  jupiter_46_3.png;//terrain texture
+    80.000000;//time to display frame
   end_terrain_frames;
   begin_effects_block;
   end_effects_block;
@@ -2315,6 +2357,129 @@ Jupiter;//name----------------------------------
     begin_conditions;	  
     end_conditions;
     begin_effects;
+    end_effects;
+  end_effects_block;
+  Fire;//name---------------------------------------
+  118;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  1.000000;//base light r
+  0.400000;//base light g
+  0.400000;//base light b
+  4000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  texture_fire1.jpg;//terrain texture
+    100.000000;//time to display frame
+  texture_fire2.jpg;//terrain texture
+    100.000000;//time to display frame
+  texture_fire3.jpg;//terrain texture
+    100.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+    none;//event text
+    100.000000;//interval
+    0;//run only once 0=no, 1=yes
+    begin_conditions;
+	8;//condition
+      2.000000;//condition parameter0
+      0.000000;//condition parameter1
+    end_conditions;
+    begin_effects;
+    36;//effect number
+      2.500000;//parameter1
+      200.000000;//parameter2
+      0.00000;//parameter3
+      0.000000;//parameter4
+	  	  	  33;//effect number
+      10.00000;//parameter1
+      0.600000;//parameter2
+      200.00000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  end_effects_block;
+  Fire 2;//name---------------------------------------
+  119;//identifier
+  0;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  0;//do not place random objects on this terrain
+  1.000000;//base light r
+  0.200000;//base light g
+  0.400000;//base light b
+  4000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  texture_fire4.jpg;//terrain texture
+    100.000000;//time to display frame
+  texture_fire5.jpg;//terrain texture
+    100.000000;//time to display frame
+  texture_fire6.jpg;//terrain texture
+    100.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+    none;//event text
+    100.000000;//interval
+    0;//run only once 0=no, 1=yes
+    begin_conditions;
+	8;//condition
+      2.000000;//condition parameter0
+      0.000000;//condition parameter1
+    end_conditions;
+    begin_effects;
+    36;//effect number
+      3.200000;//parameter1
+      200.000000;//parameter2
+      0.00000;//parameter3
+      0.000000;//parameter4
+	  	  33;//effect number
+      10.00000;//parameter1
+      0.600000;//parameter2
+      200.00000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  end_effects_block;
+  Lava planets;//name---------------------------------------
+  120;//identifier
+  1;//AI avoids this terrain
+  0;//do not place on map edges on random selection
+  1;//do not place random objects on this terrain
+  1.000000;//base light r
+  0.100000;//base light g
+  0.100000;//base light b
+  4000.000000;//footstep particle live time, -1=no footsteps
+  -1;//override footstep particle
+  none;//override footstep sound
+  begin_terrain_frames;
+  lava0.jpg;//terrain texture
+    100.000000;//time to display frame
+  lava1.jpg;//terrain texture
+    100.000000;//time to display frame
+  lava2.jpg;//terrain texture
+    100.000000;//time to display frame
+  end_terrain_frames;
+  begin_effects_block;
+    none;//event text
+    100.000000;//interval
+    0;//run only once 0=no, 1=yes
+    begin_conditions;
+	8;//condition
+      2.000000;//condition parameter0
+      0.000000;//condition parameter1
+    end_conditions;
+    begin_effects;
+    36;//effect number
+      1.800000;//parameter1
+      200.000000;//parameter2
+      0.00000;//parameter3
+      0.000000;//parameter4
+	  	  33;//effect number
+      10.00000;//parameter1
+      0.600000;//parameter2
+      200.00000;//parameter3
+      0.000000;//parameter4
     end_effects;
   end_effects_block;
 end_of_file;

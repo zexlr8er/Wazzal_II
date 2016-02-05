@@ -7688,7 +7688,7 @@ shuttle.png;//texture name
   begin_wield_slots;
   end_wield_slots;
   begin_effects_block;
-    Machine gun deployed!;//event text
+    99PP;//event text
     none;//event failure text
     use.wav;//sound, none for nothing
     0;//vanishes after event, 0=no, 1=yes
@@ -7704,6 +7704,26 @@ shuttle.png;//texture name
       0.000000;//parameter4   
 	      4;//effect number
       2000.000000;//parameter1
+      1.000000;//parameter2
+      13.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
+	2000PP;//event text
+    none;//event failure text
+    use.wav;//sound, none for nothing
+    0;//vanishes after event, 0=no, 1=yes
+    U;//use key
+    8;//quick key
+    begin_conditions; 
+    end_conditions;
+    begin_effects;  
+    44;//effect number
+      2001.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4   
+	      4;//effect number
+      50000.000000;//parameter1
       1.000000;//parameter2
       13.000000;//parameter3
       0.000000;//parameter4  
