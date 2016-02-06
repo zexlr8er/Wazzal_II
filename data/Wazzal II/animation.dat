@@ -62,9 +62,89 @@ Ranks;//name-----------------------------------
     0;//start_y
     1024;//end_x
     768;//end_y
-Map;//name-----------------------------------
+	Map default;//name-----------------------------------
   4;//identifier
- book3.jpg;//texture
+confed_map.jpg;//texture
+  1;//frames
+  ;
+    550;//text_y
+    0;//start_x
+    0;//start_y
+    1024;//end_x
+    768;//end_y
+	Map err;//name-----------------------------------
+  5;//identifier
+confed_map_err.jpg;//texture
+  1;//frames
+  ;
+    550;//text_y
+    0;//start_x
+    0;//start_y
+    1024;//end_x
+    768;//end_y
+		Map enn;//name-----------------------------------
+  6;//identifier
+confed_map_enn.jpg;//texture
+  1;//frames
+  ;
+    550;//text_y
+    0;//start_x
+    0;//start_y
+    1024;//end_x
+    768;//end_y
+			Map Tiodia;//name-----------------------------------
+  7;//identifier
+confed_map_tio.jpg;//texture
+  1;//frames
+  ;
+    550;//text_y
+    0;//start_x
+    0;//start_y
+    1024;//end_x
+    768;//end_y
+				Map Eent;//name-----------------------------------
+  8;//identifier
+confed_map_een.jpg;//texture
+  1;//frames
+  ;
+    550;//text_y
+    0;//start_x
+    0;//start_y
+    1024;//end_x
+    768;//end_y
+					Map Ahr;//name-----------------------------------
+  9;//identifier
+confed_map_arh.jpg;//texture
+  1;//frames
+  ;
+    550;//text_y
+    0;//start_x
+    0;//start_y
+    1024;//end_x
+    768;//end_y
+					Map New dawn;//name-----------------------------------
+  10;//identifier
+confed_map_new.jpg;//texture
+  1;//frames
+  ;
+    550;//text_y
+    0;//start_x
+    0;//start_y
+    1024;//end_x
+    768;//end_y
+					Map Ntedro;//name-----------------------------------
+  11;//identifier
+confed_map_nte.jpg;//texture
+  1;//frames
+  ;
+    550;//text_y
+    0;//start_x
+    0;//start_y
+    1024;//end_x
+    768;//end_y
+						Map Sol;//name-----------------------------------
+ 12;//identifier
+confed_map_sol.jpg;//texture
   1;//frames
   ;
     550;//text_y

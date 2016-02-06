@@ -4407,6 +4407,213 @@ If has new Pirate flag item;//name----------------------------------------------
     0.000000;//parameter3
     0.000000;//parameter4 
   end_effects;
+ Show map with current position;//name----------------------------------------------
+  130;//identifier
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  200;//run every n milliseconds
+ none;//message
+  0;//message type, 0=quick message, 1=journal
+  paper.wav;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  13;//condition
+   0.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+25;//effect number
+    4.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+  end_effects;
+   Show map with current position, Errxelz;//name----------------------------------------------
+  131;//identifier
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  200;//run every n milliseconds
+ none;//message
+  0;//message type, 0=quick message, 1=journal
+  paper.wav;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  13;//condition
+   0.000000;//condition parameter0
+    0.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+25;//effect number
+    5.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+  end_effects;
+     Show map with current position, Ennk;//name----------------------------------------------
+  132;//identifier
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  200;//run every n milliseconds
+ none;//message
+  0;//message type, 0=quick message, 1=journal
+  paper.wav;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  13;//condition
+   5.000000;//condition parameter0
+    0.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+25;//effect number
+    6.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+  end_effects;
+     Show map with current position, Tiodia;//name----------------------------------------------
+  133;//identifier
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  200;//run every n milliseconds
+ none;//message
+  0;//message type, 0=quick message, 1=journal
+  paper.wav;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  13;//condition
+   8.000000;//condition parameter0
+    0.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+25;//effect number
+    7.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+  end_effects;
+     Show map with current position, Eent;//name----------------------------------------------
+  134;//identifier
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  200;//run every n milliseconds
+ none;//message
+  0;//message type, 0=quick message, 1=journal
+  paper.wav;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  13;//condition
+   18.000000;//condition parameter0
+    0.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+25;//effect number
+    8.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+  end_effects;
+     Show map with current position, Ahr;//name----------------------------------------------
+  135;//identifier
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  200;//run every n milliseconds
+ none;//message
+  0;//message type, 0=quick message, 1=journal
+  paper.wav;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  13;//condition
+   12.000000;//condition parameter0
+    0.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+25;//effect number
+    9.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+  end_effects;
+       Show map with current position, New Dawn;//name----------------------------------------------
+  136;//identifier
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  200;//run every n milliseconds
+ none;//message
+  0;//message type, 0=quick message, 1=journal
+  paper.wav;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  13;//condition
+   16.000000;//condition parameter0
+    0.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+25;//effect number
+    10.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+  end_effects;
+       Show map with current position, Ntedro;//name----------------------------------------------
+  137;//identifier
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  200;//run every n milliseconds
+ none;//message
+  0;//message type, 0=quick message, 1=journal
+  paper.wav;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  13;//condition
+   15.000000;//condition parameter0
+    0.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+25;//effect number
+    11.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+  end_effects;
+       Show map with current position, Sol;//name----------------------------------------------
+  138;//identifier
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  200;//run every n milliseconds
+ none;//message
+  0;//message type, 0=quick message, 1=journal
+  paper.wav;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  13;//condition
+   20.000000;//condition parameter0
+    0.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+25;//effect number
+    12.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+  end_effects;
 end_of_file;
 
 

@@ -6681,7 +6681,7 @@ book0.png;//texture name
       0.000000;//parameter3
       0.000000;//parameter4
     end_effects;
-You open the dusty book.;//event text
+		You open the dusty book.;//event text        map default
     none;//event failure text
    paper.wav;//sound, none for nothing
     0;//vanishes after event, 0=no, 1=yes
@@ -6690,9 +6690,49 @@ You open the dusty book.;//event text
     begin_conditions;
     end_conditions;
     begin_effects;
-25;//effect number
-    4.000000;//parameter1
-      0.000000;//parameter2
+29;//effect number
+    130.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+	  29;//effect number
+    131.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+	  	  29;//effect number
+    132.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+	  	  29;//effect number
+    133.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+	  	  29;//effect number
+    134.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+	  	  29;//effect number
+    135.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+	  	  	  29;//effect number
+    136.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+	  	  	  29;//effect number
+    137.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+	  	  	  29;//effect number
+    138.000000;//parameter1
+      1.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
     end_effects;
