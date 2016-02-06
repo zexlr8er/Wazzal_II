@@ -1722,6 +1722,8 @@ Mars;//name-------------------------------------------
 47;
 46;
 47;
+10;
+10;
   end_of_terrains;
   start_of_night_sounds;
   magma.wav;
@@ -1845,4 +1847,111 @@ Mars;//name-------------------------------------------
 	210;//object definition number		mist small
     550;//number of these on a 100*100 map
   end_of_props;
+ Earth;//name----------------------------------------------------------------
+  20;//identifier
+  0;//can be a random map
+  50;//light oscillate time
+  0.000000;//light r phase shift
+  0.000000;//light g phase shift
+  0.000000;//light b phase shift
+  0.900000;//light r amplitude
+  0.900000;//light g amplitude
+  1.000000;//light b amplitude
+  0.650000;//light max r
+  0.530000;//light max g
+  0.50000;//light max b
+  0.30000;//light min r
+  0.30000;//light min g
+  0.50000;//light min b
+  -0.200000;//night temperature
+  -0.200000;//day temperature
+  2.000000;//maximum wind speed
+  14;//rain particle, -1=no rain
+  300;//rain_particle_life_min
+  800;//rain_particle_life_max
+  6000;//rain_probability (the bigger the number, the more unlikely the rain)
+  10000;//rain_time_min
+  25000;//rain_time_max
+  begin_effects_block;
+  end_effects_block;
+  start_of_terrains;
+  31;
+  32;
+  10;
+46;
+47;
+44;
+40;
+41;
+  end_of_terrains;
+  start_of_night_sounds;
+  wind0.wav;
+  wind1.wav;
+  wind2.wav;
+  wind_low_1.wav;
+  wind_low_0.wav;
+  end_of_night_sounds;
+  start_of_day_sounds;
+  wind0.wav;
+  wind1.wav;
+  wind2.wav;
+  wind_low_1.wav;
+  wind_low_0.wav;
+  end_of_day_sounds;
+  start_of_props;
+      206;//object definition number		mist
+    150;//number of these on a 100*100 map
+	207;//object definition number		mist
+    150;//number of these on a 100*100 map
+	208;//object definition number		mist
+    150;//number of these on a 100*100 map
+	209;//object definition number		mist small
+    250;//number of these on a 100*100 map
+	210;//object definition number		mist small
+    250;//number of these on a 100*100 map
+  230;//object definition number		ruin ship
+ 15;//number of these on a 100*100 map
+ 231;//object definition number		ruin ship
+ 15;//number of these on a 100*100 map
+ 232;//object definition number		ruin ship
+ 15;//number of these on a 100*100 map
+ 233;//object definition number		ruin ship
+  15;//number of these on a 100*100 map
+ 234;//object definition number		ruin ship
+  15;//number of these on a 100*100 map
+    235;//object definition number		kivi
+    240;//number of these on a 100*100 map
+  236;//object definition number		kivi
+    240;//number of these on a 100*100 map
+  237;//object definition number		kivi
+    240;//number of these on a 100*100 map
+	   238;//object definition number		rubble
+   130;//number of these on a 100*100 map
+ 239;//object definition number		rubble
+   130;//number of these on a 100*100 map
+239;//object definition number		rubble
+   130;//number of these on a 100*100 map
+          241;//object definition number		crater
+   80;//number of these on a 100*100 map
+      145;//object definition number		rubble
+   100;//number of these on a 100*100 map
+ 146;//object definition number		rubble
+   100;//number of these on a 100*100 map
+147;//object definition number		rubble
+   100;//number of these on a 100*100 map
+  end_of_props;
 end_of_file;
+
+
+
+  47;//object definition number		ast1
+    100;//number of these on a 100*100 map
+
+	
+
+   238;//object definition number		rubble
+   100;//number of these on a 100*100 map
+ 239;//object definition number		rubble
+   100;//number of these on a 100*100 map
+239;//object definition number		rubble
+   100;//number of these on a 100*100 map

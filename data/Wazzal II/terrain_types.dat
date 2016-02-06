@@ -815,10 +815,13 @@ Water;//name---------------------------------------
     100.000000;//interval
     1;//run only once 0=no, 1=yes
     begin_conditions;
-26;//condition
+26;//condition                                not jetpack
       26.000000;//condition parameter0
       0.000000;//condition parameter1 
-34;//condition
+34;//condition                                not carrying
+    1.000000;//condition parameter0
+   0.000000;//condition parameter1
+  6;//condition                               not wolf
     1.000000;//condition parameter0
    0.000000;//condition parameter1
     end_conditions;
@@ -2363,7 +2366,7 @@ Jupiter;//name----------------------------------
   118;//identifier
   0;//AI avoids this terrain
   0;//do not place on map edges on random selection
-  0;//do not place random objects on this terrain
+  1;//do not place random objects on this terrain
   1.000000;//base light r
   0.400000;//base light g
   0.400000;//base light b
@@ -2404,7 +2407,7 @@ Jupiter;//name----------------------------------
   119;//identifier
   0;//AI avoids this terrain
   0;//do not place on map edges on random selection
-  0;//do not place random objects on this terrain
+  1;//do not place random objects on this terrain
   1.000000;//base light r
   0.200000;//base light g
   0.400000;//base light b

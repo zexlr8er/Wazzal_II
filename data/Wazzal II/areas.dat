@@ -642,4 +642,20 @@ end_alien_list;
 5;
   end_excluded_plot_object_classes;
  none;//enter area text, specify none to not show it
+    26;//---------------------------------------------------------
+ Earth;//area name
+  1;//area class
+  20;//climate in climate_types.dat, -1=random climate
+  26;//terrain map number
+  2;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
+  1.0000000;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
+  begin_alien_list;
+  end_alien_list;
+  begin_excluded_plot_object_classes;
+2;
+3;
+4;
+5;
+  end_excluded_plot_object_classes;
+ none;//enter area text, specify none to not show it
 end_of_file;
