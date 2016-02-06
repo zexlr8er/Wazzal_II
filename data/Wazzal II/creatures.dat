@@ -3255,19 +3255,6 @@ Confederate Light Fighter (space);//name---------------------------------------
   begin_hit_block;//
   end_hit_block;
   begin_timed_block;//
-  20;//interval in milliseconds
-    begin_conditions;
-    14;//number   
-      4.000000;//parameter0
-      20.000000;//parameter1    
-    end_conditions;
-    begin_effects;
-    4;//effect number
-      -500.000000;//parameter1
-      0.000000;//parameter2
-      4.000000;//parameter3
-      0.000000;//parameter4
-     end_effects;
 400;//interval in milliseconds -----realistic combat
     begin_conditions;
     8;//condition
@@ -3843,19 +3830,6 @@ Confederate Heavy Fighter (space);//name---------------------------------------
   begin_hit_block;//
   end_hit_block;
   begin_timed_block;//
-  20;//interval in milliseconds
-    begin_conditions;
-    14;//number   
-      4.000000;//parameter0
-      20.000000;//parameter1    
-    end_conditions;
-    begin_effects;
-    4;//effect number
-      -500.000000;//parameter1
-      0.000000;//parameter2
-      4.000000;//parameter3
-      0.000000;//parameter4
-    end_effects;
 400;//interval in milliseconds -----realistic combat
     begin_conditions;
     8;//condition
