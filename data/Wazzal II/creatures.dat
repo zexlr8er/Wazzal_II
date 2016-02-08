@@ -13306,6 +13306,659 @@ resistance to projectile 2;//description
     350.000000;//parameter2
     350.000000;//parameter3
    end_specialties;
+   Unused;//name--------------------------------------- 
+ 98;//identifier
+  1;//class
+  invisible.png;//texture
+  2;//draw layer
+  -1;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
+  0;//corpse item amount
+  0;//attack type, 0=shooting attack, 1=close combat
+  22;//particle to show on radar, -1=none
+  0;//primary AI tactic from AI_tactic.dat
+  5;//secondary AI tactic from AI_tactic.dat
+  3;//footstep particle from particles.dat
+  0;//die after how many seconds, 0=doesn't die
+  -1;//eat item number from items.dat, -1=nothing
+  4.700000;//creature size
+  500.000000;//creature weight (affects pushing)
+  0.000000;//maximum movement speed
+  0.000000;//minimum movement speed
+  0.000000;//leg animation speed
+  0.000000;//turn speed
+  0.000000;//inertia level (acceleration/deceleration)
+  0;//hide when behind walls
+  0;//weapon number
+  9.000000;//weapon_x
+  26.000000;//weapon_y
+  2;//blood particle
+  1;//bars visible when player hovers mouse on top
+  3.000000;//death animation speed
+  0;//creature can move from area to another
+  0.000000;//AI hear range
+  0.000000;//AI see range
+  0.000000;//AI see angle
+  begin_footstep_sounds;//
+  end_footstep_sounds;
+  begin_hit_sounds;//
+  hit1.wav;//sample name
+  end_hit_sounds;
+  begin_die_sounds;//
+  explosion1.wav;//sample name
+explosion2.wav;//sample name
+  end_die_sounds;
+  begin_eat_block;//
+  end_eat_block;
+  begin_death_block;//
+  end_death_block;
+  begin_hit_block;//
+  end_hit_block;
+  begin_timed_block;//
+  end_timed_block;
+  begin_specialties;//
+  end_specialties;
+    Unused;//name--------------------------------------- 
+ 99;//identifier
+  1;//class
+  invisible.png;//texture
+  2;//draw layer
+  -1;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
+  0;//corpse item amount
+  0;//attack type, 0=shooting attack, 1=close combat
+  -1;//particle to show on radar, -1=none
+  0;//primary AI tactic from AI_tactic.dat
+  5;//secondary AI tactic from AI_tactic.dat
+  3;//footstep particle from particles.dat
+  0;//die after how many seconds, 0=doesn't die
+  -1;//eat item number from items.dat, -1=nothing
+  4.700000;//creature size
+  500.000000;//creature weight (affects pushing)
+  0.000000;//maximum movement speed
+  0.000000;//minimum movement speed
+  0.000000;//leg animation speed
+  0.000000;//turn speed
+  0.000000;//inertia level (acceleration/deceleration)
+  0;//hide when behind walls
+  0;//weapon number
+  9.000000;//weapon_x
+  26.000000;//weapon_y
+  2;//blood particle
+  1;//bars visible when player hovers mouse on top
+  3.000000;//death animation speed
+  0;//creature can move from area to another
+  0.000000;//AI hear range
+  0.000000;//AI see range
+  0.000000;//AI see angle
+  begin_footstep_sounds;//
+  end_footstep_sounds;
+  begin_hit_sounds;//
+  hit1.wav;//sample name
+  end_hit_sounds;
+  begin_die_sounds;//
+  explosion1.wav;//sample name
+explosion2.wav;//sample name
+  end_die_sounds;
+  begin_eat_block;//
+  end_eat_block;
+  begin_death_block;//
+  end_death_block;
+  begin_hit_block;//
+  end_hit_block;
+  begin_timed_block;//
+  end_timed_block;
+  begin_specialties;//
+  end_specialties;
+ Confederate Destroyer (on planet);//name--------------------------------------- 
+ 100;//identifier
+  4;//class
+  invisible.png;//texture
+  0;//draw layer
+  -1;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
+  0;//corpse item amount
+  0;//attack type, 0=shooting attack, 1=close combat
+  23;//particle to show on radar, -1=none
+  0;//primary AI tactic from AI_tactic.dat
+  5;//secondary AI tactic from AI_tactic.dat
+  3;//footstep particle from particles.dat
+  0;//die after how many seconds, 0=doesn't die
+  -1;//eat item number from items.dat, -1=nothing
+  6.2700000;//creature size
+  5000.000000;//creature weight (affects pushing)
+  0.000000;//maximum movement speed
+  0.000000;//minimum movement speed
+  0.000000;//leg animation speed
+  0.000000;//turn speed
+  0.000000;//inertia level (acceleration/deceleration)
+  0;//hide when behind walls
+  0;//weapon number
+  9.000000;//weapon_x
+  26.000000;//weapon_y
+  2;//blood particle
+  1;//bars visible when player hovers mouse on top
+  3.000000;//death animation speed
+  0;//creature can move from area to another
+  0.000000;//AI hear range
+  0.000000;//AI see range
+  0.000000;//AI see angle
+  begin_footstep_sounds;//
+  end_footstep_sounds;
+  begin_hit_sounds;//
+  hit1.wav;//sample name
+  end_hit_sounds;
+  begin_die_sounds;//
+  explosion1.wav;//sample name
+explosion2.wav;//sample name
+  end_die_sounds;
+  begin_eat_block;//
+  end_eat_block;
+  begin_death_block;//
+ 0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+  29;//effect number	                sound
+      60.000000;//parameter1
+      0.00000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+ 26;//effect number
+    24.000000;//parameter1
+     40.000000;//parameter2
+    44.000000;//parameter3
+      0.000000;//parameter4
+	  	  26;//effect number
+    24.000000;//parameter1
+    30.000000;//parameter2
+    10.000000;//parameter3
+    0.000000;//parameter4 
+  26;//effect number
+    24.000000;//parameter1
+    30.000000;//parameter2
+    44.000000;//parameter3
+    0.000000;//parameter4 
+  26;//effect number
+    24.000000;//parameter1
+    30.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    24.000000;//parameter1
+    60.000000;//parameter2
+    15.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    24.000000;//parameter1
+    30.000000;//parameter2
+    42.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    24.000000;//parameter1
+    10.000000;//parameter2
+    58.000000;//parameter3
+    0.000000;//parameter4
+  27;//effect number
+    15.000000;//parameter1
+    150.000000;//parameter2
+    10.000000;//parameter3
+    10.000000;//parameter4
+  27;//effect number
+    14.000000;//parameter1
+    120.000000;//parameter2
+    1.100000;//parameter3
+    2.200000;//parameter4    
+  26;//effect number
+    1.000000;//parameter1
+    2.000000;//parameter2
+    41.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    2.000000;//parameter1
+    2.000000;//parameter2
+    41.000000;//parameter3
+    0.000000;//parameter4 
+  36;//effect number
+    12.000000;//parameter1
+    1300.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+ 40;//effect number
+    178.000000;//parameter1
+     400.000000;//parameter2
+    0.000000;//parameter3
+      0.000000;//parameter4
+ 19;//effect number
+    179.000000;//parameter1
+     5.000000;//parameter2
+    0.000000;//parameter3
+      0.000000;//parameter4      
+    end_effects;
+  end_death_block;
+  begin_hit_block;//
+  end_hit_block;
+  begin_timed_block;//
+  	    500;//interval in milliseconds
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+ 19;//effect number
+    178.000000;//parameter1
+     5.000000;//parameter2
+    0.000000;//parameter3
+      0.000000;//parameter4  	
+   27;//effect number
+    2.000000;//parameter1
+    500.000000;//parameter2
+    7.300000;//parameter3
+    7.300000;//parameter4	
+  65;//effect number
+    47.000000;//parameter1
+    2.000000;//parameter2
+    3.000000;//parameter3
+    0.000000;//parameter4    	
+    end_effects;
+30;//interval in milliseconds
+    begin_conditions;
+	8;//condition
+      2.000000;//condition parameter0
+      0.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;	
+    65;//effect number
+    109.000000;//parameter1
+    1.000000;//parameter2
+    3.000000;//parameter3
+    3.140000;//parameter4    	
+    end_effects;
+30000;//interval in milliseconds
+    begin_conditions;
+    30;//condition
+      50.000000;//parameter0
+      5.000000;//parameter1 
+    end_conditions;
+    begin_effects;
+    10;//effect number                   drop creature
+      50.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      -1.000000;//parameter4 
+    end_effects;
+30000;//interval in milliseconds
+    begin_conditions;
+    32;//condition
+      4.000000;//parameter0
+      30.000000;//parameter1 
+    end_conditions;
+    begin_effects;
+    10;//effect number                   drop creature
+      15.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      -1.000000;//parameter4 
+	      10;//effect number                   drop creature
+      15.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      -1.000000;//parameter4 
+	      10;//effect number                   drop creature
+      15.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      -1.000000;//parameter4 
+	      10;//effect number                   drop creature
+      15.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      -1.000000;//parameter4 
+    end_effects;
+  end_timed_block;
+  begin_specialties;//
+  ;//description
+    0;//number
+    4.000000;//parameter0
+    0.000000;//parameter1
+    3000.000000;//parameter2
+    3000.000000;//parameter3
+resistance to fire;//description
+    1;//number
+    7.000000;//parameter0
+    0.01000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+resistance to bow;//description
+    1;//number
+    11.000000;//parameter0
+    0.0000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+resistance to fusion beam;//description
+    1;//number
+    12.000000;//parameter0
+    0.37000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+  No AI;//description
+    5;//number
+    0.000000;//parameter0
+    0.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+  end_specialties;
+       Alien Battleship (landed on alien planet);//name--------------------------------------- 
+ 101;//identifier
+  1;//class
+  invisible.png;//texture
+  0;//draw layer
+  -1;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
+  0;//corpse item amount
+  0;//attack type, 0=shooting attack, 1=close combat
+  22;//particle to show on radar, -1=none
+  0;//primary AI tactic from AI_tactic.dat
+  5;//secondary AI tactic from AI_tactic.dat
+  3;//footstep particle from particles.dat
+  0;//die after how many seconds, 0=doesn't die
+  -1;//eat item number from items.dat, -1=nothing
+  6.2700000;//creature size
+  5000.000000;//creature weight (affects pushing)
+  0.000000;//maximum movement speed
+  0.000000;//minimum movement speed
+  0.000000;//leg animation speed
+  0.000000;//turn speed
+  0.000000;//inertia level (acceleration/deceleration)
+  0;//hide when behind walls
+  0;//weapon number
+  9.000000;//weapon_x
+  26.000000;//weapon_y
+  2;//blood particle
+  1;//bars visible when player hovers mouse on top
+  3.000000;//death animation speed
+  0;//creature can move from area to another
+  0.000000;//AI hear range
+  0.000000;//AI see range
+  0.000000;//AI see angle
+  begin_footstep_sounds;//
+  end_footstep_sounds;
+  begin_hit_sounds;//
+  hit1.wav;//sample name
+  end_hit_sounds;
+  begin_die_sounds;//
+  explosion1.wav;//sample name
+explosion2.wav;//sample name
+  end_die_sounds;
+  begin_eat_block;//
+  end_eat_block;
+  begin_death_block;//
+  2;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+    44;//effect number
+     50.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+		0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by tank cannon       
+    begin_conditions;
+	45;//condition
+      40.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      25.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by fighter cannon     
+    begin_conditions;
+	45;//condition
+      88.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      25.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by boat MG   
+    begin_conditions;
+	45;//condition
+      69.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      25.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by pillbox/tank flamethrower
+    begin_conditions;
+	45;//condition
+      29.000000;//condition parameter0
+      5000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      25.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by player turret MG   
+    begin_conditions;
+	45;//condition
+      107.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      25.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by rocket     
+    begin_conditions;
+	45;//condition
+      36.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      25.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed airstrike 1     
+    begin_conditions;
+	45;//condition
+      61.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      25.00000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed airstrike 2  
+    begin_conditions;
+	45;//condition
+      62.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      25.00000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed knife
+    begin_conditions;
+	45;//condition
+      34.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      50.00000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+ 0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+   29;//effect number	                sound
+      60.000000;//parameter1
+      0.00000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+ 26;//effect number
+    24.000000;//parameter1
+     40.000000;//parameter2
+    44.000000;//parameter3
+      0.000000;//parameter4
+	  	  26;//effect number
+    24.000000;//parameter1
+    30.000000;//parameter2
+    10.000000;//parameter3
+    0.000000;//parameter4 
+  26;//effect number
+    24.000000;//parameter1
+    30.000000;//parameter2
+    44.000000;//parameter3
+    0.000000;//parameter4 
+  26;//effect number
+    24.000000;//parameter1
+    30.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    24.000000;//parameter1
+    60.000000;//parameter2
+    15.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    24.000000;//parameter1
+    30.000000;//parameter2
+    42.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    24.000000;//parameter1
+    10.000000;//parameter2
+    58.000000;//parameter3
+    0.000000;//parameter4
+  27;//effect number
+    15.000000;//parameter1
+    150.000000;//parameter2
+    10.000000;//parameter3
+    10.000000;//parameter4
+  27;//effect number
+    14.000000;//parameter1
+    120.000000;//parameter2
+    1.100000;//parameter3
+    2.200000;//parameter4    
+  26;//effect number
+    1.000000;//parameter1
+    2.000000;//parameter2
+    41.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    2.000000;//parameter1
+    2.000000;//parameter2
+    41.000000;//parameter3
+    0.000000;//parameter4 
+  36;//effect number
+    12.000000;//parameter1
+    1300.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+ 40;//effect number
+    176.000000;//parameter1
+     400.000000;//parameter2
+    0.000000;//parameter3
+      0.000000;//parameter4
+ 19;//effect number
+    177.000000;//parameter1
+     6.000000;//parameter2
+    0.000000;//parameter3
+      0.000000;//parameter4    	  
+    end_effects;
+  end_death_block;
+  begin_hit_block;//
+  end_hit_block;
+  begin_timed_block;//
+    20000;//interval in milliseconds
+    begin_conditions;
+    30;//condition
+      37.000000;//parameter0
+      10.000000;//parameter1 
+    end_conditions;
+    begin_effects;
+    10;//effect number                   drop creature
+      37.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      -1.000000;//parameter4 
+    end_effects;
+	1000;//interval in milliseconds
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+ 19;//effect number
+    176.000000;//parameter1
+     6.000000;//parameter2
+    0.000000;//parameter3
+      0.000000;//parameter4  	
+	  	    27;//effect number
+    35.000000;//parameter1
+    1100.000000;//parameter2
+    3.000000;//parameter3
+    3.400000;//parameter4	  
+    end_effects;
+  end_timed_block;
+  begin_specialties;//
+  ;//description
+    0;//number
+    4.000000;//parameter0
+    0.000000;//parameter1
+    3000.000000;//parameter2
+    3000.000000;//parameter3
+resistance to fire;//description
+    1;//number
+    7.000000;//parameter0
+    0.01000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+resistance to bow;//description
+    1;//number
+    11.000000;//parameter0
+    0.0000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+resistance to fusion beam;//description
+    1;//number
+    12.000000;//parameter0
+    0.37000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+  No AI;//description
+    5;//number
+    0.000000;//parameter0
+    0.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+  end_specialties;
  end_of_file;
 
 Classes: 0= NA 1=Alien ships 2=? 3=Alien soldiers 4=All Allied 5=Asteroids 6=neutral ships 7=player fighters 8=player turrets
