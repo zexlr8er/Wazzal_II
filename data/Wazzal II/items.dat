@@ -1143,7 +1143,7 @@ Stock: Drugs;//name---------------------------------------
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
   1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
-  Gs.png;//texture name
+  Ws.png;//texture name
   -1;//wielded script,-1=nothing, only applicable for wieldable items
   -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
   1;//show help text for conditions
@@ -2855,7 +2855,7 @@ Deploy L. Fighter;//name---------------------------------------
   70;//identifier
   0;//item class
   0.000000;//weight
-  Purchase five Light Confederate Fighters to give you an edge in ship-to-ship combat! \ \ Price: 2000 credits;//short description
+  Purchase three Light Confederate Fighters to give you an edge in ship-to-ship combat! \ \ Price: 2000 credits;//short description
   none;//first pick up text
   0.650000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -2887,7 +2887,7 @@ Deploy L. Fighter;//name---------------------------------------
       0.000000;//parameter4     
     16;//effect number
       69.000000;//parameter1
-      5.000000;//parameter2
+      3.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
     end_effects;
@@ -3050,7 +3050,7 @@ Deploy H. Fighter;//name---------------------------------------
   75;//identifier
   0;//item class
   0.000000;//weight
-  Purchase five Heavy Confederate Fighters to give you an edge in ship-to-ship combat! \ \ Price: 3000 credits;//short description
+  Purchase three Heavy Confederate Fighters to give you an edge in ship-to-ship combat! \ \ Price: 3000 credits;//short description
   none;//first pick up text
   0.650000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -3082,7 +3082,7 @@ Deploy H. Fighter;//name---------------------------------------
       0.000000;//parameter4     
     16;//effect number
       74.000000;//parameter1
-      5.000000;//parameter2
+      3.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
     end_effects;
