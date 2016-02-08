@@ -3268,6 +3268,21 @@ Confederate Light Fighter (space);//name---------------------------------------
       200.000000;//parameter3
       -1.000000;//parameter4 
     end_effects;
+			1000;//interval in milliseconds
+    begin_conditions;
+	  43;//condition                        if injured
+    4.000000;//condition parameter0
+    100.000000;//condition parameter1 
+	19;//condition                        if following (deployed)
+    5.000000;//condition parameter0
+    0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    4;//effect number
+      2.00000;//parameter1
+      1.000000;//parameter2
+      4.000000;//parameter3
+      0.000000;//parameter4  
     end_effects;
   end_timed_block;
   begin_specialties;//
@@ -3275,8 +3290,8 @@ Confederate Light Fighter (space);//name---------------------------------------
     0;//number
     4.000000;//parameter0
     0.000000;//parameter1
-    100.000000;//parameter2
-    100.000000;//parameter3
+    130.000000;//parameter2
+    130.000000;//parameter3
 shield;//description
     0;//number
     8.000000;//parameter0
@@ -3844,14 +3859,30 @@ Confederate Heavy Fighter (space);//name---------------------------------------
       200.000000;//parameter3
       -1.000000;//parameter4 
     end_effects;
+		1000;//interval in milliseconds
+    begin_conditions;
+	  43;//condition                        if injured
+    4.000000;//condition parameter0
+    100.000000;//condition parameter1 
+	19;//condition                        if following (deployed)
+    5.000000;//condition parameter0
+    0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    4;//effect number
+      2.00000;//parameter1
+      1.000000;//parameter2
+      4.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
   end_timed_block;
   begin_specialties;//
   health;//description
     0;//number
     4.000000;//parameter0
     0.000000;//parameter1
-    140.000000;//parameter2
-    140.000000;//parameter3
+    170.000000;//parameter2
+    170.000000;//parameter3
 shield;//description
     0;//number
     8.000000;//parameter0

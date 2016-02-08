@@ -190,7 +190,7 @@ Laser alien heavy fighter;//name---------------------------------------double ba
     8.000000;//parameter3
     0.000000;//parameter4
   4;//effect number
-    -4.700000;//parameter1  # was 14
+    -5.700000;//parameter1  # was 14
     0.000000;//parameter2
     4.000000;//parameter3
     0.000000;//parameter4 
@@ -1500,7 +1500,7 @@ Laser confed small fighter;//name---------------------------------------
   5.000000;//bullet size
   0.000000;//spread
   1.400000;//bullet speed
-  1200.000000;//time until bullet disappears
+  700.000000;//time until bullet disappears
   140;//fire rate
   0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
   -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
@@ -1532,7 +1532,7 @@ Laser confed small fighter;//name---------------------------------------
     8.000000;//parameter3
     0.000000;//parameter4
   4;//effect number
-    -8.000000;//parameter1
+    -6.000000;//parameter1
     0.000000;//parameter2
     4.000000;//parameter3
     0.000000;//parameter4 
@@ -2239,9 +2239,6 @@ Rear Thrusters;//name--------------------------------------- fired by weapon 2
   fire.wav;//hit sound
   0.050000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
   begin_wield_conditions;
-  3;//condition
-    1.000000;//condition parameter0
-    0.330000;//condition parameter1  
   end_wield_conditions;
   begin_fire_effects;
   26;//effect number
@@ -2293,7 +2290,7 @@ Laser alien small fighter;//name---------------------------------------single ba
     8.000000;//parameter3
     0.000000;//parameter4
   4;//effect number
-    -3.500000;//parameter1
+    -4.300000;//parameter1
     0.000000;//parameter2
     4.000000;//parameter3
     0.000000;//parameter4 
@@ -3691,7 +3688,7 @@ Laser confed heavy fighter;//name---------------------------------------
   5.000000;//bullet size
   0.000000;//spread
   1.400000;//bullet speed
-  1200.000000;//time until bullet disappears
+  700.000000;//time until bullet disappears
   120;//fire rate
   0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
   -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
@@ -3723,7 +3720,7 @@ Laser confed heavy fighter;//name---------------------------------------
     8.000000;//parameter3
     0.000000;//parameter4
   4;//effect number
-    -11.000000;//parameter1
+    -8.000000;//parameter1
     0.000000;//parameter2
     4.000000;//parameter3
     0.000000;//parameter4 
