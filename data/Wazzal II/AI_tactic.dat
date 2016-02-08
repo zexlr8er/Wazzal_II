@@ -252,7 +252,7 @@ Peaceful unless provoked - wolf;//tactic name
     1;//can hit enemies
     0;//can eat
   end_levels;
-Baby wolf/baby alien;//tactic name
+Follow;//tactic name  - Baby wolf/baby alien
   21;//identifier
   begin_levels;
   30;//anger level size
