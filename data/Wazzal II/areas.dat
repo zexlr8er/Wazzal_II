@@ -505,7 +505,7 @@ end_alien_list;
   1;
 5;
   end_excluded_plot_object_classes;
-  none;//enter area text, specify none to not show it
+  Admiral Fefarewbu, 4th Confederate Fleet: \ \ 'Captain! The Confederacy has been fighting a decade-long conflict against a local tribal insurgency here on Dorian Prime. The locals shun the Confederate way of life, preferring instead to live amongst trees and nature instead of good old fashioned concrete and steel! \ \ Nevertheless, this conflict is draining resources which are needed to combat the Aliens, so our orders are to neutralise the insurgency once and for all. Dorian Prime needs to learn that they are either with the Confederacy, or against it! \ \ Our military base has a stockpile of Confederate propaganda we hope cam persuade them to join our cause. Alternatively, it may be easier for the Confederacy if the locals were to... mysteriously disappear. Achieve either -50 or +50 goodwill, and you will be handsomely rewarded!;//enter area text, specify none to not show it
 20;//---------------------------------------------------------
  Former Sol System;//area name
   1;//area class
