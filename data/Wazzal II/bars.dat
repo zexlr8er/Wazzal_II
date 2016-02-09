@@ -22,7 +22,7 @@ Hull strength;//name----------------------------------------------------------
   1.000000;//red color component for maximum
   0.000000;//green color component for maximum
   0.000000;//blue color component for maximum
-Energy;//name----------------------------------------------------------
+Reactor Energy (gigawatts);//name----------------------------------------------------------
   1;//identifier
   0;//bar type, 0=normal, 1=show body temperature, 2=show number of items parameter0, 3=show wielded weapon ammo, 4=show armor, 5=show carry weight, 6=show seconds from game start
   0;//parameter0

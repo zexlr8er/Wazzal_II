@@ -2400,7 +2400,7 @@ Spotlight;//name---------------------------------------
   5.00000;//weight
   When used it will provide a high-powered beam of light.;//short description
   none;//first pick up text
-  0.240000;//size on map
+  0.280000;//size on map
   1;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   20;//particle to shown on radar
   1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
@@ -3627,7 +3627,7 @@ Crystalline Ore;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-Alien zoo movement;//name---------------------------------------
+;//name---------------------------------------alien zoo movement
   91;//identifier
   0;//item class
   0.000000;//weight
@@ -8503,7 +8503,7 @@ Use to fire a deadly long-ranged mortar. Use as a weapon by left-clicking, and t
     end_effects;
   end_effects_block;
   begin_combinations;
-  end_combinations;'
+  end_combinations;
  Quasi-Quintuplet (deploy);//name---------------------------------------
 205;//identifier
   0;//item class
