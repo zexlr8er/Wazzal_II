@@ -70,7 +70,7 @@ end_alien_list;
   1;
 5;
   end_excluded_plot_object_classes;
-  You touch down on the surface of Naquarin in a whirlwind of sand and spray. As you step down from the gangplank, the peaceful crash of waves reaches you ears, and, for the first time since the war began, you smile. This planet brings back some deep, long lost memories... Sun, sand, beaches, trees... \ \ You shake your head violently. That place that no longer exists. Memories, that is all that is left now. Memories, fading faces, and a billion screaming voices. \ \ A blur of green flashes in the trees beyond, and gripping your weapon, you stride out into the showering rain.;//enter area text, specify none to not show it
+  You touch down on the surface of Naquarin in a whirlwind of sand and spray. As you step down from the gangplank, the peaceful crash of waves reaches you ears, and, for the first time since the war began, you smile. This planet brings back some deep, long lost memories... Sun, sand, beaches, trees... \ \ You shake your head violently. That place that no longer exists. Memories, that is all that is left now. Memories, fading faces, and a billion screaming voices. \ \ A blur of green flashes in the trees beyond. Lightly defended with only a small detachment of fighters and armoured boats to the north-east and south, it seems Naquarin was one of the first to fall to the Aliens. You have heard rumours that a Confederate destroyer carrying an immensely powerful object went missing over this planet. You are probably the Confederacy's only hope to find it before the Aliens do!;//enter area text, specify none to not show it
 4;//Errxelz 8---------------------------------------------------------
   Errxelz 8;//area name
   0;//area class
