@@ -17,13 +17,13 @@ Repository contains files required to install Wazzal II: The Final Dawn mod for 
 ## Mod features
 
 1. **Two gameplay modes**: starship combat and exploration aboard the Wolf IV, and on foot as the legendary "Captain" from Notrium and Wazzal!
-2. **Eight completely unique star systems**, and **eleven planets** to explore (including lava, ocean, ice and jungle worlds, low gravity moons and Alien planets)
-3. Over **85 items** to use in both space and on planets, including electrobinoculars, night vision goggles, stealth armor and high explosives
-4. More than **35 weapons**, including sniper rifles, particle cannons, rocket propelled grenades and Alien technology
-5. **Five controllable vehicles**, including tanks (armed with cannons and flamethrowers), armored boats (armed with machine guns), fighters (armed with airstrikes and lasers), machine gun emplacements and flamethrower pillboxes
+2. **Eight completely unique star systems**, and **fourteen planets and space stations** to explore (including lava, ocean, ice, desert and jungle worlds, low gravity moons, gas giants and Alien planets!)
+3. Over **100 items** to use in both space and on planets, including electrobinoculars, night vision goggles, stealth armor and high explosives
+4. More than **40 weapons**, including sniper rifles, particle cannons, rocket propelled grenades and Alien technology
+5. **Six controllable vehicles**, including tanks (armed with cannons and flamethrowers), armored boats (armed with machine guns), fighters (armed with airstrikes and lasers), machine gun emplacements, flamethrower pillboxes and even Confederacy Destroyers!
 6. **11 United Confederacy Ranks** (Ensign to Admiral of the Fleet) with valuable rewards for completing ingame missions
 7. Fly the flag of the **United Confederacy of Planets**, abandon your duties to **raid and plunder as a ruthless pirate**, or even join the dreaded **Alien Horde**!
-8. Make a fortune trading slaves, drugs and weapon parts on the **Galactic Stock Exchange**!
+8. Make a fortune trading slaves, drugs and weapon parts on the **Galactic Stock Exchange**, hunting for **dangerous local creatures, farming rare plants, mining for ore** or even **fishing**!
 
 <img src="https://github.com/zexlr8er/Wazzal_II/blob/master/textures/Wazzal%20II/confed_map.jpg" align="left" height="308" width="410" >
 <img src="https://github.com/zexlr8er/Wazzal_II/blob/master/textures/Wazzal%20II/book1.jpg" align="left" height="308" width="410" >
