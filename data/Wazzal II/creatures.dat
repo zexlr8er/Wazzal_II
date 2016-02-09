@@ -10422,7 +10422,12 @@ Thrown grenade;//name---------------------------------------
     106.000000;//parameter1
     0.20000;//parameter2
     0.000000;//parameter3
-    0.000000;//parameter4    
+    0.000000;//parameter4  
+		41;//effect number  
+    144.000000;//parameter1
+    800.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4  	
     end_effects;
   end_death_block;
   begin_hit_block;//
@@ -10435,11 +10440,6 @@ Thrown grenade;//name---------------------------------------
       40.000000;//condition parameter1     
     end_conditions;
     begin_effects;
-		41;//effect number  
-    144.000000;//parameter1
-    500.000000;//parameter2
-    0.000000;//parameter3
-    0.000000;//parameter4  
 31;//effect number             kill
    0.000000;//parameter1
     0.00000;//parameter2
