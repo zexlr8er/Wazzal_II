@@ -25,7 +25,7 @@ Repository contains files required to install Wazzal II: The Final Dawn mod for 
 7. Fly the flag of the **United Confederacy of Planets**, abandon your duties to **raid and plunder as a ruthless pirate**, or even join the dreaded **Alien Horde**!
 8. Make a fortune trading slaves, drugs and weapon parts on the **Galactic Stock Exchange**!
 
-<img src="https://github.com/zexlr8er/Wazzal_II/blob/master/textures/Wazzal%20II/book3.jpg" align="left" height="308" width="410" >
+<img src="https://github.com/zexlr8er/Wazzal_II/blob/master/textures/Wazzal%20II/confed_map.jpg" align="left" height="308" width="410" >
 <img src="https://github.com/zexlr8er/Wazzal_II/blob/master/textures/Wazzal%20II/book1.jpg" align="left" height="308" width="410" >
 *Confederacy map and ranks*
 
