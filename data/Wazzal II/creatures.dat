@@ -3973,7 +3973,7 @@ fighter_move.wav;//
   begin_hit_block;//
   end_hit_block;
   begin_timed_block;//
-	700;//interval in milliseconds           turn on light if carrying
+	1500;//interval in milliseconds           turn on light if carrying
     begin_conditions;
     34;//condition
     0.000000;//condition parameter0
@@ -10542,6 +10542,32 @@ boat4.wav;//
      -3.00000;//parameter3
      -10.00000;//parameter4  
     end_effects;
+			  1500;//interval in milliseconds      turn on light if carrying
+    begin_conditions;
+  34;//condition
+     0.000000;//condition parameter0
+      0.000000;//condition parameter1      
+    end_conditions;
+    begin_effects;
+      7;//effect number
+    36.000000;//parameter1     16
+    8.00000;//parameter2      6
+    2.000000;//parameter3
+    0.000000;//parameter4
+    end_effects;
+	 3000;//interval in milliseconds          turn off light if not carrying
+    begin_conditions;
+  34;//condition
+     1.000000;//condition parameter0
+      1.000000;//condition parameter1      
+    end_conditions;
+    begin_effects;
+      7;//effect number
+    -1.000000;//parameter1
+    6.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+    end_effects;
   end_timed_block;
   begin_specialties;//
  health;//description
@@ -11610,7 +11636,7 @@ MG Turret (player carried);//name---------------------------------------
       -1.000000;//parameter3
      -1.000000;//parameter4
     end_effects;
-			  700;//interval in milliseconds      turn on light if carrying
+		  1500;//interval in milliseconds      turn on light if carrying
     begin_conditions;
   34;//condition
      0.000000;//condition parameter0
@@ -11620,6 +11646,19 @@ MG Turret (player carried);//name---------------------------------------
       7;//effect number
     36.000000;//parameter1     16
     8.00000;//parameter2      6
+    2.000000;//parameter3
+    0.000000;//parameter4
+    end_effects;
+	 3000;//interval in milliseconds          turn off light if not carrying
+    begin_conditions;
+  34;//condition
+     1.000000;//condition parameter0
+      1.000000;//condition parameter1      
+    end_conditions;
+    begin_effects;
+      7;//effect number
+    -1.000000;//parameter1
+    6.000000;//parameter2
     2.000000;//parameter3
     0.000000;//parameter4
     end_effects;
@@ -12579,7 +12618,7 @@ fighter_move.wav;//
   begin_hit_block;//
   end_hit_block;
     begin_timed_block;//                       
-		  700;//interval in milliseconds      turn on light if carrying
+		  1500;//interval in milliseconds      turn on light if carrying
     begin_conditions;
   34;//condition
      0.000000;//condition parameter0
@@ -13284,7 +13323,7 @@ resistance to projectile 2;//description
       -1.000000;//parameter3
       -1.000000;//parameter4
     end_effects;
-			  700;//interval in milliseconds      turn on light if carrying
+		  1500;//interval in milliseconds      turn on light if carrying
     begin_conditions;
   34;//condition
      0.000000;//condition parameter0
@@ -13294,6 +13333,19 @@ resistance to projectile 2;//description
       7;//effect number
     36.000000;//parameter1     16
     8.00000;//parameter2      6
+    2.000000;//parameter3
+    0.000000;//parameter4
+    end_effects;
+	 3000;//interval in milliseconds          turn off light if not carrying
+    begin_conditions;
+  34;//condition
+     1.000000;//condition parameter0
+      1.000000;//condition parameter1      
+    end_conditions;
+    begin_effects;
+      7;//effect number
+    -1.000000;//parameter1
+    6.000000;//parameter2
     2.000000;//parameter3
     0.000000;//parameter4
     end_effects;
