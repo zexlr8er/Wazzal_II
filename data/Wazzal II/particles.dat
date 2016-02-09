@@ -993,5 +993,17 @@ Destroyer burners smoke;//name
   -1.00000;//gets smaller by time
   1;//can be rotated (faster if not)
   -1;//change into another particle when hits ground
-  0;//blending type (0=normal, 1=light)
+  0;//blending type (0=normal, 1=light) 
+  Quasi;//name
+  84;//identifier
+  qelectro.png;//texture
+  8;//size
+  1.000000;//red color component
+  1.000000;//green color component
+  1.000000;//blue color component
+  1.000000;//alpha component
+  0.00000;//gets smaller by time
+  1;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  1;//blending type (0=normal, 1=light) 
 end_of_file;

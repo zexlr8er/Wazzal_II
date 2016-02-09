@@ -4752,6 +4752,24 @@ Moon rubble3 small;//name---------------------------------------
   0.000000;//collision detection parameter1
   0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
   0;//Stops bullets. Use sparingly as this can slow the game down a lot.
+  Quasi-quintuplet Beacon;//name---------------------------------------
+ 245;//identifier
+  begin_animation_frames;
+  quasiq_beacon.png;//texture name
+    0.000000;//time to display frame
+  end_animation_frames;
+  0.800000;//size*128
+  0.00000;//vary size
+  1;//transparent
+  0;//layer
+  0;//does it sway with the wind
+  0;//gets transparent when player near
+  0;//provides shade for player
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  0.5000000;//collision detection parameter0
+  0.000000;//collision detection parameter1
+  0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.
+  0;//Stops bullets. Use sparingly as this can slow the game down a lot.
 end_of_file;
 
 
