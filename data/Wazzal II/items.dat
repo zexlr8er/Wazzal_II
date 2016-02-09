@@ -5026,11 +5026,11 @@ MR Battle scanner;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;'
-Ka kalwaa;//name---------------------------------------
+Xakalwaa (Alien weapon);//name---------------------------------------
  126;//identifier
   0;//item class
 1.000000;//weight
-  A weapon produced by the Aliens themselves that drains health from an enemy. It requires a serum produced from your own blood... \ Press 'V' in-game to extract blood (approx. 5 health points for 30mL of serum).;//short description
+  A weapon produced by the Aliens themselves that drains health from an enemy. It requires a serum produced from your own blood... \ Press 'V' in-game to extract blood (approx. 5 health points for 40mL of serum).;//short description
   You pick up the strange object. About 20 Confederate centimetres long, it weighs almost nothing, is organic in design, and almost feels alive as it gently pulses in your fingers. \ \ A thin, veiny gill snakes along its underside, and you curiously run your finger along it. Suddenly the object glows iridescent green, and a strong pain rips through your arm. Dozens of fiery balls of green energy spit from its front, spearing off over the ground before careening into one of the slimy, sinewy Alien vines that now litter Errxelz's surface. Within seconds, strange things start to happen... The vine begins to wither, burn and collapse into a pile of charred slime. The huge gash the object opened in your arm seals shut, and heals over in seconds... \ \ It appears you have an Alien weapon. One that has the power to heal you. One that requires human blood as ammunition...  ;//first pick up text
   0.350000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -5130,7 +5130,7 @@ MR Radar;//name---------------------------------------from 1
   end_effects_block;
   begin_combinations;
   end_combinations;
-Wa Kakakaa;//name---------------------------------------
+Zakakaa (Alien tech);//name---------------------------------------
  129;//identifier
   0;//item class
   1.000000;//weight
@@ -5235,7 +5235,7 @@ Your blood turns sickly green as it flows into the weapon...;//event text
       1.000000;//parameter4
  16;//effect number
       127.000000;//parameter1
-     20.000000;//parameter2
+     40.000000;//parameter2
       1.000000;//parameter3
       0.000000;//parameter4
     end_effects;
@@ -5358,7 +5358,7 @@ Pirate flag;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-Wa kwalakak;//name---------------------------------------
+Waakalak (Alien teleport);//name---------------------------------------
  133;//identifier
   0;//item class
   1.000000;//weight
@@ -5605,6 +5605,84 @@ none;//event text
       0.000000;//parameter4
     21;//effect number
      14.000000;//parameter1
+      -1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+	none;//event text
+  none;//event failure text
+    fighter_move3.wav;//sound, none for nothing
+    0;//vanishes after event, 0=no, 1=yes
+    U;//use key
+    0;//quick key
+    begin_conditions;
+ 3;//use condition number
+      5.000000;//use condition parameter0
+      50.000000;//use condition parameter1   
+13;//use condition number
+      19.000000;//use condition parameter0
+      0.000000;//use condition parameter1 
+    end_conditions;
+    begin_effects;
+ 4;//effect number
+      -50.000000;//parameter1
+      1.000000;//parameter2
+    5.000000;//parameter3
+      0.000000;//parameter4
+    21;//effect number
+     19.000000;//parameter1
+      -1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+		none;//event text
+  none;//event failure text
+    fighter_move3.wav;//sound, none for nothing
+    0;//vanishes after event, 0=no, 1=yes
+    U;//use key
+    0;//quick key
+    begin_conditions;
+ 3;//use condition number
+      5.000000;//use condition parameter0
+      50.000000;//use condition parameter1   
+13;//use condition number
+      21.000000;//use condition parameter0
+      0.000000;//use condition parameter1 
+    end_conditions;
+    begin_effects;
+ 4;//effect number
+      -50.000000;//parameter1
+      1.000000;//parameter2
+    5.000000;//parameter3
+      0.000000;//parameter4
+    21;//effect number
+     21.000000;//parameter1
+      -1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+		none;//event text
+  ;//event failure text
+    fighter_move3.wav;//sound, none for nothing
+    0;//vanishes after event, 0=no, 1=yes
+    U;//use key
+    0;//quick key
+    begin_conditions;
+ 3;//use condition number
+      5.000000;//use condition parameter0
+      50.000000;//use condition parameter1   
+13;//use condition number
+      24.000000;//use condition parameter0
+      0.000000;//use condition parameter1 
+    end_conditions;
+    begin_effects;
+ 4;//effect number
+      -50.000000;//parameter1
+      1.000000;//parameter2
+    5.000000;//parameter3
+      0.000000;//parameter4
+    21;//effect number
+     24.000000;//parameter1
       -1.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
