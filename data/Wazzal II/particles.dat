@@ -214,7 +214,7 @@ Sun;//name
   0;//can be rotated (faster if not)
   -1;//change into another particle when hits ground
   1;//blending type (0=normal, 1=light)
-Radar small enemy;//name----------------------------fighter
+Radar small enemy;//name----------------------------
   18;//identifier
   particle.tga;//texture
   6;//size
@@ -226,7 +226,7 @@ Radar small enemy;//name----------------------------fighter
   0;//can be rotated (faster if not)
   -1;//change into another particle when hits ground
   1;//blending type (0=normal, 1=light)
-Radar small confederation;//name----------------------------fighter
+Radar small confederation;//name----------------------------
   19;//identifier
   particle.tga;//texture
   6;//size
@@ -370,7 +370,7 @@ Radar small item dot;//name
   0;//can be rotated (faster if not)
   -1;//change into another particle when hits ground
   1;//blending type (0=normal, 1=light)
-Scanner soldier enemy;//name----------------------------soldier
+Scanner soldier enemy;//name----------------------------soldier and fighter
   31;//identifier
   particle.tga;//texture
   3;//size
@@ -382,7 +382,7 @@ Scanner soldier enemy;//name----------------------------soldier
   0;//can be rotated (faster if not)
   -1;//change into another particle when hits ground
   1;//blending type (0=normal, 1=light)
-Scanner soldier federation;//name----------------------------soldier
+Scanner soldier federation;//name----------------------------soldier and fighter
   32;//identifier
   particle.tga;//texture
   3;//size
@@ -1006,4 +1006,52 @@ Destroyer burners smoke;//name
   1;//can be rotated (faster if not)
   -1;//change into another particle when hits ground
   1;//blending type (0=normal, 1=light) 
+  Scanner soldier neutral;//name----------------------------soldier
+  85;//identifier
+  particle.tga;//texture
+  3;//size
+  1.000000;//red color component
+  1.000000;//green color component
+  1.000000;//blue color component
+  1.000000;//alpha component
+  1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  1;//blending type (0=normal, 1=light)
+  Radar small neutral;//name----------------------------fighter
+ 86;//identifier
+  particle.tga;//texture
+  6;//size
+  1.000000;//red color component
+  1.000000;//green color component
+  1.000000;//blue color component
+  1.000000;//alpha component
+  1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  1;//blending type (0=normal, 1=light)
+Radar medium neutral;//name----------------------------corvette
+  87;//identifier
+  particle.tga;//texture
+  9;//size
+  1.000000;//red color component
+  1.000000;//green color component
+  1.000000;//blue color component
+  1.000000;//alpha component
+  1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  1;//blending type (0=normal, 1=light)
+Radar large neutral;//name----------------------------destroyer
+  88;//identifier
+  particle.tga;//texture
+  12;//size
+  1.000000;//red color component
+  1.000000;//green color component
+  1.000000;//blue color component
+  1.000000;//alpha component
+  1.000000;//gets smaller by time
+  0;//can be rotated (faster if not)
+  -1;//change into another particle when hits ground
+  1;//blending type (0=normal, 1=light)
 end_of_file;

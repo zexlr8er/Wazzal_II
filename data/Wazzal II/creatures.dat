@@ -79,7 +79,7 @@ Alien Small Fighter (space);//name---------------------------------------
   -2;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
   0;//corpse item amount
   0;//attack type, 0=shooting attack, 1=close combat
-  18;//particle to show on radar, -1=none
+  31;//particle to show on radar, -1=none
   6;//primary AI tactic from AI_tactic.dat
   0;//secondary AI tactic from AI_tactic.dat
   3;//footstep particle from particles.dat
@@ -314,7 +314,7 @@ Alien Large Fighter (space);//name---------------------------------------
   -2;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
   0;//corpse item amount
   0;//attack type, 0=shooting attack, 1=close combat
-  18;//particle to show on radar, -1=none
+  31;//particle to show on radar, -1=none
   6;//primary AI tactic from AI_tactic.dat
   0;//secondary AI tactic from AI_tactic.dat
   3;//footstep particle from particles.dat
@@ -2474,7 +2474,7 @@ Alien Large Fighter (flying over planet);//name---------------------------------
   -2;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
   0;//corpse item amount
   0;//attack type, 0=shooting attack, 1=close combat
-  18;//particle to show on radar, -1=none
+  20;//particle to show on radar, -1=none
   0;//primary AI tactic from AI_tactic.dat
   0;//secondary AI tactic from AI_tactic.dat
   34;//footstep particle from particles.dat
@@ -3218,7 +3218,7 @@ Confederate Light Fighter (space);//name---------------------------------------
   -2;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
   0;//corpse item amount
   0;//attack type, 0=shooting attack, 1=close combat
-  19;//particle to show on radar, -1=none
+  32;//particle to show on radar, -1=none
   7;//primary AI tactic from AI_tactic.dat
   5;//secondary AI tactic from AI_tactic.dat
   3;//footstep particle from particles.dat
@@ -3809,7 +3809,7 @@ Confederate Heavy Fighter (space);//name---------------------------------------
   -2;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
   0;//corpse item amount
   0;//attack type, 0=shooting attack, 1=close combat
-  19;//particle to show on radar, -1=none
+  32;//particle to show on radar, -1=none
   6;//primary AI tactic from AI_tactic.dat
   5;//secondary AI tactic from AI_tactic.dat
   3;//footstep particle from particles.dat
@@ -6063,7 +6063,7 @@ Red Wazzal ship;//name---------------------------------------
   -2;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
   0;//corpse item amount
   0;//attack type, 0=shooting attack, 1=close combat
-  21;//particle to show on radar, -1=none
+  86;//particle to show on radar, -1=none
   25;//primary AI tactic from AI_tactic.dat
   25;//secondary AI tactic from AI_tactic.dat
   16;//footstep particle from particles.dat
@@ -6340,7 +6340,7 @@ Blue Wazzal ship;//name---------------------------------------
   -2;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
   0;//corpse item amount
   0;//attack type, 0=shooting attack, 1=close combat
-  21;//particle to show on radar, -1=none
+  86;//particle to show on radar, -1=none
   25;//primary AI tactic from AI_tactic.dat
   25;//secondary AI tactic from AI_tactic.dat
   53;//footstep particle from particles.dat
@@ -6598,7 +6598,7 @@ Green Wazzal ship;//name---------------------------------------
   -2;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
   0;//corpse item amount
   0;//attack type, 0=shooting attack, 1=close combat
-  21;//particle to show on radar, -1=none
+  86;//particle to show on radar, -1=none
   25;//primary AI tactic from AI_tactic.dat
   25;//secondary AI tactic from AI_tactic.dat
   53;//footstep particle from particles.dat
@@ -6856,7 +6856,7 @@ Yellow Wazzal ship;//name---------------------------------------
   -2;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
   0;//corpse item amount
   0;//attack type, 0=shooting attack, 1=close combat
-  21;//particle to show on radar, -1=none
+  86;//particle to show on radar, -1=none
   25;//primary AI tactic from AI_tactic.dat
   25;//secondary AI tactic from AI_tactic.dat
  16;//footstep particle from particles.dat
@@ -7133,7 +7133,7 @@ Silver Wazzal ship;//name---------------------------------------
   -2;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
   0;//corpse item amount
   0;//attack type, 0=shooting attack, 1=close combat
-  21;//particle to show on radar, -1=none
+  86;//particle to show on radar, -1=none
   25;//primary AI tactic from AI_tactic.dat
   25;//secondary AI tactic from AI_tactic.dat
   -1;//footstep particle from particles.dat
@@ -8903,7 +8903,7 @@ Alien Small Fighter (landed on alien planet);//name-----------------------------
   -1;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
   0;//corpse item amount
   0;//attack type, 0=shooting attack, 1=close combat
-  20;//particle to show on radar, -1=none
+  18;//particle to show on radar, -1=none
   0;//primary AI tactic from AI_tactic.dat
   5;//secondary AI tactic from AI_tactic.dat
   3;//footstep particle from particles.dat
@@ -9131,7 +9131,7 @@ Alien Small Fighter (flying over planet);//name---------------------------------
   -2;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
   0;//corpse item amount
   0;//attack type, 0=shooting attack, 1=close combat
-  18;//particle to show on radar, -1=none
+  20;//particle to show on radar, -1=none
   0;//primary AI tactic from AI_tactic.dat
   0;//secondary AI tactic from AI_tactic.dat
   34;//footstep particle from particles.dat
@@ -10609,7 +10609,7 @@ Unarmed Confederacy soldier - wandering;//name----------------------------------
   -1;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
   0;//corpse item amount
   0;//attack type, 0=shooting attack, 1=close combat
-  -1;//particle to show on radar, -1=none
+  85;//particle to show on radar, -1=none
   13;//primary AI tactic from AI_tactic.dat
  13;//secondary AI tactic from AI_tactic.dat
   3;//footstep particle from particles.dat
@@ -10676,7 +10676,7 @@ Psionic - wandering;//name---------------------------------------
   -2;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
   0;//corpse item amount
   0;//attack type, 0=shooting attack, 1=close combat
-  -1;//particle to show on radar, -1=none
+  85;//particle to show on radar, -1=none
  13;//primary AI tactic from AI_tactic.dat
   3;//secondary AI tactic from AI_tactic.dat
   3;//footstep particle from particles.dat
@@ -10743,7 +10743,7 @@ Android - wandering;//name---------------------------------------
   -1;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
   0;//corpse item amount
   0;//attack type, 0=shooting attack, 1=close combat
-  -1;//particle to show on radar, -1=none
+  85;//particle to show on radar, -1=none
  13;//primary AI tactic from AI_tactic.dat
   3;//secondary AI tactic from AI_tactic.dat
   3;//footstep particle from particles.dat
@@ -11074,7 +11074,7 @@ Dorian Prime alien;//name---------------------------------------
   -1;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
   1;//corpse item amount
   1;//attack type, 0=shooting attack, 1=close combat
-  -1;//particle to show on radar, -1=none
+  85;//particle to show on radar, -1=none
   27;//primary AI tactic from AI_tactic.dat
   11;//secondary AI tactic from AI_tactic.dat
   3;//footstep particle from particles.dat
@@ -12137,7 +12137,7 @@ Storm large;//name---------------------------------------
   -2;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
   0;//corpse item amount
   0;//attack type, 0=shooting attack, 1=close combat
-  18;//particle to show on radar, -1=none
+  -1;//particle to show on radar, -1=none
   17;//primary AI tactic from AI_tactic.dat
   0;//secondary AI tactic from AI_tactic.dat
   3;//footstep particle from particles.dat
@@ -12278,7 +12278,7 @@ Storm large;//name---------------------------------------
   -2;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
   0;//corpse item amount
   0;//attack type, 0=shooting attack, 1=close combat
-  18;//particle to show on radar, -1=none
+  20;//particle to show on radar, -1=none
   0;//primary AI tactic from AI_tactic.dat
   0;//secondary AI tactic from AI_tactic.dat
   3;//footstep particle from particles.dat
@@ -12720,7 +12720,7 @@ fighter_move.wav;//
   -2;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
   0;//corpse item amount
   0;//attack type, 0=shooting attack, 1=close combat
-  18;//particle to show on radar, -1=none
+  19;//particle to show on radar, -1=none
   0;//primary AI tactic from AI_tactic.dat
   0;//secondary AI tactic from AI_tactic.dat
   34;//footstep particle from particles.dat
