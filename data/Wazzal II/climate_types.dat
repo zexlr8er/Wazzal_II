@@ -1941,17 +1941,3 @@ Mars;//name-------------------------------------------
    100;//number of these on a 100*100 map
   end_of_props;
 end_of_file;
-
-
-
-  47;//object definition number		ast1
-    100;//number of these on a 100*100 map
-
-	
-
-   238;//object definition number		rubble
-   100;//number of these on a 100*100 map
- 239;//object definition number		rubble
-   100;//number of these on a 100*100 map
-239;//object definition number		rubble
-   100;//number of these on a 100*100 map
