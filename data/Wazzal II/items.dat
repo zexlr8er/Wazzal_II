@@ -7846,6 +7846,21 @@ shuttle.png;//texture name
       13.000000;//parameter3
       0.000000;//parameter4  
     end_effects;
+		Victory;//event text
+    none;//event failure text
+    use.wav;//sound, none for nothing
+    0;//vanishes after event, 0=no, 1=yes
+    U;//use key
+    7;//quick key
+    begin_conditions; 
+    end_conditions;
+    begin_effects;  
+    25;//effect number
+      2.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
   end_effects_block;
   begin_combinations;
   end_combinations;

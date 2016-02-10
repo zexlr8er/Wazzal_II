@@ -1318,7 +1318,7 @@ Mine;//name---------------------------------------
   70;//identifier
   begin_animation_frames;
   mine6.png;//texture name
-    7000.000000;//time to display frame
+    3500.000000;//time to display frame
   mine1.png;//texture name
     140.000000;//time to display frame
   mine2.png;//texture name

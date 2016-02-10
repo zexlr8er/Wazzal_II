@@ -44,14 +44,26 @@ death;//name-----------------------------------
     768;//end_y
 win;//name-----------------------------------
   2;//identifier
-  plain_back2.jpg;//texture
-  1;//frames
-  You defeated the enemy!! Congratulations!!;
-    550;//text_y
+  ending.jpg;//texture
+  3;//frames
+   Captain! The Alien fleet is burning. This victory will reverberate across every corner of the galaxy!;text
+    30;//text_y
     0;//start_x
     0;//start_y
     1024;//end_x
-    768;//end_y
+    768;//end_y  
+	The Aliens will now realize that the United Confederacy of Planets will never, ever lie down or surrender, no matter the size or power of the forces arranged against us. We will fight until the final soldier and the very last rusty ship!;text
+    600;//text_y
+    0;//start_x
+    0;//start_y
+    1024;//end_x
+    768;//end_y  
+	This was a great victory, Captain. A great, great victory!' \ \ (Exit the game after this screen, or continue to play!);text
+    630;//text_y
+    0;//start_x
+    0;//start_y
+    1024;//end_x
+    768;//end_y  
 Ranks;//name-----------------------------------
   3;//identifier
  book1.jpg;//texture

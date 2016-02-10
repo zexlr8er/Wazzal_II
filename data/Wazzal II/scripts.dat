@@ -3247,10 +3247,10 @@ Player destroys fighters on Erxelz;//name---------------------------------------
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   1000;//run every n milliseconds
- Admiral Fefarewbu, 4th New Dawn Confederate Fleet: \ \ 'The Alien fleet is burning. This attack will reverberate across every corner of the galaxy. The Aliens will now realize that the United Confederacy of Planets will never, ever lie down or surrender, no matter the size or power of the forces arranged against us. We will fight until the final soldier and the very last rusty ship. \ \ This was a great victory, Captain. A great, great victory. (Earn 100 Promotion points, 5000 credits and 5 units of Drug, Weapon Parts and Slave stock. The Galactic Stock Exchange skyrockets to hear of your great victory!)';//message
+none;//message
   1;//message type, 0=quick message, 1=journal
   morse.wav;//sound, none for nothing
-  0;//delay script for n seconds after conditions met
+  3;//delay script for n seconds after conditions met
   1;//disabled after first use, 0=no, 1=yes
   begin_conditions;
     4;//condition
@@ -3259,63 +3259,16 @@ Player destroys fighters on Erxelz;//name---------------------------------------
   4;//condition
     62.000000;//condition parameter0
    11.000000;//condition parameter1
+     4;//condition
+    101.000000;//condition parameter0
+   11.000000;//condition parameter1
   end_conditions;
   begin_effects;
-  44;//effect number
-    100.000000;//parameter1
-    1.000000;//parameter2
-    9.000000;//parameter3
-    0.000000;//parameter4  
-44;//effect number
-    5000.000000;//parameter1
-    1.000000;//parameter2
-    13.000000;//parameter3
-    0.000000;//parameter4  
-  16;//effect number                   give slaves
-    31.000000;//parameter1
-    5.000000;//parameter2
-    1.000000;//parameter3
-    0.000000;//parameter4
-  4;//effect number                   update inventory
-    5.000000;//parameter1
-    0.000000;//parameter2
-    31.000000;//parameter3
-    0.000000;//parameter4
-  16;//effect number                   give weap
-    29.000000;//parameter1
-    5.000000;//parameter2
-    1.000000;//parameter3
-    0.000000;//parameter4 
-	  4;//effect number                   update inventory
-    5.000000;//parameter1
-    0.000000;//parameter2
-    30.000000;//parameter3
-    0.000000;//parameter4
-  16;//effect number                   give drug
-    27.000000;//parameter1
-    5.000000;//parameter2
-    1.000000;//parameter3
-    0.000000;//parameter4  
-	4;//effect number                   update inventory
-    5.000000;//parameter1
-    0.000000;//parameter2
-    29.000000;//parameter3
-    0.000000;//parameter4
-  63;//effect number
-    500.000000;//parameter1
-    0.000000;//parameter2
-    17.000000;//parameter3 slaves
-    1.000000;//parameter4
-  63;//effect number
-    300.000000;//parameter1
-    0.000000;//parameter2
-    19.000000;//parameter3 weapons
-    1.000000;//parameter4
-  63;//effect number
-    100.000000;//parameter1
-    0.000000;//parameter2
-    18.000000;//parameter3 drugs
-    1.000000;//parameter4 
+    25;//effect number
+      2.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
   end_effects;
 Give V item for blood serum;//name-----------------------------------------------------------------
   91;//identifier
