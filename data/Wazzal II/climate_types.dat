@@ -1459,9 +1459,9 @@ Desert planet;//name------------------------------------------------------------
   0.9;//light r amplitude
   1.0;//light g amplitude
   1.0;//light b amplitude
-  0.7;//light max r
-  0.5;//light max g
-  0.5;//light max b
+  0.9;//light max r
+  0.7;//light max g
+  0.7;//light max b
   0.05;//light min r
   0.05;//light min g
   0.3;//light min b

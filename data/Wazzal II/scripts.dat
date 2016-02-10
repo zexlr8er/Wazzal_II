@@ -4280,7 +4280,7 @@ If has new Pirate flag item;//name----------------------------------------------
  none;//message
   0;//message type, 0=quick message, 1=journal
   jumpgate.wav;//sound, none for nothing
-  100;//delay script for n seconds after conditions met
+  80;//delay script for n seconds after conditions met
   1;//disabled after first use, 0=no, 1=yes
   begin_conditions;
     13;//condition
@@ -4313,7 +4313,7 @@ If has new Pirate flag item;//name----------------------------------------------
  none;//message
   0;//message type, 0=quick message, 1=journal
   none;//sound, none for nothing
-  104;//delay script for n seconds after conditions met
+  84;//delay script for n seconds after conditions met
   1;//disabled after first use, 0=no, 1=yes
   begin_conditions;
     13;//condition
@@ -4341,7 +4341,7 @@ If has new Pirate flag item;//name----------------------------------------------
  none;//message
   0;//message type, 0=quick message, 1=journal
   none;//sound, none for nothing
-  107;//delay script for n seconds after conditions met
+  87;//delay script for n seconds after conditions met
   1;//disabled after first use, 0=no, 1=yes
   begin_conditions;
     13;//condition

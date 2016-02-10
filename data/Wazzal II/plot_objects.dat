@@ -7294,7 +7294,7 @@ Underground caves;//name---------------------------------------
   0;//show help text for conditions
   begin_effects_block;
   	  none;//event text
-    explosion2.wav;//sound, none for nothing
+    siren.wav;//sound, none for nothing
    1;//vanishes after event, 0=no, but cannot be reused, 1=vanishes, 2=no, and can be reused
     begin_conditions;
 	   0;//condition                            have trigger item?
@@ -7519,7 +7519,7 @@ Underground caves;//name---------------------------------------
   0;//show help text for conditions
   begin_effects_block;
   	  none;//event text
-    explode1.wav;//sound, none for nothing
+    explosion2.wav;//sound, none for nothing
    1;//vanishes after event, 0=no, but cannot be reused, 1=vanishes, 2=no, and can be reused
     begin_conditions;
 	   0;//condition                            have trigger item?
