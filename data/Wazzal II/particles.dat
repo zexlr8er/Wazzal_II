@@ -217,7 +217,7 @@ Sun;//name
 Radar small enemy;//name----------------------------
   18;//identifier
   particle.tga;//texture
-  6;//size
+  7;//size
   0.000000;//red color component
   1.000000;//green color component
   0.000000;//blue color component
@@ -229,7 +229,7 @@ Radar small enemy;//name----------------------------
 Radar small confederation;//name----------------------------
   19;//identifier
   particle.tga;//texture
-  6;//size
+  7;//size
   1.000000;//red color component
   0.000000;//green color component
   0.000000;//blue color component
@@ -241,7 +241,7 @@ Radar small confederation;//name----------------------------
 Radar medium enemy;//name----------------------------corvette
   20;//identifier
   particle.tga;//texture
-  9;//size
+  10;//size
   0.000000;//red color component
   1.000000;//green color component
   0.000000;//blue color component
@@ -253,7 +253,7 @@ Radar medium enemy;//name----------------------------corvette
 Radar medium confederation;//name----------------------------corvette
   21;//identifier
   particle.tga;//texture
-  9;//size
+  10;//size
   1.000000;//red color component
   0.000000;//green color component
  0.000000;//blue color component
@@ -265,7 +265,7 @@ Radar medium confederation;//name----------------------------corvette
 Radar large enemy;//name----------------------------destroyer
   22;//identifier
   particle.tga;//texture
-  12;//size
+  13;//size
   0.000000;//red color component
   1.000000;//green color component
   0.000000;//blue color component
@@ -277,7 +277,7 @@ Radar large enemy;//name----------------------------destroyer
 Radar large confederation;//name----------------------------destroyer
   23;//identifier
   particle.tga;//texture
-  12;//size
+  13;//size
  1.000000;//red color component
   0.000000;//green color component
   0.000000;//blue color component
@@ -1021,7 +1021,7 @@ Destroyer burners smoke;//name
   Radar small neutral;//name----------------------------fighter
  86;//identifier
   particle.tga;//texture
-  6;//size
+  7;//size
   1.000000;//red color component
   1.000000;//green color component
   1.000000;//blue color component
@@ -1033,7 +1033,7 @@ Destroyer burners smoke;//name
 Radar medium neutral;//name----------------------------corvette
   87;//identifier
   particle.tga;//texture
-  9;//size
+  10;//size
   1.000000;//red color component
   1.000000;//green color component
   1.000000;//blue color component
@@ -1045,7 +1045,7 @@ Radar medium neutral;//name----------------------------corvette
 Radar large neutral;//name----------------------------destroyer
   88;//identifier
   particle.tga;//texture
-  12;//size
+  13;//size
   1.000000;//red color component
   1.000000;//green color component
   1.000000;//blue color component

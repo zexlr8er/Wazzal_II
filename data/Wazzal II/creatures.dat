@@ -4448,7 +4448,7 @@ Wa-wolf;//name---------------------------------------
   116;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
   1;//corpse item amount
   1;//attack type, 0=shooting attack, 1=close combat
-  -1;//particle to show on radar, -1=none
+  85;//particle to show on radar, -1=none
   20;//primary AI tactic from AI_tactic.dat
   9;//secondary AI tactic from AI_tactic.dat
   3;//footstep particle from particles.dat
@@ -5418,7 +5418,7 @@ Rock Monster;//name---------------------------------------
   -1;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
   1;//corpse item amount
   1;//attack type, 0=shooting attack, 1=close combat
-  -1;//particle to show on radar, -1=none
+  86;//particle to show on radar, -1=none
   22;//primary AI tactic from AI_tactic.dat
   22;//secondary AI tactic from AI_tactic.dat
   3;//footstep particle from particles.dat
@@ -7972,7 +7972,7 @@ Ka-bear;//name---------------------------------------
  120;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
   1;//corpse item amount
   1;//attack type, 0=shooting attack, 1=close combat
-  -1;//particle to show on radar, -1=none
+  86;//particle to show on radar, -1=none
   22;//primary AI tactic from AI_tactic.dat
   9;//secondary AI tactic from AI_tactic.dat
  3;//footstep particle from particles.dat
@@ -8508,7 +8508,7 @@ Egg laying dark alien;//name---------------------------------------
    3;//effect number
       129.000000;//parameter1
       1.000000;//parameter2
-      50.000000;//parameter3
+      60.000000;//parameter3
       0.000000;//parameter4    
     end_effects;
  0;//death type, 0=any death, 1=timed death, 2=killed by player
@@ -8521,7 +8521,7 @@ Egg laying dark alien;//name---------------------------------------
    3;//effect number
       133.000000;//parameter1
       1.000000;//parameter2
-      50.000000;//parameter3
+      60.000000;//parameter3
       0.000000;//parameter4    
     end_effects;
  0;//death type, 0=any death, 1=timed death, 2=killed by player
@@ -8534,7 +8534,7 @@ Egg laying dark alien;//name---------------------------------------
    3;//effect number
       126.000000;//parameter1
       1.000000;//parameter2
-      50.000000;//parameter3
+      60.000000;//parameter3
       0.000000;//parameter4    
     end_effects;
   end_death_block;
@@ -11866,7 +11866,7 @@ Storm large;//name---------------------------------------
   178;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
   1;//corpse item amount
   1;//attack type, 0=shooting attack, 1=close combat
-  -1;//particle to show on radar, -1=none
+  85;//particle to show on radar, -1=none
   1;//primary AI tactic from AI_tactic.dat
   1;//secondary AI tactic from AI_tactic.dat
   3;//footstep particle from particles.dat

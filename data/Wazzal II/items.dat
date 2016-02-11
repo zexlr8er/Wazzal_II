@@ -4987,11 +4987,11 @@ Commanding destroyer;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-MR Battle scanner;//name---------------------------------------
+MR Battlescanner;//name---------------------------------------
   125;//identifier
   0;//item class
   10.000000;//weight
-  Your medium range battle scanner shows any nearby allies, neutral or enemy units on the battlefield. It uses energy, so be careful you don't use it needlessly. Press 'R' in-game to activate.;//short description
+  Your medium range battlescanner shows any nearby allies, neutral or enemy units on the battlefield. It uses energy, so be careful you don't use it needlessly. Press 'R' in-game to activate.;//short description
   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -8480,11 +8480,11 @@ Use to fire a deadly long-ranged mortar. Use as a weapon by left-clicking, and t
   end_effects_block;
   begin_combinations;
   end_combinations;
-  LR Battle scanner;//name---------------------------------------
+  LR Battlescanner;//name---------------------------------------
   204;//identifier
   0;//item class
   10.000000;//weight
-  Your long range battle scanner shows even distant allies, neutral or enemy units on the battlefield. It uses energy, so be careful you don't use it needlessly. Press 'R' in-game to activate.;//short description
+  Your long range battlescanner shows even distant allies, neutral or enemy units on the battlefield. It uses energy, so be careful you don't use it needlessly. Press 'R' in-game to activate.;//short description
   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner

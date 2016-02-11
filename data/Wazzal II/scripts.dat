@@ -527,7 +527,7 @@ Player reaches Ensign, 50 Promotion;//name--------------------------------------
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   3000;//run every n milliseconds
-  Congratulations! The Confederate Navy has recognized your achievement, and has promoted you to the rank of Ensign. \ \ To thank you, we have fitted your ship with brand-new SR radar systems, provided you with a personal SR battle scanner, and increased your shields maximum by 10! \ \ Your current salary is: 20 Confederate Credits an hour. \ \ Obtain 100PP to be promoted to 2nd Lieutenant!;//message
+  Congratulations! The Confederate Navy has recognized your achievement, and has promoted you to the rank of Ensign. \ \ To thank you, we have fitted your ship with brand-new SR radar systems, provided you with a personal SR battlescanner, and increased your shields maximum by 10! \ \ Your current salary is: 20 Confederate Credits an hour. \ \ Obtain 100PP to be promoted to 2nd Lieutenant!;//message
   1;//message type, 0=quick message, 1=journal
   morse.wav;//sound, none for nothing
   0;//delay script for n seconds after conditions met
