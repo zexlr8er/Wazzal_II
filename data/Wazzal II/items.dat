@@ -1013,7 +1013,7 @@ Ship repair unit;//name---------------------------------------
   20.000000;//weight
   Using this ship repair unit will increase your hull integrity by 20. \ (Quick key: H);//short description
   none;//first pick up text
-  0.300000;//size on map
+  0.380000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
   1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
@@ -1319,7 +1319,7 @@ Stock: Slaves;//name---------------------------------------
   32;//identifier
   0;//item class
   0.000000;//weight
-  Press 'U' to buy a clip of 12 bullets. \ \  Price: 50 credits;//short description
+  Press 'U' to buy a clip of 50 bullets. \ \  Price: 200 credits;//short description
   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -1341,17 +1341,17 @@ Stock: Slaves;//name---------------------------------------
     begin_conditions;
     3;//condition
       13.000000;//condition parameter0
-      50.000000;//condition parameter1      
+      200.000000;//condition parameter1      
     end_conditions;
     begin_effects;
     4;//effect number
-      -50.000000;//parameter1
+      -200.000000;//parameter1
       1.000000;//parameter2
       13.000000;//parameter3
       0.000000;//parameter4      
     16;//effect number
       15.000000;//parameter1
-      12.000000;//parameter2
+      50.000000;//parameter2
       1.000000;//parameter3
       0.000000;//parameter4
     end_effects;
