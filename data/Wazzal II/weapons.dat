@@ -3377,7 +3377,7 @@ none;//hit sound
    end_fire_effects;
   begin_hit_effects;
      end_hit_effects;
-Particle Cannon, destroyer;//name---------------------------------------double barrel
+Particle Cannon, destroyer (allied);//name---------------------------------------double barrel
  71;//identifier
   1;//class
   particlecantwin.png;//bullet texture
@@ -3408,12 +3408,12 @@ Particle Cannon, destroyer;//name---------------------------------------double b
   end_fire_effects;
   begin_hit_effects;
   4;//effect number
-    -1.300000;//parameter1
+    -1.000000;//parameter1
     0.000000;//parameter2
     8.000000;//parameter3
     0.000000;//parameter4
   4;//effect number
-    -2.000000;//parameter1
+    -4.500000;//parameter1
     0.000000;//parameter2
     4.000000;//parameter3
     0.000000;//parameter4
@@ -5566,5 +5566,97 @@ Volcano damage;//name---------------------------------------
   begin_fire_effects;  	
   end_fire_effects;
   begin_hit_effects;
+  end_hit_effects;
+  Particle Cannon, destroyer (player);//name---------------------------------------double barrel
+ 111;//identifier
+  1;//class
+  particlecantwin.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  4.000000;//bullet size
+  0.000000;//spread
+  1.400000;//bullet speed
+  600.000000;//time until bullet disappears
+ 65;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.0000000;//push target back
+  0.000000;//push shooter back
+  partcan.wav;//fire sound
+  hit1.wav;//hit sound
+  0.500000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+   end_wield_conditions;
+  begin_fire_effects;
+  27;//effect number
+    12.000000;//parameter1
+    50.000000;//parameter2
+    0.100000;//parameter3
+    0.350000;//parameter4
+  end_fire_effects;
+  begin_hit_effects;
+  4;//effect number
+    -6.000000;//parameter1
+    0.000000;//parameter2
+    4.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    2.000000;//parameter1
+    30.000000;//parameter2
+    10.000000;//parameter3
+    0.000000;//parameter4 
+  end_hit_effects;
+  Laser confed destroyer (player);//name---------------------------------------
+ 112;//identifier
+ 1;//class
+  laser_small2.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  5.000000;//bullet size
+  0.000000;//spread
+  1.200000;//bullet speed
+  750.000000;//time until bullet disappears
+  150;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.00000;//push target back
+  0.000000;//push shooter back
+  laser1.wav;//fire sound
+  hit2.wav;//hit sound
+  0.500000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  27;//effect number
+    3.000000;//parameter1
+    50.000000;//parameter2
+    0.300000;//parameter3
+    0.350000;//parameter4  
+  27;//effect number
+    4.000000;//parameter1
+    50.000000;//parameter2
+    1.400000;//parameter3
+    1.500000;//parameter4
+  24;//effect number
+   26.000000;//parameter1
+    1.000000;//parameter2
+    3.00000;//parameter3
+    5.500000;//parameter4 
+  24;//effect number
+   26.000000;//parameter1
+    1.000000;//parameter2
+    3.00000;//parameter3
+    -5.500000;//parameter4 
+  end_fire_effects;
+  begin_hit_effects;
+  4;//effect number
+    -10.0000000;//parameter1
+    0.000000;//parameter2
+    4.000000;//parameter3
+    0.000000;//parameter4 
   end_hit_effects;
 end_of_file;

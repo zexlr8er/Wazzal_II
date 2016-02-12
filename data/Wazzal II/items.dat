@@ -4923,23 +4923,21 @@ Commanding destroyer;//name---------------------------------------
 7;//condition
     3.000000;//condition parameter0
       0.000000;//condition parameter1 
+	  7;//condition
+    5.000000;//condition parameter0
+      0.000000;//condition parameter1 
     end_conditions;
     begin_effects;
     51;//effect number
-      0.000000;//parameter1
-      23.000000;//parameter2
+      1.000000;//parameter1
+      9.000000;//parameter2
       100.000000;//parameter3
       -2.000000;//parameter4
     50;//effect number
-      0.000000;//parameter1
-     23.000000;//parameter2
+      1.000000;//parameter1
+     9.000000;//parameter2
       100.000000;//parameter3
       -2.000000;//parameter4
-    49;//effect number
-      0.000000;//parameter1
-      300.000000;//parameter2
-      -1.000000;//parameter3
-      0.000000;//parameter4  
    end_effects;
   end_effects_block;
   begin_combinations;
