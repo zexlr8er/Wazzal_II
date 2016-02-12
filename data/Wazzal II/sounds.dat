@@ -34,4 +34,13 @@ Paper;//name--------------------------------------
   Alien fighter arrival (tear);//name--------------------------------------
   11;//identifier
   explosion2.wav;//filename
+  Meteor hit;//name--------------------------------------
+  12;//identifier
+ hit1.wav;//filename
+   Meteor hit;//name--------------------------------------
+  13;//identifier
+ hit.wav;//filename
+    Meteor hit;//name--------------------------------------
+  14;//identifier
+ hit2.wav;//filename
 end_of_file;

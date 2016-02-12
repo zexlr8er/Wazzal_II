@@ -5464,7 +5464,7 @@ Descend to Earth;//name---------------------------------------
       0.000000;//parameter4  
     end_effects;
   end_effects_block;  
-Moon;//name---------------------------------------
+Descend to Moon;//name---------------------------------------
   118;//identifier
   -1;//map type to place to -1=any map 0=> type from areas.dat
   0;//plot_object class
@@ -5478,7 +5478,7 @@ Moon;//name---------------------------------------
  69;//particle to shown on radar
   fire.wav;//radiate sound
 -1;//time to delete object in milliseconds, -1=don't delete
-3;//trigger event by 0=player click, 1=player near, 2=near or click, 3=map creation (try to avoid any creature specific effects when using this, also does not check conditions), 4=interval parameter1
+0;//trigger event by 0=player click, 1=player near, 2=near or click, 3=map creation (try to avoid any creature specific effects when using this, also does not check conditions), 4=interval parameter1
   0;//trigger event parameter1
   1;//show help text for conditions
   begin_effects_block;
@@ -5488,8 +5488,13 @@ Moon;//name---------------------------------------
     begin_conditions;
     end_conditions;
     begin_effects;
+	      21;//effect number                          teleport to Venus
+     27.000000;//parameter1
+     181.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
     end_effects;
-  end_effects_block;
+  end_effects_block;  
 Descend to Venus;//name---------------------------------------
   119;//identifier
   -1;//map type to place to -1=any map 0=> type from areas.dat
@@ -6338,7 +6343,7 @@ Descend to Jupiter;//name---------------------------------------
   end_effects_block;
    Alien ship part 3;//name---------------------------------------
   142;//identifier
-  22;//map type to place to -1=any map 0=> type from areas.dat
+  27;//map type to place to -1=any map 0=> type from areas.dat
  0;//plot_object class
   0;//object definition number
   1;//number of objects to be placed
@@ -7649,7 +7654,7 @@ Underground caves;//name---------------------------------------
   -1;//time to delete object in milliseconds, -1=don't delete
   4;//trigger event by 0=player click, 1=player near, 2=near or click, 3=map creation (try to avoid any creature specific effects when using this, also does not check conditions), 4=interval parameter1
   3000;//trigger event parameter1
-  1;//show help text for conditions
+ 0;//show help text for conditions
   begin_effects_block;
 	 Admiral Fefarewbu, 4th New Dawn Confederate Fleet: \ \ 'Captain! A transport reached Dorian Prime! We can now provide much needed supplies to our base on the planet! \ \ To thank you for your timely assistance, we will supply you with some of our valuable cargo. We hope you invest your earnings well! \ \ (Earn 50 Promotion points and 5 units of Drug, Weapon Parts and Slave stock. The Galactic Stock Exchange increases in value to hear the news!)';//event text
     morse.wav;//sound, none for nothing
@@ -8274,7 +8279,7 @@ Underground caves;//name---------------------------------------
     begin_effects;  
     end_effects;
   end_effects_block;
- Confed Destroyer (destroyer);//name---------------------------------------
+ Confed Destroyer (destroyed);//name---------------------------------------
 179;//identifier
   -1;//map type to place to -1=any map 0=> type from areas.dat
   0;//plot_object class
@@ -8332,6 +8337,37 @@ Underground caves;//name---------------------------------------
       100.000000;//parameter2
       4.000000;//parameter3
       4.000000;//parameter4
+    end_effects;
+  end_effects_block;
+       Click to return to space;//name---------------------------------------moon
+181;//identifier
+  -1;//map type to place to -1=any map 0=> type from areas.dat
+  0;//plot_object class
+  216;//object definition number
+  0;//number of objects to be placed
+  0;//location type, 0=random, 1=distance min(parameter1) max(parameter2) from player start, 2=distance min(parameter1) max(parameter2) from object parameter0, 3=coordinates [parameter0, parameter1] (0=min, 1=max)  vary location=parameter2
+  0.000000;//location parameter0
+  0.000000;//location parameter1
+  0.000000;//location parameter2
+  2;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  56;//particle to shown on radar
+  none;//radiate sound
+  -1.000000;//time to delete object in milliseconds, -1=don't delete
+  0;//trigger event by 0=player click, 1=player near, 2=near or click, 3=map creation (try to avoid any creature specific effects when using this, also does not check conditions), 4=interval parameter1
+  0;//trigger event parameter1
+  1;//show help text for conditions
+  begin_effects_block;
+  none;//event text
+    none;//sound, none for nothing
+    2;//vanishes after event, 0=no, but cannot be reused, 1=vanishes, 2=no, and can be reused
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+    21;//effect number                          teleport to moon
+      20.000000;//parameter1          
+      118.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4     
     end_effects;
   end_effects_block;
 end_of_file;

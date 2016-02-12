@@ -1890,6 +1890,9 @@ Mars;//name-------------------------------------------
   wind2.wav;
   wind_low_1.wav;
   wind_low_0.wav;
+  	  thunderclap2.wav;
+	  thunderclap3.wav;
+	  thunderclap4.wav;
   end_of_night_sounds;
   start_of_day_sounds;
   wind0.wav;
@@ -1897,6 +1900,9 @@ Mars;//name-------------------------------------------
   wind2.wav;
   wind_low_1.wav;
   wind_low_0.wav;
+  	  thunderclap2.wav;
+	  thunderclap3.wav;
+	  thunderclap4.wav;
   end_of_day_sounds;
   start_of_props;
       206;//object definition number		mist
@@ -1940,4 +1946,176 @@ Mars;//name-------------------------------------------
 147;//object definition number		rubble
    100;//number of these on a 100*100 map
   end_of_props;
+  Earth moon;//name-----------------------------------------------------------
+  21;//identifier
+  0;//can be a random map
+  200;//light oscillate time
+  0.100000;//light r phase shift
+  -0.0600000;//light g phase shift
+  -0.000000;//light b phase shift
+  1.000000;//light r amplitude
+  0.900000;//light g amplitude
+  0.800000;//light b amplitude
+  0.7100000;//light max r
+  0.700000;//light max g
+  0.700000;//light max b
+  0.1100000;//light min r
+  0.100000;//light min g
+  0.100000;//light min b
+  -0.20000;//night temperature
+  0.000000;//day temperature
+ 1.500000;//maximum wind speed
+ 89;//rain particle, -1=no rain
+  800;//rain_particle_life_min
+  1200;//rain_particle_life_max
+  5000;//rain_probability (the bigger the number, the more unlikely the rain)
+  5000;//rain_time_min
+  5000;//rain_time_max
+  begin_effects_block;//
+  Meteor shower!;//event text
+    240;//interval
+    begin_conditions;
+	   8;//use condition number
+      2.000000;//use condition parameter0
+      0.000000;//use condition parameter1  
+    end_conditions;
+    begin_effects;
+    67;//effect number  ---push
+      0.2000;//parameter1
+      0.000000;//parameter2
+      2.000000;//parameter3
+      200.000000;//parameter4
+	 23;//effect number   ---health
+      -0.750000;//parameter1
+      3.000000;//parameter2
+      0.000000;//parameter3
+      100.000000;//parameter4
+	  36;//effect number  -shake
+      9.000000;//parameter1
+      400.000000;//parameter2
+      0.00000;//parameter3
+      0.000000;//parameter4
+	  14;//effect number  -sound
+      12.000000;//parameter1
+      0.1500000;//parameter2
+      0.00000;//parameter3
+      0.000000;//parameter4
+  27;//effect number
+    14.000000;//parameter1
+    20.000000;//parameter2
+    0.100000;//parameter3
+    0.700000;//parameter4 
+ 26;//effect number
+    2.000000;//parameter1
+    50.000000;//parameter2
+    10.000000;//parameter3
+    0.000000;//parameter4 
+  27;//effect number
+    2.000000;//parameter1
+    100.000000;//parameter2
+    0.000000;//parameter3
+    0.800000;//parameter4	
+    end_effects;
+  ;//event text
+    350;//interval
+    begin_conditions;
+	   8;//use condition number
+      2.000000;//use condition parameter0
+      0.000000;//use condition parameter1  
+    end_conditions;
+    begin_effects;
+	  14;//effect number  -sound
+      13.000000;//parameter1
+      0.1500000;//parameter2
+      0.00000;//parameter3
+      0.000000;//parameter4
+    end_effects;   	
+	  ;//event text
+    450;//interval
+    begin_conditions;
+	   8;//use condition number
+      2.000000;//use condition parameter0
+      0.000000;//use condition parameter1  
+    end_conditions;
+    begin_effects;
+	  14;//effect number  -sound
+      14.000000;//parameter1
+      0.300000;//parameter2
+      0.00000;//parameter3
+      0.000000;//parameter4
+    end_effects;   	
+  end_effects_block;
+  start_of_terrains;//  
+  17;
+40;
+41;
+10;
+55;
+46;
+47;
+57;
+  end_of_terrains;
+  start_of_night_sounds;
+  	  thunderclap2.wav;
+	  thunderclap3.wav;
+	  thunderclap4.wav;
+  wind0.wav;
+  wind1.wav;
+  wind2.wav;
+wind_low_1.wav;
+  wind_low_0.wav;
+  end_of_night_sounds;
+  start_of_day_sounds;
+  	  thunderclap2.wav;
+	  thunderclap3.wav;
+	  thunderclap4.wav;
+  wind0.wav;
+  wind1.wav;
+  wind2.wav;
+wind_low_1.wav;
+  wind_low_0.wav;
+  end_of_day_sounds;
+  start_of_props;
+	    235;//object definition number		kivi
+    240;//number of these on a 100*100 map
+  236;//object definition number		kivi
+    170;//number of these on a 100*100 map
+  237;//object definition number		kivi
+    170;//number of these on a 100*100 map
+	   238;//object definition number		rubble
+   130;//number of these on a 100*100 map
+ 239;//object definition number		rubble
+   130;//number of these on a 100*100 map
+239;//object definition number		rubble
+   130;//number of these on a 100*100 map
+      145;//object definition number		rubble
+   220;//number of these on a 100*100 map
+ 146;//object definition number		rubble
+   220;//number of these on a 100*100 map
+147;//object definition number		rubble
+   220;//number of these on a 100*100 map
+  end_of_props;
 end_of_file;
+
+
+
+12;//object definition number		kivi
+    170;//number of these on a 100*100 map
+  13;//object definition number		kivi
+   170;//number of these on a 100*100 map
+ 145;//object definition number		rubble
+   220;//number of these on a 100*100 map
+ 146;//object definition number		rubble
+   220;//number of these on a 100*100 map
+147;//object definition number		rubble
+   220;//number of these on a 100*100 map
+120;//object definition number		ruin ship
+  20;//number of these on a 100*100 map
+ 121;//object definition number		ruin ship
+   20;//number of these on a 100*100 map
+ 122;//object definition number		ruin ship
+    20;//number of these on a 100*100 map
+ 123;//object definition number		ruin ship
+    33;//number of these on a 100*100 map
+ 124;//object definition number		ruin ship
+    33;//number of these on a 100*100 map
