@@ -146,7 +146,7 @@ end_alien_list;
 3;
 4;
   end_excluded_plot_object_classes;
- USS Crego: Captain! You survived the Errxelz System!  We had almost lost all hope that you had survived.  Ennokknmo has not been as heavily hit as Errxelz, however we cannot expect to hold the system for long. \ \  Please help us to destroy the three Alien battleships in this sector, and clear it of enemy fighters until we are able to warn the United Confederacy about what has taken place this night. \ \  On the planet Kinmegag 71 in the neighboring Tiodia System, there is a massively powerful Interplanetary Signal Array that can be used to contact the Confederate capital, New Dawn. Meanwhile, both Lvlei and the valuable mining planet Zycar in this system are under heavy Alien attack.\ \ We will take the fight to them both on the land and in the skies.  Long live the United Confederacy of Planets!;//enter area text, specify none to not show it
+ USS Crego: Captain! You survived the Errxelz System! We had lost all hope that you had survived. Ennokknmo has not been as heavily hit as Errxelz, however we cannot expect to hold the system for long. \ \ Please help us to destroy the three Alien battleships in this sector, and clear it of enemy fighters until we are able to warn the United Confederacy about what has taken place this night. \ \ On the planet Kinmegag 71 there is a massively powerful Interplanetary Signal Array that can be used to contact the Confederate capital, New Dawn. Meanwhile, the forest planet of Lvlei in this system is under heavy Alien attack.\ \ We will take the fight to them both on the land and in the skies.  Long live the United Confederacy of Planets!;//enter area text, specify none to not show it
 6;//Lvlei---------------------------------------------------------forest planet
 Lvlei;//area name
   0;//area class
@@ -173,7 +173,7 @@ Lvlei;//area name
   begin_excluded_plot_object_classes;
 5;  
 end_excluded_plot_object_classes;
-  Heat shimmers against the Wolf IV's blast shields as you come in to land. Throughout the United Confederacy, the name 'Zycar' is synonomous with fire, death, and hell. \ \ You glance at your scanners: average daily temperature of 80 degrees celsius, not much less at night. Half of the planet's surface covered in fields of lava. Deadly showers of molten rock, every few minutes. \ \ This place is barely fit to sustain life itself, let alone the willful destruction of it occuring on the newly-opened front between the Alien landing force and the United Confederacy troops that are desperately defending the system's valuable ore mines...;//enter area text, specify none to not show it
+  Heat shimmers against the Wolf IV's blast shields as you come in to land. Throughout the United Confederacy, the name 'Zycar' is synonomous with fire, death, and hell. \ \ You glance at your scanners: average daily temperature of 80 degrees celsius, not much less at night. Half of the planet's surface covered in fields of lava. Deadly showers of molten rock, every few minutes. \ \ This place is barely fit to sustain life itself, let alone the wilful destruction of it occurring on the newly-opened front between the Alien landing force and the United Confederacy troops that are desperately defending the system's valuable ore mines...;//enter area text, specify none to not show it
 8;//---------------------------------------------------------
   Tiodia System;//area name
   3;//area class
