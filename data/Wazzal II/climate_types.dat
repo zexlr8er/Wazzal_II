@@ -2095,27 +2095,112 @@ wind_low_1.wav;
 147;//object definition number		rubble
    220;//number of these on a 100*100 map
   end_of_props;
+  Space (Alien);//name------------------------------------------------------------------
+ 22;//identifier
+  0;//can be a random map
+  200;//light oscillate time
+  0.200000;//light r phase shift
+  0.300000;//light g phase shift
+  0.200000;//light b phase shift
+  0.800000;//light r amplitude
+  1.000000;//light g amplitude
+  0.800000;//light b amplitude
+  0.500000;//light max r
+  1.000000;//light max g
+  0.50000;//light max b
+  0.500000;//light min r
+  1.000000;//light min g
+  0.50000;//light min b
+  -0.200000;//night temperature
+  -0.200000;//day temperature
+  1.000000;//maximum wind speed
+ 57;//rain particle, -1=no rain
+  800;//rain_particle_life_min
+  2000;//rain_particle_life_max
+  7000;//rain_probability (the bigger the number, the more unlikely the rain)
+  2000;//rain_time_min
+  5000;//rain_time_max
+  begin_effects_block;//   
+  ;//event text
+    100;//interval
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+	 23;//effect number   ---health
+      -0.150000;//parameter1
+      3.000000;//parameter2
+      0.000000;//parameter3
+      100.000000;//parameter4
+    end_effects;    
+  end_effects_block;
+  start_of_terrains;//  
+  2;
+  end_of_terrains;
+  start_of_night_sounds;
+  end_of_night_sounds;
+  start_of_day_sounds;
+  end_of_day_sounds;
+  start_of_props;
+     138;//object definition number		alienprop
+    12;//number of these on a 100*100 map
+        206;//object definition number		mist
+    200;//number of these on a 100*100 map
+	207;//object definition number		mist
+    200;//number of these on a 100*100 map
+	208;//object definition number		mist
+    150;//number of these on a 100*100 map
+	209;//object definition number		mist small
+    250;//number of these on a 100*100 map
+	210;//object definition number		mist small
+    250;//number of these on a 100*100 map
+  41;//object definition number		
+    15;//number of these on a 100*100 map
+42;//object definition number		
+    15;//number of these on a 100*100 map
+  43;//object definition number		
+    25;//number of these on a 100*100 map
+ 44;//object definition number		
+    15;//number of these on a 100*100 map
+  56;//object definition number		
+    5;//number of these on a 100*100 map
+  57;//object definition number		
+    15;//number of these on a 100*100 map
+  58;//object definition number		
+    15;//number of these on a 100*100 map
+  59;//object definition number		
+    10;//number of these on a 100*100 map
+  60;//object definition number		
+    10;//number of these on a 100*100 map
+  61;//object definition number		
+    10;//number of these on a 100*100 map
+  62;//object definition number		
+    10;//number of these on a 100*100 map
+  63;//object definition number		
+    10;//number of these on a 100*100 map
+  64;//object definition number		
+    15;//number of these on a 100*100 map
+195;//object definition number		
+    20;//number of these on a 100*100 map
+196;//object definition number		
+    20;//number of these on a 100*100 map
+197;//object definition number		
+    20;//number of these on a 100*100 map
+198;//object definition number		
+   20;//number of these on a 100*100 map
+211;//object definition number		 ruin swaying
+    20;//number of these on a 100*100 map
+212;//object definition number	          	
+    20;//number of these on a 100*100 map
+213;//object definition number		
+    20;//number of these on a 100*100 map
+214;//object definition number		
+   20;//number of these on a 100*100 map
+145;//object definition number		rubble
+   60;//number of these on a 100*100 map
+ 146;//object definition number		rubble
+  60;//number of these on a 100*100 map
+147;//object definition number		rubble
+   60;//number of these on a 100*100 map
+  end_of_props;
 end_of_file;
 
-
-
-12;//object definition number		kivi
-    170;//number of these on a 100*100 map
-  13;//object definition number		kivi
-   170;//number of these on a 100*100 map
- 145;//object definition number		rubble
-   220;//number of these on a 100*100 map
- 146;//object definition number		rubble
-   220;//number of these on a 100*100 map
-147;//object definition number		rubble
-   220;//number of these on a 100*100 map
-120;//object definition number		ruin ship
-  20;//number of these on a 100*100 map
- 121;//object definition number		ruin ship
-   20;//number of these on a 100*100 map
- 122;//object definition number		ruin ship
-    20;//number of these on a 100*100 map
- 123;//object definition number		ruin ship
-    33;//number of these on a 100*100 map
- 124;//object definition number		ruin ship
-    33;//number of these on a 100*100 map

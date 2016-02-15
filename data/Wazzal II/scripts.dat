@@ -6,12 +6,17 @@ Initialisation;//name-----------------------------------------------------------
   20;//run every n milliseconds
   none;//message
   0;//message type, 0=quick message, 1=journal
-  none;//sound, none for nothing
+  alienattack.wav;//sound, none for nothing
   0;//delay script for n seconds after conditions met
   1;//disabled after first use, 0=no, 1=yes
   begin_conditions;
   end_conditions;
   begin_effects;
+    61;//effect number                  Play music
+    9.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4 
    16;//effect number                   Give Inventory 1 journal
     161.000000;//parameter1
     1.000000;//parameter2
@@ -4135,7 +4140,7 @@ If has new Pirate flag item;//name----------------------------------------------
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   1000;//run every n milliseconds
-  I am Governor Ruefserouc of Errxelz Base 8. All hell has broken loose: we count thirteen Alien battleships in this system alone, Alien fighters to the north, south and east of our positions, and alien drones are on the rampage everwhere: black hand-to-hand fighters, and green-stripes with long-ranged weapons. \ \ Captain, I believe this attack force is only a fraction of the Alien forces. Their fleet must carry enough firepower to annihilate the entire Confederacy! We will hold them off here as long as we can. You must escape and send out a warning to the Confederate destroyer UCS Crego in the neighbouring Ennokknmo system! \ \ Captain, I am the only survivor of a family who were taken by the Aliens from Sol before the supernova, all those years ago. Swear to me that you will not rest until the deaths of all those slaughtered have been avenged!;//message
+  I am Governor Ruefserouc of Errxelz Base 8. All hell has broken loose: we count over a dozen Alien battleships in this system alone, Alien fighters to the north, south and east of our positions, and alien drones are on the rampage everwhere: black hand-to-hand fighters, and green-stripes with long-ranged weapons. \ \ Captain, I believe this attack force is only a fraction of the Alien forces. Their fleet must carry enough firepower to annihilate the entire Confederacy! We will hold them off here as long as we can. You must escape and send out a warning to the Confederate destroyer UCS Crego in the neighbouring Ennokknmo system! \ \ Captain, I am the only survivor of a family who were taken by the Aliens from Sol before the supernova, all those years ago. Swear to me that you will not rest until the deaths of all those slaughtered have been avenged!;//message
   1;//message type, 0=quick message, 1=journal
   none;//sound, none for nothing
   0;//delay script for n seconds after conditions met
@@ -4563,6 +4568,29 @@ If has new Pirate flag item;//name----------------------------------------------
   begin_effects;
 25;//effect number
     12.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+  end_effects;
+         Show map with current position, Zoo;//name----------------------------------------------
+  139;//identifier
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  200;//run every n milliseconds
+ none;//message
+  0;//message type, 0=quick message, 1=journal
+  paper.wav;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  13;//condition
+   28.000000;//condition parameter0
+    0.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+25;//effect number
+    13.000000;//parameter1
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4 

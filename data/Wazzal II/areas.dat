@@ -255,8 +255,8 @@ end_excluded_plot_object_classes;
 5;
   end_excluded_plot_object_classes;
    Captain Dreton (Kinmegag 71 outpost command): \ \ 'SIR! You are just in time! \ As you probably know, this outpost was designed as an early signalling point from which to notify all Confederate Systems in the event of an attack on the outer rim of the Confederacy. A massively powerful Interplanetary Signal Array is located on the planet, with range easily sufficient to reach the Confederate capital, New Dawn. \ I am however afraid to admit that we've been caught woefully unprepared. The Array relies on power from 10 substations, spread out across the planet to protect the system from attack. We need your assistance to find and activate the substations, initialize the Signal Array and send out the urgent warning to the Confederate Fleet! (substations remaining are shown  to the left). \ I will be sure to notify you regarding a reward (bonus PP/new weapon).';//enter area text, specify none to not show it
-11;//Errxelz 8 (Alien)---------------------------------------------------------
-  Errxelz 8 (formally);//area name
+11;//The Zoo---------------------------------------------------------
+  The Zoo (Alien homeworld);//area name
   0;//area class
   9;//climate in climate_types.dat, -1=random climate
   11;//terrain map number
@@ -264,10 +264,10 @@ end_excluded_plot_object_classes;
   1.000000;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
   begin_alien_list;
 11;//alien type in creatures.dat--------aliens
-    80;//number of these aliens
+    130;//number of these aliens
     1;//side
   38;//alien type in creatures.dat---------aliens
-    50;//number of these aliens
+    80;//number of these aliens
     1;//side
 37;//alien type in creatures.dat---------aliens
     4;//number of these aliens
@@ -279,7 +279,7 @@ end_excluded_plot_object_classes;
 3;
 5;
   end_excluded_plot_object_classes;
-  This... was Errxelz 8? Where once there were buildings, fields and people, all that remains is parched stone and steaming fissures, stretching as far as the eye can see. In place of trees stand slimy, sinewy vines, writhing and contorting as if in great pain. The once brilliant blue sky is now an angry, broiling cloak of black, broken only at the horizon by the sickly green glow that illuminates the landscape. \ You stand still in pure shock as glowing radioactive embers rain down around you. Now - as once years before on that fateful Sol night - a terrible, all-consuming rage fills you: the time for retreat is over. \ In the distance, you see the hundreds of gleaming Alien fighters, arranged in jagged rows across the scoured flat land. The final words of Gov. Ruefserouc echo through your mind... \ \ 'Swear to me that you will not rest until the deaths of all of those slaughtered have been avenged.' \ \ It is the Aliens who will not rest this night... ;//enter area text, specify none to not show it
+  As you lower the blast shields on the disguised Wolf IV, a sweeping plain of parched stone and steaming fissures stretches out as far as the eye can see. The sky is an angry, broiling cloak of black, broken only at the horizon by a sickly green glow that illuminates the landscape. Slimy, sinewy vines writhe and contort as if in great pain, as a shower of glowing, radioactive embers fall around you... \ \ In the distance, you see hundreds of gleaming Alien ships, arranged in jagged rows across the scoured flat land. Now - as once years before on that final fateful Sol night - a terrible, all-consuming rage fills you. The final words of Gov. Ruefserouc on Errxelz 8 echo through your mind: 'Swear to me that you will not rest until the deaths of all of those slaughtered have been avenged.' \ \ It is the Aliens who will not rest this night...;//enter area text, specify none to not show it  
 12;//---------------------------------------------------------
   Arhamt System;//area name
  4;//area class
@@ -546,6 +546,7 @@ end_alien_list;
 2;
 3;
 4;
+5;
   end_excluded_plot_object_classes;
  As the Wolf IV emerges from the warpgate, a sudden chill runs through you. Only a shattered core remains of the Earth's once beautiful sun, casting a terrifying red glow over the remnants of the Solar System. \ \ You close your eyes, and think back to those terrible days, now almost 17 years ago. The first Alien treachery, where thousands of your fellow inhabitants of Earth were kidnapped and taken to the terrible 'Zoo' prison planet... The supernova itself, destroying all traces of life in this once vibrant system... \ \ The less time you spend here, the better. Confederate intelligence suggests that some Alien ship parts have been spotted on the surface of some of the remaining planets. You will have to be careful, however: this is now a dangerous, dangerous part of the Confederacy...;//enter area text, specify none to not show it
 21;//Desert---------------------------------------------------------planet
@@ -674,4 +675,56 @@ end_alien_list;
 5;
   end_excluded_plot_object_classes;
 none;//enter area text, specify none to not show it
+28;//---------------------------------------------------------
+ Zoo System;//area name
+  1;//area class
+  22;//climate in climate_types.dat, -1=random climate
+  28;//terrain map number
+  -1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
+  0.5000000;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
+  begin_alien_list;
+  1;//alien type in creatures.dat---------small alien fighters
+    200;//number of these aliens
+    1;//side
+  3;//alien type in creatures.dat---------large alien fighters
+    200;//number of these aliens
+    1;//side
+35;//alien type in creatures.dat---------alien mothership
+    30;//number of these aliens
+    1;//side
+  89;//alien type in creatures.dat---------alien cruiser
+    30;//number of these aliens
+    1;//side
+6;//alien type in creatures.dat---------asteroids
+    20;//number of these aliens
+    5;//side
+  7;//alien type in creatures.dat---------asteroids
+    30;//number of these aliens
+    5;//side
+  8;//alien type in creatures.dat---------asteroids
+    10;//number of these aliens
+    5;//side
+  9;//alien type in creatures.dat---------asteroids
+    30;//number of these aliens
+    5;//side
+70;//alien type in creatures.dat---------asteroids
+ 15;//number of these aliens
+    5;//side
+  71;//alien type in creatures.dat---------asteroids
+  25;//number of these aliens
+    5;//side
+ 72;//alien type in creatures.dat---------asteroids
+    10;//number of these aliens
+    5;//side
+  73;//alien type in creatures.dat---------asteroids
+    20;//number of these aliens
+    5;//side
+  end_alien_list;
+  begin_excluded_plot_object_classes;
+2;
+3;
+4;
+5;
+  end_excluded_plot_object_classes;
+ none;//enter area text, specify none to not show it
 end_of_file;

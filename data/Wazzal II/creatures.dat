@@ -457,7 +457,10 @@ Alien Large Fighter (space);//name---------------------------------------
     begin_conditions;
     8;//condition
       15.000000;//condition parameter0
-      0.000000;//condition parameter1      
+      0.000000;//condition parameter1     
+	   0//condition                                   no alien flag
+      167.000000;//condition parameter0
+      0.000000;//condition parameter1    	
     end_conditions;
     begin_effects;
     10;//effect number
@@ -509,7 +512,7 @@ Alien Large Fighter (space);//name---------------------------------------
   end_specialties;
 Enemy Missile;//name---------------------------------------EXPERIMENT: TO BE REMOVED
   4;//identifier
-  4;//class
+  1;//class
  alienmissile.png;//texture
   2;//draw layer
   -2;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
@@ -1504,7 +1507,20 @@ Dark Alien (claws);//name---------------------------------------
     1.70000;//parameter3
     -1.00000;//parameter4 	
     end_effects;
-500;//interval in milliseconds                   scared egg layers
+	2000;//interval in milliseconds                   scared force field off switches
+    begin_conditions;    
+    1;//condition
+      192.000000;//condition parameter0
+      500.000000;//condition parameter1      
+    end_conditions;
+    begin_effects;
+    46;//effect number
+      0.000000;//parameter1
+      19.000000;//parameter2
+      4000.000000;//parameter3
+      -1.000000;//parameter4
+    end_effects;
+2000;//interval in milliseconds                   scared egg layers
     begin_conditions;    
     14;//condition
       59.000000;//condition parameter0
@@ -2772,6 +2788,19 @@ Alien Large Fighter (flying over planet);//name---------------------------------
   begin_hit_block;//
   end_hit_block;
   begin_timed_block;//
+    	1500;//interval in milliseconds                   scared force field off switches
+    begin_conditions;    
+    1;//condition
+      192.000000;//condition parameter0
+      1500.000000;//condition parameter1      
+    end_conditions;
+    begin_effects;
+    46;//effect number
+      0.000000;//parameter1
+      19.000000;//parameter2
+      4000.000000;//parameter3
+      -1.000000;//parameter4
+    end_effects;
        40000;//interval in milliseconds         airstrike bar
     begin_conditions;
 	  8;//condition                        			random
@@ -4476,7 +4505,10 @@ Alien Battleship;//name---------------------------------------
       0.000000;//condition parameter1 
  14;//condition
       -4.000000;//condition parameter0
-      800.000000;//condition parameter1     
+      800.000000;//condition parameter1  
+ 0//condition                                   no alien flag
+      167.000000;//condition parameter0
+      0.000000;//condition parameter1    	  
     end_conditions;
     begin_effects;
     10;//effect number
@@ -4819,11 +4851,24 @@ Alien Tank;//name---------------------------------------
   begin_hit_block;//
   end_hit_block;
   begin_timed_block;//
-300;//interval in milliseconds -----scared egg layers
+  	2000;//interval in milliseconds                   scared force field off switches
+    begin_conditions;    
+    1;//condition
+      192.000000;//condition parameter0
+      700.000000;//condition parameter1      
+    end_conditions;
+    begin_effects;
+    46;//effect number
+      0.000000;//parameter1
+      19.000000;//parameter2
+      4000.000000;//parameter3
+      -1.000000;//parameter4
+    end_effects;
+2000;//interval in milliseconds -----scared egg layers
     begin_conditions;    
     14;//condition
       59.000000;//condition parameter0
-      500.000000;//condition parameter1      
+      700.000000;//condition parameter1      
     end_conditions;
     begin_effects;
     46;//effect number
@@ -5082,11 +5127,24 @@ Dark Alien (proj);//name---------------------------------------
   begin_hit_block;//
   end_hit_block;
   begin_timed_block;//
-300;//interval in milliseconds -----scared egg layers
+  	2000;//interval in milliseconds                   scared force field off switches
+    begin_conditions;    
+    1;//condition
+      192.000000;//condition parameter0
+      700.000000;//condition parameter1      
+    end_conditions;
+    begin_effects;
+    46;//effect number
+      0.000000;//parameter1
+      19.000000;//parameter2
+      4000.000000;//parameter3
+      -1.000000;//parameter4
+    end_effects;
+2000;//interval in milliseconds -----scared egg layers
     begin_conditions;    
     14;//condition
       59.000000;//condition parameter0
-      500.000000;//condition parameter1      
+      700.000000;//condition parameter1      
     end_conditions;
     begin_effects;
     46;//effect number
@@ -9450,6 +9508,19 @@ Alien Small Fighter (flying over planet);//name---------------------------------
   begin_hit_block;//
   end_hit_block;
   begin_timed_block;//
+  	1500;//interval in milliseconds                   scared force field off switches
+    begin_conditions;    
+    1;//condition
+      192.000000;//condition parameter0
+      1500.000000;//condition parameter1      
+    end_conditions;
+    begin_effects;
+    46;//effect number
+      0.000000;//parameter1
+      19.000000;//parameter2
+      4000.000000;//parameter3
+      -1.000000;//parameter4
+    end_effects;
 210;//interval in milliseconds      --------laser
     begin_conditions;
     14;//condition
@@ -13105,9 +13176,9 @@ resistance to fusion beam;//description
   1;//bars visible when player hovers mouse on top
   1.200000;//death animation speed
   0;//creature can move from area to another
-  2000.000000;//AI hear range
+  0.000000;//AI hear range
   1000.000000;//AI see range
-  6.200000;//AI see angle
+  3.000000;//AI see angle
   begin_footstep_sounds;//
   fighter_move.wav;//      
   end_footstep_sounds;
@@ -13902,7 +13973,7 @@ resistance to fusion beam;//description
  101;//identifier
   1;//class
   invisible.png;//texture
-  0;//draw layer
+  2;//draw layer
   -1;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
   0;//corpse item amount
   0;//attack type, 0=shooting attack, 1=close combat
@@ -14408,6 +14479,132 @@ Confederacy destroyer (allied);//name---------------------------------------
     1.000000;//parameter1
     0.000000;//parameter2
     1.000000;//parameter3
+  end_specialties;
+   Alien space cannon;//name---------------------------------------
+  103;//identifier
+  1;//class
+  alien_cannon.png;//texture
+  1;//draw layer
+  -1;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
+  0;//corpse item amount
+  0;//attack type, 0=shooting attack, 1=close combat
+  18;//particle to show on radar, -1=none
+  0;//primary AI tactic from AI_tactic.dat
+  0;//secondary AI tactic from AI_tactic.dat
+  3;//footstep particle from particles.dat
+  0;//die after how many seconds, 0=doesn't die
+  -1;//eat item number from items.dat, -1=nothing
+  1.3000000;//creature size
+  400.000000;//creature weight (affects pushing)
+ 0.000000;//maximum movement speed
+  0.000000;//minimum movement speed
+  7.000000;//leg animation speed
+  0.200000;//turn speed
+  0.200000;//inertia level (acceleration/deceleration)
+  0;//hide when behind walls
+  96;//weapon number
+  0.000000;//weapon_x
+  28.000000;//weapon_y
+  2;//blood particle
+  1;//bars visible when player hovers mouse on top
+  1.200000;//death animation speed
+  0;//creature can move from area to another
+  2000.000000;//AI hear range
+  1000.000000;//AI see range
+  6.200000;//AI see angle
+  begin_footstep_sounds;//
+  fighter_move.wav;//      
+  end_footstep_sounds;
+  begin_hit_sounds;//
+  hit.wav;//sample name  
+  end_hit_sounds;
+  begin_die_sounds;//
+  explosion1.wav;//sample name
+  explosion2.wav;//sample name 
+  end_die_sounds;
+  begin_eat_block;//
+  end_eat_block;
+  begin_death_block;//
+    2;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+    44;//effect number                 add PP
+      5.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+	0;//death type, 0=any death, 1=timed death, 2=killed by player      killed missile
+    begin_conditions;
+	45;//condition
+      36.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      2.50000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+			0;//death type, 0=any death, 1=timed death, 2=killed by player      killed destroyer particle cannon
+    begin_conditions;
+	45;//condition
+      111.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      2.5000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+				0;//death type, 0=any death, 1=timed death, 2=killed by player      killed destroyer laser
+    begin_conditions;
+	45;//condition
+      112.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      2.50000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+	0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+	15;//condition              player nearer
+    800.000000;//condition parameter0
+    0.000000;//condition parameter1      
+    end_conditions;
+    begin_effects;
+  	36;//effect number           shake
+    6.000000;//parameter1
+    600.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4  
+    end_effects;
+  end_death_block;
+  begin_hit_block;//
+  end_hit_block;
+  begin_timed_block;//
+  end_timed_block;
+  begin_specialties;//
+  health;//description
+    0;//number
+    4.000000;//parameter0
+    0.000000;//parameter1
+    300.000000;//parameter2
+    300.000000;//parameter3
+	  light;//description
+    2;//number
+    5.000000;//parameter0
+    0.700000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
   end_specialties;
  end_of_file;
 

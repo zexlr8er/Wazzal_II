@@ -164,4 +164,14 @@ confed_map_sol.jpg;//texture
     0;//start_y
     1024;//end_x
     768;//end_y
+							Map Zoo;//name-----------------------------------
+ 13;//identifier
+confed_map_zoo.jpg;//texture
+  1;//frames
+  ;
+    550;//text_y
+    0;//start_x
+    0;//start_y
+    1024;//end_x
+    768;//end_y
 end_of_file;
