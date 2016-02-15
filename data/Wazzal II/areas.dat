@@ -314,7 +314,7 @@ end_excluded_plot_object_classes;
   end_excluded_plot_object_classes;
   none;//enter area text, specify none to not show it
 13;//Moon---------------------------------------------------------
-  Moon of Kinmegag 71;//area name
+  Moon of Zycar;//area name
   0;//area class
   10;//climate in climate_types.dat, -1=random climate
   13;//terrain map number
@@ -337,7 +337,7 @@ end_excluded_plot_object_classes;
 3;
 5;
   end_excluded_plot_object_classes;
- You step down the gangplank, and immediately your feet fly from under you. Throughout a lifetime as an explorer you have encountered low-gravity many, many times, yet the strange sensation of being almost weightless never ceases to suprise you. \ \ Kinmegag 71's moon is a small and desolate place, not much to see here. You remember once long ago it being mentioned in the Confederacy Minutely News as a planetoid of interest in the Crystalline Ore Rush of 3321, however anything of value it once contained has long since passed from memory.   ;//enter area text, specify none to not show it
+ You step down the gangplank, and immediately your feet fly from under you. Throughout a lifetime as an explorer you have encountered low-gravity many, many times, yet the strange sensation of being almost weightless never ceases to surprise you. \ \ Zycar's moon is a small and desolate place, not much to see here. You remember once long ago it being mentioned in the Confederacy Minutely News as a planetoid of interest in the Crystalline Ore Rush of 3321, however anything of value it once contained has long since passed from memory.   ;//enter area text, specify none to not show it
 14;//Caramel Moon---------------------------------------------------------
   Moon of Naquarin;//area name
   0;//area class
