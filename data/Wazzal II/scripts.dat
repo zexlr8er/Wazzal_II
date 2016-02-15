@@ -3072,18 +3072,29 @@ Kinmegag 71 mission completed;//name--------------------------------------------
   1;//run without calling (set to 0 if you use the script for example as a wield script)
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
-  400;//run every n milliseconds
+  2000;//run every n milliseconds
    Captain Dreton: \ \ 'Thankyou, captain. The signal is sent, and even as we speak, the full might of the Confederate Navy is mobilizing across the United Confederacy of Planets: from the fields of Zemboi and the shipyards of Kryboru to the shining pillars of New Dawn. \ \ At least now the Confederacy will fall fighting, rather than die on our knees. (Earn 30 Promotion points, and receive a brand new devastating Flame Thrower! The Galactic Stock Exchange rises sharply as your achievement becomes known!)';//name;//message
   1;//message type, 0=quick message, 1=journal
   morse.wav;//sound, none for nothing
-  2.9;//delay script for n seconds after conditions met
+  1;//delay script for n seconds after conditions met
   1;//disabled after first use, 0=no, 1=yes
   begin_conditions;
+  0;//use condition number                                 has message
+      211.000000;//use condition parameter0
+      1.000000;//use condition parameter1
 5;//use condition number                                  powerup beacons
       24.000000;//use condition parameter0
       1.000000;//use condition parameter1
+	  	  	 13;//use condition number                                in kinmegag area
+     10.000000;//use condition parameter0
+      0.000000;//use condition parameter1
   end_conditions;
   begin_effects;
+  	 35;//effect number              deactivate other script
+    140.0000;//parameter1
+   0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
  44;//effect number
     30.000000;//parameter1
     1.000000;//parameter2
@@ -3109,6 +3120,11 @@ Kinmegag 71 mission completed;//name--------------------------------------------
     0.000000;//parameter2
     18.000000;//parameter3 drugs
     1.000000;//parameter4 
+	    16;//effect number               remove message item
+    211.0000;//parameter1
+    -1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
    end_effects;
 Hide fuel bar if low;//name-----------------------------------------------------------------
 83;//identifier
@@ -3256,12 +3272,12 @@ Goggles Energy Drain;//name-----------------------------------------------------
     5.000000;//parameter3
     300.000000;//parameter4
   end_effects;
-Player destroys fighters on Erxelz;//name-----------------------------------------------------------------
+Player destroys fighters on Errxelz;//name-----------------------------------------------------------------
   90;//identifier
   1;//run without calling (set to 0 if you use the script for example as a wield script)
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
-  1000;//run every n milliseconds
+  2000;//run every n milliseconds
 none;//message
   1;//message type, 0=quick message, 1=journal
   morse.wav;//sound, none for nothing
@@ -3276,6 +3292,9 @@ none;//message
    11.000000;//condition parameter1
      4;//condition
     101.000000;//condition parameter0
+   11.000000;//condition parameter1
+        4;//condition
+    18.000000;//condition parameter0
    11.000000;//condition parameter1
   end_conditions;
   begin_effects;
@@ -3740,9 +3759,9 @@ Player destroys all slugs;//name------------------------------------------------
     13.000000;//parameter3
     0.000000;//parameter4   
   end_effects;
-Player reaches alien planet for the first time;//name-----------------------------------------------------------------
+Unused;//name-----------------------------------------------------------------
   107;//identifier
-  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   1000;//run every n milliseconds
@@ -3752,16 +3771,8 @@ Player reaches alien planet for the first time;//name---------------------------
   0;//delay script for n seconds after conditions met
   1;//disabled after first use, 0=no, 1=yes
   begin_conditions;
-  13;//condition
-    11.000000;//condition parameter0
-    0.000000;//condition parameter1
   end_conditions;
   begin_effects;
-16;//effect number                   
-    101.000000;//parameter1
-    5.000000;//parameter2
-    1.000000;//parameter3
-    0.000000;//parameter4  
   end_effects;
 Switch ore to correct inventory;//name-----------------------------------------------------------------
   108;//identifier
@@ -4144,13 +4155,13 @@ If has new Pirate flag item;//name----------------------------------------------
     12.000000;//parameter3
     300.000000;//parameter4
   end_effects;
- Meet commander at Zrxles;//name-----------------------------------------------------------------
+ Meet commander at Errxelz 8;//name-----------------------------------------------------------------
   122;//identifier
   1;//run without calling (set to 0 if you use the script for example as a wield script)
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   1000;//run every n milliseconds
-  I am Governor Ruefserouc of Errxelz Base 8. All hell has broken loose: we count over a dozen Alien battleships in this system alone, Alien fighters to the north, south and east of our positions, and alien drones are on the rampage everwhere: black hand-to-hand fighters, and green-stripes with long-ranged weapons. \ \ Captain, I believe this attack force is only a fraction of the Alien forces. Their fleet must carry enough firepower to annihilate the entire Confederacy! We will hold them off here as long as we can. You must escape and send out a warning to the Confederate destroyer UCS Crego in the neighbouring Ennokknmo system! \ \ Captain, I am the only survivor of a family who were taken by the Aliens from Sol before the supernova, all those years ago. Swear to me that you will not rest until the deaths of all those slaughtered have been avenged!;//message
+  I am Governor Ruefserouc of Errxelz Base 8. All hell has broken loose: we count over a dozen Alien battleships in this system alone, Alien fighters surrounding our positions, and alien drones are on the rampage everwhere: black hand-to-hand fighters, and green-stripes with long-ranged weapons. \ \ Captain, I believe this attack force is only a fraction of the Alien forces. Their fleet must carry enough firepower to annihilate the entire Confederacy! We will hold them off here as long as we can. You must escape and send out a warning (see inventory) to the Confederate capital Armada using the Interplanetary Signal Array at Kinmegag 71 in the Ennokknmo system! \ \ Captain, I am the only survivor of a family who were taken by the Aliens from Sol before the supernova, all those years ago. Swear to me that you will not rest until the deaths of all those slaughtered have been avenged!;//message
   1;//message type, 0=quick message, 1=journal
   none;//sound, none for nothing
   0;//delay script for n seconds after conditions met
@@ -4161,6 +4172,11 @@ If has new Pirate flag item;//name----------------------------------------------
     300.000000;//condition parameter1
   end_conditions;
   begin_effects;
+    16;//effect number                 give message item
+    211.0000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
   end_effects;
  Enemy Attack Script (hurt player when shields down; Neutral/Confed ships);//name-----------------------------------------------------------------
   123;//identifier
@@ -4605,6 +4621,27 @@ If has new Pirate flag item;//name----------------------------------------------
       0.000000;//parameter3
       0.000000;//parameter4 
   end_effects;
+  Kinmegag 71 mission no message;//name-----------------------------------------------------------------
+ 140;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  2501;//run every n milliseconds
+   You light the final beacon... and nothing happens! \ \ You need a message from the Commander of Errxelz 8 in the Errxelz System. Visit the outpost to the north of the planet to collect the message, and return with it to Kinmegag 71!;//name;//message
+  1;//message type, 0=quick message, 1=journal
+  morse.wav;//sound, none for nothing
+  1;//delay script for n seconds after conditions met
+  1;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  0;//use condition number                                 has no message
+      211.000000;//use condition parameter0
+      0.000000;//use condition parameter1
+5;//use condition number                                  powerup beacons
+      24.000000;//use condition parameter0
+      1.000000;//use condition parameter1
+  end_conditions;
+  begin_effects;
+   end_effects;
    Player destroys ships in Enkkommno;//name-----------------------------------------------------------------
   141;//identifier
   1;//run without calling (set to 0 if you use the script for example as a wield script)

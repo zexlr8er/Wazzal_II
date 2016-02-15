@@ -8775,8 +8775,8 @@ Use to construct a ZEX Industries MXII Energy Pool, capable of recharging your p
   211;//identifier
   0;//item class
   0.000000;//weight
-  An emergency message. Activate the beacons on Kinmegag 71 to notify the Confederate capital about the attack on Errxelz 8!;//short description
-  none;//first pick up text
+  An emergency message. Activate the beacons on Kinmegag 71 in the Ennokknmo System to notify the Confederate capital Armada about the attack on Errxelz 8!;//short description
+  The commander hands you an emergency coded message, scribbled frantically in black ink. Activate the beacons on Kinmegag 71 in the Ennokknmo System while in possession of this message to notify the Confederate capital Armada about the attack on Errxelz 8!;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
