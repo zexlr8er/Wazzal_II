@@ -239,7 +239,7 @@ Viper Missile;//name---------------------------------------
   end_fire_effects;
   begin_hit_effects;
   end_hit_effects;
-Missile/mine Damage;//name---------------------------------------
+Missile Damage;//name---------------------------------------
   6;//identifier
   7;//class
   fire0.png;//bullet texture
@@ -1209,13 +1209,13 @@ Machine gun (allies turret);//name---------------------------------------
 Deploy mines;//name---------------------------------------
   24;//identifier
   0;//class
-  mine.png;//bullet texture
+  invisible.png;//bullet texture
   1;//bullets at one shot
   0;//stop at hit 0=stop where hit, 1=don't stop
   2.000000;//bullet size
   0.000000;//spread
   0.000000;//bullet speed
- 360000.000000;//time until bullet disappears
+ 100.000000;//time until bullet disappears
   250;//fire rate
   0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
   -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
@@ -1237,23 +1237,13 @@ Deploy mines;//name---------------------------------------
     -1.000000;//parameter2
     0.000000;//parameter3
     0.000000;//parameter4    
+	  19;//effect number              drop non-ex mine
+    14.000000;//parameter1
+    0.130000;//parameter2
+    1.000000;//parameter3
+    -1.000000;//parameter4 
   end_fire_effects;
   begin_hit_effects;
-  26;//effect number
-    24.000000;//parameter1
-    30.000000;//parameter2
-    10.000000;//parameter3
-    0.000000;//parameter4     
-  4;//effect number
-    -120.000000;//parameter1
-    0.000000;//parameter2
-    4.000000;//parameter3
-    0.000000;//parameter4
-	36;//effect number           shake
-    6.000000;//parameter1
-    300.000000;//parameter2
-    0.000000;//parameter3
-    0.000000;//parameter4 
   end_hit_effects;
 Laser cannon (Twin);//name---------------------------------------Confed player
   25;//identifier
@@ -2142,7 +2132,7 @@ Deploy landmines;//name---------------------------------------
   end_fire_effects;
   begin_hit_effects;
   end_hit_effects;
-Landmine Damage;//name---------------------------------------
+Mine Damage;//name---------------------------------------
   46;//identifier
   0;//class
   fire0.png;//bullet texture
@@ -2172,11 +2162,11 @@ Landmine Damage;//name---------------------------------------
     0.000000;//parameter4 
   end_fire_effects;
   begin_hit_effects;
-  4;//effect number
-    -180.000000;//parameter1
-    0.000000;//parameter2
+	  63;//effect number
+    -60.000000;//parameter1
+    -300.000000;//parameter2
     4.000000;//parameter3
-    0.000000;//parameter4
+    1.000000;//parameter4
   44;//effect number
     1.000000;//parameter1
     1.000000;//parameter2
