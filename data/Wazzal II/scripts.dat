@@ -595,7 +595,7 @@ Player reaches 2nd Lieutenant, 100 Promotion;//name-----------------------------
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   3000;//run every n milliseconds
-  Congratulations! The Confederate Navy has promoted you to the rank of 2nd Lieutenant. \ \ Included with this rank is the ability to purchase better weaponry, and two highly trained personal bodyguards from the moons of Eza XII. (These men are likely the best fighters you will come across in your travels, so do not let their abilities go to waste!) \ \ Your current salary is: 40 Confederate Credits an hour. \ \ Obtain 150PP to be promoted to 1st Lieutenant!;//message
+  Congratulations! The Confederate Navy has promoted you to the rank of 2nd Lieutenant. \ \ Included with this rank is the ability to purchase better items and weaponry, and two highly trained personal bodyguards from the moons of Eza XII! (These men are likely the best fighters you will come across in your travels, so do not let their abilities go to waste!) \ \ Your current salary is: 40 Confederate Credits an hour. \ \ Obtain 150PP to be promoted to 1st Lieutenant!;//message
   1;//message type, 0=quick message, 1=journal
   morse.wav;//sound, none for nothing
   0;//delay script for n seconds after conditions met
@@ -663,7 +663,7 @@ Player reaches 1st Lieutenant, 150 Promotion;//name-----------------------------
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   3000;//run every n milliseconds
-  Congratulations! The Confederate Navy has promoted you to the rank of 1st Lieutenant. \ \ To thank you, we have fitted out your ship with 10 brand-new Viper missiles, increased your shields maximum by 10, and allowed you to purchase additional weaponry from any store! \ \ Your current salary is: 60 Confederate Credits an hour. \ \ Obtain 250PP to be promoted to Lieutenant-commander!;//message
+  Congratulations! The Confederate Navy has promoted you to the rank of 1st Lieutenant. \ \ To thank you, we have fitted out your ship with 10 brand-new Viper missiles, increased your shields maximum by 10, and allowed you to purchase additional items and weaponry from any store! \ \ Your current salary is: 60 Confederate Credits an hour. \ \ Obtain 250PP to be promoted to Lieutenant-commander!;//message
   1;//message type, 0=quick message, 1=journal
   morse.wav;//sound, none for nothing
   0;//delay script for n seconds after conditions met
@@ -736,7 +736,7 @@ Player reaches Lieutenant-Commander, 250 Promotion;//name-----------------------
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   3000;//run every n milliseconds
-  Congratulations! The Confederate Navy has promoted you to the rank of Lieutenant-Commander. \ \ To thank you, the Confederacy has provided you with a brand new Particle Cannon: one of the deadliest ship weapons available! You are also authorised to purchase additional weaponry from any store. \ \ Your current salary is: 80 Confederate Credits an hour. \ \ Obtain 400PP to be promoted to Commander!;//message
+  Congratulations! The Confederate Navy has promoted you to the rank of Lieutenant-Commander. \ \ To thank you, the Confederacy has provided you with a brand new Particle Cannon: one of the deadliest ship weapons available! You are also authorised to purchase additional items and weaponry from any store. \ \ Your current salary is: 80 Confederate Credits an hour. \ \ Obtain 400PP to be promoted to Commander!;//message
   1;//message type, 0=quick message, 1=journal
   morse.wav;//sound, none for nothing
   0;//delay script for n seconds after conditions met
@@ -1475,7 +1475,7 @@ Player reaches Commander, 400 Promotion;//name----------------------------------
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   3000;//run every n milliseconds
-  Congratulations! The Confederate Navy has promoted you to the rank of Commander. \ \ To thank you, we have extended the Wolf IV's reactor size by 20 gigawatts of energy, and increased your personal battery by 20 percent! You are also authorised to purchase additional weaponry from any store. \ \ Your current salary is: 100 Confederate Credits an hour. \ \ Obtain 400PP to be promoted to Captain!;//message
+  Congratulations! The Confederate Navy has promoted you to the rank of Commander. \ \ To thank you, we have extended both the Wolf IV's reactor and your personal battery by 20 percent! You are also authorised to purchase additional items and weaponry from any store, including deployable ZEX Industries healing and energy pools! \ \ Your current salary is: 100 Confederate Credits an hour. \ \ Obtain 400PP to be promoted to Captain!;//message
   1;//message type, 0=quick message, 1=journal
   morse.wav;//sound, none for nothing
   0;//delay script for n seconds after conditions met
@@ -1538,6 +1538,16 @@ Player reaches Commander, 400 Promotion;//name----------------------------------
     0.000000;//parameter4
 	16;//effect number                   Give store Inventory RPG item
     149.000000;//parameter1
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+	16;//effect number                   Give store healing pool
+    209.000000;//parameter1
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+		16;//effect number                   Give store energy pool
+    210.000000;//parameter1
     1.000000;//parameter2
     2.000000;//parameter3
     0.000000;//parameter4
@@ -2095,7 +2105,7 @@ Player reaches admiral of the fleet, 2000 Promotion;//name----------------------
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   3000;//run every n milliseconds
-  Congratulations. The Confederate Navy has recognized your incredible achievement, and has promoted you to the supreme rank of Admiral of the Fleet. You are now the best candidate for the most daring mission yet undertaken by Confederate forces! \ \ As you are aware, Errxelz 8 was the first Confederate planet to fall to the Alien onslaught. Our intelligence reports that the planet is now being used as an advance base for thousands of Alien fighters before they launch their invasions into Confederate space. We have a chance to strike a devastating blow to the advancing Alien forces by destroying all Alien fighters on the planet! \ To enter the heavily guarded Errxelz system, you will need to disguise yourself as an Alien ship. The Confederacy has authorised you to enter the former Sol system, where we have heard rumours that you can find Alien ship parts to disguise the Wolf IV. Go quickly, Captain. The hopes of the Confederacy fly with you!;//message
+  Congratulations. The Confederate Navy has recognized your incredible achievement, and has promoted you to the supreme rank of Admiral of the Fleet. You are now the best candidate for the most daring mission yet undertaken by Confederate forces! \ \ Every minute we fight this war, thousands of Alien ships launch their relentless onslaught on the Confederacy through a wormhole in the Errxelz System. Our intelligence suggests the attacks are originating from the Alien system known only as the 'Zoo'. We have a chance to strike a devastating blow to the advancing Alien forces by destroying all Alien ships on the Alien homeworld! \ To enter the heavily guarded 'Zoo' system, you will need to disguise yourself as an Alien ship. The Confederacy has authorised you to enter the former Sol system, where we have heard rumours that you can find Alien ship parts to disguise the Wolf IV. Go quickly, Captain. The hopes of the Confederacy fly with you!;//message
   1;//message type, 0=quick message, 1=journal
   morse.wav;//sound, none for nothing
   0;//delay script for n seconds after conditions met
@@ -2453,7 +2463,7 @@ Human energy regenerate;//name--------------------------------------------------
   end_conditions;
   begin_effects;
   23;//effect number
-    0.20000;//parameter1
+    0.30000;//parameter1
     -1.000000;//parameter2
    5.000000;//parameter3
     300.000000;//parameter4
@@ -3836,7 +3846,7 @@ Activate longer rifle view;//name----------------------------------------------
       300.000000;//parameter3
       0.000000;//parameter4  
   end_effects;
-Steroids;//name----------------------------------------------------------------- so that effect is applied to human inventory, not shop
+Steroids;//name------- so that effect is applied to human inventory, not shop
   111;//identifier
   1;//run without calling (set to 0 if you use the script for example as a wield script)
  0;//call position, 0=player location, 1=mouse location
@@ -3851,7 +3861,7 @@ Steroids;//name-----------------------------------------------------------------
   end_conditions;
   begin_effects;
  42;//effect number
-      30.000000;//parameter1
+      50.000000;//parameter1
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4 
