@@ -37,6 +37,16 @@ Space (asteroids, no random);//name-------------------------------------------
   explosion1.wav;
   end_of_day_sounds;
   start_of_props;
+          206;//object definition number		mist
+    100;//number of these on a 100*100 map
+	207;//object definition number		mist
+    100;//number of these on a 100*100 map
+	208;//object definition number		mist
+    70;//number of these on a 100*100 map
+	209;//object definition number		mist small
+    150;//number of these on a 100*100 map
+	210;//object definition number		mist small
+    150;//number of these on a 100*100 map
   end_of_props;
 Wolf IV;//name----------------------------------------------------------------
   1;//identifier
@@ -1179,6 +1189,16 @@ Space (asteroids, no random, some random nebulae);//name------------------------
   explosion1.wav;
   end_of_day_sounds;
   start_of_props;
+            206;//object definition number		mist
+    150;//number of these on a 100*100 map
+	207;//object definition number		mist
+    150;//number of these on a 100*100 map
+	208;//object definition number		mist
+    100;//number of these on a 100*100 map
+	209;//object definition number		mist small
+    200;//number of these on a 100*100 map
+	210;//object definition number		mist small
+    200;//number of these on a 100*100 map
   end_of_props;
 Amarda;//name----------------------------------------------------------------
   13;//identifier
@@ -2178,7 +2198,7 @@ wind_low_1.wav;
   63;//object definition number		
     10;//number of these on a 100*100 map
   64;//object definition number		
-    15;//number of these on a 100*100 map
+    35;//number of these on a 100*100 map
 195;//object definition number		
     20;//number of these on a 100*100 map
 196;//object definition number		

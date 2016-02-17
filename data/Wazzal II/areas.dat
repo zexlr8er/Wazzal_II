@@ -103,6 +103,21 @@ end_alien_list;
   2;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
   1.000000;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
   begin_alien_list;
+    45;//alien type in creatures.dat---------red wazzal
+   4;//number of these aliens
+    0;//side
+  46;//alien type in creatures.dat---------red wazzal
+    4;//number of these aliens
+    0;//side
+  47;//alien type in creatures.dat---------red wazzal
+   4;//number of these aliens
+    0;//side
+  48;//alien type in creatures.dat---------yellow wazzal
+    4;//number of these aliens
+    0;//side
+  49;//alien type in creatures.dat---------silver wazzal
+    4;//number of these aliens
+    0;//side
   1;//alien type in creatures.dat---------small alien fighters
     50;//number of these aliens
     1;//side

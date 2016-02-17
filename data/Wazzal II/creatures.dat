@@ -6244,7 +6244,12 @@ Red Wazzal ship;//name---------------------------------------
       24.000000;//parameter1
       50.000000;//parameter2
       10.000000;//parameter3
-      0.000000;//parameter4
+      0.000000;//parameter4  
+    end_effects;
+	 2;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    end_conditions;
+    begin_effects;
 44;//effect number--------------------reduce pp
       -2.000000;//parameter1
       1.000000;//parameter2
@@ -6521,12 +6526,17 @@ Blue Wazzal ship;//name---------------------------------------
       24.000000;//parameter1
       50.000000;//parameter2
       10.000000;//parameter3
-      0.000000;//parameter4 
+      0.000000;//parameter4  
+    end_effects;
+	 2;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    end_conditions;
+    begin_effects;
 44;//effect number--------------------reduce pp
       -2.000000;//parameter1
       1.000000;//parameter2
       9.000000;//parameter3
-      0.000000;//parameter4     
+      0.000000;//parameter4      
     end_effects;
   2;//death type, 0=any death, 1=timed death, 2=killed by player
     begin_conditions;
@@ -6779,7 +6789,12 @@ Green Wazzal ship;//name---------------------------------------
       24.000000;//parameter1
       50.000000;//parameter2
       10.000000;//parameter3
-      0.000000;//parameter4
+      0.000000;//parameter4  
+    end_effects;
+	 2;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    end_conditions;
+    begin_effects;
 44;//effect number--------------------reduce pp
       -2.000000;//parameter1
       1.000000;//parameter2
@@ -7038,11 +7053,16 @@ Yellow Wazzal ship;//name---------------------------------------
       50.000000;//parameter2
       10.000000;//parameter3
       0.000000;//parameter4  
+    end_effects;
+	 2;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    end_conditions;
+    begin_effects;
 44;//effect number--------------------reduce pp
       -2.000000;//parameter1
       1.000000;//parameter2
       9.000000;//parameter3
-      0.000000;//parameter4    
+      0.000000;//parameter4      
     end_effects;
   2;//death type, 0=any death, 1=timed death, 2=killed by player
     begin_conditions;
@@ -7314,12 +7334,17 @@ Silver Wazzal ship;//name---------------------------------------
       24.000000;//parameter1
       50.000000;//parameter2
       10.000000;//parameter3
-      0.000000;//parameter4   
+      0.000000;//parameter4  
+    end_effects;
+	 2;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    end_conditions;
+    begin_effects;
 44;//effect number--------------------reduce pp
       -2.000000;//parameter1
       1.000000;//parameter2
       9.000000;//parameter3
-      0.000000;//parameter4    
+      0.000000;//parameter4      
     end_effects;
   2;//death type, 0=any death, 1=timed death, 2=killed by player
     begin_conditions;
@@ -7841,7 +7866,7 @@ Baby Wa-wolf (player's pet);//name--------------------------------------- EXPERI
  11;//secondary AI tactic from AI_tactic.dat
  -1;//footstep particle from particles.dat
   0;//die after how many seconds, 0=doesn't die
-  -1;//eat item number from items.dat, -1=nothing
+  117;//eat item number from items.dat, -1=nothing
   0.500000;//creature size
   2.000000;//creature weight (affects pushing)
   0.95000;//maximum movement speed
@@ -7882,8 +7907,20 @@ Baby Wa-wolf (player's pet);//name--------------------------------------- EXPERI
   wolfhit5.wav;//sample name
   wolfhit7.wav;//sample name
   end_die_sounds;
-  begin_eat_block
-     end_eat_block
+  begin_eat_block;
+  begin_conditions;
+ 10;//condition
+     2.000000;//condition parameter0
+       0.000000;//condition parameter1  
+     end_conditions;
+     begin_effects;
+   15;//effect number
+       54.000000;//parameter1
+       -1.0000;//parameter2
+      0.000000;//parameter3
+      1.000000;//parameter4 
+     end_effects;
+     end_eat_block;
   begin_death_block;//
   end_death_block;
   begin_hit_block;//
@@ -7908,8 +7945,8 @@ Baby Wa-wolf (player's pet);//name--------------------------------------- EXPERI
     0;//number
     4.000000;//parameter0
     0.000000;//parameter1
-   80.000000;//parameter2
-    80.000000;//parameter3
+   140.000000;//parameter2
+    140.000000;//parameter3
   end_specialties;
 Medium Wa-wolf (player's pet);//name--------------------------------------- EXPERIMENT!
   54;//identifier
@@ -7924,7 +7961,7 @@ Medium Wa-wolf (player's pet);//name--------------------------------------- EXPE
  11;//secondary AI tactic from AI_tactic.dat
  3;//footstep particle from particles.dat
   0;//die after how many seconds, 0=doesn't die
- -1;//eat item number from items.dat, -1=nothing
+ 117;//eat item number from items.dat, -1=nothing
   0.750000;//creature size
   4.000000;//creature weight (affects pushing)
   0.95000;//maximum movement speed
@@ -7965,9 +8002,26 @@ Medium Wa-wolf (player's pet);//name--------------------------------------- EXPE
   wolfhit5.wav;//sample name
   wolfhit7.wav;//sample name
   end_die_sounds;
-  begin_eat_block;
-     end_eat_block;
-  begin_death_block;//
+  begin_eat_block
+ begin_conditions;
+  10;//condition
+     6.000000;//condition parameter0
+       0.000000;//condition parameter1  
+     end_conditions;
+     begin_effects;
+   15;//effect number
+       55.000000;//parameter1
+      -1.0000;//parameter2
+      0.000000;//parameter3
+       1.000000;//parameter4
+ 16;//effect number
+     118.000000;//parameter1
+     1.000000;//parameter2
+     1.000000;//parameter3
+     0.000000;//parameter4  
+     end_effects;
+      end_eat_block
+ begin_death_block;//
   end_death_block;
   begin_hit_block;//
   end_hit_block;
@@ -7991,8 +8045,8 @@ Medium Wa-wolf (player's pet);//name--------------------------------------- EXPE
     0;//number
     4.000000;//parameter0
     0.000000;//parameter1
-   200.000000;//parameter2
-    200.000000;//parameter3
+   330.000000;//parameter2
+    330.000000;//parameter3
   end_specialties;
 Large Wa-wolf (player's pet);//name--------------------------------------- EXPERIMENT!
   55;//identifier
@@ -8008,7 +8062,7 @@ Large Wa-wolf (player's pet);//name--------------------------------------- EXPER
  3;//footstep particle from particles.dat
   0;//die after how many seconds, 0=doesn't die
  -1;//eat item number from items.dat, -1=nothing
-  1.000000;//creature size
+  1.100000;//creature size
   6.000000;//creature weight (affects pushing)
   0.95000;//maximum movement speed
   0.000000;//minimum movement speed
@@ -8073,7 +8127,7 @@ Large Wa-wolf (player's pet);//name--------------------------------------- EXPER
     end_conditions;
     begin_effects;
     4;//effect number
-      1.000000;//parameter1
+      1.700000;//parameter1
       1.000000;//parameter2
       4.000000;//parameter3
       0.000000;//parameter4  
@@ -8097,8 +8151,8 @@ Large Wa-wolf (player's pet);//name--------------------------------------- EXPER
     0;//number
     4.000000;//parameter0
     0.000000;//parameter1
-    400.000000;//parameter2
-    400.000000;//parameter3
+    1000.000000;//parameter2
+    1000.000000;//parameter3
   end_specialties;
 Ka-bear;//name---------------------------------------
   56;//identifier
@@ -14604,6 +14658,99 @@ Confederacy destroyer (allied);//name---------------------------------------
     5.000000;//parameter0
     0.700000;//parameter1
     1.000000;//parameter2
+    0.000000;//parameter3
+  end_specialties;
+ Invisible storm (Zoo);//name---------------------------------------
+ 104;//identifier
+  5;//class
+  invisible.png;//texture
+  2;//draw layer
+  -2;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
+  0;//corpse item amount
+  0;//attack type, 0=shooting attack, 1=close combat
+  -1;//particle to show on radar, -1=none
+ 0;//primary AI tactic from AI_tactic.dat
+  0;//secondary AI tactic from AI_tactic.dat
+  3;//footstep particle from particles.dat
+  0;//die after how many seconds, 0=doesn't die
+  -1;//eat item number from items.dat, -1=nothing
+  4.000000;//creature size
+  9999.00000;//creature weight (affects pushing)
+  0.0000;//maximum movement speed
+  0.00000;//minimum movement speed
+  0.600000;//leg animation speed
+  1.000000;//turn speed
+  0.030000;//inertia level (acceleration/deceleration)
+  0;//hide when behind walls
+  93;//weapon number
+  0.000000;//weapon_x
+  0.000000;//weapon_y
+  2;//blood particle
+  0;//bars visible when player hovers mouse on top
+  1.000000;//death animation speed
+  1;//creature can move from area to another
+  2000.000000;//AI hear range
+  100.000000;//AI see range
+  6.200000;//AI see angle
+  begin_footstep_sounds;//
+     storm.wav;//   
+  storm2.wav;// 
+  storm3.wav;//   
+  storm4.wav;// 
+  end_footstep_sounds;
+  begin_hit_sounds;//
+  none.wav;//       
+  end_hit_sounds;
+  begin_die_sounds;//
+  explosion1.wav;
+  explosion2.wav;
+  end_die_sounds;
+  begin_eat_block;//
+  end_eat_block;
+  begin_death_block;//
+  end_death_block;
+  begin_hit_block;//
+  end_hit_block;
+  begin_timed_block;//
+     500;//interval in milliseconds -----lightning
+    begin_conditions;
+    8;//condition
+      13.000000;//condition parameter0
+      0.000000;//condition parameter1   
+   15;//condition
+      1500.000000;//condition parameter0
+      0.000000;//condition parameter1 	  
+    end_conditions;
+    begin_effects;
+	 14;//effect number  ---sound
+    7.000000;//parameter1
+    1.000000;//parameter2
+    0.00000;//parameter3
+    0.00000;//parameter4 
+    27;//effect number  ---flash
+    7.000000;//parameter1
+    100.000000;//parameter2
+    1.30000;//parameter3
+    2.000000;//parameter4 
+		 27;//effect number  ---flash
+    14.000000;//parameter1
+    20.000000;//parameter2
+    0.200000;//parameter3
+    0.400000;//parameter4 
+    end_effects;
+	end_timed_block;
+  begin_specialties;//
+    fly;//description
+    4;//number
+    1.000000;//parameter0
+    1.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+		  immune;//description
+    1;//number
+    1.000000;//parameter0
+    0.000000;//parameter1
+    0.000000;//parameter2
     0.000000;//parameter3
   end_specialties;
  end_of_file;
