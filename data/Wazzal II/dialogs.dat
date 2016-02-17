@@ -152,7 +152,7 @@ Wolf IV;//name ---------------------------------------------BLANK y
   1.000000;//text color b
 Wolf IV;//name --------------------------------------------- y
   19;//identifier
- Our best hope is to flee as fast as possible towards the planet Errxelz 8 on the opposite side of the system!;//text
+ Fighting the Aliens here is useless. Build up speed by holding the 'Up' arrow, and avoid as much fire as you can!;//text
   12000;//duration
   20;//next dialog line (-1=none)
   1.000000;//text color r
@@ -168,7 +168,7 @@ Wolf IV;//name ---------------------------------------------BLANK y
   1.000000;//text color b
 Wolf IV;//name --------------------------------------------- y
  21;//identifier
- Fighting the Aliens here is useless. Build up speed by holding the 'Up' arrow, and avoid as much fire as you can!;//text
+ Our best hope is to flee as fast as possible towards the planet Errxelz 8 on the opposite side of the system!;//text
   14000;//duration
   22;//next dialog line (-1=none)
   1.000000;//text color r

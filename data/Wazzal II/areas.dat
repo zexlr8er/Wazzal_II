@@ -146,7 +146,7 @@ end_alien_list;
 3;
 4;
   end_excluded_plot_object_classes;
- USS Crego: Captain! You survived the Errxelz System! We had lost all hope that you had survived. Ennokknmo has not been as heavily hit as Errxelz, however we cannot expect to hold the system for long. \ \ Please help us to destroy the three Alien battleships in this sector, and clear it of enemy fighters until we are able to warn the United Confederacy about what has taken place this night. \ \ On the planet Kinmegag 71 there is a massively powerful Interplanetary Signal Array that can be used to contact the Confederate capital, New Dawn. Meanwhile, the forest planet of Lvlei in this system is under heavy Alien attack.\ \ We will take the fight to them both on the land and in the skies.  Long live the United Confederacy of Planets!;//enter area text, specify none to not show it
+ UCS Crego: Captain! You survived the Errxelz System! We had lost all hope that you had survived. Ennokknmo has not been as heavily hit as Errxelz, however we cannot expect to hold the system for long. \ \ Please help us to destroy the three Alien battleships in this sector, and clear it of enemy fighters until we are able to warn the United Confederacy about what has taken place this night. \ \ On the planet Kinmegag 71 there is a massively powerful Interplanetary Signal Array that can be used to contact the Confederate capital, New Dawn. Meanwhile, the forest planet of Lvlei in this system is under heavy Alien attack.\ \ We will take the fight to them both on the land and in the skies.  Long live the United Confederacy of Planets!;//enter area text, specify none to not show it
 6;//Lvlei---------------------------------------------------------forest planet
 Lvlei;//area name
   0;//area class
@@ -254,7 +254,7 @@ end_excluded_plot_object_classes;
 1;
 5;
   end_excluded_plot_object_classes;
-   Captain Dreton (Kinmegag 71 outpost command): \ \ 'SIR! You are just in time! As you probably know, this outpost was designed as an early signalling point from which to notify all systems in the event of an attack on the outer rim of the Confederacy. A massively powerful Interplanetary Signal Array is located on the planet, with enough range to easily reach the Confederate capital, New Dawn. \ I am however afraid to admit that we've been caught woefully unprepared. The Array relies on power from 10 substations, spread out across the planet to protect the system from attack. We need your assistance to find and activate the substations, initialize the Signal Array and send out the urgent warning to the Confederate Fleet! (substations remaining shown to left). \ I will be sure to notify you regarding a reward (bonus PP/new weapon).';//enter area text, specify none to not show it
+   Captain Dreton (Kinmegag 71 outpost command): \ \ 'SIR! You are just in time! As you probably know, this outpost was designed as an early signalling point from which to notify all systems in the event of an attack on the outer rim of the Confederacy. A massively powerful Interplanetary Signal Array is located on the planet, with enough range to easily reach the Confederate capital, New Dawn. \ \ I am however afraid to admit that we've been caught woefully unprepared. The Array relies on power from 10 substations, spread out across the planet to protect the system from attack. We need your assistance to find and activate the substations, initialize the Signal Array and send out the urgent warning to the Confederate Fleet! (substations remaining shown to left). \ \ I will be sure to notify you regarding a reward (bonus PP/new weapon).';//enter area text, specify none to not show it
 11;//The Zoo---------------------------------------------------------
   The Zoo (Alien homeworld);//area name
   0;//area class
@@ -719,6 +719,9 @@ none;//enter area text, specify none to not show it
   73;//alien type in creatures.dat---------asteroids
     20;//number of these aliens
     5;//side
+	104;//alien type in creatures.dat---------large storm
+    30;//number of these aliens
+    11;//side
   end_alien_list;
   begin_excluded_plot_object_classes;
 2;

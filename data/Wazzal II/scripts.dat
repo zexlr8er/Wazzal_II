@@ -4161,7 +4161,7 @@ If has new Pirate flag item;//name----------------------------------------------
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   1000;//run every n milliseconds
-  I am Governor Ruefserouc of Errxelz Base 8. All hell has broken loose: we count over a dozen Alien battleships in this system alone, Alien fighters surrounding our positions, and alien drones are on the rampage everwhere: black hand-to-hand fighters, and green-stripes with long-ranged weapons. \ \ Captain, I believe this attack force is only a fraction of the Alien forces. Their fleet must carry enough firepower to annihilate the entire Confederacy! We will hold them off here as long as we can. You must escape and send out a warning (see inventory) to the Confederate capital Armada using the Interplanetary Signal Array at Kinmegag 71 in the Ennokknmo system! \ \ Captain, I am the only survivor of a family who were taken by the Aliens from Sol before the supernova, all those years ago. Swear to me that you will not rest until the deaths of all those slaughtered have been avenged!;//message
+  I am Governor Ruefserouc of Errxelz Base 8. All hell has broken loose: we count over a dozen Alien battleships in this system alone, Alien fighters surrounding our positions, and alien drones are on the rampage everwhere: black hand-to-hand fighters, and green-stripes with long-ranged weapons. \ \ Captain, I believe this attack force is only a fraction of the Alien forces. Their fleet must carry enough firepower to annihilate the entire Confederacy! We will hold them off here as long as we can. You must escape and send out a warning (see inventory) to the Confederate capital using the Interplanetary Signal Array at Kinmegag 71 in the Ennokknmo system! \ \ Captain, I am the only survivor of a family who were taken by the Aliens from Sol before the supernova, all those years ago. Swear to me that you will not rest until the deaths of all those slaughtered have been avenged!;//message
   1;//message type, 0=quick message, 1=journal
   none;//sound, none for nothing
   0;//delay script for n seconds after conditions met
@@ -4656,7 +4656,7 @@ If has new Pirate flag item;//name----------------------------------------------
   begin_conditions;
     32;//condition
     1.000000;//condition parameter0
-   10.000000;//condition parameter1
+   20.000000;//condition parameter1
     4;//condition
     35.000000;//condition parameter0
    5.000000;//condition parameter1

@@ -1046,7 +1046,7 @@ Ship repair unit;//name---------------------------------------
   26;//identifier
   0;//item class
   0.000000;//weight
-  Press 'U' to buy one unit of drugs. \ \ You will be charged the current market value of Drugs, visable on the bars to the lower left corner of the main interface (above Money and PP).;//short description
+  Press 'U' to buy one unit of drugs. \ \ You will be charged the current market value of Drugs, visible on the bars to the lower left corner of the main interface (above Money and PP).;//short description
   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -1090,12 +1090,12 @@ Ship repair unit;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-Stock: Drugs;//name---------------------------------------
+- Stock: Drugs;//name---------------------------------------
   27;//identifier
   0;//item class
   0.000000;//weight
   Use this item near a store to sell them. \ \ You will receive the current market value of Drugs in Confederate Credits.;//short description
-  none;//first pick up text
+  You retrieve the Drugs stock: the cheapest of the three items traded on the Galactic Stock Exchange! \ \ Use this item near any store to sell it for the current stock price visible to the bottom-left of the screen... but be sure to wait for a good price!;//first pick up text
   0.36000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
@@ -1181,12 +1181,12 @@ Stock: Drugs;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-Stock: Weapon Parts;//name---------------------------------------
+- Stock: Weapon Parts;//name---------------------------------------
   29;//identifier
   0;//item class
   0.000000;//weight
   Use this item near a store to sell them.  \ \ You will receive the current market value of Weapon Parts in Confederate Credits.;//short description
-  none;//first pick up text
+   You retrieve the Weapon Parts stock: the second-most expensive of the three items traded on the Galactic Stock Exchange! \ \ Use this item near any store to sell it for the current stock price visible to the bottom-left of the screen... but be sure to wait for a good price!;//first pick up text
   0.360000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
@@ -1272,12 +1272,12 @@ Stock: Weapon Parts;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-Stock: Slaves;//name---------------------------------------
+- Stock: Slaves;//name---------------------------------------
   31;//identifier
   0;//item class
   0.000000;//weight
   Use this item near a store to sell them. \ \ You will receive the current market value of Slaves in Confederate Credits.;//short description
-  none;//first pick up text
+  You retrieve the Slaves stock: the most expensive of the three items traded on the Galactic Stock Exchange! \ \ Use this item near any store to sell it for the current stock price visible to the bottom-left of the screen... but be sure to wait for a good price!;//first pick up text
   0.360000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
@@ -4804,7 +4804,7 @@ Dead Ka-bear;//name---------------------------------------
   0;//item class
   30.000000;//weight
   The carcass of a fearsome Ka-bear from Kinmegag 71. \ Combine with a Combat Knife to skin it.;//short description
-  You reach down and pick up the heavy carcass. The Ka-bear is one of the most fearsome native species ever discovered. Because of the species' rarity and its thick and luxurious fur, a Ka-bear skin is considered an ultimate symbol of status throughout the Confederacy. \ \ If you could combine this carcass with a Combat Knife, you could skin the bear and sell its coat at a store for a fortune (up to 2000 credits)!;//first pick up text
+  You reach down and pick up the heavy carcass. The Ka-bear is one of the most fearsome native species ever discovered. Because of the species' rarity and its thick and luxurious fur, a Ka-bear skin is considered an ultimate symbol of status throughout the Confederacy. \ \ If you could combine this carcass with a Combat Knife, you could skin the bear and sell its coat at a store for a fortune (up to 1000 credits)!;//first pick up text
   0.550000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar

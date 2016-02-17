@@ -2821,7 +2821,7 @@ Flamethrower;//name---------------------------------------
   -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
   12;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
   fire.wav;//hit effect sound
-  0.010000;//push target back
+  0.020000;//push target back
   0.000000;//push shooter back
   fire.wav;//fire sound
   claws0.wav;//hit sound
@@ -2850,12 +2850,12 @@ Flamethrower;//name---------------------------------------
   end_fire_effects;
   begin_hit_effects;
     4;//effect number
-      -5.000000;//parameter1
+      -7.000000;//parameter1
       0.000000;//parameter2
       4.000000;//parameter3
       0.000000;//parameter4
     23;//effect number
-      -4.000000;//parameter1
+      -3.000000;//parameter1
       59.000000;//parameter2
       4.000000;//parameter3
       7000.000000;//parameter4
@@ -4529,6 +4529,9 @@ Storm hit;//name---------------------------------------
   thunder2.wav;//hit sound
   1.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
   begin_wield_conditions;
+     15;//condition
+      1500.000000;//condition parameter0
+      0.000000;//condition parameter1 	
   end_wield_conditions;
   begin_fire_effects;
     27;//effect number  ---flash
