@@ -1454,7 +1454,7 @@ Rank: Ensign;//name---------------------------------------
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
   1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
-  Confederate_Flag.png;//texture name
+  rank_0.png;//texture name
   -1;//wielded script,-1=nothing, only applicable for wieldable items
   -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
   1;//show help text for conditions
@@ -1484,7 +1484,7 @@ Rank: 2nd Lieutenant;//name---------------------------------------
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
   1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
-  Confederate_Flag.png;//texture name
+  rank_1.png;//texture name
   -1;//wielded script,-1=nothing, only applicable for wieldable items
   -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
   1;//show help text for conditions
@@ -1514,7 +1514,7 @@ Rank: 1st Lieutenant;//name---------------------------------------
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
   1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
-  Confederate_Flag.png;//texture name
+  rank_2.png;//texture name
   -1;//wielded script,-1=nothing, only applicable for wieldable items
   -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
   1;//show help text for conditions
@@ -1544,7 +1544,7 @@ Rank: Lieutenant-commander;//name---------------------------------------
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
   1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
-  Confederate_Flag.png;//texture name
+  rank_3.png;//texture name
   -1;//wielded script,-1=nothing, only applicable for wieldable items
   -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
   1;//show help text for conditions
@@ -2793,7 +2793,7 @@ Rank: Commander;//name---------------------------------------
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   0;//particle to shown on radar
   1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
-  Confederate_Flag.png;//texture name
+  rank_4.png;//texture name
   -1;//wielded script,-1=nothing, only applicable for wieldable items
   -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
   1;//show help text for conditions
@@ -3207,13 +3207,13 @@ Rank: Captain;//name---------------------------------------
   79;//identifier
   2;//item class
   0.000000;//weight
-  Congratulations!! The Confederate Navy has recognized your achievment (600PP), and has promoted you to the rank of Captain. \ \ Salary: 60 credits/hour;//short description
+  Congratulations! The Confederate Navy has recognized your achievment (600PP), and has promoted you to the rank of Captain. \ \ Salary: 60 credits/hour;//short description
   none;//first pick up text
   0.650000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   0;//particle to shown on radar
   1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
-  Confederate_Flag.png;//texture name
+  rank_5.png;//texture name
   -1;//wielded script,-1=nothing, only applicable for wieldable items
   -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
   1;//show help text for conditions
@@ -3237,13 +3237,13 @@ Rank: Commodore;//name---------------------------------------
   80;//identifier
   22;//item class
   0.000000;//weight
-  Congratulations!! The Confederate Navy has recognized your achievement (800PP), and has promoted you to the rank of Commodore.  \ \ Salary: 70 credits/hour;//short description
+  Congratulations! The Confederate Navy has recognized your achievement (800PP), and has promoted you to the rank of Commodore.  \ \ Salary: 70 credits/hour;//short description
   none;//first pick up text
   0.650000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   0;//particle to shown on radar
   1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
-  Confederate_Flag.png;//texture name
+  rank_6.png;//texture name
   -1;//wielded script,-1=nothing, only applicable for wieldable items
   -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
   1;//show help text for conditions
@@ -3267,13 +3267,13 @@ Rank: Rear Admiral;//name---------------------------------------
   81;//identifier
   2;//item class
   0.000000;//weight
-  Congratulations!! The Confederate Navy has recognized your achievement (1000PP), and has promoted you to the rank of Rear Admiral. \ \ Salary: 85 credits/hour;//short description
+  Congratulations! The Confederate Navy has recognized your achievement (1000PP), and has promoted you to the rank of Rear Admiral. \ \ Salary: 85 credits/hour;//short description
   none;//first pick up text
   0.650000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   0;//particle to shown on radar
   1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
-  Confederate_Flag.png;//texture name
+  rank_7.png;//texture name
   -1;//wielded script,-1=nothing, only applicable for wieldable items
   -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
   1;//show help text for conditions
@@ -3297,13 +3297,13 @@ Rank: Vice Admiral;//name---------------------------------------
   82;//identifier
   2;//item class
   0.000000;//weight
-  Congratulations!! The Confederate Navy has recognized your achievement (1200PP), and has promoted you to the rank of Vice Admiral. \ \ Salary: 100 credits/hour;//short description
+  Congratulations! The Confederate Navy has recognized your achievement (1200PP), and has promoted you to the rank of Vice Admiral. \ \ Salary: 100 credits/hour;//short description
   none;//first pick up text
   0.650000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   0;//particle to shown on radar
   1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
-  Confederate_Flag.png;//texture name
+  rank_8.png;//texture name
   -1;//wielded script,-1=nothing, only applicable for wieldable items
   -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
   1;//show help text for conditions
@@ -3327,13 +3327,13 @@ Rank: Admiral;//name---------------------------------------
   83;//identifier
   2;//item class
   0.000000;//weight
-  Congratulations!! The Confederate Navy has recognized your achievement (1500PP), and has promoted you to the rank of Admiral. \ \ Salary: 120 credits/hour;//short description
+  Congratulations! The Confederate Navy has recognized your achievement (1500PP), and has promoted you to the rank of Admiral. \ \ Salary: 120 credits/hour;//short description
   none;//first pick up text
   0.650000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   0;//particle to shown on radar
   1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
-  Confederate_Flag.png;//texture name
+  rank_9.png;//texture name
   -1;//wielded script,-1=nothing, only applicable for wieldable items
   -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
   1;//show help text for conditions
@@ -3357,13 +3357,13 @@ Rank: Fleet Admiral;//name---------------------------------------
   84;//identifier
   2;//item class
   0.000000;//weight
-  Congratulations!! The Confederate Navy has recognized your incredible achievement (2000PP), and has promoted you to the supreme rank of Admiral of the Fleet. \ \ Salary: 150 credits/hour;//short description
+  Congratulations! The Confederate Navy has recognized your incredible achievement (2000PP), and has promoted you to the supreme rank of Admiral of the Fleet. \ \ Salary: 150 credits/hour;//short description
   none;//first pick up text
   0.650000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   0;//particle to shown on radar
   1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
-  Confederate_Flag.png;//texture name
+  rank_10.png;//texture name
   -1;//wielded script,-1=nothing, only applicable for wieldable items
   -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
   1;//show help text for conditions
@@ -5259,7 +5259,7 @@ Confederate flag;//name---------------------------------------
   begin_effects_block;
   Arrr me hearties!;//event text
     Cannot change flag in cloaked mode;//event failure text
-    paper.wav;//sound, none for nothing
+    pirate.wav;//sound, none for nothing
     1;//vanishes after event, 0=no, 1=yes
     U;//use key
     F;//quick key
@@ -5302,7 +5302,7 @@ Pirate flag;//name---------------------------------------
   132;//identifier
   2;//item class
   0.000000;//weight
-  You are flying a pirate flag. Arrr! \ This flag allows you to attack neutral ships for loot. Be warned, as a pirate you will lose PP! \ Use or press 'F' in-game to raise the flag of the United Confederacy of Planets, and become a law-abiding citizen once again.;//short description
+  You are flying a pirate flag. Arrr! \ This flag allows you to attack neutral ships for loot. Be warned: as a pirate you will earn no salary and kills will cost you PP!  \ Use or press 'F' in-game to re-raise the flag of the United Confederacy of Planets.;//short description
  none;//first pick up text
   0.650000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -7064,7 +7064,7 @@ Alien flag;//name---------------------------------------
   167;//identifier
   2;//item class
   0.000000;//weight
-  You are flying the Alien flag! \ This flag allows you to fly freely in Alien space. \ Use or press 'F' in-game to raise the flag of the United Confederacy of Planets, and become a law-abiding citizen once again.;//short description
+  You are flying the Alien flag! \ This flag allows you to fly freely in Alien space. Be warned: you will earn no salary and kills will cost you PP! \ Use or press 'F' in-game to raise the flag of the United Confederacy of Planets.;//short description
  none;//first pick up text
   0.650000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -7137,7 +7137,7 @@ Confederate flag;//name---------------------------------------
   begin_effects_block;
   Arrr me hearties!;//event text
     Cannot change flag in cloaked mode;//event failure text
-    paper.wav;//sound, none for nothing
+    pirate.wav;//sound, none for nothing
     1;//vanishes after event, 0=no, 1=yes
     U;//use key
     F;//quick key
@@ -7180,7 +7180,7 @@ Pirate flag;//name---------------------------------------
   169;//identifier
   2;//item class
   0.000000;//weight
-  You are flying a pirate flag. Arrr! \ This flag allows you to attack neutral ships for loot. Be warned, as a pirate you will lose PP! \ Use or press 'F' in-game to raise the flag of the Alien Horde...;//short description
+  You are flying a pirate flag. Arrr! \ This flag allows you to attack neutral ships for loot. Be warned: as a pirate you will earn no salary and kills will cost you PP! \ Use or press 'F' in-game to raise the terrifying Alien flag...;//short description
  none;//first pick up text
   0.650000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
