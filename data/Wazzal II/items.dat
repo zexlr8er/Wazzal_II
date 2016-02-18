@@ -2900,7 +2900,7 @@ Fusion Beam;//name---------------------------------------
   20.000000;//weight
   The Fusion Beam is a powerful weapon, able to cut through almost any substance instantly... just make sure you beware your energy levels.;//short description
   none;//first pick up text
-  0.350000;//size on map
+  0.420000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   0;//particle to shown on radar
   1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
@@ -3872,7 +3872,7 @@ Flamethrower;//name---------------------------------------
   15.000000;//weight
   This flamethrower will fire a burning cloud of fuel over an enemy, burning them to death in seconds. Even if you don't completely kill an enemy, they will continue to burn. \ The flamethrower uses fuel, which you can fill up with at a Fuel Pump.;//short description
   none;//first pick up text
-  0.350000;//size on map
+  0.380000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
   1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
@@ -3908,7 +3908,7 @@ Laser Rifle;//name---------------------------------------
   15.000000;//weight
   The laser rifle is a powerful laser weapon, firing a deadly stream of high-intensity laser beams at an enemy and vaporising it in seconds.;//short description
   none;//first pick up text
-  0.350000;//size on map
+  0.390000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   0;//particle to shown on radar
   1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
@@ -4019,7 +4019,7 @@ Call in airstrike;//name---------------------------------------
   0.000000;//weight
 Use to call in a devastating Confederate missile airstrike. Use as a weapon by left-clicking, and a strike will be launched targeting the region on which your mouse cursor is positioned. \ A set of electrobinoculors would be perfect to help attack long-range targets!;//short description
   none;//first pick up text
-  0.350000;//size on map
+  0.420000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   0;//particle to shown on radar
   1;//visible in inventory 0=no (can only be used via quick keys), 1=yes

@@ -1822,7 +1822,7 @@ Fusion Beam;//name---------------------------------------
   end_wield_conditions;
   begin_fire_effects;
   4;//effect number 
-    -0.650000;//parameter1
+    -0.520000;//parameter1
     0.000000;//parameter2
     5.000000;//parameter3
     0.000000;//parameter4
