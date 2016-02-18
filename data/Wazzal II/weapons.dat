@@ -5652,4 +5652,68 @@ Volcano damage;//name---------------------------------------
     4.000000;//parameter3
     0.000000;//parameter4 
   end_hit_effects;
+ Volcano hit;//name---------------------------------------
+  113;//identifier
+  1;//class
+  fire0.png;//bullet texture
+  30;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  1.500000;//bullet size
+  6.200000;//spread
+  3.00000;//bullet speed
+  55.000000;//time until bullet disappears
+  500;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  6;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  2.500000;//push target back
+  0.000000;//push shooter back
+  explosion2.wav;//fire sound
+  explosion2.wav;//hit sound
+  1.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+     15;//condition
+      1500.000000;//condition parameter0
+      0.000000;//condition parameter1 	
+  end_wield_conditions;
+  begin_fire_effects;
+  27;//effect number
+    2.000000;//parameter1
+    150.000000;//parameter2
+    1.500000;//parameter3
+    2.200000;//parameter4
+  27;//effect number
+    14.000000;//parameter1
+    80.000000;//parameter2
+    0.100000;//parameter3
+    0.200000;//parameter4   
+  end_fire_effects;
+  begin_hit_effects;
+  4;//effect number  # shields
+    -10.0000;//parameter1   
+    0.000000;//parameter2
+    8.000000;//parameter3
+    0.000000;//parameter4
+  4;//effect number   # allied ships health
+    -2.700000;//parameter1 
+    0.000000;//parameter2
+    4.000000;//parameter3
+    0.000000;//parameter4 
+  29;//effect number     # shields down script
+    123.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  27;//effect number
+    14.000000;//parameter1
+    80.000000;//parameter2
+    0.100000;//parameter3
+    0.200000;//parameter4  
+  36;//effect number     ---shake
+    8.000000;//parameter1
+    1000.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4 
+  end_hit_effects;
 end_of_file;
