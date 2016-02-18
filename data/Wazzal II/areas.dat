@@ -227,8 +227,11 @@ end_excluded_plot_object_classes;
   -1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
   1.000000;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
   begin_alien_list;
+      94;//alien type in creatures.dat---------insect
+    30;//number of these aliens
+    5;//side
   41;//alien type in creatures.dat---------rockm
-   9;//number of these aliens
+   12;//number of these aliens
     1;//side
   42;//alien type in creatures.dat---------rockore
     50;//number of these aliens

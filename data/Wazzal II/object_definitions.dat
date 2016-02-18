@@ -1006,7 +1006,7 @@ Healing pool;//name---------------------------------------
   2;//layer
   0;//does it sway with the wind
   1;//gets transparent when player near
-  0;//provides shade for player
+  1;//provides shade for player
   -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
   0.000000;//collision detection parameter0
   0.000000;//collision detection parameter1
@@ -1024,7 +1024,7 @@ Energy pool;//name---------------------------------------
   2;//layer
   0;//does it sway with the wind
   1;//gets transparent when player near
-  0;//provides shade for player
+  1;//provides shade for player
   -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
   0.000000;//collision detection parameter0
   0.000000;//collision detection parameter1
@@ -4477,7 +4477,7 @@ Energy dock;//name---------------------------------------
   0;//does it sway with the wind
   0;//gets transparent when player near
   0;//provides shade for player
-  0;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
+  -1;//collision detection type, -1=none, 0=circle radius parameter0, 1=polygon parameter0 from polygons.dat size parameter1
   0.700000;//collision detection parameter0
   0.000000;//collision detection parameter1
   0;//Block vision. If 1, enemies and player cannot see other creatures through it. Use sparingly, this slows the AI down.

@@ -2127,7 +2127,7 @@ Electrobinoculars (LR);//name---------------------------------------
 Strong Liquor;//name---------------------------------------
   52;//identifier
   0;//item class
-  3.000000;//weight
+  1.000000;//weight
   This strong liquor will make the world appear to slow down for 20 seconds, but will make you stagger about and confuse your vision.;//short description
   none;//first pick up text
   0.250000;//size on map
@@ -8124,7 +8124,7 @@ Use to fire a deadly long-ranged mortar. Use as a weapon by left-clicking, and t
   Fishing rod;//name---------------------------------------
   193;//identifier
   0;//item class
-  0.300000;//weight
+  2.000000;//weight
   This sturdy fishing rod allows you to try and catch valuable fish! To use, cast off over water!;//short description
   You pick up the sturdy fishing rod. This should allow you to make some extra money by catching valuable fish! \ \ The fishing rod should work when cast off over any water body... it may take more than a few attempts to catch anything, however!;//first pick up text
   0.420000;//size on map

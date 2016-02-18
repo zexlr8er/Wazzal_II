@@ -531,6 +531,11 @@ Laser Rifle;//name---------------------------------------
     -45.000000;//parameter2
     4.000000;//parameter3
     1.000000;//parameter4
+		      27;//effect number	                  light burst
+      3.000000;//parameter1
+      60.000000;//parameter2
+      0.200000;//parameter3
+      0.600000;//parameter4 
   end_hit_effects;
  Unused;//name---------------------------------------
  13;//identifier
@@ -2066,6 +2071,11 @@ Laser pistol;//name---------------------------------------
     -80.000000;//parameter2
     4.000000;//parameter3
     1.000000;//parameter4
+		      27;//effect number	                  light burst
+      3.000000;//parameter1
+      60.000000;//parameter2
+      0.200000;//parameter3
+      0.600000;//parameter4 
   end_hit_effects;
 Compact explosion;//name---------------------------------------
   44;//identifier
@@ -2893,14 +2903,19 @@ Poison dart;//name---------------------------------------
     0.000000;//parameter4
   end_fire_effects;
   begin_hit_effects;
+    4;//effect number            add extra health
+    100.0000;//parameter1
+    0.000000;//parameter2
+    4.000000;//parameter3
+    0.000000;//parameter4
    23;//effect number
       -9.000000;//parameter1
       60.000000;//parameter2
       4.000000;//parameter3
-      30000.000000;//parameter4
+      120000.000000;//parameter4
 22;//effect number
       7.000000;//parameter1
-      20000.000000;//parameter2
+      120000.000000;//parameter2
      60.000000;//parameter3
       0.000000;//parameter4
   end_hit_effects;
