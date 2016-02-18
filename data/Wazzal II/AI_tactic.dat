@@ -1,7 +1,7 @@
 Attack Normal;//tactic name
   0;//identifier
   begin_levels;
-  25;//anger level size
+  20;//anger level size
     1;//action
     0;//parameter0
     1;//can hit enemies
@@ -78,24 +78,14 @@ Follow;//tactic name
     1;//can eat
   end_levels;
 Leader Attack;//tactic name
-  6;//identifier
+6;//identifier
   begin_levels;
-  10;//anger level size  # first roam
+  10;//anger level size
     1;//action
     0;//parameter0
     1;//can hit enemies
     1;//can eat
-  10;//anger level size  # then attack
-    3;//action
-    0;//parameter0
-    1;//can hit enemies
-    0;//can eat
-  5;//anger level size  # temporarily break off attack
-    4;//action
-    0;//parameter0
-    1;//can hit enemies
-    0;//can eat
-  10;//anger level size  # attack again
+  10;//anger level size
     3;//action
     0;//parameter0
     1;//can hit enemies
