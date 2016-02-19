@@ -1707,7 +1707,7 @@ Bodyguards;//name---------------------------------------first bodyguard
   0;//die after how many seconds, 0=doesn't die
   -1;//eat item number from items.dat, -1=nothing
   1.100000;//creature size
-  4.000000;//creature weight (affects pushing)
+  2.000000;//creature weight (affects pushing)
   1.100000;//maximum movement speed
   0.000000;//minimum movement speed
   0.900000;//leg animation speed
@@ -3700,7 +3700,7 @@ Bodyguards;//name---------------------------------------2nd bodyguard
   0;//die after how many seconds, 0=doesn't die
   -1;//eat item number from items.dat, -1=nothing
   1.100000;//creature size
-  4.000000;//creature weight (affects pushing)
+  2.000000;//creature weight (affects pushing)
   1.100000;//maximum movement speed
   0.000000;//minimum movement speed
   0.900000;//leg animation speed
