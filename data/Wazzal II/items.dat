@@ -468,23 +468,28 @@ Leave Bridge;//name---------------------------------------
       1.000000;//parameter2
       1.000000;//parameter3
       1.000000;//parameter4
-29;//effect number                          use pirate flag checker script
-      93.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
-29;//effect number                          use new flag item checker script pirate
-      119.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
-29;//effect number                          use new flag checker script alien
-      120.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
     34;//effect number	                    change into human
       1.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+	  		   22;//effect number                  change side to friendly ships
+     0.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4
+    39;//effect number                          hide confed flag
+      26.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 	
+    39;//effect number                          hide pirate flag
+      27.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+    39;//effect number                          hide alien flag
+      32.000000;//parameter1
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4 
@@ -7054,6 +7059,16 @@ Alien ship cladding;//name---------------------------------------
 	  	  16;//effect number                add new Pirate flag to inventory  
      169.000000;//parameter1
      -1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+	      39;//effect number                          hide confed flag
+      26.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 	
+    39;//effect number                          hide pirate flag
+      27.000000;//parameter1
+      0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
 	  end_effects;

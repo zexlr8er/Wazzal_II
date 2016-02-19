@@ -61,21 +61,6 @@ Errxelz 8;//name---------------------------------------
     begin_conditions;
     end_conditions;
     begin_effects;
-29;//effect number                          use pirate flag checker script
-      93.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
-29;//effect number                          use new flag item checker script pirate
-      119.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
-29;//effect number                          use new flag checker script alien
-      120.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
     21;//effect number                          teleport to planet
       4.000000;//parameter1
       16.000000;//parameter2
@@ -167,21 +152,6 @@ Lvlei;//name---------------------------------------Jungle battle planet
     begin_conditions;
     end_conditions;
     begin_effects;
-29;//effect number                          use pirate flag checker script
-      93.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
-29;//effect number                          use new flag item checker script pirate
-      119.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
-29;//effect number                          use new flag checker script alien
-      120.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
     21;//effect number                          teleport to planet
       6.000000;//parameter1
       25.000000;//parameter2
@@ -192,6 +162,26 @@ Lvlei;//name---------------------------------------Jungle battle planet
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4     
+	  	  		   22;//effect number                  change side to friendly ships
+     0.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4
+    39;//effect number                          hide confed flag
+      26.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 	
+    39;//effect number                          hide pirate flag
+      27.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+    39;//effect number                          hide alien flag
+      32.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
     52;//effect number                          change inventory to 1
       1.000000;//parameter1
       0.000000;//parameter2
@@ -434,21 +424,6 @@ Kinmegag 71;//name---------------------------------------
     begin_conditions;
     end_conditions;
     begin_effects;
-29;//effect number                          use pirate flag checker script
-      93.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
-29;//effect number                          use new flag item checker script pirate
-      119.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
-29;//effect number                          use new flag checker script alien
-      120.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
 21;//effect number                          teleport to planet
       10.000000;//parameter1
      65.000000;//parameter2
@@ -458,7 +433,27 @@ Kinmegag 71;//name---------------------------------------
       1.000000;//parameter1
       0.000000;//parameter2
       0.000000;//parameter3
-      0.000000;//parameter4     
+      0.000000;//parameter4
+	22;//effect number                  change side to friendly ships
+     0.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4
+    39;//effect number                          hide confed flag
+      26.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 	
+    39;//effect number                          hide pirate flag
+      27.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+    39;//effect number                          hide alien flag
+      32.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 	  
     52;//effect number                          change inventory to 1
       1.000000;//parameter1
       0.000000;//parameter2
@@ -516,11 +511,11 @@ Kinmegag 71;//name---------------------------------------
       0.000000;//parameter4   	  
     end_effects;
   end_effects_block;
-Pergor;//name---------------------------------------
+Unused;//name---------------------------------------
   5;//identifier
   -1;//map type to place to -1=any map 0=> type from areas.dat
   0;//plot_object class
-  10;//object definition number
+  0;//object definition number
   0;//number of objects to be placed
   0;//location type, 0=random, 1=distance min(parameter1) max(parameter2) from player start, 2=distance min(parameter1) max(parameter2) from object parameter0, 3=coordinates [parameter0, parameter1] (0=min, 1=max)  vary location=parameter2
   0.000000;//location parameter0
@@ -747,12 +742,7 @@ Click to Enter Bridge;//name---------------------------------------
       -1.000000;//parameter1
       17.000000;//parameter2
       0.000000;//parameter3
-      0.000000;//parameter4
-    34;//effect number	             change into ship
-      0.000000;//parameter1
-      0.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4     
+      0.000000;//parameter4 
     40;//effect number                          delete plot object placeholder
       17.000000;//parameter1
       10.000000;//parameter2
@@ -803,11 +793,36 @@ Click to Enter Bridge;//name---------------------------------------
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
-39;//effect number                      show flag bar                 
-    26.000000;//parameter1
-    1.000000;//parameter2
-    0.000000;//parameter3
-    0.000000;//parameter4    
+29;//effect number                          use flag checker script confed to restore back into confed flag
+      144.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4		
+29;//effect number                          use flag checker script pirate to restore back into pirate flag
+      145.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4	
+29;//effect number                          use flag checker script alien to restore back into Alien flag
+      146.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4	
+29;//effect number                          use flag checker script confed to restore back into new confed flag
+      147.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4		
+29;//effect number                          use flag checker script pirate to restore back into new pirate flag
+      148.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4		  
+29;//effect number                          use flag checker script stealth to restore back into stealth
+      149.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4	
     end_effects;
   end_effects_block;
 bomb flash;//name--(lightning)---------------------------------------
@@ -919,8 +934,8 @@ Store;//name---------------------------------------
   0.000000;//location parameter0
   0.000000;//location parameter1
   0.000000;//location parameter2
-  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
-  -1;//particle to shown on radar
+  2;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  93;//particle to shown on radar
   none;//radiate sound
   -1.000000;//time to delete object in milliseconds, -1=don't delete
   0;//trigger event by 0=player click, 1=player near, 2=near or click, 3=map creation (try to avoid any creature specific effects when using this, also does not check conditions), 4=interval parameter1
@@ -1041,11 +1056,6 @@ Click to return to Wolf IV;//name---------------------------------------(for for
     begin_conditions;//  
     end_conditions;
     begin_effects;
-    34;//effect number	             change into ship
-      0.000000;//parameter1
-      0.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
     21;//effect number                          teleport to 'leave bridge' point
       -1.000000;//parameter1
       2.000000;//parameter2
@@ -1096,11 +1106,36 @@ Click to return to Wolf IV;//name---------------------------------------(for for
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
-39;//effect number                      show flag bar                 
-    26.000000;//parameter1
-    1.000000;//parameter2
-    0.000000;//parameter3
-    0.000000;//parameter4   
+29;//effect number                          use flag checker script confed to restore back into confed flag
+      144.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4		
+29;//effect number                          use flag checker script pirate to restore back into pirate flag
+      145.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4	
+29;//effect number                          use flag checker script alien to restore back into Alien flag
+      146.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4	
+29;//effect number                          use flag checker script confed to restore back into new confed flag
+      147.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4		
+29;//effect number                          use flag checker script pirate to restore back into new pirate flag
+      148.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4		  
+29;//effect number                          use flag checker script stealth to restore back into stealth
+      149.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4	
     end_effects;
   end_effects_block;
 Holograph;//name---------------------------------------aliens
@@ -1194,8 +1229,8 @@ Healing pool;//name---------------------------------------
   0.000000;//location parameter0
   0.000000;//location parameter1
   0.000000;//location parameter2
-  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
-  -1;//particle to shown on radar
+  2;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+ 91;//particle to shown on radar
   none;//radiate sound
   -1.000000;//time to delete object in milliseconds, -1=don't delete
   1;//trigger event by 0=player click, 1=player near, 2=near or click, 3=map creation (try to avoid any creature specific effects when using this, also does not check conditions), 4=interval parameter1
@@ -1318,8 +1353,8 @@ Energy pool;//name---------------------------------------
   0.000000;//location parameter0
   0.000000;//location parameter1
   0.000000;//location parameter2
-  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
-  -1;//particle to shown on radar
+  2;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+ 92;//particle to shown on radar
  none;//radiate sound
   -1.000000;//time to delete object in milliseconds, -1=don't delete
   1;//trigger event by 0=player click, 1=player near, 2=near or click, 3=map creation (try to avoid any creature specific effects when using this, also does not check conditions), 4=interval parameter1
@@ -1744,21 +1779,6 @@ Naquarin;//name---------------------------------------ocean
     begin_conditions;
     end_conditions;
     begin_effects;
-29;//effect number                          use pirate flag checker script
-      93.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
-29;//effect number                          use new flag item checker script pirate
-      119.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
-29;//effect number                          use new flag checker script alien
-      120.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
     34;//effect number	                    change into human
       1.000000;//parameter1
       0.000000;//parameter2
@@ -1768,7 +1788,27 @@ Naquarin;//name---------------------------------------ocean
       -1.000000;//parameter1
       43.000000;//parameter2
       0.000000;//parameter3
-      0.000000;//parameter4     
+      0.000000;//parameter4   
+	  		   22;//effect number                  change side to friendly ships
+     0.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4
+    39;//effect number                          hide confed flag
+      26.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 	
+    39;//effect number                          hide pirate flag
+      27.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+    39;//effect number                          hide alien flag
+      32.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 	  
     52;//effect number                          change inventory to 1
       1.000000;//parameter1
       0.000000;//parameter2
@@ -1876,11 +1916,6 @@ Click to return to Wolf IV;//name---------------------------------------(for oce
     begin_conditions;//  
     end_conditions;
     begin_effects;
-    34;//effect number	             change into ship
-      0.000000;//parameter1
-      0.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
     21;//effect number                          teleport to 'leave bridge' point
       -1.000000;//parameter1
       41.000000;//parameter2
@@ -1931,11 +1966,36 @@ Click to return to Wolf IV;//name---------------------------------------(for oce
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4 
-39;//effect number                      show flag bar                 
-    26.000000;//parameter1
-    1.000000;//parameter2
-    0.000000;//parameter3
-    0.000000;//parameter4   
+29;//effect number                          use flag checker script confed to restore back into confed flag
+      144.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4		
+29;//effect number                          use flag checker script pirate to restore back into pirate flag
+      145.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4	
+29;//effect number                          use flag checker script alien to restore back into Alien flag
+      146.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4	
+29;//effect number                          use flag checker script confed to restore back into new confed flag
+      147.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4		
+29;//effect number                          use flag checker script pirate to restore back into new pirate flag
+      148.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4		  
+29;//effect number                          use flag checker script stealth to restore back into stealth
+      149.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4	  
     end_effects;
   end_effects_block;
 Berries DEFUNCT;//name-----------------------------------------
@@ -2030,21 +2090,6 @@ Zycar;//name---------------------------------------lava
     begin_conditions;
     end_conditions;
     begin_effects;
-29;//effect number                          use pirate flag checker script
-      93.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
-29;//effect number                          use new flag item checker script pirate
-      119.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
-29;//effect number                          use new flag checker script alien
-      120.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
     21;//effect number                          teleport to planet
       7.000000;//parameter1
       47.000000;//parameter2
@@ -2055,6 +2100,26 @@ Zycar;//name---------------------------------------lava
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4     
+	  		   22;//effect number                  change side to friendly ships
+     0.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4
+    39;//effect number                          hide confed flag
+      26.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 	
+    39;//effect number                          hide pirate flag
+      27.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+    39;//effect number                          hide alien flag
+      32.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 		  
     52;//effect number                          change inventory to 1
       1.000000;//parameter1
       0.000000;//parameter2
@@ -2131,11 +2196,6 @@ Click to return to Wolf IV;//name---------------------------------------(for lav
     begin_conditions;//  
     end_conditions;
     begin_effects;
-    34;//effect number	             change into ship
-      0.000000;//parameter1
-      0.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
     21;//effect number                          teleport to 'leave bridge' point
       -1.000000;//parameter1
       46.000000;//parameter2
@@ -2186,11 +2246,36 @@ Click to return to Wolf IV;//name---------------------------------------(for lav
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
-39;//effect number                      show flag bar                 
-    26.000000;//parameter1
-    1.000000;//parameter2
-    0.000000;//parameter3
-    0.000000;//parameter4       
+29;//effect number                          use flag checker script confed to restore back into confed flag
+      144.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4		
+29;//effect number                          use flag checker script pirate to restore back into pirate flag
+      145.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4	
+29;//effect number                          use flag checker script alien to restore back into Alien flag
+      146.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4	
+29;//effect number                          use flag checker script confed to restore back into new confed flag
+      147.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4		
+29;//effect number                          use flag checker script pirate to restore back into new pirate flag
+      148.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4		  
+29;//effect number                          use flag checker script stealth to restore back into stealth
+      149.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4	   
     end_effects;
   end_effects_block;
 Jumpgate to Ennokknmo System;//name---------------------------------------
@@ -2936,12 +3021,7 @@ Click to return to Wolf IV;//name---------------------------------------for ice
       -1.000000;//parameter1
      4.000000;//parameter2
       0.000000;//parameter3
-      0.000000;//parameter4
-    34;//effect number	             change into ship
-      0.000000;//parameter1
-      0.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4     
+      0.000000;//parameter4   
     62;//effect number                          force close inventory
       0.000000;//parameter1
       0.000000;//parameter2
@@ -2992,11 +3072,36 @@ Click to return to Wolf IV;//name---------------------------------------for ice
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
-39;//effect number                      show flag bar                 
-    26.000000;//parameter1
-    1.000000;//parameter2
-    0.000000;//parameter3
-    0.000000;//parameter4  
+29;//effect number                          use flag checker script confed to restore back into confed flag
+      144.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4		
+29;//effect number                          use flag checker script pirate to restore back into pirate flag
+      145.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4	
+29;//effect number                          use flag checker script alien to restore back into Alien flag
+      146.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4	
+29;//effect number                          use flag checker script confed to restore back into new confed flag
+      147.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4		
+29;//effect number                          use flag checker script pirate to restore back into new pirate flag
+      148.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4		  
+29;//effect number                          use flag checker script stealth to restore back into stealth
+      149.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4	
     end_effects;
   end_effects_block;
 Empty plexi-steel trap;//name---------------------------------------
@@ -3299,8 +3404,8 @@ Fuel pump;//name---------------------------------------
   0.000000;//location parameter0
   0.000000;//location parameter1
   0.000000;//location parameter2
-  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
-  -1;//particle to shown on radar
+  2;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  94;//particle to shown on radar
   none;//radiate sound
   -1.000000;//time to delete object in milliseconds, -1=don't delete
   1;//trigger event by 0=player click, 1=player near, 2=near or click, 3=map creation (try to avoid any creature specific effects when using this, also does not check conditions), 4=interval parameter1
@@ -3642,21 +3747,6 @@ The Zoo (Alien homeworld);//name---------------------------------------
     begin_conditions;
     end_conditions;
     begin_effects;
-29;//effect number                          use pirate flag checker script
-      93.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
-29;//effect number                          use new flag item checker script pirate
-      119.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
-29;//effect number                          use new flag checker script alien
-      120.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
     21;//effect number                          teleport to planet
       11.000000;//parameter1
       84.000000;//parameter2
@@ -3667,6 +3757,26 @@ The Zoo (Alien homeworld);//name---------------------------------------
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4     
+	  	22;//effect number                  change side to friendly ships
+     0.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4
+    39;//effect number                          hide confed flag
+      26.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 	
+    39;//effect number                          hide pirate flag
+      27.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+    39;//effect number                          hide alien flag
+      32.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
     52;//effect number                          change inventory to 1
       1.000000;//parameter1
       0.000000;//parameter2
@@ -3747,12 +3857,7 @@ Click to return to Wolf IV;//name---------------------------------------alien
     -1.000000;//parameter1
       83.000000;//parameter2
       0.000000;//parameter3
-      0.000000;//parameter4
-    34;//effect number	             change into ship
-      0.000000;//parameter1
-      0.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4     
+      0.000000;//parameter4  
     62;//effect number                          force close inventory
       0.000000;//parameter1
       0.000000;//parameter2
@@ -3798,11 +3903,36 @@ Click to return to Wolf IV;//name---------------------------------------alien
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
-39;//effect number                      show flag bar                 
-    26.000000;//parameter1
-    1.000000;//parameter2
-    0.000000;//parameter3
-    0.000000;//parameter4   
+29;//effect number                          use flag checker script confed to restore back into confed flag
+      144.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4		
+29;//effect number                          use flag checker script pirate to restore back into pirate flag
+      145.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4	
+29;//effect number                          use flag checker script alien to restore back into Alien flag
+      146.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4	
+29;//effect number                          use flag checker script confed to restore back into new confed flag
+      147.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4		
+29;//effect number                          use flag checker script pirate to restore back into new pirate flag
+      148.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4		  
+29;//effect number                          use flag checker script stealth to restore back into stealth
+      149.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4	
     end_effects;
   end_effects_block;
 Alien fire;//name---------------------------------------
@@ -3932,21 +4062,6 @@ Moon of Zycar;//name---------------------------------------
     begin_conditions;
     end_conditions;
     begin_effects;
-29;//effect number                          use pirate flag checker script
-      93.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
-29;//effect number                          use new flag item checker script pirate
-      119.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
-29;//effect number                          use new flag checker script alien
-      120.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
     21;//effect number                          teleport to planet
       13.000000;//parameter1
      89.000000;//parameter2
@@ -3956,7 +4071,27 @@ Moon of Zycar;//name---------------------------------------
       1.000000;//parameter1
       0.000000;//parameter2
       0.000000;//parameter3
-      0.000000;//parameter4     
+      0.000000;//parameter4   
+	22;//effect number                  change side to friendly ships
+     0.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4
+    39;//effect number                          hide confed flag
+      26.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 	
+    39;//effect number                          hide pirate flag
+      27.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+    39;//effect number                          hide alien flag
+      32.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 	  
     52;//effect number                          change inventory to 1
       1.000000;//parameter1
       0.000000;//parameter2
@@ -4014,7 +4149,7 @@ Moon of Zycar;//name---------------------------------------
       0.000000;//parameter4 
      end_effects;
   end_effects_block;
-Click to return to Wolf IV;//name---------------------------------------mooon
+Click to return to Wolf IV;//name---------------------------------------moon
  89;//identifier
   -1;//map type to place to -1=any map 0=> type from areas.dat
   0;//plot_object class
@@ -4052,12 +4187,7 @@ Click to return to Wolf IV;//name---------------------------------------mooon
     -1.000000;//parameter1
       88.000000;//parameter2
       0.000000;//parameter3
-      0.000000;//parameter4
-    34;//effect number	             change into ship
-      0.000000;//parameter1
-      0.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4     
+      0.000000;//parameter4    
     62;//effect number                          force close inventory
       0.000000;//parameter1
       0.000000;//parameter2
@@ -4103,11 +4233,36 @@ Click to return to Wolf IV;//name---------------------------------------mooon
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4  
-39;//effect number                      show flag bar                 
-    26.000000;//parameter1
-    1.000000;//parameter2
-    0.000000;//parameter3
-    0.000000;//parameter4 
+29;//effect number                          use flag checker script confed to restore back into confed flag
+      144.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4		
+29;//effect number                          use flag checker script pirate to restore back into pirate flag
+      145.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4	
+29;//effect number                          use flag checker script alien to restore back into Alien flag
+      146.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4	
+29;//effect number                          use flag checker script confed to restore back into new confed flag
+      147.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4		
+29;//effect number                          use flag checker script pirate to restore back into new pirate flag
+      148.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4		  
+29;//effect number                          use flag checker script stealth to restore back into stealth
+      149.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4	
     end_effects;
   end_effects_block;
 High explosive;//name---------------------------------------for mines once errxelz appears
@@ -4244,21 +4399,6 @@ Moon of Naquarin;//name---------------------------------------
     begin_conditions;
     end_conditions;
     begin_effects;
-29;//effect number                          use pirate flag checker script
-      93.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
-29;//effect number                          use new flag item checker script pirate
-      119.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
-29;//effect number                          use new flag checker script alien
-      120.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
     21;//effect number                          teleport to planet
       14.000000;//parameter1
      94.000000;//parameter2
@@ -4268,7 +4408,27 @@ Moon of Naquarin;//name---------------------------------------
       1.000000;//parameter1
       0.000000;//parameter2
       0.000000;//parameter3
-      0.000000;//parameter4     
+      0.000000;//parameter4    
+	22;//effect number                  change side to friendly ships
+     0.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4
+    39;//effect number                          hide confed flag
+      26.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 	
+    39;//effect number                          hide pirate flag
+      27.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+    39;//effect number                          hide alien flag
+      32.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 	  
     52;//effect number                          change inventory to 1
       1.000000;//parameter1
       0.000000;//parameter2
@@ -4364,12 +4524,7 @@ Click to return to Wolf IV;//name---------------------------------------moon
     -1.000000;//parameter1
       93.000000;//parameter2
       0.000000;//parameter3
-      0.000000;//parameter4
-    34;//effect number	             change into ship
-      0.000000;//parameter1
-      0.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4     
+      0.000000;//parameter4    
     62;//effect number                          force close inventory
       0.000000;//parameter1
       0.000000;//parameter2
@@ -4415,11 +4570,36 @@ Click to return to Wolf IV;//name---------------------------------------moon
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4  
-39;//effect number                      show flag bar                 
-    26.000000;//parameter1
-    1.000000;//parameter2
-    0.000000;//parameter3
-    0.000000;//parameter4 
+29;//effect number                          use flag checker script confed to restore back into confed flag
+      144.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4		
+29;//effect number                          use flag checker script pirate to restore back into pirate flag
+      145.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4	
+29;//effect number                          use flag checker script alien to restore back into Alien flag
+      146.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4	
+29;//effect number                          use flag checker script confed to restore back into new confed flag
+      147.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4		
+29;//effect number                          use flag checker script pirate to restore back into new pirate flag
+      148.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4		  
+29;//effect number                          use flag checker script stealth to restore back into stealth
+      149.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4	
     end_effects;
   end_effects_block;
 Armada (Confederate capital);//name---------------------------------------
@@ -4446,21 +4626,6 @@ none;//event text
     begin_conditions;
     end_conditions;
     begin_effects;
-29;//effect number                          use pirate flag checker script
-      93.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
-29;//effect number                          use new flag item checker script pirate
-      119.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
-29;//effect number                          use new flag checker script alien
-      120.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4 
     21;//effect number                          teleport to planet
       17.000000;//parameter1
      105.000000;//parameter2
@@ -4470,7 +4635,27 @@ none;//event text
       1.000000;//parameter1
       0.000000;//parameter2
       0.000000;//parameter3
-      0.000000;//parameter4     
+      0.000000;//parameter4  
+	22;//effect number                  change side to friendly ships
+     0.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4
+    39;//effect number                          hide confed flag
+      26.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 	
+    39;//effect number                          hide pirate flag
+      27.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+    39;//effect number                          hide alien flag
+      32.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 	  
     52;//effect number                          change inventory to 1
       1.000000;//parameter1
       0.000000;//parameter2
@@ -4815,7 +5000,7 @@ Jumpgate to New Dawn System;//name---------------------------------------
     begin_conditions;
     end_conditions;
     begin_effects;
-    21;//effect number                          teleport to mystery system
+    21;//effect number                          teleport to new dawn
      16.000000;//parameter1
      103.000000;//parameter2
       0.000000;//parameter3
@@ -4851,11 +5036,6 @@ Click to return to Wolf IV;//name---------------------------------------(for spa
     begin_conditions;//  
     end_conditions;
     begin_effects;
-    34;//effect number	             change into ship
-      0.000000;//parameter1
-      0.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
     21;//effect number                          teleport to 'leave bridge' point
       -1.000000;//parameter1
       95.000000;//parameter2
@@ -4906,11 +5086,36 @@ Click to return to Wolf IV;//name---------------------------------------(for spa
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
-39;//effect number                      show flag bar                 
-    26.000000;//parameter1
-    1.000000;//parameter2
-    0.000000;//parameter3
-    0.000000;//parameter4   
+29;//effect number                          use flag checker script confed to restore back into confed flag
+      144.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4		
+29;//effect number                          use flag checker script pirate to restore back into pirate flag
+      145.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4	
+29;//effect number                          use flag checker script alien to restore back into Alien flag
+      146.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4	
+29;//effect number                          use flag checker script confed to restore back into new confed flag
+      147.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4		
+29;//effect number                          use flag checker script pirate to restore back into new pirate flag
+      148.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4		  
+29;//effect number                          use flag checker script stealth to restore back into stealth
+      149.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4	 
     end_effects;
   end_effects_block;
 Grenade;//name--------------------------------------
@@ -5143,21 +5348,6 @@ Dorian Prime;//name---------------------------------------meadows
     begin_conditions;
     end_conditions;
     begin_effects;
-29;//effect number                          use pirate flag checker script
-      93.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
-29;//effect number                          use new flag item checker script pirate
-      119.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
-29;//effect number                          use new flag checker script alien
-      120.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
     21;//effect number                          teleport to planet
       19.000000;//parameter1
       112.000000;//parameter2
@@ -5167,7 +5357,27 @@ Dorian Prime;//name---------------------------------------meadows
       1.000000;//parameter1
       0.000000;//parameter2
       0.000000;//parameter3
-      0.000000;//parameter4     
+      0.000000;//parameter4    
+	22;//effect number                  change side to friendly ships
+     0.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4
+    39;//effect number                          hide confed flag
+      26.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 	
+    39;//effect number                          hide pirate flag
+      27.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+    39;//effect number                          hide alien flag
+      32.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 	  
     52;//effect number                          change inventory to 1
       1.000000;//parameter1
       0.000000;//parameter2
@@ -5254,11 +5464,6 @@ Click to return to Wolf IV;//name---------------------------------------(for mea
     begin_conditions;//  
     end_conditions;
     begin_effects;
-    34;//effect number	             change into ship
-      0.000000;//parameter1
-      0.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
     21;//effect number                          teleport to 'leave bridge' point
       -1.000000;//parameter1
       111.000000;//parameter2
@@ -5319,11 +5524,36 @@ Click to return to Wolf IV;//name---------------------------------------(for mea
       1.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
-39;//effect number                      show flag bar                 
-    26.000000;//parameter1
-    1.000000;//parameter2
-    0.000000;//parameter3
-    0.000000;//parameter4      
+29;//effect number                          use flag checker script confed to restore back into confed flag
+      144.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4		
+29;//effect number                          use flag checker script pirate to restore back into pirate flag
+      145.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4	
+29;//effect number                          use flag checker script alien to restore back into Alien flag
+      146.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4	
+29;//effect number                          use flag checker script confed to restore back into new confed flag
+      147.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4		
+29;//effect number                          use flag checker script pirate to restore back into new pirate flag
+      148.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4		  
+29;//effect number                          use flag checker script stealth to restore back into stealth
+      149.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4	  
     end_effects;
   end_effects_block;
 Trees random;//name--------------------------------------- 
@@ -5974,21 +6204,6 @@ Garreempir;//name---------------------------------------desert
     begin_conditions;
     end_conditions;
     begin_effects;
-29;//effect number                          use pirate flag checker script
-      93.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
-29;//effect number                          use new flag item checker script pirate
-      119.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
-29;//effect number                          use new flag checker script alien
-      120.000000;//parameter1
-      1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
     21;//effect number                          teleport to planet
       21.000000;//parameter1
       135.000000;//parameter2
@@ -5998,7 +6213,27 @@ Garreempir;//name---------------------------------------desert
       1.000000;//parameter1
       0.000000;//parameter2
       0.000000;//parameter3
-      0.000000;//parameter4     
+      0.000000;//parameter4   
+	22;//effect number                  change side to friendly ships
+     0.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4
+    39;//effect number                          hide confed flag
+      26.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 	
+    39;//effect number                          hide pirate flag
+      27.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+    39;//effect number                          hide alien flag
+      32.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4   
     52;//effect number                          change inventory to 1
       1.000000;//parameter1
       0.000000;//parameter2
@@ -6075,11 +6310,6 @@ Click to return to Wolf IV;//name---------------------------------------(for des
     begin_conditions;//  
     end_conditions;
     begin_effects;
-    34;//effect number	             change into ship
-      0.000000;//parameter1
-      0.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
     21;//effect number                          teleport to planet
       -1.000000;//parameter1
       134.000000;//parameter2
@@ -6125,21 +6355,41 @@ Click to return to Wolf IV;//name---------------------------------------(for des
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
-39;//effect number                          show bar28
-      2.000000;//parameter1
-      0.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4 
     56;//effect number                  overide control
     2.000000;//parameter1
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
-39;//effect number                      show flag bar                 
-    26.000000;//parameter1
-    1.000000;//parameter2
-    0.000000;//parameter3
-    0.000000;//parameter4      
+29;//effect number                          use flag checker script confed to restore back into confed flag
+      144.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4		
+29;//effect number                          use flag checker script pirate to restore back into pirate flag
+      145.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4	
+29;//effect number                          use flag checker script alien to restore back into Alien flag
+      146.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4	
+29;//effect number                          use flag checker script confed to restore back into new confed flag
+      147.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4		
+29;//effect number                          use flag checker script pirate to restore back into new pirate flag
+      148.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4		  
+29;//effect number                          use flag checker script stealth to restore back into stealth
+      149.000000;//parameter1  
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4	    
     end_effects;
   end_effects_block;
 Descend to Jupiter;//name---------------------------------------

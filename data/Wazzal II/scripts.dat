@@ -3469,7 +3469,7 @@ Use Pirate flag item if one;//name----------------------------------------------
     0.000000;//parameter3
     0.000000;//parameter4
   end_effects;
-Hide flag bars;//name-----------------------------------------------------------------
+Switch stock to correct inventory, WEAPONS;//name-----------------------------------------------------------------
 94;//identifier
   1;//run without calling (set to 0 if you use the script for example as a wield script)
   0;//call position, 0=player location, 1=mouse location
@@ -3482,22 +3482,30 @@ Hide flag bars;//name-----------------------------------------------------------
   0;//disabled after first use, 0=no, 1=yes
   begin_conditions;
   6;//condition
-    1.000000;//condition parameter0
+    5.000000;//condition parameter0
     0.000000;//condition parameter1
+  0;//condition
+    29.000000;//condition parameter0
+    1.000000;//condition parameter1
   end_conditions;
   begin_effects;
-  39;//effect number                   
-    26.000000;//parameter1
-    0.000000;//parameter2
+  16;//effect number
+    29.000000;//parameter1
+    -1.000000;//parameter2
     0.000000;//parameter3
     0.000000;//parameter4
-  39;//effect number                   
-    27.000000;//parameter1
+  16;//effect number
+    29.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+4;//effect number
+    1.000000;//parameter1
     0.000000;//parameter2
-    0.000000;//parameter3
+    30.000000;//parameter3
     0.000000;//parameter4
   end_effects;
-If Pirate flag item revert to pirate race (stealth);//name-----------------------------------------------------------------
+Unused;//name-----------------------------------------------------------------
 95;//identifier
   0;//run without calling (set to 0 if you use the script for example as a wield script)
   0;//call position, 0=player location, 1=mouse location
@@ -3509,16 +3517,8 @@ If Pirate flag item revert to pirate race (stealth);//name----------------------
   0;//delay script for n seconds after conditions met
   0;//disabled after first use, 0=no, 1=yes
   begin_conditions;
-  0;//condition
-    132.000000;//condition parameter0
-    1.000000;//condition parameter1
   end_conditions;
   begin_effects;
-  34;//effect number	                    change into pirate ship
-      3.000000;//parameter1
-      0.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4 
   end_effects;
 Switch stock to correct inventory, DRUGS;//name-----------------------------------------------------------------
   96;//identifier
@@ -4172,7 +4172,7 @@ Player achieves negative X propaganda;//name------------------------------------
    100.000000;//parameter3
     10.000000;//parameter4 
   end_effects;
-If has new Pirate flag item;//name-----------------------------------------------------------------for new flag items
+Unused;//name-----------------------------------------------------------------
 119;//identifier
   0;//run without calling (set to 0 if you use the script for example as a wield script)
   0;//call position, 0=player location, 1=mouse location
@@ -4184,23 +4184,10 @@ If has new Pirate flag item;//name----------------------------------------------
   0;//delay script for n seconds after conditions met
   0;//disabled after first use, 0=no, 1=yes
   begin_conditions;
-  0;//condition
-    169.000000;//condition parameter0
-    1.000000;//condition parameter1
   end_conditions;
   begin_effects;
-  59;//effect number                   
-    169.000000;//parameter1
-    0.000000;//parameter2
-    0.000000;//parameter3
-    0.000000;//parameter4
-16;//effect number                   
-    169.000000;//parameter1
-    -1.000000;//parameter2
-    0.000000;//parameter3
-    0.000000;//parameter4
   end_effects;
- If has new Alien flag item;//name-----------------------------------------------------------------for new flag items
+ Unused;//name-----------------------------------------------------------------
 120;//identifier
   0;//run without calling (set to 0 if you use the script for example as a wield script)
   0;//call position, 0=player location, 1=mouse location
@@ -4212,21 +4199,8 @@ If has new Pirate flag item;//name----------------------------------------------
   0;//delay script for n seconds after conditions met
   0;//disabled after first use, 0=no, 1=yes
   begin_conditions;
-  0;//condition
-    167.000000;//condition parameter0
-    1.000000;//condition parameter1
   end_conditions;
   begin_effects;
-  59;//effect number                   
-    167.000000;//parameter1
-    0.000000;//parameter2
-    0.000000;//parameter3
-    0.000000;//parameter4
-16;//effect number                   
-    167.000000;//parameter1
-    -1.000000;//parameter2
-    0.000000;//parameter3
-    0.000000;//parameter4
   end_effects;
  Replacement health drain script;//name-----------------------------------------------------------------
 121;//identifier
@@ -4770,8 +4744,240 @@ If has new Pirate flag item;//name----------------------------------------------
     1.000000;//parameter3
     0.000000;//parameter4  
   end_effects;
+Unused;//name-----------------------------------
+142;//identifier
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  Test test;//message
+  1;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  end_conditions;
+  begin_effects;
+  end_effects; 
+  Unused;//name------------------------------------------------------------
+143;//identifier
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  Test test;//message
+  1;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  end_conditions;
+  begin_effects;
+  end_effects; 
+       If has Confed flag item, restore to Confed ship;//name------------------------------------------------------------
+144;//identifier
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  Test test;//message
+none;//message
+  0;//message type, 0=quick message, 1=journal
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  0;//condition
+    131.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+	   34;//effect number	                    change into ship
+      0.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+39;//effect number                   show confed flag           
+    26.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+ 22;//effect number                  change side to friendly ships
+     0.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4 
+    end_effects;
+       If has Pirate flag item, restore to Pirate ship;//name------------------------------------------------------------
+145;//identifier
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  0;//condition
+    132.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+	  34;//effect number	                    change into pirate
+      3.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+39;//effect number                 show pirate flag              
+    27.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+ 22;//effect number                 change side to pirate 
+     10.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;	
+     If has Alien flag item, restore to Alien ship;//name------------------------------------------------------------
+146;//identifier
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  0;//condition
+    167.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+ 34;//effect number	                    change into alien ship race
+      5.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+39;//effect number                   show Alien flag           
+    32.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+ 22;//effect number                  change side to alien ships
+     1.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4 
+    end_effects;
+	If has new Confed flag item, restore to Confed ship;//name------------------------------------------------------------
+147;//identifier
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  0;//condition
+    168.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+	   34;//effect number	                    change into ship
+      0.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+39;//effect number                   show confed flag           
+    26.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+ 22;//effect number                  change side to friendly ships
+     0.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4 
+    end_effects;
+If has new Pirate flag item, restore to Pirate ship;//name------------------------------------------------------------
+148;//identifier
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  0;//condition
+    169.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+	  34;//effect number	                    change into pirate
+      3.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+39;//effect number                 show pirate flag              
+    27.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+ 22;//effect number                 change side to pirate 
+     10.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+	If has Stealth item, restore to Stealth ship;//name------------------------------------------------------------
+149;//identifier
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  0;//condition
+    106.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+ 34;//effect number	                    change into ship
+      4.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+    22;//effect number
+      8.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4 
+    end_effects;
 end_of_file;
 
 
 23=continuously increase bar parameter3 by parameter1 for time parameter4 with creature visual effect from weapon parameter2
 
+	13;//condition                             area not x
+    28.000000;//condition parameter0
+    1.000000;//condition parameter1
+
+
+
+	13;//condition                             area not x
+    28.000000;//condition parameter0
+    0.000000;//condition parameter1
