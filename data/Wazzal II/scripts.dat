@@ -3431,24 +3431,9 @@ Give V item for blood serum;//name----------------------------------------------
     1.000000;//parameter3
     0.000000;//parameter4
   end_effects;
-Unused;//name-----------------------------------------------------------------
+Switch stock to correct inventory, DRUGS;//name-----------------------------------------------------------------
   92;//identifier
-  0;//run without calling (set to 0 if you use the script for example as a wield script)
-  0;//call position, 0=player location, 1=mouse location
-  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
-  3200;//run every n milliseconds
-  none;//message
-  0;//message type, 0=quick message, 1=journal
-  none;//sound, none for nothing
-  0;//delay script for n seconds after conditions met
-  0;//disabled after first use, 0=no, 1=yes
-  begin_conditions; 
-  end_conditions;
-  begin_effects;
-  end_effects;
-Use Pirate flag item if one;//name-----------------------------------------------------------------for original flag items
-93;//identifier
-  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   300;//run every n milliseconds
@@ -3458,20 +3443,64 @@ Use Pirate flag item if one;//name----------------------------------------------
   0;//delay script for n seconds after conditions met
   0;//disabled after first use, 0=no, 1=yes
   begin_conditions;
+  6;//condition
+    5.000000;//condition parameter0
+    0.000000;//condition parameter1
   0;//condition
-    132.000000;//condition parameter0
+    27.000000;//condition parameter0
     1.000000;//condition parameter1
   end_conditions;
   begin_effects;
-  59;//effect number                   
-    132.000000;//parameter1
-    0.000000;//parameter2
-    0.000000;//parameter3
-    0.000000;//parameter4
-16;//effect number                   
-    132.000000;//parameter1
+  16;//effect number
+    27.000000;//parameter1
     -1.000000;//parameter2
     0.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number
+    27.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+4;//effect number
+    1.000000;//parameter1
+    0.000000;//parameter2
+    29.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+Switch stock to correct inventory, SLAVES;//name-----------------------------------------------------------------
+ 93;//identifier
+ 1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  6;//condition
+    5.000000;//condition parameter0
+    0.000000;//condition parameter1
+  0;//condition
+    31.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  16;//effect number
+    31.000000;//parameter1
+    -1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number
+    31.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+4;//effect number
+    1.000000;//parameter1
+    0.000000;//parameter2
+    31.000000;//parameter3
     0.000000;//parameter4
   end_effects;
 Switch stock to correct inventory, WEAPONS;//name-----------------------------------------------------------------
