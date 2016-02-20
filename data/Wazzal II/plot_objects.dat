@@ -9170,7 +9170,7 @@ Forcefield deactivated;//name---------------------------------------
     begin_effects;
     3;//effect number
       21.000000;//parameter1
-      10.000000;//parameter2
+      5.000000;//parameter2
       1.000000;//parameter3
       0.000000;//parameter4
     end_effects;
@@ -9207,7 +9207,7 @@ Forcefield deactivated;//name---------------------------------------
     begin_effects;
     3;//effect number
       76.000000;//parameter1
-      10.000000;//parameter2
+      5.000000;//parameter2
       1.000000;//parameter3
       0.000000;//parameter4
     end_effects;
