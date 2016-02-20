@@ -8821,4 +8821,40 @@ Use to construct a ZEX Industries MXII Energy Pool, capable of recharging your p
   end_effects_block;
   begin_combinations;
   end_combinations;
+ Anti-aircraft launcher;//name---------------------------------------
+  212;//identifier
+  0;//item class
+  10.000000;//weight
+  This powerful anti-aircraft rocket launcher can destroy Alien fighters flying overhead in a single shot! \ \ Uses rockets as ammunition!;//short description
+  none;//first pick up text
+  0.45000;//size on map
+  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  -1;//particle to shown on radar
+  1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
+  antiair.png;//texture name
+  -1;//wielded script,-1=nothing, only applicable for wieldable items
+  -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
+  1;//show help text for conditions
+  begin_wield_slots;
+  0;//wield slot number
+  end_wield_slots;
+  begin_effects_block;
+  Rockets loaded for firing!;//event text
+    none;//event failure text
+    use.wav;//sound, none for nothing
+    0;//vanishes after event, 0=no, 1=yes
+    U;//use key
+    0;//quick key
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+    9;//effect number
+      114.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  end_effects_block;
+  begin_combinations;
+  end_combinations;
 end_of_file;
