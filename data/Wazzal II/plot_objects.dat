@@ -627,7 +627,7 @@ Click to return to space;//name---------------------------------------
     end_conditions;
     begin_effects;
     21;//effect number                          teleport to 'leave bridge' point
-      -1.000000;//parameter1
+      0.000000;//parameter1
       1.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
@@ -1057,7 +1057,7 @@ Click to return to Wolf IV;//name---------------------------------------(for for
     end_conditions;
     begin_effects;
     21;//effect number                          teleport to 'leave bridge' point
-      -1.000000;//parameter1
+      5.000000;//parameter1
       2.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4     
@@ -1917,7 +1917,7 @@ Click to return to Wolf IV;//name---------------------------------------(for oce
     end_conditions;
     begin_effects;
     21;//effect number                          teleport to 'leave bridge' point
-      -1.000000;//parameter1
+      12.000000;//parameter1
       41.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4     
@@ -2197,7 +2197,7 @@ Click to return to Wolf IV;//name---------------------------------------(for lav
     end_conditions;
     begin_effects;
     21;//effect number                          teleport to 'leave bridge' point
-      -1.000000;//parameter1
+      8.000000;//parameter1
       46.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4     
@@ -3018,7 +3018,7 @@ Click to return to Wolf IV;//name---------------------------------------for ice
     end_conditions;
     begin_effects;
     21;//effect number                          teleport to 'leave bridge' point
-      -1.000000;//parameter1
+      5.000000;//parameter1
      4.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4   
@@ -3854,7 +3854,7 @@ Click to return to Wolf IV;//name---------------------------------------alien
     end_conditions;
     begin_effects;
     21;//effect number                          teleport to planet point
-    -1.000000;//parameter1
+    28.000000;//parameter1
       83.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4  
@@ -4184,7 +4184,7 @@ Click to return to Wolf IV;//name---------------------------------------moon
       0.000000;//parameter3
       0.000000;//parameter4
     21;//effect number                          teleport to planet point
-    -1.000000;//parameter1
+   8.000000;//parameter1
       88.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4    
@@ -4521,7 +4521,7 @@ Click to return to Wolf IV;//name---------------------------------------moon
       0.000000;//parameter3
       0.000000;//parameter4
     21;//effect number                          teleport to planet point
-    -1.000000;//parameter1
+    12.000000;//parameter1
       93.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4    
@@ -4842,7 +4842,7 @@ Slaves dropper;//name---------------------------------------
   -1;//map type to place to -1=any map 0=> type from areas.dat
  5;//plot_object class
   0;//object definition number
- 20;//number of objects to be placed
+ 13;//number of objects to be placed
   0;//location type, 0=random, 1=distance min(parameter1) max(parameter2) from player start, 2=distance min(parameter1) max(parameter2) from object parameter0, 3=coordinates [parameter0, parameter1] (0=min, 1=max)  vary location=parameter2
   0.000000;//location parameter0
   0.000000;//location parameter1
@@ -5037,7 +5037,7 @@ Click to return to Wolf IV;//name---------------------------------------(for spa
     end_conditions;
     begin_effects;
     21;//effect number                          teleport to 'leave bridge' point
-      -1.000000;//parameter1
+      16.000000;//parameter1
       95.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4     
@@ -5465,7 +5465,7 @@ Click to return to Wolf IV;//name---------------------------------------(for mea
     end_conditions;
     begin_effects;
     21;//effect number                          teleport to 'leave bridge' point
-      -1.000000;//parameter1
+      18.000000;//parameter1
       111.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4     
@@ -6311,7 +6311,7 @@ Click to return to Wolf IV;//name---------------------------------------(for des
     end_conditions;
     begin_effects;
     21;//effect number                          teleport to planet
-      -1.000000;//parameter1
+      15.000000;//parameter1
       134.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4     
@@ -8482,7 +8482,7 @@ Underground caves;//name---------------------------------------
     end_conditions;
     begin_effects;
     21;//effect number                          teleport to Zoo
-     -1.000000;//parameter1
+     28.000000;//parameter1
      183.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4  
@@ -8518,7 +8518,7 @@ Underground caves;//name---------------------------------------
     end_conditions;
     begin_effects;
     21;//effect number                          teleport to warpgate
-      -1.000000;//parameter1
+      0.000000;//parameter1
       182.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4  
