@@ -8902,4 +8902,47 @@ Use to construct a ZEX Industries MXII Energy Pool, capable of recharging your p
   end_effects_block;
   begin_combinations;
   end_combinations;
-end_of_file;
+end_of_file;  25000: Anti-aircraft launcher;//name---------------------------------------
+ 213;//identifier
+  0;//item class
+  0.000000;//weight
+   This state-of-the-art anti-aircraft rocket launcher can destroy Alien fighters flying overhead in a single shot! \ \ Price: 25000 credits;//short description
+  none;//first pick up text
+  0.300000;//size on map
+  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  0;//particle to shown on radar
+  1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
+  antiair.png;//texture name
+  -1;//wielded script,-1=nothing, only applicable for wieldable items
+  -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
+  1;//show help text for conditions
+  begin_wield_slots;
+  end_wield_slots;
+  begin_effects_block;
+  You purchase the RPG launcher.;//event text
+    You need more money.;//event failure text
+    chaching.wav;//sound, none for nothing
+    1;//vanishes after event, 0=no, 1=yes
+    U;//use key
+    0;//quick key
+    begin_conditions;
+    3;//condition
+      13.000000;//condition parameter0
+      25000.000000;//condition parameter1      
+    end_conditions;
+    begin_effects;
+    4;//effect number
+      -25000.000000;//parameter1
+      1.000000;//parameter2
+      13.000000;//parameter3
+      0.000000;//parameter4     
+    16;//effect number
+     212.000000;//parameter1
+      1.000000;//parameter2
+      1.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  end_effects_block;
+  begin_combinations;
+  end_combinations;
+end_of_file;    

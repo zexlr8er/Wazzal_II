@@ -1916,6 +1916,11 @@ Player reaches captain, 600 Promotion;//name------------------------------------
     2.000000;//parameter3
     0.000000;//parameter4
 16;//effect number                 
+    213.000000;//parameter1      anti-air
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter
+16;//effect number                 
    1.000000;//parameter1      take ship inv short range scanner
     -1.000000;//parameter2
     0.000000;//parameter3
