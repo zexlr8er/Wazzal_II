@@ -211,7 +211,7 @@ Viper Missile;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-S Shield Generator ON;//name---------------------------------------
+S Shield Generator (activated);//name---------------------------------------
   6;//identifier
   0;//item class
   100.000000;//weight
@@ -251,7 +251,7 @@ S Shield Generator ON;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-S Shield Generator OFF;//name---------------------------------------
+S Shield Generator;//name---------------------------------------
   7;//identifier
   0;//item class
   100.000000;//weight
@@ -929,7 +929,7 @@ Twin Laser Cannon;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-Targeting beam OFF;//name---------------------------------------
+Targeting beam;//name---------------------------------------
   23;//identifier
   0;//item class
  20.000000;//weight
@@ -972,7 +972,7 @@ Targeting beam OFF;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-Targeting beam ON;//name---------------------------------------
+Targeting beam (activated);//name---------------------------------------
   24;//identifier
   0;//item class
   30.000000;//weight
@@ -1922,7 +1922,7 @@ Infra-red Goggles;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-Electrobinoculars OFF;//name---------------------------------------
+Electrobinoculars;//name---------------------------------------
   47;//identifier
   0;//item class
   6.000000;//weight
@@ -2438,7 +2438,7 @@ Spotlight;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-Jetpack OFF;//name---------------------------------------
+Jetpack;//name---------------------------------------
   59;//identifier
   0;//item class
  20.00000;//weight
@@ -2486,7 +2486,7 @@ Jetpack OFF;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-Jetpack POWERED;//name---------------------------------------
+Jetpack (activated);//name---------------------------------------
   60;//identifier
   1;//item class
  20.00000;//weight
@@ -2571,7 +2571,7 @@ Jetpack;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-Stealth armour OFF;//name---------------------------------------
+Stealth armour;//name---------------------------------------
   62;//identifier
   0;//item class
   12.000000;//weight
@@ -3518,7 +3518,7 @@ begin_combinations;
       5;//amount to give
     end_items_given;
       end_combinations;
-Stealth armour ON;//name---------------------------------------
+Stealth armour (activated);//name---------------------------------------
   88;//identifier
   0;//item class
   12.000000;//weight
@@ -4202,7 +4202,7 @@ Painkillers;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-Cloaking device OFF;//name---------------------------------------
+Cloaking device;//name---------------------------------------
   105;//identifier
   0;//item class
   100.000000;//weight
@@ -4253,7 +4253,7 @@ Cloaking device OFF;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-Cloaking device ON;//name---------------------------------------
+Cloaking device (activated);//name---------------------------------------
   106;//identifier
   0;//item class
  100.000000;//weight
@@ -8870,7 +8870,7 @@ Use to construct a ZEX Industries MXII Energy Pool, capable of recharging your p
   212;//identifier
   0;//item class
   10.000000;//weight
-  This powerful anti-aircraft rocket launcher can destroy Alien fighters flying overhead in a single shot! \ \ Uses rockets as ammunition!;//short description
+  This state-of-the-art anti-aircraft rocket launcher can destroy Alien fighters flying overhead in a single shot! \ \ Uses rockets as ammunition!;//short description
   none;//first pick up text
   0.45000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -8902,7 +8902,7 @@ Use to construct a ZEX Industries MXII Energy Pool, capable of recharging your p
   end_effects_block;
   begin_combinations;
   end_combinations;
-end_of_file;  25000: Anti-aircraft launcher;//name---------------------------------------
+  25000: Anti-aircraft launcher;//name---------------------------------------
  213;//identifier
   0;//item class
   0.000000;//weight
