@@ -3923,10 +3923,10 @@ Rocket Prop. Grenade;//name---------------------------------------
   rpgbullet.png;//bullet texture
   1;//bullets at one shot
   0;//stop at hit 0=stop where hit, 1=don't stop
-  5.00000;//bullet size
+  6.00000;//bullet size
   0.000000;//spread
-  0.95000000;//bullet speed
-  2000.000000;//time until bullet disappears
+  1.2200000;//bullet speed
+  2500.000000;//time until bullet disappears
   2200;//fire rate
   2;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
   -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
@@ -4946,7 +4946,7 @@ Storm hit;//name---------------------------------------
   0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
   none;//hit effect sound
   0.100000;//push target back
-  0.100000;//push shooter back
+  0.000000;//push shooter back
   bazooka.wav;//fire sound
   torphit.wav;//hit sound
   0.500000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
@@ -5730,5 +5730,99 @@ Volcano damage;//name---------------------------------------
     1000.000000;//parameter2
     0.000000;//parameter3
     0.000000;//parameter4 
+  end_hit_effects;
+    Anti-aircraft launcher;//name---------------------------------------
+  114;//identifier
+ 0;//class
+  torpedo.png;//bullet texture
+  3;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  7.00000;//bullet size
+  0.0500000;//spread
+  1.4000000;//bullet speed
+  800.000000;//time until bullet disappears
+  500;//fire rate
+  2;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.100000;//push target back
+  0.020000;//push shooter back
+  missile.wav;//fire sound
+  torphit.wav;//hit sound
+  0.500000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;  
+   0;//condition
+   64.000000;//condition parameter0
+    1.000000;//condition parameter1  
+  end_wield_conditions;
+  begin_fire_effects;
+  16;//effect number
+   64.000000;//parameter1
+    -1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  	36;//effect number           shake
+    3.500000;//parameter1
+    100.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4  
+  27;//effect number
+    14.000000;//parameter1
+    50.000000;//parameter2
+    0.100000;//parameter3
+    0.40000;//parameter4
+  27;//effect number
+    14.000000;//parameter1
+    50.000000;//parameter2
+    1.000000;//parameter3
+    2.000000;//parameter4    
+	  26;//effect number
+    1.000000;//parameter1
+    1.000000;//parameter2
+    41.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    24.000000;//parameter1
+    1.000000;//parameter2
+    41.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    2.000000;//parameter1
+    1.000000;//parameter2
+    41.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    40.000000;//parameter1
+    1.000000;//parameter2
+    41.000000;//parameter3
+    0.000000;//parameter4
+	  26;//effect number            test fire to follow bullet
+    24.000000;//parameter1
+    1.000000;//parameter2
+    99.000000;//parameter3
+    0.000000;//parameter4
+	26;//effect number
+    40.000000;//parameter1
+    1.000000;//parameter2
+    99.000000;//parameter3
+    0.000000;//parameter4
+	66;//effect number                fire with offset
+    99.000000;//parameter1
+    1.000000;//parameter2
+    5.000000;//parameter3
+    -10.000000;//parameter4
+		66;//effect number                fire with offset
+    99.000000;//parameter1
+    1.000000;//parameter2
+    -5.000000;//parameter3
+    -10.000000;//parameter4
+  end_fire_effects;
+  begin_hit_effects;
+ 63;//effect number
+    -50.000000;//parameter1
+    -100.000000;//parameter2
+    7.000000;//parameter3
+    1.000000;//parameter4
   end_hit_effects;
 end_of_file;

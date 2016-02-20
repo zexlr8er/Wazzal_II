@@ -865,11 +865,11 @@ Thermon C mines;//name---------------------------------------
   5.000000;//weight
   The Thermon C class of mines are the smallest and cheapest mine available. Use to equip and release a cargo of deadly space mines into battle, destroying any ship that comes near!;//short description
   none;//first pick up text
-  0.150000;//size on map
+  0.20000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
   1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
-  mines.png;//texture name
+  mineitem.png;//texture name
   -1;//wielded script,-1=nothing, only applicable for wieldable items
   -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
   1;//show help text for conditions
@@ -1858,8 +1858,8 @@ Infra-red Goggles;//name---------------------------------------
     8;//effect number
       3.000000;//parameter1
       5.000000;//parameter2
-      5.0000000;//parameter3
-      5.0000000;//parameter4 
+      0.80000000;//parameter3
+      0.8000000;//parameter4 
     8;//effect number
       0.000000;//parameter1
       0.650000;//parameter2
@@ -2194,11 +2194,11 @@ Strong Liquor;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-10000: X-56 Submachine gun;//name---------------------------------------
+15000: X-56 Submachine gun;//name---------------------------------------
   53;//identifier
   0;//item class
   0.000000;//weight
-  A close range assault weapon. This model was probably made by the famed weapon manufacturers of Kig-Hax. \ \ Price: 10000 credits;//short description
+  A close range assault weapon. This model was probably made by the famed weapon manufacturers of Kig-Hax. \ \ Price: 15000 credits;//short description
   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -2220,11 +2220,11 @@ Strong Liquor;//name---------------------------------------
     begin_conditions;
     3;//condition
       13.000000;//condition parameter0
-      10000.000000;//condition parameter1      
+      15000.000000;//condition parameter1      
     end_conditions;
     begin_effects;
     4;//effect number
-      -10000.000000;//parameter1
+      -15000.000000;//parameter1
       1.000000;//parameter2
       13.000000;//parameter3
       0.000000;//parameter4     
@@ -3100,7 +3100,7 @@ Landmines;//name---------------------------------------
   0.2000000;//weight
   Use these pressure-sensitive mines to kill unsuspecting enemies.;//short description
   none;//first pick up text
-  0.130000;//size on map
+  0.20000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   0;//particle to shown on radar
   1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
@@ -4947,11 +4947,11 @@ Commanding destroyer;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-9000: Laser rifle;//name---------------------------------------
+15000: Laser rifle;//name---------------------------------------
   124;//identifier
   0;//item class
   0.000000;//weight
-  Press 'U' to buy a high powered marine laser rifle. A perfect supplement to projectile weapons!  \ \  Price: 9000 credits;//short description
+  Press 'U' to buy a high powered marine laser rifle. A perfect supplement to projectile weapons!  \ \  Price: 15000 credits;//short description
   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -4973,11 +4973,11 @@ Commanding destroyer;//name---------------------------------------
     begin_conditions;
     3;//condition
       13.000000;//condition parameter0
-      9000.000000;//condition parameter1      
+      15000.000000;//condition parameter1      
     end_conditions;
     begin_effects;
     4;//effect number
-      -9000.000000;//parameter1
+      -15000.000000;//parameter1
       1.000000;//parameter2
       13.000000;//parameter3
       0.000000;//parameter4     
@@ -5847,7 +5847,7 @@ none;//event text
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   0;//particle to shown on radar
   1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
-   mines.png;//texture name
+   mineitem.png;//texture name
   -1;//wielded script,-1=nothing, only applicable for wieldable items
   -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
   1;//show help text for conditions
@@ -6323,11 +6323,11 @@ Rifle;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-6000: Rifle;//name---------------------------------------
+8000: Rifle;//name---------------------------------------
  151;//identifier
   0;//item class
   0.000000;//weight
-  A ballistic type weapon that fires bullets, costing you no energy. Has an extended range and is capable of causing more damage than a marine pistol. \ \ Price: 6000 credits;//short description
+  A ballistic type weapon that fires bullets, costing you no energy. Has an extended range and is capable of causing more damage than a marine pistol. \ \ Price: 8000 credits;//short description
   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -6349,11 +6349,11 @@ Rifle;//name---------------------------------------
     begin_conditions;
     3;//condition
       13.000000;//condition parameter0
-      6000.000000;//condition parameter1      
+      8000.000000;//condition parameter1      
     end_conditions;
     begin_effects;
     4;//effect number
-      -6000.000000;//parameter1
+      -8000.000000;//parameter1
       1.000000;//parameter2
       13.000000;//parameter3
       0.000000;//parameter4     
@@ -6402,11 +6402,11 @@ Shotgun;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-10000: Shotgun;//name---------------------------------------
+12000: Shotgun;//name---------------------------------------
  153;//identifier
   0;//item class
   0.000000;//weight
-  A ballistic type weapon that fires a spread of deadly pellets. Perfect for causing damage to a large group of densely packed targets. \ \ Price: 10000 credits;//short description
+  A ballistic type weapon that fires a spread of deadly pellets. Perfect for causing damage to a large group of densely packed targets. \ \ Price: 12000 credits;//short description
   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -6428,11 +6428,11 @@ Shotgun;//name---------------------------------------
     begin_conditions;
     3;//condition
       13.000000;//condition parameter0
-      10000.000000;//condition parameter1      
+      12000.000000;//condition parameter1      
     end_conditions;
     begin_effects;
     4;//effect number
-      -10000.000000;//parameter1
+      -12000.000000;//parameter1
       1.000000;//parameter2
       13.000000;//parameter3
       0.000000;//parameter4     
@@ -6451,7 +6451,7 @@ Anti-gravity device;//name---------------------------------------
   -10.000000;//weight
   This ancient object hovers in your hand, straining against gravity. It should provide 10 kilograms of lift, allowing you to carry more objects!;//short description
   none;//first pick up text
- 0.220000000;//size on map
+ 0.350000000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
  1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
@@ -7844,7 +7844,7 @@ shuttle.png;//texture name
       13.000000;//parameter3
       0.000000;//parameter4  
     end_effects;
-	2000PP;//event text
+	2000PP;//event text -------
     none;//event failure text
     use.wav;//sound, none for nothing
     0;//vanishes after event, 0=no, 1=yes
@@ -7864,7 +7864,7 @@ shuttle.png;//texture name
       13.000000;//parameter3
       0.000000;//parameter4  
     end_effects;
-		Victory;//event text
+		Victory;//event text ------
     none;//event failure text
     use.wav;//sound, none for nothing
     0;//vanishes after event, 0=no, 1=yes
@@ -7883,6 +7883,51 @@ shuttle.png;//texture name
     0.000000;//parameter2
     0.000000;//parameter3
     0.000000;//parameter4 	  
+    end_effects;
+	Entering testing map;//event text ------
+    none;//event failure text
+    use.wav;//sound, none for nothing
+    0;//vanishes after event, 0=no, 1=yes
+    U;//use key
+    6;//quick key
+    begin_conditions; 
+    end_conditions;
+    begin_effects;  
+    21;//effect number
+     29.000000;//parameter1
+      -1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4   
+    end_effects;
+	Immunity;//event text ------
+    none;//event failure text
+    use.wav;//sound, none for nothing
+    0;//vanishes after event, 0=no, 1=yes
+    U;//use key
+    5;//quick key
+    begin_conditions; 
+    end_conditions;
+    begin_effects;  
+ 17;//effect number                add 600 to timer bar
+     600.000000;//parameter1
+      0.000000;//parameter2
+      23.000000;//parameter3
+      0.000000;//parameter4
+ 17;//effect number                  clear health restore bar
+    0.000000;//parameter1
+      0.000000;//parameter2
+      21.00000;//parameter3
+      0.000000;//parameter4
+    69;//effect number                   set health restore bar
+     12.000000;//parameter1
+      21.000000;//parameter2
+      0.00000;//parameter3
+      0.000000;//parameter4
+ 35;//effect number                 enable health restore
+    71.000000;//parameter1
+      1.000000;//parameter2
+      0.00000;//parameter3
+      0.000000;//parameter4  
     end_effects;
   end_effects_block;
   begin_combinations;
@@ -8068,7 +8113,7 @@ Mortar;//name---------------------------------------
   0.300000;//weight
 Use to fire a deadly long-ranged mortar. Use as a weapon by left-clicking, and the mortar will target the position of your mouse cursor. \ A set of electrobinoculors would be perfect to help attack long-range targets!;//short description
   none;//first pick up text
-  0.350000;//size on map
+  0.330000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   0;//particle to shown on radar
   1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
@@ -8817,6 +8862,42 @@ Use to construct a ZEX Industries MXII Energy Pool, capable of recharging your p
     begin_conditions; 
     end_conditions;
     begin_effects;
+    end_effects;
+  end_effects_block;
+  begin_combinations;
+  end_combinations;
+ Anti-aircraft launcher;//name---------------------------------------
+  212;//identifier
+  0;//item class
+  10.000000;//weight
+  This powerful anti-aircraft rocket launcher can destroy Alien fighters flying overhead in a single shot! \ \ Uses rockets as ammunition!;//short description
+  none;//first pick up text
+  0.45000;//size on map
+  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  -1;//particle to shown on radar
+  1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
+  antiair.png;//texture name
+  -1;//wielded script,-1=nothing, only applicable for wieldable items
+  -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
+  1;//show help text for conditions
+  begin_wield_slots;
+  0;//wield slot number
+  end_wield_slots;
+  begin_effects_block;
+  Rockets loaded for firing!;//event text
+    none;//event failure text
+    use.wav;//sound, none for nothing
+    0;//vanishes after event, 0=no, 1=yes
+    U;//use key
+    0;//quick key
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+    9;//effect number
+      114.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
     end_effects;
   end_effects_block;
   begin_combinations;
