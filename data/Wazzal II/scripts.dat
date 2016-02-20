@@ -5046,16 +5046,3 @@ If has new Pirate flag item, restore to Pirate ship;//name----------------------
     0.000000;//parameter4
   end_effects;
 end_of_file;
-
-
-23=continuously increase bar parameter3 by parameter1 for time parameter4 with creature visual effect from weapon parameter2
-
-	13;//condition                             area not x
-    28.000000;//condition parameter0
-    1.000000;//condition parameter1
-
-
-
-	13;//condition                             area not x
-    28.000000;//condition parameter0
-    0.000000;//condition parameter1
