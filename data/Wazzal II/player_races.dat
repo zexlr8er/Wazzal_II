@@ -309,9 +309,9 @@ inventory;//description
     0;//difficulty level
     none;//message
     17.000000;//parameter0
-    672.000000;//parameter1
-    5000.000000;//parameter2
-    2500.000000;//parameter3 
+    472.000000;//parameter1
+    5560.000000;//parameter2
+    2000.000000;//parameter3 
 slaves (number);//description
     5;//specialty 
     0;//difficulty level
@@ -320,35 +320,35 @@ slaves (number);//description
     0.000000;//parameter1
     500.000000;//parameter2
     0.000000;//parameter3  
-  drugs;//description
+  weapons;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    19.000000;//parameter0
+    282.000000;//parameter1
+    3321.000000;//parameter2
+    1000.000000;//parameter3
+ weapons (number);//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    29.000000;//parameter0
+    0.000000;//parameter1
+    500.000000;//parameter2
+    0.000000;//parameter3  
+drugs;//description
     5;//specialty 
     0;//difficulty level
     none;//message
     18.000000;//parameter0
-    183.000000;//parameter1
-    1000.000000;//parameter2
+    43.000000;//parameter1
+    1231.000000;//parameter2
     500.000000;//parameter3 
  drugs (number);//description
     5;//specialty 
     0;//difficulty level
     none;//message
     30.000000;//parameter0
-    0.000000;//parameter1
-    500.000000;//parameter2
-    0.000000;//parameter3  
-  weapons;//description
-    5;//specialty 
-    0;//difficulty level
-    none;//message
-    19.000000;//parameter0
-    482.000000;//parameter1
-    3000.000000;//parameter2
-    1500.000000;//parameter3
- weapons (number);//description
-    5;//specialty 
-    0;//difficulty level
-    none;//message
-    29.000000;//parameter0
     0.000000;//parameter1
     500.000000;//parameter2
     0.000000;//parameter3  

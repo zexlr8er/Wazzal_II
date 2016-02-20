@@ -256,7 +256,7 @@ end_excluded_plot_object_classes;
   8;//climate in climate_types.dat, -1=random climate
   10;//terrain map number
   -1;//wrapping, 0=wrap horizontal, 1=wrap vertical, 2=wrap both
-  1.200000;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
+  1.150000;//random object density, the bigger the value, the more the area will get. This is multiplied ingame by the area size.
   begin_alien_list;
  36;//alien type in creatures.dat---------wolf
    120;//number of these aliens
