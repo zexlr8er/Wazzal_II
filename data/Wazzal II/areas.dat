@@ -580,7 +580,7 @@ end_alien_list;
   1;
 5;
   end_excluded_plot_object_classes;
-  none;//enter area text, specify none to not show it
+  'Captain! Thanks to your assistance in multiple systems, the Confederate Navy has finally managed to go on the offensive on the desert planet of Garreempir. Rich in oil, recovering this planet from the Aliens is one of the Confederacy's top priorities in the war! \ \ We have massed our most experienced armoured divisions to the west of the Alien's positions. We are in need of skilled pilots and drivers to command fighters and tanks to help us break through the Alien's defences and destroy all landed ships on this planet! \ \ Be warned, however: the Alien base is highly fortified and well defended by tanks, fighters and Alien drones. While a frontal assault is the most obvious approach, there may more other, more secretive options...';//enter area text, specify none to not show it
 22;//---------------------------------------------------------
  Jupiter;//area name
   1;//area class

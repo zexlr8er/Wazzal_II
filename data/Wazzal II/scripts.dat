@@ -5332,4 +5332,56 @@ Shields regenerate (L generator);//name-----------------------------------------
     1.000000;//parameter3
     500.000000;//parameter4
   end_effects;
+Defeat ships on desert planet;//name-----------------------------------------------------------------
+ 159;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  2000;//run every n milliseconds
+'Captain! The Alien forces have retreated from the sweeping, sandy plains of Garreempir in disarray: this was a stunning victory! For the first time, we have shown that the Confederacy can not only resist the Aliens, but we can defeat them against all odds! \ \ To thank you for your vital assistance, we have provided you with a one-of-a-kind ship's repair bot, able to repair any damage to your ship automatically during combat! In addition, we will provide you with a $5000 credit bonus!' \ \ ($5000 credits and ship's repair bot transferred to the Wolf IV. The Confederate Stock exchange soars to hear of your victory!);//message
+  1;//message type, 0=quick message, 1=journal
+  morse.wav;//sound, none for nothing
+  3;//delay script for n seconds after conditions met
+  1;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+    4;//condition
+    61.000000;//condition parameter0
+   21.000000;//condition parameter1
+  4;//condition
+    62.000000;//condition parameter0
+   21.000000;//condition parameter1
+     4;//condition
+    101.000000;//condition parameter0
+  21.000000;//condition parameter1
+        4;//condition
+    18.000000;//condition parameter0
+   21.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+16;//effect number                   
+    219.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4  
+ 44;//effect number
+    5000.000000;//parameter1
+    1.000000;//parameter2
+    13.000000;//parameter3
+    0.000000;//parameter4   
+  63;//effect number
+    0.000000;//parameter1
+    500.000000;//parameter2
+    17.000000;//parameter3 slaves
+    1.000000;//parameter4
+  63;//effect number
+    0.000000;//parameter1
+    300.000000;//parameter2
+    19.000000;//parameter3 weapons
+    1.000000;//parameter4
+  63;//effect number
+    0.000000;//parameter1
+    300.000000;//parameter2
+    18.000000;//parameter3 drugs
+    1.000000;//parameter4 	  
+  end_effects;
   end_of_file;
