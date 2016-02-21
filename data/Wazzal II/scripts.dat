@@ -77,6 +77,21 @@ Initialisation;//name-----------------------------------------------------------
     1.000000;//parameter2
     1.000000;//parameter3
     0.000000;//parameter4
+	  35;//effect number             disable L gen
+     153.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+  35;//effect number                disable L gen
+     154.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+  35;//effect number               disable L gen
+    155.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
   35;//effect number                   disable ensigns salary
     27.000000;//parameter1
     0.000000;//parameter2
@@ -247,6 +262,11 @@ Initialisation;//name-----------------------------------------------------------
     1.000000;//parameter2
     2.000000;//parameter3
     0.000000;//parameter4
+		  16;//effect number                 Give store Inventory shield upgrade
+    222.000000;//parameter1
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
  16;//effect number                   Give store mine item
     138.000000;//parameter1
     1.000000;//parameter2
@@ -326,7 +346,7 @@ Player ship dies due to lack of health;//name-----------------------------------
     0.000000;//parameter3
     0.000000;//parameter4
   end_effects;
-Shields degenerate;//name-----------------------------------------------------------------
+Shields degenerate (S generator);//name-----------------------------------------------------------------
   2;//identifier
   1;//run without calling (set to 0 if you use the script for example as a wield script)
   0;//call position, 0=player location, 1=mouse location
@@ -338,9 +358,9 @@ Shields degenerate;//name-------------------------------------------------------
   0;//delay script for n seconds after conditions met
   0;//disabled after first use, 0=no, 1=yes
   begin_conditions;
-  0;//condition
-    7.000000;//condition parameter0
-    1.000000;//condition parameter1 
+  0;//condition                        
+   7.000000;//condition parameter0     
+    1.000000;//condition parameter1     
   end_conditions;
   begin_effects;
   53;//effect number
@@ -349,7 +369,7 @@ Shields degenerate;//name-------------------------------------------------------
     8.000000;//parameter3
     500.000000;//parameter4
   end_effects;
-Shields regenerate;//name-----------------------------------------------------------------
+Shields regenerate (S generator);//name-----------------------------------------------------------------
   3;//identifier
   1;//run without calling (set to 0 if you use the script for example as a wield script)
   0;//call position, 0=player location, 1=mouse location
@@ -1002,6 +1022,12 @@ Reactor: S;//name---------------------------------------------------------------
   0;//condition
     6.000000;//condition parameter0
     0.000000;//condition parameter1 
+	  0;//condition
+    220.000000;//condition parameter0
+    0.000000;//condition parameter1 
+		 7;//condition
+    1.000000;//condition parameter0
+    0.000000;//condition parameter1 
   43;//condition
     1.000000;//condition parameter0
     100.000000;//condition parameter1  
@@ -1115,15 +1141,15 @@ Re-enable Turret;//name---------------------------------------------------------
     0.000000;//parameter3
     0.000000;//parameter4
   end_effects;
-Shields degenerate;//name-----------------------------------------------------------------
+Shields fail due to low energy (S generator);//name-----------------------------------------------------------------
   24;//identifier
   1;//run without calling (set to 0 if you use the script for example as a wield script)
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   300;//run every n milliseconds
-  Low power!! Shields failing!!;//message
+  Low power! Shields failing!;//message
   0;//message type, 0=quick message, 1=journal
-  none;//sound, none for nothing
+  pd.wav;//sound, none for nothing
   0;//delay script for n seconds after conditions met
   0;//disabled after first use, 0=no, 1=yes
   begin_conditions;
@@ -5135,3 +5161,132 @@ If has new Pirate flag item, restore to Pirate ship;//name----------------------
     1.500000;//parameter3
     1.800000;//parameter4 
   end_effects;
+  Shields degenerate (L generator);//name-----------------------------------------------------------------
+ 153;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  0;//condition                        
+   221.000000;//condition parameter0     
+    1.000000;//condition parameter1     
+  end_conditions;
+  begin_effects;
+  53;//effect number
+    -1.000000;//parameter1
+    -1.000000;//parameter2
+    8.000000;//parameter3
+    500.000000;//parameter4
+  end_effects;
+Shields regenerate (L generator);//name-----------------------------------------------------------------
+154;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  150;//run every n milliseconds
+  Shields activated;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  0;//condition
+    220.000000;//condition parameter0
+    1.000000;//condition parameter1 
+  3;//condition
+    1.000000;//condition parameter0
+    1.000000;//condition parameter1  
+ 43;//condition
+    8.000000;//condition parameter0
+    100.000000;//condition parameter1  
+  end_conditions;
+  begin_effects;
+  53;//effect number
+    1.700000;//parameter1
+    -1.000000;//parameter2
+    8.000000;//parameter3
+    250.000000;//parameter4
+  53;//effect number
+    0.050000;//parameter1
+    -1.000000;//parameter2
+    1.000000;//parameter3
+    250.000000;//parameter4
+26;//effect number
+    6.00000;//parameter1
+    1.000000;//parameter2
+    92.00000;//parameter3
+    0.00000;//parameter4
+  end_effects;
+ Shields fail due to low energy (L generator);//name-----------------------------------------------------------------
+  155;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  Low power! Shields failing!;//message
+  0;//message type, 0=quick message, 1=journal
+  pd.wav;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  0;//condition
+    220.000000;//condition parameter0
+    1.000000;//condition parameter1 
+  5;//condition
+    1.000000;//condition parameter0
+    1.000000;//condition parameter1 
+  end_conditions;
+  begin_effects;
+  59;//effect number
+    220.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+  If activated shields, remove item;//name-----------------------------------------------------------------
+  156;//identifier
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  end_conditions;
+  begin_effects;
+	16;//effect number
+     6.000000;//parameter1
+      -1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+  end_effects;
+    If deactivated shields, remove item;//name-----------------------------------------------------------------
+  157;//identifier
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  end_conditions;
+  begin_effects;
+	16;//effect number
+     7.000000;//parameter1
+      -1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+  end_effects;
+  end_of_file;
