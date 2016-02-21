@@ -280,14 +280,6 @@ inventory;//description
     1.000000;//parameter1
     0.000000;//parameter2
     0.000000;//parameter3
-  Starts with Shield Regen.;//description
-    3;//specialty
-    0;//difficulty level
-    none;//message
-    7.000000;//parameter0
-    1.000000;//parameter1
-    0.000000;//parameter2
-    0.000000;//parameter3 
   Starts with laser turet;//description
     3;//specialty
     0;//difficulty level
@@ -296,6 +288,22 @@ inventory;//description
     1.000000;//parameter1
     0.000000;//parameter2
     0.000000;//parameter3
+  Starts with Shield Regen.;//description
+    3;//specialty
+    0;//difficulty level
+    none;//message
+    7.000000;//parameter0
+    1.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3 
+		Starts with reactor.;//description
+    3;//specialty
+    0;//difficulty level
+    none;//message
+    223.000000;//parameter0
+    1.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3 
   reload (12 clip) bar;//description
     5;//specialty 
     0;//difficulty level

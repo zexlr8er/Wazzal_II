@@ -37,7 +37,7 @@ Initialisation;//name-----------------------------------------------------------
     1.000000;//parameter2
     1.000000;//parameter3
     0.000000;//parameter4
-  16;//effect number                   Give Inventory 0 ion cannon
+	  16;//effect number                   Give Inventory 0 ion cannon
     85.000000;//parameter1
     1.000000;//parameter2
     0.000000;//parameter3
@@ -264,6 +264,11 @@ Initialisation;//name-----------------------------------------------------------
     0.000000;//parameter4
 		  16;//effect number                 Give store Inventory shield upgrade
     222.000000;//parameter1
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+			  16;//effect number                 Give store Inventory reactor upgrade
+    225.000000;//parameter1
     1.000000;//parameter2
     2.000000;//parameter3
     0.000000;//parameter4
@@ -1019,13 +1024,16 @@ Reactor: S;//name---------------------------------------------------------------
   0;//delay script for n seconds after conditions met
   0;//disabled after first use, 0=no, 1=yes
   begin_conditions;
-  0;//condition
+    0;//condition                            has small gen
+    223.000000;//condition parameter0
+    1.000000;//condition parameter1 
+  0;//condition                           S shields not activated
     6.000000;//condition parameter0
     0.000000;//condition parameter1 
-	  0;//condition
+	  0;//condition                           S shields not activated
     220.000000;//condition parameter0
     0.000000;//condition parameter1 
-		 7;//condition
+		 7;//condition                        not captain
     1.000000;//condition parameter0
     0.000000;//condition parameter1 
   43;//condition
@@ -1033,8 +1041,8 @@ Reactor: S;//name---------------------------------------------------------------
     100.000000;//condition parameter1  
   end_conditions;
   begin_effects;
-  53;//effect number
-    0.400000;//parameter1
+  53;//effect number                       increase energy
+    0.3000000;//parameter1
     -1.000000;//parameter2
     1.000000;//parameter3
     500.000000;//parameter4
@@ -5288,5 +5296,40 @@ Shields regenerate (L generator);//name-----------------------------------------
       -1.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
+  end_effects;
+  Reactor: L;//name-----------------------------------------------------------------
+  158;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+    0;//condition                            has small gen
+    224.000000;//condition parameter0
+    1.000000;//condition parameter1 
+  0;//condition                           S shields not activated
+    6.000000;//condition parameter0
+    0.000000;//condition parameter1 
+	  0;//condition                           S shields not activated
+    220.000000;//condition parameter0
+    0.000000;//condition parameter1 
+		 7;//condition                        not captain
+    1.000000;//condition parameter0
+    0.000000;//condition parameter1 
+  43;//condition
+    1.000000;//condition parameter0
+    100.000000;//condition parameter1  
+  end_conditions;
+  begin_effects;
+  53;//effect number                       increase energy
+    0.6000000;//parameter1
+    -1.000000;//parameter2
+    1.000000;//parameter3
+    500.000000;//parameter4
   end_effects;
   end_of_file;

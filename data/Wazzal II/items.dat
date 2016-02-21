@@ -211,17 +211,17 @@ Viper Missile;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-S Shield Generator (activated);//name---------------------------------------
+S Shield generator (activated);//name---------------------------------------
   6;//identifier
   0;//item class
-  100.000000;//weight
+  60.000000;//weight
   The Small Shield Generator is a low-powered shield regenerator. When switched ON, it re-powers your shields with your ships energy whenever you are hit. Press 'Q' in-game to operate. \ The Shield Generator is currently switched ON.;//short description
   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
   1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
-  shieldgen.png;//texture name
+  shield.png;//texture name
   -1;//wielded script,-1=nothing, only applicable for wieldable items
   -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
   1;//show help text for conditions
@@ -251,17 +251,17 @@ S Shield Generator (activated);//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-S Shield Generator;//name---------------------------------------
+S Shield generator;//name---------------------------------------
   7;//identifier
   0;//item class
-  100.000000;//weight
+  60.000000;//weight
   The Small Shield Generator is a low-powered shield regenerator. When switched ON, it re-powers your shields with your ships energy whenever you are hit. Press 'Q' in-game to operate. \ The Shield Generator is currently switched OFF.;//short description
   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
   1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
-  shieldgen.png;//texture name
+  shield.png;//texture name
   -1;//wielded script,-1=nothing, only applicable for wieldable items
   -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
   1;//show help text for conditions
@@ -9168,17 +9168,17 @@ iceplant.png;//texture name
   end_effects_block;
   begin_combinations;
   end_combinations;
-  L Shield Generator (activated);//name---------------------------------------
+  L Shield generator (activated);//name---------------------------------------
   220;//identifier
   0;//item class
-  100.000000;//weight
+  60.000000;//weight
   The Large Shield Generator is a high-powered shield regenerator. When switched ON, it re-powers your shields with your ships energy whenever you are hit. Press 'Q' in-game to operate. \ The Shield Generator is currently switched ON.;//short description
   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
   1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
-  shieldgen.png;//texture name
+  shield.png;//texture name
   -1;//wielded script,-1=nothing, only applicable for wieldable items
   -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
   1;//show help text for conditions
@@ -9208,17 +9208,17 @@ iceplant.png;//texture name
   end_effects_block;
   begin_combinations;
   end_combinations;
-L Shield Generator;//name---------------------------------------
+L Shield generator;//name---------------------------------------
   221;//identifier
   0;//item class
-  100.000000;//weight
+  60.000000;//weight
   The Large Shield Generator is a high-powered shield regenerator. When switched ON, it re-powers your shields with your ships energy whenever you are hit. Press 'Q' in-game to operate. \ The Shield Generator is currently switched OFF.;//short description
   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
   1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
-  shieldgen.png;//texture name
+  shield.png;//texture name
   -1;//wielded script,-1=nothing, only applicable for wieldable items
   -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
   1;//show help text for conditions
@@ -9248,17 +9248,17 @@ L Shield Generator;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-   20000: L Shield generator;//name---------------------------------------
+   15000: L Shield generator;//name---------------------------------------
 222;//identifier
   0;//item class
   0.000000;//weight
-  Press 'U' to upgrade your shield generator to a Large model, capable of recharging your shields more than twice as fast as the Small model!  \ \  Price: 20000 credits;//short description
+  Press 'U' to upgrade your shield generator to a Large model, capable of recharging your shields more than twice as fast as the Small model!  \ \  Price: 15000 credits;//short description
   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
   1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
-  shieldgen.png;//texture name
+  shield.png;//texture name
   -1;//wielded script,-1=nothing, only applicable for wieldable items
   -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
   1;//show help text for conditions
@@ -9274,11 +9274,11 @@ L Shield Generator;//name---------------------------------------
     begin_conditions;
     3;//condition
       13.000000;//condition parameter0
-      20000.000000;//condition parameter1  
+      15000.000000;//condition parameter1  
     end_conditions;
     begin_effects;
     4;//effect number
-      -20000.000000;//parameter1
+      -15000.000000;//parameter1
       1.000000;//parameter2
       13.000000;//parameter3
       0.000000;//parameter4  
@@ -9331,24 +9331,97 @@ L Shield Generator;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-end_of_file;    
-
-	  	      16;//effect number
-     7.000000;//parameter1
+  S Fusion reactor;//name---------------------------------------
+  223;//identifier
+  0;//item class
+  100.000000;//weight
+  The Small Fusion Reactor provides a steady but low supply of fusion power (1 gigawatt per second). Can be upgraded at any store!;//short description
+  none;//first pick up text
+  0.300000;//size on map
+  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  -1;//particle to shown on radar
+  1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
+  shieldgen.png;//texture name
+  -1;//wielded script,-1=nothing, only applicable for wieldable items
+  -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
+  1;//show help text for conditions
+  begin_wield_slots;
+  end_wield_slots;
+  begin_effects_block;
+  end_effects_block;
+  begin_combinations;
+  end_combinations;
+    L Fusion reactor;//name---------------------------------------
+  224;//identifier
+  0;//item class
+  100.000000;//weight
+  The Large Fusion Reactor provides twice the fusion power of smaller systems: up to 2 gigawatts per second!;//short description
+  none;//first pick up text
+  0.300000;//size on map
+  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  -1;//particle to shown on radar
+  1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
+  shieldgen.png;//texture name
+  -1;//wielded script,-1=nothing, only applicable for wieldable items
+  -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
+  1;//show help text for conditions
+  begin_wield_slots;
+  end_wield_slots;
+  begin_effects_block;
+  end_effects_block;
+  begin_combinations;
+  end_combinations;
+     15000: L Fusion reactor;//name---------------------------------------
+225;//identifier
+  0;//item class
+  0.000000;//weight
+  Press 'U' to upgrade your ship's fusion reactor to a Large model, able to provide twice the fusion power of smaller systems (2.4 gigawatts per second)! \ \  Price: 15000 credits;//short description
+  none;//first pick up text
+  0.300000;//size on map
+  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  -1;//particle to shown on radar
+  1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
+  shieldgen.png;//texture name
+  -1;//wielded script,-1=nothing, only applicable for wieldable items
+  -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
+  1;//show help text for conditions
+  begin_wield_slots;
+  end_wield_slots;
+  begin_effects_block;
+  Reactor upgraded!;//event text
+    You need more money!;//event failure text
+    wrench.wav;//sound, none for nothing
+    1;//vanishes after event, 0=no, 1=yes
+    U;//use key
+    0;//quick key
+    begin_conditions;
+    3;//condition
+      13.000000;//condition parameter0
+      15000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    4;//effect number
+      -15000.000000;//parameter1
+      1.000000;//parameter2
+      13.000000;//parameter3
+      0.000000;//parameter4  
+	  	 16;//effect number       remove S reactor
+     223.000000;//parameter1
       -1.000000;//parameter2
       0.000000;//parameter3
-      0.000000;//parameter4
-
-
-	  
-	  
-	  
-	  
-	  
-	  		   29;//effect number
-    156.000000;//parameter1
-     1.000000;//parameter2
+      0.000000;//parameter4	  
+	  	 16;//effect number       give L reactor
+     224.000000;//parameter1
+      1.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
-
-
+	  	35;//effect number               deactivate S gen
+     20.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  end_effects_block;
+  begin_combinations;
+  end_combinations;
+end_of_file;    
