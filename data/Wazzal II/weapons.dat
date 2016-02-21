@@ -3495,7 +3495,7 @@ Flying fighter alien cannon;//name---------------------------------------
    alienbullet.png;//bullet texture
   3;//bullets at one shot
   0;//stop at hit 0=stop where hit, 1=don't stop
-  7.500000;//bullet size
+  8.500000;//bullet size
   0.130000;//spread
   1.800000;//bullet speed
   600.000000;//time until bullet disappears
@@ -3504,7 +3504,7 @@ Flying fighter alien cannon;//name---------------------------------------
   -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
   7;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
   none;//hit effect sound
-  0.040000;//push target back
+  0.060000;//push target back
   0.000000;//push shooter back
   alienlaser.wav;//fire sound
   hit2.wav;//hit sound

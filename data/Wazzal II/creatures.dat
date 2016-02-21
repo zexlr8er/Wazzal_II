@@ -8875,7 +8875,7 @@ Dark Alien (claws, in zoo);//name---------------------------------------
     0.000000;//parameter2
     0.000000;//parameter3
   end_specialties;
-Alien Large Fighter (landed on alien planet);//name--------------------------------------- 
+Alien Large Fighter (fast spawner);//name--------------------------------------- 
  61;//identifier
   1;//class
   alienfighter2.png;//texture
@@ -9070,7 +9070,7 @@ explosion2.wav;//sample name
   begin_hit_block;//
   end_hit_block;
   begin_timed_block;//
-    30000;//interval in milliseconds
+    10000;//interval in milliseconds
     begin_conditions;
     32;//condition
       3.000000;//parameter0
@@ -9083,7 +9083,7 @@ explosion2.wav;//sample name
       7.000000;//parameter3
       -1.000000;//parameter4 
     end_effects;
-  20000;//interval in milliseconds
+  7000;//interval in milliseconds
     begin_conditions;
     32;//condition
       3.000000;//parameter0
@@ -14138,12 +14138,12 @@ resistance to fusion beam;//description
   0.000000;//maximum movement speed
   0.000000;//minimum movement speed
   0.000000;//leg animation speed
-  0.000000;//turn speed
+  1.000000;//turn speed
   0.000000;//inertia level (acceleration/deceleration)
   0;//hide when behind walls
   0;//weapon number
-  9.000000;//weapon_x
-  26.000000;//weapon_y
+  0.000000;//weapon_x
+  0.000000;//weapon_y
   2;//blood particle
   1;//bars visible when player hovers mouse on top
   3.000000;//death animation speed
@@ -14374,6 +14374,22 @@ explosion2.wav;//sample name
   begin_hit_block;//
   end_hit_block;
   begin_timed_block;//
+  	200;//interval in milliseconds       		laser for all enemies
+    begin_conditions;
+    14;//condition									allies closer than x
+      -4.000000;//condition parameter0
+      850.000000;//condition parameter1  
+0//condition                               			no stealth on item
+      88.000000;//condition parameter0
+      0.000000;//condition parameter1
+    end_conditions;
+    begin_effects;
+    24;//effect number
+      73.000000;//parameter1
+      1.000000;//parameter2
+      1.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
     20000;//interval in milliseconds
     begin_conditions;
     30;//condition                    less than 10 tanks
