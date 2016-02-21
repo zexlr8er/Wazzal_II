@@ -187,6 +187,11 @@ Initialisation;//name-----------------------------------------------------------
     1.000000;//parameter2
     2.000000;//parameter3
     0.000000;//parameter4
+	  16;//effect number                   Give store Inventory fuel can
+    216.000000;//parameter1
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
   16;//effect number                   Give store Inventory landmines item
     34.000000;//parameter1
     1.000000;//parameter2
@@ -206,11 +211,6 @@ Initialisation;//name-----------------------------------------------------------
     51.000000;//parameter1         Give store Inventory binoculars item
     1.000000;//parameter2
     2.000000;//parameter3
-    0.000000;//parameter4
-  16;//effect number                 
-    52.000000;//parameter1         Give Inventory 1 liquor item
-    1.000000;//parameter2
-    1.000000;//parameter3
     0.000000;//parameter4
   16;//effect number                 
     64.000000;//parameter1         Give Inventory 1 rocket item
