@@ -262,6 +262,11 @@ Missile Damage;//name---------------------------------------
   begin_wield_conditions;
   end_wield_conditions;
   begin_fire_effects;
+  		   49;//effect number             camera
+    1.000000;//parameter1
+    800.0000;//parameter2
+   800.000000;//parameter3
+    0.000000;//parameter4
   54;//effect number
     -1.000000;//parameter1
     0.000000;//parameter2
@@ -1738,6 +1743,11 @@ Rocket explosion;//name---------------------------------------
   begin_wield_conditions;
   end_wield_conditions;
   begin_fire_effects;
+    		   49;//effect number             camera
+    1.000000;//parameter1
+    800.0000;//parameter2
+   800.000000;//parameter3
+    0.000000;//parameter4
   31;//effect number - 
     0.000000;//parameter1
     0.000000;//parameter2
