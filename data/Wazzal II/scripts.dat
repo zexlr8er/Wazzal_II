@@ -4,8 +4,8 @@ Initialisation;//name-----------------------------------------------------------
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   20;//run every n milliseconds
-  none;//message
-  0;//message type, 0=quick message, 1=journal
+   none;//message
+  1;//message type, 0=quick message, 1=journal
   alienattack.wav;//sound, none for nothing
   0;//delay script for n seconds after conditions met
   1;//disabled after first use, 0=no, 1=yes

@@ -9323,4 +9323,30 @@ Forcefield deactivated;//name---------------------------------------
       0.000000;//parameter4
     end_effects;
   end_effects_block;
+ Text for alien warp attack;//name---------------------------------------
+  206;//identifier
+  -1;//map type to place to -1=any map 0=> type from areas.dat
+  0;//plot_object class
+  0;//object definition number
+  0;//number of objects to be placed
+  0;//location type, 0=random, 1=distance min(parameter1) max(parameter2) from player start, 2=distance min(parameter1) max(parameter2) from object parameter0, 3=coordinates [parameter0, parameter1] (0=min, 1=max)  vary location=parameter2
+  0.000000;//location parameter0
+  0.000000;//location parameter1
+  0.000000;//location parameter2
+  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  78;//particle to shown on radar
+ none;//radiate sound
+  -1;//time to delete object in milliseconds, -1=don't delete
+  4;//trigger event by 0=player click, 1=player near, 2=near or click, 3=map creation (try to avoid any creature specific effects when using this, also does not check conditions), 4=interval parameter1
+  6600;//trigger event parameter1
+  0;//show help text for conditions
+  begin_effects_block;
+  	  Dozens of Alien battleships materialize on your scanners, and the darkness of space is suddenly filled with green light as a thousand laser turrets open fire on the Wolf IV... \ \ There are too many of them... fighting would be useless. Your best hope to survive may be to flee to the planet Errxelz 8, on the opposite side of the system. \ \ There is a Confederate outpost on the north of the planet. Perhaps from there you will be able to get assistance from local ground forces. \ \ A missile strikes the Wolf's blast-shield, and you swear silently. The Aliens will live to regret the day they chose to return...;//event text
+   none;//sound, none for nothing
+   1;//vanishes after event, 0=no, but cannot be reused, 1=vanishes, 2=no, and can be reused
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+    end_effects;
+  end_effects_block;
 end_of_file;
