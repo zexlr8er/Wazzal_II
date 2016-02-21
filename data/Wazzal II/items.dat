@@ -3,7 +3,7 @@ Small Laser cannon;//name---------------------------------------
   0;//item class
  70.000000;//weight
   The Small Laser Cannon is the least powerful of the laser weapons. Even so, it can fire a deadly stream of high-intensity laser beams at an enemy ship, vaporising it in seconds.;//short description
-   Dozens of Alien battleships materialize on your scanners, and the darkness of space is suddenly filled with green light as a thousand laser turrets open fire on the Wolf IV... \ \ There are too many of them... fighting would be useless. Your best hope to survive may be to flee to the planet Errxelz 8, on the opposite side of the system. \ \ There is a Confederate outpost on the north of the planet. Perhaps from there you will be able to get assistance from local ground forces. \ \ A missile strikes the Wolf's blast-shield, and you swear silently. The Aliens will live to regret the day they chose to return...;//first pick up text
+   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
@@ -181,7 +181,7 @@ Viper Missile;//name---------------------------------------
   0;//item class
   5.000000;//weight
   The deadly heat-seeking Viper Missiles are the smallest and cheapest missile available. Use to equip!;//short description
-  none;//first pick up text
+  The deadly heat-seeking Viper Missiles are the smallest and cheapest missile available. Use to equip!;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
@@ -211,7 +211,7 @@ Viper Missile;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-S Shield Generator ON;//name---------------------------------------
+S Shield Generator (activated);//name---------------------------------------
   6;//identifier
   0;//item class
   100.000000;//weight
@@ -251,7 +251,7 @@ S Shield Generator ON;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-S Shield Generator OFF;//name---------------------------------------
+S Shield Generator;//name---------------------------------------
   7;//identifier
   0;//item class
   100.000000;//weight
@@ -708,8 +708,8 @@ Health pack;//name---------------------------------------
   17;//identifier
   0;//item class
   2.000000;//weight
-  Using this health pack will give you back much-needed health. \ Press 'H' in-game to use.;//short description
-  none;//first pick up text
+  Using this health pack will give you back a much-needed 20 units of health. \ Press 'H' in-game to use.;//short description
+ none;//first pick up text
   0.270000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
@@ -929,7 +929,7 @@ Twin Laser Cannon;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-Targeting beam OFF;//name---------------------------------------
+Targeting beam;//name---------------------------------------
   23;//identifier
   0;//item class
  20.000000;//weight
@@ -972,7 +972,7 @@ Targeting beam OFF;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-Targeting beam ON;//name---------------------------------------
+Targeting beam (activated);//name---------------------------------------
   24;//identifier
   0;//item class
   30.000000;//weight
@@ -1017,7 +1017,7 @@ Ship repair unit;//name---------------------------------------
   0;//item class
   20.000000;//weight
   Using this ship repair unit will increase your hull integrity by 20. \ (Quick key: H);//short description
-  none;//first pick up text
+  You retrieve the ship repair unit. This will allow you to do emergency repairs during combat, increasing your hull integrity by 20! \ \ Press 'H' in-game to repair!;//first pick up text
   0.380000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
@@ -1095,12 +1095,12 @@ Ship repair unit;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-- Stock: Drugs;//name---------------------------------------
+Stock: Drugs;//name---------------------------------------
   27;//identifier
   0;//item class
   0.000000;//weight
   Use this item near a store to sell them. \ \ You will receive the current market value of Drugs in Confederate Credits.;//short description
-  You retrieve the Drugs stock: the cheapest of the three items traded on the Galactic Stock Exchange! \ \ Use this item near any store to sell it for the current stock price visible to the bottom-left of the screen... but be sure to wait for a good price!;//first pick up text
+  You retrieve the Drugs stock: the cheapest of the three items traded on the Confederate Stock Exchange! \ \ Use this item near any store to sell it for the current stock price visible to the bottom-left of the screen... but be sure to wait for a good price!;//first pick up text
   0.36000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
@@ -1186,12 +1186,12 @@ Ship repair unit;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-- Stock: Weapon Parts;//name---------------------------------------
+Stock: Weapon Parts;//name---------------------------------------
   29;//identifier
   0;//item class
   0.000000;//weight
   Use this item near a store to sell them.  \ \ You will receive the current market value of Weapon Parts in Confederate Credits.;//short description
-   You retrieve the Weapon Parts stock: the second-most expensive of the three items traded on the Galactic Stock Exchange! \ \ Use this item near any store to sell it for the current stock price visible to the bottom-left of the screen... but be sure to wait for a good price!;//first pick up text
+   You retrieve the Weapon Parts stock: the second-most expensive of the three items traded on the Confederate Stock Exchange! \ \ Use this item near any store to sell it for the current stock price visible to the bottom-left of the screen... but be sure to wait for a good price!;//first pick up text
   0.360000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
@@ -1277,12 +1277,12 @@ Ship repair unit;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-- Stock: Slaves;//name---------------------------------------
+Stock: Slaves;//name---------------------------------------
   31;//identifier
   0;//item class
   0.000000;//weight
   Use this item near a store to sell them. \ \ You will receive the current market value of Slaves in Confederate Credits.;//short description
-  You retrieve the Slaves stock: the most expensive of the three items traded on the Galactic Stock Exchange! \ \ Use this item near any store to sell it for the current stock price visible to the bottom-left of the screen... but be sure to wait for a good price!;//first pick up text
+  You retrieve the Slaves stock: the most expensive of the three items traded on the Confederate Stock Exchange! \ \ Use this item near any store to sell it for the current stock price visible to the bottom-left of the screen... but be sure to wait for a good price!;//first pick up text
   0.360000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
@@ -1830,7 +1830,7 @@ Infra-red Goggles;//name---------------------------------------
   0;//item class
  5.000000;//weight
   Infra red goggles work by picking up infra red waves and converting them to visual light, allowing you to see at night. Uses battery energy. Press 'G' in-game to activate.;//short description
-  none;//first pick up text
+  You pick up the stylish infra-red goggles. By receiving infra-red waves and converting them to visual light, these goggles will allow you to see at night!;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   0;//particle to shown on radar
@@ -1922,12 +1922,12 @@ Infra-red Goggles;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-Electrobinoculars OFF;//name---------------------------------------
+Electrobinoculars;//name---------------------------------------
   47;//identifier
   0;//item class
   6.000000;//weight
   These electrobinoculors allow you to view far away objects and terrain. They come with three levels of magnification. \ Press 'O' in-game to switch range;//short description
-  none;//first pick up text
+  You pick up the high-tech electrobinoculars. A marvel of Confederate technology, these will allow you to view far away objects and terrain at three levels of magnification! \ \ Press 'O' in-game to switch range!;//first pick up text
   0.3900000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   0;//particle to shown on radar
@@ -2134,7 +2134,7 @@ Strong Liquor;//name---------------------------------------
   0;//item class
   1.000000;//weight
   This strong liquor will make the world appear to slow down for 20 seconds, but will make you stagger about and confuse your vision.;//short description
-  none;//first pick up text
+  Every captain likes their grog! This strong liquor will make the world appear to slow down for 20 seconds, but will also make you stagger about and confuse your vision...;//first pick up text
   0.250000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   0;//particle to shown on radar
@@ -2242,7 +2242,7 @@ Adrenaline injection;//name---------------------------------------
   0;//item class
   1.000000;//weight
   This adrenaline injection will give you a 15 second burst of speed when used.;//short description
-  none;//first pick up text
+  You pick up the adrenaline injection pack. Developed to give Confederate soldiers an edge against rebel Androids in the 2330-33 Cybernetic Revolution, this injection will give you a 15 second burst of speed when used!;//first pick up text
   0.3000000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   0;//particle to shown on radar
@@ -2438,7 +2438,7 @@ Spotlight;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-Jetpack OFF;//name---------------------------------------
+Jetpack;//name---------------------------------------
   59;//identifier
   0;//item class
  20.00000;//weight
@@ -2486,7 +2486,7 @@ Jetpack OFF;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-Jetpack POWERED;//name---------------------------------------
+Jetpack (activated);//name---------------------------------------
   60;//identifier
   1;//item class
  20.00000;//weight
@@ -2571,7 +2571,7 @@ Jetpack;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-Stealth armour OFF;//name---------------------------------------
+Stealth armour;//name---------------------------------------
   62;//identifier
   0;//item class
   12.000000;//weight
@@ -3497,7 +3497,7 @@ Wood;//name---------------------------------------
       0.000000;//parameter4
     27;//effect number
       22.000000;//parameter1
-      900000.000000;//parameter2
+      -1.000000;//parameter2
       0.4500000;//parameter3
       0.5500000;//parameter4
     4;//effect number
@@ -3518,7 +3518,7 @@ begin_combinations;
       5;//amount to give
     end_items_given;
       end_combinations;
-Stealth armour ON;//name---------------------------------------
+Stealth armour (activated);//name---------------------------------------
   88;//identifier
   0;//item class
   12.000000;//weight
@@ -3657,7 +3657,7 @@ High explosive;//name---------------------------------------
   0;//item class
   2.000000;//weight
   Perfect for use in the mining trade! High explosive, be careful where you stand.;//short description
-  You pick up the sticks of high explosive from the stony ground. This would be a perfect way to blow up mine rocks to search for ore! The warning label tells you that the explosive works on a delayed fuse, you'll have about 12 seconds to get away once it is laid. Be careful!;//first pick up text
+  You pick up the sticks of high explosive from the stony ground. This would be a perfect way to blow up mine rocks to search for ore! The warning label tells you that the explosive works on a delayed fuse, you'll have about 6 seconds to get away once it is laid. Be careful!;//first pick up text
   0.350000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
  17;//particle to shown on radar
@@ -4068,7 +4068,7 @@ Painkillers;//name---------------------------------------
   0;//item class
   2.000000;//weight
  These pills will allow you to become impervious to pain for 20 seconds.;//short description
-  none;//first pick up text
+  You can feel your headache disappearing already... \ \ These dubiously legal pills will allow you to become completely impervious to pain for 20 seconds!;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   0;//particle to shown on radar
@@ -4202,7 +4202,7 @@ Painkillers;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-Cloaking device OFF;//name---------------------------------------
+Cloaking device;//name---------------------------------------
   105;//identifier
   0;//item class
   100.000000;//weight
@@ -4253,7 +4253,7 @@ Cloaking device OFF;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-Cloaking device ON;//name---------------------------------------
+Cloaking device (activated);//name---------------------------------------
   106;//identifier
   0;//item class
  100.000000;//weight
@@ -4302,8 +4302,8 @@ Battery;//name---------------------------------------
   107;//identifier
   0;//item class
  1.000000;//weight
-  Using this battery will recharge your suit's inbuilt battery energy by 20 points. \ Press 'B' in-game to use.;//short description
-  none;//first pick up text
+  Using this battery will recharge your suit's inbuilt battery energy by 20 kilowatts! \ Press 'B' in-game to use.;//short description
+  You pick up the advanced AAAAAA-model battery. This will be perfect for giving your suit's inbuilt battery a quick charge: up to 20 kilowatts of extra power!;//first pick up text
   0.340000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
@@ -4337,7 +4337,7 @@ Battery;//name---------------------------------------
  108;//identifier
   0;//item class
   0.000000;//weight
-  Press 'U' to buy a powerful battery that can be used to recharge your suit's inbuilt battery energy by 20 points. \ \  Price: 150 credits;//short description
+  Press 'U' to buy a powerful battery that can be used to recharge your suit's inbuilt battery energy by 20 kilowatts. \ \  Price: 150 credits;//short description
   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -4429,7 +4429,7 @@ Particle ammunition;//name---------------------------------------
   0;//item class
   0.05000;//weight
  Ammunition for your ship's particle cannon.;//short description
-  none;//first pick up text
+  These deadly particle bolts can be fired at high velocity to cause devastating damage to enemy ships. Requires a Particle Cannon to fire!;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
@@ -5885,7 +5885,7 @@ Kwaj 4 Torpedoes;//name---------------------------------------
   0;//item class
   5.000000;//weight
   The Kwaj 4 torpedo is the smallest and cheapest torpedo available. They are extremely volatile, so it would be wise to handle them with care.;//short description
-  none;//first pick up text
+  The Kwaj 4 torpedo is the smallest and cheapest torpedo available. They are extremely volatile, so it would be wise to handle them with care!;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
@@ -6041,8 +6041,8 @@ Grenades;//name---------------------------------------
   143;//identifier
   0;//item class
   0.3000000;//weight
-  These grenades can be hurled at a nearby enemy, causing massive damage to any units near the explosion zone when the 3 second timer runs out.;//short description
-  none;//first pick up text
+  These grenades can be hurled at a nearby enemy, causing massive damage to any units near the explosion zone when the timer runs out!;//short description
+  You pick up the grenades. These can be hurled at a nearby enemy, causing massive damage to any units near the explosion zone when the timer runs out!;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
@@ -6450,7 +6450,7 @@ Anti-gravity device;//name---------------------------------------
   0;//item class
   -10.000000;//weight
   This ancient object hovers in your hand, straining against gravity. It should provide 10 kilograms of lift, allowing you to carry more objects!;//short description
-  none;//first pick up text
+  This ancient object hovers in your hand, straining against gravity. It should provide 10 kilograms of lift, allowing you to carry more objects!;//first pick up text
  0.350000000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
@@ -7807,7 +7807,7 @@ shuttle.png;//texture name
   end_effects_block;
   begin_combinations;
   end_combinations;
- Secret rank increase item;//name---------------------------------------
+ Activate testing item;//name---------------------------------------
  186;//identifier
   0;//item class
   0.000000;//weight
@@ -7824,7 +7824,7 @@ shuttle.png;//texture name
   begin_wield_slots;
   end_wield_slots;
   begin_effects_block;
-    99PP;//event text
+    Testing mode activated;//event text
     none;//event failure text
     use.wav;//sound, none for nothing
     0;//vanishes after event, 0=no, 1=yes
@@ -7833,101 +7833,16 @@ shuttle.png;//texture name
     begin_conditions; 
     end_conditions;
     begin_effects;  
-    44;//effect number
-      99.000000;//parameter1
+    16;//effect number
+      217.000000;//parameter1
       1.000000;//parameter2
-      9.000000;//parameter3
-      0.000000;//parameter4   
-	      4;//effect number
-      2000.000000;//parameter1
-      1.000000;//parameter2
-      13.000000;//parameter3
-      0.000000;//parameter4  
-    end_effects;
-	2000PP;//event text -------
-    none;//event failure text
-    use.wav;//sound, none for nothing
-    0;//vanishes after event, 0=no, 1=yes
-    U;//use key
-    8;//quick key
-    begin_conditions; 
-    end_conditions;
-    begin_effects;  
-    44;//effect number
-      2001.000000;//parameter1
-      1.000000;//parameter2
-      9.000000;//parameter3
-      0.000000;//parameter4   
-	      4;//effect number
-      50000.000000;//parameter1
-      1.000000;//parameter2
-      13.000000;//parameter3
-      0.000000;//parameter4  
-    end_effects;
-		Victory;//event text ------
-    none;//event failure text
-    use.wav;//sound, none for nothing
-    0;//vanishes after event, 0=no, 1=yes
-    U;//use key
-    7;//quick key
-    begin_conditions; 
-    end_conditions;
-    begin_effects;  
-    25;//effect number
-      2.000000;//parameter1
-      0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4  
-      61;//effect number                  Play music
-    12.000000;//parameter1
-    0.000000;//parameter2
-    0.000000;//parameter3
-    0.000000;//parameter4 	  
-    end_effects;
-	Entering testing map;//event text ------
-    none;//event failure text
-    use.wav;//sound, none for nothing
-    0;//vanishes after event, 0=no, 1=yes
-    U;//use key
-    6;//quick key
-    begin_conditions; 
-    end_conditions;
-    begin_effects;  
-    21;//effect number
-     29.000000;//parameter1
-      -1.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4   
-    end_effects;
-	Immunity;//event text ------
-    none;//event failure text
-    use.wav;//sound, none for nothing
-    0;//vanishes after event, 0=no, 1=yes
-    U;//use key
-    5;//quick key
-    begin_conditions; 
-    end_conditions;
-    begin_effects;  
- 17;//effect number                add 600 to timer bar
-     600.000000;//parameter1
-      0.000000;//parameter2
-      23.000000;//parameter3
-      0.000000;//parameter4
- 17;//effect number                  clear health restore bar
-    0.000000;//parameter1
-      0.000000;//parameter2
-      21.00000;//parameter3
-      0.000000;//parameter4
-    69;//effect number                   set health restore bar
-     12.000000;//parameter1
-      21.000000;//parameter2
-      0.00000;//parameter3
-      0.000000;//parameter4
- 35;//effect number                 enable health restore
-    71.000000;//parameter1
+    16;//effect number
+      217.000000;//parameter1
       1.000000;//parameter2
-      0.00000;//parameter3
-      0.000000;//parameter4  
+      1.000000;//parameter3
+      0.000000;//parameter4  	  
     end_effects;
   end_effects_block;
   begin_combinations;
@@ -8870,7 +8785,7 @@ Use to construct a ZEX Industries MXII Energy Pool, capable of recharging your p
   212;//identifier
   0;//item class
   10.000000;//weight
-  This powerful anti-aircraft rocket launcher can destroy Alien fighters flying overhead in a single shot! \ \ Uses rockets as ammunition!;//short description
+  This state-of-the-art anti-aircraft rocket launcher can destroy Alien fighters flying overhead in a single shot! \ \ Uses rockets as ammunition!;//short description
   none;//first pick up text
   0.45000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -8902,4 +8817,538 @@ Use to construct a ZEX Industries MXII Energy Pool, capable of recharging your p
   end_effects_block;
   begin_combinations;
   end_combinations;
-end_of_file;
+  25000: Anti-aircraft launcher;//name---------------------------------------
+ 213;//identifier
+  0;//item class
+  0.000000;//weight
+   This state-of-the-art anti-aircraft rocket launcher can destroy Alien fighters flying overhead in a single shot! \ \ Price: 25000 credits;//short description
+  none;//first pick up text
+  0.300000;//size on map
+  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  0;//particle to shown on radar
+  1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
+  antiair.png;//texture name
+  -1;//wielded script,-1=nothing, only applicable for wieldable items
+  -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
+  1;//show help text for conditions
+  begin_wield_slots;
+  end_wield_slots;
+  begin_effects_block;
+  You purchase the RPG launcher.;//event text
+    You need more money.;//event failure text
+    chaching.wav;//sound, none for nothing
+    1;//vanishes after event, 0=no, 1=yes
+    U;//use key
+    0;//quick key
+    begin_conditions;
+    3;//condition
+      13.000000;//condition parameter0
+      25000.000000;//condition parameter1      
+    end_conditions;
+    begin_effects;
+    4;//effect number
+      -25000.000000;//parameter1
+      1.000000;//parameter2
+      13.000000;//parameter3
+      0.000000;//parameter4     
+    16;//effect number
+     212.000000;//parameter1
+      1.000000;//parameter2
+      1.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  end_effects_block;
+  begin_combinations;
+  end_combinations;
+  Iceflower;//name---------------------------------------
+  214;//identifier
+  0;//item class
+  0.100000;//weight
+  This flower from the icy wastes of Kinmegag 71 can be used to lower your temperature by 50 Confederate degrees!;//short description
+  You pick up the shining Iceflower, common throughout the icy wastes of the Confederacy. Within seconds ice begins to form on your gloves... this plant contains chemicals which keep it at a natural chilly temperature of -50 Confederate degrees! You wrap the flower up and store it deep at the bottom of your pack: it may be very useful to rapidly cool your temperature if you overheat!;//first pick up text;//first pick up text
+  0.340000;//size on map
+  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  -1;//particle to shown on radar
+  1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
+iceplant.png;//texture name
+  -1;//wielded script,-1=nothing, only applicable for wieldable items
+  -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
+  1;//show help text for conditions
+  begin_wield_slots;
+  end_wield_slots;
+  begin_effects_block;
+  That was pretty cool...;//event text
+    ;//event failure text
+    cold.wav;//sound, none for nothing
+    1;//vanishes after event, 0=no, 1=yes
+    U;//use key
+   0;//quick key
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+    44;//effect number
+     -50.0000;//parameter1
+      0.000000;//parameter2
+      6.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  end_effects_block;
+  begin_combinations;
+  end_combinations;
+ Fuel can;//name---------------------------------------
+215;//identifier
+  0;//item class
+ 7.500000;//weight
+  Use this fuel to refill your fuel supply by 50 litres.;//short description
+  You pick up the rather stinky fuel can. Now you will be able to re-fill your fuel supplies with 50 litres of emergency fuel!;//first pick up text
+  0.340000;//size on map
+  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  -1;//particle to shown on radar
+  1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
+ fuelcan.png;//texture name
+  -1;//wielded script,-1=nothing, only applicable for wieldable items
+  -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
+  1;//show help text for conditions
+  begin_wield_slots;
+  end_wield_slots;
+  begin_effects_block;
+  Refuelled!.;//event text
+    ;//event failure text
+    oiler.wav;//sound, none for nothing
+    1;//vanishes after event, 0=no, 1=yes
+    U;//use key
+    B;//quick key
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+    4;//effect number
+      50.000000;//parameter1
+      1.000000;//parameter2
+      25.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  end_effects_block;
+  begin_combinations;
+  end_combinations;
+  500: Fuel can;//name---------------------------------------
+216;//identifier
+  0;//item class
+  0.000000;//weight
+  Press 'U' to buy a fuel can able to re-fill your fuel supplies with 50 litres of emergency fuel! \ \  Price: 500 credits;//short description
+  none;//first pick up text
+  0.300000;//size on map
+  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  -1;//particle to shown on radar
+  1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
+  fuelcan.png;//texture name
+  -1;//wielded script,-1=nothing, only applicable for wieldable items
+  -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
+  1;//show help text for conditions
+  begin_wield_slots;
+  end_wield_slots;
+  begin_effects_block;
+  You purchase the fuel can.;//event text
+    You need more money;//event failure text
+    chaching.wav;//sound, none for nothing
+    0;//vanishes after event, 0=no, 1=yes
+    U;//use key
+    0;//quick key
+    begin_conditions;
+    3;//condition
+      13.000000;//condition parameter0
+      500.000000;//condition parameter1      
+    end_conditions;
+    begin_effects;
+    4;//effect number
+      -500.000000;//parameter1
+      1.000000;//parameter2
+      13.000000;//parameter3
+      0.000000;//parameter4     
+    16;//effect number
+      215.000000;//parameter1
+      1.000000;//parameter2
+      1.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  end_effects_block;
+  begin_combinations;
+  end_combinations;
+ Testing item;//name---------------------------------------
+ 217;//identifier
+  0;//item class
+  0.000000;//weight
+  Increase ranks by 50;//short description
+  none;//first pick up text
+  2.0000;//size on map
+  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  0;//particle to shown on radar
+  0;//visible in inventory 0=no (can only be used via quick keys), 1=yes
+  invisible.png;//texture name
+  -1;//wielded script,-1=nothing, only applicable for wieldable items
+  -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
+  1;//show help text for conditions
+  begin_wield_slots;
+  end_wield_slots;
+  begin_effects_block;
+    99PP;//event text
+    none;//event failure text
+    use.wav;//sound, none for nothing
+    0;//vanishes after event, 0=no, 1=yes
+    U;//use key
+    8;//quick key
+    begin_conditions; 
+    end_conditions;
+    begin_effects;  
+    44;//effect number
+      99.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4   
+	      4;//effect number
+      2000.000000;//parameter1
+      1.000000;//parameter2
+      13.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
+	2000PP;//event text -------
+    none;//event failure text
+    use.wav;//sound, none for nothing
+    0;//vanishes after event, 0=no, 1=yes
+    U;//use key
+    7;//quick key
+    begin_conditions; 
+    end_conditions;
+    begin_effects;  
+    44;//effect number
+      2001.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4   
+	      4;//effect number
+      50000.000000;//parameter1
+      1.000000;//parameter2
+      13.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
+		Victory;//event text ------
+    none;//event failure text
+    use.wav;//sound, none for nothing
+    0;//vanishes after event, 0=no, 1=yes
+    U;//use key
+    6;//quick key
+    begin_conditions; 
+    end_conditions;
+    begin_effects;  
+    25;//effect number
+      2.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+      61;//effect number                  Play music
+    12.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4 	  
+    end_effects;
+	Entering testing map;//event text ------
+    none;//event failure text
+    use.wav;//sound, none for nothing
+    0;//vanishes after event, 0=no, 1=yes
+    U;//use key
+    5;//quick key
+    begin_conditions; 
+    end_conditions;
+    begin_effects;  
+    21;//effect number
+     29.000000;//parameter1
+      -1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4   
+    end_effects;
+	Immunity;//event text ------
+    none;//event failure text
+    use.wav;//sound, none for nothing
+    0;//vanishes after event, 0=no, 1=yes
+    U;//use key
+    4;//quick key
+    begin_conditions; 
+    end_conditions;
+    begin_effects;  
+ 17;//effect number                add 600 to timer bar
+     600.000000;//parameter1
+      0.000000;//parameter2
+      23.000000;//parameter3
+      0.000000;//parameter4
+ 17;//effect number                  clear health restore bar
+    0.000000;//parameter1
+      0.000000;//parameter2
+      21.00000;//parameter3
+      0.000000;//parameter4
+    69;//effect number                   set health restore bar
+     12.000000;//parameter1
+      21.000000;//parameter2
+      0.00000;//parameter3
+      0.000000;//parameter4
+ 35;//effect number                 enable health restore
+    71.000000;//parameter1
+      1.000000;//parameter2
+      0.00000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
+  end_effects_block;
+  begin_combinations;
+  end_combinations;
+ Ship repair bot (activated);//name---------------------------------------
+ 218;//identifier
+  0;//item class
+  100.000000;//weight
+  This automated ship repair bot will automatically hull damage. It will only use energy when actively repairing your ship! \ \ Currently turned ON!;//short description
+  none;//first pick up text
+  0.3900;//size on map
+  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  0;//particle to shown on radar
+  1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
+  repairbot.png;//texture name
+  -1;//wielded script,-1=nothing, only applicable for wieldable items
+  -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
+  1;//show help text for conditions
+  begin_wield_slots;
+  end_wield_slots;
+  begin_effects_block;
+    Repair bot deactivated;//event text
+    none;//event failure text
+    use.wav;//sound, none for nothing
+    1;//vanishes after event, 0=no, 1=yes
+    U;//use key
+    0;//quick key
+    begin_conditions; 
+    end_conditions;
+    begin_effects;   
+    16;//effect number
+      219.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4	
+    end_effects;
+  end_effects_block;
+  begin_combinations;
+  end_combinations;
+   Ship repair bot;//name---------------------------------------
+ 219;//identifier
+  0;//item class
+  100.000000;//weight
+  Use to activate an automated ship repair bot that will automatically hull damage. It will only use energy when actively repairing your ship! \ \ Currently turned OFF!;//short description
+  none;//first pick up text
+  0.3900;//size on map
+  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  0;//particle to shown on radar
+  1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
+  repairbot.png;//texture name
+  -1;//wielded script,-1=nothing, only applicable for wieldable items
+  -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
+  1;//show help text for conditions
+  begin_wield_slots;
+  end_wield_slots;
+  begin_effects_block;
+    Repair bot activated!;//event text
+    none;//event failure text
+    use.wav;//sound, none for nothing
+    1;//vanishes after event, 0=no, 1=yes
+    U;//use key
+    0;//quick key
+    begin_conditions; 
+    end_conditions;
+    begin_effects;  
+    16;//effect number
+      218.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4		
+    end_effects;
+  end_effects_block;
+  begin_combinations;
+  end_combinations;
+  L Shield Generator (activated);//name---------------------------------------
+  220;//identifier
+  0;//item class
+  100.000000;//weight
+  The Large Shield Generator is a high-powered shield regenerator. When switched ON, it re-powers your shields with your ships energy whenever you are hit. Press 'Q' in-game to operate. \ The Shield Generator is currently switched ON.;//short description
+  none;//first pick up text
+  0.300000;//size on map
+  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  -1;//particle to shown on radar
+  1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
+  shieldgen.png;//texture name
+  -1;//wielded script,-1=nothing, only applicable for wieldable items
+  -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
+  1;//show help text for conditions
+  begin_wield_slots;
+  end_wield_slots;
+  begin_effects_block;
+  You turn the generator off.;//event text
+    none;//event failure text
+    pd.wav;//sound, none for nothing
+    0;//vanishes after event, 0=no, 1=yes
+    U;//use key
+    Q;//quick key
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+    16;//effect number
+      221.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    16;//effect number
+      220.000000;//parameter1
+      -1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4       
+    end_effects;
+  end_effects_block;
+  begin_combinations;
+  end_combinations;
+L Shield Generator;//name---------------------------------------
+  221;//identifier
+  0;//item class
+  100.000000;//weight
+  The Large Shield Generator is a high-powered shield regenerator. When switched ON, it re-powers your shields with your ships energy whenever you are hit. Press 'Q' in-game to operate. \ The Shield Generator is currently switched OFF.;//short description
+  none;//first pick up text
+  0.300000;//size on map
+  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  -1;//particle to shown on radar
+  1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
+  shieldgen.png;//texture name
+  -1;//wielded script,-1=nothing, only applicable for wieldable items
+  -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
+  1;//show help text for conditions
+  begin_wield_slots;
+  end_wield_slots;
+  begin_effects_block;
+  You turn the generator on.;//event text
+    none;//event failure text
+    pu.wav;//sound, none for nothing
+    0;//vanishes after event, 0=no, 1=yes
+    U;//use key
+    Q;//quick key
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+    16;//effect number
+      220.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    16;//effect number
+      221.000000;//parameter1
+      -1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+  end_effects_block;
+  begin_combinations;
+  end_combinations;
+   20000: L Shield generator;//name---------------------------------------
+222;//identifier
+  0;//item class
+  0.000000;//weight
+  Press 'U' to upgrade your shield generator to a Large model, capable of recharging your shields more than twice as fast as the Small model!  \ \  Price: 20000 credits;//short description
+  none;//first pick up text
+  0.300000;//size on map
+  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  -1;//particle to shown on radar
+  1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
+  shieldgen.png;//texture name
+  -1;//wielded script,-1=nothing, only applicable for wieldable items
+  -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
+  1;//show help text for conditions
+  begin_wield_slots;
+  end_wield_slots;
+  begin_effects_block;
+  Shields upgraded!;//event text
+    You need more money, or S shield generator de-activated to upgrade!;//event failure text
+    wrench.wav;//sound, none for nothing
+    1;//vanishes after event, 0=no, 1=yes
+    U;//use key
+    0;//quick key
+    begin_conditions;
+    3;//condition
+      13.000000;//condition parameter0
+      20000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    4;//effect number
+      -20000.000000;//parameter1
+      1.000000;//parameter2
+      13.000000;//parameter3
+      0.000000;//parameter4  
+	 29;//effect number              if activated shields, remove item
+    156.000000;//parameter1
+    1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+	29;//effect number                 if deactivated shields, remove item 
+    157.000000;//parameter1
+     1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4	  
+	  	 16;//effect number       give L gen
+     221.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+	  	35;//effect number               deactivate S gen
+     2.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+	  	35;//effect number               deactivate S gen
+     3.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+	  	35;//effect number               deactivate S gen
+     24.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+	  	35;//effect number              activate L gen
+     153.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+	  	35;//effect number               activate L gen
+     154.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+	  	35;//effect number               activate L gen
+    155.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  end_effects_block;
+  begin_combinations;
+  end_combinations;
+end_of_file;    
+
+	  	      16;//effect number
+     7.000000;//parameter1
+      -1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+
+
+	  
+	  
+	  
+	  
+	  
+	  		   29;//effect number
+    156.000000;//parameter1
+     1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+
+

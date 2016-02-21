@@ -4,8 +4,8 @@ Initialisation;//name-----------------------------------------------------------
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   20;//run every n milliseconds
-  none;//message
-  0;//message type, 0=quick message, 1=journal
+   none;//message
+  1;//message type, 0=quick message, 1=journal
   alienattack.wav;//sound, none for nothing
   0;//delay script for n seconds after conditions met
   1;//disabled after first use, 0=no, 1=yes
@@ -77,6 +77,21 @@ Initialisation;//name-----------------------------------------------------------
     1.000000;//parameter2
     1.000000;//parameter3
     0.000000;//parameter4
+	  35;//effect number             disable L gen
+     153.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+  35;//effect number                disable L gen
+     154.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+  35;//effect number               disable L gen
+    155.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
   35;//effect number                   disable ensigns salary
     27.000000;//parameter1
     0.000000;//parameter2
@@ -187,6 +202,11 @@ Initialisation;//name-----------------------------------------------------------
     1.000000;//parameter2
     2.000000;//parameter3
     0.000000;//parameter4
+	  16;//effect number                   Give store Inventory fuel can
+    216.000000;//parameter1
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
   16;//effect number                   Give store Inventory landmines item
     34.000000;//parameter1
     1.000000;//parameter2
@@ -206,11 +226,6 @@ Initialisation;//name-----------------------------------------------------------
     51.000000;//parameter1         Give store Inventory binoculars item
     1.000000;//parameter2
     2.000000;//parameter3
-    0.000000;//parameter4
-  16;//effect number                 
-    52.000000;//parameter1         Give Inventory 1 liquor item
-    1.000000;//parameter2
-    1.000000;//parameter3
     0.000000;//parameter4
   16;//effect number                 
     64.000000;//parameter1         Give Inventory 1 rocket item
@@ -244,6 +259,11 @@ Initialisation;//name-----------------------------------------------------------
     0.000000;//parameter4
   16;//effect number                   Give store Inventory mining beam
     137.000000;//parameter1
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+		  16;//effect number                 Give store Inventory shield upgrade
+    222.000000;//parameter1
     1.000000;//parameter2
     2.000000;//parameter3
     0.000000;//parameter4
@@ -326,7 +346,7 @@ Player ship dies due to lack of health;//name-----------------------------------
     0.000000;//parameter3
     0.000000;//parameter4
   end_effects;
-Shields degenerate;//name-----------------------------------------------------------------
+Shields degenerate (S generator);//name-----------------------------------------------------------------
   2;//identifier
   1;//run without calling (set to 0 if you use the script for example as a wield script)
   0;//call position, 0=player location, 1=mouse location
@@ -338,9 +358,9 @@ Shields degenerate;//name-------------------------------------------------------
   0;//delay script for n seconds after conditions met
   0;//disabled after first use, 0=no, 1=yes
   begin_conditions;
-  0;//condition
-    7.000000;//condition parameter0
-    1.000000;//condition parameter1 
+  0;//condition                        
+   7.000000;//condition parameter0     
+    1.000000;//condition parameter1     
   end_conditions;
   begin_effects;
   53;//effect number
@@ -349,7 +369,7 @@ Shields degenerate;//name-------------------------------------------------------
     8.000000;//parameter3
     500.000000;//parameter4
   end_effects;
-Shields regenerate;//name-----------------------------------------------------------------
+Shields regenerate (S generator);//name-----------------------------------------------------------------
   3;//identifier
   1;//run without calling (set to 0 if you use the script for example as a wield script)
   0;//call position, 0=player location, 1=mouse location
@@ -373,7 +393,7 @@ Shields regenerate;//name-------------------------------------------------------
   end_conditions;
   begin_effects;
   53;//effect number
-    1.000000;//parameter1
+    0.700000;//parameter1
     -1.000000;//parameter2
     8.000000;//parameter3
     250.000000;//parameter4
@@ -429,7 +449,7 @@ Player destroys enemy soldiers on jungle planet;//name--------------------------
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   3000;//run every n milliseconds
- Captain Klicc: \ 'Thankyou, great captain. This was a great victory, and I will notify the Confederate Navy at once. (Earn 50 Promotion points, and receive 5 units of Drug stock. The Galactic Stock Exchange soars in value to hear of your victory!)';//message
+ Captain Klicc: \ 'Thankyou, great captain. This was a great victory, and I will notify the Confederate Navy at once. (Earn 50 Promotion points, and receive 5 units of Drug stock. The Confederate Stock Exchange soars in value to hear of your victory!)';//message
   1;//message type, 0=quick message, 1=journal
   morse.wav;//sound, none for nothing
   0;//delay script for n seconds after conditions met
@@ -459,20 +479,20 @@ Player destroys enemy soldiers on jungle planet;//name--------------------------
    29.000000;//parameter3
     0.000000;//parameter4
   63;//effect number
-    500.000000;//parameter1
-    0.000000;//parameter2
+    0.000000;//parameter1
+    500.000000;//parameter2
     17.000000;//parameter3 slaves
     1.000000;//parameter4
   63;//effect number
-    300.000000;//parameter1
-    0.000000;//parameter2
+    0.000000;//parameter1
+    300.000000;//parameter2
     19.000000;//parameter3 weapons
     1.000000;//parameter4
   63;//effect number
-    100.000000;//parameter1
-    0.000000;//parameter2
+    0.000000;//parameter1
+    300.000000;//parameter2
     18.000000;//parameter3 drugs
-    1.000000;//parameter4 
+    1.000000;//parameter4 	
   end_effects;
 Enemy Attack Script (hurt player when shields down; small Alien);//name-----------------------------------------------------------------
   7;//identifier
@@ -1002,6 +1022,12 @@ Reactor: S;//name---------------------------------------------------------------
   0;//condition
     6.000000;//condition parameter0
     0.000000;//condition parameter1 
+	  0;//condition
+    220.000000;//condition parameter0
+    0.000000;//condition parameter1 
+		 7;//condition
+    1.000000;//condition parameter0
+    0.000000;//condition parameter1 
   43;//condition
     1.000000;//condition parameter0
     100.000000;//condition parameter1  
@@ -1071,6 +1097,11 @@ Disable Turret;//name-----------------------------------------------------------
     0.000000;//parameter2
     0.000000;//parameter3
     0.000000;//parameter4
+	 35;//effect number
+    150.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
   end_effects;
 Re-enable Turret;//name-----------------------------------------------------------------
   23;//identifier
@@ -1104,16 +1135,21 @@ Re-enable Turret;//name---------------------------------------------------------
     1.000000;//parameter2
     0.000000;//parameter3
     0.000000;//parameter4
+		 35;//effect number
+    150.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
   end_effects;
-Shields degenerate;//name-----------------------------------------------------------------
+Shields fail due to low energy (S generator);//name-----------------------------------------------------------------
   24;//identifier
   1;//run without calling (set to 0 if you use the script for example as a wield script)
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   300;//run every n milliseconds
-  Low power!! Shields failing!!;//message
+  Low power! Shields failing!;//message
   0;//message type, 0=quick message, 1=journal
-  none;//sound, none for nothing
+  pd.wav;//sound, none for nothing
   0;//delay script for n seconds after conditions met
   0;//disabled after first use, 0=no, 1=yes
   begin_conditions;
@@ -1915,6 +1951,11 @@ Player reaches captain, 600 Promotion;//name------------------------------------
     1.000000;//parameter2
     2.000000;//parameter3
     0.000000;//parameter4
+16;//effect number                 
+    213.000000;//parameter1      anti-air
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter
 16;//effect number                 
    1.000000;//parameter1      take ship inv short range scanner
     -1.000000;//parameter2
@@ -3172,7 +3213,7 @@ Kinmegag 71 mission completed;//name--------------------------------------------
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   2000;//run every n milliseconds
-   Captain Dreton: \ \ 'Thankyou, captain. The signal is sent, and even as we speak, the full might of the Confederate Navy is mobilizing across the United Confederacy of Planets: from the fields of Zemboi and the shipyards of Kryboru to the shining pillars of New Dawn. \ \ At least now the Confederacy will fall fighting, rather than die on our knees. (Earn 30 Promotion points, and receive a brand new devastating Flame Thrower! The Galactic Stock Exchange rises sharply as your achievement becomes known!)';//name;//message
+   Captain Dreton: \ \ 'Thankyou, captain. The signal is sent, and even as we speak, the full might of the Confederate Navy is mobilizing across the United Confederacy of Planets: from the fields of Zemboi and the shipyards of Kryboru to the shining pillars of New Dawn. \ \ At least now the Confederacy will fall fighting, rather than die on our knees. (Earn 30 Promotion points, and receive a brand new devastating Flame Thrower! The Confederate Stock Exchange rises sharply as your achievement becomes known!)';//name;//message
   1;//message type, 0=quick message, 1=journal
   morse.wav;//sound, none for nothing
   1;//delay script for n seconds after conditions met
@@ -3205,20 +3246,20 @@ Kinmegag 71 mission completed;//name--------------------------------------------
     1.000000;//parameter3
     0.000000;//parameter4 
   63;//effect number
-    500.000000;//parameter1
-    0.000000;//parameter2
+    0.000000;//parameter1
+    500.000000;//parameter2
     17.000000;//parameter3 slaves
     1.000000;//parameter4
   63;//effect number
-    300.000000;//parameter1
-    0.000000;//parameter2
+    0.000000;//parameter1
+    300.000000;//parameter2
     19.000000;//parameter3 weapons
     1.000000;//parameter4
   63;//effect number
-    100.000000;//parameter1
-    0.000000;//parameter2
+    0.000000;//parameter1
+    300.000000;//parameter2
     18.000000;//parameter3 drugs
-    1.000000;//parameter4 
+    1.000000;//parameter4 	
 	    16;//effect number               remove message item
     211.0000;//parameter1
     -1.000000;//parameter2
@@ -4129,7 +4170,7 @@ Player achieves negative X propaganda;//name------------------------------------
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   1000;//run every n milliseconds
- Captain, this is Admiral Werbung of the United Confederacy Navy Hearts and Minds Division. \ \ We have received reports that you have assisted us in neutralising the Dorian Prime tribal threat. Now these savages are under control, we are free to focus all of our energies on fighting the invading Alien fleet!  \ \ (You receive 1000 credits and 100 Promotion Points... and the Galactic Stock Exchange soars in value to hear the news of your achievement!);//message
+ Captain, this is Admiral Werbung of the United Confederacy Navy Hearts and Minds Division. \ \ We have received reports that you have assisted us in neutralising the Dorian Prime tribal threat. Now these savages are under control, we are free to focus all of our energies on fighting the invading Alien fleet!  \ \ (You receive 2000 credits and 50 Promotion Points. The Confederate Stock Exchange soars in value to hear the news of your achievement!);//message
   1;//message type, 0=quick message, 1=journal
   morse.wav;//sound, none for nothing
   0;//delay script for n seconds after conditions met
@@ -4141,12 +4182,12 @@ Player achieves negative X propaganda;//name------------------------------------
   end_conditions;
   begin_effects;
   44;//effect number
-    100.000000;//parameter1
+    50.000000;//parameter1
     1.000000;//parameter2
     9.000000;//parameter3
     0.000000;//parameter4  
  44;//effect number
-    1000.000000;//parameter1
+    2000.000000;//parameter1
     1.000000;//parameter2
     13.000000;//parameter3
     0.000000;//parameter4   
@@ -4317,7 +4358,7 @@ Unused;//name-----------------------------------------------------------------
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   1000;//run every n milliseconds
- Captain, this is Admiral Werbung of the United Confederacy Navy Hearts and Minds Division. \ \ We have received word from the chief of the local tribes - Nai' R' Nuaq the II - that due to your efforts Dorian Prime will finally end its decades-long conflict with the Confederacy, and join our battle against the Alien invasion! Congratulations! You are truly a beacon of liberty, justice and the Confederacy way! \ \ To show their gratitude for your compassion, Nai' R' Nuaq the II has sworn the Dorian Prime tribes will come to your aid whenever and wherever you need it most! \ (You receive a beacon to call in a dropship of deadly Dorian Prime warriors to your location, in addition to 500 credits and 50 Promotion Points. The Galactic Stock Exchange also soars in value!);//message
+ Captain, this is Admiral Werbung of the United Confederacy Navy Hearts and Minds Division. \ \ We have received word from the chief of the local tribes - Nai' R' Nuaq the II - that due to your efforts Dorian Prime will finally end its decades-long conflict with the Confederacy, and join our battle against the Alien invasion! Congratulations! You are truly a beacon of liberty, justice and the Confederacy way! \ \ To show their gratitude for your compassion, Nai' R' Nuaq the II has sworn the Dorian Prime tribes will come to your aid whenever and wherever you need it most! \ (You receive a beacon to call in a dropship of deadly Dorian Prime warriors to your location, in addition to 500 credits and 50 Promotion Points. The Confederate Stock Exchange also soars in value!);//message
   1;//message type, 0=quick message, 1=journal
   morse.wav;//sound, none for nothing
   0;//delay script for n seconds after conditions met
@@ -4344,20 +4385,20 @@ Unused;//name-----------------------------------------------------------------
     13.000000;//parameter3
     0.000000;//parameter4   
   63;//effect number
-    500.000000;//parameter1
-    0.000000;//parameter2
+    0.000000;//parameter1
+    500.000000;//parameter2
     17.000000;//parameter3 slaves
     1.000000;//parameter4
   63;//effect number
-    300.000000;//parameter1
-    0.000000;//parameter2
+    0.000000;//parameter1
+    300.000000;//parameter2
     19.000000;//parameter3 weapons
     1.000000;//parameter4
   63;//effect number
-    100.000000;//parameter1
-    0.000000;//parameter2
+    0.000000;//parameter1
+    300.000000;//parameter2
     18.000000;//parameter3 drugs
-    1.000000;//parameter4 
+    1.000000;//parameter4 	
   end_effects;
   Mortar;//name-----------------------------------------------------------------
   125;//identifier
@@ -4755,7 +4796,7 @@ Unused;//name-----------------------------------------------------------------
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   2000;//run every n milliseconds
-'Captain! Congratulations for defeating the Alien ships in the Ennokknmo System! \ \ To thank you, we have authorised you to call in five devastating airstrikes on the surface of any planet in the Confederacy! Set your target, and fire and destruction will rain from the sky... perfect for destroying Alien positions!' \ \ (Radio to call in five airstrikes transferred to your personal inventory);//message
+'Captain! Congratulations for defeating the Alien ships in the Ennokknmo System! \ \ In addition to a cash reward ($2000 credits), we have authorised you to call in five devastating airstrikes on the surface of any planet in the Confederacy! Set your target, and fire and destruction will rain from the sky... perfect for destroying Alien positions!' \ \ ($2000 credits and radio to call in five airstrikes transferred to your personal inventory. The Confederate Stock exchange soars in value to hear of your victory!);//message
   1;//message type, 0=quick message, 1=journal
   morse.wav;//sound, none for nothing
   3;//delay script for n seconds after conditions met
@@ -4777,6 +4818,26 @@ Unused;//name-----------------------------------------------------------------
     5.000000;//parameter2
     1.000000;//parameter3
     0.000000;//parameter4  
+ 44;//effect number
+    2000.000000;//parameter1
+    1.000000;//parameter2
+    13.000000;//parameter3
+    0.000000;//parameter4   
+  63;//effect number
+    0.000000;//parameter1
+    500.000000;//parameter2
+    17.000000;//parameter3 slaves
+    1.000000;//parameter4
+  63;//effect number
+    0.000000;//parameter1
+    300.000000;//parameter2
+    19.000000;//parameter3 weapons
+    1.000000;//parameter4
+  63;//effect number
+    0.000000;//parameter1
+    300.000000;//parameter2
+    18.000000;//parameter3 drugs
+    1.000000;//parameter4 	
   end_effects;
 Unused;//name-----------------------------------
 142;//identifier
@@ -5001,17 +5062,231 @@ If has new Pirate flag item, restore to Pirate ship;//name----------------------
       -1.000000;//parameter3
       0.000000;//parameter4 
     end_effects;
-end_of_file;
-
-
-23=continuously increase bar parameter3 by parameter1 for time parameter4 with creature visual effect from weapon parameter2
-
-	13;//condition                             area not x
-    28.000000;//condition parameter0
-    1.000000;//condition parameter1
-
-
-
-	13;//condition                             area not x
-    28.000000;//condition parameter0
+	Turret fire for alien;//name-----------------------------------------------------------------
+ 150;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  30;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  6;//condition
+    5.000000;//condition parameter0
     0.000000;//condition parameter1
+  31;//condition
+    1.000000;//condition parameter0
+    1.000000;//condition parameter1
+ 33;//condition
+    1.000000;//condition parameter0
+    0.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  24;//effect number
+    27.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+  Fire an invisible weapon randomly on in Zoo system. This makes enemies more aggressive.;//name----------------------------
+  151;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  1000;//run every n milliseconds
+  none;//message
+    0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+    13;//condition
+      11.000000;//condition parameter0
+      0.000000;//condition parameter1
+    8;//condition
+      2.000000;//condition parameter0
+      0.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+    24;//effect number
+      115.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+  end_effects;
+ Repair bot;//name-----------------------------------------------------------------
+  152;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  1500;//run every n milliseconds
+  Repairs in progress!;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  0;//condition
+    218.000000;//condition parameter0
+    1.000000;//condition parameter1 
+  3;//condition
+    1.000000;//condition parameter0
+    4.800000;//condition parameter1  
+ 43;//condition
+    0.000000;//condition parameter0
+    100.000000;//condition parameter1  
+  end_conditions;
+  begin_effects;
+  53;//effect number
+    1.750000;//parameter1
+    116.000000;//parameter2
+    0.000000;//parameter3
+    1550.000000;//parameter4
+  53;//effect number
+    -2.5000;//parameter1
+    116.000000;//parameter2
+    1.000000;//parameter3
+    1550.000000;//parameter4
+14;//effect number
+   15.000;//parameter1
+    0.020000;//parameter2
+    0.000000;//parameter3
+   0.000000;//parameter4
+    27;//effect number	                  light burst
+    27.000000;//parameter1
+    150.000000;//parameter2
+    1.500000;//parameter3
+    1.800000;//parameter4 
+  end_effects;
+  Shields degenerate (L generator);//name-----------------------------------------------------------------
+ 153;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  0;//condition                        
+   221.000000;//condition parameter0     
+    1.000000;//condition parameter1     
+  end_conditions;
+  begin_effects;
+  53;//effect number
+    -1.000000;//parameter1
+    -1.000000;//parameter2
+    8.000000;//parameter3
+    500.000000;//parameter4
+  end_effects;
+Shields regenerate (L generator);//name-----------------------------------------------------------------
+154;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  150;//run every n milliseconds
+  Shields activated;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  0;//condition
+    220.000000;//condition parameter0
+    1.000000;//condition parameter1 
+  3;//condition
+    1.000000;//condition parameter0
+    1.000000;//condition parameter1  
+ 43;//condition
+    8.000000;//condition parameter0
+    100.000000;//condition parameter1  
+  end_conditions;
+  begin_effects;
+  53;//effect number
+    1.700000;//parameter1
+    -1.000000;//parameter2
+    8.000000;//parameter3
+    250.000000;//parameter4
+  53;//effect number
+    0.050000;//parameter1
+    -1.000000;//parameter2
+    1.000000;//parameter3
+    250.000000;//parameter4
+26;//effect number
+    6.00000;//parameter1
+    1.000000;//parameter2
+    92.00000;//parameter3
+    0.00000;//parameter4
+  end_effects;
+ Shields fail due to low energy (L generator);//name-----------------------------------------------------------------
+  155;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  Low power! Shields failing!;//message
+  0;//message type, 0=quick message, 1=journal
+  pd.wav;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  0;//condition
+    220.000000;//condition parameter0
+    1.000000;//condition parameter1 
+  5;//condition
+    1.000000;//condition parameter0
+    1.000000;//condition parameter1 
+  end_conditions;
+  begin_effects;
+  59;//effect number
+    220.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+  If activated shields, remove item;//name-----------------------------------------------------------------
+  156;//identifier
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  end_conditions;
+  begin_effects;
+	16;//effect number
+     6.000000;//parameter1
+      -1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+  end_effects;
+    If deactivated shields, remove item;//name-----------------------------------------------------------------
+  157;//identifier
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  end_conditions;
+  begin_effects;
+	16;//effect number
+     7.000000;//parameter1
+      -1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+  end_effects;
+  end_of_file;

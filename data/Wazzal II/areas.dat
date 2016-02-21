@@ -13,7 +13,7 @@
 3;
 4;
   end_excluded_plot_object_classes;
- none;//enter area text, specify none to not show it
+none;//enter area text, specify none to not show it
 1;//Wolf IV: Control area---------------------------------------------------------Ship interior 1
   Wolf IV: Main deck;//area name
  0;//area class
