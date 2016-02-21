@@ -1306,7 +1306,7 @@ Dark Alien (claws);//name---------------------------------------
   1;//corpse item amount
   1;//attack type, 0=shooting attack, 1=close combat
   31;//particle to show on radar, -1=none
- 17;//primary AI tactic from AI_tactic.dat   0
+ 7;//primary AI tactic from AI_tactic.dat   0
   9;//secondary AI tactic from AI_tactic.dat   
   3;//footstep particle from particles.dat
   0;//die after how many seconds, 0=doesn't die
@@ -1326,8 +1326,8 @@ Dark Alien (claws);//name---------------------------------------
   1;//bars visible when player hovers mouse on top
   1.000000;//death animation speed
   1;//creature can move from area to another
-  1000.000000;//AI hear range
-  500.000000;//AI see range
+  1500.000000;//AI hear range
+  700.000000;//AI see range
   4.000000;//AI see angle
   begin_footstep_sounds;//
   step_a0.wav;//sample name
@@ -2275,7 +2275,7 @@ explosion2.wav;//sample name
     begin_conditions;
     32;//condition
       3.000000;//parameter0
-      60.000000;//parameter1 
+      80.000000;//parameter1 
     end_conditions;
     begin_effects;
     10;//effect number                   drop creature
@@ -2288,7 +2288,7 @@ explosion2.wav;//sample name
     begin_conditions;
     32;//condition
       3.000000;//parameter0
-      60.000000;//parameter1 
+      80.000000;//parameter1 
     end_conditions;
     begin_effects;
     10;//effect number                   drop creature
@@ -4517,7 +4517,7 @@ Alien Battleship;//name---------------------------------------
 500;//interval in milliseconds -----realistic combat		
      begin_conditions;		
      8;//condition		
-      15.000000;//condition parameter0		
+      12.000000;//condition parameter0		
       0.000000;//condition parameter1       		
       end_conditions;		
      begin_effects;		
@@ -4525,12 +4525,33 @@ Alien Battleship;//name---------------------------------------
        0.000000;//parameter1		
        19.000000;//parameter2		
        300.000000;//parameter3		
-       -1.000000;//parameter4		
-     27;//effect number		
+       -1.000000;//parameter4				
+     end_effects;
+	 500;//interval in milliseconds -----charge
+    begin_conditions;    
+    15;//condition
+     500.000000;//condition parameter0
+      0.000000;//condition parameter1 
+	 8;//condition
+     4.000000;//condition parameter0
+      0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    1;//effect number
+      1000.000000;//parameter1
+      -1.000000;//parameter2
+      1.75000000;//parameter3
+      0.000000;//parameter4
+ 46;//effect number
+     0.000000;//parameter1
+     17.000000;//parameter2
+      1000.000000;//parameter3
+      -1.000000;//parameter4
+	       27;//effect number		
       6.000000;//parameter1		
-       50.000000;//parameter2		
-       1.300000;//parameter3		
-       1.700000;//parameter4 		
+       200.000000;//parameter2		
+       4.300000;//parameter3		
+       4.700000;//parameter4 
      end_effects;
   end_timed_block;
   begin_specialties;//
@@ -4949,7 +4970,7 @@ Dark Alien (proj);//name---------------------------------------
   1;//corpse item amount
   0;//attack type, 0=shooting attack, 1=close combat
   31;//particle to show on radar, -1=none
-  17;//primary AI tactic from AI_tactic.dat   0
+  7;//primary AI tactic from AI_tactic.dat   0
   9;//secondary AI tactic from AI_tactic.dat
   3;//footstep particle from particles.dat
   0;//die after how many seconds, 0=doesn't die
@@ -4969,9 +4990,9 @@ Dark Alien (proj);//name---------------------------------------
   1;//bars visible when player hovers mouse on top
   1.000000;//death animation speed
   1;//creature can move from area to another
-  900.000000;//AI hear range
-  600.000000;//AI see range
-  6.000000;//AI see angle
+  1500.000000;//AI hear range
+  700.000000;//AI see range
+  4.000000;//AI see angle
   begin_footstep_sounds;//
   step_a0.wav;//sample name
   step_a1.wav;//sample name
@@ -9049,6 +9070,32 @@ explosion2.wav;//sample name
   begin_hit_block;//
   end_hit_block;
   begin_timed_block;//
+    30000;//interval in milliseconds
+    begin_conditions;
+    32;//condition
+      3.000000;//parameter0
+      200.000000;//parameter1 
+    end_conditions;
+    begin_effects;
+    10;//effect number                   drop creature
+      38.000000;//parameter1
+      -1.000000;//parameter2
+      7.000000;//parameter3
+      -1.000000;//parameter4 
+    end_effects;
+  20000;//interval in milliseconds
+    begin_conditions;
+    32;//condition
+      3.000000;//parameter0
+      200.000000;//parameter1 
+    end_conditions;
+    begin_effects;
+    10;//effect number                   drop creature
+      11.000000;//parameter1
+      -1.000000;//parameter2
+      7.000000;//parameter3
+      -1.000000;//parameter4 
+    end_effects;
   end_timed_block;
   begin_specialties;//
   ;//description
@@ -14332,9 +14379,6 @@ explosion2.wav;//sample name
     30;//condition                    less than 10 tanks
       37.000000;//parameter0
       10.000000;//parameter1 
-	  13;//condition                    not alien world
-      11.000000;//parameter0
-      1.000000;//parameter1 
     end_conditions;
     begin_effects;
     10;//effect number                   drop creature

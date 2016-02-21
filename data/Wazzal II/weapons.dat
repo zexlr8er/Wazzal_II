@@ -5825,6 +5825,32 @@ Volcano damage;//name---------------------------------------
     7.000000;//parameter3
     1.000000;//parameter4
   end_hit_effects;
+  Invisible loud weapon for making enemies aggressive on Zoo;//name---------------------------------------
+ 115;//identifier
+  0;//class
+  bullet0.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  0.000000;//bullet size
+  0.000000;//spread
+  1.000000;//bullet speed
+  1.000000;//time until bullet disappears
+  1000;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  -1;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.000000;//push target back
+  0.000000;//push shooter back
+  none;//fire sound
+  none;//hit sound
+  5.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  end_fire_effects;
+  begin_hit_effects;
+  end_hit_effects;
  Placeholder - red particle;//name---------------------------------------
  116;//identifier
   11;//class
