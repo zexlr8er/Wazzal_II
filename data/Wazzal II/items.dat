@@ -176,12 +176,12 @@ Unused;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-Viper Missile;//name---------------------------------------
+'Viper' missile;//name---------------------------------------
   5;//identifier
   0;//item class
   5.000000;//weight
-  The deadly heat-seeking Viper Missiles are the smallest and cheapest missile available. Use to equip!;//short description
-  The deadly heat-seeking Viper Missiles are the smallest and cheapest missile available. Use to equip!;//first pick up text
+  These deadly heat-seeking 'Viper' missiles will track and cause devastating damage to the nearest enemy ship. Use to equip!;//short description
+  These deadly heat-seeking 'Viper' missiles will track and cause devastating damage to the nearest enemy ship. Use to equip!;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
@@ -828,7 +828,7 @@ Unused;//name---------------------------------------
   20;//identifier
   0;//item class
  50.000000;//weight
-  Your mine-layer allows you to release a cargo of deadly space mines into battle, destroying any ship that comes near.;//short description
+  none;//short description
   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -841,7 +841,7 @@ Unused;//name---------------------------------------
   begin_wield_slots;
   end_wield_slots;
   begin_effects_block;
-  Mines ready for deployment!!;//event text
+  none;//event text
     none;//event failure text
     use.wav;//sound, none for nothing
     0;//vanishes after event, 0=no, 1=yes
@@ -850,20 +850,15 @@ Unused;//name---------------------------------------
     begin_conditions;
     end_conditions;
     begin_effects;
-    9;//effect number
-      24.000000;//parameter1
-      0.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4
     end_effects;
   end_effects_block;
   begin_combinations;
   end_combinations;
-Thermon C mines;//name---------------------------------------
+'Hedgehog' mines;//name---------------------------------------
   21;//identifier
   0;//item class
   5.000000;//weight
-  The Thermon C class of mines are the smallest and cheapest mine available. Use to equip and release a cargo of deadly space mines into battle, destroying any ship that comes near!;//short description
+  These deadly space mines can be released into battle, destroying any ship that comes near. Use to equip!;//short description
   none;//first pick up text
   0.20000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -4159,11 +4154,11 @@ Painkillers;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-400: Viper missile;//name---------------------------------------
+400: 'Viper' missiles;//name---------------------------------------
   104;//identifier
   0;//item class
   0.000000;//weight
-  The Viper Missile is the smallest and cheapest missile available. They are extremely volatile, and extremely deadly. Purchased missiles will be placed in your ship's inventory. \ \ Price: 400 credits;//short description
+  These deadly heat-seeking 'Viper' missiles will track and cause devastating damage to the nearest enemy. Purchased missiles will be placed in your ship's inventory. \ \ Price: 400 credits;//short description
   none;//first pick up text
   0.350000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -4967,7 +4962,7 @@ Commanding destroyer;//name---------------------------------------
   You purchase the rifle.;//event text
     You need more money.;//event failure text
     chaching.wav;//sound, none for nothing
-    0;//vanishes after event, 0=no, 1=yes
+    1;//vanishes after event, 0=no, 1=yes
     U;//use key
     0;//quick key
     begin_conditions;
@@ -5837,11 +5832,11 @@ none;//event text
   end_effects_block;
   begin_combinations;
   end_combinations;
-200: Thermon C mines;//name---------------------------------------
+200: 'Hedgehog' mines;//name---------------------------------------
   138;//identifier
   0;//item class
   0.000000;//weight
-  The Thermon C class of mines are the smallest and cheapest mine avaliable. They are extremely volatile, and extremely deadly. Purchased mines will be placed in your ship's inventory. \ \ Price: 200 credits;//short description
+  These deadly space mines can be released into battle, destroying any ship that comes too close. Purchased mines will be placed in your ship's inventory. \ \ Price: 200 credits;//short description
   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -5880,12 +5875,12 @@ none;//event text
   end_effects_block;
   begin_combinations;
   end_combinations;
-Kwaj 4 Torpedoes;//name---------------------------------------
+'Barracuda' torpedoes;//name---------------------------------------
   139;//identifier
   0;//item class
   5.000000;//weight
-  The Kwaj 4 torpedo is the smallest and cheapest torpedo available. They are extremely volatile, so it would be wise to handle them with care.;//short description
-  The Kwaj 4 torpedo is the smallest and cheapest torpedo available. They are extremely volatile, so it would be wise to handle them with care!;//first pick up text
+  The 'Barracuda' torpedo travels in a fast, straight trajectory and explodes destructively on impact: perfect for combat against capital ships!;//short description
+  The 'Barracuda' torpedo travels in a fast, straight trajectory and explodes destructively on impact: perfect for combat against capital ships!;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
@@ -5915,11 +5910,11 @@ Kwaj 4 Torpedoes;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-300: Kwaj 4 Torpedoes;//name---------------------------------------
+300: 'Barracuda' torpedoes;//name---------------------------------------
  140;//identifier
   0;//item class
   0.000000;//weight
- The Kwaj 4 torpedo is the smallest and cheapest torpedo available. Torpedoes are distinguished from missiles as they travel in a fast, straight trajectory, perfect for combat against capital ships. Purchased torpedoes will be placed in your ship's inventory. \ \ Price: 300 credits;//short description
+ The 'Barracuda' torpedo travels in a fast, straight trajectory and explodes destructively on impact: perfect for combat against capital ships! Purchased torpedoes will be placed in your ship's inventory. \ \ Price: 300 credits;//short description
   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner

@@ -406,7 +406,7 @@ Money bar;//description
     Promotion Points updated!;//message
     9.000000;//parameter0
     0.000000;//parameter1
-    3000.000000;//parameter2
+    100000.000000;//parameter2
     0.000000;//parameter3  
   energy bar;//description
     5;//specialty 

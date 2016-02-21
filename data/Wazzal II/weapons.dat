@@ -200,7 +200,7 @@ Laser alien heavy fighter;//name---------------------------------------double ba
     0.000000;//parameter3
     0.000000;//parameter4
   end_hit_effects;
-Viper Missile;//name---------------------------------------
+Fire missile;//name---------------------------------------
   5;//identifier
   0;//class
   invisible.png;//bullet texture
@@ -3804,7 +3804,7 @@ Mining Beam;//name---------------------------------------
     10.000000;//parameter3
     0.000000;//parameter4         
   end_hit_effects;
-Kwaj 4 Torpedo;//name---------------------------------------
+Fire torpedo;//name---------------------------------------
   79;//identifier
  1;//class
   torpedo.png;//bullet texture

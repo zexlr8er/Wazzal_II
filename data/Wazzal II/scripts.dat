@@ -52,6 +52,31 @@ Initialisation;//name-----------------------------------------------------------
     1.000000;//parameter2
     0.000000;//parameter3
     0.000000;//parameter4 
+	  16;//effect number                   Give Inventory 1 knife
+    57.000000;//parameter1
+    5.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number                   Give Inventory 1 pistol
+    14.000000;//parameter1
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+	  16;//effect number                 Give  Inventory spot item
+    58.000000;//parameter1         
+    1.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+	  16;//effect number                   Give Inventory 1 mines
+    76.000000;//parameter1
+    20.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
+	  16;//effect number            Give Inventory 1 rocket item       
+    64.000000;//parameter1       
+    3.000000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4
  16;//effect number                   Give Inventory 1 bullets
     15.000000;//parameter1
     100.000000;//parameter2
@@ -60,21 +85,6 @@ Initialisation;//name-----------------------------------------------------------
   16;//effect number                   Give Inventory 1 health packs
     17.000000;//parameter1
     3.000000;//parameter2
-    1.000000;//parameter3
-    0.000000;//parameter4
-  16;//effect number                   Give Inventory 1 mines
-    76.000000;//parameter1
-    20.000000;//parameter2
-    1.000000;//parameter3
-    0.000000;//parameter4
-  16;//effect number                   Give Inventory 1 knife
-    57.000000;//parameter1
-    5.000000;//parameter2
-    1.000000;//parameter3
-    0.000000;//parameter4
-  16;//effect number                   Give Inventory 1 pistol
-    14.000000;//parameter1
-    1.000000;//parameter2
     1.000000;//parameter3
     0.000000;//parameter4
 	  35;//effect number             disable L gen
@@ -192,11 +202,6 @@ Initialisation;//name-----------------------------------------------------------
     1.000000;//parameter2
     2.000000;//parameter3
     0.000000;//parameter4
-  16;//effect number                   Give store Inventory repair unit item
-    44.000000;//parameter1
-    1.000000;//parameter2
-    2.000000;//parameter3
-    0.000000;//parameter4
   16;//effect number                   Give store Inventory battery
     108.000000;//parameter1
     1.000000;//parameter2
@@ -207,32 +212,27 @@ Initialisation;//name-----------------------------------------------------------
     1.000000;//parameter2
     2.000000;//parameter3
     0.000000;//parameter4
+	  16;//effect number                 
+    65.000000;//parameter1         Give store Inventory rocket item
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
   16;//effect number                   Give store Inventory landmines item
     34.000000;//parameter1
     1.000000;//parameter2
     2.000000;//parameter3
     0.000000;//parameter4
-  16;//effect number                   Give store Inventory goggles item
-    46.000000;//parameter1
+	16;//effect number                   Give store Inventory grenade item
+    147.000000;//parameter1
     1.000000;//parameter2
     2.000000;//parameter3
     0.000000;//parameter4
- 16;//effect number                   Give store Inventory ECM item
-    159.000000;//parameter1
+	16;//effect number                   Give store Inventory mortar item
+    192.000000;//parameter1
     1.000000;//parameter2
     2.000000;//parameter3
-    0.000000;//parameter4
-  16;//effect number                 
-    51.000000;//parameter1         Give store Inventory binoculars item
-    1.000000;//parameter2
-    2.000000;//parameter3
-    0.000000;//parameter4
-  16;//effect number                 
-    64.000000;//parameter1         Give Inventory 1 rocket item
-    3.000000;//parameter2
-    1.000000;//parameter3
-    0.000000;//parameter4
-  16;//effect number                 
+    0.000000;//parameter4	
+	  16;//effect number                 
     55.000000;//parameter1         Give store Inventory liquor item
     1.000000;//parameter2
     2.000000;//parameter3
@@ -247,13 +247,38 @@ Initialisation;//name-----------------------------------------------------------
     1.000000;//parameter2
     2.000000;//parameter3
     0.000000;//parameter4
+		16;//effect number                   Give store Inventory steroids item
+    155.000000;//parameter1
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4	
+  16;//effect number                   Give store Inventory goggles item
+    46.000000;//parameter1
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+  16;//effect number                 
+    51.000000;//parameter1         Give store Inventory binoculars item
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
   16;//effect number                 
     93.000000;//parameter1         Give store Inventory knife
     1.000000;//parameter2
     2.000000;//parameter3
     0.000000;//parameter4
-  16;//effect number                 
-    65.000000;//parameter1         Give store Inventory rocket item
+	16;//effect number                   Give store Inventory rifle item
+    151.000000;//parameter1
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4	
+	  16;//effect number                   Give store Inventory repair unit item
+    44.000000;//parameter1
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
+	 16;//effect number                   Give store Inventory ECM item
+    159.000000;//parameter1
     1.000000;//parameter2
     2.000000;//parameter3
     0.000000;//parameter4
@@ -271,7 +296,7 @@ Initialisation;//name-----------------------------------------------------------
     225.000000;//parameter1
     1.000000;//parameter2
     2.000000;//parameter3
-    0.000000;//parameter4
+    0.000000;//parameter4	
  16;//effect number                   Give store mine item
     138.000000;//parameter1
     1.000000;//parameter2
@@ -281,32 +306,7 @@ Initialisation;//name-----------------------------------------------------------
     140.000000;//parameter1
     1.000000;//parameter2
     2.000000;//parameter3
-    0.000000;//parameter4
-16;//effect number                   Give store Inventory grenade item
-    147.000000;//parameter1
-    1.000000;//parameter2
-    2.000000;//parameter3
-    0.000000;//parameter4
-	16;//effect number                   Give store Inventory mortar item
-    192.000000;//parameter1
-    1.000000;//parameter2
-    2.000000;//parameter3
-    0.000000;//parameter4
-16;//effect number                   Give store Inventory rifle item
-    151.000000;//parameter1
-    1.000000;//parameter2
-    2.000000;//parameter3
-    0.000000;//parameter4
-16;//effect number                   Give store Inventory steroids item
-    155.000000;//parameter1
-    1.000000;//parameter2
-    2.000000;//parameter3
-    0.000000;//parameter4
-  16;//effect number                 Give  Inventory spot item
-    58.000000;//parameter1         
-    1.000000;//parameter2
-    1.000000;//parameter3
-    0.000000;//parameter4
+    0.000000;//parameter4	
   47;//effect number                 Intro dialogue
     18.000000;//parameter1         
     0.000000;//parameter2
@@ -5142,19 +5142,19 @@ If has new Pirate flag item, restore to Pirate ship;//name----------------------
     1.000000;//condition parameter1 
   3;//condition
     1.000000;//condition parameter0
-    4.800000;//condition parameter1  
+    1.700000;//condition parameter1  
  43;//condition
     0.000000;//condition parameter0
     100.000000;//condition parameter1  
   end_conditions;
   begin_effects;
   53;//effect number
-    1.750000;//parameter1
+    1.10000;//parameter1
     116.000000;//parameter2
     0.000000;//parameter3
     1550.000000;//parameter4
   53;//effect number
-    -2.5000;//parameter1
+    -1.6000;//parameter1
     116.000000;//parameter2
     1.000000;//parameter3
     1550.000000;//parameter4
