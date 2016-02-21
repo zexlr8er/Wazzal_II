@@ -43,4 +43,7 @@ Paper;//name--------------------------------------
     Meteor hit;//name--------------------------------------
   14;//identifier
  hit2.wav;//filename
+  Wrench/repars;//name--------------------------------------
+  15;//identifier
+ wrench.wav;//filename
 end_of_file;

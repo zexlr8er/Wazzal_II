@@ -5045,4 +5045,47 @@ If has new Pirate flag item, restore to Pirate ship;//name----------------------
     1.000000;//parameter3
     0.000000;//parameter4
   end_effects;
-end_of_file;
+end_of_file; Repair bot;//name-----------------------------------------------------------------
+  152;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  1500;//run every n milliseconds
+  Repairs in progress!;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  0;//condition
+    218.000000;//condition parameter0
+    1.000000;//condition parameter1 
+  3;//condition
+    1.000000;//condition parameter0
+    4.800000;//condition parameter1  
+ 43;//condition
+    0.000000;//condition parameter0
+    100.000000;//condition parameter1  
+  end_conditions;
+  begin_effects;
+  53;//effect number
+    1.750000;//parameter1
+    116.000000;//parameter2
+    0.000000;//parameter3
+    1550.000000;//parameter4
+  53;//effect number
+    -2.5000;//parameter1
+    116.000000;//parameter2
+    1.000000;//parameter3
+    1550.000000;//parameter4
+14;//effect number
+   15.000;//parameter1
+    0.020000;//parameter2
+    0.000000;//parameter3
+   0.000000;//parameter4
+    27;//effect number	                  light burst
+    27.000000;//parameter1
+    150.000000;//parameter2
+    1.500000;//parameter3
+    1.800000;//parameter4 
+  end_effects;

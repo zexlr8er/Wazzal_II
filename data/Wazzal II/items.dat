@@ -8945,4 +8945,73 @@ Use to construct a ZEX Industries MXII Energy Pool, capable of recharging your p
   end_effects_block;
   begin_combinations;
   end_combinations;
-end_of_file;    
+end_of_file;     Ship repair bot (activated);//name---------------------------------------
+ 218;//identifier
+  0;//item class
+  100.000000;//weight
+  This automated ship repair bot will automatically hull damage. It will only use energy when actively repairing your ship! \ \ Currently turned ON!;//short description
+  none;//first pick up text
+  0.3900;//size on map
+  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  0;//particle to shown on radar
+  1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
+  repairbot.png;//texture name
+  -1;//wielded script,-1=nothing, only applicable for wieldable items
+  -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
+  1;//show help text for conditions
+  begin_wield_slots;
+  end_wield_slots;
+  begin_effects_block;
+    Repair bot deactivated;//event text
+    none;//event failure text
+    use.wav;//sound, none for nothing
+    1;//vanishes after event, 0=no, 1=yes
+    U;//use key
+    0;//quick key
+    begin_conditions; 
+    end_conditions;
+    begin_effects;   
+    16;//effect number
+      219.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4	
+    end_effects;
+  end_effects_block;
+  begin_combinations;
+  end_combinations;
+   Ship repair bot;//name---------------------------------------
+ 219;//identifier
+  0;//item class
+  100.000000;//weight
+  Use to activate an automated ship repair bot that will automatically hull damage. It will only use energy when actively repairing your ship! \ \ Currently turned OFF!;//short description
+  none;//first pick up text
+  0.3900;//size on map
+  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  0;//particle to shown on radar
+  1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
+  repairbot.png;//texture name
+  -1;//wielded script,-1=nothing, only applicable for wieldable items
+  -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
+  1;//show help text for conditions
+  begin_wield_slots;
+  end_wield_slots;
+  begin_effects_block;
+    Repair bot activated!;//event text
+    none;//event failure text
+    use.wav;//sound, none for nothing
+    1;//vanishes after event, 0=no, 1=yes
+    U;//use key
+    0;//quick key
+    begin_conditions; 
+    end_conditions;
+    begin_effects;  
+    16;//effect number
+      218.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4		
+    end_effects;
+  end_effects_block;
+  begin_combinations;
+  end_combinations;
