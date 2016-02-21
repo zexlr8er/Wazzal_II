@@ -19,31 +19,37 @@ Thunder;//name--------------------------------------
 Paper;//name--------------------------------------
   6;//identifier
   paper.wav;//filename
-  Thunder;//name--------------------------------------
+Thunder;//name--------------------------------------
   7;//identifier
   thunder.wav;//filename
-    Thunder;//name--------------------------------------
+Thunder;//name--------------------------------------
   8;//identifier
   thunderclap.wav;//filename
-  Jumpgate;//name--------------------------------------
+Jumpgate;//name--------------------------------------
   9;//identifier
   jumpgate.wav;//filename
-  Alien airstrike;//name--------------------------------------
+Alien airstrike;//name--------------------------------------
   10;//identifier
   explode.WAV;//filename
-  Alien fighter arrival (tear);//name--------------------------------------
+Alien fighter arrival (tear);//name--------------------------------------
   11;//identifier
   explosion2.wav;//filename
-  Meteor hit;//name--------------------------------------
+Meteor hit;//name--------------------------------------
   12;//identifier
  hit1.wav;//filename
-   Meteor hit;//name--------------------------------------
+Meteor hit;//name--------------------------------------
   13;//identifier
  hit.wav;//filename
-    Meteor hit;//name--------------------------------------
+Meteor hit;//name--------------------------------------
   14;//identifier
  hit2.wav;//filename
-  Wrench/repars;//name--------------------------------------
+Wrench/repars;//name--------------------------------------
   15;//identifier
  wrench.wav;//filename
+Other explosion;//name--------------------------------------
+  16;//identifier
+  explosion1.wav;//filename
+Phaser;//name--------------------------------------
+  17;//identifier
+  phaser.wav;//filename
 end_of_file;

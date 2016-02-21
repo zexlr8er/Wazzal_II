@@ -5887,4 +5887,81 @@ Volcano damage;//name---------------------------------------
   end_fire_effects;
   begin_hit_effects;
   end_hit_effects;
+ Atmospheric laser for Wolf IV;//name---------------------------------------
+ 117;//identifier
+  1;//class
+  laser_small3.png;//bullet texture
+  1;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  18.000000;//bullet size
+  0.0700000;//spread
+  3.600000;//bullet speed
+  1200.000000;//time until bullet disappears
+  140;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.00000;//push target back
+  0.000000;//push shooter back
+  laser1.wav;//fire sound
+  hit2.wav;//hit sound
+  0.500000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  27;//effect number
+    3.000000;//parameter1
+    50.000000;//parameter2
+    2.300000;//parameter3
+    3.350000;//parameter4  
+  27;//effect number
+    4.000000;//parameter1
+    50.000000;//parameter2
+    5.300000;//parameter3
+    7.400000;//parameter4 
+  end_fire_effects;
+  begin_hit_effects;
+  end_hit_effects;
+ Console fires;//name--------------------------------------- 
+  118;//identifier
+  2;//class
+  invisible.png;//bullet texture
+  1;//bullets at one shot
+  1;//stop at hit 0=stop where hit, 1=don't stop
+  1.000000;//bullet size
+  6.280000;//spread
+  0.018000;//bullet speed
+  500.000000;//time until bullet disappears
+  40;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  -1;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  fire.wav;//hit effect sound
+  0.000000;//push target back
+  -0.040000;//push shooter back
+  none;//fire sound
+  fire.wav;//hit sound
+  0.050000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  26;//effect number
+    82.000000;//parameter1
+    7.000000;//parameter2
+    118.000000;//parameter3
+    0.000000;//parameter4
+  26;//effect number
+    82.000000;//parameter1
+    1.000000;//parameter2
+    118.000000;//parameter3
+    0.000000;//parameter4  	
+  26;//effect number
+    83.000000;//parameter1
+    5.000000;//parameter2
+    118.000000;//parameter3
+    0.000000;//parameter4 	
+  end_fire_effects;
+  begin_hit_effects;
+  end_hit_effects;
 end_of_file;

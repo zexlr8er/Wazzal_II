@@ -463,6 +463,11 @@ Leave Bridge;//name---------------------------------------
     begin_conditions;
     end_conditions;
     begin_effects;
+		 29;//effect number              if recently fired, give atmospheric trigger item
+    162.000000;//parameter1
+    1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
     19;//effect number                          drop plot
       17.000000;//parameter1
       1.000000;//parameter2
@@ -9416,6 +9421,26 @@ L Shield generator;//name---------------------------------------
       0.000000;//parameter3
       0.000000;//parameter4
     end_effects;
+  end_effects_block;
+  begin_combinations;
+  end_combinations;
+ Atmospheric Wolf IV trigger;//name---------------------------------------
+  226;//identifier
+  0;//item class
+  0.000000;//weight
+  Triggers when recent combat;//short description
+  none;//first pick up text
+  0.350000;//size on map
+  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  0;//particle to shown on radar
+  1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
+ shieldgen.png;//texture name
+  -1;//wielded script,-1=nothing, only applicable for wieldable items
+  -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
+  0;//show help text for conditions
+  begin_wield_slots;
+  end_wield_slots;
+  begin_effects_block;
   end_effects_block;
   begin_combinations;
   end_combinations;

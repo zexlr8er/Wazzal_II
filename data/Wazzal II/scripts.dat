@@ -5384,4 +5384,115 @@ Defeat ships on desert planet;//name--------------------------------------------
     18.000000;//parameter3 drugs
     1.000000;//parameter4 	  
   end_effects;
+  Atmospheric explosions in Wolf IV, sound 1;//name-----------------------------------------------------------------
+  160;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  1000;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  	  0;//condition                      has item
+    226.000000;//condition parameter0
+    1.000000;//condition parameter1 
+          8;//condition
+    7.000000;//condition parameter0
+   0.000000;//condition parameter1
+          13;//condition
+    1.000000;//condition parameter0
+   0.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+		14;//effect number     sound
+    11.000000;//parameter1
+    0.700000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4 
+	   	36;//effect number               shake
+    6.500000;//parameter1
+    1200.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4 
+  end_effects;
+    Atmospheric explosions in Wolf IV, sound 2;//name-----------------------------------------------------------------
+  161;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  1230;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  	  0;//condition                      has item
+    226.000000;//condition parameter0
+    1.000000;//condition parameter1 
+          8;//condition
+    8.000000;//condition parameter0
+   0.000000;//condition parameter1
+          13;//condition
+    1.000000;//condition parameter0
+   0.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+		14;//effect number     sound
+    16.000000;//parameter1
+    1.300000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4 
+	   	36;//effect number               shake
+    9.000000;//parameter1
+    1200.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4 
+  end_effects;
+      Atmospheric check for recent firing on Wolf IV;//name-----------------------------------------------------------------
+  162;//identifier
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  500;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  45;//condition                     recently hit
+    -1.000000;//condition parameter0
+   1000.000000;//condition parameter1 
+  end_conditions;
+  begin_effects;
+		16;//effect number    give trigger item
+    226.000000;//parameter1
+    1.00000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4 
+  end_effects;
+Atmospheric check to remove trigger item on leaving Wolf IV;//name-----------------------------------------------------------------
+  163;//identifier
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  500;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  end_conditions;
+  begin_effects;
+		16;//effect number    give trigger item
+    226.000000;//parameter1
+    -1.00000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4 
+  end_effects;
   end_of_file;
