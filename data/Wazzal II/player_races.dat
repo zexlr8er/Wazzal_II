@@ -584,6 +584,30 @@ Captain, Wolf IV;//name------------------------------
     0;//row that contains the 4 weapon frames
     6.000000;//weapon_x
     27.000000;//weapon_y
+14;//weapon class number                                 placeholder
+    1;//can use the weapon class (0=cannot, 1=can)
+    captain_weapons.png;//texture name
+    0;//row that contains the 4 weapon frames
+    6.000000;//weapon_x
+    27.000000;//weapon_y
+15;//weapon class number                                 placeholder
+    1;//can use the weapon class (0=cannot, 1=can)
+    captain_weapons.png;//texture name
+    0;//row that contains the 4 weapon frames
+    6.000000;//weapon_x
+    27.000000;//weapon_y
+16;//weapon class number                                 placeholder
+    1;//can use the weapon class (0=cannot, 1=can)
+    captain_weapons.png;//texture name
+    0;//row that contains the 4 weapon frames
+    6.000000;//weapon_x
+    27.000000;//weapon_y
+17;//weapon class number                                 sniper (less damage to fighters)
+    1;//can use the weapon class (0=cannot, 1=can)
+    captain_weapons.png;//texture name
+    0;//row that contains the 4 weapon frames
+    6.000000;//weapon_x
+    27.000000;//weapon_y
   end_weapon_frames;
   begin_specialties;
 Fuel;//description

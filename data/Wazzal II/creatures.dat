@@ -2323,6 +2323,12 @@ resistance to fusion beam;//description
     0.37000000;//parameter1
     0.000000;//parameter2
     0.000000;//parameter3
+resistance to sniper;//description
+    1;//number
+    17.000000;//parameter0
+    0.5000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3	
   No AI;//description
     5;//number
     0.000000;//parameter0
@@ -3007,6 +3013,12 @@ resistance to fusion beam;//description
     0.3000000;//parameter1
     0.000000;//parameter2
     0.000000;//parameter3
+resistance to sniper;//description
+    1;//number
+    17.000000;//parameter0
+    0.5000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3	
   end_specialties;
 Confederacy destroyer (allied);//name---------------------------------------
   23;//identifier
@@ -3525,7 +3537,7 @@ Rocket;//name---------------------------------------
   5;//die after how many seconds, 0=doesn't die
   -1;//eat item number from items.dat, -1=nothing
   1.000000;//creature size
-  2.000000;//creature weight (affects pushing)
+  0.100000;//creature weight (affects pushing)
   1.800000;//maximum movement speed
   1.500000;//minimum movement speed
   1.500000;//leg animation speed
@@ -4954,12 +4966,18 @@ resistance to projectile 2;//description
     0.900000;//parameter1
     0.000000;//parameter2
     0.000000;//parameter3
-	resistance to fire;//description
+resistance to fire;//description
     1;//number
     7.000000;//parameter0
     0.2000000;//parameter1
     0.000000;//parameter2
     0.000000;//parameter3
+resistance to sniper;//description
+    1;//number
+    17.000000;//parameter0
+    0.5000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3	
   end_specialties;
 Dark Alien (proj);//name---------------------------------------
   38;//identifier
@@ -9116,6 +9134,12 @@ resistance to bow;//description
     0.0000000;//parameter1
     0.000000;//parameter2
     0.000000;//parameter3
+resistance to sniper;//description
+    1;//number
+    17.000000;//parameter0
+    0.5000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3	
 resistance to fusion beam;//description
     1;//number
     12.000000;//parameter0
@@ -9350,6 +9374,12 @@ resistance to fusion beam;//description
     0.37000000;//parameter1
     0.000000;//parameter2
     0.000000;//parameter3
+resistance to sniper;//description
+    1;//number
+    17.000000;//parameter0
+    0.5000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3	
   No AI;//description
     5;//number
     0.000000;//parameter0
@@ -9695,6 +9725,12 @@ resistance to fusion beam;//description
     0.3000000;//parameter1
     0.000000;//parameter2
     0.000000;//parameter3
+resistance to sniper;//description
+    1;//number
+    17.000000;//parameter0
+    0.4000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3	
   end_specialties;
 Captain (no gravity);//name---------------------------------------
   64;//identifier
@@ -13511,6 +13547,12 @@ resistance to projectile 2;//description
     0.2000000;//parameter1
     0.000000;//parameter2
     0.000000;//parameter3
+resistance to sniper;//description
+    1;//number
+    17.000000;//parameter0
+    0.5000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3	
   end_specialties;
   Thrown fishing line;//name---------------------------------------
   96;//identifier
@@ -14444,6 +14486,12 @@ resistance to fusion beam;//description
     0.37000000;//parameter1
     0.000000;//parameter2
     0.000000;//parameter3
+resistance to sniper;//description
+    1;//number
+    17.000000;//parameter0
+    0.5000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3	
   No AI;//description
     5;//number
     0.000000;//parameter0
