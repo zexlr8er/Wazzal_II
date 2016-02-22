@@ -145,7 +145,7 @@ Wolf IV transmission;//name ---------------------------------------------
 Wolf IV;//name ---------------------------------------------BLANK y
   18;//identifier
  ;//text
-  3000;//duration
+  500000;//duration
   19;//next dialog line (-1=none)
   1.000000;//text color r
   1.000000;//text color g
@@ -153,7 +153,7 @@ Wolf IV;//name ---------------------------------------------BLANK y
 Wolf IV;//name --------------------------------------------- y
   19;//identifier
  Fighting the Aliens here is useless. Build up speed by holding the 'Up' arrow, and avoid as much fire as you can!;//text
-  12000;//duration
+  10500;//duration
   20;//next dialog line (-1=none)
   1.000000;//text color r
   1.000000;//text color g
@@ -161,15 +161,15 @@ Wolf IV;//name --------------------------------------------- y
 Wolf IV;//name ---------------------------------------------BLANK y
   20;//identifier
  ;//text
-  1500;//duration
-  26;//next dialog line (-1=none)
+  1300;//duration
+  21;//next dialog line (-1=none)
   1.000000;//text color r
   1.000000;//text color g
   1.000000;//text color b
 Wolf IV;//name --------------------------------------------- y
  21;//identifier
  Our best hope is to flee as fast as possible towards the planet Errxelz 8 on the opposite side of the system!;//text
-  14000;//duration
+  10500;//duration
   22;//next dialog line (-1=none)
   1.000000;//text color r
   1.000000;//text color g
@@ -177,48 +177,48 @@ Wolf IV;//name --------------------------------------------- y
 Wolf IV;//name ---------------------------------------------BLANK y
   22;//identifier
  ;//text
- 1500;//duration
-  23;//next dialog line (-1=none)
+  1300;//duration
+ 23;//next dialog line (-1=none)
   1.000000;//text color r
   1.000000;//text color g
   1.000000;//text color b
 Wolf IV;//name --------------------------------------------- y
   23;//identifier
- There is a military base on the north of Errxelz 8. Once you arrive at the planet, right-click on it to land and make your way north!;//text
-  20000;//duration
- -1;//next dialog line (-1=none)
+ Your shields are down! Power them up by pressing 'Q'!;//text
+  4800;//duration
+  24;//next dialog line (-1=none)
   1.000000;//text color r
   1.000000;//text color g
   1.000000;//text color b
-Wolf IV;//name ---------------------------------------------BLANK y
+  Wolf IV;//name ---------------------------------------------BLANK y
   24;//identifier
  ;//text
-  1500;//duration
- 21;//next dialog line (-1=none)
+  1300;//duration
+ 25;//next dialog line (-1=none)
   1.000000;//text color r
   1.000000;//text color g
   1.000000;//text color b
 Wolf IV;//name --------------------------------------------- y
   25;//identifier
  Fire an ECM weapon to defend yourself against Alien missiles!;//text
-  5000;//duration
-  24;//next dialog line (-1=none)
-  1.000000;//text color r
-  1.000000;//text color g
-  1.000000;//text color b
-Wolf IV;//name --------------------------------------------- y
-  26;//identifier
- Your shields are down! Power them up by pressing 'Q'!;//text
-  5500;//duration
-  27;//next dialog line (-1=none)
+  4800;//duration
+  26;//next dialog line (-1=none)
   1.000000;//text color r
   1.000000;//text color g
   1.000000;//text color b
 Wolf IV;//name ---------------------------------------------BLANK y
-  27;//identifier
+  26;//identifier
  ;//text
-  1500;//duration
-  25;//next dialog line (-1=none)
+ 1300;//duration
+  27;//next dialog line (-1=none)
+  1.000000;//text color r
+  1.000000;//text color g
+  1.000000;//text color b
+Wolf IV;//name --------------------------------------------- y
+  27;//identifier
+ There is a military base on the north of Errxelz 8. Once you arrive at the planet, right-click on it to land and make your way north!;//text
+  20000;//duration
+ -1;//next dialog line (-1=none)
   1.000000;//text color r
   1.000000;//text color g
   1.000000;//text color b

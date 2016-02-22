@@ -6847,12 +6847,12 @@ Descend to Jupiter;//name---------------------------------------
     begin_conditions;
 	    32;//condition
       3.000000;//parameter0
-      80.000000;//parameter1 
+      70.000000;//parameter1 
 	  	   29;//condition
       18.000000;//parameter0
       1.000000;//parameter1 
 	  	8;//condition
-      4.000000;//parameter0
+      6.000000;//parameter0
       0.000000;//parameter1 
     end_conditions;
     begin_effects;
