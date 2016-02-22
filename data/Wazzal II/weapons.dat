@@ -5964,4 +5964,35 @@ Volcano damage;//name---------------------------------------
   end_fire_effects;
   begin_hit_effects;
   end_hit_effects;
+   Atmospheric alien laser for Wolf IV;//name---------------------------------------
+ 119;//identifier
+  1;//class
+  alienbullet.png;//bullet texture
+  3;//bullets at one shot
+  0;//stop at hit 0=stop where hit, 1=don't stop
+  18.00000;//bullet size
+  0.530000;//spread
+  4.000000;//bullet speed
+  1200.000000;//time until bullet disappears
+  140;//fire rate
+  0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
+  -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
+  0;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 
+  none;//hit effect sound
+  0.00000;//push target back
+  0.000000;//push shooter back
+  alienlaser.wav;//fire sound
+  hit2.wav;//hit sound
+  0.500000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  begin_wield_conditions;
+  end_wield_conditions;
+  begin_fire_effects;
+  end_fire_effects;
+  begin_hit_effects;
+    27;//effect number	                  light burst
+    5.000000;//parameter1
+    80.000000;//parameter2
+    5.300000;//parameter3
+    8.700000;//parameter4
+  end_hit_effects;
 end_of_file;
