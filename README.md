@@ -1,10 +1,10 @@
 ![Wazzal II: The Final Dawn](https://github.com/zexlr8er/Wazzal_II/blob/master/textures/Wazzal%20II/Promotional/banner.jpg "Wazzal II: The Final Dawn")
 
-> *Wazzal II: The Final Dawn is set 36 years after the original Wazzal, and 4 years after Notrium.* 
+> **36 years after the events of Wazzal, and four years after Notrium...** 
 
->*After their defeat in the Zoo system, the Alien threat has re-emerged, and now they are no longer peaceful. Star system after system has fallen to their terrible, ruthless surprise attack, known as 'the Stellar Pearl Harbour". The United Confederacy of Planets is in ultimate peril, as the massive alien fleets begin their relentless drive towards the capital, New Dawn, leaving nothing alive.*
+>*After the sun was destroyed by a supernova and most of humankind mysteriously abducted by a shadowy Alien race, a handful of brave space pilots established a new colony in the depths of space. Wasting no time, this motley collection of adventurers, traders and buccaneers set off to explore their new corner of the galaxy. Soon the United Confederacy of Planets was formed, heralding a new dawn for humankind free from Alien interference.*
 
->*Man's last hope lies on the shoulders of a single man: the man who led the survivors from the doomed Sol System, one who had survived the terrible planet of Notrium, and the only human to have defeated the aliens in combat. If the Captain fails, mankind will forever be destroyed...*
+>*After many years of peace, the Alien threat has re-emerged to finish what they started! The Confederacy is in ultimate peril as massive Alien fleets begin their relentless drive towards the capital New Dawn, leaving nothing alive. Humankind's last hope lays on the shoulders of the most famous of the human pilots: the enigmatic "Captain", survivor of the doomed Sol System and the terrible planet of Notrium....*
 
 ----
 ## Installation
