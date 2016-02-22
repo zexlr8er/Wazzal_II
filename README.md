@@ -29,18 +29,23 @@ Repository contains files required to install Wazzal II: The Final Dawn mod for 
 <img src="https://github.com/zexlr8er/Wazzal_II/blob/master/textures/Wazzal%20II/book1.jpg" align="left" height="308" width="410" >
 *Confederacy map and ranks*
 
-<img src="https://github.com/zexlr8er/Wazzal_II/blob/master/textures/Wazzal%20II/Promotional/screenshot1.png" align="left" height="308" width="410" >
-<img src="https://github.com/zexlr8er/Wazzal_II/blob/master/textures/Wazzal%20II/Promotional/screenshot2.png" align="left" height="308" width="410" >
+<img src="https://github.com/zexlr8er/Wazzal_II/blob/master/textures/Wazzal%20II/Promotional/screenshot1.jpg" align="left" height="308" width="410" >
+<img src="https://github.com/zexlr8er/Wazzal_II/blob/master/textures/Wazzal%20II/Promotional/screenshot2.jpg" align="left" height="308" width="410" >
 
 *Space combat and exploration*
 
-<img src="https://github.com/zexlr8er/Wazzal_II/blob/master/textures/Wazzal%20II/Promotional/screenshot3.png" align="left" height="308" width="410" >
-<img src="https://github.com/zexlr8er/Wazzal_II/blob/master/textures/Wazzal%20II/Promotional/screenshot6.png" align="left" height="308" width="410" >
+<img src="https://github.com/zexlr8er/Wazzal_II/blob/master/textures/Wazzal%20II/Promotional/screenshot7.jpg" align="left" height="308" width="410" >
+<img src="https://github.com/zexlr8er/Wazzal_II/blob/master/textures/Wazzal%20II/Promotional/screenshot8.jpg" align="left" height="308" width="410" >
+
+*Large-scale land battles*
+
+<img src="https://github.com/zexlr8er/Wazzal_II/blob/master/textures/Wazzal%20II/Promotional/screenshot3.jpg" align="left" height="308" width="410" >
+<img src="https://github.com/zexlr8er/Wazzal_II/blob/master/textures/Wazzal%20II/Promotional/screenshot6.jpg" align="left" height="308" width="410" >
 
 *Unique worlds to explore*
 
-<img src="https://github.com/zexlr8er/Wazzal_II/blob/master/textures/Wazzal%20II/Promotional/screenshot5.png" align="left" height="308" width="410" >
-<img src="https://github.com/zexlr8er/Wazzal_II/blob/master/textures/Wazzal%20II/Promotional/screenshot4.png" align="left" height="308" width="410" >
+<img src="https://github.com/zexlr8er/Wazzal_II/blob/master/textures/Wazzal%20II/Promotional/screenshot5.jpg" align="left" height="308" width="410" >
+<img src="https://github.com/zexlr8er/Wazzal_II/blob/master/textures/Wazzal%20II/Promotional/screenshot4.jpg" align="left" height="308" width="410" >
 
 *Rare and exotic native creatures*
 
