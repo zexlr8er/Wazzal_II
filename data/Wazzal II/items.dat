@@ -213,7 +213,7 @@ Unused;//name---------------------------------------
   end_combinations;
 S Shield generator (activated);//name---------------------------------------
   6;//identifier
-  0;//item class
+  1;//item class
   60.000000;//weight
   The Small Shield Generator is a low-powered shield regenerator. When switched ON, it re-powers your shields with your ships energy whenever you are hit. Press 'Q' in-game to operate. \ The Shield Generator is currently switched ON.;//short description
   none;//first pick up text
@@ -253,7 +253,7 @@ S Shield generator (activated);//name---------------------------------------
   end_combinations;
 S Shield generator;//name---------------------------------------
   7;//identifier
-  0;//item class
+  1;//item class
   60.000000;//weight
   The Small Shield Generator is a low-powered shield regenerator. When switched ON, it re-powers your shields with your ships energy whenever you are hit. Press 'Q' in-game to operate. \ The Shield Generator is currently switched OFF.;//short description
   none;//first pick up text
@@ -931,7 +931,7 @@ Twin Laser Cannon;//name---------------------------------------
   end_combinations;
 Targeting beam;//name---------------------------------------
   23;//identifier
-  0;//item class
+  1;//item class
  20.000000;//weight
   This targeting beam uses a motion sensing beam to locate the position of nearby enemy ships. Beware however, as the beam can alert enemies to your presence. Press 'Z' in-game to activate the beam;//short description
   none;//first pick up text
@@ -974,7 +974,7 @@ Targeting beam;//name---------------------------------------
   end_combinations;
 Targeting beam (activated);//name---------------------------------------
   24;//identifier
-  0;//item class
+  1;//item class
   30.000000;//weight
   This targeting beam uses a motion sensing beam to locate the position of nearby enemy ships. Beware however, as the beam can alert enemies to your presence. Press 'Z' in-game to deactivate the beam.;//short description
   none;//first pick up text
@@ -6732,7 +6732,7 @@ ecm2.png;//texture name
   end_combinations;
 Captain's journal;//name---------------------------------------
   161;//identifier
-  0;//item class
+  1;//item class
  0.000000;//weight
   Wolf IV Captain's journal. Use below keys in-game to select pages. \ \ J: Previous log entries\ N: Confederate ranks\ M: Map of known universe, including planets, systems and jumpgate connections!;//short description
 none;//first pick up text
@@ -9170,7 +9170,7 @@ iceplant.png;//texture name
   end_combinations;
   L Shield generator (activated);//name---------------------------------------
   220;//identifier
-  0;//item class
+  1;//item class
   60.000000;//weight
   The Large Shield Generator is a high-powered shield regenerator. When switched ON, it re-powers your shields with your ships energy whenever you are hit. Press 'Q' in-game to operate. \ The Shield Generator is currently switched ON.;//short description
   none;//first pick up text
@@ -9210,7 +9210,7 @@ iceplant.png;//texture name
   end_combinations;
 L Shield generator;//name---------------------------------------
   221;//identifier
-  0;//item class
+  1;//item class
   60.000000;//weight
   The Large Shield Generator is a high-powered shield regenerator. When switched ON, it re-powers your shields with your ships energy whenever you are hit. Press 'Q' in-game to operate. \ The Shield Generator is currently switched OFF.;//short description
   none;//first pick up text
@@ -9333,7 +9333,7 @@ L Shield generator;//name---------------------------------------
   end_combinations;
   S Fusion reactor;//name---------------------------------------
   223;//identifier
-  0;//item class
+  1;//item class
   100.000000;//weight
   The Small Fusion Reactor provides a steady but low supply of fusion power (1 gigawatt per second). Can be upgraded at any store!;//short description
   none;//first pick up text
@@ -9353,7 +9353,7 @@ L Shield generator;//name---------------------------------------
   end_combinations;
     L Fusion reactor;//name---------------------------------------
   224;//identifier
-  0;//item class
+  1;//item class
   100.000000;//weight
   The Large Fusion Reactor provides twice the fusion power of smaller systems: up to 2 gigawatts per second!;//short description
   none;//first pick up text
