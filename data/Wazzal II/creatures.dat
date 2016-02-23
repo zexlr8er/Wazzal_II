@@ -2413,7 +2413,7 @@ MG Turret;//name---------------------------------------
       83.000000;//parameter1
       -1.000000;//parameter2
       -1.000000;//parameter3
-     -1.000000;//parameter4
+     1.000000;//parameter4
     end_effects;
   end_timed_block;
   begin_specialties;//
@@ -3108,7 +3108,7 @@ Confederacy destroyer (allied);//name---------------------------------------
       102.000000;//parameter1
       -1.000000;//parameter2
       -1.000000;//parameter3
-     -1.000000;//parameter4
+     1.000000;//parameter4
     end_effects;
 50;//interval in milliseconds----------------fire
     begin_conditions;
@@ -7780,7 +7780,7 @@ Pillbox;//name---------------------------------------
       97.000000;//parameter1
       -1.000000;//parameter2
       -1.000000;//parameter3
-     -1.000000;//parameter4
+     1.000000;//parameter4
     end_effects;
    end_timed_block;
   begin_specialties;//
@@ -11974,7 +11974,7 @@ MG Turret (player carried);//name---------------------------------------
       19.000000;//parameter1
       -1.000000;//parameter2
       -1.000000;//parameter3
-     -1.000000;//parameter4
+     1.000000;//parameter4
     end_effects;
 		  1500;//interval in milliseconds      turn on light if carrying
     begin_conditions;
@@ -13719,7 +13719,7 @@ resistance to sniper;//description
       51.000000;//parameter1
       -1.000000;//parameter2
       -1.000000;//parameter3
-      -1.000000;//parameter4
+      1.000000;//parameter4
     end_effects;
 		  1500;//interval in milliseconds      turn on light if carrying
     begin_conditions;
