@@ -11,7 +11,7 @@
 Repository contains files required to install Wazzal II: The Final Dawn mod for Notrium. To install:
 
 1. Download using "Download ZIP" button above
-2. Unzip inside main Notrium directory
+2. Unzip inside main Notrium directory (for the Steam version: usually "C:\Program Files (x86)\Steam\steamapps\common\Notrium")
 
 ----
 ## Mod features

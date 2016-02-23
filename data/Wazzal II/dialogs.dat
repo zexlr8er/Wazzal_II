@@ -145,7 +145,7 @@ Wolf IV transmission;//name ---------------------------------------------
 Wolf IV;//name ---------------------------------------------BLANK y
   18;//identifier
  ;//text
-  500000;//duration
+  5000;//duration
   19;//next dialog line (-1=none)
   1.000000;//text color r
   1.000000;//text color g
