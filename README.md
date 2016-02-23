@@ -49,6 +49,11 @@ Repository contains files required to install Wazzal II: The Final Dawn mod for 
 
 *Rare and exotic native creatures*
 
+<img src="https://github.com/zexlr8er/Wazzal_II/blob/master/textures/Wazzal%20II/Promotional/screenshot10.jpg" align="left" height="308" width="410" >
+<img src="https://github.com/zexlr8er/Wazzal_II/blob/master/textures/Wazzal%20II/Promotional/screenshot9.jpg" align="left" height="308" width="410" >
+
+*Launch daring raids on the Alien homeworld*
+
 
 ----
 ## Mod links
