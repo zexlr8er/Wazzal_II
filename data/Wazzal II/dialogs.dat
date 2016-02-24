@@ -30,23 +30,23 @@ Stargun hit;//name
   1.000000;//text color r
   0.000000;//text color g
   0.000000;//text color b
-Errxelz 8 captain;//name ---------------------------------------------
+Enkommono 2;//name ---------------------------------------------
   4;//identifier
-  Governor Ruefserouc: Captain! I am Governor of Errxelz Base 8.;//text
-  3000;//duration
+  ;//text
+  1100;//duration
   5;//next dialog line (-1=none)
   1.000000;//text color r
   1.000000;//text color g
   1.000000;//text color b
-Errxelz 8 captain;//name ---------------------------------------------
+Enkommono 3;//name ---------------------------------------------
   5;//identifier
-  Governor Ruefserouc: Use our last remaining battle tank (press T to mount/dismount. Right click to fire secondary weapon) to get back to your ship safely!;//text
-  15000;//duration
+  Remember: all Confederate missions are optional, but complete them and you will be handsomely rewarded!;//text
+  40000;//duration
   -1;//next dialog line (-1=none)
   1.000000;//text color r
   1.000000;//text color g
   1.000000;//text color b
-Errxelz 8 captain;//name ---------------------------------------------
+Unused;//name ---------------------------------------------
   6;//identifier
   Just hours ago, we received scanner reports that several large ships had entered our sector...;//text
   5000;//duration
@@ -54,7 +54,7 @@ Errxelz 8 captain;//name ---------------------------------------------
   1.000000;//text color r
   1.000000;//text color g
   1.000000;//text color b
-Errxelz 8 captain;//name ---------------------------------------------
+Unused;//name ---------------------------------------------
   7;//identifier
   As Errxelz is on the outer border of the United Confederacy, unregistered ships are not uncommon. We sent an interceptor to meet them, and next moment, all hell broke loose...;//text
   9000;//duration
@@ -62,7 +62,7 @@ Errxelz 8 captain;//name ---------------------------------------------
   1.000000;//text color r
   1.000000;//text color g
   1.000000;//text color b
-Errxelz 8 captain;//name ---------------------------------------------
+Unused;//name ---------------------------------------------
   8;//identifier
   We count thirteen Alien battleships in this system alone. Alien fighters have been sighted north, south and east of our positions on Errxelz 8.;//text
   8600;//duration
@@ -70,7 +70,7 @@ Errxelz 8 captain;//name ---------------------------------------------
   1.000000;//text color r
   1.000000;//text color g
   1.000000;//text color b
-Errxelz 8 captain;//name ---------------------------------------------
+Unused;//name ---------------------------------------------
   9;//identifier
   They've landed hundreds of alien drones... as far as we can tell, blacks that fight hand-to-hand, and green-stripes that use a form of long-ranged weapon.;//text
   8800;//duration
@@ -78,7 +78,7 @@ Errxelz 8 captain;//name ---------------------------------------------
   1.000000;//text color r
   1.000000;//text color g
   1.000000;//text color b
-Errxelz 8 captain;//name ---------------------------------------------
+Unused;//name ---------------------------------------------
   10;//identifier
   Captain, I believe this attack force is only a fraction of the Alien forces. Their fleet must carry enough firepower to annihilate the entire Confederacy!;//text
   8800;//duration
@@ -86,7 +86,7 @@ Errxelz 8 captain;//name ---------------------------------------------
   1.000000;//text color r
   1.000000;//text color g
   1.000000;//text color b
-Errxelz 8 captain;//name ---------------------------------------------
+Unused;//name ---------------------------------------------
   11;//identifier
   We will hold them off here as long as we can. You must escape and send out a warning to the Confederate Fleet. The destroyer UCS Crego is in the neighbouring Ennokknmo system, hopefully there we can mount some form of defence.;//text
   11500;//duration
@@ -94,7 +94,7 @@ Errxelz 8 captain;//name ---------------------------------------------
   1.000000;//text color r
   1.000000;//text color g
   1.000000;//text color b
-Errxelz 8 captain;//name ---------------------------------------------
+Unused;//name ---------------------------------------------
   12;//identifier
   You can use our last remaining battle tank (press T to mount/dismount. Right click to fire secondary weapon) to get back to your ship safely.;//text
   11000;//duration
@@ -102,7 +102,7 @@ Errxelz 8 captain;//name ---------------------------------------------
   1.000000;//text color r
   1.000000;//text color g
   1.000000;//text color b
-Errxelz 8 captain;//name ---------------------------------------------
+Unused;//name ---------------------------------------------
   13;//identifier
   Captain, I am the only survivor of a family who were taken by the Aliens from Sol before the supernova, all those years ago.;//text
   8400;//duration
@@ -110,7 +110,7 @@ Errxelz 8 captain;//name ---------------------------------------------
   1.000000;//text color r
   1.000000;//text color g
   1.000000;//text color b
-Errxelz 8 captain;//name ---------------------------------------------
+Unused;//name ---------------------------------------------
   14;//identifier
   Swear to me that you will not rest until their deaths - and the deaths of all of those slaughtered - have been avenged. It has been an honor to meet you here sir, here at world's end.;//text
   9500;//duration
@@ -118,7 +118,7 @@ Errxelz 8 captain;//name ---------------------------------------------
   1.000000;//text color r
   1.000000;//text color g
   1.000000;//text color b
-Errxelz 8 captain;//name ---------------------------------------------
+Unused;//name ---------------------------------------------
   15;//identifier
   Goodnight, Captain. And good luck.;//text
   9000;//duration
@@ -129,8 +129,8 @@ Errxelz 8 captain;//name ---------------------------------------------
 UCS Crego;//name ---------------------------------------------
   16;//identifier
  UCS Crego;//text
-  200000;//duration
-  -1;//next dialog line (-1=none)
+  30000;//duration
+  4;//next dialog line (-1=none)
   1.000000;//text color r
   1.000000;//text color g
   1.000000;//text color b

@@ -3346,21 +3346,18 @@ Hide fuel bar if Wolf;//name----------------------------------------------------
     0.000000;//parameter3
     0.000000;//parameter4
   end_effects;
-Errxelz appears (not currently used);//name-----------------------------------------------------------------
+Unused;//name-----------------------------------------------------------------
 86;//identifier
   0;//run without calling (set to 0 if you use the script for example as a wield script)
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   10000;//run every n milliseconds
-  Captain! This is Admiral Fefarewbu of the 4th New Dawn Confederate Fleet. We have come to the decision that you are the best candidate for the most daring mission undertaken by Confederate forces of the war. \ \ As you are aware, the outpost of Errxelz 8 was the first Confederate planet to fall to the Alien onslaught. Our intelligence reports that the planet is now being used as an advance base for thousands of Alien fighters before they launch their invasions into Confederate space. This knowledge gives us the chance to strike a devastating blow to the advancing Alien forces by destroying all Alien fighters on the planet! \ \  To enter the heavily guarded Errxelz system, you will need to disguise yourself as an Alien ship. The Confederacy has authorised to enter the former Sol system, where we have heard rumours that you can find Alien ship parts to disguise the Wolf IV. Go quickly, Captain. The hopes of the Confederacy fly with you!;//message
+  none;//message
   1;//message type, 0=quick message, 1=journal
   morse.wav;//sound, none for nothing
  2;//delay script for n seconds after conditions met        
   1;//disabled after first use, 0=no, 1=yes
   begin_conditions;
-	0;//condition                            has rank
-    84.000000;//condition parameter0
-    1.000000;//condition parameter1
   end_conditions;
   begin_effects;
   end_effects;
@@ -4812,7 +4809,7 @@ Unused;//name-----------------------------------------------------------------
   begin_conditions;
     32;//condition
     1.000000;//condition parameter0
-   20.000000;//condition parameter1
+   37.000000;//condition parameter1
     4;//condition
     35.000000;//condition parameter0
    5.000000;//condition parameter1

@@ -161,7 +161,7 @@ end_alien_list;
 3;
 4;
   end_excluded_plot_object_classes;
- UCS Crego: Captain! You survived the Errxelz System! We had lost all hope that you had survived. Ennokknmo has not been as heavily hit as Errxelz, however we cannot expect to hold the system for long. \ \ Please help us to destroy the three Alien battleships in this sector, and clear it of enemy fighters until we are able to warn the United Confederacy about what has taken place this night. \ \ On the planet Kinmegag 71 there is a massively powerful Interplanetary Signal Array that can be used to contact the Confederate capital, New Dawn. Meanwhile, the forest planet of Lvlei in this system is under heavy Alien attack.\ \ We will take the fight to them both on the land and in the skies.  Long live the United Confederacy of Planets!;//enter area text, specify none to not show it
+ UCS Crego: Captain! You survived the Errxelz System! We had lost all hope that you had survived. Ennokknmo has not been as heavily hit as Errxelz, however we cannot expect to hold the system for long. \ \ Please help us to destroy the three Alien battleships in this sector and wipe out at least half the Alien fighters until we are able to warn the United Confederacy about what has taken place this night! \ \ On the planet Kinmegag 71 there is a massively powerful Interplanetary Signal Array that can be used to contact the Confederate capital, New Dawn. Meanwhile, the forest planet of Lvlei in this system is under heavy Alien attack.\ \ We will take the fight to them both on the land and in the skies.  Long live the United Confederacy of Planets!;//enter area text, specify none to not show it
 6;//Lvlei---------------------------------------------------------forest planet
 Lvlei;//area name
   0;//area class
