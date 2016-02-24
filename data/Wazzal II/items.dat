@@ -9433,7 +9433,7 @@ L Shield generator;//name---------------------------------------
   0.350000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   0;//particle to shown on radar
-  1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
+  0;//visible in inventory 0=no (can only be used via quick keys), 1=yes
  shieldgen.png;//texture name
   -1;//wielded script,-1=nothing, only applicable for wieldable items
   -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
