@@ -360,6 +360,14 @@ drugs;//description
     0.000000;//parameter1
     500.000000;//parameter2
     0.000000;//parameter3  
+	Testing boarding bar;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    33.000000;//parameter0
+    0.000000;//parameter1
+   200.000000;//parameter2
+    200.000000;//parameter3
   shield bar;//description
     5;//specialty 
     0;//difficulty level

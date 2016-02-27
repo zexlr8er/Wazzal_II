@@ -5492,4 +5492,139 @@ Atmospheric check to remove trigger item on leaving Wolf IV;//name--------------
     1.000000;//parameter3
     0.000000;//parameter4 
   end_effects;
+   If close enough to Battleship and hit by tractor beam;//name-----------------------------------------------------------------
+  164;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  300;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+   14;//condition                        battleship nearer
+    35.000000;//condition parameter0
+   100.000000;//condition parameter1    
+   45;//condition                        last hit by tractor
+    120.000000;//condition parameter0
+   300.000000;//condition parameter1 
+   25;//condition                       testing bar
+    33.000000;//condition parameter0
+   5.000000;//condition parameter1    
+  end_conditions;
+  begin_effects;
+ 63;//effect number                  add to bar to prevent being re-tractored                 
+    150.000000;//parameter1
+    200.000000;//parameter2
+    33.000000;//parameter3
+    0.000000;//parameter4  
+    27;//effect number	          flash
+      2.000000;//parameter1
+      65.000000;//parameter2
+      12.000000;//parameter3
+      25.000000;//parameter4
+	  		 29;//effect number              if recently fired, give atmospheric trigger item
+    162.000000;//parameter1
+    1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+	  		16;//effect number    give trigger item
+    227.000000;//parameter1
+    2.00000;//parameter2
+    1.000000;//parameter3
+    0.000000;//parameter4 
+    19;//effect number                          drop plot
+      17.000000;//parameter1
+      1.000000;//parameter2
+      1.000000;//parameter3
+      1.000000;//parameter4
+    34;//effect number	                    change into human
+      1.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+	  		   22;//effect number                  change side to friendly ships
+     0.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4
+    39;//effect number                          hide confed flag
+      26.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 	
+    39;//effect number                          hide pirate flag
+      27.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+    39;//effect number                          hide alien flag
+      32.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+ 21;//effect number                          teleport to Command area
+      1.000000;//parameter1                 1
+      15.000000;//parameter2                 15
+      0.000000;//parameter3
+      0.000000;//parameter4   
+    62;//effect number                          force close inventory
+      0.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+    52;//effect number                          change inventory to 1
+      1.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    62;//effect number                          force close inventory
+      0.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4    
+    39;//effect number                          hide bar0
+      0.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+    39;//effect number                          hide bar1
+      1.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    39;//effect number                          hide bar8
+      8.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+    39;//effect number                          show bar12
+      12.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    39;//effect number                          show bar5
+      5.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    39;//effect number                          show bar6
+      6.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    56;//effect number                  overide control
+      -1.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+  end_effects;
   end_of_file;
+  
+  
+  
+     45;//condition                        last hit by tractor
+    120.000000;//condition parameter0
+   300.000000;//condition parameter1   

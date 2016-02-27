@@ -790,4 +790,28 @@ Slaves in inventory;//name------------------------------------------------------
   1.000000;//red color component for maximum
   0.000000;//green color component for maximum
   0.000000;//blue color component for maximum
+ Testing;//name----------------------------------------------------------
+ 33;//identifier
+  0;//bar type, 0=normal, 1=show body temperature, 2=show number of items parameter0, 3=show wielded weapon ammo, 4=show armor, 5=show carry weight, 6=show seconds from game start
+  0;//parameter0
+ 0;//visible (only applicable for player's bars)
+  1;//visible on enemies
+  1;//show number
+  1;//anchor point (0=left top, 1=right top, 2=left bottom, 3=right bottom)
+  -255;//location x, pixels from anchor point
+  20;//location y, pixels from anchor point
+  bar2.png;//bar picture
+  none;//background picture
+  0;//background picture x offset
+  0;//background picture y offset
+  0;//background picture width
+  0;//background picture height
+  1.2;//height    
+  -1000;//length in pixels for maximum (negative = bar increases to left)
+  0.000000;//red color component for minimum
+  1.000000;//green color component for minimum
+  0.000000;//blue color component for minimum
+  0.000000;//red color component for maximum
+  1.000000;//green color component for maximum
+  0.000000;//blue color component for maximum
 end_of_file;

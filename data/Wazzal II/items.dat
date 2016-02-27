@@ -9444,4 +9444,24 @@ L Shield generator;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
+ Wolf IV boarded trigger//name---------------------------------------
+  227;//identifier
+  0;//item class
+  0.000000;//weight
+  Triggers when recent combat;//short description
+  none;//first pick up text
+  0.350000;//size on map
+  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  0;//particle to shown on radar
+  1;//visible in inventory 0=no (can only be used via quick keys), 1=yes
+ shieldgen.png;//texture name
+  -1;//wielded script,-1=nothing, only applicable for wieldable items
+  -1;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
+  0;//show help text for conditions
+  begin_wield_slots;
+  end_wield_slots;
+  begin_effects_block;
+  end_effects_block;
+  begin_combinations;
+  end_combinations;
 end_of_file;    
