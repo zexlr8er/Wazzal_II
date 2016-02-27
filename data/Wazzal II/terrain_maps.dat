@@ -26815,7 +26815,7 @@ Kinmegag 71;//name---------------------------------------
   0;//side
   1.000000;//size
   end_objects;
-Moon of Naquarin;//name---------------------------------------
+Alien homeworld;//name---------------------------------------
   11;//identifier
   108;//width
   111;//height
@@ -33763,7 +33763,7 @@ Moon of Naquarin;//name---------------------------------------
   5506.867188;//y
   4.7123889923;//angle
   1;//amount
-  0;//side
+  1;//side
   1.000000;//size
   4;//type
   61;//number
@@ -33771,7 +33771,7 @@ Moon of Naquarin;//name---------------------------------------
   5171.075684;//y
   4.7123889923;//angle
   1;//amount
-  0;//side
+  1;//side
   1.000000;//size
   4;//type
   61;//number
@@ -33779,7 +33779,7 @@ Moon of Naquarin;//name---------------------------------------
   5855.147461;//y
   4.7123889923;//angle
   1;//amount
-  0;//side
+  1;//side
   1.000000;//size
   end_objects;
 Arhamt System;//name---------------------------------------
