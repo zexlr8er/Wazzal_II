@@ -4790,7 +4790,7 @@ Drugs dropper;//name---------------------------------------
   -1;//map type to place to -1=any map 0=> type from areas.dat
  5;//plot_object class
   0;//object definition number
- 40;//number of objects to be placed
+ 25;//number of objects to be placed
   0;//location type, 0=random, 1=distance min(parameter1) max(parameter2) from player start, 2=distance min(parameter1) max(parameter2) from object parameter0, 3=coordinates [parameter0, parameter1] (0=min, 1=max)  vary location=parameter2
   0.000000;//location parameter0
   0.000000;//location parameter1
@@ -4821,7 +4821,7 @@ Weapons dropper;//name---------------------------------------
   -1;//map type to place to -1=any map 0=> type from areas.dat
  5;//plot_object class
   0;//object definition number
-  30;//number of objects to be placed
+  15;//number of objects to be placed
   0;//location type, 0=random, 1=distance min(parameter1) max(parameter2) from player start, 2=distance min(parameter1) max(parameter2) from object parameter0, 3=coordinates [parameter0, parameter1] (0=min, 1=max)  vary location=parameter2
   0.000000;//location parameter0
   0.000000;//location parameter1
@@ -4852,7 +4852,7 @@ Slaves dropper;//name---------------------------------------
   -1;//map type to place to -1=any map 0=> type from areas.dat
  5;//plot_object class
   0;//object definition number
- 13;//number of objects to be placed
+ 7;//number of objects to be placed
   0;//location type, 0=random, 1=distance min(parameter1) max(parameter2) from player start, 2=distance min(parameter1) max(parameter2) from object parameter0, 3=coordinates [parameter0, parameter1] (0=min, 1=max)  vary location=parameter2
   0.000000;//location parameter0
   0.000000;//location parameter1
@@ -8961,7 +8961,7 @@ Forcefield deactivated;//name---------------------------------------
   -1;//map type to place to -1=any map 0=> type from areas.dat
  3;//plot_object class
   0;//object definition number
-  25;//number of objects to be placed
+  18;//number of objects to be placed
   0;//location type, 0=random, 1=distance min(parameter1) max(parameter2) from player start, 2=distance min(parameter1) max(parameter2) from object parameter0, 3=coordinates [parameter0, parameter1] (0=min, 1=max)  vary location=parameter2
   0.000000;//location parameter0
   0.000000;//location parameter1
@@ -8998,7 +8998,7 @@ Forcefield deactivated;//name---------------------------------------
   -1;//map type to place to -1=any map 0=> type from areas.dat
  3;//plot_object class
   0;//object definition number
-  25;//number of objects to be placed
+  15;//number of objects to be placed
   0;//location type, 0=random, 1=distance min(parameter1) max(parameter2) from player start, 2=distance min(parameter1) max(parameter2) from object parameter0, 3=coordinates [parameter0, parameter1] (0=min, 1=max)  vary location=parameter2
   0.000000;//location parameter0
   0.000000;//location parameter1
@@ -9035,7 +9035,7 @@ Forcefield deactivated;//name---------------------------------------
   -1;//map type to place to -1=any map 0=> type from areas.dat
  3;//plot_object class
   0;//object definition number
-  20;//number of objects to be placed
+  15;//number of objects to be placed
   0;//location type, 0=random, 1=distance min(parameter1) max(parameter2) from player start, 2=distance min(parameter1) max(parameter2) from object parameter0, 3=coordinates [parameter0, parameter1] (0=min, 1=max)  vary location=parameter2
   0.000000;//location parameter0
   0.000000;//location parameter1
@@ -9072,7 +9072,7 @@ Forcefield deactivated;//name---------------------------------------
   -1;//map type to place to -1=any map 0=> type from areas.dat
  5;//plot_object class
   0;//object definition number
- 20;//number of objects to be placed
+ 15;//number of objects to be placed
   0;//location type, 0=random, 1=distance min(parameter1) max(parameter2) from player start, 2=distance min(parameter1) max(parameter2) from object parameter0, 3=coordinates [parameter0, parameter1] (0=min, 1=max)  vary location=parameter2
   0.000000;//location parameter0
   0.000000;//location parameter1
@@ -9103,7 +9103,7 @@ Forcefield deactivated;//name---------------------------------------
   -1;//map type to place to -1=any map 0=> type from areas.dat
  5;//plot_object class
   0;//object definition number
- 20;//number of objects to be placed
+ 15;//number of objects to be placed
   0;//location type, 0=random, 1=distance min(parameter1) max(parameter2) from player start, 2=distance min(parameter1) max(parameter2) from object parameter0, 3=coordinates [parameter0, parameter1] (0=min, 1=max)  vary location=parameter2
   0.000000;//location parameter0
   0.000000;//location parameter1
@@ -9134,7 +9134,7 @@ Forcefield deactivated;//name---------------------------------------
   -1;//map type to place to -1=any map 0=> type from areas.dat
  5;//plot_object class
   0;//object definition number
- 23;//number of objects to be placed
+ 15;//number of objects to be placed
   0;//location type, 0=random, 1=distance min(parameter1) max(parameter2) from player start, 2=distance min(parameter1) max(parameter2) from object parameter0, 3=coordinates [parameter0, parameter1] (0=min, 1=max)  vary location=parameter2
   0.000000;//location parameter0
   0.000000;//location parameter1
@@ -9165,7 +9165,7 @@ Forcefield deactivated;//name---------------------------------------
   -1;//map type to place to -1=any map 0=> type from areas.dat
  5;//plot_object class
   0;//object definition number
- 25;//number of objects to be placed
+ 17;//number of objects to be placed
   0;//location type, 0=random, 1=distance min(parameter1) max(parameter2) from player start, 2=distance min(parameter1) max(parameter2) from object parameter0, 3=coordinates [parameter0, parameter1] (0=min, 1=max)  vary location=parameter2
   0.000000;//location parameter0
   0.000000;//location parameter1
@@ -9196,7 +9196,7 @@ Forcefield deactivated;//name---------------------------------------
   -1;//map type to place to -1=any map 0=> type from areas.dat
  3;//plot_object class
   0;//object definition number
-  25;//number of objects to be placed
+  17;//number of objects to be placed
   0;//location type, 0=random, 1=distance min(parameter1) max(parameter2) from player start, 2=distance min(parameter1) max(parameter2) from object parameter0, 3=coordinates [parameter0, parameter1] (0=min, 1=max)  vary location=parameter2
   0.000000;//location parameter0
   0.000000;//location parameter1
@@ -9233,7 +9233,7 @@ Forcefield deactivated;//name---------------------------------------
   -1;//map type to place to -1=any map 0=> type from areas.dat
  3;//plot_object class
   0;//object definition number
-  15;//number of objects to be placed
+  12;//number of objects to be placed
   0;//location type, 0=random, 1=distance min(parameter1) max(parameter2) from player start, 2=distance min(parameter1) max(parameter2) from object parameter0, 3=coordinates [parameter0, parameter1] (0=min, 1=max)  vary location=parameter2
   0.000000;//location parameter0
   0.000000;//location parameter1
@@ -9270,7 +9270,7 @@ Forcefield deactivated;//name---------------------------------------
   -1;//map type to place to -1=any map 0=> type from areas.dat
  3;//plot_object class
   0;//object definition number
-  4;//number of objects to be placed
+  3;//number of objects to be placed
   0;//location type, 0=random, 1=distance min(parameter1) max(parameter2) from player start, 2=distance min(parameter1) max(parameter2) from object parameter0, 3=coordinates [parameter0, parameter1] (0=min, 1=max)  vary location=parameter2
   0.000000;//location parameter0
   0.000000;//location parameter1
@@ -9381,7 +9381,7 @@ Forcefield deactivated;//name---------------------------------------
   -1;//map type to place to -1=any map 0=> type from areas.dat
  3;//plot_object class
   0;//object definition number
-  25;//number of objects to be placed
+  20;//number of objects to be placed
   0;//location type, 0=random, 1=distance min(parameter1) max(parameter2) from player start, 2=distance min(parameter1) max(parameter2) from object parameter0, 3=coordinates [parameter0, parameter1] (0=min, 1=max)  vary location=parameter2
   0.000000;//location parameter0
   0.000000;//location parameter1
