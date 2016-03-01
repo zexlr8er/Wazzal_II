@@ -78,11 +78,11 @@ Unused;//name ---------------------------------------------
   1.000000;//text color r
   1.000000;//text color g
   1.000000;//text color b
-Unused;//name ---------------------------------------------
+Moon low gravity;//name ---------------------------------------------
   10;//identifier
-  Captain, I believe this attack force is only a fraction of the Alien forces. Their fleet must carry enough firepower to annihilate the entire Confederacy!;//text
-  8800;//duration
-  11;//next dialog line (-1=none)
+  Ahh! Low gravity!;//text
+  8000;//duration
+  -1;//next dialog line (-1=none)
   1.000000;//text color r
   1.000000;//text color g
   1.000000;//text color b
