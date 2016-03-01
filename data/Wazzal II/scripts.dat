@@ -3226,7 +3226,7 @@ Kinmegag 71 mission completed;//name--------------------------------------------
   0;//call position, 0=player location, 1=mouse location
   0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
   2000;//run every n milliseconds
-   Captain Dreton: \ \ 'Thankyou, captain. The signal is sent, and even as we speak, the full might of the Confederate Navy is mobilizing across the United Confederacy of Planets: from the fields of Zemboi and the shipyards of Kryboru to the shining pillars of New Dawn. \ \ At least now the Confederacy will fall fighting, rather than die on our knees. (Earn 30 Promotion points, and receive a brand new devastating Flame Thrower! The Confederate Stock Exchange rises sharply as your achievement becomes known!)';//name;//message
+   Captain Dreton: \ \ 'Thankyou, captain. The signal is sent, and even as we speak, the full might of the Confederate Navy is mobilizing across the United Confederacy of Planets, from shimmering fields of Garreempir to the shining pillars of New Dawn. \ \ At least now the Confederacy will fall fighting, rather than die on our knees. (Earn 30 Promotion points, and receive a brand new devastating Flame Thrower! The Confederate Stock Exchange rises sharply as your achievement becomes known!)';//name;//message
   1;//message type, 0=quick message, 1=journal
   morse.wav;//sound, none for nothing
   1;//delay script for n seconds after conditions met
