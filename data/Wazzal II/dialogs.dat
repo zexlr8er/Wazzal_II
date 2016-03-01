@@ -86,42 +86,42 @@ Unused;//name ---------------------------------------------
   1.000000;//text color r
   1.000000;//text color g
   1.000000;//text color b
-Unused;//name ---------------------------------------------
+Targetting beam hint;//name ---------------------------------------------
   11;//identifier
-  We will hold them off here as long as we can. You must escape and send out a warning to the Confederate Fleet. The destroyer UCS Crego is in the neighbouring Ennokknmo system, hopefully there we can mount some form of defence.;//text
-  11500;//duration
-  12;//next dialog line (-1=none)
+  Press 'Z' at any time to activate the Wolf IV's targeting beam, able to detect nearby enemy ships!;//text
+  8500;//duration
+  -1;//next dialog line (-1=none)
   1.000000;//text color r
   1.000000;//text color g
   1.000000;//text color b
-Unused;//name ---------------------------------------------
+Bridge dialogue hint;//name ---------------------------------------------
   12;//identifier
-  You can use our last remaining battle tank (press T to mount/dismount. Right click to fire secondary weapon) to get back to your ship safely.;//text
-  11000;//duration
-  13;//next dialog line (-1=none)
+  Press 'B' at any time to activate autopilot and leave the bridge of the Wolf IV!;//text
+  8500;//duration
+  -1;//next dialog line (-1=none)
   1.000000;//text color r
   1.000000;//text color g
   1.000000;//text color b
-Unused;//name ---------------------------------------------
+Flag dialogue hint;//name ---------------------------------------------
   13;//identifier
-  Captain, I am the only survivor of a family who were taken by the Aliens from Sol before the supernova, all those years ago.;//text
-  8400;//duration
+  Arr! You can press 'F' at any time to raise the pirate flag and loot and plunder!;//text
+  6500;//duration
   14;//next dialog line (-1=none)
   1.000000;//text color r
   1.000000;//text color g
   1.000000;//text color b
-Unused;//name ---------------------------------------------
+Flag dialogue hint;//name ---------------------------------------------
   14;//identifier
-  Swear to me that you will not rest until their deaths - and the deaths of all of those slaughtered - have been avenged. It has been an honor to meet you here sir, here at world's end.;//text
-  9500;//duration
-  15;//next dialog line (-1=none)
+  Be warned: attacking friendly ships will lose you PP!;//text
+  6500;//duration
+  -1;//next dialog line (-1=none)
   1.000000;//text color r
   1.000000;//text color g
   1.000000;//text color b
-Unused;//name ---------------------------------------------
+Radar dialogue hint;//name ---------------------------------------------
   15;//identifier
-  Goodnight, Captain. And good luck.;//text
-  9000;//duration
+  SR Radar and Battlescanner installed! Press 'R' to show nearby enemies and allies on the map!;//text
+  8500;//duration
   -1;//next dialog line (-1=none)
   1.000000;//text color r
   1.000000;//text color g
