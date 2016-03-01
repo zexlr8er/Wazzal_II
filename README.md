@@ -8,7 +8,7 @@
 
 ----
 ## Installation
-Repository contains files required to install Wazzal II: The Final Dawn mod for Notrium. To install:
+Repository contains files required to install version 6.0.5 of the Wazzal II: The Final Dawn mod for Notrium. To install:
 
 1. Visit "Releases" and choose latest version: https://github.com/zexlr8er/Wazzal_II/releases 
 2. Download as either ".zip" or ".tar.gz" using "Downloads > Source code"
