@@ -754,7 +754,7 @@ Commanding machine gun;//name---------------------------------------
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
   0;//visible in inventory 0=no (can only be used via quick keys), 1=yes
-  prop.tga;//texture name
+  carry_icon.tga;//texture name
   -1;//wielded script,-1=nothing, only applicable for wieldable items
   17;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
   1;//show help text for conditions
@@ -3784,7 +3784,7 @@ Commanding tank;//name---------------------------------------
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
   0;//visible in inventory 0=no (can only be used via quick keys), 1=yes
-  prop.tga;//texture name
+  carry_icon.tga;//texture name
   -1;//wielded script,-1=nothing, only applicable for wieldable items
   17;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
   1;//show help text for conditions
@@ -3835,7 +3835,7 @@ Commanding pillbox;//name---------------------------------------
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
   0;//visible in inventory 0=no (can only be used via quick keys), 1=yes
-  prop.tga;//texture name
+  carry_icon.tga;//texture name
   -1;//wielded script,-1=nothing, only applicable for wieldable items
  17;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
   1;//show help text for conditions
@@ -4910,7 +4910,7 @@ Commanding destroyer;//name---------------------------------------
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
   0;//visible in inventory 0=no (can only be used via quick keys), 1=yes
-  prop.tga;//texture name
+  carry_icon.tga;//texture name
   -1;//wielded script,-1=nothing, only applicable for wieldable items
  17;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
   1;//show help text for conditions
@@ -6518,7 +6518,7 @@ Commanding boat;//name---------------------------------------
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
   0;//visible in inventory 0=no (can only be used via quick keys), 1=yes
-  prop.tga;//texture name
+  carry_icon.tga;//texture name
   -1;//wielded script,-1=nothing, only applicable for wieldable items
   17;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
   1;//show help text for conditions
@@ -6835,7 +6835,7 @@ Commanding fighter;//name---------------------------------------
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
   0;//visible in inventory 0=no (can only be used via quick keys), 1=yes
-  prop.tga;//texture name
+  carry_icon.tga;//texture name
   -1;//wielded script,-1=nothing, only applicable for wieldable items
   17;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
   1;//show help text for conditions
@@ -7986,7 +7986,7 @@ shuttle.png;//texture name
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
   0;//visible in inventory 0=no (can only be used via quick keys), 1=yes
-  prop.tga;//texture name
+  carry_icon.tga;//texture name
   -1;//wielded script,-1=nothing, only applicable for wieldable items
   17;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
   1;//show help text for conditions
@@ -9454,7 +9454,7 @@ L Shield generator;//name---------------------------------------
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
   0;//visible in inventory 0=no (can only be used via quick keys), 1=yes
-  prop.tga;//texture name
+ carry_icon.tga;//texture name
   -1;//wielded script,-1=nothing, only applicable for wieldable items
  17;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
   1;//show help text for conditions
