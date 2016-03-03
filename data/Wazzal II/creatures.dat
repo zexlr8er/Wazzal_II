@@ -670,7 +670,7 @@ ECM;//name---------------------------------------
   7;//primary AI tactic from AI_tactic.dat
   7;//secondary AI tactic from AI_tactic.dat
   5;//footstep particle from particles.dat
-  6;//die after how many seconds, 0=doesn't die
+  5;//die after how many seconds, 0=doesn't die
   -1;//eat item number from items.dat, -1=nothing
   1.000000;//creature size
   0.200000;//creature weight (affects pushing)
@@ -3700,11 +3700,11 @@ Rocket;//name---------------------------------------
     0.000000;//parameter1
     0.000000;//parameter2
     0.000000;//parameter3
-  fly;//description
+  fly and prevent bullet collision;//description
     4;//number
     1.000000;//parameter0
     0.000000;//parameter1
-    0.000000;//parameter2
+    1.000000;//parameter2
     1.000000;//parameter3
   end_specialties;
 Blue Alien hologram;//name--------------------------------------- hologram

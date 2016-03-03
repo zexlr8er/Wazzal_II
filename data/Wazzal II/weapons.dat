@@ -4124,7 +4124,7 @@ Rifle;//name---------------------------------------
   0.000000;//spread
   1.600000;//bullet speed
  900.000000;//time until bullet disappears
-  400;//fire rate
+  530;//fire rate
   2;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
   -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
   -1;//hit visual effect particle, -1=nothing, 0=>particle from particles.dat 

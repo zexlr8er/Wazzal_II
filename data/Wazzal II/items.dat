@@ -3426,7 +3426,7 @@ Ion Wave;//name---------------------------------------
 Alien corpse;//name---------------------------------------
   86;//identifier
   0;//item class
-  1.5000000;//weight
+  2.5000000;//weight
   The corpse of a dead alien killed in combat. Since war broke out, quite a trade has developed around alien corpses, often as war trophies. \ Use this item near a store to sell the corpse for 50 credits.;//short description
   You pick up the corpse of the dead Alien. You may be able to sell it at a store as a trophy of war.;//first pick up text
   0.300000;//size on map
