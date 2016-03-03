@@ -9444,7 +9444,7 @@ L Shield generator;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
-  Commanding wazzal ships;//name---------------------------------------
+  Commanding disabled ship;//name---------------------------------------
 227;//identifier
   0;//item class
   0.000000;//weight

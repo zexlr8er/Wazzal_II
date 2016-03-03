@@ -46,7 +46,12 @@ Initialisation;//name-----------------------------------------------------------
     123.000000;//parameter1
     1.000000;//parameter2
     0.000000;//parameter3
-    0.000000;//parameter4  
+    0.000000;//parameter4 
+ 16;//effect number                   Give Inventory 0 command neutral ships
+    227.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4  	
  16;//effect number                   Give Inventory 0 confed flag
     131.000000;//parameter1
     1.000000;//parameter2

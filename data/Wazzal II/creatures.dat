@@ -175,6 +175,19 @@ Alien Small Fighter (space);//name---------------------------------------
       9.000000;//parameter3
       0.000000;//parameter4    
     end_effects;
+			0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by neutral bullet
+    begin_conditions;
+	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+44;//effect number
+     2.000000;//parameter1
+      0.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4   
+    end_effects;
   2;//death type, 0=any death, 1=timed death, 2=killed by player
     begin_conditions;
     8;//condition
@@ -435,6 +448,19 @@ Alien Large Fighter (space);//name---------------------------------------
       1.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4    
+    end_effects;
+		0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by neutral bullet
+    begin_conditions;
+	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+44;//effect number
+      4.000000;//parameter1
+      0.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4   
     end_effects;
   0;//death type, 0=any death, 1=timed death, 2=killed by player
     begin_conditions;
@@ -4463,6 +4489,19 @@ Alien Battleship;//name---------------------------------------
       1.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4    
+    end_effects;
+		0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by neutral bullet
+    begin_conditions;
+	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+44;//effect number--------------------reduce pp
+      12.500000;//parameter1
+      0.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4   
     end_effects;
   2;//death type, 0=any death, 1=timed death, 2=killed by player
     begin_conditions;
@@ -13588,6 +13627,19 @@ Storm large;//name---------------------------------------
       9.000000;//parameter3
       0.000000;//parameter4    
     end_effects;
+		0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by neutral bullet
+    begin_conditions;
+	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+44;//effect number
+      6.000000;//parameter1
+      0.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4   
+    end_effects;
   0;//death type, 0=any death, 1=timed death, 2=killed by player
     begin_conditions;
     end_conditions;
@@ -13754,6 +13806,19 @@ Storm large;//name---------------------------------------
       1.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4    
+    end_effects;
+		0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by neutral bullet
+    begin_conditions;
+	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+44;//effect number
+      6.00000;//parameter1
+      0.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4   
     end_effects;
   0;//death type, 0=any death, 1=timed death, 2=killed by player
     begin_conditions;
