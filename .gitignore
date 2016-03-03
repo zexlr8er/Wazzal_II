@@ -1,0 +1,25 @@
+# Ignore everything in the root except the "wp-content" directory.
+/*
+!.gitignore
+!README.md
+!Notrium13_Modding_FAQ_2004.pdf
+!textures/
+!data/
+!sound/
+!music/
+
+# Ignore everything in the "textures" directory, except the "Wazzal II" directory.
+textures/*
+!textures/Wazzal II/
+
+# Ignore everything in the "data" directory, except the "Wazzal II" directory.
+data/*
+!data/Wazzal II/
+
+# Ignore everything in the "sound" directory, except the "Wazzal II" directory.
+sound/*
+!sound/Wazzal II/
+
+# Ignore everything in the "music" directory, except the "Wazzal II" directory.
+music/*
+!music/Wazzal II/
