@@ -2552,7 +2552,7 @@ Neutralbullet1;//name---------------------------------------single barrel
   1.400000;//bullet size
   0.000000;//spread
   1.300000;//bullet speed
-  500.000000;//time until bullet disappears
+  800.000000;//time until bullet disappears
   140;//fire rate
   0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
   -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
@@ -2603,7 +2603,7 @@ Neutralbullet2;//name---------------------------------------double barrel
   4.000000;//bullet size
   0.000000;//spread
   1.300000;//bullet speed
-  500.000000;//time until bullet disappears
+  800.000000;//time until bullet disappears
   90;//fire rate
   0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
   -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue
@@ -2654,7 +2654,7 @@ Neutralbullet3;//name---------------------------------------single barrel
   2.100000;//bullet size
   0.000000;//spread
   1.100000;//bullet speed
-  500.000000;//time until bullet disappears
+  800.000000;//time until bullet disappears
   230;//fire rate
   0;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
   -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue

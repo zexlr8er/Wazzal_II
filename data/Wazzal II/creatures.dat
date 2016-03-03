@@ -6481,7 +6481,24 @@ Red Wazzal ship;//name---------------------------------------
     end_effects;
   end_death_block;
   begin_hit_block;//
- begin_conditions;
+	 begin_conditions; -------------------------turns into player controllable creature
+	  8;//condition 
+      35.000000;//condition parameter0
+      0.000000;//condition parameter1 
+  end_conditions;
+    begin_effects;
+	4;//effect number                add to health bar
+     150.000000;//parameter1
+     1.000000;//parameter2
+     4.000000;//parameter3
+      0.000000;//parameter4
+    15;//effect number                change into player ship
+      106.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      1.000000;//parameter4
+    end_effects;
+	 begin_conditions; -------------------------attacks when hit
   end_conditions;
     begin_effects;
     46;//effect number
@@ -6551,16 +6568,6 @@ Red Wazzal ship;//name---------------------------------------
       10.000000;//parameter2
       22.000000;//parameter3
       0.000000;//parameter4
-    end_effects;
-			30000;//interval in milliseconds -----restore AI
-    begin_conditions;    
-      end_conditions;
-    begin_effects;
-    46;//effect number
-      0.000000;//parameter1
-      25.000000;//parameter2
-     -1.000000;//parameter3
-      -1.000000;//parameter4 
     end_effects;
   end_timed_block;
   begin_specialties;//
@@ -6773,6 +6780,23 @@ Blue Wazzal ship;//name---------------------------------------
     end_effects;
   end_death_block;
   begin_hit_block;//
+  	 begin_conditions; -------------------------turns into player controllable creature
+	  8;//condition 
+      30.000000;//condition parameter0
+      0.000000;//condition parameter1 
+  end_conditions;
+    begin_effects;
+	4;//effect number                add to health bar
+     125.000000;//parameter1
+     1.000000;//parameter2
+     4.000000;//parameter3
+      0.000000;//parameter4
+    15;//effect number                change into player ship
+      110.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      1.000000;//parameter4
+    end_effects;
  begin_conditions;
   end_conditions;
     begin_effects;
@@ -6824,16 +6848,6 @@ Blue Wazzal ship;//name---------------------------------------
       10.000000;//parameter2
       22.000000;//parameter3
       0.000000;//parameter4
-    end_effects;
-			30000;//interval in milliseconds -----restore AI
-    begin_conditions;    
-      end_conditions;
-    begin_effects;
-    46;//effect number
-      0.000000;//parameter1
-      25.000000;//parameter2
-     -1.000000;//parameter3
-      -1.000000;//parameter4 
     end_effects;
   end_timed_block;
   begin_specialties;//
@@ -7046,6 +7060,23 @@ Green Wazzal ship;//name---------------------------------------
     end_effects;
   end_death_block;
   begin_hit_block;//
+  	 begin_conditions; -------------------------turns into player controllable creature
+	  8;//condition 
+      30.000000;//condition parameter0
+      0.000000;//condition parameter1 
+  end_conditions;
+    begin_effects;
+	4;//effect number                add to health bar
+     100.000000;//parameter1
+     1.000000;//parameter2
+     4.000000;//parameter3
+      0.000000;//parameter4
+    15;//effect number                change into player ship
+      107.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      1.000000;//parameter4
+    end_effects;
  begin_conditions;
   end_conditions;
     begin_effects;
@@ -7098,16 +7129,6 @@ Green Wazzal ship;//name---------------------------------------
       22.000000;//parameter3
       0.000000;//parameter4
     end_effects;
-			30000;//interval in milliseconds -----restore AI
-    begin_conditions;    
-      end_conditions;
-    begin_effects;
-    46;//effect number
-      0.000000;//parameter1
-     25.000000;//parameter2
-     -1.000000;//parameter3
-      -1.000000;//parameter4 
-    end_effects;
   end_timed_block;
   begin_specialties;//
   health;//description
@@ -7151,8 +7172,8 @@ Yellow Wazzal ship;//name---------------------------------------
   -1;//eat item number from items.dat, -1=nothing
   1.400000;//creature size
   200.000000;//creature weight (affects pushing)
-  1.100000;//maximum movement speed
-  0.500000;//minimum movement speed
+  0.900000;//maximum movement speed
+  0.400000;//minimum movement speed
   0.000000;//leg animation speed
   0.290000;//turn speed
   0.040000;//inertia level (acceleration/deceleration)
@@ -7319,6 +7340,32 @@ Yellow Wazzal ship;//name---------------------------------------
     end_effects;
   end_death_block;
   begin_hit_block;//
+    	 begin_conditions; -------------------------turns into player controllable creature
+	  8;//condition 
+      55.000000;//condition parameter0
+      0.000000;//condition parameter1 
+  end_conditions;
+    begin_effects;
+	4;//effect number                add to health bar
+     500.000000;//parameter1
+     1.000000;//parameter2
+     4.000000;//parameter3
+      0.000000;//parameter4
+    15;//effect number                change into player ship
+      108.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      1.000000;//parameter4
+    end_effects;
+ begin_conditions;
+  end_conditions;
+    begin_effects;
+    46;//effect number
+      0.000000;//parameter1
+      0.000000;//parameter2
+      25000.000000;//parameter3
+      -1.000000;//parameter4
+    end_effects;
  begin_conditions;
   end_conditions;
     begin_effects;
@@ -7390,24 +7437,14 @@ Yellow Wazzal ship;//name---------------------------------------
       22.000000;//parameter3
       0.000000;//parameter4
     end_effects;
-			30000;//interval in milliseconds -----restore AI
-    begin_conditions;    
-      end_conditions;
-    begin_effects;
-    46;//effect number
-      0.000000;//parameter1
-      25.000000;//parameter2
-     -1.000000;//parameter3
-      -1.000000;//parameter4 
-    end_effects;
   end_timed_block;
   begin_specialties;//
   health;//description
     0;//number
     4.000000;//parameter0
     0.000000;//parameter1
-    350.000000;//parameter2
-    350.000000;//parameter3
+    550.000000;//parameter2
+    550.000000;//parameter3
 shield;//description
     0;//number
     8.000000;//parameter0
@@ -7611,6 +7648,32 @@ Silver Wazzal ship;//name---------------------------------------
     end_effects;
   end_death_block;
   begin_hit_block;//
+      	 begin_conditions; -------------------------turns into player controllable creature
+	  8;//condition 
+      45.000000;//condition parameter0
+      0.000000;//condition parameter1 
+  end_conditions;
+    begin_effects;
+	4;//effect number                add to health bar
+     150.000000;//parameter1
+     1.000000;//parameter2
+     4.000000;//parameter3
+      0.000000;//parameter4
+    15;//effect number                change into player ship
+      109.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      1.000000;//parameter4
+    end_effects;
+ begin_conditions;
+  end_conditions;
+    begin_effects;
+    46;//effect number
+      0.000000;//parameter1
+      0.000000;//parameter2
+      25000.000000;//parameter3
+      -1.000000;//parameter4
+    end_effects;
  begin_conditions;
   end_conditions;
     begin_effects;
@@ -7671,16 +7734,6 @@ Silver Wazzal ship;//name---------------------------------------
       10.000000;//parameter2
       22.000000;//parameter3
       0.000000;//parameter4
-    end_effects;
-			3000;//interval in milliseconds -----restore AI
-    begin_conditions;    
-      end_conditions;
-    begin_effects;
-    46;//effect number
-      0.000000;//parameter1
-     25.000000;//parameter2
-     -1.000000;//parameter3
-      -1.000000;//parameter4 
     end_effects;
   end_timed_block;
   begin_specialties;//
@@ -15277,6 +15330,767 @@ Confederacy destroyer (allied);//name---------------------------------------
     0.000000;//parameter2
     0.000000;//parameter3
   end_specialties;
+  Red Wazzal ship (player);//name---------------------------------------
+ 106;//identifier
+ 10;//class
+  redwazzal.png;//texture
+  2;//draw layer
+  -2;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
+  0;//corpse item amount
+  0;//attack type, 0=shooting attack, 1=close combat
+  86;//particle to show on radar, -1=none
+  25;//primary AI tactic from AI_tactic.dat
+  25;//secondary AI tactic from AI_tactic.dat
+  16;//footstep particle from particles.dat
+  0;//die after how many seconds, 0=doesn't die
+  -1;//eat item number from items.dat, -1=nothing
+  1.400000;//creature size
+  200.000000;//creature weight (affects pushing)
+  1.100000;//maximum movement speed
+  0.200000;//minimum movement speed
+  0.000000;//leg animation speed
+  0.180000;//turn speed
+  0.040000;//inertia level (acceleration/deceleration)
+  0;//hide when behind walls
+  55;//weapon number
+  0.000000;//weapon_x
+  0.000000;//weapon_y
+  2;//blood particle
+  1;//bars visible when player hovers mouse on top
+  1.000000;//death animation speed
+  1;//creature can move from area to another
+  900.000000;//AI hear range
+  500.000000;//AI see range
+  6.000000;//AI see angle
+  begin_footstep_sounds;//
+  none.wav;//      
+  end_footstep_sounds;
+  begin_hit_sounds;//
+  none.wav;//  
+  end_hit_sounds;
+  begin_die_sounds;//
+  explosion1.wav;
+  explosion2.wav;
+  end_die_sounds;
+  begin_eat_block;//
+  end_eat_block;
+  begin_death_block;//
+  end_death_block;
+  begin_hit_block;//
+ begin_conditions;
+  end_conditions;
+    begin_effects;
+    end_effects;
+  end_hit_block;
+  begin_timed_block;//
+       4000;//interval in milliseconds -----dialogue
+    begin_conditions;
+    34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1     
+    end_conditions;
+    begin_effects;
+ 	47;//effect number            play dialogue
+      6.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+		 27;//effect number  ---flash
+    4.000000;//parameter1
+    130.000000;//parameter2
+    2.200000;//parameter3
+   3.400000;//parameter4 
+    end_effects;
+	300;//interval in milliseconds -----change side depending on flag
+    begin_conditions;
+    34;//condition              carrying
+      0.000000;//condition parameter0
+      0.000000;//condition parameter1
+    36;//condition              flag
+      27.000000;//condition parameter0
+      0.000000;//condition parameter1     	  
+    end_conditions;
+    begin_effects;
+ 	22;//effect number            change side
+     10.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+		300;//interval in milliseconds -----change side depending on flag
+    begin_conditions;
+    34;//condition              carrying
+      0.000000;//condition parameter0
+      0.000000;//condition parameter1
+    36;//condition              flag
+      26.000000;//condition parameter0
+      0.000000;//condition parameter1     	  
+    end_conditions;
+    begin_effects;
+ 	22;//effect number            change side
+     0.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+	  200;//interval in milliseconds -----speed up
+    begin_conditions;
+  34;//condition
+     0.000000;//condition parameter0
+      0.000000;//condition parameter1      
+    end_conditions;
+    begin_effects;
+ 1;//effect number
+     200.000000;//parameter1
+      -1.000000;//parameter2
+      2.0000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+				120000;//interval in milliseconds -----turn back to neutral
+    begin_conditions;
+    34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1   
+    end_conditions;
+    begin_effects;
+	    15;//effect number                change into player ship
+      45.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      1.000000;//parameter4
+	  22;//effect number                change into player side
+      0.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      1.000000;//parameter4
+    end_effects;
+  end_timed_block;
+  begin_specialties;//
+  	No ai;//description
+    5;//number
+    0.000000;//parameter0
+    0.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+  health;//description
+    0;//number
+    4.000000;//parameter0
+    0.000000;//parameter1
+    650.000000;//parameter2
+    650.000000;//parameter3
+  fly;//description
+    4;//number
+    1.000000;//parameter0
+    1.000000;//parameter1
+    0.000000;//parameter2
+    1.000000;//parameter3
+  end_specialties;
+  Green Wazzal ship;//name---------------------------------------
+  107;//identifier
+  10;//class
+  greenwazzal.png;//texture
+  2;//draw layer
+  -2;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
+  0;//corpse item amount
+  0;//attack type, 0=shooting attack, 1=close combat
+  86;//particle to show on radar, -1=none
+  25;//primary AI tactic from AI_tactic.dat
+  25;//secondary AI tactic from AI_tactic.dat
+  53;//footstep particle from particles.dat
+  0;//die after how many seconds, 0=doesn't die
+  -1;//eat item number from items.dat, -1=nothing
+  1.150000;//creature size
+  200.000000;//creature weight (affects pushing)
+  2.000000;//maximum movement speed
+  0.140000;//minimum movement speed
+ 10.000000;//leg animation speed
+  0.170000;//turn speed
+  0.040000;//inertia level (acceleration/deceleration)
+  0;//hide when behind walls
+  54;//weapon number
+  0.000000;//weapon_x
+  0.000000;//weapon_y
+  2;//blood particle
+  1;//bars visible when player hovers mouse on top
+  1.000000;//death animation speed
+  1;//creature can move from area to another
+  900.000000;//AI hear range
+  500.000000;//AI see range
+  6.000000;//AI see angle
+  begin_footstep_sounds;//
+  none.wav;//      
+  end_footstep_sounds;
+  begin_hit_sounds;//
+  none.wav;//  
+  end_hit_sounds;
+  begin_die_sounds;//
+  explosion1.wav;
+  explosion2.wav;
+  end_die_sounds;
+  begin_eat_block;//
+  end_eat_block;
+  begin_death_block;//
+  end_death_block;
+  begin_hit_block;//
+  end_hit_block;
+  begin_timed_block;//
+       4000;//interval in milliseconds -----dialogue
+    begin_conditions;
+    34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1     
+    end_conditions;
+    begin_effects;
+ 	47;//effect number            play dialogue
+      6.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+		 27;//effect number  ---flash
+    4.000000;//parameter1
+    130.000000;//parameter2
+    2.200000;//parameter3
+   3.400000;//parameter4 
+    end_effects;
+	300;//interval in milliseconds -----change side depending on flag
+    begin_conditions;
+    34;//condition              carrying
+      0.000000;//condition parameter0
+      0.000000;//condition parameter1
+    36;//condition              flag
+      27.000000;//condition parameter0
+      0.000000;//condition parameter1     	  
+    end_conditions;
+    begin_effects;
+ 	22;//effect number            change side
+     10.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+		300;//interval in milliseconds -----change side depending on flag
+    begin_conditions;
+    34;//condition              carrying
+      0.000000;//condition parameter0
+      0.000000;//condition parameter1
+    36;//condition              flag
+      26.000000;//condition parameter0
+      0.000000;//condition parameter1     	  
+    end_conditions;
+    begin_effects;
+ 	22;//effect number            change side
+     0.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+	  200;//interval in milliseconds -----speed up
+    begin_conditions;
+  34;//condition
+     0.000000;//condition parameter0
+      0.000000;//condition parameter1      
+    end_conditions;
+    begin_effects;
+ 1;//effect number
+     200.000000;//parameter1
+      -1.000000;//parameter2
+      2.3000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+	120000;//interval in milliseconds -----turn back to neutral
+    begin_conditions;
+    34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1   
+    end_conditions;
+    begin_effects;
+	    15;//effect number                change into player ship
+      47.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      1.000000;//parameter4
+	  22;//effect number                change into player side
+      0.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      1.000000;//parameter4
+    end_effects;
+	  end_timed_block;
+  begin_specialties;//
+    	No ai;//description
+    5;//number
+    0.000000;//parameter0
+    0.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+  health;//description
+    0;//number
+    4.000000;//parameter0
+    0.000000;//parameter1
+    450.000000;//parameter2
+    450.000000;//parameter3
+  fly;//description
+    4;//number
+    1.000000;//parameter0
+    1.000000;//parameter1
+    0.000000;//parameter2
+    1.000000;//parameter3
+  end_specialties;
+  Yellow Wazzal ship;//name---------------------------------------
+  108;//identifier
+ 10;//class
+  yellowwazzal.png;//texture
+  2;//draw layer
+  -2;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
+  0;//corpse item amount
+  0;//attack type, 0=shooting attack, 1=close combat
+  86;//particle to show on radar, -1=none
+  25;//primary AI tactic from AI_tactic.dat
+  25;//secondary AI tactic from AI_tactic.dat
+ 16;//footstep particle from particles.dat
+  0;//die after how many seconds, 0=doesn't die
+  -1;//eat item number from items.dat, -1=nothing
+  1.400000;//creature size
+  200.000000;//creature weight (affects pushing)
+  1.000000;//maximum movement speed
+  0.300000;//minimum movement speed
+  0.000000;//leg animation speed
+  0.140000;//turn speed
+  0.040000;//inertia level (acceleration/deceleration)
+  0;//hide when behind walls
+  55;//weapon number
+  0.000000;//weapon_x
+  0.000000;//weapon_y
+  2;//blood particle
+  1;//bars visible when player hovers mouse on top
+  1.000000;//death animation speed
+  1;//creature can move from area to another
+  900.000000;//AI hear range
+  500.000000;//AI see range
+  6.000000;//AI see angle
+  begin_footstep_sounds;//
+  none.wav;//      
+  end_footstep_sounds;
+  begin_hit_sounds;//
+  none.wav;//  
+  end_hit_sounds;
+  begin_die_sounds;//
+  explosion1.wav;
+  explosion2.wav;
+  end_die_sounds;
+  begin_eat_block;//
+  end_eat_block;
+  begin_death_block;//
+  end_death_block;
+  begin_hit_block;//
+  end_hit_block;
+  begin_timed_block;//
+       4000;//interval in milliseconds -----dialogue
+    begin_conditions;
+    34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1     
+    end_conditions;
+    begin_effects;
+ 	47;//effect number            play dialogue
+      6.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+		 27;//effect number  ---flash
+    4.000000;//parameter1
+    130.000000;//parameter2
+    2.200000;//parameter3
+   3.400000;//parameter4 
+    end_effects;
+	300;//interval in milliseconds -----change side depending on flag
+    begin_conditions;
+    34;//condition              carrying
+      0.000000;//condition parameter0
+      0.000000;//condition parameter1
+    36;//condition              flag
+      27.000000;//condition parameter0
+      0.000000;//condition parameter1     	  
+    end_conditions;
+    begin_effects;
+ 	22;//effect number            change side
+     10.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+		300;//interval in milliseconds -----change side depending on flag
+    begin_conditions;
+    34;//condition              carrying
+      0.000000;//condition parameter0
+      0.000000;//condition parameter1
+    36;//condition              flag
+      26.000000;//condition parameter0
+      0.000000;//condition parameter1     	  
+    end_conditions;
+    begin_effects;
+ 	22;//effect number            change side
+     0.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+	  200;//interval in milliseconds -----speed up
+    begin_conditions;
+  34;//condition
+     0.000000;//condition parameter0
+      0.000000;//condition parameter1      
+    end_conditions;
+    begin_effects;
+ 1;//effect number
+     200.000000;//parameter1
+      -1.000000;//parameter2
+      1.9000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+	120000;//interval in milliseconds -----turn back to neutral
+    begin_conditions;
+    34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1   
+    end_conditions;
+    begin_effects;
+	    15;//effect number                change into player ship
+      48.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      1.000000;//parameter4
+	  22;//effect number                change into player side
+      0.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      1.000000;//parameter4
+    end_effects;
+	  end_timed_block;
+  begin_specialties;//
+    	No ai;//description
+    5;//number
+    0.000000;//parameter0
+    0.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+  health;//description
+    0;//number
+    4.000000;//parameter0
+    0.000000;//parameter1
+    1000.000000;//parameter2
+    1000.000000;//parameter3
+  fly;//description
+    4;//number
+    1.000000;//parameter0
+    1.000000;//parameter1
+    0.000000;//parameter2
+    1.000000;//parameter3
+  end_specialties;
+  Silver Wazzal ship;//name---------------------------------------
+  109;//identifier
+ 10;//class
+  silverwazzal.png;//texture
+  2;//draw layer
+  -2;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
+  0;//corpse item amount
+  0;//attack type, 0=shooting attack, 1=close combat
+  86;//particle to show on radar, -1=none
+  25;//primary AI tactic from AI_tactic.dat
+  25;//secondary AI tactic from AI_tactic.dat
+  -1;//footstep particle from particles.dat
+  0;//die after how many seconds, 0=doesn't die
+  -1;//eat item number from items.dat, -1=nothing
+  1.400000;//creature size
+  200.000000;//creature weight (affects pushing)
+  2.000000;//maximum movement speed
+  0.0200000;//minimum movement speed
+  0.000000;//leg animation speed
+  0.20000;//turn speed
+  0.050000;//inertia level (acceleration/deceleration)
+  0;//hide when behind walls
+  55;//weapon number
+  0.000000;//weapon_x
+  0.000000;//weapon_y
+  2;//blood particle
+  1;//bars visible when player hovers mouse on top
+  1.000000;//death animation speed
+  1;//creature can move from area to another
+  900.000000;//AI hear range
+  500.000000;//AI see range
+  6.000000;//AI see angle
+  begin_footstep_sounds;//
+  none.wav;//      
+  end_footstep_sounds;
+  begin_hit_sounds;//
+  none.wav;//  
+  end_hit_sounds;
+  begin_die_sounds;//
+  explosion1.wav;
+  explosion2.wav;
+  end_die_sounds;
+  begin_eat_block;//
+  end_eat_block;
+ begin_death_block;//
+  end_death_block;
+  begin_hit_block;//
+  end_hit_block;
+  begin_timed_block;//
+       4000;//interval in milliseconds -----dialogue
+    begin_conditions;
+    34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1     
+    end_conditions;
+    begin_effects;
+ 	47;//effect number            play dialogue
+      6.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+		 27;//effect number  ---flash
+    4.000000;//parameter1
+    130.000000;//parameter2
+    2.200000;//parameter3
+   3.400000;//parameter4 
+    end_effects;
+	300;//interval in milliseconds -----change side depending on flag
+    begin_conditions;
+    34;//condition              carrying
+      0.000000;//condition parameter0
+      0.000000;//condition parameter1
+    36;//condition              flag
+      27.000000;//condition parameter0
+      0.000000;//condition parameter1     	  
+    end_conditions;
+    begin_effects;
+ 	22;//effect number            change side
+     10.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+		300;//interval in milliseconds -----change side depending on flag
+    begin_conditions;
+    34;//condition              carrying
+      0.000000;//condition parameter0
+      0.000000;//condition parameter1
+    36;//condition              flag
+      26.000000;//condition parameter0
+      0.000000;//condition parameter1     	  
+    end_conditions;
+    begin_effects;
+ 	22;//effect number            change side
+     0.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+	  200;//interval in milliseconds -----speed up
+    begin_conditions;
+  34;//condition
+     0.000000;//condition parameter0
+      0.000000;//condition parameter1      
+    end_conditions;
+    begin_effects;
+ 1;//effect number
+     200.000000;//parameter1
+      -1.000000;//parameter2
+     2.0000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+	120000;//interval in milliseconds -----turn back to neutral
+    begin_conditions;
+    34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1   
+    end_conditions;
+    begin_effects;
+	    15;//effect number                change into player ship
+      49.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      1.000000;//parameter4
+	  22;//effect number                change into player side
+      0.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      1.000000;//parameter4
+    end_effects;
+	  end_timed_block;
+  begin_specialties;//
+    	No ai;//description
+    5;//number
+    0.000000;//parameter0
+    0.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+  health;//description
+    0;//number
+    4.000000;//parameter0
+    0.000000;//parameter1
+    600.000000;//parameter2
+    600.000000;//parameter3
+  fly;//description
+    4;//number
+    1.000000;//parameter0
+    1.000000;//parameter1
+    0.000000;//parameter2
+    1.000000;//parameter3
+  end_specialties;
+  Blue Wazzal ship;//name---------------------------------------
+  110;//identifier
+ 10;//class
+  bluewazzal.png;//texture
+  2;//draw layer
+  -2;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
+  0;//corpse item amount
+  0;//attack type, 0=shooting attack, 1=close combat
+  86;//particle to show on radar, -1=none
+  25;//primary AI tactic from AI_tactic.dat
+  25;//secondary AI tactic from AI_tactic.dat
+  53;//footstep particle from particles.dat
+  0;//die after how many seconds, 0=doesn't die
+  -1;//eat item number from items.dat, -1=nothing
+  1.150000;//creature size
+  200.000000;//creature weight (affects pushing)
+  1.300000;//maximum movement speed
+  0.500000;//minimum movement speed
+  10.000000;//leg animation speed
+  0.1500000;//turn speed
+  0.030000;//inertia level (acceleration/deceleration)
+  0;//hide when behind walls
+  56;//weapon number
+  0.000000;//weapon_x
+  0.000000;//weapon_y
+  2;//blood particle
+  1;//bars visible when player hovers mouse on top
+  1.000000;//death animation speed
+  1;//creature can move from area to another
+  900.000000;//AI hear range
+  500.000000;//AI see range
+  6.000000;//AI see angle
+  begin_footstep_sounds;//
+  none.wav;//      
+  end_footstep_sounds;
+  begin_hit_sounds;//
+  none.wav;//  
+  end_hit_sounds;
+  begin_die_sounds;//
+  explosion1.wav;
+  explosion2.wav;
+  end_die_sounds;
+  begin_eat_block;//
+  end_eat_block;
+begin_death_block;//
+  end_death_block;
+  begin_hit_block;//
+  end_hit_block;
+  begin_timed_block;//
+       4000;//interval in milliseconds -----dialogue
+    begin_conditions;
+    34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1     
+    end_conditions;
+    begin_effects;
+ 	47;//effect number            play dialogue
+      6.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+		 27;//effect number  ---flash
+    4.000000;//parameter1
+    130.000000;//parameter2
+    2.200000;//parameter3
+   3.400000;//parameter4 
+    end_effects;
+	300;//interval in milliseconds -----change side depending on flag
+    begin_conditions;
+    34;//condition              carrying
+      0.000000;//condition parameter0
+      0.000000;//condition parameter1
+    36;//condition              flag
+      27.000000;//condition parameter0
+      0.000000;//condition parameter1     	  
+    end_conditions;
+    begin_effects;
+ 	22;//effect number            change side
+     10.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+		300;//interval in milliseconds -----change side depending on flag
+    begin_conditions;
+    34;//condition              carrying
+      0.000000;//condition parameter0
+      0.000000;//condition parameter1
+    36;//condition              flag
+      26.000000;//condition parameter0
+      0.000000;//condition parameter1     	  
+    end_conditions;
+    begin_effects;
+ 	22;//effect number            change side
+     0.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+	  200;//interval in milliseconds -----speed up
+    begin_conditions;
+  34;//condition
+     0.000000;//condition parameter0
+      0.000000;//condition parameter1      
+    end_conditions;
+    begin_effects;
+ 1;//effect number
+     200.000000;//parameter1
+      -1.000000;//parameter2
+     2.0000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+	120000;//interval in milliseconds -----turn back to neutral
+    begin_conditions;
+    34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1   
+    end_conditions;
+    begin_effects;
+	    15;//effect number                change into player ship
+      46.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      1.000000;//parameter4
+	  22;//effect number                change into player side
+      0.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      1.000000;//parameter4
+    end_effects;
+	  end_timed_block;
+  begin_specialties;//
+    	No ai;//description
+    5;//number
+    0.000000;//parameter0
+    0.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+  health;//description
+    0;//number
+    4.000000;//parameter0
+    0.000000;//parameter1
+    500.000000;//parameter2
+    500.000000;//parameter3
+  fly;//description
+    4;//number
+    1.000000;//parameter0
+    1.000000;//parameter1
+    0.000000;//parameter2
+    1.000000;//parameter3
+  end_specialties;
  end_of_file;
+ 
+
 
 Classes: 0= NA 1=Alien ships 2=? 3=Alien soldiers 4=All Allied 5=Asteroids 6=neutral ships 7=player fighters 8=player turrets 9=destroyers

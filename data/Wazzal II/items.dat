@@ -9444,4 +9444,45 @@ L Shield generator;//name---------------------------------------
   end_effects_block;
   begin_combinations;
   end_combinations;
+  Commanding wazzal ships;//name---------------------------------------
+227;//identifier
+  0;//item class
+  0.000000;//weight
+  Press 'Y' when near a disabled ship to take the controls.;//short description
+  none;//first pick up text
+  0.300000;//size on map
+  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  -1;//particle to shown on radar
+  0;//visible in inventory 0=no (can only be used via quick keys), 1=yes
+  prop.tga;//texture name
+  -1;//wielded script,-1=nothing, only applicable for wieldable items
+ 17;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
+  1;//show help text for conditions
+  begin_wield_slots;
+2;
+     end_wield_slots;
+  begin_effects_block;
+  You take the bridge of the ship.;//event text
+    You are not close enough.;//event failure text
+    use.wav;//sound, none for nothing
+    0;//vanishes after event, 0=no, 1=yes
+    U;//use key
+    Y;//quick key
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+    51;//effect number
+      1.000000;//parameter1
+      10.000000;//parameter2
+      100.000000;//parameter3
+      -2.000000;//parameter4
+    50;//effect number
+      1.000000;//parameter1
+     10.000000;//parameter2
+      100.000000;//parameter3
+      -2.000000;//parameter4
+   end_effects;
+  end_effects_block;
+  begin_combinations;
+  end_combinations;
 end_of_file;    
