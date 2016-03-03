@@ -5023,7 +5023,7 @@ Alien Tank;//name---------------------------------------
 	1000;//interval in milliseconds -----change to swivel tank
     begin_conditions;
     8;//condition
-      15.000000;//condition parameter0
+      30.000000;//condition parameter0
       0.000000;//condition parameter1       
     end_conditions;
     begin_effects;
@@ -7909,7 +7909,7 @@ fighter_move.wav;//
       -3.000000;//condition parameter0
      500.000000;//condition parameter1  
     8;//condition
-      15.000000;//condition parameter0
+      30.000000;//condition parameter0
       0.000000;//condition parameter1       
     end_conditions;
     begin_effects;
@@ -16455,6 +16455,19 @@ fighter_move.wav;//
     -1.000000;//parameter3
     1.000000;//parameter4
     end_effects;  
+		60;//interval in milliseconds      --------flamethrower
+    begin_conditions;
+    14;//condition
+      -3.000000;//condition parameter0
+     50.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    24;//effect number
+      72.000000;//parameter1
+      1.000000;//parameter2
+      1.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
   end_timed_block;
   begin_specialties;//
   health;//description
