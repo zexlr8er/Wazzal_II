@@ -549,7 +549,7 @@ Leave Bridge;//name---------------------------------------
       0.000000;//parameter3
       0.000000;//parameter4
     56;//effect number                  overide control
-      -1.000000;//parameter1
+      0.000000;//parameter1
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4  

@@ -117,7 +117,7 @@ Errxelz 8;//name---------------------------------------
       0.000000;//parameter3
       0.000000;//parameter4   
     56;//effect number                  overide control
-      -1.000000;//parameter1
+      0.000000;//parameter1
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4 
@@ -223,7 +223,7 @@ Lvlei;//name---------------------------------------Jungle battle planet
       0.000000;//parameter3
       0.000000;//parameter4 
     56;//effect number                  overide control
-      -1.000000;//parameter1
+      0.000000;//parameter1
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4 
@@ -500,7 +500,7 @@ Kinmegag 71;//name---------------------------------------
       0.000000;//parameter3
       0.000000;//parameter4 
     56;//effect number                  overide control
-      -1.000000;//parameter1
+      0.000000;//parameter1
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
@@ -1860,7 +1860,7 @@ Naquarin;//name---------------------------------------ocean
       0.000000;//parameter3
       0.000000;//parameter4
     56;//effect number                  overide control
-      -1.000000;//parameter1
+      0.000000;//parameter1
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4     
@@ -2176,7 +2176,7 @@ Zycar;//name---------------------------------------lava
       0.000000;//parameter3
       0.000000;//parameter4  
     56;//effect number                  overide control
-      -1.000000;//parameter1
+      0.000000;//parameter1
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4  
@@ -3833,7 +3833,7 @@ The Zoo (Alien homeworld);//name---------------------------------------
       0.000000;//parameter3
       0.000000;//parameter4  
     56;//effect number                  overide control
-      -1.000000;//parameter1
+      0.000000;//parameter1
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4 
@@ -4153,7 +4153,7 @@ Moon of Zycar;//name---------------------------------------
       -1.000000;//parameter3
       1.000000;//parameter4 
     56;//effect number                  overide control
-      -1.000000;//parameter1
+      0.000000;//parameter1
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4 
@@ -4495,7 +4495,7 @@ Moon of Naquarin;//name---------------------------------------
       -1.000000;//parameter3
       1.000000;//parameter4 
     56;//effect number                  overide control
-      -1.000000;//parameter1
+      0.000000;//parameter1
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4 
@@ -4717,7 +4717,7 @@ none;//event text
       0.000000;//parameter3
       0.000000;//parameter4 
     56;//effect number                  overide control
-      -1.000000;//parameter1
+      0.000000;//parameter1
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4  
@@ -5449,7 +5449,7 @@ Dorian Prime;//name---------------------------------------meadows
       0.000000;//parameter3
       0.000000;//parameter4  
     56;//effect number                  overide control
-      -1.000000;//parameter1
+      0.000000;//parameter1
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4 
@@ -6301,7 +6301,7 @@ Garreempir;//name---------------------------------------desert
       0.000000;//parameter3
       0.000000;//parameter4  
     56;//effect number                  overide control
-      -1.000000;//parameter1
+      0.000000;//parameter1
       0.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4 
