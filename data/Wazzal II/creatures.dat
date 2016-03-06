@@ -16778,7 +16778,7 @@ Confederacy destroyer (allied);//name---------------------------------------
     2.200000;//parameter3
    3.400000;//parameter4 
     end_effects;
-	300;//interval in milliseconds -----change side depending on flag
+	300;//interval in milliseconds -----change side depending on flag (pirate)
     begin_conditions;
     34;//condition              carrying
       0.000000;//condition parameter0
@@ -16794,7 +16794,7 @@ Confederacy destroyer (allied);//name---------------------------------------
       -1.000000;//parameter3
       0.000000;//parameter4
     end_effects;
-		300;//interval in milliseconds -----change side depending on flag
+		300;//interval in milliseconds -----change side depending on flag (confed)
     begin_conditions;
     34;//condition              carrying
       0.000000;//condition parameter0
@@ -16806,6 +16806,22 @@ Confederacy destroyer (allied);//name---------------------------------------
     begin_effects;
  	22;//effect number            change side
      0.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+			300;//interval in milliseconds -----change side depending on flag (Alien)
+    begin_conditions;
+    34;//condition              carrying
+      0.000000;//condition parameter0
+      0.000000;//condition parameter1
+    36;//condition              flag
+      32.000000;//condition parameter0
+      0.000000;//condition parameter1     	  
+    end_conditions;
+    begin_effects;
+ 	22;//effect number            change side
+     1.000000;//parameter1
       -1.000000;//parameter2
       -1.000000;//parameter3
       0.000000;//parameter4
@@ -16828,6 +16844,9 @@ Confederacy destroyer (allied);//name---------------------------------------
     34;//condition              not carrying
       1.000000;//condition parameter0
       0.000000;//condition parameter1   
+	      15;//condition              player further
+      800.000000;//condition parameter0
+      1.000000;//condition parameter1  	 
     end_conditions;
     begin_effects;
 	    15;//effect number                change into player ship
@@ -17269,7 +17288,7 @@ Confederacy destroyer (allied);//name---------------------------------------
     2.200000;//parameter3
    3.400000;//parameter4 
     end_effects;
-	300;//interval in milliseconds -----change side depending on flag
+	300;//interval in milliseconds -----change side depending on flag (pirate)
     begin_conditions;
     34;//condition              carrying
       0.000000;//condition parameter0
@@ -17285,7 +17304,7 @@ Confederacy destroyer (allied);//name---------------------------------------
       -1.000000;//parameter3
       0.000000;//parameter4
     end_effects;
-		300;//interval in milliseconds -----change side depending on flag
+		300;//interval in milliseconds -----change side depending on flag (confed)
     begin_conditions;
     34;//condition              carrying
       0.000000;//condition parameter0
@@ -17297,6 +17316,22 @@ Confederacy destroyer (allied);//name---------------------------------------
     begin_effects;
  	22;//effect number            change side
      0.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+			300;//interval in milliseconds -----change side depending on flag (Alien)
+    begin_conditions;
+    34;//condition              carrying
+      0.000000;//condition parameter0
+      0.000000;//condition parameter1
+    36;//condition              flag
+      32.000000;//condition parameter0
+      0.000000;//condition parameter1     	  
+    end_conditions;
+    begin_effects;
+ 	22;//effect number            change side
+     1.000000;//parameter1
       -1.000000;//parameter2
       -1.000000;//parameter3
       0.000000;//parameter4
@@ -17318,7 +17353,10 @@ Confederacy destroyer (allied);//name---------------------------------------
     begin_conditions;
     34;//condition              not carrying
       1.000000;//condition parameter0
-      0.000000;//condition parameter1   
+      0.000000;//condition parameter1 
+    15;//condition              player further
+      800.000000;//condition parameter0
+      1.000000;//condition parameter1  	 	  
     end_conditions;
     begin_effects;
 	    15;//effect number                change into player ship
@@ -17760,7 +17798,7 @@ Confederacy destroyer (allied);//name---------------------------------------
     2.200000;//parameter3
    3.400000;//parameter4 
     end_effects;
-	300;//interval in milliseconds -----change side depending on flag
+	300;//interval in milliseconds -----change side depending on flag (pirate)
     begin_conditions;
     34;//condition              carrying
       0.000000;//condition parameter0
@@ -17776,7 +17814,7 @@ Confederacy destroyer (allied);//name---------------------------------------
       -1.000000;//parameter3
       0.000000;//parameter4
     end_effects;
-		300;//interval in milliseconds -----change side depending on flag
+		300;//interval in milliseconds -----change side depending on flag (confed)
     begin_conditions;
     34;//condition              carrying
       0.000000;//condition parameter0
@@ -17788,6 +17826,22 @@ Confederacy destroyer (allied);//name---------------------------------------
     begin_effects;
  	22;//effect number            change side
      0.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+			300;//interval in milliseconds -----change side depending on flag (Alien)
+    begin_conditions;
+    34;//condition              carrying
+      0.000000;//condition parameter0
+      0.000000;//condition parameter1
+    36;//condition              flag
+      32.000000;//condition parameter0
+      0.000000;//condition parameter1     	  
+    end_conditions;
+    begin_effects;
+ 	22;//effect number            change side
+     1.000000;//parameter1
       -1.000000;//parameter2
       -1.000000;//parameter3
       0.000000;//parameter4
@@ -17809,7 +17863,10 @@ Confederacy destroyer (allied);//name---------------------------------------
     begin_conditions;
     34;//condition              not carrying
       1.000000;//condition parameter0
-      0.000000;//condition parameter1   
+      0.000000;//condition parameter1  
+    15;//condition              player further
+      800.000000;//condition parameter0
+      1.000000;//condition parameter1  	 	  
     end_conditions;
     begin_effects;
 	    15;//effect number                change into player ship
@@ -18251,7 +18308,7 @@ Confederacy destroyer (allied);//name---------------------------------------
     2.200000;//parameter3
    3.400000;//parameter4 
     end_effects;
-	300;//interval in milliseconds -----change side depending on flag
+	300;//interval in milliseconds -----change side depending on flag (pirate)
     begin_conditions;
     34;//condition              carrying
       0.000000;//condition parameter0
@@ -18267,7 +18324,7 @@ Confederacy destroyer (allied);//name---------------------------------------
       -1.000000;//parameter3
       0.000000;//parameter4
     end_effects;
-		300;//interval in milliseconds -----change side depending on flag
+		300;//interval in milliseconds -----change side depending on flag (confed)
     begin_conditions;
     34;//condition              carrying
       0.000000;//condition parameter0
@@ -18279,6 +18336,22 @@ Confederacy destroyer (allied);//name---------------------------------------
     begin_effects;
  	22;//effect number            change side
      0.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+			300;//interval in milliseconds -----change side depending on flag (Alien)
+    begin_conditions;
+    34;//condition              carrying
+      0.000000;//condition parameter0
+      0.000000;//condition parameter1
+    36;//condition              flag
+      32.000000;//condition parameter0
+      0.000000;//condition parameter1     	  
+    end_conditions;
+    begin_effects;
+ 	22;//effect number            change side
+     1.000000;//parameter1
       -1.000000;//parameter2
       -1.000000;//parameter3
       0.000000;//parameter4
@@ -18300,7 +18373,10 @@ Confederacy destroyer (allied);//name---------------------------------------
     begin_conditions;
     34;//condition              not carrying
       1.000000;//condition parameter0
-      0.000000;//condition parameter1   
+      0.000000;//condition parameter1 
+    15;//condition              player further
+      800.000000;//condition parameter0
+      1.000000;//condition parameter1  	 	  
     end_conditions;
     begin_effects;
 	    15;//effect number                change into player ship
@@ -18742,7 +18818,7 @@ begin_death_block;//
     2.200000;//parameter3
    3.400000;//parameter4 
     end_effects;
-	300;//interval in milliseconds -----change side depending on flag
+	300;//interval in milliseconds -----change side depending on flag (pirate)
     begin_conditions;
     34;//condition              carrying
       0.000000;//condition parameter0
@@ -18758,7 +18834,7 @@ begin_death_block;//
       -1.000000;//parameter3
       0.000000;//parameter4
     end_effects;
-		300;//interval in milliseconds -----change side depending on flag
+		300;//interval in milliseconds -----change side depending on flag (confed)
     begin_conditions;
     34;//condition              carrying
       0.000000;//condition parameter0
@@ -18770,6 +18846,22 @@ begin_death_block;//
     begin_effects;
  	22;//effect number            change side
      0.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+			300;//interval in milliseconds -----change side depending on flag (Alien)
+    begin_conditions;
+    34;//condition              carrying
+      0.000000;//condition parameter0
+      0.000000;//condition parameter1
+    36;//condition              flag
+      32.000000;//condition parameter0
+      0.000000;//condition parameter1     	  
+    end_conditions;
+    begin_effects;
+ 	22;//effect number            change side
+     1.000000;//parameter1
       -1.000000;//parameter2
       -1.000000;//parameter3
       0.000000;//parameter4
@@ -18791,7 +18883,10 @@ begin_death_block;//
     begin_conditions;
     34;//condition              not carrying
       1.000000;//condition parameter0
-      0.000000;//condition parameter1   
+      0.000000;//condition parameter1 
+    15;//condition              player further
+      800.000000;//condition parameter0
+      1.000000;//condition parameter1  	  
     end_conditions;
     begin_effects;
 	    15;//effect number                change into player ship
