@@ -52,4 +52,15 @@ Other explosion;//name--------------------------------------
 Phaser;//name--------------------------------------
   17;//identifier
   phaser.wav;//filename
+Reload heavy weapons;//name--------------------------------------
+  18;//identifier
+  reload2.wav;//filename
+Reload particle cannon;//name--------------------------------------
+  19;//identifier
+  reload3.wav;//filename
 end_of_file;
+
+
+
+
+

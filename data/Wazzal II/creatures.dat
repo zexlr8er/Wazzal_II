@@ -11867,7 +11867,7 @@ Boat;//name---------------------------------------
   0;//die after how many seconds, 0=doesn't die
   -1;//eat item number from items.dat, -1=nothing
   2.300000;//creature size
-  600.000000;//creature weight (affects pushing)
+  100.000000;//creature weight (affects pushing)
   2.3000000;//maximum movement speed
   0.0000000;//minimum movement speed
   5.000000;//leg animation speed
@@ -11904,6 +11904,34 @@ boat4.wav;//
   begin_hit_block;//
   end_hit_block;
   begin_timed_block;//
+     50;//interval in milliseconds
+    begin_conditions;
+    5;//condition                        reload bar is smaller than 2
+      11.000000;//condition parameter0
+      3.000000;//condition parameter1    
+    end_conditions;
+    begin_effects;
+    45;//effect number                   stop firing
+      -1.000000;//parameter1
+    700.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4 
+    4;//effect number                   Give bar 25
+      25.000000;//parameter1
+      1.000000;//parameter2
+      11.000000;//parameter3
+      0.000000;//parameter4 
+	 14;//effect number            Play sound
+      18.000000;//parameter1
+      0.600000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+	  	  29;//effect number           Show text
+      168.000000;//parameter1
+      0.00000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+    end_effects;
 100;//interval in milliseconds
     begin_conditions;
  17//condition                                    not in water
@@ -11914,7 +11942,7 @@ boat4.wav;//
      1;//effect number
    	 120.000000;//parameter1
     	  -1.000000;//parameter2
-	0.010;//parameter3
+	0.0150;//parameter3
      	0.000000;//parameter4
         end_effects;
   60;//interval in milliseconds -----fire flamethrower when right click
@@ -11967,6 +11995,12 @@ boat4.wav;//
     0.000000;//parameter1
     400.000000;//parameter2
     400.000000;//parameter3
+	  clip;//description 
+    0;//number
+    11.000000;//parameter0
+    0.000000;//parameter1
+    25.000000;//parameter2
+    25.000000;//parameter3  
   end_specialties;
 Unarmed Confederacy soldier - wandering;//name---------------------------------------
  76;//identifier

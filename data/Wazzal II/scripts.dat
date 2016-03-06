@@ -5609,4 +5609,19 @@ none;//message
     0.000000;//parameter3
     0.000000;//parameter4
   end_effects;
+  Reload text;//name-----------------------------------------------------------------
+  168;//identifier
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  500;//run every n milliseconds
+  Reloading!;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;  
+  end_conditions;
+  begin_effects;
+  end_effects;
   end_of_file;
