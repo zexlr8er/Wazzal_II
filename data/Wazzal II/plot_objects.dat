@@ -70,7 +70,17 @@ Errxelz 8;//name---------------------------------------
       1.000000;//parameter1
       0.000000;//parameter2
       0.000000;//parameter3
-      0.000000;//parameter4     
+      0.000000;//parameter4  
+	  		   22;//effect number                  change side to friendly ships
+     0.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4
+	    17;//effect number                 set reload clip to 12
+    12.000000;//parameter1
+    0.000000;//parameter2
+    10.000000;//parameter3
+    0.000000;//parameter4		  
     52;//effect number                          change inventory to 1
       1.000000;//parameter1
       0.000000;//parameter2
@@ -167,6 +177,11 @@ Lvlei;//name---------------------------------------Jungle battle planet
       -1.000000;//parameter2
       -1.000000;//parameter3
       0.000000;//parameter4
+	  	    17;//effect number                 set reload clip to 12
+    12.000000;//parameter1
+    0.000000;//parameter2
+    10.000000;//parameter3
+    0.000000;//parameter4	
     39;//effect number                          hide confed flag
       26.000000;//parameter1
       0.000000;//parameter2
@@ -439,6 +454,11 @@ Kinmegag 71;//name---------------------------------------
       -1.000000;//parameter2
       -1.000000;//parameter3
       0.000000;//parameter4
+	  	    17;//effect number                 set reload clip to 12
+    12.000000;//parameter1
+    0.000000;//parameter2
+    10.000000;//parameter3
+    0.000000;//parameter4	
     39;//effect number                          hide confed flag
       26.000000;//parameter1
       0.000000;//parameter2
@@ -1804,6 +1824,11 @@ Naquarin;//name---------------------------------------ocean
       -1.000000;//parameter2
       -1.000000;//parameter3
       0.000000;//parameter4
+	  	    17;//effect number                 set reload clip to 12
+    12.000000;//parameter1
+    0.000000;//parameter2
+    10.000000;//parameter3
+    0.000000;//parameter4	
     39;//effect number                          hide confed flag
       26.000000;//parameter1
       0.000000;//parameter2
@@ -2115,6 +2140,11 @@ Zycar;//name---------------------------------------lava
       -1.000000;//parameter2
       -1.000000;//parameter3
       0.000000;//parameter4
+	  	    17;//effect number                 set reload clip to 12
+    12.000000;//parameter1
+    0.000000;//parameter2
+    10.000000;//parameter3
+    0.000000;//parameter4	
     39;//effect number                          hide confed flag
       26.000000;//parameter1
       0.000000;//parameter2
@@ -3772,6 +3802,11 @@ The Zoo (Alien homeworld);//name---------------------------------------
       -1.000000;//parameter2
       -1.000000;//parameter3
       0.000000;//parameter4
+	  	    17;//effect number                 set reload clip to 12
+    12.000000;//parameter1
+    0.000000;//parameter2
+    10.000000;//parameter3
+    0.000000;//parameter4	
     39;//effect number                          hide confed flag
       26.000000;//parameter1
       0.000000;//parameter2
@@ -4087,6 +4122,11 @@ Moon of Zycar;//name---------------------------------------
       -1.000000;//parameter2
       -1.000000;//parameter3
       0.000000;//parameter4
+	  	    17;//effect number                 set reload clip to 12
+    12.000000;//parameter1
+    0.000000;//parameter2
+    10.000000;//parameter3
+    0.000000;//parameter4	
     39;//effect number                          hide confed flag
       26.000000;//parameter1
       0.000000;//parameter2
@@ -4429,6 +4469,11 @@ Moon of Naquarin;//name---------------------------------------
       -1.000000;//parameter2
       -1.000000;//parameter3
       0.000000;//parameter4
+	  	    17;//effect number                 set reload clip to 12
+    12.000000;//parameter1
+    0.000000;//parameter2
+    10.000000;//parameter3
+    0.000000;//parameter4	
     39;//effect number                          hide confed flag
       26.000000;//parameter1
       0.000000;//parameter2
@@ -4661,6 +4706,11 @@ none;//event text
       -1.000000;//parameter2
       -1.000000;//parameter3
       0.000000;//parameter4
+	  	    17;//effect number                 set reload clip to 12
+    12.000000;//parameter1
+    0.000000;//parameter2
+    10.000000;//parameter3
+    0.000000;//parameter4	
     39;//effect number                          hide confed flag
       26.000000;//parameter1
       0.000000;//parameter2
@@ -5383,6 +5433,11 @@ Dorian Prime;//name---------------------------------------meadows
       -1.000000;//parameter2
       -1.000000;//parameter3
       0.000000;//parameter4
+	  	    17;//effect number                 set reload clip to 12
+    12.000000;//parameter1
+    0.000000;//parameter2
+    10.000000;//parameter3
+    0.000000;//parameter4	
     39;//effect number                          hide confed flag
       26.000000;//parameter1
       0.000000;//parameter2
@@ -6245,6 +6300,11 @@ Garreempir;//name---------------------------------------desert
       -1.000000;//parameter2
       -1.000000;//parameter3
       0.000000;//parameter4
+	  	    17;//effect number                 set reload clip to 12
+    12.000000;//parameter1
+    0.000000;//parameter2
+    10.000000;//parameter3
+    0.000000;//parameter4	
     39;//effect number                          hide confed flag
       26.000000;//parameter1
       0.000000;//parameter2

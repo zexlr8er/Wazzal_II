@@ -838,7 +838,7 @@ Player reaches Lieutenant-Commander, 250 Promotion;//name-----------------------
     2.000000;//parameter3
     0.000000;//parameter4
   end_effects;
-Reload clip;//name-----------------------------------------------------------------
+Reload clip, captain;//name-----------------------------------------------------------------
   13;//identifier
   1;//run without calling (set to 0 if you use the script for example as a wield script)
   0;//call position, 0=player location, 1=mouse location
@@ -850,6 +850,9 @@ Reload clip;//name--------------------------------------------------------------
   1;//delay script for n seconds after conditions met
   0;//disabled after first use, 0=no, 1=yes
   begin_conditions;
+    6;//condition                        race captain
+    1.000000;//condition parameter0
+    0.000000;//condition parameter1 
   5;//condition                        reload bar is smaller than 1
     10.000000;//condition parameter0
     1.000000;//condition parameter1    
@@ -873,6 +876,9 @@ Sound (reload);//name-----------------------------------------------------------
   0;//delay script for n seconds after conditions met
   0;//disabled after first use, 0=no, 1=yes
   begin_conditions;
+      6;//condition                        race captain
+    1.000000;//condition parameter0
+    0.000000;//condition parameter1 
   5;//condition                        reload bar is smaller than 1
     10.000000;//condition parameter0
     1.000000;//condition parameter1    
@@ -5608,5 +5614,20 @@ none;//message
     0.000000;//parameter2
     0.000000;//parameter3
     0.000000;//parameter4
+  end_effects;
+  Reload text;//name-----------------------------------------------------------------
+  168;//identifier
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  500;//run every n milliseconds
+  Reloading!;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;  
+  end_conditions;
+  begin_effects;
   end_effects;
   end_of_file;
