@@ -467,7 +467,7 @@ Leave Bridge;//name---------------------------------------
     162.000000;//parameter1
     1.000000;//parameter2
       0.000000;//parameter3
-      0.000000;//parameter4  
+      0.000000;//parameter4 
     19;//effect number                          drop plot
       17.000000;//parameter1
       1.000000;//parameter2
@@ -483,6 +483,11 @@ Leave Bridge;//name---------------------------------------
       -1.000000;//parameter2
       -1.000000;//parameter3
       0.000000;//parameter4
+	    17;//effect number                 set reload clip to 12
+    12.000000;//parameter1
+    0.000000;//parameter2
+    10.000000;//parameter3
+    0.000000;//parameter4	
     39;//effect number                          hide confed flag
       26.000000;//parameter1
       0.000000;//parameter2

@@ -310,7 +310,7 @@ inventory;//description
     none;//message
     10.000000;//parameter0
     0.000000;//parameter1
-    12.000000;//parameter2
+    50.000000;//parameter2
     12.000000;//parameter3
   slaves;//description
     5;//specialty 
@@ -1138,7 +1138,7 @@ inventory;//description
     none;//message
     10.000000;//parameter0
     0.000000;//parameter1
-    12.000000;//parameter2
+    50.000000;//parameter2
     12.000000;//parameter3
   slaves;//description
     5;//specialty 
@@ -1566,7 +1566,7 @@ inventory;//description
     none;//message
     10.000000;//parameter0
     0.000000;//parameter1
-    12.000000;//parameter2
+    50.000000;//parameter2
     12.000000;//parameter3
   slaves;//description
     5;//specialty 
@@ -1986,7 +1986,7 @@ inventory;//description
     none;//message
     10.000000;//parameter0
     0.000000;//parameter1
-    12.000000;//parameter2
+    50.000000;//parameter2
     12.000000;//parameter3
   slaves;//description
     5;//specialty 
