@@ -46,7 +46,12 @@ Initialisation;//name-----------------------------------------------------------
     123.000000;//parameter1
     1.000000;//parameter2
     0.000000;//parameter3
-    0.000000;//parameter4  
+    0.000000;//parameter4 
+ 16;//effect number                   Give Inventory 0 command neutral ships
+    227.000000;//parameter1
+    1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4  	
  16;//effect number                   Give Inventory 0 confed flag
     131.000000;//parameter1
     1.000000;//parameter2
@@ -499,7 +504,7 @@ Player destroys enemy soldiers on jungle planet;//name--------------------------
     18.000000;//parameter3 drugs
     1.000000;//parameter4 	
   end_effects;
-Enemy Attack Script (hurt player when shields down; small Alien);//name-----------------------------------------------------------------
+Hurt player when shields down (Small Alien);//name-----------------------------------------------------------------
   7;//identifier
   0;//run without calling (set to 0 if you use the script for example as a wield script)
   0;//call position, 0=player location, 1=mouse location
@@ -525,7 +530,7 @@ Enemy Attack Script (hurt player when shields down; small Alien);//name---------
     0.000000;//parameter3
     0.000000;//parameter4
   end_effects;
-Enemy Attack Script (hurt player when shields down; large Alien);//name-----------------------------------------------------------------
+Hurt player when shields down (Large Alien);//name-----------------------------------------------------------------
   8;//identifier
   0;//run without calling (set to 0 if you use the script for example as a wield script)
   0;//call position, 0=player location, 1=mouse location
@@ -4336,7 +4341,7 @@ Unused;//name-----------------------------------------------------------------
     1.000000;//parameter3
     0.000000;//parameter4
   end_effects;
- Enemy Attack Script (hurt player when shields down; Neutral/Confed ships);//name-----------------------------------------------------------------
+ Hurt player when shields down (Confed ships);//name-----------------------------------------------------------------
   123;//identifier
   0;//run without calling (set to 0 if you use the script for example as a wield script)
   0;//call position, 0=player location, 1=mouse location
@@ -5577,5 +5582,31 @@ none;//message
     0.000000;//parameter2
     0.000000;//parameter3
     0.000000;//parameter4  
+  end_effects;
+   Hurt player when shields down (Neutral ships);//name-----------------------------------------------------------------
+  167;//identifier
+  0;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  0;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  5;//condition                        shield bar is 0
+    8.000000;//condition parameter0
+    1.000000;//condition parameter1
+45;//condition                        last hit by weapon class
+    -18.000000;//condition parameter0
+    100.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+  4;//effect number                  take from health
+    -2.40000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
   end_effects;
   end_of_file;

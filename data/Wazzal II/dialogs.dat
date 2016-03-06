@@ -46,22 +46,22 @@ Enkommono 3;//name ---------------------------------------------
   1.000000;//text color r
   1.000000;//text color g
   1.000000;//text color b
-Unused;//name ---------------------------------------------
+Disabled ship 1;//name ---------------------------------------------
   6;//identifier
-  Just hours ago, we received scanner reports that several large ships had entered our sector...;//text
-  5000;//duration
+   Disabled ship;//text
+  2000;//duration
   7;//next dialog line (-1=none)
   1.000000;//text color r
-  1.000000;//text color g
-  1.000000;//text color b
+  0.000000;//text color g
+  0.000000;//text color b
 Unused;//name ---------------------------------------------
   7;//identifier
-  As Errxelz is on the outer border of the United Confederacy, unregistered ships are not uncommon. We sent an interceptor to meet them, and next moment, all hell broke loose...;//text
-  9000;//duration
-  8;//next dialog line (-1=none)
+    Press Y to control;//text
+  2000;//duration
+  -1;//next dialog line (-1=none)
   1.000000;//text color r
-  1.000000;//text color g
-  1.000000;//text color b
+  0.000000;//text color g
+  0.000000;//text color b
 Unused;//name ---------------------------------------------
   8;//identifier
   We count thirteen Alien battleships in this system alone. Alien fighters have been sighted north, south and east of our positions on Errxelz 8.;//text

@@ -754,7 +754,7 @@ Commanding machine gun;//name---------------------------------------
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
   0;//visible in inventory 0=no (can only be used via quick keys), 1=yes
-  prop.tga;//texture name
+  carry_icon.tga;//texture name
   -1;//wielded script,-1=nothing, only applicable for wieldable items
   17;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
   1;//show help text for conditions
@@ -3426,7 +3426,7 @@ Ion Wave;//name---------------------------------------
 Alien corpse;//name---------------------------------------
   86;//identifier
   0;//item class
-  1.5000000;//weight
+  2.5000000;//weight
   The corpse of a dead alien killed in combat. Since war broke out, quite a trade has developed around alien corpses, often as war trophies. \ Use this item near a store to sell the corpse for 50 credits.;//short description
   You pick up the corpse of the dead Alien. You may be able to sell it at a store as a trophy of war.;//first pick up text
   0.300000;//size on map
@@ -3784,7 +3784,7 @@ Commanding tank;//name---------------------------------------
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
   0;//visible in inventory 0=no (can only be used via quick keys), 1=yes
-  prop.tga;//texture name
+  carry_icon.tga;//texture name
   -1;//wielded script,-1=nothing, only applicable for wieldable items
   17;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
   1;//show help text for conditions
@@ -3835,7 +3835,7 @@ Commanding pillbox;//name---------------------------------------
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
   0;//visible in inventory 0=no (can only be used via quick keys), 1=yes
-  prop.tga;//texture name
+  carry_icon.tga;//texture name
   -1;//wielded script,-1=nothing, only applicable for wieldable items
  17;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
   1;//show help text for conditions
@@ -4910,7 +4910,7 @@ Commanding destroyer;//name---------------------------------------
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
   0;//visible in inventory 0=no (can only be used via quick keys), 1=yes
-  prop.tga;//texture name
+  carry_icon.tga;//texture name
   -1;//wielded script,-1=nothing, only applicable for wieldable items
  17;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
   1;//show help text for conditions
@@ -6518,7 +6518,7 @@ Commanding boat;//name---------------------------------------
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
   0;//visible in inventory 0=no (can only be used via quick keys), 1=yes
-  prop.tga;//texture name
+  carry_icon.tga;//texture name
   -1;//wielded script,-1=nothing, only applicable for wieldable items
   17;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
   1;//show help text for conditions
@@ -6835,7 +6835,7 @@ Commanding fighter;//name---------------------------------------
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
   0;//visible in inventory 0=no (can only be used via quick keys), 1=yes
-  prop.tga;//texture name
+  carry_icon.tga;//texture name
   -1;//wielded script,-1=nothing, only applicable for wieldable items
   17;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
   1;//show help text for conditions
@@ -7986,7 +7986,7 @@ shuttle.png;//texture name
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
   -1;//particle to shown on radar
   0;//visible in inventory 0=no (can only be used via quick keys), 1=yes
-  prop.tga;//texture name
+  carry_icon.tga;//texture name
   -1;//wielded script,-1=nothing, only applicable for wieldable items
   17;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
   1;//show help text for conditions
@@ -9441,6 +9441,47 @@ L Shield generator;//name---------------------------------------
   begin_wield_slots;
   end_wield_slots;
   begin_effects_block;
+  end_effects_block;
+  begin_combinations;
+  end_combinations;
+  Commanding disabled ship;//name---------------------------------------
+227;//identifier
+  0;//item class
+  0.000000;//weight
+  Press 'Y' when near a disabled ship to take the controls.;//short description
+  none;//first pick up text
+  0.300000;//size on map
+  0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
+  -1;//particle to shown on radar
+  0;//visible in inventory 0=no (can only be used via quick keys), 1=yes
+ carry_icon.tga;//texture name
+  -1;//wielded script,-1=nothing, only applicable for wieldable items
+ 17;//wielded item disabling script, -1=nothing, this script is only checked for conditions while the item is wielded, if the conditions prove false, the item is unwielded
+  1;//show help text for conditions
+  begin_wield_slots;
+2;
+     end_wield_slots;
+  begin_effects_block;
+  You take the bridge of the ship.;//event text
+    You are not close enough.;//event failure text
+    use.wav;//sound, none for nothing
+    0;//vanishes after event, 0=no, 1=yes
+    U;//use key
+    Y;//quick key
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+    51;//effect number
+      1.000000;//parameter1
+      10.000000;//parameter2
+      100.000000;//parameter3
+      -2.000000;//parameter4
+    50;//effect number
+      1.000000;//parameter1
+     10.000000;//parameter2
+      100.000000;//parameter3
+      -2.000000;//parameter4
+   end_effects;
   end_effects_block;
   begin_combinations;
   end_combinations;

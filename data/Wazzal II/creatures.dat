@@ -175,6 +175,19 @@ Alien Small Fighter (space);//name---------------------------------------
       9.000000;//parameter3
       0.000000;//parameter4    
     end_effects;
+			0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by neutral bullet
+    begin_conditions;
+	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+44;//effect number
+     2.000000;//parameter1
+      0.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4   
+    end_effects;
   2;//death type, 0=any death, 1=timed death, 2=killed by player
     begin_conditions;
     8;//condition
@@ -436,6 +449,19 @@ Alien Large Fighter (space);//name---------------------------------------
       9.000000;//parameter3
       0.000000;//parameter4    
     end_effects;
+		0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by neutral bullet
+    begin_conditions;
+	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+44;//effect number
+      4.000000;//parameter1
+      0.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4   
+    end_effects;
   0;//death type, 0=any death, 1=timed death, 2=killed by player
     begin_conditions;
     end_conditions;
@@ -644,7 +670,7 @@ ECM;//name---------------------------------------
   7;//primary AI tactic from AI_tactic.dat
   7;//secondary AI tactic from AI_tactic.dat
   5;//footstep particle from particles.dat
-  6;//die after how many seconds, 0=doesn't die
+  5;//die after how many seconds, 0=doesn't die
   -1;//eat item number from items.dat, -1=nothing
   1.000000;//creature size
   0.200000;//creature weight (affects pushing)
@@ -2895,6 +2921,30 @@ Alien Large Fighter (flying over planet);//name---------------------------------
       7.000000;//parameter3
       -1.000000;//parameter4 
     end_effects;
+		170;//interval in milliseconds            airstrike drop (tank swivel)
+    begin_conditions;
+      3;//condition                        			airstrike bar is greater than 2
+      3.000000;//condition parameter0
+      2.000000;//condition parameter1  
+	  14;//condition								closer than x to tank                               
+      112.000000;//condition parameter0
+      260.000000;//condition parameter1   
+	  15;//condition                                player closer than x  
+      500.000000;//condition parameter0
+      0.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+	  4;//effect number                    			take 1 from airstrike bar
+      -1.000000;//parameter1
+      1.000000;//parameter2
+      3.000000;//parameter3
+      0.000000;//parameter4 
+    10;//effect number                   			drop creature
+      91.000000;//parameter1
+      -1.000000;//parameter2
+      7.000000;//parameter3
+      -1.000000;//parameter4 
+    end_effects;
 		170;//interval in milliseconds            airstrike drop (boat)
     begin_conditions;
       3;//condition                        			airstrike bar is greater than 2
@@ -3650,11 +3700,11 @@ Rocket;//name---------------------------------------
     0.000000;//parameter1
     0.000000;//parameter2
     0.000000;//parameter3
-  fly;//description
+  fly and prevent bullet collision;//description
     4;//number
     1.000000;//parameter0
     0.000000;//parameter1
-    0.000000;//parameter2
+    1.000000;//parameter2
     1.000000;//parameter3
   end_specialties;
 Blue Alien hologram;//name--------------------------------------- hologram
@@ -4440,6 +4490,19 @@ Alien Battleship;//name---------------------------------------
       9.000000;//parameter3
       0.000000;//parameter4    
     end_effects;
+		0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by neutral bullet
+    begin_conditions;
+	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+44;//effect number--------------------reduce pp
+      12.500000;//parameter1
+      0.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4   
+    end_effects;
   2;//death type, 0=any death, 1=timed death, 2=killed by player
     begin_conditions;
     8;//condition
@@ -4996,6 +5059,19 @@ Alien Tank;//name---------------------------------------
     1.30000;//parameter3
     2.000000;//parameter4 
     end_effects;
+	1000;//interval in milliseconds -----change to swivel tank
+    begin_conditions;
+    8;//condition
+      30.000000;//condition parameter0
+      0.000000;//condition parameter1       
+    end_conditions;
+    begin_effects;
+	   15;//effect number
+      111.000000;//parameter1
+      -1.000000;//parameter2
+    -1.000000;//parameter3
+    1.000000;//parameter4
+    end_effects;	
 	3000;//interval in milliseconds -----restore AI
     begin_conditions;    
       end_conditions;
@@ -6342,7 +6418,7 @@ Red Wazzal ship;//name---------------------------------------
   begin_eat_block;//
   end_eat_block;
   begin_death_block;//
-  0;//death type, 0=any death, 1=timed death, 2=killed by player
+  0;//death type, 0=any death, 1=timed death, 2=killed by player         fire for all explosions
     begin_conditions;
     end_conditions;
     begin_effects;
@@ -6352,17 +6428,30 @@ Red Wazzal ship;//name---------------------------------------
       10.000000;//parameter3
       0.000000;//parameter4  
     end_effects;
-	 2;//death type, 0=any death, 1=timed death, 2=killed by player
+	 2;//death type, 0=any death, 1=timed death, 2=killed by player     killed by player
     begin_conditions;
     end_conditions;
     begin_effects;
 44;//effect number--------------------reduce pp
-      -2.000000;//parameter1
-      1.000000;//parameter2
+      -5.000000;//parameter1
+      0.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4      
+    end_effects;	
+	0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by neutral bullet
+    begin_conditions;
+	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+44;//effect number--------------------reduce pp
+      -5.000000;//parameter1
+      0.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4   
     end_effects;
-  2;//death type, 0=any death, 1=timed death, 2=killed by player
+  2;//death type, 0=any death, 1=timed death, 2=killed by player        loot for killed by player
     begin_conditions;
     38;//condition---------------------if 0 then
       22.000000;//condition parameter0
@@ -6479,9 +6568,170 @@ Red Wazzal ship;//name---------------------------------------
       0.000000;//parameter3
       0.000000;//parameter4  
     end_effects;
+	 0;//death type, 0=any death, 1=timed death, 2=killed by player        loot for killed by neutral bullet
+    begin_conditions;
+    38;//condition---------------------if 0 then
+      22.000000;//condition parameter0
+      0.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 1 unit of drugs
+      27.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 1 then
+      22.000000;//condition parameter0
+      1.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 2 unit of drugs
+      27.000000;//parameter1
+      2.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 2 then
+      22.000000;//condition parameter0
+      2.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 3 unit of drugs
+      27.000000;//parameter1
+      3.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 3 then
+      22.000000;//condition parameter0
+      3.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 4 unit of drugs
+      27.000000;//parameter1
+      4.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 4 then
+      22.000000;//condition parameter0
+      4.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 1 unit of weapons
+      29.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4   
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 5 then
+      22.000000;//condition parameter0
+      5.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 2 unit of weapons
+      29.000000;//parameter1
+      2.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 6 then
+      22.000000;//condition parameter0
+      6.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 3 unit of weapons
+      29.000000;//parameter1
+      3.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 7 then
+      22.000000;//condition parameter0
+      7.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 1 unit of slaves
+      31.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
+  0//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 8 then
+      22.000000;//condition parameter0
+      8.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 2 unit of slaves
+      31.000000;//parameter1
+      2.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
   end_death_block;
   begin_hit_block;//
- begin_conditions;
+	 begin_conditions; -------------------------turns into player controllable creature
+	  8;//condition 
+      35.000000;//condition parameter0
+      0.000000;//condition parameter1	  
+  end_conditions;
+    begin_effects;
+	4;//effect number                add to health bar
+     150.000000;//parameter1
+     1.000000;//parameter2
+     4.000000;//parameter3
+      0.000000;//parameter4
+    15;//effect number                change into player ship
+      106.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      1.000000;//parameter4
+    end_effects;
+	 begin_conditions; -------------------------attacks when hit
   end_conditions;
     begin_effects;
     46;//effect number
@@ -6552,16 +6802,6 @@ Red Wazzal ship;//name---------------------------------------
       22.000000;//parameter3
       0.000000;//parameter4
     end_effects;
-			30000;//interval in milliseconds -----restore AI
-    begin_conditions;    
-      end_conditions;
-    begin_effects;
-    46;//effect number
-      0.000000;//parameter1
-      25.000000;//parameter2
-     -1.000000;//parameter3
-      -1.000000;//parameter4 
-    end_effects;
   end_timed_block;
   begin_specialties;//
   health;//description
@@ -6570,12 +6810,6 @@ Red Wazzal ship;//name---------------------------------------
     0.000000;//parameter1
     350.000000;//parameter2
     350.000000;//parameter3
-shield;//description
-    0;//number
-    8.000000;//parameter0
-    0.000000;//parameter1
-    100000.000000;//parameter2
-    100000.000000;//parameter3
   supplies drop counter;//description
     0;//number
     22.000000;//parameter0
@@ -6634,7 +6868,7 @@ Blue Wazzal ship;//name---------------------------------------
   begin_eat_block;//
   end_eat_block;
   begin_death_block;//
-  0;//death type, 0=any death, 1=timed death, 2=killed by player
+  0;//death type, 0=any death, 1=timed death, 2=killed by player         fire for all explosions
     begin_conditions;
     end_conditions;
     begin_effects;
@@ -6644,17 +6878,30 @@ Blue Wazzal ship;//name---------------------------------------
       10.000000;//parameter3
       0.000000;//parameter4  
     end_effects;
-	 2;//death type, 0=any death, 1=timed death, 2=killed by player
+	 2;//death type, 0=any death, 1=timed death, 2=killed by player     killed by player
     begin_conditions;
     end_conditions;
     begin_effects;
 44;//effect number--------------------reduce pp
-      -2.000000;//parameter1
-      1.000000;//parameter2
+      -5.000000;//parameter1
+      0.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4      
+    end_effects;	
+	0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by neutral bullet
+    begin_conditions;
+	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+44;//effect number--------------------reduce pp
+      -5.000000;//parameter1
+      0.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4   
     end_effects;
-  2;//death type, 0=any death, 1=timed death, 2=killed by player
+  2;//death type, 0=any death, 1=timed death, 2=killed by player        loot for killed by player
     begin_conditions;
     38;//condition---------------------if 0 then
       22.000000;//condition parameter0
@@ -6771,8 +7018,169 @@ Blue Wazzal ship;//name---------------------------------------
       0.000000;//parameter3
       0.000000;//parameter4  
     end_effects;
+	 0;//death type, 0=any death, 1=timed death, 2=killed by player        loot for killed by neutral bullet
+    begin_conditions;
+    38;//condition---------------------if 0 then
+      22.000000;//condition parameter0
+      0.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 1 unit of drugs
+      27.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 1 then
+      22.000000;//condition parameter0
+      1.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 2 unit of drugs
+      27.000000;//parameter1
+      2.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 2 then
+      22.000000;//condition parameter0
+      2.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 3 unit of drugs
+      27.000000;//parameter1
+      3.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 3 then
+      22.000000;//condition parameter0
+      3.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 4 unit of drugs
+      27.000000;//parameter1
+      4.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 4 then
+      22.000000;//condition parameter0
+      4.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 1 unit of weapons
+      29.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4   
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 5 then
+      22.000000;//condition parameter0
+      5.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 2 unit of weapons
+      29.000000;//parameter1
+      2.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 6 then
+      22.000000;//condition parameter0
+      6.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 3 unit of weapons
+      29.000000;//parameter1
+      3.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 7 then
+      22.000000;//condition parameter0
+      7.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 1 unit of slaves
+      31.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
+  0//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 8 then
+      22.000000;//condition parameter0
+      8.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 2 unit of slaves
+      31.000000;//parameter1
+      2.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
   end_death_block;
   begin_hit_block;//
+  	 begin_conditions; -------------------------turns into player controllable creature
+	  8;//condition 
+      30.000000;//condition parameter0
+      0.000000;//condition parameter1 
+  end_conditions;
+    begin_effects;
+	4;//effect number                add to health bar
+     125.000000;//parameter1
+     1.000000;//parameter2
+     4.000000;//parameter3
+      0.000000;//parameter4
+    15;//effect number                change into player ship
+      110.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      1.000000;//parameter4
+    end_effects;
  begin_conditions;
   end_conditions;
     begin_effects;
@@ -6824,16 +7232,6 @@ Blue Wazzal ship;//name---------------------------------------
       10.000000;//parameter2
       22.000000;//parameter3
       0.000000;//parameter4
-    end_effects;
-			30000;//interval in milliseconds -----restore AI
-    begin_conditions;    
-      end_conditions;
-    begin_effects;
-    46;//effect number
-      0.000000;//parameter1
-      25.000000;//parameter2
-     -1.000000;//parameter3
-      -1.000000;//parameter4 
     end_effects;
   end_timed_block;
   begin_specialties;//
@@ -6906,8 +7304,8 @@ Green Wazzal ship;//name---------------------------------------
   end_die_sounds;
   begin_eat_block;//
   end_eat_block;
-  begin_death_block;//
-  0;//death type, 0=any death, 1=timed death, 2=killed by player
+   begin_death_block;//
+  0;//death type, 0=any death, 1=timed death, 2=killed by player         fire for all explosions
     begin_conditions;
     end_conditions;
     begin_effects;
@@ -6917,17 +7315,30 @@ Green Wazzal ship;//name---------------------------------------
       10.000000;//parameter3
       0.000000;//parameter4  
     end_effects;
-	 2;//death type, 0=any death, 1=timed death, 2=killed by player
+	 2;//death type, 0=any death, 1=timed death, 2=killed by player     killed by player
     begin_conditions;
     end_conditions;
     begin_effects;
 44;//effect number--------------------reduce pp
-      -2.000000;//parameter1
-      1.000000;//parameter2
+      -5.000000;//parameter1
+      0.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4      
+    end_effects;	
+	0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by neutral bullet
+    begin_conditions;
+	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+44;//effect number--------------------reduce pp
+      -5.000000;//parameter1
+      0.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4   
     end_effects;
-  2;//death type, 0=any death, 1=timed death, 2=killed by player
+  2;//death type, 0=any death, 1=timed death, 2=killed by player        loot for killed by player
     begin_conditions;
     38;//condition---------------------if 0 then
       22.000000;//condition parameter0
@@ -7044,8 +7455,169 @@ Green Wazzal ship;//name---------------------------------------
       0.000000;//parameter3
       0.000000;//parameter4  
     end_effects;
+	 0;//death type, 0=any death, 1=timed death, 2=killed by player        loot for killed by neutral bullet
+    begin_conditions;
+    38;//condition---------------------if 0 then
+      22.000000;//condition parameter0
+      0.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 1 unit of drugs
+      27.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 1 then
+      22.000000;//condition parameter0
+      1.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 2 unit of drugs
+      27.000000;//parameter1
+      2.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 2 then
+      22.000000;//condition parameter0
+      2.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 3 unit of drugs
+      27.000000;//parameter1
+      3.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 3 then
+      22.000000;//condition parameter0
+      3.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 4 unit of drugs
+      27.000000;//parameter1
+      4.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 4 then
+      22.000000;//condition parameter0
+      4.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 1 unit of weapons
+      29.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4   
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 5 then
+      22.000000;//condition parameter0
+      5.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 2 unit of weapons
+      29.000000;//parameter1
+      2.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 6 then
+      22.000000;//condition parameter0
+      6.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 3 unit of weapons
+      29.000000;//parameter1
+      3.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 7 then
+      22.000000;//condition parameter0
+      7.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 1 unit of slaves
+      31.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
+  0//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 8 then
+      22.000000;//condition parameter0
+      8.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 2 unit of slaves
+      31.000000;//parameter1
+      2.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
   end_death_block;
   begin_hit_block;//
+  	 begin_conditions; -------------------------turns into player controllable creature
+	  8;//condition 
+      30.000000;//condition parameter0
+      0.000000;//condition parameter1 
+  end_conditions;
+    begin_effects;
+	4;//effect number                add to health bar
+     100.000000;//parameter1
+     1.000000;//parameter2
+     4.000000;//parameter3
+      0.000000;//parameter4
+    15;//effect number                change into player ship
+      107.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      1.000000;//parameter4
+    end_effects;
  begin_conditions;
   end_conditions;
     begin_effects;
@@ -7098,16 +7670,6 @@ Green Wazzal ship;//name---------------------------------------
       22.000000;//parameter3
       0.000000;//parameter4
     end_effects;
-			30000;//interval in milliseconds -----restore AI
-    begin_conditions;    
-      end_conditions;
-    begin_effects;
-    46;//effect number
-      0.000000;//parameter1
-     25.000000;//parameter2
-     -1.000000;//parameter3
-      -1.000000;//parameter4 
-    end_effects;
   end_timed_block;
   begin_specialties;//
   health;//description
@@ -7151,8 +7713,8 @@ Yellow Wazzal ship;//name---------------------------------------
   -1;//eat item number from items.dat, -1=nothing
   1.400000;//creature size
   200.000000;//creature weight (affects pushing)
-  1.100000;//maximum movement speed
-  0.500000;//minimum movement speed
+  0.900000;//maximum movement speed
+  0.400000;//minimum movement speed
   0.000000;//leg animation speed
   0.290000;//turn speed
   0.040000;//inertia level (acceleration/deceleration)
@@ -7179,8 +7741,8 @@ Yellow Wazzal ship;//name---------------------------------------
   end_die_sounds;
   begin_eat_block;//
   end_eat_block;
-  begin_death_block;//
-  0;//death type, 0=any death, 1=timed death, 2=killed by player
+   begin_death_block;//
+  0;//death type, 0=any death, 1=timed death, 2=killed by player         fire for all explosions
     begin_conditions;
     end_conditions;
     begin_effects;
@@ -7190,17 +7752,30 @@ Yellow Wazzal ship;//name---------------------------------------
       10.000000;//parameter3
       0.000000;//parameter4  
     end_effects;
-	 2;//death type, 0=any death, 1=timed death, 2=killed by player
+	 2;//death type, 0=any death, 1=timed death, 2=killed by player     killed by player
     begin_conditions;
     end_conditions;
     begin_effects;
 44;//effect number--------------------reduce pp
-      -2.000000;//parameter1
-      1.000000;//parameter2
+      -5.000000;//parameter1
+      0.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4      
+    end_effects;	
+	0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by neutral bullet
+    begin_conditions;
+	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+44;//effect number--------------------reduce pp
+      -5.000000;//parameter1
+      0.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4   
     end_effects;
-  2;//death type, 0=any death, 1=timed death, 2=killed by player
+  2;//death type, 0=any death, 1=timed death, 2=killed by player        loot for killed by player
     begin_conditions;
     38;//condition---------------------if 0 then
       22.000000;//condition parameter0
@@ -7317,8 +7892,178 @@ Yellow Wazzal ship;//name---------------------------------------
       0.000000;//parameter3
       0.000000;//parameter4  
     end_effects;
+	 0;//death type, 0=any death, 1=timed death, 2=killed by player        loot for killed by neutral bullet
+    begin_conditions;
+    38;//condition---------------------if 0 then
+      22.000000;//condition parameter0
+      0.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 1 unit of drugs
+      27.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 1 then
+      22.000000;//condition parameter0
+      1.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 2 unit of drugs
+      27.000000;//parameter1
+      2.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 2 then
+      22.000000;//condition parameter0
+      2.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 3 unit of drugs
+      27.000000;//parameter1
+      3.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 3 then
+      22.000000;//condition parameter0
+      3.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 4 unit of drugs
+      27.000000;//parameter1
+      4.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 4 then
+      22.000000;//condition parameter0
+      4.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 1 unit of weapons
+      29.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4   
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 5 then
+      22.000000;//condition parameter0
+      5.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 2 unit of weapons
+      29.000000;//parameter1
+      2.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 6 then
+      22.000000;//condition parameter0
+      6.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 3 unit of weapons
+      29.000000;//parameter1
+      3.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 7 then
+      22.000000;//condition parameter0
+      7.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 1 unit of slaves
+      31.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
+  0//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 8 then
+      22.000000;//condition parameter0
+      8.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 2 unit of slaves
+      31.000000;//parameter1
+      2.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
   end_death_block;
   begin_hit_block;//
+    	 begin_conditions; -------------------------turns into player controllable creature
+	  8;//condition 
+      55.000000;//condition parameter0
+      0.000000;//condition parameter1 
+  end_conditions;
+    begin_effects;
+	4;//effect number                add to health bar
+     500.000000;//parameter1
+     1.000000;//parameter2
+     4.000000;//parameter3
+      0.000000;//parameter4
+    15;//effect number                change into player ship
+      108.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      1.000000;//parameter4
+    end_effects;
+ begin_conditions;
+  end_conditions;
+    begin_effects;
+    46;//effect number
+      0.000000;//parameter1
+      0.000000;//parameter2
+      25000.000000;//parameter3
+      -1.000000;//parameter4
+    end_effects;
  begin_conditions;
   end_conditions;
     begin_effects;
@@ -7390,24 +8135,14 @@ Yellow Wazzal ship;//name---------------------------------------
       22.000000;//parameter3
       0.000000;//parameter4
     end_effects;
-			30000;//interval in milliseconds -----restore AI
-    begin_conditions;    
-      end_conditions;
-    begin_effects;
-    46;//effect number
-      0.000000;//parameter1
-      25.000000;//parameter2
-     -1.000000;//parameter3
-      -1.000000;//parameter4 
-    end_effects;
   end_timed_block;
   begin_specialties;//
   health;//description
     0;//number
     4.000000;//parameter0
     0.000000;//parameter1
-    350.000000;//parameter2
-    350.000000;//parameter3
+    550.000000;//parameter2
+    550.000000;//parameter3
 shield;//description
     0;//number
     8.000000;//parameter0
@@ -7471,8 +8206,8 @@ Silver Wazzal ship;//name---------------------------------------
   end_die_sounds;
   begin_eat_block;//
   end_eat_block;
-  begin_death_block;//
-  0;//death type, 0=any death, 1=timed death, 2=killed by player
+   begin_death_block;//
+  0;//death type, 0=any death, 1=timed death, 2=killed by player         fire for all explosions
     begin_conditions;
     end_conditions;
     begin_effects;
@@ -7482,21 +8217,47 @@ Silver Wazzal ship;//name---------------------------------------
       10.000000;//parameter3
       0.000000;//parameter4  
     end_effects;
-	 2;//death type, 0=any death, 1=timed death, 2=killed by player
+	 2;//death type, 0=any death, 1=timed death, 2=killed by player     killed by player
     begin_conditions;
     end_conditions;
     begin_effects;
 44;//effect number--------------------reduce pp
-      -2.000000;//parameter1
-      1.000000;//parameter2
+      -5.000000;//parameter1
+      0.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4      
+    end_effects;	
+	0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by neutral bullet
+    begin_conditions;
+	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+44;//effect number--------------------reduce pp
+      -5.000000;//parameter1
+      0.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4   
     end_effects;
-  2;//death type, 0=any death, 1=timed death, 2=killed by player
+  2;//death type, 0=any death, 1=timed death, 2=killed by player        loot for killed by player
     begin_conditions;
     38;//condition---------------------if 0 then
       22.000000;//condition parameter0
       0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 1 unit of drugs
+      27.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+  2;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 1 then
+      22.000000;//condition parameter0
+      1.000000;//condition parameter1 
     end_conditions;
     begin_effects;
     3;//effect number---------------------give 2 unit of drugs
@@ -7507,9 +8268,9 @@ Silver Wazzal ship;//name---------------------------------------
     end_effects;
   2;//death type, 0=any death, 1=timed death, 2=killed by player
     begin_conditions;
-    38;//condition---------------------if 1 then
+    38;//condition---------------------if 2 then
       22.000000;//condition parameter0
-     1.000000;//condition parameter1 
+      2.000000;//condition parameter1 
     end_conditions;
     begin_effects;
     3;//effect number---------------------give 3 unit of drugs
@@ -7520,27 +8281,14 @@ Silver Wazzal ship;//name---------------------------------------
     end_effects;
   2;//death type, 0=any death, 1=timed death, 2=killed by player
     begin_conditions;
-    38;//condition---------------------if 2 then
-      22.000000;//condition parameter0
-      2.000000;//condition parameter1 
-    end_conditions;
-    begin_effects;
-    3;//effect number---------------------give 4 unit of drugs
-      27.000000;//parameter1
-      4.000000;//parameter2
-      0.000000;//parameter3
-      0.000000;//parameter4    
-    end_effects;
-  2;//death type, 0=any death, 1=timed death, 2=killed by player
-    begin_conditions;
     38;//condition---------------------if 3 then
       22.000000;//condition parameter0
       3.000000;//condition parameter1 
     end_conditions;
     begin_effects;
-    3;//effect number---------------------give 5 unit of drugs
+    3;//effect number---------------------give 4 unit of drugs
       27.000000;//parameter1
-      5.000000;//parameter2
+      4.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4
     end_effects;
@@ -7548,12 +8296,12 @@ Silver Wazzal ship;//name---------------------------------------
     begin_conditions;
     38;//condition---------------------if 4 then
       22.000000;//condition parameter0
-     4.000000;//condition parameter1 
+      4.000000;//condition parameter1 
     end_conditions;
     begin_effects;
-    3;//effect number---------------------give 2 unit of weapons
+    3;//effect number---------------------give 1 unit of weapons
       29.000000;//parameter1
-      2.000000;//parameter2
+      1.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4   
     end_effects;
@@ -7564,9 +8312,9 @@ Silver Wazzal ship;//name---------------------------------------
       5.000000;//condition parameter1 
     end_conditions;
     begin_effects;
-    3;//effect number---------------------give 3 unit of weapons
+    3;//effect number---------------------give 2 unit of weapons
       29.000000;//parameter1
-      3.000000;//parameter2
+      2.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4 
     end_effects;
@@ -7577,9 +8325,9 @@ Silver Wazzal ship;//name---------------------------------------
       6.000000;//condition parameter1 
     end_conditions;
     begin_effects;
-    3;//effect number---------------------give 4 unit of weapons
+    3;//effect number---------------------give 3 unit of weapons
       29.000000;//parameter1
-      4.000000;//parameter2
+      3.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4  
     end_effects;
@@ -7587,12 +8335,12 @@ Silver Wazzal ship;//name---------------------------------------
     begin_conditions;
     38;//condition---------------------if 7 then
       22.000000;//condition parameter0
-     7.000000;//condition parameter1 
+      7.000000;//condition parameter1 
     end_conditions;
     begin_effects;
-    3;//effect number---------------------give 2 unit of slaves
+    3;//effect number---------------------give 1 unit of slaves
       31.000000;//parameter1
-      2.000000;//parameter2
+      1.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4  
     end_effects;
@@ -7603,14 +8351,184 @@ Silver Wazzal ship;//name---------------------------------------
       8.000000;//condition parameter1 
     end_conditions;
     begin_effects;
-    3;//effect number---------------------give 3 unit of slaves
+    3;//effect number---------------------give 2 unit of slaves
       31.000000;//parameter1
+      2.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
+	 0;//death type, 0=any death, 1=timed death, 2=killed by player        loot for killed by neutral bullet
+    begin_conditions;
+    38;//condition---------------------if 0 then
+      22.000000;//condition parameter0
+      0.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 1 unit of drugs
+      27.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 1 then
+      22.000000;//condition parameter0
+      1.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 2 unit of drugs
+      27.000000;//parameter1
+      2.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 2 then
+      22.000000;//condition parameter0
+      2.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 3 unit of drugs
+      27.000000;//parameter1
       3.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 3 then
+      22.000000;//condition parameter0
+      3.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 4 unit of drugs
+      27.000000;//parameter1
+      4.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 4 then
+      22.000000;//condition parameter0
+      4.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 1 unit of weapons
+      29.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4   
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 5 then
+      22.000000;//condition parameter0
+      5.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 2 unit of weapons
+      29.000000;//parameter1
+      2.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 6 then
+      22.000000;//condition parameter0
+      6.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 3 unit of weapons
+      29.000000;//parameter1
+      3.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 7 then
+      22.000000;//condition parameter0
+      7.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 1 unit of slaves
+      31.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
+  0//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 8 then
+      22.000000;//condition parameter0
+      8.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 2 unit of slaves
+      31.000000;//parameter1
+      2.000000;//parameter2
       0.000000;//parameter3
       0.000000;//parameter4  
     end_effects;
   end_death_block;
   begin_hit_block;//
+      	 begin_conditions; -------------------------turns into player controllable creature
+	  8;//condition 
+      50.000000;//condition parameter0
+      0.000000;//condition parameter1 
+  end_conditions;
+    begin_effects;
+	4;//effect number                add to health bar
+     150.000000;//parameter1
+     1.000000;//parameter2
+     4.000000;//parameter3
+      0.000000;//parameter4
+    15;//effect number                change into player ship
+      109.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      1.000000;//parameter4
+    end_effects;
+ begin_conditions;
+  end_conditions;
+    begin_effects;
+    46;//effect number
+      0.000000;//parameter1
+      0.000000;//parameter2
+      25000.000000;//parameter3
+      -1.000000;//parameter4
+    end_effects;
  begin_conditions;
   end_conditions;
     begin_effects;
@@ -7671,16 +8589,6 @@ Silver Wazzal ship;//name---------------------------------------
       10.000000;//parameter2
       22.000000;//parameter3
       0.000000;//parameter4
-    end_effects;
-			3000;//interval in milliseconds -----restore AI
-    begin_conditions;    
-      end_conditions;
-    begin_effects;
-    46;//effect number
-      0.000000;//parameter1
-     25.000000;//parameter2
-     -1.000000;//parameter3
-      -1.000000;//parameter4 
     end_effects;
   end_timed_block;
   begin_specialties;//
@@ -7812,6 +8720,22 @@ fighter_move.wav;//
     100.000000;//parameter2
     1.30000;//parameter3
     2.000000;//parameter4 
+    end_effects;
+		1000;//interval in milliseconds -----change to swivel tank
+    begin_conditions;
+	    14;//condition
+      -3.000000;//condition parameter0
+     500.000000;//condition parameter1  
+    8;//condition
+      30.000000;//condition parameter0
+      0.000000;//condition parameter1       
+    end_conditions;
+    begin_effects;
+	   15;//effect number
+      112.000000;//parameter1
+      -1.000000;//parameter2
+    -1.000000;//parameter3
+    1.000000;//parameter4
     end_effects;
 			8000;//interval in milliseconds -----restore AI
     begin_conditions;    
@@ -12703,6 +13627,19 @@ Storm large;//name---------------------------------------
       9.000000;//parameter3
       0.000000;//parameter4    
     end_effects;
+		0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by neutral bullet
+    begin_conditions;
+	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+44;//effect number
+      6.000000;//parameter1
+      0.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4   
+    end_effects;
   0;//death type, 0=any death, 1=timed death, 2=killed by player
     begin_conditions;
     end_conditions;
@@ -12869,6 +13806,19 @@ Storm large;//name---------------------------------------
       1.000000;//parameter2
       9.000000;//parameter3
       0.000000;//parameter4    
+    end_effects;
+		0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by neutral bullet
+    begin_conditions;
+	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+44;//effect number
+      6.00000;//parameter1
+      0.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4   
     end_effects;
   0;//death type, 0=any death, 1=timed death, 2=killed by player
     begin_conditions;
@@ -15277,6 +16227,2808 @@ Confederacy destroyer (allied);//name---------------------------------------
     0.000000;//parameter2
     0.000000;//parameter3
   end_specialties;
+  Red Wazzal ship (player);//name---------------------------------------
+ 106;//identifier
+ 10;//class
+  redwazzal.png;//texture
+  2;//draw layer
+  -2;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
+  0;//corpse item amount
+  0;//attack type, 0=shooting attack, 1=close combat
+  86;//particle to show on radar, -1=none
+  25;//primary AI tactic from AI_tactic.dat
+  25;//secondary AI tactic from AI_tactic.dat
+  16;//footstep particle from particles.dat
+  0;//die after how many seconds, 0=doesn't die
+  -1;//eat item number from items.dat, -1=nothing
+  1.400000;//creature size
+  200.000000;//creature weight (affects pushing)
+  1.100000;//maximum movement speed
+  0.200000;//minimum movement speed
+  0.000000;//leg animation speed
+  0.180000;//turn speed
+  0.040000;//inertia level (acceleration/deceleration)
+  0;//hide when behind walls
+  55;//weapon number
+  0.000000;//weapon_x
+  0.000000;//weapon_y
+  2;//blood particle
+  1;//bars visible when player hovers mouse on top
+  1.000000;//death animation speed
+  1;//creature can move from area to another
+  900.000000;//AI hear range
+  500.000000;//AI see range
+  6.000000;//AI see angle
+  begin_footstep_sounds;//
+  none.wav;//      
+  end_footstep_sounds;
+  begin_hit_sounds;//
+  none.wav;//  
+  end_hit_sounds;
+  begin_die_sounds;//
+  explosion1.wav;
+  explosion2.wav;
+  end_die_sounds;
+  begin_eat_block;//
+  end_eat_block;
+  begin_death_block;//
+    0;//death type, 0=any death, 1=timed death, 2=killed by player         fire for all explosions
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+    26;//effect number--------------------fire/explosion
+      24.000000;//parameter1
+      50.000000;//parameter2
+      10.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
+	 2;//death type, 0=any death, 1=timed death, 2=killed by player     killed by player
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+44;//effect number--------------------reduce pp
+      -5.000000;//parameter1
+      0.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4      
+    end_effects;	
+	0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by neutral bullet
+    begin_conditions;
+	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+	      34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+44;//effect number--------------------reduce pp
+      -5.000000;//parameter1
+      0.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4   
+    end_effects;
+	  2;//death type, 0=any death, 1=timed death, 2=killed by player        loot for killed by player
+    begin_conditions;
+    38;//condition---------------------if 0 then
+      22.000000;//condition parameter0
+      0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 1 unit of drugs
+      27.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+  2;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 1 then
+      22.000000;//condition parameter0
+      1.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 2 unit of drugs
+      27.000000;//parameter1
+      2.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+  2;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 2 then
+      22.000000;//condition parameter0
+      2.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 3 unit of drugs
+      27.000000;//parameter1
+      3.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+  2;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 3 then
+      22.000000;//condition parameter0
+      3.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 4 unit of drugs
+      27.000000;//parameter1
+      4.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  2;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 4 then
+      22.000000;//condition parameter0
+      4.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 1 unit of weapons
+      29.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4   
+    end_effects;
+  2;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 5 then
+      22.000000;//condition parameter0
+      5.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 2 unit of weapons
+      29.000000;//parameter1
+      2.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+    end_effects;
+  2;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 6 then
+      22.000000;//condition parameter0
+      6.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 3 unit of weapons
+      29.000000;//parameter1
+      3.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
+  2;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 7 then
+      22.000000;//condition parameter0
+      7.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 1 unit of slaves
+      31.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
+  2;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 8 then
+      22.000000;//condition parameter0
+      8.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 2 unit of slaves
+      31.000000;//parameter1
+      2.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
+	 0;//death type, 0=any death, 1=timed death, 2=killed by player        loot for killed by neutral bullet
+    begin_conditions;
+    38;//condition---------------------if 0 then
+      22.000000;//condition parameter0
+      0.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1 
+	      34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1 	  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 1 unit of drugs
+      27.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 1 then
+      22.000000;//condition parameter0
+      1.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+	  	      34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 2 unit of drugs
+      27.000000;//parameter1
+      2.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 2 then
+      22.000000;//condition parameter0
+      2.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+	  	      34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 3 unit of drugs
+      27.000000;//parameter1
+      3.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 3 then
+      22.000000;//condition parameter0
+      3.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+	  	      34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 4 unit of drugs
+      27.000000;//parameter1
+      4.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 4 then
+      22.000000;//condition parameter0
+      4.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1 
+	      34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1 	  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 1 unit of weapons
+      29.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4   
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 5 then
+      22.000000;//condition parameter0
+      5.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1 
+	      34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1 	  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 2 unit of weapons
+      29.000000;//parameter1
+      2.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 6 then
+      22.000000;//condition parameter0
+      6.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+	  	      34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 3 unit of weapons
+      29.000000;//parameter1
+      3.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 7 then
+      22.000000;//condition parameter0
+      7.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+	  	      34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 1 unit of slaves
+      31.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
+  0//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 8 then
+      22.000000;//condition parameter0
+      8.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+	  	      34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 2 unit of slaves
+      31.000000;//parameter1
+      2.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
+  end_death_block;
+  begin_hit_block;//
+ begin_conditions;
+  end_conditions;
+    begin_effects;
+    end_effects;
+  end_hit_block;
+  begin_timed_block;//
+       4000;//interval in milliseconds -----dialogue
+    begin_conditions;
+    34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1     
+    end_conditions;
+    begin_effects;
+ 	47;//effect number            play dialogue
+      6.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+		 27;//effect number  ---flash
+    4.000000;//parameter1
+    130.000000;//parameter2
+    2.200000;//parameter3
+   3.400000;//parameter4 
+    end_effects;
+	300;//interval in milliseconds -----change side depending on flag
+    begin_conditions;
+    34;//condition              carrying
+      0.000000;//condition parameter0
+      0.000000;//condition parameter1
+    36;//condition              flag
+      27.000000;//condition parameter0
+      0.000000;//condition parameter1     	  
+    end_conditions;
+    begin_effects;
+ 	22;//effect number            change side
+     10.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+		300;//interval in milliseconds -----change side depending on flag
+    begin_conditions;
+    34;//condition              carrying
+      0.000000;//condition parameter0
+      0.000000;//condition parameter1
+    36;//condition              flag
+      26.000000;//condition parameter0
+      0.000000;//condition parameter1     	  
+    end_conditions;
+    begin_effects;
+ 	22;//effect number            change side
+     0.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+	  200;//interval in milliseconds -----speed up
+    begin_conditions;
+  34;//condition
+     0.000000;//condition parameter0
+      0.000000;//condition parameter1      
+    end_conditions;
+    begin_effects;
+ 1;//effect number
+     200.000000;//parameter1
+      -1.000000;//parameter2
+      2.0000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+				120000;//interval in milliseconds -----turn back to neutral
+    begin_conditions;
+    34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1   
+    end_conditions;
+    begin_effects;
+	    15;//effect number                change into player ship
+      45.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      1.000000;//parameter4
+	  22;//effect number                change into player side
+      0.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      1.000000;//parameter4
+    end_effects;
+	  5000;//interval in milliseconds      --------assign random value to supplies drop bar
+    begin_conditions;//  
+    end_conditions;
+    begin_effects;
+    63;//effect number
+      0.000000;//parameter1
+      10.000000;//parameter2
+      22.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  end_timed_block;
+  begin_specialties;//
+  	No ai;//description
+    5;//number
+    0.000000;//parameter0
+    0.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+	  supplies drop counter;//description
+    0;//number
+    22.000000;//parameter0
+   -1.000000;//parameter1
+    10.000000;//parameter2
+    10.000000;//parameter3
+  health;//description
+    0;//number
+    4.000000;//parameter0
+    0.000000;//parameter1
+    650.000000;//parameter2
+    650.000000;//parameter3
+  fly;//description
+    4;//number
+    1.000000;//parameter0
+    1.000000;//parameter1
+    0.000000;//parameter2
+    1.000000;//parameter3
+  end_specialties;
+  Green Wazzal ship (player);//name---------------------------------------
+  107;//identifier
+  10;//class
+  greenwazzal.png;//texture
+  2;//draw layer
+  -2;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
+  0;//corpse item amount
+  0;//attack type, 0=shooting attack, 1=close combat
+  86;//particle to show on radar, -1=none
+  25;//primary AI tactic from AI_tactic.dat
+  25;//secondary AI tactic from AI_tactic.dat
+  53;//footstep particle from particles.dat
+  0;//die after how many seconds, 0=doesn't die
+  -1;//eat item number from items.dat, -1=nothing
+  1.150000;//creature size
+  200.000000;//creature weight (affects pushing)
+  2.000000;//maximum movement speed
+  0.140000;//minimum movement speed
+ 10.000000;//leg animation speed
+  0.170000;//turn speed
+  0.040000;//inertia level (acceleration/deceleration)
+  0;//hide when behind walls
+  54;//weapon number
+  0.000000;//weapon_x
+  0.000000;//weapon_y
+  2;//blood particle
+  1;//bars visible when player hovers mouse on top
+  1.000000;//death animation speed
+  1;//creature can move from area to another
+  900.000000;//AI hear range
+  500.000000;//AI see range
+  6.000000;//AI see angle
+  begin_footstep_sounds;//
+  none.wav;//      
+  end_footstep_sounds;
+  begin_hit_sounds;//
+  none.wav;//  
+  end_hit_sounds;
+  begin_die_sounds;//
+  explosion1.wav;
+  explosion2.wav;
+  end_die_sounds;
+  begin_eat_block;//
+  end_eat_block;
+  begin_death_block;//
+      0;//death type, 0=any death, 1=timed death, 2=killed by player         fire for all explosions
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+    26;//effect number--------------------fire/explosion
+      24.000000;//parameter1
+      50.000000;//parameter2
+      10.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
+	 2;//death type, 0=any death, 1=timed death, 2=killed by player     killed by player
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+44;//effect number--------------------reduce pp
+      -5.000000;//parameter1
+      0.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4      
+    end_effects;	
+	0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by neutral bullet
+    begin_conditions;
+	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+	      34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+44;//effect number--------------------reduce pp
+      -5.000000;//parameter1
+      0.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4   
+    end_effects;
+	  2;//death type, 0=any death, 1=timed death, 2=killed by player        loot for killed by player
+    begin_conditions;
+    38;//condition---------------------if 0 then
+      22.000000;//condition parameter0
+      0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 1 unit of drugs
+      27.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+  2;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 1 then
+      22.000000;//condition parameter0
+      1.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 2 unit of drugs
+      27.000000;//parameter1
+      2.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+  2;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 2 then
+      22.000000;//condition parameter0
+      2.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 3 unit of drugs
+      27.000000;//parameter1
+      3.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+  2;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 3 then
+      22.000000;//condition parameter0
+      3.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 4 unit of drugs
+      27.000000;//parameter1
+      4.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  2;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 4 then
+      22.000000;//condition parameter0
+      4.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 1 unit of weapons
+      29.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4   
+    end_effects;
+  2;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 5 then
+      22.000000;//condition parameter0
+      5.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 2 unit of weapons
+      29.000000;//parameter1
+      2.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+    end_effects;
+  2;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 6 then
+      22.000000;//condition parameter0
+      6.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 3 unit of weapons
+      29.000000;//parameter1
+      3.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
+  2;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 7 then
+      22.000000;//condition parameter0
+      7.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 1 unit of slaves
+      31.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
+  2;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 8 then
+      22.000000;//condition parameter0
+      8.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 2 unit of slaves
+      31.000000;//parameter1
+      2.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
+	 0;//death type, 0=any death, 1=timed death, 2=killed by player        loot for killed by neutral bullet
+    begin_conditions;
+    38;//condition---------------------if 0 then
+      22.000000;//condition parameter0
+      0.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1 
+	      34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1 	  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 1 unit of drugs
+      27.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 1 then
+      22.000000;//condition parameter0
+      1.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+	  	      34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 2 unit of drugs
+      27.000000;//parameter1
+      2.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 2 then
+      22.000000;//condition parameter0
+      2.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+	  	      34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 3 unit of drugs
+      27.000000;//parameter1
+      3.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 3 then
+      22.000000;//condition parameter0
+      3.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+	  	      34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 4 unit of drugs
+      27.000000;//parameter1
+      4.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 4 then
+      22.000000;//condition parameter0
+      4.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1 
+	      34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1 	  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 1 unit of weapons
+      29.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4   
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 5 then
+      22.000000;//condition parameter0
+      5.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1 
+	      34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1 	  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 2 unit of weapons
+      29.000000;//parameter1
+      2.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 6 then
+      22.000000;//condition parameter0
+      6.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+	  	      34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 3 unit of weapons
+      29.000000;//parameter1
+      3.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 7 then
+      22.000000;//condition parameter0
+      7.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+	  	      34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 1 unit of slaves
+      31.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
+  0//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 8 then
+      22.000000;//condition parameter0
+      8.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+	  	      34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 2 unit of slaves
+      31.000000;//parameter1
+      2.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
+  end_death_block;
+  begin_hit_block;//
+  end_hit_block;
+  begin_timed_block;//
+       4000;//interval in milliseconds -----dialogue
+    begin_conditions;
+    34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1     
+    end_conditions;
+    begin_effects;
+ 	47;//effect number            play dialogue
+      6.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+		 27;//effect number  ---flash
+    4.000000;//parameter1
+    130.000000;//parameter2
+    2.200000;//parameter3
+   3.400000;//parameter4 
+    end_effects;
+	300;//interval in milliseconds -----change side depending on flag
+    begin_conditions;
+    34;//condition              carrying
+      0.000000;//condition parameter0
+      0.000000;//condition parameter1
+    36;//condition              flag
+      27.000000;//condition parameter0
+      0.000000;//condition parameter1     	  
+    end_conditions;
+    begin_effects;
+ 	22;//effect number            change side
+     10.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+		300;//interval in milliseconds -----change side depending on flag
+    begin_conditions;
+    34;//condition              carrying
+      0.000000;//condition parameter0
+      0.000000;//condition parameter1
+    36;//condition              flag
+      26.000000;//condition parameter0
+      0.000000;//condition parameter1     	  
+    end_conditions;
+    begin_effects;
+ 	22;//effect number            change side
+     0.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+	  200;//interval in milliseconds -----speed up
+    begin_conditions;
+  34;//condition
+     0.000000;//condition parameter0
+      0.000000;//condition parameter1      
+    end_conditions;
+    begin_effects;
+ 1;//effect number
+     200.000000;//parameter1
+      -1.000000;//parameter2
+      2.3000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+	120000;//interval in milliseconds -----turn back to neutral
+    begin_conditions;
+    34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1   
+    end_conditions;
+    begin_effects;
+	    15;//effect number                change into player ship
+      47.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      1.000000;//parameter4
+	  22;//effect number                change into player side
+      0.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      1.000000;//parameter4
+	  end_effects;	  
+ 	  5000;//interval in milliseconds      --------assign random value to supplies drop bar
+    begin_conditions;//  
+    end_conditions;
+    begin_effects;
+    63;//effect number
+      0.000000;//parameter1
+      12.000000;//parameter2
+      22.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  end_timed_block;
+  begin_specialties;//
+  	No ai;//description
+    5;//number
+    0.000000;//parameter0
+    0.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+	  supplies drop counter;//description
+    0;//number
+    22.000000;//parameter0
+   -1.000000;//parameter1
+    12.000000;//parameter2
+    12.000000;//parameter3
+  health;//description
+    0;//number
+    4.000000;//parameter0
+    0.000000;//parameter1
+    450.000000;//parameter2
+    450.000000;//parameter3
+  fly;//description
+    4;//number
+    1.000000;//parameter0
+    1.000000;//parameter1
+    0.000000;//parameter2
+    1.000000;//parameter3
+  end_specialties;
+  Yellow Wazzal ship (player);//name---------------------------------------
+  108;//identifier
+ 10;//class
+  yellowwazzal.png;//texture
+  2;//draw layer
+  -2;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
+  0;//corpse item amount
+  0;//attack type, 0=shooting attack, 1=close combat
+  86;//particle to show on radar, -1=none
+  25;//primary AI tactic from AI_tactic.dat
+  25;//secondary AI tactic from AI_tactic.dat
+ 16;//footstep particle from particles.dat
+  0;//die after how many seconds, 0=doesn't die
+  -1;//eat item number from items.dat, -1=nothing
+  1.400000;//creature size
+  200.000000;//creature weight (affects pushing)
+  1.000000;//maximum movement speed
+  0.300000;//minimum movement speed
+  0.000000;//leg animation speed
+  0.140000;//turn speed
+  0.040000;//inertia level (acceleration/deceleration)
+  0;//hide when behind walls
+  55;//weapon number
+  0.000000;//weapon_x
+  0.000000;//weapon_y
+  2;//blood particle
+  1;//bars visible when player hovers mouse on top
+  1.000000;//death animation speed
+  1;//creature can move from area to another
+  900.000000;//AI hear range
+  500.000000;//AI see range
+  6.000000;//AI see angle
+  begin_footstep_sounds;//
+  none.wav;//      
+  end_footstep_sounds;
+  begin_hit_sounds;//
+  none.wav;//  
+  end_hit_sounds;
+  begin_die_sounds;//
+  explosion1.wav;
+  explosion2.wav;
+  end_die_sounds;
+  begin_eat_block;//
+  end_eat_block;
+  begin_death_block;//
+      0;//death type, 0=any death, 1=timed death, 2=killed by player         fire for all explosions
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+    26;//effect number--------------------fire/explosion
+      24.000000;//parameter1
+      50.000000;//parameter2
+      10.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
+	 2;//death type, 0=any death, 1=timed death, 2=killed by player     killed by player
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+44;//effect number--------------------reduce pp
+      -5.000000;//parameter1
+      0.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4      
+    end_effects;	
+	0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by neutral bullet
+    begin_conditions;
+	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+	      34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+44;//effect number--------------------reduce pp
+      -5.000000;//parameter1
+      0.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4   
+    end_effects;
+	  2;//death type, 0=any death, 1=timed death, 2=killed by player        loot for killed by player
+    begin_conditions;
+    38;//condition---------------------if 0 then
+      22.000000;//condition parameter0
+      0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 1 unit of drugs
+      27.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+  2;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 1 then
+      22.000000;//condition parameter0
+      1.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 2 unit of drugs
+      27.000000;//parameter1
+      2.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+  2;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 2 then
+      22.000000;//condition parameter0
+      2.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 3 unit of drugs
+      27.000000;//parameter1
+      3.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+  2;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 3 then
+      22.000000;//condition parameter0
+      3.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 4 unit of drugs
+      27.000000;//parameter1
+      4.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  2;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 4 then
+      22.000000;//condition parameter0
+      4.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 1 unit of weapons
+      29.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4   
+    end_effects;
+  2;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 5 then
+      22.000000;//condition parameter0
+      5.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 2 unit of weapons
+      29.000000;//parameter1
+      2.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+    end_effects;
+  2;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 6 then
+      22.000000;//condition parameter0
+      6.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 3 unit of weapons
+      29.000000;//parameter1
+      3.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
+  2;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 7 then
+      22.000000;//condition parameter0
+      7.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 1 unit of slaves
+      31.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
+  2;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 8 then
+      22.000000;//condition parameter0
+      8.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 2 unit of slaves
+      31.000000;//parameter1
+      2.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
+	 0;//death type, 0=any death, 1=timed death, 2=killed by player        loot for killed by neutral bullet
+    begin_conditions;
+    38;//condition---------------------if 0 then
+      22.000000;//condition parameter0
+      0.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1 
+	      34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1 	  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 1 unit of drugs
+      27.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 1 then
+      22.000000;//condition parameter0
+      1.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+	  	      34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 2 unit of drugs
+      27.000000;//parameter1
+      2.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 2 then
+      22.000000;//condition parameter0
+      2.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+	  	      34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 3 unit of drugs
+      27.000000;//parameter1
+      3.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 3 then
+      22.000000;//condition parameter0
+      3.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+	  	      34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 4 unit of drugs
+      27.000000;//parameter1
+      4.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 4 then
+      22.000000;//condition parameter0
+      4.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1 
+	      34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1 	  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 1 unit of weapons
+      29.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4   
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 5 then
+      22.000000;//condition parameter0
+      5.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1 
+	      34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1 	  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 2 unit of weapons
+      29.000000;//parameter1
+      2.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 6 then
+      22.000000;//condition parameter0
+      6.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+	  	      34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 3 unit of weapons
+      29.000000;//parameter1
+      3.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 7 then
+      22.000000;//condition parameter0
+      7.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+	  	      34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 1 unit of slaves
+      31.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
+  0//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 8 then
+      22.000000;//condition parameter0
+      8.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+	  	      34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 2 unit of slaves
+      31.000000;//parameter1
+      2.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
+  end_death_block;
+  begin_hit_block;//
+  end_hit_block;
+  begin_timed_block;//
+       4000;//interval in milliseconds -----dialogue
+    begin_conditions;
+    34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1     
+    end_conditions;
+    begin_effects;
+ 	47;//effect number            play dialogue
+      6.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+		 27;//effect number  ---flash
+    4.000000;//parameter1
+    130.000000;//parameter2
+    2.200000;//parameter3
+   3.400000;//parameter4 
+    end_effects;
+	300;//interval in milliseconds -----change side depending on flag
+    begin_conditions;
+    34;//condition              carrying
+      0.000000;//condition parameter0
+      0.000000;//condition parameter1
+    36;//condition              flag
+      27.000000;//condition parameter0
+      0.000000;//condition parameter1     	  
+    end_conditions;
+    begin_effects;
+ 	22;//effect number            change side
+     10.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+		300;//interval in milliseconds -----change side depending on flag
+    begin_conditions;
+    34;//condition              carrying
+      0.000000;//condition parameter0
+      0.000000;//condition parameter1
+    36;//condition              flag
+      26.000000;//condition parameter0
+      0.000000;//condition parameter1     	  
+    end_conditions;
+    begin_effects;
+ 	22;//effect number            change side
+     0.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+	  200;//interval in milliseconds -----speed up
+    begin_conditions;
+  34;//condition
+     0.000000;//condition parameter0
+      0.000000;//condition parameter1      
+    end_conditions;
+    begin_effects;
+ 1;//effect number
+     200.000000;//parameter1
+      -1.000000;//parameter2
+      1.9000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+	120000;//interval in milliseconds -----turn back to neutral
+    begin_conditions;
+    34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1   
+    end_conditions;
+    begin_effects;
+	    15;//effect number                change into player ship
+      48.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      1.000000;//parameter4
+	  22;//effect number                change into player side
+      0.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      1.000000;//parameter4
+    end_effects;
+	  5000;//interval in milliseconds      --------assign random value to supplies drop bar
+    begin_conditions;//  
+    end_conditions;
+    begin_effects;
+    63;//effect number
+      0.000000;//parameter1
+      10.000000;//parameter2
+      22.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  end_timed_block;
+  begin_specialties;//
+  	No ai;//description
+    5;//number
+    0.000000;//parameter0
+    0.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+	  supplies drop counter;//description
+    0;//number
+    22.000000;//parameter0
+   -1.000000;//parameter1
+    10.000000;//parameter2
+    10.000000;//parameter3
+  health;//description
+    0;//number
+    4.000000;//parameter0
+    0.000000;//parameter1
+    1000.000000;//parameter2
+    1000.000000;//parameter3
+  fly;//description
+    4;//number
+    1.000000;//parameter0
+    1.000000;//parameter1
+    0.000000;//parameter2
+    1.000000;//parameter3
+  end_specialties;
+  Silver Wazzal ship (player);//name---------------------------------------
+  109;//identifier
+ 10;//class
+  silverwazzal.png;//texture
+  2;//draw layer
+  -2;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
+  0;//corpse item amount
+  0;//attack type, 0=shooting attack, 1=close combat
+  86;//particle to show on radar, -1=none
+  25;//primary AI tactic from AI_tactic.dat
+  25;//secondary AI tactic from AI_tactic.dat
+  -1;//footstep particle from particles.dat
+  0;//die after how many seconds, 0=doesn't die
+  -1;//eat item number from items.dat, -1=nothing
+  1.400000;//creature size
+  200.000000;//creature weight (affects pushing)
+  2.000000;//maximum movement speed
+  0.0200000;//minimum movement speed
+  0.000000;//leg animation speed
+  0.20000;//turn speed
+  0.050000;//inertia level (acceleration/deceleration)
+  0;//hide when behind walls
+  55;//weapon number
+  0.000000;//weapon_x
+  0.000000;//weapon_y
+  2;//blood particle
+  1;//bars visible when player hovers mouse on top
+  1.000000;//death animation speed
+  1;//creature can move from area to another
+  900.000000;//AI hear range
+  500.000000;//AI see range
+  6.000000;//AI see angle
+  begin_footstep_sounds;//
+  none.wav;//      
+  end_footstep_sounds;
+  begin_hit_sounds;//
+  none.wav;//  
+  end_hit_sounds;
+  begin_die_sounds;//
+  explosion1.wav;
+  explosion2.wav;
+  end_die_sounds;
+  begin_eat_block;//
+  end_eat_block;
+ begin_death_block;//
+     0;//death type, 0=any death, 1=timed death, 2=killed by player         fire for all explosions
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+    26;//effect number--------------------fire/explosion
+      24.000000;//parameter1
+      50.000000;//parameter2
+      10.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
+	 2;//death type, 0=any death, 1=timed death, 2=killed by player     killed by player
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+44;//effect number--------------------reduce pp
+      -5.000000;//parameter1
+      0.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4      
+    end_effects;	
+	0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by neutral bullet
+    begin_conditions;
+	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+	      34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+44;//effect number--------------------reduce pp
+      -5.000000;//parameter1
+      0.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4   
+    end_effects;
+	  2;//death type, 0=any death, 1=timed death, 2=killed by player        loot for killed by player
+    begin_conditions;
+    38;//condition---------------------if 0 then
+      22.000000;//condition parameter0
+      0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 1 unit of drugs
+      27.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+  2;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 1 then
+      22.000000;//condition parameter0
+      1.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 2 unit of drugs
+      27.000000;//parameter1
+      2.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+  2;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 2 then
+      22.000000;//condition parameter0
+      2.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 3 unit of drugs
+      27.000000;//parameter1
+      3.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+  2;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 3 then
+      22.000000;//condition parameter0
+      3.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 4 unit of drugs
+      27.000000;//parameter1
+      4.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  2;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 4 then
+      22.000000;//condition parameter0
+      4.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 1 unit of weapons
+      29.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4   
+    end_effects;
+  2;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 5 then
+      22.000000;//condition parameter0
+      5.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 2 unit of weapons
+      29.000000;//parameter1
+      2.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+    end_effects;
+  2;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 6 then
+      22.000000;//condition parameter0
+      6.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 3 unit of weapons
+      29.000000;//parameter1
+      3.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
+  2;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 7 then
+      22.000000;//condition parameter0
+      7.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 1 unit of slaves
+      31.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
+  2;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 8 then
+      22.000000;//condition parameter0
+      8.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 2 unit of slaves
+      31.000000;//parameter1
+      2.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
+	 0;//death type, 0=any death, 1=timed death, 2=killed by player        loot for killed by neutral bullet
+    begin_conditions;
+    38;//condition---------------------if 0 then
+      22.000000;//condition parameter0
+      0.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1 
+	      34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1 	  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 1 unit of drugs
+      27.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 1 then
+      22.000000;//condition parameter0
+      1.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+	  	      34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 2 unit of drugs
+      27.000000;//parameter1
+      2.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 2 then
+      22.000000;//condition parameter0
+      2.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+	  	      34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 3 unit of drugs
+      27.000000;//parameter1
+      3.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 3 then
+      22.000000;//condition parameter0
+      3.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+	  	      34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 4 unit of drugs
+      27.000000;//parameter1
+      4.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 4 then
+      22.000000;//condition parameter0
+      4.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1 
+	      34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1 	  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 1 unit of weapons
+      29.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4   
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 5 then
+      22.000000;//condition parameter0
+      5.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1 
+	      34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1 	  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 2 unit of weapons
+      29.000000;//parameter1
+      2.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 6 then
+      22.000000;//condition parameter0
+      6.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+	  	      34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 3 unit of weapons
+      29.000000;//parameter1
+      3.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 7 then
+      22.000000;//condition parameter0
+      7.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+	  	      34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 1 unit of slaves
+      31.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
+  0//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 8 then
+      22.000000;//condition parameter0
+      8.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+	  	      34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 2 unit of slaves
+      31.000000;//parameter1
+      2.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
+  end_death_block;
+  begin_hit_block;//
+  end_hit_block;
+  begin_timed_block;//
+       4000;//interval in milliseconds -----dialogue
+    begin_conditions;
+    34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1     
+    end_conditions;
+    begin_effects;
+ 	47;//effect number            play dialogue
+      6.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+		 27;//effect number  ---flash
+    4.000000;//parameter1
+    130.000000;//parameter2
+    2.200000;//parameter3
+   3.400000;//parameter4 
+    end_effects;
+	300;//interval in milliseconds -----change side depending on flag
+    begin_conditions;
+    34;//condition              carrying
+      0.000000;//condition parameter0
+      0.000000;//condition parameter1
+    36;//condition              flag
+      27.000000;//condition parameter0
+      0.000000;//condition parameter1     	  
+    end_conditions;
+    begin_effects;
+ 	22;//effect number            change side
+     10.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+		300;//interval in milliseconds -----change side depending on flag
+    begin_conditions;
+    34;//condition              carrying
+      0.000000;//condition parameter0
+      0.000000;//condition parameter1
+    36;//condition              flag
+      26.000000;//condition parameter0
+      0.000000;//condition parameter1     	  
+    end_conditions;
+    begin_effects;
+ 	22;//effect number            change side
+     0.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+	  200;//interval in milliseconds -----speed up
+    begin_conditions;
+  34;//condition
+     0.000000;//condition parameter0
+      0.000000;//condition parameter1      
+    end_conditions;
+    begin_effects;
+ 1;//effect number
+     200.000000;//parameter1
+      -1.000000;//parameter2
+     2.0000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+	120000;//interval in milliseconds -----turn back to neutral
+    begin_conditions;
+    34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1   
+    end_conditions;
+    begin_effects;
+	    15;//effect number                change into player ship
+      49.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      1.000000;//parameter4
+	  22;//effect number                change into player side
+      0.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      1.000000;//parameter4
+    end_effects;
+	  5000;//interval in milliseconds      --------assign random value to supplies drop bar
+    begin_conditions;//  
+    end_conditions;
+    begin_effects;
+    63;//effect number
+      0.000000;//parameter1
+      10.000000;//parameter2
+      22.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  end_timed_block;
+  begin_specialties;//
+  	No ai;//description
+    5;//number
+    0.000000;//parameter0
+    0.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+	  supplies drop counter;//description
+    0;//number
+    22.000000;//parameter0
+   -1.000000;//parameter1
+    10.000000;//parameter2
+    10.000000;//parameter3
+  health;//description
+    0;//number
+    4.000000;//parameter0
+    0.000000;//parameter1
+    600.000000;//parameter2
+    600.000000;//parameter3
+  fly;//description
+    4;//number
+    1.000000;//parameter0
+    1.000000;//parameter1
+    0.000000;//parameter2
+    1.000000;//parameter3
+  end_specialties;
+  Blue Wazzal ship (player);//name---------------------------------------
+  110;//identifier
+ 10;//class
+  bluewazzal.png;//texture
+  2;//draw layer
+  -2;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
+  0;//corpse item amount
+  0;//attack type, 0=shooting attack, 1=close combat
+  86;//particle to show on radar, -1=none
+  25;//primary AI tactic from AI_tactic.dat
+  25;//secondary AI tactic from AI_tactic.dat
+  53;//footstep particle from particles.dat
+  0;//die after how many seconds, 0=doesn't die
+  -1;//eat item number from items.dat, -1=nothing
+  1.150000;//creature size
+  200.000000;//creature weight (affects pushing)
+  1.300000;//maximum movement speed
+  0.500000;//minimum movement speed
+  10.000000;//leg animation speed
+  0.1500000;//turn speed
+  0.030000;//inertia level (acceleration/deceleration)
+  0;//hide when behind walls
+  56;//weapon number
+  0.000000;//weapon_x
+  0.000000;//weapon_y
+  2;//blood particle
+  1;//bars visible when player hovers mouse on top
+  1.000000;//death animation speed
+  1;//creature can move from area to another
+  900.000000;//AI hear range
+  500.000000;//AI see range
+  6.000000;//AI see angle
+  begin_footstep_sounds;//
+  none.wav;//      
+  end_footstep_sounds;
+  begin_hit_sounds;//
+  none.wav;//  
+  end_hit_sounds;
+  begin_die_sounds;//
+  explosion1.wav;
+  explosion2.wav;
+  end_die_sounds;
+  begin_eat_block;//
+  end_eat_block;
+begin_death_block;//
+    0;//death type, 0=any death, 1=timed death, 2=killed by player         fire for all explosions
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+    26;//effect number--------------------fire/explosion
+      24.000000;//parameter1
+      50.000000;//parameter2
+      10.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
+	 2;//death type, 0=any death, 1=timed death, 2=killed by player     killed by player
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+44;//effect number--------------------reduce pp
+      -5.000000;//parameter1
+      0.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4      
+    end_effects;	
+	0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by neutral bullet
+    begin_conditions;
+	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+	      34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+44;//effect number--------------------reduce pp
+      -5.000000;//parameter1
+      0.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4   
+    end_effects;
+	  2;//death type, 0=any death, 1=timed death, 2=killed by player        loot for killed by player
+    begin_conditions;
+    38;//condition---------------------if 0 then
+      22.000000;//condition parameter0
+      0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 1 unit of drugs
+      27.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+  2;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 1 then
+      22.000000;//condition parameter0
+      1.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 2 unit of drugs
+      27.000000;//parameter1
+      2.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+  2;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 2 then
+      22.000000;//condition parameter0
+      2.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 3 unit of drugs
+      27.000000;//parameter1
+      3.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+  2;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 3 then
+      22.000000;//condition parameter0
+      3.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 4 unit of drugs
+      27.000000;//parameter1
+      4.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  2;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 4 then
+      22.000000;//condition parameter0
+      4.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 1 unit of weapons
+      29.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4   
+    end_effects;
+  2;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 5 then
+      22.000000;//condition parameter0
+      5.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 2 unit of weapons
+      29.000000;//parameter1
+      2.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+    end_effects;
+  2;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 6 then
+      22.000000;//condition parameter0
+      6.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 3 unit of weapons
+      29.000000;//parameter1
+      3.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
+  2;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 7 then
+      22.000000;//condition parameter0
+      7.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 1 unit of slaves
+      31.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
+  2;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 8 then
+      22.000000;//condition parameter0
+      8.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 2 unit of slaves
+      31.000000;//parameter1
+      2.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
+	 0;//death type, 0=any death, 1=timed death, 2=killed by player        loot for killed by neutral bullet
+    begin_conditions;
+    38;//condition---------------------if 0 then
+      22.000000;//condition parameter0
+      0.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1 
+	      34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1 	  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 1 unit of drugs
+      27.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 1 then
+      22.000000;//condition parameter0
+      1.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+	  	      34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 2 unit of drugs
+      27.000000;//parameter1
+      2.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 2 then
+      22.000000;//condition parameter0
+      2.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+	  	      34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 3 unit of drugs
+      27.000000;//parameter1
+      3.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 3 then
+      22.000000;//condition parameter0
+      3.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+	  	      34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 4 unit of drugs
+      27.000000;//parameter1
+      4.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 4 then
+      22.000000;//condition parameter0
+      4.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1 
+	      34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1 	  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 1 unit of weapons
+      29.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4   
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 5 then
+      22.000000;//condition parameter0
+      5.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1 
+	      34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1 	  
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 2 unit of weapons
+      29.000000;//parameter1
+      2.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4 
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 6 then
+      22.000000;//condition parameter0
+      6.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+	  	      34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 3 unit of weapons
+      29.000000;//parameter1
+      3.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 7 then
+      22.000000;//condition parameter0
+      7.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+	  	      34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 1 unit of slaves
+      31.000000;//parameter1
+      1.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
+  0//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    38;//condition---------------------if 8 then
+      22.000000;//condition parameter0
+      8.000000;//condition parameter1 
+	  	45;//condition
+      -18.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+	  	      34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1 
+    end_conditions;
+    begin_effects;
+    3;//effect number---------------------give 2 unit of slaves
+      31.000000;//parameter1
+      2.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4  
+    end_effects;
+  end_death_block;
+  begin_hit_block;//
+  end_hit_block;
+  begin_timed_block;//
+       4000;//interval in milliseconds -----dialogue
+    begin_conditions;
+    34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1     
+    end_conditions;
+    begin_effects;
+ 	47;//effect number            play dialogue
+      6.000000;//parameter1
+      0.000000;//parameter2
+      0.000000;//parameter3
+      0.000000;//parameter4
+		 27;//effect number  ---flash
+    4.000000;//parameter1
+    130.000000;//parameter2
+    2.200000;//parameter3
+   3.400000;//parameter4 
+    end_effects;
+	300;//interval in milliseconds -----change side depending on flag
+    begin_conditions;
+    34;//condition              carrying
+      0.000000;//condition parameter0
+      0.000000;//condition parameter1
+    36;//condition              flag
+      27.000000;//condition parameter0
+      0.000000;//condition parameter1     	  
+    end_conditions;
+    begin_effects;
+ 	22;//effect number            change side
+     10.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+		300;//interval in milliseconds -----change side depending on flag
+    begin_conditions;
+    34;//condition              carrying
+      0.000000;//condition parameter0
+      0.000000;//condition parameter1
+    36;//condition              flag
+      26.000000;//condition parameter0
+      0.000000;//condition parameter1     	  
+    end_conditions;
+    begin_effects;
+ 	22;//effect number            change side
+     0.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+	  200;//interval in milliseconds -----speed up
+    begin_conditions;
+  34;//condition
+     0.000000;//condition parameter0
+      0.000000;//condition parameter1      
+    end_conditions;
+    begin_effects;
+ 1;//effect number
+     200.000000;//parameter1
+      -1.000000;//parameter2
+     2.0000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+	120000;//interval in milliseconds -----turn back to neutral
+    begin_conditions;
+    34;//condition              not carrying
+      1.000000;//condition parameter0
+      0.000000;//condition parameter1   
+    end_conditions;
+    begin_effects;
+	    15;//effect number                change into player ship
+      46.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      1.000000;//parameter4
+	  22;//effect number                change into player side
+      0.000000;//parameter1
+      -1.000000;//parameter2
+      -1.000000;//parameter3
+      1.000000;//parameter4
+    end_effects;
+	  5000;//interval in milliseconds      --------assign random value to supplies drop bar
+    begin_conditions;//  
+    end_conditions;
+    begin_effects;
+    63;//effect number
+      0.000000;//parameter1
+      12.000000;//parameter2
+      22.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  end_timed_block;
+  begin_specialties;//
+  	No ai;//description
+    5;//number
+    0.000000;//parameter0
+    0.000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+	  supplies drop counter;//description
+    0;//number
+    22.000000;//parameter0
+   -1.000000;//parameter1
+    12.000000;//parameter2
+    12.000000;//parameter3
+  health;//description
+    0;//number
+    4.000000;//parameter0
+    0.000000;//parameter1
+    500.000000;//parameter2
+    500.000000;//parameter3
+  fly;//description
+    4;//number
+    1.000000;//parameter0
+    1.000000;//parameter1
+    0.000000;//parameter2
+    1.000000;//parameter3
+  end_specialties;
+  Alien Tank (swivel);//name---------------------------------------
+  111;//identifier
+  3;//class
+  alientank.png;//texture
+  1;//draw layer
+  -1;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
+  0;//corpse item amount
+  0;//attack type, 0=shooting attack, 1=close combat
+  18;//particle to show on radar, -1=none
+  7;//primary AI tactic from AI_tactic.dat
+  7;//secondary AI tactic from AI_tactic.dat
+  3;//footstep particle from particles.dat
+  0;//die after how many seconds, 0=doesn't die
+  -1;//eat item number from items.dat, -1=nothing
+  2.400000;//creature size
+  400.000000;//creature weight (affects pushing)
+ 0.000000;//maximum movement speed
+  0.000000;//minimum movement speed
+  7.000000;//leg animation speed
+  0.200000;//turn speed
+  0.200000;//inertia level (acceleration/deceleration)
+  0;//hide when behind walls
+  51;//weapon number
+  0.000000;//weapon_x
+  28.000000;//weapon_y
+  2;//blood particle
+  1;//bars visible when player hovers mouse on top
+  1.200000;//death animation speed
+  0;//creature can move from area to another
+  2000.000000;//AI hear range
+  1000.000000;//AI see range
+  6.200000;//AI see angle
+  begin_footstep_sounds;//
+  fighter_move.wav;//      
+  end_footstep_sounds;
+  begin_hit_sounds;//
+  hit.wav;//sample name  
+  end_hit_sounds;
+  begin_die_sounds;//
+  explosion1.wav;//sample name
+  explosion2.wav;//sample name 
+  end_die_sounds;
+  begin_eat_block;//
+  end_eat_block;
+  begin_death_block;//
+    2;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+    end_conditions;
+    begin_effects;
+    44;//effect number                 add PP
+      10.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+	0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by tank cannon       
+    begin_conditions;
+	45;//condition
+      40.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      5.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by fighter cannon     
+    begin_conditions;
+	45;//condition
+      88.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      5.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by boat MG   
+    begin_conditions;
+	45;//condition
+      69.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      5.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by pillbox/tank flamethrower
+    begin_conditions;
+	45;//condition
+      29.000000;//condition parameter0
+      5000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      5.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by player turret MG   
+    begin_conditions;
+	45;//condition
+      107.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      5.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed by rocket     
+    begin_conditions;
+	45;//condition
+      36.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      10.000000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed airstrike 1     
+    begin_conditions;
+	45;//condition
+      61.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      5.00000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed airstrike 2  
+    begin_conditions;
+	45;//condition
+      62.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      5.00000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+0;//death type, 0=any death, 1=timed death, 2=killed by player      killed knife
+    begin_conditions;
+	45;//condition
+      34.000000;//condition parameter0
+      1000.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    44;//effect number
+      10.00000;//parameter1
+      1.000000;//parameter2
+      9.000000;//parameter3
+      0.000000;//parameter4    
+    end_effects;
+	0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+	15;//condition              player nearer
+    800.000000;//condition parameter0
+    0.000000;//condition parameter1      
+    end_conditions;
+    begin_effects;
+  	36;//effect number           shake
+    6.000000;//parameter1
+    600.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4  
+    end_effects;
+  end_death_block;
+  begin_hit_block;//
+  end_hit_block;
+  begin_timed_block;//
+	  1000;//interval in milliseconds -----revert to moving tank
+    begin_conditions;
+	    15;//condition                              player further
+      1300.000000;//condition parameter0
+      1.000000;//condition parameter1     
+    end_conditions;
+    begin_effects;
+   15;//effect number
+      37.000000;//parameter1
+      -1.000000;//parameter2
+    -1.000000;//parameter3
+    1.000000;//parameter4
+    end_effects;
+  end_timed_block;
+  begin_specialties;//
+  health;//description
+    0;//number
+    4.000000;//parameter0
+    0.000000;//parameter1
+    1100.000000;//parameter2
+    1100.000000;//parameter3
+resistance to projectile 1;//description
+    1;//number
+    4.000000;//parameter0
+    0.900000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+resistance to projectile 2;//description
+    1;//number
+    5.000000;//parameter0
+    0.900000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+resistance to fire;//description
+    1;//number
+    7.000000;//parameter0
+    0.2000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+resistance to sniper;//description
+    1;//number
+    17.000000;//parameter0
+    0.5000000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3	
+  end_specialties;
+  Tank (swivel);//name---------------------------------------
+  112;//identifier
+  4;//class
+  tank.png;//texture
+  1;//draw layer
+  -1;//corpse item number in items.dat, -1=nothing, -2=whole corpse vanishes when dead
+  0;//corpse item amount
+  0;//attack type, 0=shooting attack, 1=close combat
+  19;//particle to show on radar, -1=none
+ 7;//primary AI tactic from AI_tactic.dat
+ 7;//secondary AI tactic from AI_tactic.dat
+  3;//footstep particle from particles.dat
+  0;//die after how many seconds, 0=doesn't die
+  -1;//eat item number from items.dat, -1=nothing
+  2.400000;//creature size
+  400.000000;//creature weight (affects pushing)
+  0.000000;//maximum movement speed
+  0.000000;//minimum movement speed
+  9.000000;//leg animation speed
+  0.200000;//turn speed
+  0.200000;//inertia level (acceleration/deceleration)
+  0;//hide when behind walls
+  100;//weapon number
+  0.000000;//weapon_x
+  28.000000;//weapon_y
+  2;//blood particle
+  1;//bars visible when player hovers mouse on top
+  1.200000;//death animation speed
+  0;//creature can move from area to another
+  1500.000000;//AI hear range
+  750.000000;//AI see range
+  4.000000;//AI see angle
+  begin_footstep_sounds;//
+  fighter_move.wav;//  
+fighter_move.wav;// 
+fighter_move.wav;// 
+fighter_move.wav;//     
+  end_footstep_sounds;
+  begin_hit_sounds;//
+  hit.wav;//sample name  
+  end_hit_sounds;
+  begin_die_sounds;//
+  explosion1.wav;//sample name
+  explosion2.wav;//sample name 
+  end_die_sounds;
+  begin_eat_block;//
+  end_eat_block;
+  begin_death_block;//
+  0;//death type, 0=any death, 1=timed death, 2=killed by player
+    begin_conditions;
+	15;//condition              player nearer
+    800.000000;//condition parameter0
+    0.000000;//condition parameter1    
+    end_conditions;
+    begin_effects;
+ 36;//effect number           shake
+    6.000000;//parameter1
+    600.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4  
+    end_effects;
+  end_death_block;
+  begin_hit_block;//
+  end_hit_block;
+  begin_timed_block;//
+	  1000;//interval in milliseconds -----revert to moving tank
+    begin_conditions;
+	    15;//condition                              player further
+      1300.000000;//condition parameter0
+      1.000000;//condition parameter1     
+    end_conditions;
+    begin_effects;
+   15;//effect number
+      50.000000;//parameter1
+      -1.000000;//parameter2
+    -1.000000;//parameter3
+    1.000000;//parameter4
+    end_effects;  
+		60;//interval in milliseconds      --------flamethrower
+    begin_conditions;
+    14;//condition
+      -3.000000;//condition parameter0
+     50.000000;//condition parameter1  
+    end_conditions;
+    begin_effects;
+    24;//effect number
+      72.000000;//parameter1
+      1.000000;//parameter2
+      1.000000;//parameter3
+      0.000000;//parameter4
+    end_effects;
+  end_timed_block;
+  begin_specialties;//
+  health;//description
+    0;//number
+    4.000000;//parameter0
+    0.000000;//parameter1
+    1100.000000;//parameter2
+    1100.000000;//parameter3
+resistance to alien fighter;//description
+    1;//number
+   0.000000;//parameter0
+    0.300000;//parameter1
+    0.000000;//parameter2
+    0.000000;//parameter3
+  end_specialties;
  end_of_file;
+ 
+
 
 Classes: 0= NA 1=Alien ships 2=? 3=Alien soldiers 4=All Allied 5=Asteroids 6=neutral ships 7=player fighters 8=player turrets 9=destroyers
