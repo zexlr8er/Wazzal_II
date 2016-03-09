@@ -1947,7 +1947,7 @@ Electrobinoculars;//name---------------------------------------
   begin_effects_block;
   Short range activated;//event text
     none;//event failure text
-    use.wav;//sound, none for nothing
+    scope.wav;//sound, none for nothing
     1;//vanishes after event, 0=no, 1=yes
     U;//use key
     O;//quick key
@@ -1988,7 +1988,7 @@ Electrobinoculars (SR);//name---------------------------------------
   begin_effects_block;
   Medium range activated;//event text
     none;//event failure text
-    use.wav;//sound, none for nothing
+    scope.wav;//sound, none for nothing
     1;//vanishes after event, 0=no, 1=yes
     U;//use ke
     O//quick key;//use ke
@@ -2029,7 +2029,7 @@ Electrobinoculars (MR);//name---------------------------------------
   begin_effects_block;
   Long range activated;//event text
     none;//event failure text
-    use.wav;//sound, none for nothing
+    scope.wav;//sound, none for nothing
     1;//vanishes after event, 0=no, 1=yes
     U;//use key
     O;//quick key
@@ -2070,7 +2070,7 @@ Electrobinoculars (LR);//name---------------------------------------
   begin_effects_block;
   Binoculars deactivated;//event text
     none;//event failure text
-    use.wav;//sound, none for nothing
+    scope.wav;//sound, none for nothing
     1;//vanishes after event, 0=no, 1=yes
     U;//use key
     O;//quick key
@@ -8822,11 +8822,11 @@ Use to construct a ZEX Industries MXII Energy Pool, capable of recharging your p
   end_effects_block;
   begin_combinations;
   end_combinations;
-  25000: Anti-aircraft launcher;//name---------------------------------------
+  22000: Anti-aircraft launcher;//name---------------------------------------
  213;//identifier
   0;//item class
   0.000000;//weight
-   This state-of-the-art anti-aircraft rocket launcher can destroy Alien fighters flying overhead in a single shot! \ \ Price: 25000 credits;//short description
+   This state-of-the-art anti-aircraft rocket launcher can destroy Alien fighters flying overhead in a single shot! \ \ Price: 22000 credits;//short description
   none;//first pick up text
   0.300000;//size on map
   0;//show on radar 0=does not show, 1=show on scanner, 2=show even without scanner
@@ -8848,11 +8848,11 @@ Use to construct a ZEX Industries MXII Energy Pool, capable of recharging your p
     begin_conditions;
     3;//condition
       13.000000;//condition parameter0
-      25000.000000;//condition parameter1      
+      22000.000000;//condition parameter1      
     end_conditions;
     begin_effects;
     4;//effect number
-      -25000.000000;//parameter1
+      -22000.000000;//parameter1
       1.000000;//parameter2
       13.000000;//parameter3
       0.000000;//parameter4     
