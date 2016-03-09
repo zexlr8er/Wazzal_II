@@ -120,6 +120,30 @@ Wolf IV (Confederacy);//name------------------------------
     0.000000;//weapon_y
   end_weapon_frames;
   begin_specialties;
+Weapon charge;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    33.000000;//parameter0
+    0.000000;//parameter1
+    100.000000;//parameter2
+   0.000000;//parameter3
+   Weapon charge value storage;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    34.000000;//parameter0
+    -1000.000000;//parameter1
+    0.000000;//parameter2
+   0.000000;//parameter3
+      Weapon charge max;//description
+    5;//specialty 
+    0;//difficulty level
+    none;//message
+    35.000000;//parameter0
+    0.000000;//parameter1
+    100.000000;//parameter2
+   0.000000;//parameter3
 Transports remaining;//description
     5;//specialty 
     0;//difficulty level

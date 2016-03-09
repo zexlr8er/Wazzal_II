@@ -879,6 +879,9 @@ Sound (reload);//name-----------------------------------------------------------
       6;//condition                        race captain
     1.000000;//condition parameter0
     0.000000;//condition parameter1 
+	11;//condition                     railgun not wielded
+    228.000000;//condition parameter0
+    1.000000;//condition parameter1 
   5;//condition                        reload bar is smaller than 1
     10.000000;//condition parameter0
     1.000000;//condition parameter1    
@@ -2204,6 +2207,11 @@ Player reaches vice admiral, 1200 Promotion;//name------------------------------
     1.000000;//parameter2
     2.000000;//parameter3
     0.000000;//parameter4
+				  16;//effect number                 
+    230.000000;//parameter1         Give store Inventory railgun
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
   end_effects;
 Player reaches admiral 1500 Promotion;//name-----------------------------------------------------------------
   51;//identifier
@@ -2262,6 +2270,11 @@ Player reaches admiral 1500 Promotion;//name------------------------------------
     1.000000;//parameter2
     0.000000;//parameter3
     0.000000;//parameter4 
+					  16;//effect number                 
+    231.000000;//parameter1         Give store Inventory antimatter cannon
+    1.000000;//parameter2
+    2.000000;//parameter3
+    0.000000;//parameter4
   end_effects;
 Player reaches admiral of the fleet, 2000 Promotion;//name-----------------------------------------------------------------
   52;//identifier
@@ -5629,5 +5642,141 @@ none;//message
   begin_conditions;  
   end_conditions;
   begin_effects;
+  end_effects;
+  Sound (reload2);//name-----------------------------------------------------------------
+ 169;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  700;//run every n milliseconds
+  Reloading!;//message
+  0;//message type, 0=quick message, 1=journal
+  reload2.wav;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+      6;//condition                        race captain
+    1.000000;//condition parameter0
+    0.000000;//condition parameter1 
+	11;//condition                     railgun wielded
+    228.000000;//condition parameter0
+    0.000000;//condition parameter1 
+  5;//condition                        reload bar is smaller than 1
+    10.000000;//condition parameter0
+    1.000000;//condition parameter1    
+  end_conditions;
+  begin_effects;
+  end_effects;
+Fire weapon when charged;//name-----------------------------------------------------------------
+ 170;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  100;//run every n milliseconds
+  none;//message
+  0;//message type, 0=quick message, 1=journal
+  biglaser.wav;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+ 37;//condition                        
+    0.000000;//condition parameter0
+    1.000000;//condition parameter1
+	24;//condition                 bar over        
+    33.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+      28;//effect number             set storage bar
+   34.0000;//parameter1
+   33.000000;//parameter2
+   -3.0000;//parameter3
+    0.000000;//parameter4
+  17;//effect number                 set bar to zero
+   0.0000;//parameter1
+   0.000000;//parameter2
+    33.000000;//parameter3
+    0.000000;//parameter4
+  17;//effect number                 set bar to zero
+   0.0000;//parameter1
+   0.000000;//parameter2
+    35.000000;//parameter3
+    0.000000;//parameter4
+	24;//effect number               fire weapon
+   122.0000;//parameter1
+   1.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4
+	27;//effect number
+    8.000000;//parameter1
+    50.000000;//parameter2
+    2.00000;//parameter3
+    3.00000;//parameter4
+	27;//effect number
+    8.000000;//parameter1
+    50.000000;//parameter2
+    8.600000;//parameter3
+    10.00000;//parameter4
+	36;//effect number     ---shake
+    30.000000;//parameter1
+    300.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4 
+  end_effects;
+ Reset storage bar;//name-----------------------------------------------------------------
+ 171;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  200;//run every n milliseconds
+ none;//message
+  0;//message type, 0=quick message, 1=journal
+  none;//sound, none for nothing
+  1;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  	24;//condition                 bar over        
+    33.000000;//condition parameter0
+    1.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+	44;//effect number                 reset bar
+   1000.0000;//parameter1
+   1.000000;//parameter2
+    34.000000;//parameter3
+    0.000000;//parameter4
+	  17;//effect number                 set bar to zero
+   0.0000;//parameter1
+   0.000000;//parameter2
+    35.000000;//parameter3
+    0.000000;//parameter4
+  end_effects;
+  Show max charge bar;//name-----------------------------------------------------------------
+ 172;//identifier
+  1;//run without calling (set to 0 if you use the script for example as a wield script)
+  0;//call position, 0=player location, 1=mouse location
+  0;//calling creature 0=player, 1=creature nearest to the mouse, 2=player controlled creature
+  200;//run every n milliseconds
+  Max charge!;//message
+  0;//message type, 0=quick message, 1=journal
+  scifi2.wav;//sound, none for nothing
+  0;//delay script for n seconds after conditions met
+  0;//disabled after first use, 0=no, 1=yes
+  begin_conditions;
+  	24;//condition                 bar over        
+    33.000000;//condition parameter0
+    100.000000;//condition parameter1
+  end_conditions;
+  begin_effects;
+	44;//effect number                 set bar to 100
+   100.0000;//parameter1
+   1.000000;//parameter2
+    35.000000;//parameter3
+    0.000000;//parameter4
+		36;//effect number     ---shake
+    10.000000;//parameter1
+    200.000000;//parameter2
+    0.000000;//parameter3
+    0.000000;//parameter4 
   end_effects;
   end_of_file;
