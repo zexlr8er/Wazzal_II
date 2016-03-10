@@ -6151,7 +6151,7 @@ Antimatter cannon;//name---------------------------------------
     0.000000;//parameter4    
 	  27;//effect number
     8.000000;//parameter1
-    80.000000;//parameter2
+    50.000000;//parameter2
     0.500000;//parameter3
     1.300000;//parameter4
 	44;//effect number                  add to bar
@@ -6176,7 +6176,7 @@ Antimatter cannon;//name---------------------------------------
   2.000000;//bullet size
   0.000000;//spread
   2.20000;//bullet speed
-  360.000000;//time until bullet disappears
+  340.000000;//time until bullet disappears
   230;//fire rate
   1;//trace 0=no trace, 1=blue beam, 2=bullet trace, 3=red beam, 4=green beam, 5=yellow beam
   -1;//hit visual effect colour, -1=nothing 0=?, 1=red, 2=green, 3=blue

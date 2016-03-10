@@ -5690,7 +5690,7 @@ Fire weapon when charged;//name-------------------------------------------------
       28;//effect number             set storage bar
    34.0000;//parameter1
    33.000000;//parameter2
-   -3.0000;//parameter3
+   -2.7000;//parameter3
     0.000000;//parameter4
   17;//effect number                 set bar to zero
    0.0000;//parameter1
@@ -5732,7 +5732,7 @@ Fire weapon when charged;//name-------------------------------------------------
  none;//message
   0;//message type, 0=quick message, 1=journal
   none;//sound, none for nothing
-  1;//delay script for n seconds after conditions met
+  0.5;//delay script for n seconds after conditions met
   0;//disabled after first use, 0=no, 1=yes
   begin_conditions;
   	24;//condition                 bar over        
@@ -5778,5 +5778,15 @@ Fire weapon when charged;//name-------------------------------------------------
     200.000000;//parameter2
     0.000000;//parameter3
     0.000000;//parameter4 
+		  27;//effect number
+    4.000000;//parameter1
+    50.000000;//parameter2
+    0.800000;//parameter3
+    1.300000;//parameter4
+			  27;//effect number
+    4.000000;//parameter1
+    50.000000;//parameter2
+    0.800000;//parameter3
+    1.300000;//parameter4
   end_effects;
   end_of_file;
