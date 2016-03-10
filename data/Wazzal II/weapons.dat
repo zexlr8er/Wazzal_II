@@ -6134,7 +6134,7 @@ Antimatter cannon;//name---------------------------------------
   0.0120000;//push shooter back
   scifi1.wav;//fire sound
   none;//hit sound
-  1.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  0.000000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
   begin_wield_conditions;
   3;//condition
     1.000000;//condition parameter0
@@ -6186,7 +6186,7 @@ Antimatter cannon;//name---------------------------------------
   0.000000;//push shooter back
   sound9.wav;//fire sound
   hit1.wav;//hit sound
-  0.500000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
+  2.00000;//AI hear volume, the amount of anger the AI gets when it hears the weapon
   begin_wield_conditions;
   end_wield_conditions;
   begin_fire_effects;
